@@ -1,0 +1,27 @@
+#define item_xx(a,b) class _xx_##a {name=a; count=b;}
+item_xx(ACE_bloodIV,5);
+item_xx(ACE_bloodIV_250,5);
+item_xx(ACE_bloodIV_500,5);
+item_xx(ACE_morphine,10);
+item_xx(ACE_epinephrine,10);
+item_xx(ACE_adenosine,10);
+item_xx(ACE_splint,10);
+item_xx(ACE_tourniquet,10);
+item_xx(ACE_packingBandage,30);
+item_xx(ACE_elasticBandage,30);
+item_xx(ACE_fieldDressing,30);
+item_xx(OPTRE_36Rnd_95x40_Mag_HPSAP,20);
+item_xx(HOW_15Rnd_762x51_338_Magnum_Mag,8);
+item_xx(OPTRE_60Rnd_5x23mm_Mag_FMJ,8);
+item_xx(ACE_5Rnd_127x99_AMAX_Mag,6);
+item_xx(OPTRE_M48_PAW,1);
+item_xx(OPTRE_1Rnd_50x137_THERMO,2);
+item_xx(OPTRE_1Rnd_50x137_PEN,2);
+item_xx(OPTRE_M9_Frag,5);
+item_xx(OPTRE_M2_Smoke,5);
+item_xx(OPTRE_M2_Smoke_Red,5);
+item_xx(OPTRE_M2_Smoke_Blue,5);
+item_xx(OPTRE_M2_Smoke_Purple,5);
+item_xx(ACE_wirecutter,1);
+item_xx(ToolKit,1);
+item_xx(ACE_IR_Strobe_Item,8);
