@@ -11,9 +11,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -127,9 +127,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -243,9 +243,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -359,9 +359,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_upper_red.paa"
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_red.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -475,9 +475,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -591,9 +591,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -707,9 +707,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_upper_corps.paa"
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_corps.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -823,9 +823,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\barkley_armor_lead.paa"
+			"105th_Armor\data\Bravo Company Chests\barkley_armor_lead.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -921,9 +921,9 @@
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_lower.paa",
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\addons\data\Bravo Company Chests\odst_tempest_upper.paa"
+			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper.paa"
 		};
 		class ItemInfo: VestItem
 		{
