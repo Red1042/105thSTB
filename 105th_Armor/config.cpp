@@ -72,7 +72,7 @@ class CfgWeapons
 		displayName="[105th] Beret";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\addons\data\105th_Beret_CO.paa"
+			"105th_Armor\data\105th_Beret_CO.paa"
 		};
 	};
 	
@@ -98,8 +98,8 @@ class CfgVehicles
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\addons\data\Tempest_BDU.paa",
-			"105th_Armor\addons\data\Tempest_BDU.paa"
+			"105th_Armor\data\Tempest_BDU.paa",
+			"105th_Armor\data\Tempest_BDU.paa"
 		};
 		uniformclass="r105th_ODST";
 	};

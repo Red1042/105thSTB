@@ -1,11 +1,12 @@
 //Changelog
 // Updated pathin 25/10/2020
 // Updated Supply from 100 to 250 27/10/2020
+// Replaced odst_tempest_upper with new variants. 01/11/2020
 //
 //Chests
 	class ODST_Light: OPTRE_UNSC_M52D_Armor_Light
 	{
-		author="Hartley";
+		author="Barkley, Howard";
 		displayName="[ODST] M52D Light";
 		hiddenSelectionsTextures[]=
 		{
@@ -13,7 +14,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_personnel_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -121,7 +122,7 @@
 	};
 	class ODST_Sniper: OPTRE_UNSC_M52D_Armor_Sniper
 	{
-		author="Hartley";
+		author="Barkley, Howard";
 		displayName="[ODST] M52D Sniper";
 		hiddenSelectionsTextures[]=
 		{
@@ -129,7 +130,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_personnel_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -237,7 +238,7 @@
 	};
 	class ODST_Demo: OPTRE_UNSC_M52D_Armor_Demolitions
 	{
-		author="Hartley";
+		author="Barkley, Howard";
 		displayName="[ODST] M52D Demo";
 		hiddenSelectionsTextures[]=
 		{
@@ -245,7 +246,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_personnel_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -353,7 +354,7 @@
 	};
 	class ODST_Rifleman_Red: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
-		author="Hartley";
+		author="Barkley, Howard";
 		displayName="[ODST] M52D Lead";
 		hiddenSelectionsTextures[]=
 		{
@@ -361,7 +362,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_red.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_teamleader_upper.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -469,7 +470,7 @@
 	};
 	class ODST_Rifleman: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
-		author="Hartley";
+		author="Barkley, Howard";
 		displayName="[ODST] M52D Rifleman";
 		hiddenSelectionsTextures[]=
 		{
@@ -477,7 +478,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_personnel_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -709,7 +710,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_corps.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_personnel_corps_upper.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -923,7 +924,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_personnel_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
