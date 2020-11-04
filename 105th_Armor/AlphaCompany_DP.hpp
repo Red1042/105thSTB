@@ -231,3 +231,23 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class ACOMP_NCO_JBettez_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="Hannibal";
+		displayName="[105th] ECH252 Helmet (Bettez)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\JBet_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class ACOMP_Legion21_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="Hannibal";
+		displayName="[105th] ECH252 Helmet (Legion 2-1)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\ACo_Legion21_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};

@@ -209,3 +209,13 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class BCOMP_CSO_JPedro_ODST_dp: VES_CH252D_dp
+	{
+		author="Barkley, Howard";
+		displayName="[ODST] CH252D Helmet (Pedro)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\JPed_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};

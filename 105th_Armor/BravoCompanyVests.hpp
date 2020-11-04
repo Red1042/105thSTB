@@ -354,7 +354,7 @@
 	};
 	class ODST_Rifleman_Red: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] M52D Lead";
 		hiddenSelectionsTextures[]=
 		{
@@ -586,7 +586,7 @@
 	};
 	class ODST_Scout: OPTRE_UNSC_M52D_Armor_Scout
 	{
-		author="Hartley";
+		author="Barkley";
 		displayName="[ODST] M52D Scout";
 		hiddenSelectionsTextures[]=
 		{
@@ -594,7 +594,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\odst_tempest_upper_white.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_personnel_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -818,15 +818,15 @@
 	};
 	class ODST_Rifleman_Test: OPTRE_UNSC_M52D_Armor
 	{
-		author="Hartley";
-		displayName="[ODST] M52D Corpsman (Barkley)";
+		author="Barkley";
+		displayName="[ODST] M52D Lead (Barkley)";
 		hiddenSelectionsTextures[]=
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\barkley_armor_lead.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_teamleader_upper.paa"
 		};
 		class ItemInfo: VestItem
 		{

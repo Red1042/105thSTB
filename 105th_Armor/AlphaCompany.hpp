@@ -153,7 +153,7 @@
 	class ACOMP_SMisaria_MAR:VES_CH252_MAR_Vacuum
 	{
 		author="Sturm";
-		displayName="[105th]Marine Helmet (Misaria)";
+		displayName="[105th] ECH252 Helmet (Misaria)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\SMis_CH252_MAR_CO.paa"
@@ -227,6 +227,26 @@
 		{
 			"105th_Armor\data\Alpha Company Helmets\GWel_CH252_MAR_CAPT.paa",
 			"V_FZ_Armor\Data\Helmets\GWel_CH252_BLU_V_CO.paa"
+		};
+	};
+	class ACOMP_NCO_JBettez_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="Hannibal";
+		displayName="[105th] ECH252 Helmet (Bettez)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\JBet_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class ACOMP_Legion21_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="Hannibal";
+		displayName="[105th] ECH252 Helmet (Legion 2-1)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\ACo_Legion21_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
 		};
 	};
 	
