@@ -252,7 +252,7 @@
 	class ACOMP_NCO_ALong_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="Long";
-		displayName="[105th] CH252 Helmet (Long)";
+		displayName="[105th] ECH252 Helmet (Long)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\Alon_CH252_MAR_CO.paa",
@@ -262,7 +262,7 @@
 	class ACOMP_NCO_DMur_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="Barkley";
-		displayName="[105th] CH252 Helmet (Murk)";
+		displayName="[105th] ECH252 Helmet (Murk)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\DMur_CH252_MAR_CO.paa",
