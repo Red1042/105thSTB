@@ -181,7 +181,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 	};
 	class BCOMP_CSO_CDubbo_ODST_dp: VES_CH252D_dp
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] CH252D Helmet (Dubbo)";
 		hiddenSelectionsTextures[]=
 		{
@@ -191,7 +191,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 	};
 	class BCOMP_CSO_CMcDaniel_ODST_dp: VES_CH252D_dp
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] CH252D Helmet (McDaniel)";
 		hiddenSelectionsTextures[]=
 		{
@@ -201,7 +201,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 	};
 	class BCOMP_CSO_NOKillen_ODST_dp: VES_CH252D_dp
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] CH252D Helmet (O'Killen)";
 		hiddenSelectionsTextures[]=
 		{
@@ -211,11 +211,31 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 	};
 	class BCOMP_CSO_JPedro_ODST_dp: VES_CH252D_dp
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] CH252D Helmet (Pedro)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Bravo Company Helmets\JPed_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_WColeman_ODST_dp: VES_CH252D_dp
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Coleman)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\WCol_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_TSwoner_ODST_dp: VES_CH252D_dp
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Swoner)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\TSwo_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};

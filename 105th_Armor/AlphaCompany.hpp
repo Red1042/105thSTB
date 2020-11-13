@@ -6,8 +6,8 @@
 // Added new helmets (Bolton, McDaniel, Howard) 25/10/2020
 // Updated Bratwurst Helmet 25/10/2020
 // Removed Hammonds Helmet 25/10/2020
-//
-//
+// Added Murks updated helmet 11/13/2020
+// 
 //Marine Polarized ECH Helmets
 	class ACOMP_CO_MAR: VES_CH252_MAR_Vacuum
 	{
@@ -249,7 +249,26 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
 		};
 	};
-	
+	class ACOMP_NCO_ALong_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="Long";
+		displayName="[105th] CH252 Helmet (Long)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\Alon_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class ACOMP_NCO_DMur_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="Barkley";
+		displayName="[105th] CH252 Helmet (Murk)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\DMur_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
 
 
 	// OPEN HELMETS
@@ -337,3 +356,4 @@
 			"105th_Armor\data\Alpha Company Helmets\PKro_CH252_MAR_CO.paa"
 		};
 	};
+	

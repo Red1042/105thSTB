@@ -75,7 +75,35 @@ class CfgWeapons
 			"105th_Armor\data\105th_Beret_CO.paa"
 		};
 	};
-	
+	class 105th_ODST_STB_Beret: H_Beret_Colonel
+	{
+		author="Barkley";
+		displayName="[ODST] Beret";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\bCoBeret.paa"
+		};
+	};
+	class VC497_Helmet_CO: VES_CH252_MAR_Vacuum
+	{
+		author="Barkley";
+		displayName="[VC497] ECH252 Helmet (Nungester)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\VC497\ENun_CH252_URB_Blk.paa", 
+			"105th_Armor\data\GWel_CH252_BLU_V_CO.paa"
+		};
+	};
+	class VC497_Helmet_CO_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="Barkley";
+		displayName="[VC497] ECH252 Helmet (Nungester)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\VC497\ENun_CH252_URB_Blk.paa", 
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
 	class r105_uniform_ODST: VES_BDU_Evolved_Slim
 	{
 		author="Kreah Leiser, Vespade, Hartley";
@@ -109,6 +137,22 @@ class CfgVehicles
 		model="\A3\weapons_f\empty";
 		hiddenSelections[]={};
 	};
+
+
+
+	class OPTRE_CTF_Flag_Base;
+    class BCOMP_CTF_Flag_Base: OPTRE_CTF_Flag_Base
+  {
+		dlc="105th";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="HOW_EdCat_105th";
+        editorSubcategory="HOW_105th_EdSubCat_Materials";
+		displayName="[ODST] CTF Flag";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"105th_Armor\data\bCoFlagArmaTest.paa"};
+  };
+
 };
 class cfgMods
 {

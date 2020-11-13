@@ -2,7 +2,7 @@
 //Changelog 
 // Renamed all Bravo Company personnel helmets to correct naming convention as JDoe_CH252D_DEF_CO
 // Updated pathing 25/10/2020
-//
+// Added Swoner and Coleman, updated Canley and Hannibal's helmets.
 //
 // ODST Polarized Helmets
 	class BCOMP_DEMO_AVirus_ODST: VES_CH252D
@@ -181,7 +181,7 @@
 	};
 	class BCOMP_CSO_CDubbo_ODST: VES_CH252D
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] CH252D Helmet (Dubbo)";
 		hiddenSelectionsTextures[]=
 		{
@@ -191,7 +191,7 @@
 	};
 	class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] CH252D Helmet (McDaniel)";
 		hiddenSelectionsTextures[]=
 		{
@@ -201,7 +201,7 @@
 	};
 	class BCOMP_CSO_NOKillen_ODST: VES_CH252D
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] CH252D Helmet (O'Killen)";
 		hiddenSelectionsTextures[]=
 		{
@@ -211,11 +211,31 @@
 	};
 	class BCOMP_CSO_JPedro_ODST: VES_CH252D
 	{
-		author="Barkley, Howard";
+		author="Barkley";
 		displayName="[ODST] CH252D Helmet (Pedro)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Bravo Company Helmets\JPed_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_WColeman_ODST: VES_CH252D
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Coleman)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\WCol_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_TSwoner_ODST: VES_CH252D
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Swoner)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\TSwo_CH252D_DEF_CO.paa",
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
