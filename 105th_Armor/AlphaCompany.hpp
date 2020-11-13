@@ -226,7 +226,7 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\GWel_CH252_MAR_CAPT.paa",
-			"V_FZ_Armor\Data\Helmets\GWel_CH252_BLU_V_CO.paa"
+			"105th_Armor\data\GWel_CH252_BLU_V_CO.paa"
 		};
 	};
 	class ACOMP_NCO_JBettez_MAR: VES_CH252_MAR_Vacuum

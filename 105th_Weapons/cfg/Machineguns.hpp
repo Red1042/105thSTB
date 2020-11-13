@@ -6,7 +6,7 @@
 				displayName					= "[105th] M73 Squad Automatic Weapon";
 				baseWeapon 					= "v105_HOW_M73SAW";
 				descriptionShort="UNSC Squad Automatic Weapon";
-				recoil="recoil_zafir";
+				recoil="recoil_mk200";
 				magazines[]=
 				{
 					"v105_HOW_150Rnd_762x51_Box",
