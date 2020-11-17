@@ -22,7 +22,7 @@
 				};
 				class FullAutoSlow: FullAuto
 					{
-						reloadTime=0.07;
+						reloadTime=0.1;
 						dispersion=0.000055000001;
 						
 						/*sounds[]=
@@ -34,7 +34,7 @@
 					};
 					class FullAutoFast: FullAutoSlow
 					{
-						reloadTime=0.05;
+						reloadTime=0.06;
 						dispersion=0.000055000001;	
 						textureType="fastAuto";
 						
