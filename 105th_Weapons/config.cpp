@@ -13,7 +13,8 @@ class CfgPatches
 		weapons[]=
 		{
 			"v105_HOW_M73SAW",
-			"v105_HOW_M247SSW"
+			"v105_HOW_M247SSW",
+			"v105_408_SRSC"
 		};
 		magazines[]=
 		{			//M247
@@ -68,7 +69,15 @@ class CfgMagazines
 	#include "cfgmagazines.hpp"
 };
 class Single;
+class FullAuto;
+class WeaponSlotsInfo;
+class MuzzleSlot;
+class CowsSlot;
+class PointerSlot;
+class Mode_FullAuto;
+
 class OPTRE_M392_DMR;
+class OPTRE_SRS99C;
 class OPTRE_MA5C;
 class OPTRE_MA5CGL;
 class OPTRE_MA5K;
@@ -79,5 +88,6 @@ class CfgWeapons
 		#include "cfg\DMR.hpp"
 		#include "cfg\MA5.hpp"
 		#include "cfg\Machineguns.hpp"
+		#include "cfg\SRS.hpp"
 		
 };

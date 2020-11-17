@@ -25,7 +25,6 @@ class OPTRE_M392_DMR: OPTRE_M392_DMR
 					"OPTRE_15Rnd_762x51_Mag_FS",
 					"OPTRE_15Rnd_762x51_Mag_FST"
 				};
-			};
 			magazineWell[] = {};
 				
 			modes[] = 
@@ -56,3 +55,4 @@ class OPTRE_M392_DMR: OPTRE_M392_DMR
 				soundEnd[] 				= {"sound",1};
 				textureType 			= "fullAuto";
 			};
+		};
