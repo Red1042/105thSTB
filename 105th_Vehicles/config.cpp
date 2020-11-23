@@ -65,6 +65,7 @@ class CfgPatches
 		"HOW_AV14_CAS",
 		"HOW_AV14_CAS_Keen", 
 		"HOW_AV14B_CAS",
+		"HOW_AV14B_EJECSEAT",
 		//SDV
 		"v105_SDV_ODST",
 		// Supply Pods
@@ -210,6 +211,7 @@ class CfgPatches
 			"v105_Zuni_P_8rnd_M",
 			"v105_Zuni_Mk32_P_8rnd_M",
 			"v105_LZuni_P_8rnd_M",
+			
 			"v105_ALQ99_P_1rnd_M",
 
 			"v105_GBU53_P_4rnd_M",
@@ -229,6 +231,8 @@ class CfgPatches
 			"v105_FIR_Mk82_GP_Navy_P_1rnd_M",
 			"v105_FIR_Mk82_GP_Navy_prox_P_1rnd_M",
 			"v105_FIR_Mk82_GP_Navy_P_2rnd_M",
+			"v105_FIR_Mk82_GP_P_3rnd_M",
+			"v105_FIR_Mk82_GP_P_6rnd_M",
 			"v105_FIR_Mk83_GP_Navy_P_1rnd_M",
 			"v105_FIR_Mk83_GP_Navy_P_2rnd_M",
 			"v105_FIR_Mk84_GP_Navy_P_1rnd_M",
@@ -254,6 +258,7 @@ class CfgPatches
 		};
 	};
 };*/
+class UserActions;
 class Components;
 class ViewGunner;
 class ViewOptics;
@@ -305,6 +310,7 @@ class SensorTemplateLaser;
 class SensorTemplateNV;
 class SensorTemplateDataLink;
 class DefaultEventHandlers;
+class Eventhandlers;
 class WeaponFireGun;
 class WeaponCloudsGun;
 class WeaponFireMGun;
@@ -395,6 +401,8 @@ class cfgVehicles
     class VES_D77HTCI;
     class VES_D77HTCIS;
 
+	class Plane_CAS_01_dynamicLoadout_base_F;
+
 				
 	
 	
@@ -408,7 +416,8 @@ class cfgVehicles
 	#include "Warthog_Base.hpp"
 	#include "Fossa_Base.hpp"
 	#include "Falcon_Base.hpp"
-	#include "Pelican_Base.hpp"	
+	#include "Pelican_Base.hpp"
+	#include "Claymore_Base.hpp"	
 	#include "SupplyCrates.hpp"
 	#include "Fortifications.hpp"
 	

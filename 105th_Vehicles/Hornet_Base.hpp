@@ -12,7 +12,7 @@ class HOW_AV14_Base: VES_AV14
 		editorSubcategory="HOW_105th_EdSubCat_Rotary";
 		crew="VES_Rifleman_MA5B_ODST";
 		mainRotorSpeed=5;
-		backRotorSpeed=4;
+		backRotorSpeed=6;
 		tf_hasLRradio=1;
 		tf_isolatedAmount=.4;
 		tf_range=12000;
@@ -301,3 +301,6 @@ class HOW_AV14_Base: VES_AV14
 		class TransportBackpacks{};
 		
 	};
+	
+
+	
