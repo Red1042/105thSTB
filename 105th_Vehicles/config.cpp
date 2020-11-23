@@ -68,6 +68,9 @@ class CfgPatches
 		"HOW_AV14B_EJECSEAT",
 		//SDV
 		"v105_SDV_ODST",
+		//STAG UGV
+		"v105_UGV_STAG",
+		"v105_UGV_STAG_ATGM",
 		// Supply Pods
 		"HOW_105th_SupplyPod_MarineAmmo",
 		"HOW_105th_SupplyPod_MarineMED",
@@ -402,7 +405,13 @@ class cfgVehicles
     class VES_D77HTCIS;
 
 	class Plane_CAS_01_dynamicLoadout_base_F;
-
+	class UGV_01_rcws_base_F
+	{
+		class Turrets
+		{
+			class MainTurret;
+		};
+	};
 				
 	
 	
@@ -418,6 +427,7 @@ class cfgVehicles
 	#include "Falcon_Base.hpp"
 	#include "Pelican_Base.hpp"
 	#include "Claymore_Base.hpp"	
+	#include "UGVStomper_Base.hpp"
 	#include "SupplyCrates.hpp"
 	#include "Fortifications.hpp"
 	

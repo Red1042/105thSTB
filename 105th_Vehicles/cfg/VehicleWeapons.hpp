@@ -255,21 +255,58 @@
 	class OPTRE_M41_LAAG;
 	class HOW_M41_LAAG:OPTRE_M41_LAAG
 	{
-	magazines[]=
-			{
-				"OPTRE_1000Rnd_127x99_M41"
-			};
-	class FullAuto: MGun
-			{
-				reloadTime=0.05;
-				dispersion=0.00059999999;
-				minRange=2;
-				minRangeProbab=0.30000001;
-				midRange=300;
-				midRangeProbab=0.69999999;
-				maxRange=2000;
-				maxRangeProbab=0.050000001;
-			};
+		magazines[]=
+				{
+					"OPTRE_1000Rnd_127x99_M41"
+				};
+				class FullAuto: MGun
+				{
+					reloadTime=0.0785;
+					dispersion=0.001745;
+					minRange=2;
+					minRangeProbab=0.30000001;
+					midRange=300;
+					midRangeProbab=0.69999999;
+					maxRange=800;
+					maxRangeProbab=0.050000001;
+				};
+				class close: FullAuto
+				{
+					burst=30;
+					aiRateOfFire=0.75;
+					aiRateOfFireDistance=50;
+					minRange=10;
+					minRangeProbab=0.050000001;
+					midRange=20;
+					midRangeProbab=0.69999999;
+					maxRange=50;
+					maxRangeProbab=0.039999999;
+					showToPlayer=0;
+				};
+				class short: close
+				{
+					burst=20;
+					aiRateOfFire=2;
+					aiRateOfFireDistance=300;
+					minRange=50;
+					minRangeProbab=0.050000001;
+					midRange=150;
+					midRangeProbab=0.69999999;
+					maxRange=300;
+					maxRangeProbab=0.039999999;
+				};
+				class medium: close
+				{
+					burst=10;
+					aiRateOfFire=4;
+					aiRateOfFireDistance=600;
+					minRange=200;
+					minRangeProbab=0.050000001;
+					midRange=300;
+					midRangeProbab=0.69999999;
+					maxRange=500;
+					maxRangeProbab=0.1;
+				};
 	};
 
 
