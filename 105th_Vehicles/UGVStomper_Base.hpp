@@ -78,6 +78,8 @@ class v105_UGV_Stag_Base:UGV_01_rcws_base_F
 		};
 		changeGearMinEffectivity[]={0.94999999,0.15000001,0.94999999,0.94999999,0.94999999};
 		switchTime=0.1;
+		ace_cargo_size = 15;  // Cargo space the object takes
+        ace_cargo_canLoad = 1;  // Enables the object to be loaded (1-yes, 0-no)
 };
 
 class v105_UGV_STAG:v105_UGV_Stag_Base

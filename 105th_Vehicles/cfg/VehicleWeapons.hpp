@@ -46,6 +46,9 @@
 		displayName = "20mm Light Cannon";
 		displayNameShort = "20mm Light Cannon";
 		reloadTime=0.5;
+		ace_overpressure_angle = 30;  // Cone in which the damage is applied (in degrees from the muzzle of the cannon)
+        ace_overpressure_range = 10;  // Range in meters in which the damage is applied
+        ace_overpressure_damage = 0.45;  // Damage multiplier
 			magazines[] = 
 			{
 				"HOW_8Rnd_20mm_AP",
@@ -126,6 +129,9 @@
 				ballisticsComputer="1 + 4  + 16";
 				FCSMaxLeadSpeed=150;
 				FCSZeroingDelay=1;
+				ace_overpressure_angle = 30;  // Cone in which the damage is applied (in degrees from the muzzle of the cannon)
+        ace_overpressure_range = 10;  // Range in meters in which the damage is applied
+        ace_overpressure_damage = 0.45;  // Damage multiplier
 				magazines[]=
 					{
 						"32Rnd_120mm_APFSDS_shells",
@@ -167,6 +173,9 @@
 				ballisticsComputer="1 + 4 + 16";
 				FCSMaxLeadSpeed=150;
 				FCSZeroingDelay=1;
+				ace_overpressure_angle = 30;  // Cone in which the damage is applied (in degrees from the muzzle of the cannon)
+        ace_overpressure_range = 10;  // Range in meters in which the damage is applied
+        ace_overpressure_damage = 0.45;  // Damage multiplier
 				magazines[]=
 					{
 						"20Rnd_120mm_HEAT_MP",
