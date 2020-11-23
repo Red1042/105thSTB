@@ -95,7 +95,16 @@ switch true do {
 				_veh attachTo [_pelican,[0,-4.8,0.30]];  
 				_loaded = true;  
 				};
-
+				case (_veh isKindOf "v105_UGV_STAG"):
+				{
+				_veh attachTo [_pelican,[0,-4.8,0.30]];  
+				_loaded = true;  
+				};
+				case (_veh isKindOf "v105_UGV_STAG_ATGM"):
+				{
+				_veh attachTo [_pelican,[0,-4.8,0.30]];  
+				_loaded = true;  
+				};
 
 				
 

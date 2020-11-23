@@ -6,7 +6,7 @@ class v105_UGV_Stag_Base:UGV_01_rcws_base_F
 	scope = 1;
 	scopeCurator = 1;
 	editorCategory = "HOW_EdCat_105th";
-	editorSubCategory = "HOW_105th_EdSubCat_Motorized";
+	editorSubCategory = "HOW_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
     hiddenSelectionsTextures[]=
 		{
@@ -88,7 +88,7 @@ class v105_UGV_STAG:v105_UGV_Stag_Base
 	scope = 2;
 	scopeCurator = 2;
 	editorCategory = "HOW_EdCat_105th";
-	editorSubCategory = "HOW_105th_EdSubCat_Motorized";
+	editorSubCategory = "HOW_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
     class Turrets:Turrets
     {
@@ -109,11 +109,7 @@ class v105_UGV_STAG:v105_UGV_Stag_Base
         transportMaxWeapons=8;
 		transportMaxMagazines=100;
 		transportMaxBackpacks=50;
-		maximumLoad=4000;
-        class TransportBackpacks
-		{
-
-		};
+		maximumLoad=3000;
 		class TransportItems
 		{
             #include "cfg\VehicleGearStag.hpp"
@@ -128,7 +124,7 @@ class v105_UGV_STAG_ATGM:v105_UGV_Stag_Base
 	scope = 2;
 	scopeCurator = 2;
 	editorCategory = "HOW_EdCat_105th";
-	editorSubCategory = "HOW_105th_EdSubCat_Motorized";
+	editorSubCategory = "HOW_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
     class Turrets:Turrets
     {
@@ -153,11 +149,7 @@ class v105_UGV_STAG_ATGM:v105_UGV_Stag_Base
         transportMaxWeapons=8;
 		transportMaxMagazines=100;
 		transportMaxBackpacks=50;
-		maximumLoad=4000;
-        class TransportBackpacks
-		{
-            #include "cfg\VehicleGearStagBackPacks.hpp"
-		};
+		maximumLoad=3000;
 		class TransportItems
 		{
             #include "cfg\VehicleGearStag.hpp"

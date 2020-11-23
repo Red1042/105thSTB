@@ -4,7 +4,7 @@
         side=1;
 		scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		 
 		
         dlc="105th";
@@ -31,7 +31,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		 
 		
         dlc="105th";
@@ -58,7 +58,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 	
         dlc="105th";
         author="Mike Hartley, Vespade";
@@ -84,7 +84,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		 
 	
         dlc="105th";
@@ -112,7 +112,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		 
 	
         dlc="105th";
@@ -151,7 +151,7 @@
 		scope=2;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		 
 	
         dlc="105th";

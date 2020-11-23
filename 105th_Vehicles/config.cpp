@@ -65,7 +65,8 @@ class CfgPatches
 		"HOW_AV14_CAS",
 		"HOW_AV14_CAS_Keen", 
 		"HOW_AV14B_CAS",
-		"HOW_AV14B_EJECSEAT",
+		//Claymore
+		"v105_A364_Claymore",
 		//SDV
 		"v105_SDV_ODST",
 		//STAG UGV

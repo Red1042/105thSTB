@@ -8,7 +8,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		forceInGarage=1;
 		displayName="A-364 Claymore";
 		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_Rotary";
+		editorSubcategory="HOW_105th_EdSubCat_FixedWing";
 		crew="VES_Rifleman_MA5B_ODST";
 		tf_hasLRradio=1;
 		tf_isolatedAmount=.1;
@@ -92,7 +92,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 						};
 						angleRangeHorizontal=360;
 						angleRangeVertical=360;
-						maxTrackableSpeed=100;
+						maxTrackableSpeed=1200;
 						animDirection="PilotCamera_V";
 					};
 					class VisualSensorComponent: SensorTemplateVisual
@@ -113,7 +113,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 						};
 						angleRangeHorizontal=360;
 						angleRangeVertical=360;
-						maxTrackableSpeed=100;
+						maxTrackableSpeed=900;
 						animDirection="PilotCamera_V";
 					};
 					class AntiRadiationSensorComponent: SensorTemplateAntiRadiation

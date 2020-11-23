@@ -27,10 +27,10 @@ class CfgEditorCategories
 	{
 		displayName="[105th] URF - Enhanced Vehicles"
 	};
-	class HOW_105th_EdCat_Fortifications
+	/*class HOW_105th_EdCat_Fortifications
 	{
 		displayName = "FOB Fortifications";
-	};
+	};*/
 }; 
 class CfgEditorSubcategories
 {
@@ -38,6 +38,10 @@ class CfgEditorSubcategories
 	class HOW_105th_EdSubCat_Motorized
 	{
 		displayName = "Motorized";
+	};
+	class HOW_105th_EdSubCat_Drones
+	{
+		displayName = "Drones";
 	};
 	class HOW_105th_EdSubCat_Mechanized
 	{
@@ -47,9 +51,17 @@ class CfgEditorSubcategories
 	{
 		displayName = "Armor";
 	};
-	class HOW_105th_EdSubCat_Rotary
+	class HOW_105th_EdSubCat_Pelican
 	{
-		displayName="Aviation";
+		displayName="Pelicans";
+	};
+	class HOW_105th_EdSubCat_FalcHorn
+	{
+		displayName="Falcons and Hornets";
+	};
+	class HOW_105th_EdSubCat_FixedWing
+	{
+		displayName="Fixed-wing Aircraft";
 	};
 	class HOW_105th_EdSubCat_Supply
 	{
@@ -63,6 +75,7 @@ class CfgEditorSubcategories
 	{
 		displayName = "Waterborne Vehicles";
 	};
+
 	//OPFOR
 	class HOW_URF_EdSubCat_Motorized
 	{

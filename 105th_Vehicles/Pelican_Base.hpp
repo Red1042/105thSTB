@@ -6,7 +6,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI/AV Pelican [Goshawk]";
@@ -241,256 +241,13 @@
 			};			
 		};
     };
-    class v105_D77HTCIS_A: VES_D77HTCIS_A
-    {
-        side=1;
-        scopeCurator = 2;
-       	editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
-        dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
-        displayName="D77H-TCI/AV Pelican (MG) [Goshawk]";
-        fuelCapacity=1200;
-        hiddenSelectionsTextures[]=
-        {
-            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_co.paa"
-        };
-		weapons[]=
-		{
-			"Laserdesignator_pilotCamera",
-			"HOW_Flares",
-			
-		};
-		magazines[]=
-		{
-			"Laserbatteries",
-			"HOW_320Rnd_Flare_Chaff_Magazine",
-			"HOW_320Rnd_Flare_Chaff_Magazine"
-		};
-		canUseScanner=1;
-		incomingMissileDetectionSystem="2+4+8+16";
-		irScanToEyeFactor=1;
-		irScanRangeMin=200;
-		irScanRangeMax=10000;
-		irScanGround=1;
-		irTarget=1;
-		irTargetSize=2;
-		laserScanner=1;
-		laserTarget=0;
-		weaponLockSystem="2+4+8+16";
-		nvScanner=1;
-		radarTarget=1;
-		radarTargetSize=2;
-		radarType=4;
-		class Components: Components
-		{
-		class SensorsManagerCompenent
-		{
-			class Components
-			{
-				class TransportCountermeasuresComponent;
-				class IRSensorComponent: SensorTemplateIR
-						{
-							class AirTarget
-							{
-								minRange=500;
-								maxRange=8000;
-								objectDistanceLimitCoef=-1;
-								viewDistanceLimitCoef=-1;
-							};
-							class GroundTarget
-							{
-								minRange=500;
-								maxRange=8000;
-								objectDistanceLimitCoef=-1;
-								viewDistanceLimitCoef=-1;
-							};
-							maxTrackableSpeed=1500;
-							animDirection="mainGun";
-							angleRangeHorizontal=46;
-							angleRangeVertical=34;
-							aimdown=-0.25;
-						};
-						class VisualSensorComponent: SensorTemplateVisual
-						{
-							class AirTarget
-							{
-								minRange=500;
-								maxRange=1500;
-								objectDistanceLimitCoef=1;
-								viewDistanceLimitCoef=1;
-							};
-							class GroundTarget
-							{
-								minRange=500;
-								maxRange=1500;
-								objectDistanceLimitCoef=1;
-								viewDistanceLimitCoef=1;
-							};
-							maxTrackableSpeed=1500;
-							animDirection="mainGun";
-							angleRangeHorizontal=46;
-							angleRangeVertical=34;
-							aimdown=-0.25;
-						};
-						class ActiveRadarSensorComponent: SensorTemplateActiveRadar
-						{
-							class AirTarget
-							{
-								minRange=4000;
-								maxRange=8000;
-								objectDistanceLimitCoef=-1;
-								viewDistanceLimitCoef=-1;
-							};
-							class GroundTarget
-							{
-								minRange=4000;
-								maxRange=8000;
-								objectDistanceLimitCoef=-1;
-								viewDistanceLimitCoef=-1;
-							};
-							maxTrackableSpeed=1500;
-							angleRangeHorizontal=270;
-							angleRangeVertical=270;
-							groundNoiseDistanceCoef=-1;
-							maxGroundNoiseDistance=-1;
-							minSpeedThreshold=0;
-							maxSpeedThreshold=0;
-							aimDown=30;
-						};
-						class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
-						{
-						};
-						class LaserSensorComponent: SensorTemplateLaser
-						{
-						};
-						class NVSensorComponent: SensorTemplateNV
-						{
-						};
-				};
-			};
-			class TransportPylonsComponent
-			{
-				UIPicture="\OPAEX_Pelican\Pelican.paa";
-				class pylons
-				{
-					class pylons1
-					{
-						maxweight=600;
-						hardpoints[]={"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
-						attachment="FIR_Hydra_M247_P_7rnd_M";
-						bay=-1;
-						priority=2;
-						UIposition[]={0.1,0.5};
-						turret[]={};
-					};
-					class pylons2: pylons1
-					{
-						mirroredMissilePos=1;
-						UIposition[]={0.1,0.1};
-					};
-					class pylons3: pylons1
-					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
-						priority = 5;
-						attachment = "FIR_Hydra_M247_P_7rnd_M";
-						maxweight = 600;
-						UIposition[] = {0.1,0.45};
-                        bay = -1;
-					};
-					class pylons4: pylons1
-					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
-						priority = 5;
-						attachment = "FIR_Hydra_M247_P_7rnd_M";
-						maxweight = 600;
-						UIposition[] = {0.1,0.40};
-                        bay = -1;
-												
-					};
-					class pylons5:pylons1
-					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
-						priority = 5;
-						attachment = "FIR_Hydra_M247_P_7rnd_M";
-						maxweight = 600;
-						UIposition[] = {0.1,0.15};
-                        bay = -1;	
-						mirroredMissilePos=3;				
-					};
-					class pylons6:pylons1
-					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
-						priority = 5;
-						attachment = "FIR_Hydra_M247_P_7rnd_M";
-						maxweight = 600;
-						UIposition[] = {0.1,0.20};
-                        bay = -1;	
-						mirroredMissilePos=4;
-										
-					};
-				};
-			};
-
-			class UserActions : UserActions
-			{
-				class Aircraft_MFD_Open_N
-				{
-					displayName = "Open I-TGT System";
-					position = "pos cano";
-					radius = 15;
-					shortcut = "User4";
-					condition = "('FIR_TGTPOD' in weapons this or 'Laserdesignator_pilotCamera' in weapons this) and player in this and isengineon this";				
-					statement = "this execVM ""\FIR_AirWeaponSystem_US\Script\TGTSystem\FIR_AWS_MFD_N_Open.sqf""";
-					onlyforplayer = "false";
-					hideOnUse = 1;
-				};
-				class ECM_ON
-				{
-					displayName = "ECM JAMMER ON";
-					position = "pos cano";
-					radius = 15;
-					shortcut = "User2";
-					condition = "player in this and isengineon this and (this getvariable 'ECMJAMMER' == 'yes' or 'FIR_ECMPOD' in weapons this)";
-					statement = "[this] execVM ""\FIR_AirWeaponSystem_US\Script\ECM\ECM_ON.sqf"";";
-					onlyforplayer = "False";
-					hideOnUse = 1;
-				};		
-				class AMS_LiteOpen
-				{
-					displayName = "<t color='#739eff'>Open AMS Lite</t>";
-					position = "pos cano";
-					radius = 15;
-					shortcut = "User3";
-					condition = "player in this and (speed this < 1)";
-					statement = "this execVM ""\FIR_AirWeaponSystem_US\Script\AMS\AMS_Lite\AMS_Lite_GUI_Open.sqf""";
-					onlyforplayer = "false";
-					priority = 6;
-					hideOnUse = 1;
-				};					
-			};
-			
-			class eventhandlers : EventHandlers
-			{
-				class FIR_AWS_Common_EH
-				{
-					Init = "[_this select 0,'yes'] execVM ""\FIR_AirWeaponSystem_US\Script\init\init.sqf"";";			
-					hit = "_this call bis_fnc_planeAiEject";
-					landing = "[_this,true] call bis_fnc_aircraftTailhookAi";
-					landingcanceled = "[_this,false] call bis_fnc_aircraftTailhookAi";
-					engine = "_this call bis_fnc_aircraftFoldingWings";
-					gear = "_this call bis_fnc_aircraftFoldingWings";			
-				};			
-			};
-		};
-	
-    };
+    
     class v105_D77HTCI: VES_D77HTCI
     {
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI Pelican [Navy]";
@@ -516,7 +273,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI Pelican [Reach Around]";
@@ -532,10 +289,10 @@
         side=1;
         scopeCurator = 2;
        	editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
-        displayName="D77H-TCI Pelican (MG) [Navy]";
+        displayName="D77H-TCIS Pelican (MG) [Navy]";
         fuelCapacity=1200;
 		weapons[]=
 		{
@@ -558,7 +315,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI Pelican (MG) [Reach Around]";
@@ -573,7 +330,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI Pelican/AV [Keen]";
@@ -588,7 +345,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI Pelican/AV [Bulck & Horizon]";
@@ -603,7 +360,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI/AV Pelican [Bubba & ODay]";
@@ -618,7 +375,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Howard";
         displayName="D77H-TCI/AV Pelican [Meatballs & Mailwind]";
@@ -633,7 +390,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Rotary";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Howard";
         displayName="D77H-TCI/AV Pelican [Smith & Ragnarson]";
