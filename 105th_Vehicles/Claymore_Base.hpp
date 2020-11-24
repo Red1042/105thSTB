@@ -200,14 +200,14 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 						};
 						attachment="v105_AIM9X_P_2rnd_M";
 						priority=5;
-						maxweight=700;
+						maxweight=300;
 						UIposition[]={0.34999999,0};
 					};
 					class Pylons2: Pylons1
 					{
 						priority=4;
 						attachment="v105_APKWS_M247_P_38rnd_M";
-						maxweight=1000;
+						maxweight=750;
 						UIposition[]={0.345,0.050000001};
 					};
 					class Pylons3: Pylons1
