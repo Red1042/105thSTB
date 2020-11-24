@@ -141,7 +141,8 @@ class CfgPatches
 			"v105_FIR_GBU24",
 			"v105_FIR_GBU38",
 			"v105_FIR_AGM154",
-			"v105_FIR_AGM88"
+			"v105_FIR_AGM88",
+			"v105_FIR_mk82_Snakeye_Launcher"
 		};
 		magazines[] = 
 		{

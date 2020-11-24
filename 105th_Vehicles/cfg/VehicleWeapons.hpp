@@ -490,9 +490,13 @@
 			class FIR_mk82_Snakeye_Launcher;
 			class v105_FIR_mk82_Snakeye_Launcher:FIR_mk82_Snakeye_Launcher
 			{
-				magazines[]={"v105_FIR_Mk82_GP_Navy_P_1rnd_M",
+				magazines[]={
+							"v105_FIR_Mk82_GP_Navy_P_1rnd_M",
 							"v105_FIR_Mk82_GP_Navy_prox_P_1rnd_M",
-							"v105_FIR_Mk82_GP_Navy_P_2rnd_M"};
+							"v105_FIR_Mk82_GP_Navy_P_2rnd_M",
+							"v105_FIR_Mk82_GP_P_3rnd_M",
+							"v105_FIR_Mk82_GP_P_6rnd_M"
+							};
 			};
 			//MK83
 			class FIR_mk83;
