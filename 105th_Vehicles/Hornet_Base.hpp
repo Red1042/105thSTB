@@ -29,7 +29,7 @@ class HOW_AV14_Base: VES_AV14
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
 		
-	/*	class RotorLibHelicopterProperties: RotorLibHelicopterProperties
+		/*class RotorLibHelicopterProperties: RotorLibHelicopterProperties
 		{
 			RTDconfig="A3\Air_F\Heli_Light_01\RTD_Heli_Light_01.xml";
 			autoHoverCorrection[]={0.28,2.8800001,0};
