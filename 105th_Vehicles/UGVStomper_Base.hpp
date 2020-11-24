@@ -8,7 +8,7 @@ class v105_UGV_Stag_Base:UGV_01_rcws_base_F
 	editorCategory = "HOW_EdCat_105th";
 	editorSubCategory = "HOW_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
-	armor=90;
+	armor=40;
 	armorStructural=12;
     hiddenSelectionsTextures[]=
 		{
