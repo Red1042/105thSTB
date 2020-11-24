@@ -131,16 +131,6 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class ACOMP_NCO_KSehnji_MAR_dp:VES_CH252_MAR_Vacuum_dp
-	{
-		author="Sturm";
-		displayName="[105th] ECH252 Helmet (Sehnji)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\data\Alpha Company Helmets\KSeh_CH252_MAR_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
 	class ACOMP_CO_AGaffney_MAR_dp:VES_CH252_MAR_Vacuum_dp
 	{
 		author="Sturm";
@@ -261,4 +251,15 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class ACOMP_NCO_MBrady_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="Barkley";
+		displayName="[105th] ECH252 Helmet (Brady)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\MBra_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+
 	

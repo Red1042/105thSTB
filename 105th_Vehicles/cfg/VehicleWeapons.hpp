@@ -527,7 +527,7 @@
 			class FIR_AGM154;
 			class v105_FIR_AGM154:FIR_AGM154
 			{
-				magazines[]={"v105_AGM154A_P_1rnd_M","v105_AGM154C_P_1rnd_M"};
+				magazines[]={"v105_FIR_AGM154A_P_1rnd_M","v105_FIR_AGM154C_P_1rnd_M"};
 			};
 		
 			

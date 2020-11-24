@@ -130,16 +130,6 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
-	class ACOMP_NCO_KSehnji_MAR:VES_CH252_MAR_Vacuum
-	{
-		author="Sturm";
-		displayName="[105th] ECH252 Helmet (Sehnji)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\data\Alpha Company Helmets\KSeh_CH252_MAR_CO.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
-		};
-	};
 	class ACOMP_CO_AGaffney_MAR:VES_CH252_MAR_Vacuum
 	{
 		author="Sturm";
@@ -256,6 +246,16 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\Alon_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class ACOMP_NCO_MBrady_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="Barkley";
+		displayName="[105th] ECH252 Helmet (Brady)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\MBra_CH252_MAR_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};

@@ -45,7 +45,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		landingSpeed=280;
 		stallSpeed=190;
 		stallWarningTreshold=0.2;
-
+		angleOfIndicence=-0.0134533;
 		armor=100;
 		armorStructural=5;
 		explosionShielding=3;
@@ -66,7 +66,65 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 			"120Rnd_CMFlare_Chaff_Magazine",
 			"120Rnd_CMFlare_Chaff_Magazine"
 		};
-
+		class Wheels
+		{
+			class Wheel_1
+			{
+				boneName="Wheel_1";
+				steering=1;
+				side="left";
+				center="Wheel_1_center";
+				boundary="Wheel_1_rim";
+				width=0.16;
+				mass=80;
+				MOI=6.6999698;
+				dampingRate=0.25;
+				dampingRateDamaged=1;
+				dampingRateDestroyed=1000;
+				maxBrakeTorque=1200;
+				maxHandBrakeTorque=0;
+				suspTravelDirection[]={0,-1,0};
+				suspForceAppPointOffset="Wheel_1_center";
+				tireForceAppPointOffset="Wheel_1_center";
+				maxCompression=0.1;
+				maxDroop=0.15000001;
+				sprungMass=4000;
+				springStrength=395000;
+				springDamperRate=120000;
+				longitudinalStiffnessPerUnitGravity=1500;
+				latStiffX=2;
+				latStiffY=18;
+				frictionVsSlipGraph[]=
+				{
+					{0,0.5},
+					{0.2,0.89999998},
+					{0.60000002,0.69999999}
+				};
+			};
+			class Wheel_2: Wheel_1
+			{
+				boneName="Wheel_2";
+				steering=0;
+				center="Wheel_2_center";
+				boundary="Wheel_2_rim";
+				width=0.28;
+				maxCompression=0.15000001;
+				maxDroop=0.15000001;
+				sprungMass=7750;
+				maxBrakeTorque=4000;
+				suspForceAppPointOffset="Wheel_2_center";
+				tireForceAppPointOffset="Wheel_2_center";
+			};
+			class Wheel_3: Wheel_2
+			{
+				boneName="Wheel_3";
+				side="right";
+				center="Wheel_3_center";
+				boundary="Wheel_3_rim";
+				suspForceAppPointOffset="Wheel_3_center";
+				tireForceAppPointOffset="Wheel_3_center";
+			};
+		};
 		class Components: Components
 		{
 			class TransportCountermeasuresComponent;
@@ -395,6 +453,6 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		hiddenSelectionsTextures[]=
 		{
 			"A3\Air_F_EPC\Plane_CAS_01\Data\plane_cas_01_ext01_co.paa",
-			"A3\Air_F_EPC\Plane_CAS_01\Data\plane_cas_01_ext02_co.paa"
+			"105th_Vehicles\textures\Claymore\105th_Claymore_Wings.paa"
 		};
 };
