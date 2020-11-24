@@ -200,27 +200,27 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 						};
 						attachment="v105_AIM9X_P_2rnd_M";
 						priority=5;
-						maxweight=300;
+						maxweight=700;
 						UIposition[]={0.34999999,0};
 					};
 					class Pylons2: Pylons1
 					{
 						priority=4;
 						attachment="v105_APKWS_M247_P_38rnd_M";
-						maxweight=500;
+						maxweight=1000;
 						UIposition[]={0.345,0.050000001};
 					};
 					class Pylons3: Pylons1
 					{
 						priority=3;
 						attachment="v105_ALQ99_P_1rnd_M";
-						maxweight=1050;
+						maxweight=1200;
 						UIposition[]={0.34,0.1};
 					};
 					class Pylons4: Pylons1
 					{
 						priority=2;
-						attachment="v105_AGM65E2_P_3rnd_M";
+						attachment="v105_AGM65E2_P_1rnd_M";
 						maxweight=2000;
 						UIposition[]={0.33000001,0.2};
 					};
@@ -239,7 +239,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					};
 					class Pylons7: Pylons4
 					{
-						attachment="v105_AGM65E2_P_3rnd_M";
+						attachment="v105_AGM65E2_P_1rnd_M";
 						UIposition[]={0.33000001,0.34999999};
 						mirroredMissilePos=4;
 					};
@@ -262,66 +262,65 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 						mirroredMissilePos=1;
 					};
 				};
-			};
-			class Presets
-			{
-				class Empty
+				class Presets
 				{
-					displayName="$STR_empty";
-					attachment[]={};
-				};
-				class JUPITER	//General Payload
-				{
-					displayName="Jupiter";
-					attachment[]=
+					class Empty
 					{
-						"v105_AIM9X_P_2rnd_M",
-						"v105_LZuni_P_8rnd_M",
-						"v105_ALQ99_P_1rnd_M",
-						"v105_GBU53_P_4rnd_M",
-						"v105_FIR_EGBU12_P_2rnd_M",
-						"v105_FIR_EGBU12_P_2rnd_M",
-						"v105_GBU53_P_4rnd_M",
-						"v105_APKWS_M282_P_38rnd_M",
-						"v105_LZuni_P_8rnd_M",
-						"v105_AIM9X_P_2rnd_M"
+						displayName="$STR_empty";
+						attachment[]={};
 					};
-				};
-				class JUNO		//Heavy Payloads
-				{
-					displayName="Juno";
-					attachment[]=
+					class JUPITER	//General Payload
 					{
-						"v105_AIM9X_P_2rnd_M",
-						"v105_GBU53_P_4rnd_M",
-						"v105_FIR_EGBU12_P_2rnd_M",
-						"v105_FIR_GBU24A_P_1rnd_M",
-						"v105_FIR_AGM154A_P_1rnd_M",
-						"v105_FIR_AGM154C_P_1rnd_M",
-						"v105_FIR_GBU24A_P_1rnd_M",
-						"v105_FIR_EGBU12_P_2rnd_M",
-						"v105_GBU53_P_4rnd_M",
-						"v105_AIM9X_P_2rnd_M"
+						displayName="Jupiter";
+						attachment[]=
+						{
+							"v105_AIM9X_P_2rnd_M",
+							"v105_LZuni_P_8rnd_M",
+							"v105_APKWS_P_38rnd_M",
+							"v105_GBU53_P_4rnd_M",
+							"v105_FIR_EGBU12_P_2rnd_M",
+							"v105_FIR_EGBU12_P_2rnd_M",
+							"v105_GBU53_P_4rnd_M",
+							"v105_APKWS_M282_P_38rnd_M",
+							"v105_LZuni_P_8rnd_M",
+							"v105_AIM9X_P_2rnd_M"
+						};
 					};
-				};
-				class APOLLO	//Precision Strikes
-				{
-					displayName="Apollo";
-					attachment[]=
+					class JUNO		//Heavy Payloads
 					{
-						"v105_AIM9X_P_2rnd_M",
-						"v105_APKWS_M282_P_38rnd_M",
-						"v105_ALQ99_P_1rnd_M",
-						"v105_AGM65E2_P_3rnd_M",
-						"v105_GBU53_P_4rnd_M",
-						"v105_GBU53_P_4rnd_M",
-						"v105_AGM65E2_P_3rnd_M",
-						"v105_APKWS_P_38rnd_M",
-						"v105_AGM88_P_1rnd_M",
-						"v105_AIM9X_P_2rnd_M"
+						displayName="Juno";
+						attachment[]=
+						{
+							"v105_AIM9X_P_2rnd_M",
+							"v105_GBU53_P_4rnd_M",
+							"v105_FIR_EGBU12_P_2rnd_M",
+							"v105_FIR_GBU24A_P_1rnd_M",
+							"v105_FIR_AGM154A_P_1rnd_M",
+							"v105_FIR_AGM154C_P_1rnd_M",
+							"v105_FIR_GBU24A_P_1rnd_M",
+							"v105_FIR_EGBU12_P_2rnd_M",
+							"v105_GBU53_P_4rnd_M",
+							"v105_AIM9X_P_2rnd_M"
+						};
 					};
+					class APOLLO	//Precision Strikes
+					{
+						displayName="Apollo";
+						attachment[]=
+						{
+							"v105_AIM9X_P_2rnd_M",
+							"v105_APKWS_M282_P_38rnd_M",
+							"v105_ALQ99_P_1rnd_M",
+							"v105_AGM65E2_P_1rnd_M",
+							"v105_GBU53_P_4rnd_M",
+							"v105_GBU53_P_4rnd_M",
+							"v105_AGM65E2_P_1rnd_M",
+							"v105_APKWS_P_38rnd_M",
+							"v105_AGM88_P_1rnd_M",
+							"v105_AIM9X_P_2rnd_M"
+						};
+					};	
 				};
-				
 			};
 		};
 	

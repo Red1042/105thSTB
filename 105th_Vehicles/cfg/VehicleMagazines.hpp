@@ -168,23 +168,29 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_AGM65D_P_3rnd_M;
 	class v105_AGM65D_P_3rnd_M:FIR_AGM65D_P_3rnd_M
 	{
-		hardpoints[] = {"105th_PelicanMed"};
+		hardpoints[] = {"105th_PelicanMed","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class FIR_AGM65B_P_3rnd_M;
 	class v105_AGM65B_P_3rnd_M:FIR_AGM65B_P_3rnd_M
 	{
-		hardpoints[] = {"105th_PelicanMed"};
+		hardpoints[] = {"105th_PelicanMed","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class FIR_AGM65H_P_3rnd_M;
 	class v105_AGM65H_P_3rnd_M:FIR_AGM65H_P_3rnd_M
 	{
-		hardpoints[] = {"105th_PelicanMed"};
+		hardpoints[] = {"105th_PelicanMed","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
-		count=3
+		
 	};
 	class FIR_AGM65F_P_1rnd_M;
+	class v105_AGM65F_P_1rnd_M:FIR_AGM65F_P_1rnd_M
+	{
+		displayName = "AGM-65F Maverick x1";
+		hardpoints[] = {"105th_Claymore"};
+		pylonWeapon="v105_FIR_AGM65";
+	};
 	class v105_AGM65F_P_3rnd_M:FIR_AGM65F_P_1rnd_M
 	{
 		displayName = "AGM-65F Maverick x3";
@@ -193,6 +199,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		count=3;
 	};
 	class FIR_AGM65G_P_1rnd_M;
+	class v105_AGM65G_P_1rnd_M:FIR_AGM65G_P_1rnd_M
+	{
+		displayName = "AGM-65G Maverick x1";
+		hardpoints[] = {"105th_Claymore"};
+		pylonWeapon="v105_FIR_AGM65";
+	};
 	class v105_AGM65G_P_3rnd_M:FIR_AGM65G_P_1rnd_M
 	{
 		displayName = "AGM-65G Maverick x3";
@@ -201,6 +213,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		count=3;
 	};
 	class FIR_AGM65K_P_1rnd_M;
+	class v105_AGM65K_P_1rnd_M:FIR_AGM65K_P_1rnd_M
+	{
+		displayName = "AGM-65K Maverick x1";
+		hardpoints[] = {"105th_Claymore"};
+		pylonWeapon="v105_FIR_AGM65";
+	};
 	class v105_AGM65K_P_3rnd_M:FIR_AGM65K_P_1rnd_M
 	{
 		displayName = "AGM-65K Maverick x3";
@@ -209,6 +227,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		count=3;
 	};
 	class FIR_AGM65E_P_1rnd_M;
+	class v105_AGM65E_P_1rnd_M:FIR_AGM65E_P_1rnd_M
+	{
+		displayName = "AGM-65E Maverick x1";
+		hardpoints[] = {"105th_Claymore"};
+		pylonWeapon="v105_FIR_AGM65";
+	};
 	class v105_AGM65E_P_3rnd_M:FIR_AGM65E_P_1rnd_M
 	{
 		displayName = "AGM-65E Maverick x3";
@@ -217,6 +241,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		count=3;
 	};
 	class FIR_AGM65E2_P_1rnd_M;
+	class v105_AGM65E2_P_1rnd_M:FIR_AGM65E2_P_1rnd_M
+	{
+		displayName = "AGM-65E2 Maverick x1";
+		hardpoints[] = {"105th_Claymore"};
+		pylonWeapon="v105_FIR_AGM65";
+	};
 	class v105_AGM65E2_P_3rnd_M:FIR_AGM65E2_P_1rnd_M
 	{
 		displayName = "AGM-65E2 Maverick x3";
@@ -225,6 +255,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		count=3;
 	};
 	class FIR_AGM65L_P_1rnd_M;
+	class v105_AGM65L_P_1rnd_M:FIR_AGM65L_P_1rnd_M
+	{
+		displayName = "AGM-65L Maverick x1";
+		hardpoints[] = {"105th_Claymore"};
+		pylonWeapon="v105_FIR_AGM65";
+	};
 	class v105_AGM65L_P_3rnd_M:FIR_AGM65L_P_1rnd_M
 	{
 		displayName = "AGM-65L Maverick x3";

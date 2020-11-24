@@ -384,6 +384,12 @@
 					"v105_AGM65G_P_3rnd_M","v105_AGM65K_P_3rnd_M",
 					"v105_AGM65E_P_3rnd_M","v105_AGM65E2_P_3rnd_M",
 					"v105_AGM65L_P_3rnd_M",
+					"v105_AGM65F_P_1rnd_M",
+					"v105_AGM65G_P_1rnd_M",
+					"v105_AGM65K_P_1rnd_M",
+					"v105_AGM65E_P_1rnd_M",
+					"v105_AGM65E2_P_1rnd_M",
+					"v105_AGM65L_P_1rnd_M",
 					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K",
 					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N",
 					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L"

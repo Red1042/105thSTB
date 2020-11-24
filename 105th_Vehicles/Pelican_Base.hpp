@@ -9,7 +9,7 @@
         editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
-        displayName="D77H-TCI/AV Pelican [Goshawk]";
+        displayName="D77H-TCI/AV Pelican";
         fuelCapacity=1200;
 		weapons[]=
 		{
@@ -36,7 +36,7 @@
 						class AirTarget
 						{
 							minRange = 10;
-							maxRange = 8000;
+							maxRange = 10000;
 							objectDistanceLimitCoef	= -1;
 							viewDistanceLimitCoef	= -1;
 						};
@@ -187,7 +187,7 @@
 		};
         hiddenSelectionsTextures[]=
         {
-            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_co.paa"
+            "105th_Vehicles\textures\Pelican\v105_Pelican_Base_co.paa"
         };
 		class UserActions : UserActions
 		{
