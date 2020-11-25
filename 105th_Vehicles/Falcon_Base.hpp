@@ -183,3 +183,15 @@
 			"168Rnd_CMFlare_Chaff_Magazine"
 		};
     };
+    class v105_UH144S_JLonger_ARC:v105_UH144S_ARC
+    {
+        author="Longer, Vespade";
+        displayName="UH-144S-RC Falcon [Longer]";
+        hiddenSelectionsTextures[]=
+        {
+            "105th_Vehicles\textures\Falcon\v105_Falcon_co.paa",
+            "105th_Vehicles\textures\Falcon\v105_Falcon_A_Longer_co.paa",
+            "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
+            "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
+        };
+    };
