@@ -147,7 +147,7 @@ class CfgVehicles
 		scope=2;
 		scopeCurator=2;
 		editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Materials";
+        editorSubcategory="HOW_105th_EdSubCat_Fortifications";
 		displayName="[ODST] CTF Flag";
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"105th_Armor\data\bCoFlagArmaTest.paa"};

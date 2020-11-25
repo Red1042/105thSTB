@@ -79,27 +79,7 @@ class CfgPatches
 		"HOW_105th_SupplyPod_ODST",
 		"HOW_105th_SupplyPod_UTIL",
 		"HOW_105th_SupplyPod_Banana",
-		// 105th Designated Construction Materials
-		"v105_Hard_Tent_Urban",
-		"v105_Optre_Watchtower_woodland",
-		"v105_Optre_Watchtower_urban",
-		"v105_M72_Barrier",
-		"v105_M72_BarrierBlk",
-		"v105_M72S_Barrier",
-		"v105_M72S_BarrierBlk",
-		"v105_Slingload_Ammo",
-		"v105_Slingload_Fuel",
-		"v105_Slingload_Repair",
-		"v105_HescoTower",
-		"v105_HescoCorridor",
-		"v105_HescoCorner",
-		"v105_HescoBigBlocks",
-		"v105_Hesco3BLocks",
-		"v105_Hesco5BLocks",
-		"v105_HescoWall6",
-		"v105_HescoWall4",
-		"v105_CncWall4",
-		"v105_CncWall1"
+		
 		};
 		weapons[] = 
 		{
@@ -437,7 +417,6 @@ class cfgVehicles
 	#include "Claymore_Base.hpp"	
 	#include "UGVStomper_Base.hpp"
 	#include "SupplyCrates.hpp"
-	#include "Fortifications.hpp"
 	
 														// New Vehicles Below
 														// New Vehicles Below

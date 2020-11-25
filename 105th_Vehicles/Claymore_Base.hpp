@@ -50,8 +50,8 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		armorStructural=5;
 		explosionShielding=3;
 
-		lockDetectionSystem=2+8+16;
-		incomingMissileDetectionSystem="2 + 8 + 16";
+		lockDetectionSystem="1+2+4+8+16";
+		incomingMissileDetectionSystem=16;
 		weapons[]=
 		{
 			"FIR_GAU8",
@@ -368,7 +368,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 						{
 							"v105_AIM9X_P_2rnd_M",
 							"v105_APKWS_M282_P_38rnd_M",
-							"v105_ALQ99_P_1rnd_M",
+							"v105_AGM65E2_P_1rnd_M",
 							"v105_AGM65E2_P_1rnd_M",
 							"v105_GBU53_P_4rnd_M",
 							"v105_GBU53_P_4rnd_M",
