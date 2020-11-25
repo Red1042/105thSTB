@@ -452,7 +452,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"A3\Air_F_EPC\Plane_CAS_01\Data\plane_cas_01_ext01_co.paa",
+			"105th_Vehicles\textures\Claymore\105th_Claymore_Body.paa",
 			"105th_Vehicles\textures\Claymore\105th_Claymore_Wings.paa"
 		};
 };
