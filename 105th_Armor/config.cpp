@@ -104,6 +104,26 @@ class CfgWeapons
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class VC497_Helmet_JCol: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[VC497] ECH252 Helmet (Collins)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\VC497\JCol_CH252_URB_Blk.paa", 
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+	};
+	class VC497_Helmet_JCol_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[VC497] ECH252 Helmet (Collins)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\VC497\JCol_CH252_URB_Blk.paa", 
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
 	class r105_uniform_ODST: VES_BDU_Evolved_Slim
 	{
 		author="Kreah Leiser, Vespade, Hartley";
@@ -140,18 +160,7 @@ class CfgVehicles
 
 
 
-	class OPTRE_CTF_Flag_Base;
-    class BCOMP_CTF_Flag_Base: OPTRE_CTF_Flag_Base
-  {
-		dlc="105th";
-		scope=2;
-		scopeCurator=2;
-		editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Fortifications";
-		displayName="[ODST] CTF Flag";
-		hiddenSelections[] = {"camo1"};
-		hiddenSelectionsTextures[] = {"105th_Armor\data\bCoFlagArmaTest.paa"};
-  };
+
 
 };
 class cfgMods

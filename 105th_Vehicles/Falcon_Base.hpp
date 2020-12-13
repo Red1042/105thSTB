@@ -25,6 +25,7 @@
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
+        class UserActions{};
     };
     class v105_UH144S: VES_UH144S
     {
@@ -116,7 +117,7 @@
 		 
 	
         dlc="105th";
-        author="Howard, Mike Hartley, Vespade";
+        author="Howard, Vespade";
         displayName="UH-144S-GL Falcon [Navy]";
         fuelCapacity=200;
 		fuelConsumptionRate=0.03;
@@ -155,7 +156,7 @@
 		 
 	
         dlc="105th";
-        author="Howard, Mike Hartley, Vespade";
+        author="Howard, Vespade";
         displayName="UH-144S-RC Falcon [Navy]";
         fuelCapacity=200;
 		fuelConsumptionRate=0.03;
@@ -191,6 +192,20 @@
         {
             "105th_Vehicles\textures\Falcon\v105_Falcon_co.paa",
             "105th_Vehicles\textures\Falcon\v105_Falcon_A_Longer_co.paa",
+            "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
+            "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
+        };
+    };
+    class v105_UH144S_JCollins_ARC:v105_UH144S_ARC
+    {
+        scope=1;
+        scopeCurator=1;
+        author="Collins, Vespade";
+        displayName="UH-144S-RC Falcon [Collins]";
+        hiddenSelectionsTextures[]=
+        {
+            "105th_Vehicles\textures\Falcon\v105_Falcon_Collins_co.paa",
+            "105th_Vehicles\textures\Falcon\v105_Falcon_A_Collins_co.paa",
             "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
             "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
         };

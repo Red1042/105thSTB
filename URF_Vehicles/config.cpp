@@ -27,6 +27,9 @@ class CfgPatches
 			"HOW_URF_Karatel_AT",
 			//Otokar
 			"HOW_URF_APC_Otokar",
+			//Aircraft
+			"v105_URF_AV14_CAS",
+			"v105_URF_D77HTCI_A"
 		};
 		weapons[] = 
 		{
@@ -138,6 +141,6 @@ class cfgVehicles
 	#include "Otokar_Base.hpp"
 	#include "Tigris_Base.hpp"
 	#include "Karatel_Base.hpp"
-
+	#include "Aircraft.hpp"
 
 };

@@ -38,16 +38,28 @@ class HOW_URF_Karatel_HMG:MRAP_02_hmg_base_F
 				};
 			};
 		};
+		class TextureSources
+		{
+			class Hex
+			{
+				displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
+				author="$STR_A3_Bohemia_Interactive";
+				textures[]=
+				{
+					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
+					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
+					"\A3\Data_F\Vehicles\turret_opfor_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
+		};
 		textureList[]=
 		{
 			"Hex",
 			1
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-			"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-			"\A3\Data_F\Vehicles\turret_opfor_co.paa"
 		};
 };
 

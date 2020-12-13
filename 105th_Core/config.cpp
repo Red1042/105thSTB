@@ -64,19 +64,19 @@ class CfgEditorSubcategories
 	{
 		displayName = "Supplies & Equipment";
 	};
+	class HOW_105th_EdSubCat_Props
+	{
+		displayName = "Misc. Props";
+	};
 	class HOW_105th_EdSubCat_Waterborne
 	{
 		displayName = "Waterborne Vehicles";
 	};
-	class HOW_105th_EdSubCat_Fortifications
-	{
-		displayName = "FOB Fortifications";
-	};
-	class HOW_105th_EdSubCat_Logistics
-	{
-		displayName = "Logistics";
-	};
 	//OPFOR
+	class HOW_URF_EdSubCat_Aircraft
+	{
+		displayName = "Aircraft";
+	};
 	class HOW_URF_EdSubCat_Motorized
 	{
 		displayName = "Motorized";

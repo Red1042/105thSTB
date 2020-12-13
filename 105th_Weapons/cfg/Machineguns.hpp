@@ -3,6 +3,10 @@
 			
 			class v105_HOW_M73SAW:OPTRE_M73
 			{
+				dlc="105th";
+				author="Howard";
+				scope=2;
+				scopeArsenal=2;
 				displayName					= "[105th] M73 SAW";
 				baseWeapon 					= "v105_HOW_M73SAW";
 				descriptionShort="UNSC Squad Automatic Weapon";
@@ -99,6 +103,10 @@
 
 			class v105_HOW_M73GPMG:OPTRE_M73
 			{
+				dlc="105th";
+				author="Howard";
+				scope=2;
+				scopeArsenal=2;
 				displayName					= "[105th] M73 GPMG";
 				baseWeapon 					= "v105_HOW_M73GPMG";
 				descriptionShort="UNSC Squad Automatic Weapon";
@@ -187,7 +195,7 @@
 
 			class v105_HOW_M247SSW: OPTRE_M247
 			{
-				dlc="OPTRE";
+				dlc="105th";
 				author="Howard";
 				scope=2;
 				scopeArsenal=2;
@@ -211,7 +219,7 @@
 				
 				class FullAuto: FullAuto
 				{
-					reloadTime=0.0785;
+					reloadTime=0.08;
 					dispersion=0.00075000001;
 				};
 				class WeaponSlotsInfo: WeaponSlotsInfo

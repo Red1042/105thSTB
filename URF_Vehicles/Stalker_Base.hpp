@@ -14,7 +14,7 @@ class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 		scope=2;
 		scopeCurator=2;
 		displayName="BMP-VI Stalker IIA";
-		crew="O_URFArmy_Crewman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
 		armor=800;
@@ -24,13 +24,14 @@ class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 			{
 				weapons[]=
 				{
-					"HOW_URF_75mm_Chaingun",
+					"OPTRE_M230_URF",
 					"LMG_Minigun",
 					"missiles_titan"
 				};
 				magazines[]=
 				{
-					"HOW_40Rnd_75mm_AP","HOW_40Rnd_75mm_AP",
+					"OPTRE_100Rnd_50mm_APFSDS",
+					"OPTRE_100Rnd_50mm_HE",
 					"2000Rnd_65x39_Belt_Tracer_Green",
 					"2000Rnd_65x39_Belt_Tracer_Green",
 					"5Rnd_GAT_missiles"
@@ -38,16 +39,36 @@ class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 				};
 			};
 		};
+		class TextureSources
+		{
+			class URF
+			{
+				displayName="United Rebel Front";
+				author="Keen";
+				textures[]=
+				{
+					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
+					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
+					"URF_Vehicles\Textures\BMP2T\URF_Turret_30_RCWS.paa",
+					"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+					"A3\armor_f\data\cage_csat_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
+		};
 		textureList[]=
 		{
-			"Hex",
+			"URF",
 			1
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_01_hexarid_co.paa",
-			"A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_02_hexarid_co.paa",
-			"A3\Armor_F_Beta\APC_Tracked_02\Data\rcws30_opfor_co.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_Turret_30_RCWS.paa",
 			"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
 			"A3\armor_f\data\cage_csat_co.paa"
 		};
@@ -61,7 +82,7 @@ class HOW_URF_APC_Stalker_B:O_APC_Tracked_02_cannon_F
 		scope=2;
 		scopeCurator=2;
 		displayName="BMP-VI Stalker IIB";
-		crew="O_URFArmy_Crewman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
 		armor=800;
@@ -71,14 +92,15 @@ class HOW_URF_APC_Stalker_B:O_APC_Tracked_02_cannon_F
 			{
 				weapons[]=
 				{
-					"HOW_URF_75mm_Chaingun",
+					"OPTRE_M230_URF",
 					"HMG_127_APC",
 					"missiles_titan"
 					
 				};
 				magazines[]=
 				{
-					"HOW_40Rnd_75mm_AP","HOW_40Rnd_75mm_AP",
+					"OPTRE_100Rnd_50mm_APFSDS",
+					"OPTRE_100Rnd_50mm_HE",
 					"500Rnd_127x99_mag_Tracer_Red","500Rnd_127x99_mag_Tracer_Red",
 					"500Rnd_127x99_mag_Tracer_Red","500Rnd_127x99_mag_Tracer_Red",
 					"5Rnd_GAT_missiles"
@@ -86,17 +108,38 @@ class HOW_URF_APC_Stalker_B:O_APC_Tracked_02_cannon_F
 				};
 			};
 		};
+		class TextureSources
+		{
+			class URF
+			{
+				displayName="United Rebel Front";
+				author="Keen";
+				textures[]=
+				{
+					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
+					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
+					"URF_Vehicles\Textures\BMP2T\URF_Turret_30_RCWS.paa",
+					"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+					"A3\armor_f\data\cage_csat_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
+		};
 		textureList[]=
 		{
-			"Hex",
+			"URF",
 			1
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_01_hexarid_co.paa",
-			"A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_02_hexarid_co.paa",
-			"A3\Armor_F_Beta\APC_Tracked_02\Data\rcws30_opfor_co.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_Turret_30_RCWS.paa",
 			"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
 			"A3\armor_f\data\cage_csat_co.paa"
 		};
+		
 };

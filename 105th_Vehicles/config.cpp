@@ -73,12 +73,13 @@ class CfgPatches
 		"v105_UGV_STAG",
 		"v105_UGV_STAG_ATGM",
 		// Supply Pods
-		"HOW_105th_SupplyPod_MarineAmmo",
-		"HOW_105th_SupplyPod_MarineMED",
-		"HOW_105th_SupplyPod_MarineAT",
-		"HOW_105th_SupplyPod_ODST",
-		"HOW_105th_SupplyPod_UTIL",
-		"HOW_105th_SupplyPod_Banana",
+		"HOW_105th_SupplyPod_Rifle",
+		"HOW_105th_SupplyPod_MachineGun",
+		"HOW_105th_SupplyPod_Precision",
+		"HOW_105th_SupplyPod_Rockets",
+		"HOW_105th_SupplyPod_Medical",
+		"HOW_105th_SupplyPod_Utility",
+		"HOW_105th_SupplyPod_Demo",
 		
 		};
 		weapons[] = 
@@ -391,8 +392,9 @@ class cfgVehicles
 	};
     class VES_D77HTCI;
     class VES_D77HTCIS;
-
+	// A-164 Wipeout
 	class Plane_CAS_01_dynamicLoadout_base_F;
+	// UGV Stomper
 	class UGV_01_rcws_base_F
 	{
 		class Turrets
@@ -400,7 +402,6 @@ class cfgVehicles
 			class MainTurret;
 		};
 	};
-				
 	
 	
 	

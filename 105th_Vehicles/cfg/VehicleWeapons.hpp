@@ -46,9 +46,9 @@
 		displayName = "20mm Light Cannon";
 		displayNameShort = "20mm Light Cannon";
 		reloadTime=0.5;
-		ace_overpressure_angle = 30;  // Cone in which the damage is applied (in degrees from the muzzle of the cannon)
-        ace_overpressure_range = 10;  // Range in meters in which the damage is applied
-        ace_overpressure_damage = 0.45;  // Damage multiplier
+		ace_overpressure_angle = 0;  // Cone in which the damage is applied (in degrees from the muzzle of the cannon)
+        ace_overpressure_range = 0;  // Range in meters in which the damage is applied
+        ace_overpressure_damage = 0;  // Damage multiplier
 			magazines[] = 
 			{
 				"HOW_8Rnd_20mm_AP",
@@ -101,6 +101,31 @@
 				{
 				"OPTRE_100Rnd_50mm_APFSDS",
 				"HOW_60Rnd_50mm_APFSDS"
+				
+				};
+				modes[] = {"FullAuto"};
+				class FullAuto: MGun
+				{
+					reloadTime=0.225;
+					dispersion=0.00025;
+					minRange = 2;
+					minRangeProbab = 0.3;
+					midRange = 300;
+					midRangeProbab = 0.7;
+					maxRange = 800;
+					maxRangeProbab = 0.05;
+				};
+			};
+			class OPTRE_M230_URF: autocannon_Base_F
+			{
+				displayName = "M230 50mm";
+				displayNameShort = "";
+				
+				magazineReloadTime = 5.0;
+				magazines[] = 
+				{
+				"OPTRE_100Rnd_50mm_APFSDS",
+				"OPTRE_100Rnd_50mm_HE"
 				
 				};
 				modes[] = {"FullAuto"};

@@ -8,7 +8,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
+        author="Keen and Howard";
         displayName="D77H-TCI/AV Pelican";
         fuelCapacity=1200;
 		weapons[]=
@@ -129,7 +129,7 @@
 					class pylons1
 					{
 						maxweight=600;
-						hardpoints[]={"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[]={"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
 						attachment="FIR_Hydra_M247_P_7rnd_M";
 						bay=-1;
 						priority=2;
@@ -139,12 +139,12 @@
 					class pylons2: pylons1
 					{
 						mirroredMissilePos=1;
-						hardpoints[]={"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[]={"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
 						UIposition[]={0.1,0.1};
 					};
 					class pylons3: pylons1
 					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[] = {"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
 						priority = 5;
 						attachment = "FIR_Hydra_M247_P_7rnd_M";
 						maxweight = 600;
@@ -153,7 +153,7 @@
 					};
 					class pylons4: pylons1
 					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[] = {"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
 						priority = 5;
 						attachment = "FIR_Hydra_M247_P_7rnd_M";
 						maxweight = 1000;
@@ -163,7 +163,7 @@
 					};
 					class pylons5:pylons1
 					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[] = {"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
 						priority = 5;
 						attachment = "FIR_Hydra_M247_P_7rnd_M";
 						maxweight = 600;
@@ -173,7 +173,7 @@
 					};
 					class pylons6:pylons1
 					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[] = {"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
 						priority = 5;
 						attachment = "FIR_Hydra_M247_P_7rnd_M";
 						maxweight = 600;
@@ -284,47 +284,6 @@
         };
 	
     };
-    class v105_D77HTCIS: VES_D77HTCIS
-    {
-        side=1;
-        scopeCurator = 2;
-       	editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Pelican";
-        dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
-        displayName="D77H-TCIS Pelican (MG) [Navy]";
-        fuelCapacity=1200;
-		weapons[]=
-		{
-			
-			"HOW_Flares",	
-		};
-		magazines[]=
-		{
-			
-			"HOW_320Rnd_Flare_Chaff_Magazine",
-			"HOW_320Rnd_Flare_Chaff_Magazine"
-		};
-        hiddenSelectionsTextures[]=
-        {
-            "105th_Vehicles\textures\Pelican\v105_Pelican_Base_co.paa"
-        };
-    };
-    class v105_D77HTCIS_REACH: VES_D77HTCIS
-    {
-        side=1;
-        scopeCurator = 2;
-        editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Pelican";
-        dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
-        displayName="D77H-TCI Pelican (MG) [Reach Around]";
-        fuelCapacity=1200;
-        hiddenSelectionsTextures[]=
-        {
-            "105th_Vehicles\textures\Pelican\v105_Pelican_Reach_co.paa"
-        };
-    };
 	 class v105_HOW_D77HTCI_Keen: v105_D77HTCI_A
     {
         side=1;
@@ -355,7 +314,7 @@
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Bulck_Horizon_co.paa"
         };
     };
-	 class v105_HOW_D77HTCI_REACH_BubOday: v105_D77HTCI_A
+	class v105_HOW_D77HTCI_REACH_BubOday: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;

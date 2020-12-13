@@ -125,7 +125,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		author						= "Howard";
 		scope						= 2;
 		scopeArsenal				= 1;
-		initspeed 					= 600;
+		initspeed 					= 250;
 		count						= 50;
 	};
 	class 60Rnd_20mm_AP_shells;

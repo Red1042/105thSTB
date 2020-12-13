@@ -16,6 +16,7 @@ class HOW_AV14_Base: VES_AV14
 		tf_hasLRradio=1;
 		tf_isolatedAmount=.4;
 		tf_range=12000;
+		armor=60;
         weapons[]=
 		{
 			"weapon_Cannon_Phalanx",
@@ -29,40 +30,13 @@ class HOW_AV14_Base: VES_AV14
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
 		
-		/*class RotorLibHelicopterProperties: RotorLibHelicopterProperties
-		{
-			RTDconfig="A3\Air_F\Heli_Light_01\RTD_Heli_Light_01.xml";
-			autoHoverCorrection[]={0.28,2.8800001,0};
-			defaultCollective=0.63499999;
-			maxTorque=1500;
-			stressDamagePerSec=0;
-			maxHorizontalStabilizerLeftStress=100000;
-			maxHorizontalStabilizerRightStress=100000;
-			maxVerticalStabilizerStress=10000;
-			horizontalWingsAngleCollMin=0;
-			horizontalWingsAngleCollMax=0;
-			maxMainRotorStress=31000;
-			maxTailRotorStress=5200;
-			retreatBladeStallWarningSpeed=77.222;
-		};*/
 		altFullForce = 6000;
 		maxSpeed=450;
 		liftForceCoef=2.5;
-		cyclicAsideForceCoef=3;
-		cyclicForwardForceCoef=1.75;
-		bodyFrictionCoef=0.20000001;
+		cyclicAsideForceCoef=3.4;
+		cyclicForwardForceCoef=1.65;
+		bodyFrictionCoef=0.3000001;
 		backRotorForceCoef = 1.75;
-		/*
-		//multiplier of body friction
-		bodyFrictionCoef = 0.7;	
-		//multiplier of bank force
-		cyclicAsideForceCoef = 1.0;
-		//multiplier of dive force
-		cyclicForwardForceCoef = 1.0;
-		//multiplier of back rotor force
-		backRotorForceCoef = 1.0;	
-		*/
-		//airFriction0[] = {35, 45, 45};
 		
 		class Components: Components
 		{
@@ -109,52 +83,6 @@ class HOW_AV14_Base: VES_AV14
                         bay = 1;
 						mirroredMissilePos = 3;						
 					};
-					/*class pylons5: pylons1
-					{
-						hardpoints[] = {"FIR_F35B_Wingtip_HP","FIR_MISC"};
-						priority = 4;
-						bay = -1;  						
-						attachment = "FIR_Empty_P_1rnd_M";
-						maxweight = 200;
-						UIposition[] = {0.25,0.55};
-					};
-					class pylons6: pylons5
-					{
-						hardpoints[] = {"FIR_F35B_Combined_HP","FIR_MISC"};						
-						UIposition[] = {0.25,0.5};  
-						priority = 3;						
-						maxweight = 700;
-					};
-					class pylons7: pylons5
-					{
-						hardpoints[] = {"FIR_F35B_Combined_HP","FIR_MISC"};											
-						UIposition[] = {0.25,0.45};
-						priority = 2;					
-						maxweight = 2500;						
-					};
-					class pylons8: pylons7
-					{						
-						UIposition[] = {0.25,0.15};
-						mirroredMissilePos = 7;		
-					};
-					class pylons9: pylons6
-					{
-						UIposition[] = {0.25,0.1};
-						mirroredMissilePos = 6;								
-					};
-					class pylons10: pylons5
-					{
-						UIposition[] = {0.25,0.05};
-						mirroredMissilePos = 5;								
-					};
-					class pylons11
-					{
-						hardpoints[] = {"FIR_F35B_Gunpod_HP","FIR_MISC"};
-						attachment = "FIR_Gunpod_Nomodel_P_1rnd_M";
-						priority = 1;
-						maxweight = 1000;
-						UIposition[] = {0.25,0.30};
-					};	*/						
 				};
 			};
 		};
@@ -301,6 +229,47 @@ class HOW_AV14_Base: VES_AV14
 		class TransportBackpacks{};
 		
 	};
+	class HOW_AV14_TEST: HOW_AV14_Base
+	{
+		dlc="105th";
+		author="Howard";
+		side=1;
+		scope=1;
+		scopeCurator=1;
+		forceInGarage=1;
+		displayName="AV-14 Hornet TEST";
+		editorCategory="HOW_EdCat_105th";
+		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+		crew="VES_Rifleman_MA5B_ODST";
+		mainRotorSpeed=5;
+		backRotorSpeed=4;
+		tf_hasLRradio=1;
+		tf_isolatedAmount=.4;
+		tf_range=12000;
+		
+        weapons[]=
+		{
+			"HOW_145x114_minigun",
+			"HOW_Flares",
+			"Laserdesignator_pilotCamera"
+		};
+		magazines[]=
+		{
+			"HOW_1200Rnd_145x114_Red_Belt",
+			"HOW_320Rnd_Flare_Chaff_Magazine",
+			"Laserbatteries"
+		};
+		class TransportBackpacks{};
+		altFullForce = 6000;
+		maxSpeed=450;
+		liftForceCoef=2.5;
+		cyclicAsideForceCoef=3.35;
+		cyclicForwardForceCoef=1.5;
+		bodyFrictionCoef=0.30000001;
+		backRotorForceCoef = 1.75;
+		
+	};
+	
 	
 
 	

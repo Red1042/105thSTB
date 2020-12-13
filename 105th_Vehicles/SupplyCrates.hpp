@@ -1,36 +1,66 @@
 class OPTRE_Ammo_SupplyPod_Empty;
 
-class HOW_105th_SupplyPod_MarineAmmo: OPTRE_Ammo_SupplyPod_Empty
+class HOW_105th_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
 {
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Marine Ammo Supply Pod";
+	displayName = "Rifle Ammo Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
 		{
-			#include "cfg\SupplyPods\ResupplyPodMarineAmmo.hpp"
+			#include "cfg\SupplyPods\ResupplyPodRifle.hpp"
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_105th_SupplyPod_MarineAT:OPTRE_Ammo_SupplyPod_Empty
+class HOW_105th_SupplyPod_MachineGun: OPTRE_Ammo_SupplyPod_Empty
 {
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Special Weapons Supply Pod";
+	displayName = "Machinegun Ammo Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
 		{
-			#include "cfg\SupplyPods\ResupplyPodMarineRockets.hpp"
+			#include "cfg\SupplyPods\ResupplyPodMachinegun.hpp"
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_105th_SupplyPod_MarineMED: OPTRE_Ammo_SupplyPod_Empty
+class HOW_105th_SupplyPod_Precision: OPTRE_Ammo_SupplyPod_Empty
+{
+	scopeCurator = 2;
+	scope  = 2;
+	Author = "Howard";
+	displayName = "Precision Weapons Supply Pod";
+	editorCategory = "HOW_EdCat_105th"
+	editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		class TransportItems
+		{
+			#include "cfg\SupplyPods\ResupplyPodPrecision.hpp"
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+};
+class HOW_105th_SupplyPod_Rockets: OPTRE_Ammo_SupplyPod_Empty
+{
+	scopeCurator = 2;
+	scope  = 2;
+	Author = "Howard";
+	displayName = "Rockets/Missiles Supply Pod";
+	editorCategory = "HOW_EdCat_105th"
+	editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		class TransportItems
+		{
+			#include "cfg\SupplyPods\ResupplyPodRockets.hpp"
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+};
+class HOW_105th_SupplyPod_Medical: OPTRE_Ammo_SupplyPod_Empty
 {
 	scopeCurator = 2;
 	scope  = 2;
@@ -40,12 +70,12 @@ class HOW_105th_SupplyPod_MarineMED: OPTRE_Ammo_SupplyPod_Empty
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
 		{
-			#include "cfg\SupplyPods\ResupplyPodMarineMedical.hpp"
+			#include "cfg\SupplyPods\ResupplyPodMedical.hpp"
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_105th_SupplyPod_MarineUTIL: OPTRE_Ammo_SupplyPod_Empty
+class HOW_105th_SupplyPod_Utility: OPTRE_Ammo_SupplyPod_Empty
 {
 	scopeCurator = 2;
 	scope  = 2;
@@ -60,48 +90,20 @@ class HOW_105th_SupplyPod_MarineUTIL: OPTRE_Ammo_SupplyPod_Empty
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_105th_SupplyPod_MarineEXP: OPTRE_Ammo_SupplyPod_Empty
+class HOW_105th_SupplyPod_Demo: OPTRE_Ammo_SupplyPod_Empty
 {
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Explosive Ordnance Supply Pod";
+	displayName = "Demolitions Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
 		{
-			#include "cfg\SupplyPods\ResupplyPodExplosives.hpp"
+			#include "cfg\SupplyPods\ResupplyPodDemo.hpp"
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_105th_SupplyPod_ODST: OPTRE_Ammo_SupplyPod_Empty
-{
-	scopeCurator = 2;
-	scope  = 2;
-	Author = "Howard";
-	displayName = "ODST Supply Pod";
-	editorCategory = "HOW_EdCat_105th"
-	editorSubCategory = "HOW_105th_EdSubCat_Supply";
-		class TransportItems
-		{
-			#include "cfg\SupplyPods\ResupplyPodODST.hpp"
-		};
-		class TransportMagazines{};
-		class TransportWeapons{};
-};
-class HOW_105th_SupplyPod_Banana: OPTRE_Ammo_SupplyPod_Empty
-{
-	scopeCurator = 2;
-	scope  = 2;
-	Author = "Howard";
-	displayName = "Banana Supply Pod";
-	editorCategory = "HOW_EdCat_105th"
-	editorSubCategory = "HOW_105th_EdSubCat_Supply";
-		class TransportItems
-		{
-			#include "cfg\SupplyPods\ResupplyPodBanana.hpp"
-		};
-		class TransportMagazines{};
-		class TransportWeapons{};
-};
+
+

@@ -24,7 +24,7 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 		scope=2;
 		scopeCurator=2;
 		displayName="ZSU-35 Tigris II";
-		crew="O_URFArmy_Crewman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
 		
@@ -35,12 +35,12 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 				weapons[]=
 				{
 					"HOW_URF_Vulcan_20mm",
-					"weapon_rim162Launcher"
+					
 				};
 				magazines[]=
 				{
 					"HOW_URF_ABM_20MM_2000Rnd",
-					"magazine_Missile_rim162_x8",
+					
 				};
 			};
 		};
@@ -54,8 +54,8 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 					{
 						class AirTarget
 						{
-							minRange=12000;
-							maxRange=12000;
+							minRange=100;
+							maxRange=3000;
 							objectDistanceLimitCoef=-1;
 							viewDistanceLimitCoef=-1;
 						};
@@ -78,16 +78,36 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 				};
 			};
 		};
+		class TextureSources
+		{
+			class URF
+			{
+				displayName="United Rebel Front";
+				author="Keen";
+				textures[]=
+				{
+					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
+					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
+					"URF_Vehicles\Textures\BMP2T\URF_Turret_30_RCWS.paa",
+					"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
+					"A3\armor_f\data\cage_csat_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
+		};
 		textureList[]=
 		{
-			"Hex",
+			"URF",
 			1
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_01_aa_hexarid_co.paa",
-			"A3\Armor_F_Beta\APC_Tracked_02\Data\apc_tracked_02_ext_02_hexarid_co.paa",
-			"A3\Armor_F_Beta\APC_Tracked_01\Data\apc_tracked_01_aa_tower_opfor_co.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
+			"URF_Vehicles\Textures\BMP2T\URF_Turret_30_RCWS.paa",
 			"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
 			"A3\armor_f\data\cage_csat_co.paa"
 		};
