@@ -224,7 +224,7 @@
 				statement = "[this] execVM ""\FIR_AirWeaponSystem_US\Script\ECM\ECM_ON.sqf"";";
 				onlyforplayer = "False";
 				hideOnUse = 1;
-			};						
+			};					
 		};
 		
 		class eventhandlers : EventHandlers
@@ -266,7 +266,6 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Base_co.paa"
         };
-	
     };
     class v105_D77HTCI_REACH: VES_D77HTCI
     {

@@ -1,7 +1,12 @@
+
+
+
+
 class OPTRE_Ammo_SupplyPod_Empty;
 
 class HOW_105th_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
 {
+	ace_cargo_size = 3;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
@@ -17,6 +22,7 @@ class HOW_105th_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_MachineGun: OPTRE_Ammo_SupplyPod_Empty
 {
+	ace_cargo_size = 3;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
@@ -32,6 +38,7 @@ class HOW_105th_SupplyPod_MachineGun: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Precision: OPTRE_Ammo_SupplyPod_Empty
 {
+	ace_cargo_size = 3;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
@@ -47,6 +54,7 @@ class HOW_105th_SupplyPod_Precision: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Rockets: OPTRE_Ammo_SupplyPod_Empty
 {
+	ace_cargo_size = 3;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
@@ -62,6 +70,7 @@ class HOW_105th_SupplyPod_Rockets: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Medical: OPTRE_Ammo_SupplyPod_Empty
 {
+	ace_cargo_size = 3;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
@@ -77,6 +86,7 @@ class HOW_105th_SupplyPod_Medical: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Utility: OPTRE_Ammo_SupplyPod_Empty
 {
+	ace_cargo_size = 3;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
@@ -92,6 +102,7 @@ class HOW_105th_SupplyPod_Utility: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Demo: OPTRE_Ammo_SupplyPod_Empty
 {
+	ace_cargo_size = 3;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
@@ -105,5 +116,54 @@ class HOW_105th_SupplyPod_Demo: OPTRE_Ammo_SupplyPod_Empty
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-
+////////////////////////Pelican Resupply Module (Override this to change supply pod dropdown list.)
+class Module_F;
+class Module_OPTRE_PelicanSupplyDrop: Module_F
+{
+	class Arguments
+	{
+		class box1
+		{
+			defaultValue = "HOW_105th_SupplyPod_Rifle";
+			class values
+			{
+				class n1
+				{
+					name = "Rifle Pod";
+					value = "HOW_105th_SupplyPod_Rifle";
+				};
+				class n2
+				{
+					name = "Machinegun Pod";
+					value = "HOW_105th_SupplyPod_MachineGun";
+				};
+				class n3
+				{
+					name = "Precision Pod";
+					value = "HOW_105th_SupplyPod_Precision";
+				};
+				class n4
+				{
+					name = "Rocket Pod";
+					value = "HOW_105th_SupplyPod_Rockets";
+				};
+				class n5
+				{
+					name = "Medical Pod";
+					value = "HOW_105th_SupplyPod_Medical";
+				};
+				class n6
+				{
+					name = "Utility Pod";
+					value = "HOW_105th_SupplyPod_Utility";
+				};
+				class n7
+				{
+					name = "Demolitions Pod";
+					value = "HOW_105th_SupplyPod_Demo";
+				};
+			};
+		};
+	};
+};
 

@@ -94,62 +94,12 @@ class CfgFunctions
 {
 	class V_FZ
 	{
-		class WarthogLights
-		{
-			file = "105th_Core\init";
-			class WarthogLightsAdd{};
-			class WarthogLightsOn{};
-			class WarthogLightsOff{};
-		};
-		class PelicanAddMG
-		{
-			file = "105th_Core\init";
-			class PelicanAddMG{};
-		};
-		class ScorpionAddMG
-		{
-			file = "105th_Core\init";
-			class ScorpionAddMG{};
-		};
-		class FalconAddMGs
-		{
-			file = "105th_Core\init";
-			class FalconAddMGs{};
-		};
-		class HoneybadgerRemoveTurret
-		{
-			file = "105th_Core\init";
-			class HoneybadgerRemoveTurret{};
-		};
 		class PelicanMagLiftSystem
 		{
-			file = "105th_Core\init";
-			class PelicanLoadValidate{};
-			class PelicanUnLoadValidate{};
-			class SlipspaceRuptureDetected{};
+			
+			class PelicanLoadValidate{file = "105th_Core\init\fn_PelicanLoadValidate.sqf";};
+			class PelicanUnLoadValidate{file = "105th_Core\init\fn_PelicanUnloadValidate.sqf";};
 		};
-		class PelicanFncs
-		{
-			file = "105th_Core\init";
-			class ThrusterEngage{};
-			class ThrusterDisengage{};
-			class ThrusterAnimate{};
-			class AirbrakeEngage{};
-		};
-		class MGDetach
-		{
-			file = "105th_Core\init";
-			class MGDetach{};
-		};
-		class LifeboatLaunch
-		{
-			file = "105th_Core\init";
-			class LifeboatLaunch{};
-		};
-		class AutomaticSlimLeg
-		{
-			file = "105th_Core\init";
-			class AutomaticSlimLeg{};
-		};
+
 	};
 };

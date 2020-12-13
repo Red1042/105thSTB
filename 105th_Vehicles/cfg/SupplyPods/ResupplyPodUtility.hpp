@@ -13,3 +13,5 @@ item_xx(1Rnd_SmokeBlue_Grenade_shell,5);
 item_xx(OPAEX_1Rnd_Smoke_Grenade_shell,10);
 item_xx(OPAEX_1Rnd_SmokeRed_Grenade_shell,10);
 item_xx(ACE_IR_Strobe_Item,10);
+item_xx(ACE_wirecutter,2);
+item_xx(ACE_UAVBattery,1);
