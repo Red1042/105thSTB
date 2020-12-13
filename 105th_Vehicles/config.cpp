@@ -237,7 +237,14 @@ class CfgPatches
 		};
 		ammo[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"105th_Core"};
+		requiredAddons[] = 
+		{
+			"105th_Core",
+			"OPTRE_Misc_Crates",
+			"OPTRE_Modules",
+			"V_FZ_Vehicles",
+			
+		};
 	};
 };
 /*class CfgAddons
