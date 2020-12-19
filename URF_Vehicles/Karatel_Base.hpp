@@ -20,7 +20,7 @@ class HOW_URF_Karatel_HMG:MRAP_02_hmg_base_F
 		scope=2;
 		scopeCurator=2;
 		displayName="Karatel II (HMG)";
-		crew="O_URFArmy_Regular_Rifleman_01";
+		crew="O_OURFArmy_Rifleman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
@@ -71,7 +71,7 @@ class HOW_URF_Karatel_GMG:MRAP_02_gmg_base_F
 		scope=2;
 		scopeCurator=2;
 		displayName="Karatel II (GMG)";
-		crew="O_URFArmy_Regular_Rifleman_01";
+		crew="O_OURFArmy_Rifleman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
@@ -110,7 +110,7 @@ class HOW_URF_Karatel_AT:MRAP_02_gmg_base_F
 		scope=2;
 		scopeCurator=2;
 		displayName="Karatel II (AT)";
-		crew="O_URFArmy_Regular_Rifleman_01";
+		crew="O_OURFArmy_Rifleman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
