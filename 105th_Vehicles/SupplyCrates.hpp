@@ -6,11 +6,11 @@ class OPTRE_Ammo_SupplyPod_Empty;
 
 class HOW_105th_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
 {
-	ace_cargo_size = 3;
+	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Rifle Ammo Supply Pod";
+	displayName = "[105th] Rifle Ammo Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
@@ -22,11 +22,11 @@ class HOW_105th_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_MachineGun: OPTRE_Ammo_SupplyPod_Empty
 {
-	ace_cargo_size = 3;
+	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Machinegun Ammo Supply Pod";
+	displayName = "[105th] Machinegun Ammo Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
@@ -38,11 +38,11 @@ class HOW_105th_SupplyPod_MachineGun: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Precision: OPTRE_Ammo_SupplyPod_Empty
 {
-	ace_cargo_size = 3;
+	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Precision Weapons Supply Pod";
+	displayName = "[105th] Precision Weapons Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
@@ -54,11 +54,11 @@ class HOW_105th_SupplyPod_Precision: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Rockets: OPTRE_Ammo_SupplyPod_Empty
 {
-	ace_cargo_size = 3;
+	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Rockets/Missiles Supply Pod";
+	displayName = "[105th] Rockets/Missiles Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
@@ -70,11 +70,11 @@ class HOW_105th_SupplyPod_Rockets: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Medical: OPTRE_Ammo_SupplyPod_Empty
 {
-	ace_cargo_size = 3;
+	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Medical Supply Pod";
+	displayName = "[105th] Medical Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
@@ -86,11 +86,11 @@ class HOW_105th_SupplyPod_Medical: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Utility: OPTRE_Ammo_SupplyPod_Empty
 {
-	ace_cargo_size = 3;
+	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Utility Supply Pod";
+	displayName = "[105th] Utility Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
@@ -102,11 +102,11 @@ class HOW_105th_SupplyPod_Utility: OPTRE_Ammo_SupplyPod_Empty
 };
 class HOW_105th_SupplyPod_Demo: OPTRE_Ammo_SupplyPod_Empty
 {
-	ace_cargo_size = 3;
+	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
 	Author = "Howard";
-	displayName = "Demolitions Supply Pod";
+	displayName = "[105th] Demolitions Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
@@ -129,37 +129,37 @@ class Module_OPTRE_PelicanSupplyDrop: Module_F
 			{
 				class n1
 				{
-					name = "Rifle Pod";
+					name = "[105th] Rifle Pod";
 					value = "HOW_105th_SupplyPod_Rifle";
 				};
 				class n2
 				{
-					name = "Machinegun Pod";
+					name = "[105th] Machinegun Pod";
 					value = "HOW_105th_SupplyPod_MachineGun";
 				};
 				class n3
 				{
-					name = "Precision Pod";
+					name = "[105th] Precision Pod";
 					value = "HOW_105th_SupplyPod_Precision";
 				};
 				class n4
 				{
-					name = "Rocket Pod";
+					name = "[105th] Rocket Pod";
 					value = "HOW_105th_SupplyPod_Rockets";
 				};
 				class n5
 				{
-					name = "Medical Pod";
+					name = "[105th] Medical Pod";
 					value = "HOW_105th_SupplyPod_Medical";
 				};
 				class n6
 				{
-					name = "Utility Pod";
+					name = "[105th] Utility Pod";
 					value = "HOW_105th_SupplyPod_Utility";
 				};
 				class n7
 				{
-					name = "Demolitions Pod";
+					name = "[105th] Demolitions Pod";
 					value = "HOW_105th_SupplyPod_Demo";
 				};
 			};

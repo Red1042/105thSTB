@@ -203,6 +203,52 @@ class HOW_M12_LRV_ODST : VES_M12_LRV
 			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
 		};
 };
+class HOW_M12G1_LRV_ODST : VES_M12G1_LRV
+{
+		dlc="105th";
+		author="Howard, Vespade";
+		
+		scope=2;
+		scopeCurator=2;
+		displayName="M12 Warthog (M68 ALIM) [ODST]";
+		editorCategory="HOW_EdCat_105th";
+        editorSubcategory="HOW_105th_EdSubCat_Motorized";
+		slowSpeedForwardCoef = 0.090;
+		class TransportItems
+		{
+			#include "cfg\VehicleGearODST.hpp"
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Vehicles\textures\Hog\V_M12_BLK_CO.paa",
+			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
+		};
+};
+class HOW_M813_TT_ODST:VES_M813_TT
+{
+		dlc="105th";
+		author="Howard, Vespade";
+		
+		scope=2;
+		scopeCurator=2;
+		displayName="M813 Warthog Transport [ODST]";
+		editorCategory="HOW_EdCat_105th";
+        editorSubcategory="HOW_105th_EdSubCat_Motorized";
+		slowSpeedForwardCoef = 0.090;
+		class TransportItems
+		{
+			#include "cfg\VehicleGearODST.hpp"
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Vehicles\textures\Hog\V_M12_BLK_CO.paa",
+			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
+		};
+};
 
 
 

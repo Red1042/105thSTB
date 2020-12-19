@@ -815,6 +815,8 @@ class cfgVehicles
 		{
 			
 		};
+		ace_cargo_space = 4;
+		ace_cargo_hasCargo = 1;
 	};
 	
 };
