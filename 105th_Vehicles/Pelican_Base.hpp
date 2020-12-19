@@ -1,15 +1,17 @@
- 
+ //Pelicans
+	class VES_D77HTCI_A;
+    class VES_D77HTCI;
  
  
  class v105_D77HTCI_A: VES_D77HTCI_A
     {
-        side=1;
+        
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
         author="Keen and Howard";
-        displayName="D77H-TCI/AV Pelican";
+        displayName="D77H-TCI/AV Pelican [Navy]";
         fuelCapacity=1200;
 		weapons[]=
 		{
@@ -19,7 +21,6 @@
 		};
 		magazines[]=
 		{
-			
 			"HOW_320Rnd_Flare_Chaff_Magazine",
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
@@ -36,14 +37,14 @@
 						class AirTarget
 						{
 							minRange = 10;
-							maxRange = 10000;
+							maxRange = 16000;
 							objectDistanceLimitCoef	= -1;
 							viewDistanceLimitCoef	= -1;
 						};
 						class GroundTarget
 						{
 							minRange = 10;
-							maxRange = 8000;
+							maxRange = 16000;
 							objectDistanceLimitCoef	= -1;
 							viewDistanceLimitCoef	= -1;
 						};
@@ -55,14 +56,14 @@
 						class AirTarget
 						{
 							minRange = 10;
-							maxRange = 8000;
+							maxRange = 16000;
 							objectDistanceLimitCoef	= -1;
 							viewDistanceLimitCoef	= -1;
 						};
 						class GroundTarget
 						{
 							minRange = 10;
-							maxRange = 8000;
+							maxRange = 16000;
 							objectDistanceLimitCoef	= -1;
 							viewDistanceLimitCoef	= -1;
 						};
@@ -116,11 +117,6 @@
 					};
 				};
 			};
-		
-			
-			
-			
-			
 			class TransportPylonsComponent
 			{
 				UIPicture="\OPAEX_Pelican\Pelican.paa";
@@ -189,62 +185,11 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Base_co.paa"
         };
-		class UserActions : UserActions
-		{
-			class AMS_LiteOpen
-			{
-				displayName = "<t color='#739eff'>Open AMS Lite</t>";
-				position = "pos cano";
-				radius = 15;
-				shortcut = "User3";
-				condition = "player in this and (speed this < 1)";
-				statement = "this execVM ""\FIR_AirWeaponSystem_US\Script\AMS\AMS_Lite\AMS_Lite_GUI_Open.sqf""";
-				onlyforplayer = "false";
-				priority = 6;
-				hideOnUse = 1;
-			};
-			class Aircraft_MFD_Open_N
-			{
-				displayName = "Open I-TGT System";
-				position = "pos cano";
-				radius = 15;
-				shortcut = "User4";
-				condition = "('FIR_TGTPOD' in weapons this or 'Laserdesignator_pilotCamera' in weapons this) and player in this and isengineon this";				
-				statement = "this execVM ""\FIR_AirWeaponSystem_US\Script\TGTSystem\FIR_AWS_MFD_N_Open.sqf""";
-				onlyforplayer = "false";
-				hideOnUse = 1;
-			};
-			class ECM_ON
-			{
-				displayName = "ECM JAMMER ON";
-				position = "pos cano";
-				radius = 15;
-				shortcut = "User2";
-				condition = "player in this and isengineon this and (this getvariable 'ECMJAMMER' == 'yes' or 'FIR_ECMPOD' in weapons this)";
-				statement = "[this] execVM ""\FIR_AirWeaponSystem_US\Script\ECM\ECM_ON.sqf"";";
-				onlyforplayer = "False";
-				hideOnUse = 1;
-			};					
-		};
-		
-		class eventhandlers : EventHandlers
-		{
-			
-			class FIR_AWS_Common_EH
-			{
-				Init = "[_this select 0,'yes'] execVM ""\FIR_AirWeaponSystem_US\Script\init\init.sqf"";";			
-				hit = "_this call bis_fnc_planeAiEject";
-				landing = "[_this,true] call bis_fnc_aircraftTailhookAi";
-				landingcanceled = "[_this,false] call bis_fnc_aircraftTailhookAi";
-				engine = "_this call bis_fnc_aircraftFoldingWings";
-				gear = "_this call bis_fnc_aircraftFoldingWings";			
-			};			
-		};
     };
     
     class v105_D77HTCI: VES_D77HTCI
     {
-        side=1;
+        
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Pelican";
@@ -267,7 +212,86 @@
             "105th_Vehicles\textures\Pelican\v105_Pelican_Base_co.paa"
         };
     };
-    class v105_D77HTCI_REACH: VES_D77HTCI
+/*	class v105_D78HTCI_AV:v105_D77HTCI_A
+	{
+		author="Keen and Howard";
+        displayName="D78H-TCI/AV Gunship Pelican [Navy]";
+		class Turrets:Turrets
+		{
+			class CopilotTurret:CopilotTurret
+			{
+				weapons[]=
+				{
+					"v105_gatling_30mm",
+					"Laserdesignator_mounted"
+				};
+				magazines[]=
+				{
+					"250Rnd_30mm_HE_shells_Tracer_Green",
+					"250Rnd_30mm_HE_shells_Tracer_Green",
+					"250Rnd_30mm_APDS_shells_Tracer_Green",
+					"250Rnd_30mm_APDS_shells_Tracer_Green",
+					"Laserbatteries"
+				};
+				stabilizedInAxes=4;
+			};
+		};
+		class pilotCamera
+        {
+            class OpticsIn
+            {
+                class Wide
+                {
+                    opticsDisplayName = "WFOV";
+                    initAngleX = 0;
+                    minAngleX = 0;
+                    maxAngleX = 0;
+                    initAngleY = 0;
+                    minAngleY = 0;
+                    maxAngleY = 0;
+                    initFov = "(75 / 120)";
+                    minFov = "(75 / 120)";
+                    maxFov = "(75 / 120)";
+                    directionStabilized = 1;
+                    visionMode[] = {"Normal","NVG","Ti"};
+                    thermalMode[] = {0,1};
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                };
+                class Medium: Wide
+                {
+                    opticsDisplayName = "MFOV";
+                    initFov = "(14.4 / 120)";
+                    minFov = "(14.4 / 120)";
+                    maxFov = "(14.4 / 120)";
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+                };
+                class Narrow: Wide
+                {
+                    opticsDisplayName = "NFOV";
+                    initFov = "(4.8 / 120)";
+                    minFov = "0.01";
+                    maxFov = "(4.8 / 120)";
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+                };
+            };
+            minTurn = -90;
+            maxTurn = 90;
+            initTurn = 0;
+            minElev = -10;
+            maxElev = 90;
+            initElev = 25;
+            maxXRotSpeed = 1;
+            maxYRotSpeed = 1;
+            maxMouseXRotSpeed = 0.5;
+            maxMouseYRotSpeed = 0.5;
+            pilotOpticsShowCursor = 1;
+            controllable = 1;
+        };
+        memoryPointDriverOptics = "gunnerview";
+	}; */
+/*   
+ 	class v105_D77HTCI_REACH: VES_D77HTCI
     {
         side=1;
         scopeCurator = 2;
@@ -283,7 +307,8 @@
         };
 	
     };
-	 class v105_HOW_D77HTCI_Keen: v105_D77HTCI_A
+*/
+/*	 class v105_HOW_D77HTCI_Keen: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
@@ -297,8 +322,8 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Reach_Keen_co.paa"
         };
-    };
-	 class v105_HOW_D77HTCI_BulcHori: v105_D77HTCI_A
+    }; */
+/*	 class v105_HOW_D77HTCI_BulcHori: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
@@ -312,8 +337,8 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Bulck_Horizon_co.paa"
         };
-    };
-	class v105_HOW_D77HTCI_REACH_BubOday: v105_D77HTCI_A
+    }; */
+/*	class v105_HOW_D77HTCI_REACH_BubOday: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
@@ -327,8 +352,8 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Bubba_ODay_co.paa"
         };
-    };
-	 class v105_HOW_D77HTCI_SHARK_MeatWind: v105_D77HTCI_A
+    };	*/
+/*	 class v105_HOW_D77HTCI_SHARK_MeatWind: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
@@ -342,8 +367,8 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Meatballs_Mailwind_2_co.paa"
         };
-    };
-	 class v105_HOW_D77HTCI_SHARK_Ragith: v105_D77HTCI_A
+    }; */
+/*	 class v105_HOW_D77HTCI_SHARK_Ragith: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
@@ -357,4 +382,4 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Smith_Ragnarson_co.paa"
         };
-    };
+    }; */

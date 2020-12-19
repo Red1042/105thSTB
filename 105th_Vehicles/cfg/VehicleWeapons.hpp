@@ -368,7 +368,7 @@
 	// Pelican Ordnances
 			//
 			
-			class OPTRE_M638
+	/*		class OPTRE_M638
 				{
 					ballisticsComputer=4;
 					displayName="M638 Autocannon";
@@ -387,7 +387,21 @@
 						maxRangeProbab=0.050000001;
 					};
 				};
-	
+				*/
+			class OPTRE_M638;
+			class v105_gatling_30mm:OPTRE_M638
+			{
+				ballisticsComputer=1;
+				canLock = 2;
+				displayName="M917 Autocannon";
+				descriptionShort="30mm";
+				displayNameShort="M917";
+				magazines[]=
+				{
+					"250Rnd_30mm_HE_shells_Tracer_Green",
+					"250Rnd_30mm_APDS_shells_Tracer_Green",
+				};
+			};
 			// Light Weaponry
 			class FIR_AIM9X;
 			class v105_FIR_AIM9X:FIR_AIM9X

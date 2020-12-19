@@ -4,23 +4,13 @@
 
 class B_LSV_01_unarmed_F;
 class B_LSV_01_AT_F;
-class LSV_01_armed_base_F
-{
-	class Turrets
-	{
-		class TopTurret;
-		class CodRiverTurret;
-		class CargoTurret_02;
-		class CargoTurret_03;
-		class AnimationSources;
-	};
-};
+class LSV_01_armed_base_F;
 
 class HOW_Fossa_unarmed : B_LSV_01_unarmed_F
 {
 		dlc="105th";
 		author="Howard";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M77 Fossa (Unarmed)";
@@ -69,7 +59,7 @@ class HOW_Fossa_armed : LSV_01_armed_base_F
 {
 		dlc="105th";
 		author="Howard";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M77 Fossa (Armed)";
@@ -104,9 +94,9 @@ class HOW_Fossa_armed : LSV_01_armed_base_F
 							"100Rnd_127x99_mag_Tracer_Red"
 						};
 					};
-					class CodRiverTurret:CodRiverTurret{};
-					class CargoTurret_02:CargoTurret_02{};
-					class CargoTurret_03:CargoTurret_03{};
+					//class CodRiverTurret:CodRiverTurret{};
+					//class CargoTurret_02:CargoTurret_02{};
+					//class CargoTurret_03:CargoTurret_03{};
 				};
 			class AnimationSources
 			{
@@ -163,7 +153,7 @@ class HOW_Fossa_armed_AT : B_LSV_01_AT_F
 {
 		dlc="105th";
 		author="Howard";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M77 Fossa (AT)";

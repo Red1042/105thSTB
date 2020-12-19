@@ -14,7 +14,7 @@ class HOW_URF_APC_Otokar:APC_Wheeled_02_base_F
 		scope=2;
 		scopeCurator=2;
 		displayName="Otokar APC II";
-		crew="O_URFArmy_Crewman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
 		armor=500;

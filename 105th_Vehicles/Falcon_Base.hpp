@@ -108,7 +108,8 @@
 		class TransportWeapons{};
     };
 	
-	class v105_UH144S_AM: VES_UH144S_A
+/*	
+    class v105_UH144S_AM: VES_UH144S_A
     {
         side=1;
         scopeCurator = 2;
@@ -145,6 +146,7 @@
 			"168Rnd_CMFlare_Chaff_Magazine"
 		};
     };
+*/
 	
 	class v105_UH144S_ARC: VES_UH144S_A
     {
@@ -184,6 +186,7 @@
 			"168Rnd_CMFlare_Chaff_Magazine"
 		};
     };
+/*
     class v105_UH144S_JLonger_ARC:v105_UH144S_ARC
     {
         author="Longer, Vespade";
@@ -210,3 +213,4 @@
             "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
         };
     };
+*/

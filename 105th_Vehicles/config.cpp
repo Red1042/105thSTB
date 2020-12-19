@@ -50,9 +50,7 @@ class CfgPatches
 		"v105_UH144S_ARC",
 		//Pelicans
 		"v105_D77HTCI_A",
-		"v105_D77HTCIS_A",
 		"v105_D77HTCI",
-		"v105_D77HTCIS",
 		"v105_D77HTCI_REACH",
 		"v105_HOW_D77HTCI_REACH_BubOday",
 		"v105_HOW_D77HTCI_BulcHori",
@@ -105,7 +103,7 @@ class CfgPatches
 			"v105_FalconGL",
 			
 			// Pelican Weapons
-			"OPTRE_M638",
+			"v105_gatling_30mm",
 			"v105_FIR_AIM9X",
 			"v105_FIR_AIM120",
 			"v105_FIR_AGM65",
@@ -242,21 +240,30 @@ class CfgPatches
 			"105th_Core",
 			"OPTRE_Misc_Crates",
 			"OPTRE_Modules",
+			"OPTRE_Vehicles",
+			"OPTRE_Vehicles_Pelican",
+			"OPTRE_Vehicles_Warthog",
+			"OPTRE_Vehicles_Hornet",
+			"OPTRE_Weapons",
+			"OPTRE_Weapons_Vehicle",
 			"V_FZ_Vehicles",
+			"V_SO_Magazines",
+			"V_SO_Weapons",
+			"A3_Data_F",
+			"A3_Weapons_F",
+			"A3_Air_F",
+			"A3_Air_F_Beta",
+			"A3_Armor_F_Beta",
+			"A3_Armor_F_Beta_APC_Wheeled_01",
+			"A3_Soft_F_Exp",
+			"A3_Soft_F_Exp_LSV_01",
+			"A3_Armor_F_Tank",
+			"A3_Armor_F_Tank_AFV_Wheeled_01",
 			
 		};
 	};
 };
-/*class CfgAddons
-{
-	class PreloadAddons
-	{
-		class 105th_Vehicles
-		{
-			list[] = {"105th_Weapons"};
-		};
-	};
-};*/
+
 class UserActions;
 class Components;
 class ViewGunner;
@@ -264,6 +271,7 @@ class ViewOptics;
 class Turrets;
 class NewTurret;
 class MainTurret;
+class TopTurret;
 class CopilotTurret;
 class CargoGunner_1;
 class CommanderOptics;
@@ -345,42 +353,10 @@ class cfgMagazines
 class cfgVehicles
 {
 	//Hound
-	class B_APC_Wheeled_01_cannon_F
-		{
-			class Turrets
-			{
-				class MainTurret;	
-			};
-		};
+	class B_APC_Wheeled_01_cannon_F;
 	//Timberwolves
-	class AFV_Wheeled_01_base_F
-    {
-        class Turrets
-        {
-            class MainTurret
-            {
-                class Turrets
-                {
-                    class CommanderOptics;
-                };
-          
-            };
-        };
-     };
-     
-	class AFV_Wheeled_01_up_base_F
-    {
-        class Turrets
-        {
-            class MainTurret
-            {
-                class Turrets
-                {
-                    class CommanderOptics;
-                };
-            };
-        };
-    };
+	class AFV_Wheeled_01_base_F;
+	class AFV_Wheeled_01_up_base_F;
 	//Hornet
 	class VES_AV14;
 	//Falcons
@@ -388,27 +364,11 @@ class cfgVehicles
     class VES_UH144S;
     class VES_UH144_A;
     class VES_UH144S_A;
-	//Pelicans
-	class VES_D77HTCI_A
-	{
-		class UserActions;
-	};
-    class VES_D77HTCIS_A
-	{
-		class UserActions;
-	};
-    class VES_D77HTCI;
-    class VES_D77HTCIS;
+	
 	// A-164 Wipeout
 	class Plane_CAS_01_dynamicLoadout_base_F;
 	// UGV Stomper
-	class UGV_01_rcws_base_F
-	{
-		class Turrets
-		{
-			class MainTurret;
-		};
-	};
+	class UGV_01_rcws_base_F;
 	
 	
 	

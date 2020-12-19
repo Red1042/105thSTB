@@ -10,7 +10,7 @@ class HOW_M12 : VES_M12
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog";
@@ -29,7 +29,7 @@ class HOW_M12_LRV : VES_M12_LRV
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog (M41 LAAG)";
@@ -49,7 +49,7 @@ class HOW_M12G1_LRV : VES_M12G1_LRV
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog (M68 ALIM)";
@@ -67,7 +67,7 @@ class HOW_M12A1_LRV : VES_M12A1_LRV
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog (ATGM)";
@@ -85,7 +85,7 @@ class HOW_M813_TT:VES_M813_TT
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M813 Warthog Transport";
@@ -103,7 +103,7 @@ class HOW_M813_MORT: VES_M813_TT
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M813 Warthog TT (82mm Supplies)";
@@ -122,7 +122,7 @@ class HOW_M12_APC_MED:VES_M12_APC_MED
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog Medical APC";
@@ -143,7 +143,7 @@ class HOW_M12_APC:VES_M12_APC
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog APC";
@@ -161,7 +161,7 @@ class HOW_M12_ODST : HOW_M12
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog [ODST]";
@@ -184,7 +184,7 @@ class HOW_M12_LRV_ODST : VES_M12_LRV
 {
 		dlc="105th";
 		author="Howard, Vespade";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog (M41 LAAG) [ODST]";
@@ -209,20 +209,12 @@ class HOW_M12_LRV_ODST : VES_M12_LRV
 
 
 // Experimentals
-class OPTRE_M12_LRV
-{
-	class Turrets
-	{
-		class CargoGunner_1;
-		class MainTurret;
-	};
-};
-
+class OPTRE_M12_LRV;
 class HOW_M12_LRV_ExpA : OPTRE_M12_LRV
 {
 		dlc="105th";
 		author="Howard";
-		side=1;
+		
 		scope=1;
 		scopeCurator=1;
 		displayName="M12 Warthog Experiment A";
@@ -261,19 +253,12 @@ class HOW_M12_LRV_ExpA : OPTRE_M12_LRV
 			};
 		};
 };
-class OPTRE_M12R_AA
-{
-	class Turrets
-	{
-		class CargoGunner_1;
-		class MainTurret;
-	};
-};
+class OPTRE_M12R_AA;
 class HOW_M12_Mortar: OPTRE_M12R_AA
 {
-	dlc="105th";
+		dlc="105th";
 		author="Howard";
-		side=1;
+		
 		scope=2;
 		scopeCurator=2;
 		displayName="M12 Warthog (Mortar)";

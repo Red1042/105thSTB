@@ -41,6 +41,8 @@
 				scope						= 2;
 				scopeArsenal				= 2;
 				displayName					= "MA5CX + M301 GL Assault Rifle";
+				muzzles[] = {"this","v105_M301X"};
+				class v105_M301X:v105_M301X{};
 				magazines[] = 
 				{
 					"HOW_32Rnd_762x51_IRDM_Mag",
@@ -67,6 +69,7 @@
 				{
 					reloadTime 				= 0.095;
 				};
+				
 			};
 			
 			class OPTRE_MA5K: OPTRE_MA5C
