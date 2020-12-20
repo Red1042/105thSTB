@@ -1,25 +1,12 @@
-class O_APC_Tracked_02_AA_F
-{
-	class AnimationSources;
-	class Components;
-	class Turrets
-		{
-			class MainTurret
-			{
-				class Turrets
-				{
-					class CommanderOptics;
-				};
-			};
-			
-		};
-};
+
+
+class O_APC_Tracked_02_AA_F;
 
 class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 {
 	
 		dlc="105th";
-		author="Howard";
+		author="Howard, Keen";
 		side=0;
 		scope=2;
 		scopeCurator=2;
@@ -44,40 +31,6 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 				};
 			};
 		};
-		class Components: Components
-		{
-			class SensorsManagerComponent
-			{
-				class Components
-				{
-					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
-					{
-						class AirTarget
-						{
-							minRange=100;
-							maxRange=3000;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=-1;
-						};
-						class GroundTarget
-						{
-							minRange=600;
-							maxRange=600;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=-1;
-						};
-						typeRecognitionDistance=12000;
-						angleRangeHorizontal=360;
-						angleRangeVertical=360;
-						aimDown=-45;
-						maxTrackableSpeed=1000;
-					};
-					class DataLinkSensorComponent: SensorTemplateDataLink
-					{
-					};
-				};
-			};
-		};
 		class TextureSources
 		{
 			class URF
@@ -88,7 +41,7 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 				{
 					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
 					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
-					"URF_Vehicles\Textures\BMP2T\URF_Turret_30_RCWS.paa",
+					"URF_Vehicles\Textures\BMP2T\APC_Tracked_01_AA_Tower_URF_CO.paa",
 					"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
 					"A3\armor_f\data\cage_csat_co.paa"
 				};

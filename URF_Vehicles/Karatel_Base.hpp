@@ -1,18 +1,42 @@
-class MRAP_02_hmg_base_F
+class O_MRAP_02_F;
+class O_MRAP_02_hmg_F;
+class O_MRAP_02_gmg_F;
+class HOW_URF_Karatel:O_MRAP_02_F
 {
-	class Turrets
-	{
-		class MainTurret;
-	};
-};
-class MRAP_02_gmg_base_F
-{
-	class Turrets
-	{
-		class MainTurret;
-	};
-};
-class HOW_URF_Karatel_HMG:MRAP_02_hmg_base_F
+		dlc="105th";
+		author="Howard";
+		side=0;
+		scope=2;
+		scopeCurator=2;
+		displayName="Karatel II";
+		crew="O_OURFArmy_Rifleman_01";
+		editorCategory="HOW_EdCat_URF";
+        editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		class TextureSources
+		{
+			class Hex
+			{
+				displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
+				author="$STR_A3_Bohemia_Interactive";
+				textures[]=
+				{
+					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
+					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
+					"\A3\Data_F\Vehicles\turret_opfor_co.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
+		};
+		textureList[]=
+		{
+			"Hex",
+			1
+		};
+};		
+class HOW_URF_Karatel_HMG:O_MRAP_02_hmg_F
 {
 		dlc="105th";
 		author="Howard";
@@ -63,7 +87,7 @@ class HOW_URF_Karatel_HMG:MRAP_02_hmg_base_F
 		};
 };
 
-class HOW_URF_Karatel_GMG:MRAP_02_gmg_base_F
+class HOW_URF_Karatel_GMG:O_MRAP_02_gmg_F
 {
 	dlc="105th";
 		author="Howard";
@@ -102,7 +126,7 @@ class HOW_URF_Karatel_GMG:MRAP_02_gmg_base_F
 		};
 };
 
-class HOW_URF_Karatel_AT:MRAP_02_gmg_base_F
+class HOW_URF_Karatel_AT:O_MRAP_02_gmg_F
 {
 		dlc="105th";
 		author="Howard";

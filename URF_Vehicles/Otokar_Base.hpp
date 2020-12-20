@@ -1,12 +1,8 @@
-class APC_Wheeled_02_base_F
-{
-	class Turrets
-	{
-		class MainTurret;
-	};
-};
 
-class HOW_URF_APC_Otokar:APC_Wheeled_02_base_F
+
+class O_APC_Wheeled_02_rcws_F;
+
+class HOW_URF_APC_Otokar:O_APC_Wheeled_02_rcws_F
 {
 		dlc="105th";
 		author="Howard";
@@ -17,7 +13,7 @@ class HOW_URF_APC_Otokar:APC_Wheeled_02_base_F
 		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
-		armor=500;
+		armor=200;
 		class Turrets:Turrets
 		{
 			gunnerAction="Commander_APC_Wheeled_02_rcws_F_out";
@@ -40,15 +36,15 @@ class HOW_URF_APC_Otokar:APC_Wheeled_02_base_F
 		};
 		class TextureSources
 		{
-			class Hex
+			class URF
 			{
-				displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-				author="$STR_A3_Bohemia_Interactive";
+				displayName="United Rebel Front";
+				author="Keen";
 				textures[]=
 				{
-					"a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_01_opfor_co.paa",
-					"a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_02_opfor_co.paa",
-					"a3\data_f\vehicles\turret_opfor_co.paa"
+					"URF_Vehicles\Textures\Otokar\APC_Wheeled_02_ext_01_URF_CO",
+					"URF_Vehicles\Textures\Otokar\APC_Wheeled_02_ext_02_URF_CO",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF"
 				};
 				factions[]=
 				{
@@ -58,7 +54,7 @@ class HOW_URF_APC_Otokar:APC_Wheeled_02_base_F
 		};
 		textureList[]=
 		{
-			"Hex",
+			"URF",
 			1
 		};
 };

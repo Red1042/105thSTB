@@ -1,10 +1,4 @@
-class O_APC_Tracked_02_cannon_F
-{
-	class Turrets
-	{
-		class MainTurret;
-	};
-};
+class O_APC_Tracked_02_cannon_F;
 
 class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 {
@@ -17,7 +11,7 @@ class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
-		armor=800;
+		armor=500;
 		class Turrets:Turrets
 		{
 			class MainTurret:MainTurret
@@ -85,7 +79,7 @@ class HOW_URF_APC_Stalker_B:O_APC_Tracked_02_cannon_F
 		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
-		armor=800;
+		armor=500;
 		class Turrets:Turrets
 		{
 			class MainTurret:MainTurret

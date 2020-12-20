@@ -52,7 +52,32 @@ class CfgPatches
 		};
 		ammo[] = {};
 		requiredVersion = 1.0;
-		requiredAddons[] = {"105th_Core"};
+		requiredAddons[] = 
+		{
+			"105th_Core",
+			"O_URFArmy",
+			"OPTRE_Misc_Crates",
+			"OPTRE_Modules",
+			"OPTRE_Vehicles",
+			"OPTRE_Vehicles_Pelican",
+			"OPTRE_Vehicles_Warthog",
+			"OPTRE_Vehicles_Hornet",
+			"OPTRE_Weapons",
+			"OPTRE_Weapons_Vehicle",
+			"V_FZ_Vehicles",
+			"V_SO_Magazines",
+			"V_SO_Weapons",
+			"A3_Data_F",
+			"A3_Weapons_F",
+			"A3_Air_F",
+			"A3_Air_F_Beta",
+			"A3_Armor_F_Beta",
+			"A3_Armor_F_Beta_APC_Wheeled_01",
+			"A3_Soft_F_Exp",
+			"A3_Soft_F_Exp_LSV_01",
+			"A3_Armor_F_Tank",
+			"A3_Armor_F_Tank_AFV_Wheeled_01",
+		};
 	};
 };
 class Components;
