@@ -80,6 +80,16 @@ class CfgMagazines
 		displaynameshort 			= "Run.";
 	};
 };
+class cfgMagazineWells
+{
+	class CBA_40mm_M203
+	{
+		v105_grenades[]=
+		{
+			"v105_Whistler_Grenade"
+		};
+	};
+};
 class CfgAmmo
 {
 	class G_40mm_HE;

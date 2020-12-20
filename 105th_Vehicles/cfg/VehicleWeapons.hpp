@@ -245,6 +245,7 @@
 	class Gatling_30mm_Plane_CAS_01_F;
 	class HOW_Gatling_30mm:Gatling_30mm_Plane_CAS_01_F
 	{
+				ballisticsComputer=1+4;
 				scope=2;
 				displayName = "30mm Rotary Cannon";
 				displayNameShort = "30mm Brrrrt";
@@ -256,6 +257,7 @@
 	class weapon_Cannon_Phalanx;
 	class HOW_Vulcan_20mm:weapon_Cannon_Phalanx
 	{
+				ballisticsComputer=1+4;
 				scope=2;
 				displayName = "20mm Rotary Cannon";
 				displayNameShort = "20mm Brrrrt";
@@ -267,6 +269,7 @@
 	class M134_minigun;
 	class HOW_145x114_minigun:M134_minigun
 	{
+		ballisticsComputer=1+4;
 		displayName = "14.5x114mm APFSDS Gatling Gun";
 		magazines[]=
 					{
@@ -451,7 +454,8 @@
 					"v105_Hydra_M282_P_7rnd_M","v105_Hydra_M282_P_19rnd_M","v105_Hydra_M282_P_38rnd_M",
 					"v105_Hydra_WDU4_P_7rnd_M","v105_Hydra_WDU4_P_19rnd_M","v105_Hydra_WDU4_P_38rnd_M",
 					"v105_Hydra_M261_P_7rnd_M","v105_Hydra_M261_P_19rnd_M","v105_Hydra_M261_P_38rnd_M",
-					"v105_Hydra_WP_P_7rnd_M","v105_Hydra_WP_P_21rnd_M"
+
+					//"v105_Hydra_WP_P_7rnd_M","v105_Hydra_WP_P_21rnd_M"
 					
 				};
 			};
