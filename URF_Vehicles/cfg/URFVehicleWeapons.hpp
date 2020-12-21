@@ -176,5 +176,14 @@
 						"HOW_15Rnd_50x137_HEAT"
 					};
 	};
+	class GMG_40mm;
+	class URF_GMG_40mm:GMG_40mm
+	{
+		magazines[]=
+		{
+			"URF_96Rnd_40mm_G_Belt_Whistler",
+			"96Rnd_40mm_G_belt"
+		};
+	};
 	
 	

@@ -14,15 +14,15 @@ class HOW_URF_Karatel:O_MRAP_02_F
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		class TextureSources
 		{
-			class Hex
+			class URF
 			{
-				displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-				author="$STR_A3_Bohemia_Interactive";
+				displayName="United Rebel Front";
+				author="Keen";
 				textures[]=
 				{
-					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-					"\A3\Data_F\Vehicles\turret_opfor_co.paa"
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_01_CO_URF.paa",
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
 				};
 				factions[]=
 				{
@@ -32,7 +32,7 @@ class HOW_URF_Karatel:O_MRAP_02_F
 		};
 		textureList[]=
 		{
-			"Hex",
+			"URF",
 			1
 		};
 };		
@@ -64,15 +64,15 @@ class HOW_URF_Karatel_HMG:O_MRAP_02_hmg_F
 		};
 		class TextureSources
 		{
-			class Hex
+			class URF
 			{
-				displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
-				author="$STR_A3_Bohemia_Interactive";
+				displayName="United Rebel Front";
+				author="Keen";
 				textures[]=
 				{
-					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-					"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-					"\A3\Data_F\Vehicles\turret_opfor_co.paa"
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_01_CO_URF.paa",
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
 				};
 				factions[]=
 				{
@@ -82,7 +82,7 @@ class HOW_URF_Karatel_HMG:O_MRAP_02_hmg_F
 		};
 		textureList[]=
 		{
-			"Hex",
+			"URF",
 			1
 		};
 };
@@ -105,24 +105,37 @@ class HOW_URF_Karatel_GMG:O_MRAP_02_gmg_F
 			{
 				weapons[]=
 				{
-					"GMG_40mm"
+					"URF_GMG_40mm"
 				};
 				magazines[]=
 				{
-					"200Rnd_40mm_G_belt","200Rnd_40mm_G_belt"
+					"URF_96Rnd_40mm_G_Belt_Whistler",
+					"URF_96Rnd_40mm_G_Belt_Whistler"
+				};
+			};
+		};
+		class TextureSources
+		{
+			class URF
+			{
+				displayName="United Rebel Front";
+				author="Keen";
+				textures[]=
+				{
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_01_CO_URF.paa",
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
 				};
 			};
 		};
 		textureList[]=
 		{
-			"Hex",
+			"URF",
 			1
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-			"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-			"\A3\Data_F\Vehicles\turret_opfor_co.paa"
 		};
 };
 
@@ -152,15 +165,27 @@ class HOW_URF_Karatel_AT:O_MRAP_02_gmg_F
 				};
 			};
 		};
+		class TextureSources
+		{
+			class URF
+			{
+				displayName="United Rebel Front";
+				author="Keen";
+				textures[]=
+				{
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_01_CO_URF.paa",
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
+				};
+				factions[]=
+				{
+					"OPF_F"
+				};
+			};
+		};
 		textureList[]=
 		{
-			"Hex",
+			"URF",
 			1
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-			"\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-			"\A3\Data_F\Vehicles\turret_opfor_co.paa"
 		};
 };

@@ -162,7 +162,7 @@ class HOW_AV14_Base: VES_AV14
 		class TransportBackpacks{};
 		
 	};
-	class HOW_AV14_CAS_Keen: HOW_AV14_Base
+/*	class HOW_AV14_CAS_Keen: HOW_AV14_Base
 	{
 		dlc="105th";
 		author="Howard, Skywalker";
@@ -196,7 +196,8 @@ class HOW_AV14_Base: VES_AV14
 		{
 			"105th_Vehicles\textures\Hornet\105th_Hornet_Keen.paa"
 		};
-	};
+	};*/
+
 	class HOW_AV14B_CAS: HOW_AV14_Base
 	{
 		dlc="105th";
@@ -229,7 +230,7 @@ class HOW_AV14_Base: VES_AV14
 		class TransportBackpacks{};
 		
 	};
-	class HOW_AV14_TEST: HOW_AV14_Base
+	class HOW_AV14L_MULTI: HOW_AV14_Base
 	{
 		dlc="105th";
 		author="Howard";
@@ -237,7 +238,7 @@ class HOW_AV14_Base: VES_AV14
 		scope=1;
 		scopeCurator=1;
 		forceInGarage=1;
-		displayName="AV-14 Hornet TEST";
+		displayName="AV-14L Hornet [Light]";
 		editorCategory="HOW_EdCat_105th";
 		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
@@ -249,13 +250,14 @@ class HOW_AV14_Base: VES_AV14
 		
         weapons[]=
 		{
-			"HOW_145x114_minigun",
+			"OPTRE_M41_LAAG",
 			"HOW_Flares",
 			"Laserdesignator_pilotCamera"
 		};
 		magazines[]=
 		{
-			"HOW_1200Rnd_145x114_Red_Belt",
+			"OPTRE_1000Rnd_127x99_M41",
+			"OPTRE_1000Rnd_127x99_M41",
 			"HOW_320Rnd_Flare_Chaff_Magazine",
 			"Laserbatteries"
 		};

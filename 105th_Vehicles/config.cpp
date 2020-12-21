@@ -274,6 +274,7 @@ class MainTurret;
 class TopTurret;
 class CopilotTurret;
 class CargoGunner_1;
+class CargoTurret_01;
 class CommanderOptics;
 class DefaultVehicleSystemsDisplayManagerLeft
 {

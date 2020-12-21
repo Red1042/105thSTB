@@ -8,7 +8,7 @@ class v105_UGV_Stag_Base:UGV_01_rcws_base_F
 	editorCategory = "HOW_EdCat_105th";
 	editorSubCategory = "HOW_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
-	armor=40;
+	armor=50;
 	armorStructural=12;
     hiddenSelectionsTextures[]=
 		{
@@ -92,7 +92,7 @@ class v105_UGV_Stag_Base:UGV_01_rcws_base_F
 				width="0.2";
 				mass=40;
 				MOI=20;
-				armor=10;
+				armor=30;
 				dampingRate=0.1;
 				dampingRateDamaged=1;
 				dampingRateDestroyed=1000;
@@ -181,6 +181,7 @@ class v105_UGV_STAG:v105_UGV_Stag_Base
 	crew="B_UAV_AI";
     class Turrets:Turrets
     {
+		class CargoTurret_01:CargoTurret_01{};
         class MainTurret:MainTurret
         {
              weapons[]=
@@ -216,7 +217,8 @@ class v105_UGV_STAG_ATGM:v105_UGV_Stag_Base
 	editorSubCategory = "HOW_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
     class Turrets:Turrets
-    {
+    {	
+		class CargoTurret_01:CargoTurret_01{};
         class MainTurret:MainTurret
         {
              weapons[]=
