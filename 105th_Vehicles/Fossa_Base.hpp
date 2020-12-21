@@ -4,7 +4,7 @@
 
 class B_LSV_01_unarmed_F;
 class B_LSV_01_AT_F;
-class LSV_01_armed_base_F;
+class B_LSV_01_armed_F;
 
 class HOW_Fossa_unarmed : B_LSV_01_unarmed_F
 {
@@ -55,7 +55,7 @@ class HOW_Fossa_unarmed : B_LSV_01_unarmed_F
 		
 };
 
-class HOW_Fossa_armed : LSV_01_armed_base_F
+class HOW_Fossa_armed : B_LSV_01_armed_F
 {
 		dlc="105th";
 		author="Howard";
@@ -79,10 +79,10 @@ class HOW_Fossa_armed : LSV_01_armed_base_F
 				{
 					class TopTurret:TopTurret
 					{
-						body="mainTurret";
+					/*	body="mainTurret";
 						gun="mainGun";
 						animationSourceBody="mainTurret";
-						animationSourceGun="mainGun";
+						animationSourceGun="mainGun"; */
 						weapons[]=
 						{
 							"HMG_M2_Mounted"
@@ -94,9 +94,10 @@ class HOW_Fossa_armed : LSV_01_armed_base_F
 							"100Rnd_127x99_mag_Tracer_Red"
 						};
 					};
-					//class CodRiverTurret:CodRiverTurret{};
-					//class CargoTurret_02:CargoTurret_02{};
-					//class CargoTurret_03:CargoTurret_03{};
+					class CodRiverTurret:CodRiverTurret{};
+					class CargoTurret_02:CargoTurret_02{};
+					class CargoTurret_03:CargoTurret_03{};
+				
 				};
 			class AnimationSources
 			{

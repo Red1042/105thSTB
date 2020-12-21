@@ -24,7 +24,7 @@ class CfgWeapons
 	class OPTRE_UNSC_M52D_Armor_Rifleman;
 	class ONI_M52D_Light: OPTRE_UNSC_M52D_Armor_Light
 	{
-		dlc="R105";
+		dlc="105th";
 		author="Hartley, Hannibal";
 		displayName="[ONI] M52D (Light)";
 		picture="\optre_unsc_units\army\icons\odst_vest.paa";
@@ -47,7 +47,7 @@ class CfgWeapons
 	};
 	class ONI_M52D_Sniper: OPTRE_UNSC_M52D_Armor_Sniper
 	{
-		dlc="R105";
+		dlc="105th";
 		author="Hartley, Hannibal";
 		displayName="[ONI] M52D (Sniper)";
 		picture="\optre_unsc_units\army\icons\odst_vest.paa";
@@ -70,7 +70,7 @@ class CfgWeapons
 	};
 	class ONI_M52D_Demolitions: OPTRE_UNSC_M52D_Armor_Demolitions
 	{
-		dlc="R105";
+		dlc="105th";
 		author="Hartley, Hannibal";
 		displayName="[ONI] M52D (Demo)";
 		picture="\optre_unsc_units\army\icons\odst_vest.paa";
@@ -93,7 +93,7 @@ class CfgWeapons
 	};
 	class ONI_M52D_Operator: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
-		dlc="R105";
+		dlc="105th";
 		author="Hartley, Hannibal";
 		displayName="[ONI] M52D (Operator)";
 		picture="\optre_unsc_units\army\icons\odst_vest.paa";
@@ -120,7 +120,7 @@ class CfgWeapons
     class VES_S1ONIR_dp;
     class ONI_CHan_S1ONIR: VES_S1ONIR
     {
-        dlc="105R";
+        dlc="105th";
         author="Hannibal, Hartley";
         ace_hearing_protection=1;
         ace_hearing_lowerVolume=0.60000002;
@@ -205,7 +205,7 @@ class CfgWeapons
     };
     class ONI_CHan_S1ONIR_dp: VES_S1ONIR_dp
     {
-        dlc="105R";
+        dlc="105th";
         author="Hannibal, Hartley";
         ace_hearing_protection=1;
         ace_hearing_lowerVolume=0.1;

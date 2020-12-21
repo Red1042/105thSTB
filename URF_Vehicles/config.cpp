@@ -74,6 +74,7 @@ class CfgPatches
 			"A3_Air_F_Beta",
 			"A3_Armor_F_Beta",
 			"A3_Armor_F_Beta_APC_Wheeled_01",
+			"A3_Armor_F_Gamma",
 			"A3_Soft_F_Exp",
 			"A3_Soft_F_Exp_LSV_01",
 			"A3_Armor_F_Tank",
@@ -168,5 +169,6 @@ class cfgVehicles
 	#include "Tigris_Base.hpp"
 	#include "Karatel_Base.hpp"
 	#include "Aircraft.hpp"
+	#include "Sochor.hpp"
 
 };

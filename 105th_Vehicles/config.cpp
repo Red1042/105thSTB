@@ -32,7 +32,9 @@ class CfgPatches
 		"HOW_M12_LRV_ODST",
 		"HOW_M12A1_LRV",
 		"HOW_M12G1_LRV",
+		"HOW_M12G1_LRV_ODST",
 		"HOW_M813_TT",
+		"HOW_M813_TT_ODST",
 		"HOW_M12_APC_MED",
 		"HOW_M12_APC",
 		"HOW_M813_MORT",
@@ -51,12 +53,12 @@ class CfgPatches
 		//Pelicans
 		"v105_D77HTCI_A",
 		"v105_D77HTCI",
-		"v105_D77HTCI_REACH",
-		"v105_HOW_D77HTCI_REACH_BubOday",
-		"v105_HOW_D77HTCI_BulcHori",
-		"v105_HOW_D77HTCI_SHARK_MeatWind",
-		"v105_HOW_D77HTCI_SHARK_Ragith",
-		"v105_HOW_D77HTCI_REACH_KEEN",
+	//	"v105_D77HTCI_REACH",
+	//	"v105_HOW_D77HTCI_REACH_BubOday",
+	//	"v105_HOW_D77HTCI_BulcHori",
+	//	"v105_HOW_D77HTCI_SHARK_MeatWind",
+	//	"v105_HOW_D77HTCI_SHARK_Ragith",
+	//	"v105_HOW_D77HTCI_REACH_KEEN",
 		// Hornets
 		"HOW_AV14_Base",
 		"HOW_AV14_CAP",
@@ -274,7 +276,12 @@ class MainTurret;
 class TopTurret;
 class CopilotTurret;
 class CargoGunner_1;
+class CodRiverTurret;
 class CargoTurret_01;
+class CargoTurret_02;
+class CargoTurret_03;
+
+
 class CommanderOptics;
 class DefaultVehicleSystemsDisplayManagerLeft
 {
@@ -380,7 +387,7 @@ class cfgVehicles
 	#include "Timberwolf_MK2_Base.hpp"
 	#include "Hornet_Base.hpp"
 	#include "Warthog_Base.hpp"
-	#include "Fossa_Base.hpp"
+//	#include "Fossa_Base.hpp"
 	#include "Falcon_Base.hpp"
 	#include "Pelican_Base.hpp"
 	#include "Claymore_Base.hpp"	
