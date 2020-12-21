@@ -22,6 +22,7 @@ class CfgPatches
 			"HOW_URF_APC_Stalker_A",
 			"HOW_URF_APC_Stalker_B",
 			//Karatels
+			"HOW_URF_Karatel",
 			"HOW_URF_Karatel_HMG",
 			"HOW_URF_Karatel_GMG",
 			"HOW_URF_Karatel_AT",
