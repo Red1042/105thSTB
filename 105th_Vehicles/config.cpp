@@ -40,9 +40,9 @@ class CfgPatches
 		"HOW_M813_MORT",
 		"HOW_M12_Mortar",
 		//Fossas
-		"HOW_Fossa_unarmed",
-		"HOW_Fossa_armed",
-		"HOW_Fossa_armed_AT",
+	//	"HOW_Fossa_unarmed",
+	//	"HOW_Fossa_armed",
+	//	"HOW_Fossa_armed_AT",
 		//Falcons
 		"v105_UH144",
 		"v105_UH144S",
@@ -60,10 +60,10 @@ class CfgPatches
 	//	"v105_HOW_D77HTCI_SHARK_Ragith",
 	//	"v105_HOW_D77HTCI_REACH_KEEN",
 		// Hornets
-		"HOW_AV14_Base",
+	//	"HOW_AV14_Base",
 		"HOW_AV14_CAP",
 		"HOW_AV14_CAS",
-		"HOW_AV14_CAS_Keen", 
+	//	"HOW_AV14_CAS_Keen", 
 		"HOW_AV14B_CAS",
 		//Claymore
 		"v105_A364_Claymore",
