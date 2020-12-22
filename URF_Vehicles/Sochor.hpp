@@ -56,19 +56,19 @@ class HOW_URF_MBT_Sochor: O_MBT_02_arty_F
 			};
 		};
 		
-	/*	class TextureSources
+		class TextureSources
 		{
-			class URF
+			class Hex
 			{
-				displayName="United Rebel Front";
-				author="Keen";
+				displayName="$STR_A3_TEXTURESOURCES_OPFOR0";
+				author="$STR_A3_Bohemia_Interactive";
 				textures[]=
 				{
-					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
-					"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
-					"URF_Vehicles\Textures\BMP2T\APC_Tracked_01_AA_Tower_URF_CO.paa",
-					"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
-					"A3\armor_f\data\cage_csat_co.paa"
+					"URF_Vehicles\Textures\Sochor\MBT_02_body_CO_URF.paa",
+					"URF_Vehicles\Textures\Sochor\MBT_01_scorcher_turret_URF_CO.paa",
+					"URF_Vehicles\Textures\Sochor\MBT_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa",
+					"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa"
 				};
 				factions[]=
 				{
@@ -78,15 +78,15 @@ class HOW_URF_MBT_Sochor: O_MBT_02_arty_F
 		};
 		textureList[]=
 		{
-			"URF",
+			"Hex",
 			1
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_1.paa",
-			"URF_Vehicles\Textures\BMP2T\URF_APC_Body_EXT_2.paa",
-			"URF_Vehicles\Textures\BMP2T\URF_Turret_30_RCWS.paa",
-			"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa",
-			"A3\armor_f\data\cage_csat_co.paa"
-		};*/
+			"URF_Vehicles\Textures\Sochor\MBT_02_body_CO_URF.paa",
+			"URF_Vehicles\Textures\Sochor\MBT_01_scorcher_turret_URF_CO.paa",
+			"URF_Vehicles\Textures\Sochor\MBT_02_CO_URF.paa",
+			"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa",
+			"A3\Armor_F\Data\camonet_CSAT_HEX_Desert_CO.paa"
+		};
 };

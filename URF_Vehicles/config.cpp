@@ -28,6 +28,8 @@ class CfgPatches
 			"HOW_URF_Karatel_AT",
 			//Otokar
 			"HOW_URF_APC_Otokar",
+			//Sochor
+			"HOW_URF_MBT_Sochor",
 			//Aircraft
 			"v105_URF_AV14_CAS",
 			"v105_URF_D77HTCI_A"
