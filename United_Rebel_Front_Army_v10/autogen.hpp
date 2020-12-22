@@ -352,7 +352,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_Euro","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN","ItemMap","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_FLA"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN","ItemMap","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_FLA"};
@@ -365,7 +365,7 @@ class CfgVehicles
 
         backpack = "OPTRE_ANPRC_521_URF";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32BGL","","","OPTRE_M393_EOTECH",{},{"1Rnd_HE_Grenade_shell",1},""},{},{"hgun_Pistol_Signal_F","","","",{"6Rnd_GreenSignal_F",6},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"6Rnd_GreenSignal_F",2,6},{"6Rnd_RedSignal_F",2,6},{"OPTRE_60Rnd_762x51_Mag",4,32},{"1Rnd_HE_Grenade_shell",2,1},{"OPTRE_60Rnd_762x51_Mag_Tracer_Yellow",2,32}}},{"OPTRE_ANPRC_521_URF",{{"ACE_artilleryTable",1},{"ACE_RangeTable_82mm",1},{"1Rnd_HE_Grenade_shell",8,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareGreen_F",2,1},{"3Rnd_SmokeRed_Grenade_shell",2,3},{"3Rnd_Smoke_Grenade_shell",4,3}}},"OPTRE_FC_CH255_Helmet_BRN","",{"OPTRE_Smartfinder","","","",{"Laserbatteries",1},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_FLA"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32BGL","","","OPTRE_M393_EOTECH",{},{"1Rnd_HE_Grenade_shell",1},""},{},{"hgun_Pistol_Signal_F","","","",{"6Rnd_GreenSignal_F",6},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"6Rnd_GreenSignal_F",2,6},{"6Rnd_RedSignal_F",2,6},{"OPTRE_60Rnd_762x51_Mag",4,60},{"1Rnd_HE_Grenade_shell",2,1},{"OPTRE_60Rnd_762x51_Mag_Tracer",2,60}}},{"OPTRE_ANPRC_521_URF",{{"ACE_artilleryTable",1},{"ACE_RangeTable_82mm",1},{"1Rnd_HE_Grenade_shell",8,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareGreen_F",2,1},{"3Rnd_SmokeRed_Grenade_shell",2,3},{"3Rnd_Smoke_Grenade_shell",4,3}}},"OPTRE_FC_CH255_Helmet_BRN","",{"OPTRE_Smartfinder","","","",{"Laserbatteries",1},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_FLA"}};
 
 
         class EventHandlers : EventHandlers {
@@ -393,7 +393,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_Euro","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet","ItemMap","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_COMMCAM"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet","ItemMap","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_COMMCAM"};
@@ -406,7 +406,7 @@ class CfgVehicles
 
         backpack = "B_AssaultPack_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32BGL","","","OPTRE_BR55HB_Scope",{},{"1Rnd_HE_Grenade_shell",1},""},{},{"hgun_Pistol_Signal_F","","","",{"6Rnd_GreenSignal_F",6},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_762x51_Mag",1,32}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"6Rnd_GreenSignal_F",2,6},{"6Rnd_RedSignal_F",2,6},{"OPTRE_60Rnd_762x51_Mag",4,32},{"1Rnd_HE_Grenade_shell",2,1},{"OPTRE_60Rnd_762x51_Mag_Tracer_Yellow",2,32},{"Laserbatteries",1,1}}},{"B_AssaultPack_rgr",{{"ACE_artilleryTable",1},{"ACE_RangeTable_82mm",1},{"1Rnd_HE_Grenade_shell",8,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareGreen_F",2,1},{"3Rnd_SmokeRed_Grenade_shell",2,3},{"3Rnd_Smoke_Grenade_shell",4,3}}},"OPTRE_FC_CH255_Helmet","",{"OPTRE_Smartfinder","","","",{"Laserbatteries",1},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_COMMCAM"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32BGL","","","OPTRE_BR55HB_Scope",{},{"1Rnd_HE_Grenade_shell",1},""},{},{"hgun_Pistol_Signal_F","","","",{"6Rnd_GreenSignal_F",6},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"6Rnd_GreenSignal_F",2,6},{"6Rnd_RedSignal_F",2,6},{"OPTRE_60Rnd_762x51_Mag",4,60},{"1Rnd_HE_Grenade_shell",2,1},{"OPTRE_60Rnd_762x51_Mag_Tracer",2,60},{"Laserbatteries",1,1}}},{"B_AssaultPack_rgr",{{"ACE_artilleryTable",1},{"ACE_RangeTable_82mm",1},{"1Rnd_HE_Grenade_shell",8,1},{"UGL_FlareRed_F",2,1},{"UGL_FlareGreen_F",2,1},{"3Rnd_SmokeRed_Grenade_shell",2,3},{"3Rnd_Smoke_Grenade_shell",4,3}}},"OPTRE_FC_CH255_Helmet","",{"OPTRE_Smartfinder","","","",{"Laserbatteries",1},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_COMMCAM"}};
 
 
         class EventHandlers : EventHandlers {
@@ -434,7 +434,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_Euro","LanguagePER_F","G_IRAN_officer"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","H_Beret_CSAT_01_F","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","H_Beret_CSAT_01_F","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -447,7 +447,7 @@ class CfgVehicles
 
         backpack = "OPTRE_ANPRC_515";
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_762x51_Mag",1,32},{"OPTRE_6Rnd_127x40_Cyl",1,6}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",4,32},{"OPTRE_60Rnd_762x51_Mag_Tracer_Yellow",2,32},{"OPTRE_6Rnd_127x40_Cyl",12,6}}},{"OPTRE_ANPRC_515",{{"ACE_artilleryTable",1},{"ACE_RangeTable_82mm",1}}},"H_Beret_CSAT_01_F","G_Aviator",{"OPTRE_Smartfinder","","","",{"Laserbatteries",1},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",4,60},{"OPTRE_60Rnd_762x51_Mag_Tracer",2,60},{"OPTRE_6Rnd_127x40_Cyl",12,6}}},{"OPTRE_ANPRC_515",{{"ACE_artilleryTable",1},{"ACE_RangeTable_82mm",1}}},"H_Beret_CSAT_01_F","G_Aviator",{"OPTRE_Smartfinder","","","",{"Laserbatteries",1},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -475,7 +475,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_Euro","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_FLA"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_FLA"};
@@ -486,7 +486,7 @@ class CfgVehicles
         magazines[] = {"OPTRE_60Rnd_762x51_Mag","OPTRE_60Rnd_762x51_Mag"};
         respawnMagazines[] = {"OPTRE_60Rnd_762x51_Mag","OPTRE_60Rnd_762x51_Mag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{"OPTRE_60Rnd_762x51_Mag",60},{},""},{},{},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_762x51_Mag",1,32}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",6,32},{"Laserbatteries",1,1},{"OPTRE_60Rnd_762x51_Mag",5,60}}},{},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_FLA"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{"OPTRE_60Rnd_762x51_Mag",60},{},""},{},{},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"Laserbatteries",1,1},{"OPTRE_60Rnd_762x51_Mag",9,60}}},{},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_FLA"}};
 
 
         class EventHandlers : EventHandlers {
@@ -514,7 +514,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_Asian","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -527,7 +527,7 @@ class CfgVehicles
 
         backpack = "OPTRE_UNSC_Rucksack_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M247","","","OPTRE_BR55HB_Scope",{"OPTRE_400Rnd_762x51_Box_Tracer",400},{},"bipod_01_F_blk"},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_762x51_Mag",1,32}}},{"LM_OPCAN_MTMV_VEST_D",{{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",6,32},{"OPTRE_8Rnd_127x40_Mag",3,8},{"Laserbatteries",1,1},{"OPTRE_100Rnd_762x51_Box",1,100}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"OPTRE_100Rnd_762x51_Box",2,100},{"OPTRE_100Rnd_762x51_Box_Tracer_Yellow",2,100},{"OPTRE_400Rnd_762x51_Box_Tracer",2,400}}},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M247","","","OPTRE_BR55HB_Scope",{"OPTRE_400Rnd_762x51_Box_Tracer",400},{},"bipod_01_F_blk"},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_8Rnd_127x40_Mag",3,8},{"Laserbatteries",1,1},{"OPTRE_100Rnd_762x51_Box",1,100}}},{"OPTRE_UNSC_Rucksack_Heavy",{{"OPTRE_100Rnd_762x51_Box",2,100},{"OPTRE_100Rnd_762x51_Box_Tracer_Yellow",2,100},{"OPTRE_400Rnd_762x51_Box_Tracer",2,400}}},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -555,7 +555,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor_Medic","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor_Medic","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -568,7 +568,7 @@ class CfgVehicles
 
         backpack = "OPTRE_UNSC_Rucksack_Medic";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M7","OPTRE_M7_silencer","OPTRE_M7_Flashlight","OPTRE_M7_Sight",{"OPTRE_60Rnd_5x23mm_Mag",60},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_5x23mm_Mag",1,60}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_8Rnd_127x40_Mag",3,8},{"Laserbatteries",1,1},{"OPTRE_60Rnd_5x23mm_Mag",4,60},{"OPTRE_60Rnd_5x23mm_Mag_tracer",2,60}}},{"OPTRE_UNSC_Rucksack_Medic",{{"ACE_fieldDressing",10},{"ACE_elasticBandage",10},{"ACE_packingBandage",10},{"ACE_quikclot",10},{"ACE_EarPlugs",1},{"ACE_epinephrine",6},{"ACE_morphine",10},{"ACE_personalAidKit",1},{"ACE_splint",6},{"ACE_tourniquet",6},{"ACE_bloodIV_500",4},{"ACE_Flashlight_MX991",1},{"ACE_IR_Strobe_Item",1},{"ACE_surgicalKit",1},{"ACE_HandFlare_Yellow",2,1},{"ACE_HandFlare_White",1,1},{"ACE_HandFlare_Red",2,1},{"ACE_HandFlare_Green",2,1},{"SmokeShellPurple",1,1},{"SmokeShellBlue",1,1},{"SmokeShellYellow",2,1},{"OPTRE_M2_Smoke",4,1}}},"OPTRE_FC_CH255_Helmet_BRN_Visor_Medic","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M7","OPTRE_M7_silencer","OPTRE_M7_Flashlight","OPTRE_M7_Sight",{"OPTRE_60Rnd_5x23mm_Mag",60},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_5x23mm_Mag",1,60}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_8Rnd_127x40_Mag",3,8},{"Laserbatteries",1,1},{"OPTRE_60Rnd_5x23mm_Mag",4,60},{"OPTRE_60Rnd_5x23mm_Mag_tracer",2,60}}},{"OPTRE_UNSC_Rucksack_Medic",{{"ACE_fieldDressing",10},{"ACE_elasticBandage",10},{"ACE_packingBandage",10},{"ACE_quikclot",10},{"ACE_EarPlugs",1},{"ACE_epinephrine",6},{"ACE_morphine",10},{"ACE_personalAidKit",1},{"ACE_splint",6},{"ACE_tourniquet",6},{"ACE_bloodIV_500",4},{"ACE_Flashlight_MX991",1},{"ACE_IR_Strobe_Item",1},{"ACE_surgicalKit",1},{"ACE_HandFlare_Yellow",2,1},{"ACE_HandFlare_White",1,1},{"ACE_HandFlare_Red",2,1},{"ACE_HandFlare_Green",2,1},{"SmokeShellPurple",1,1},{"SmokeShellBlue",1,1},{"SmokeShellYellow",2,1},{"OPTRE_M2_Smoke",4,1}}},"OPTRE_FC_CH255_Helmet_BRN_Visor_Medic","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -637,7 +637,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_FRI_Vest","H_Tank_black_F","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"LM_OPCAN_FRI_Vest","H_Tank_black_F","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -650,7 +650,7 @@ class CfgVehicles
 
         backpack = "B_AssaultPack_blk";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M7","ACE_muzzle_mzls_B","","OPTRE_M393_EOTECH",{"OPTRE_60Rnd_5x23mm_Mag",60},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_762x51_Mag",1,32}}},{"LM_OPCAN_FRI_Vest",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",6,32},{"Laserbatteries",1,1},{"OPTRE_60Rnd_5x23mm_Mag",3,60},{"OPTRE_8Rnd_127x40_Mag",3,8}}},{"B_AssaultPack_blk",{{"ToolKit",1},{"ACE_EntrenchingTool",1},{"ACE_EarPlugs",1}}},"H_Tank_black_F","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M7","ACE_muzzle_mzls_B","","OPTRE_M393_EOTECH",{"OPTRE_60Rnd_5x23mm_Mag",60},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_FRI_Vest",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"Laserbatteries",1,1},{"OPTRE_60Rnd_5x23mm_Mag",6,60},{"OPTRE_8Rnd_127x40_Mag",3,8}}},{"B_AssaultPack_blk",{{"ToolKit",1},{"ACE_EntrenchingTool",1},{"ACE_EarPlugs",1}}},"H_Tank_black_F","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -678,7 +678,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -689,7 +689,7 @@ class CfgVehicles
         magazines[] = {"OPTRE_60Rnd_762x51_Mag","UGL_8Gauge_Pellet","OPTRE_8Rnd_127x40_Mag","OPTRE_60Rnd_762x51_Mag","UGL_8Gauge_Pellet","OPTRE_8Rnd_127x40_Mag"};
         respawnMagazines[] = {"OPTRE_60Rnd_762x51_Mag","UGL_8Gauge_Pellet","OPTRE_8Rnd_127x40_Mag","OPTRE_60Rnd_762x51_Mag","UGL_8Gauge_Pellet","OPTRE_8Rnd_127x40_Mag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37BGL","","","OPTRE_MA5_SmartLink",{"OPTRE_60Rnd_762x51_Mag",60},{"UGL_8Gauge_Pellet",1},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_8Rnd_127x40_Mag",1,8},{"Laserbatteries",1,1},{"OPTRE_60Rnd_762x51_Mag",3,60},{"1Rnd_HE_Grenade_shell",6,1},{"1Rnd_Smoke_Grenade_shell",2,1},{"1Rnd_SmokeRed_Grenade_shell",1,1},{"3Rnd_UGL_FlareRed_F",1,3},{"3Rnd_UGL_FlareWhite_F",1,3}}},{},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37BGL","","","OPTRE_MA5_SmartLink",{"OPTRE_60Rnd_762x51_Mag",60},{"UGL_8Gauge_Pellet",1},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_8Rnd_127x40_Mag",1,8},{"Laserbatteries",1,1},{"OPTRE_60Rnd_762x51_Mag",5,60},{"1Rnd_HE_Grenade_shell",6,1},{"1Rnd_Smoke_Grenade_shell",2,1},{"1Rnd_SmokeRed_Grenade_shell",1,1},{"3Rnd_UGL_FlareRed_F",1,3},{"3Rnd_UGL_FlareWhite_F",1,3}}},{},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -717,7 +717,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK_camo_lush","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST","LM_OPCAN_CGC_CH230_Combo_CH","ItemMap","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_SNI"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST","LM_OPCAN_CGC_CH230_Combo_CH","ItemMap","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_SNI"};
@@ -728,7 +728,7 @@ class CfgVehicles
         magazines[] = {"OPTRE_15Rnd_762x51_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_15Rnd_762x51_Mag","OPTRE_8Rnd_127x40_Mag"};
         respawnMagazines[] = {"OPTRE_15Rnd_762x51_Mag","OPTRE_8Rnd_127x40_Mag","OPTRE_15Rnd_762x51_Mag","OPTRE_8Rnd_127x40_Mag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M392_DMR","","OPTRE_BMR_Laser","OPTRE_BR55HB_Scope",{"OPTRE_15Rnd_762x51_Mag",15},{},"bipod_01_F_blk"},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_15Rnd_762x51_Mag",1,15}}},{"LM_OPCAN_MTMV_VEST",{{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_8Rnd_127x40_Mag",5,8},{"Laserbatteries",1,1},{"OPTRE_15Rnd_762x51_Mag_AP",10,15}}},{},"LM_OPCAN_CGC_CH230_Combo_CH","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_SNI"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M392_DMR","","OPTRE_BMR_Laser","OPTRE_BR55HB_Scope",{"OPTRE_15Rnd_762x51_Mag",15},{},"bipod_01_F_blk"},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST",{{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_8Rnd_127x40_Mag",5,8},{"Laserbatteries",1,1},{"OPTRE_15Rnd_762x51_Mag_AP",10,15}}},{},"LM_OPCAN_CGC_CH230_Combo_CH","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","LM_OPCAN_SNI"}};
 
 
         class EventHandlers : EventHandlers {
@@ -756,7 +756,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_Euro","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -769,7 +769,7 @@ class CfgVehicles
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{"OPTRE_60Rnd_762x51_Mag",60},{},""},{"OPTRE_M48_PAW","","","",{"OPTRE_1Rnd_50x137_HE",1},{},""},{},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_762x51_Mag",1,32}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",6,32},{"Laserbatteries",1,1},{"OPTRE_60Rnd_762x51_Mag",4,60}}},{"OPTRE_UNSC_Rucksack",{{"OPTRE_1Rnd_50x137_HE",1,1},{"OPTRE_1Rnd_50x137_PEN",2,1}}},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{"OPTRE_60Rnd_762x51_Mag",60},{},""},{"OPTRE_M48_PAW","","","",{"OPTRE_1Rnd_50x137_HE",1},{},""},{},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",9,60},{"Laserbatteries",1,1}}},{"OPTRE_UNSC_Rucksack",{{"OPTRE_1Rnd_50x137_HE",2,1},{"OPTRE_1Rnd_50x137_PEN",2,1}}},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -797,7 +797,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_Euro","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -810,7 +810,7 @@ class CfgVehicles
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{"OPTRE_60Rnd_762x51_Mag",60},{},""},{"OPTRE_M41_SSR","","","",{"OPTRE_M41_Twin_HEAT",2},{},""},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_762x51_Mag",1,32}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",6,32},{"Laserbatteries",1,1},{"OPTRE_60Rnd_762x51_Mag",4,60}}},{"OPTRE_UNSC_Rucksack",{{"OPTRE_M41_Twin_HEAT",2,2},{"OPTRE_M41_Twin_HEAP",2,2}}},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{"OPTRE_60Rnd_762x51_Mag",60},{},""},{"OPTRE_M41_SSR","","","",{"OPTRE_M41_Twin_HEAT",2},{},""},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",9,60},{"Laserbatteries",1,1}}},{"OPTRE_UNSC_Rucksack",{{"OPTRE_M41_Twin_HEAT",2,2},{"OPTRE_M41_Twin_HEAP",2,2}}},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -838,7 +838,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_Euro","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_MTMV_VEST_D","OPTRE_FC_CH255_Helmet_BRN_Visor","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -851,7 +851,7 @@ class CfgVehicles
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{},{},""},{"OPAEX_M41_Launcher","","","",{"OPAEX_M41_Twin_HEAT_Thermal",2},{},""},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_60Rnd_762x51_Mag",1,32}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",6,32},{"OPTRE_8Rnd_127x40_Mag",3,8},{"Laserbatteries",1,1}}},{"OPTRE_UNSC_Rucksack",{{"OPAEX_M41_Twin_HEAT_Thermal",3,2}}},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{},{},""},{"OPAEX_M41_Launcher","","","",{"OPAEX_M41_Twin_HEAT_Thermal",2},{},""},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_MTMV_VEST_D",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_60Rnd_762x51_Mag",7,32},{"OPTRE_8Rnd_127x40_Mag",3,8},{"Laserbatteries",1,1}}},{"OPTRE_UNSC_Rucksack",{{"OPAEX_M41_Twin_HEAT_Thermal",3,2}}},"OPTRE_FC_CH255_Helmet_BRN_Visor","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -867,7 +867,7 @@ class CfgVehicles
         ALiVE_orbatCreator_owned = 1;
 
     };
-
+////////////////////////////////////////////////////////////////////   Assault Squad         ///////////////////////////////////////////////////////
     class O_OURFArmy_Assault_Leader_01 : O_recon_TL_F_OCimport_02 {
         editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Assault_Leader_01.JPG;
         author = "Travi";
@@ -879,7 +879,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_NATO_camo_arid","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST_UP","H_Booniehat_mgrn","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST_UP","H_Booniehat_mgrn","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -892,7 +892,7 @@ class CfgVehicles
 
         backpack = "OPTRE_ANPRC_515";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37GL","OPTRE_MA5Suppressor","","",{"OPTRE_32Rnd_762x51_Mag",32},{"3Rnd_UGL_8Gauge_Pellet",3},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_32Rnd_762x51_Mag",1,32}}},{"LM_OPCAN_ACTV_CGC_VEST_UP",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",4,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_32Rnd_762x51_Mag",6,32},{"1Rnd_HE_Grenade_shell",8,1},{"3Rnd_Smoke_Grenade_shell",2,3},{"3Rnd_UGL_8Gauge_Pellet",1,3}}},{"OPTRE_ANPRC_515",{}},"H_Booniehat_mgrn","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37GL","OPTRE_MA5Suppressor","","",{"OPTRE_32Rnd_762x51_Mag",32},{"3Rnd_UGL_8Gauge_Pellet",3},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_ACTV_CGC_VEST_UP",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",4,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_32Rnd_762x51_Mag",6,32},{"1Rnd_HE_Grenade_shell",8,1},{"3Rnd_Smoke_Grenade_shell",2,3},{"3Rnd_UGL_8Gauge_Pellet",1,3}}},{"OPTRE_ANPRC_515",{}},"H_Booniehat_mgrn","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -920,7 +920,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_NATO_camo_arid","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST_UP","H_Watchcap_khk","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_FC_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST_UP","H_Watchcap_khk","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_FC_NVG"};
@@ -933,7 +933,7 @@ class CfgVehicles
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M45","","","optic_Holosight_blk_F",{"OPTRE_6Rnd_8Gauge_Pellet",6},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_6Rnd_8Gauge_Pellet",1,6}}},{"LM_OPCAN_ACTV_CGC_VEST_UP",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",4,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_6Rnd_8Gauge_Pellet",10,6},{"OPTRE_6Rnd_8Gauge_Slug",4,2}}},{"OPTRE_UNSC_Rucksack",{{"ACE_M26_Clacker",1},{"ACE_DefusalKit",1},{"ACE_DeadManSwitch",1},{"C7_Remote_Mag",4,1},{"C12_Remote_Mag",2,1}}},"H_Watchcap_khk","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_FC_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M45","","","optic_Holosight_blk_F",{"OPTRE_6Rnd_8Gauge_Pellet",6},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_6Rnd_8Gauge_Pellet",1,6}}},{"LM_OPCAN_ACTV_CGC_VEST_UP",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",4,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_6Rnd_8Gauge_Pellet",10,6},{"OPTRE_6Rnd_8Gauge_Slug",4,2}}},{"OPTRE_UNSC_Rucksack",{{"ACE_M26_Clacker",1},{"ACE_DefusalKit",1},{"ACE_DeadManSwitch",1},{"C7_Remote_Mag",4,1},{"C12_Remote_Mag",2,1}}},"H_Watchcap_khk","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_FC_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -961,7 +961,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_NATO_camo_arid","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST_UP","H_Cap_headphones","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST_UP","H_Cap_headphones","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -974,7 +974,7 @@ class CfgVehicles
 
         backpack = "OPTRE_UNSC_Rucksack";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M319","","","",{"UGL_8Gauge_Pellet",1},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"UGL_8Gauge_Pellet",1,1}}},{"LM_OPCAN_ACTV_CGC_VEST_UP",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",4,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"UGL_8Gauge_Pellet",2,1}}},{"OPTRE_UNSC_Rucksack",{{"3Rnd_HE_Grenade_shell",5,3},{"v105_Whistler_Grenade",10,1},{"3Rnd_UGL_FlareGreen_F",1,3},{"3Rnd_UGL_FlareYellow_F",1,3},{"3Rnd_UGL_FlareRed_F",1,3},{"OPAEX_3Rnd_Smoke_Grenade_shell",2,3},{"OPAEX_3Rnd_SmokeRed_Grenade_shell",1,3},{"OPTRE_8Rnd_127x40_Mag",4,8},{"3Rnd_SmokeRed_Grenade_shell",2,3},{"3Rnd_Smoke_Grenade_shell",4,3},{"UGL_8Gauge_Pellet",6,1}}},"H_Cap_headphones","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M319","","","",{"UGL_8Gauge_Pellet",1},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"UGL_8Gauge_Pellet",1,1}}},{"LM_OPCAN_ACTV_CGC_VEST_UP",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",4,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"UGL_8Gauge_Pellet",2,1}}},{"OPTRE_UNSC_Rucksack",{{"3Rnd_HE_Grenade_shell",5,3},{"v105_Whistler_Grenade",10,1},{"3Rnd_UGL_FlareGreen_F",1,3},{"3Rnd_UGL_FlareYellow_F",1,3},{"3Rnd_UGL_FlareRed_F",1,3},{"OPAEX_3Rnd_Smoke_Grenade_shell",2,3},{"OPAEX_3Rnd_SmokeRed_Grenade_shell",1,3},{"OPTRE_8Rnd_127x40_Mag",4,8},{"3Rnd_SmokeRed_Grenade_shell",2,3},{"3Rnd_Smoke_Grenade_shell",4,3},{"UGL_8Gauge_Pellet",6,1}}},"H_Cap_headphones","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1002,7 +1002,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_NATO_camo_arid","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPTRE_FC_Marines_Uniform_WDL";
+        uniformClass = "U_B_CombatUniform_vest_mcam_wdl_f";
 
         linkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST_UP","H_Booniehat_mgrn","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
         respawnlinkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST_UP","H_Booniehat_mgrn","ItemMap","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"};
@@ -1015,7 +1015,7 @@ class CfgVehicles
 
         backpack = "OPTRE_ANPRC_515";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M295_BMR","OPTRE_MA5Suppressor","OPTRE_BMR_Laser","OPTRE_BR55HB_Scope",{"OPTRE_15Rnd_762x51_Mag",15},{},""},{},{},{"OPTRE_FC_Marines_Uniform_WDL",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_15Rnd_762x51_Mag",1,15}}},{"LM_OPCAN_ACTV_CGC_VEST_UP",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",4,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_15Rnd_762x51_Mag",8,15},{"OPTRE_15Rnd_762x51_Mag_Tracer",4,15}}},{"OPTRE_ANPRC_515",{}},"H_Booniehat_mgrn","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M295_BMR","OPTRE_MA5Suppressor","OPTRE_BMR_Laser","OPTRE_BR55HB_Scope",{"OPTRE_15Rnd_762x51_Mag",15},{},""},{},{},{"U_B_CombatUniform_vest_mcam_wdl_f",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_ACTV_CGC_VEST_UP",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",4,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"OPTRE_15Rnd_762x51_Mag",7,15},{"OPTRE_15Rnd_762x51_Mag_Tracer",3,15}}},{"OPTRE_ANPRC_515",{}},"H_Booniehat_mgrn","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","OPTRE_NVG"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1090,12 +1090,12 @@ class CfgVehicles
         weapons[] = {"OPTRE_MA5K"};
         respawnWeapons[] = {"OPTRE_MA5K"};
 
-        magazines[] = {"OPTRE_60Rnd_762x51_Mag","OPTRE_60Rnd_762x51_Mag"};
-        respawnMagazines[] = {"OPTRE_60Rnd_762x51_Mag","OPTRE_60Rnd_762x51_Mag"};
+        magazines[] = {"OPTRE_32Rnd_762x51_Mag_JHP","OPTRE_32Rnd_762x51_Mag_JHP"};
+        respawnMagazines[] = {"OPTRE_32Rnd_762x51_Mag_JHP","OPTRE_32Rnd_762x51_Mag_JHP"};
 
         backpack = "OPTRE_ANPRC_515";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA5K","OPTRE_MA5Suppressor","OPTRE_BMR_Laser","OPTRE_M393_EOTECH",{"OPTRE_32Rnd_762x51_Mag_JHP",32},{},""},{},{},{"LM_OPCAN_Battlejumper_Uni",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_32Rnd_762x51_Mag_JHP",1,32}}},{"LM_OPCAN_BattleJumper_VEST",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"Laserbatteries",1,1},{"OPTRE_32Rnd_762x51_Mag_JHP",8,32}}},{"OPTRE_ANPRC_515",{}},"LM_OPCAN_TH56","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F_CNM"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA5K","OPTRE_MA5Suppressor","OPTRE_BMR_Laser","OPTRE_M393_EOTECH",{"OPTRE_32Rnd_762x51_Mag_JHP",32},{},""},{},{},{"LM_OPCAN_Battlejumper_Uni",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_BattleJumper_VEST",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",2,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"Laserbatteries",1,1},{"OPTRE_32Rnd_762x51_Mag_JHP",8,32}}},{"OPTRE_ANPRC_515",{}},"LM_OPCAN_TH56","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F_CNM"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1136,7 +1136,7 @@ class CfgVehicles
 
         backpack = "OPTRE_ILCS_Rucksack_Black";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M73","OPTRE_MA5Suppressor","","OPTRE_M393_ACOG_v2",{"OPTRE_200Rnd_95x40_Box_Tracer",36},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"LM_OPCAN_Battlejumper_Uni",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2},{"OPTRE_36Rnd_95x40_Mag",1,36}}},{"LM_OPCAN_BattleJumper_VEST",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"Laserbatteries",1,1},{"OPTRE_200Rnd_95x40_Box_Tracer",2,200}}},{"OPTRE_ILCS_Rucksack_Black",{{"OPTRE_200Rnd_95x40_Box_Tracer",4,200}}},"LM_OPCAN_TH56","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F_HURS_HUL"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M73","OPTRE_MA5Suppressor","","OPTRE_M393_ACOG_v2",{"OPTRE_200Rnd_95x40_Box_Tracer",200},{},""},{},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"LM_OPCAN_Battlejumper_Uni",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_BattleJumper_VEST",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"Laserbatteries",1,1},{"OPTRE_200Rnd_95x40_Box_Tracer",2,200}}},{"OPTRE_ILCS_Rucksack_Black",{{"OPTRE_200Rnd_95x40_Box_Tracer",4,200}}},"LM_OPCAN_TH56","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F_HURS_HUL"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1172,7 +1172,7 @@ class CfgVehicles
         weapons[] = {"OPTRE_HMG38","OPTRE_M6G"};
         respawnWeapons[] = {"OPTRE_HMG38","OPTRE_M6G"};
 
-        magazines[] = {"OPTRE_40Rnd_30x06_Mag","v105_Whistler_Grenadev105_Whistler_Grenade","OPTRE_8Rnd_127x40_Mag","OPTRE_40Rnd_30x06_Mag","v105_Whistler_Grenade","OPTRE_8Rnd_127x40_Mag"};
+        magazines[] = {"OPTRE_40Rnd_30x06_Mag","v105_Whistler_Grenade","OPTRE_8Rnd_127x40_Mag","OPTRE_40Rnd_30x06_Mag","v105_Whistler_Grenade","OPTRE_8Rnd_127x40_Mag"};
         respawnMagazines[] = {"OPTRE_40Rnd_30x06_Mag","v105_Whistler_Grenade","OPTRE_8Rnd_127x40_Mag","OPTRE_40Rnd_30x06_Mag","v105_Whistler_Grenade","OPTRE_8Rnd_127x40_Mag"};
 
         backpack = "OPTRE_ILCS_Rucksack_Black";
@@ -1213,12 +1213,12 @@ class CfgVehicles
         weapons[] = {"OPTRE_M45ATAC","OPTRE_M48_PAW","OPTRE_M6G"};
         respawnWeapons[] = {"OPTRE_M45ATAC","OPTRE_M48_PAW","OPTRE_M6G"};
 
-        magazines[] = {"OPTRE_12Rnd_8Gauge_Pellets","OPTRE_1Rnd_50x137_HEAT","OPTRE_8Rnd_127x40_Mag","OPTRE_12Rnd_8Gauge_Pellets","OPTRE_8Rnd_127x40_Mag"};
-        respawnMagazines[] = {"OPTRE_12Rnd_8Gauge_Pellets","OPTRE_1Rnd_50x137_HEAT","OPTRE_8Rnd_127x40_Mag","OPTRE_12Rnd_8Gauge_Pellets","OPTRE_8Rnd_127x40_Mag"};
+        magazines[] = {"OPTRE_12Rnd_8Gauge_Tungsten_Buckshot","OPTRE_1Rnd_50x137_HEAT","OPTRE_8Rnd_127x40_Mag","OPTRE_12Rnd_8Gauge_Tungsten_Buckshot","OPTRE_8Rnd_127x40_Mag"};
+        respawnMagazines[] = {"OPTRE_12Rnd_8Gauge_Tungsten_Buckshot","OPTRE_1Rnd_50x137_HEAT","OPTRE_8Rnd_127x40_Mag","OPTRE_12Rnd_8Gauge_Tungsten_Buckshot","OPTRE_8Rnd_127x40_Mag"};
 
         backpack = "OPTRE_ILCS_Rucksack_Black";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M45ATAC","","acc_flashlight","OPTRE_M393_EOTECH",{"OPTRE_12Rnd_8Gauge_Pellets",12},{},""},{"OPTRE_M48_PAW","","","",{"OPTRE_1Rnd_50x137_HEAT",1},{},""},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"LM_OPCAN_Battlejumper_Uni",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_BattleJumper_VEST",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"Laserbatteries",1,1},{"OPTRE_12Rnd_8Gauge_Pellets",8,12},{"OPTRE_6Rnd_8Gauge_HEDP",2,6}}},{"OPTRE_ILCS_Rucksack_Black",{{"OPTRE_1Rnd_50x137_PEN",2,1},{"OPTRE_1Rnd_50x137_HE",2,1}}},"LM_OPCAN_TH56","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M45ATAC","","acc_flashlight","OPTRE_M393_EOTECH",{"OPTRE_12Rnd_8Gauge_Tungsten_Buckshot",12},{},""},{"OPTRE_M48_PAW","","","",{"OPTRE_1Rnd_50x137_HEAT",1},{},""},{"OPTRE_M6G","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"LM_OPCAN_Battlejumper_Uni",{{"ACE_fieldDressing",4},{"ACE_elasticBandage",4},{"ACE_packingBandage",4},{"ACE_quikclot",4},{"ACE_epinephrine",1},{"ACE_morphine",4},{"ACE_Flashlight_XL50",1},{"ACE_tourniquet",2}}},{"LM_OPCAN_BattleJumper_VEST",{{"ACE_EarPlugs",1},{"OPTRE_M9_Frag",1,1},{"ACE_M84",2,1},{"OPTRE_M8_Flare",1,1},{"OPTRE_M8_Flare_Yellow",1,1},{"OPTRE_M2_Smoke",2,1},{"ACE_HandFlare_Red",1,1},{"Laserbatteries",1,1},{"OPTRE_12Rnd_8Gauge_Tungsten_Buckshot",8,12},{"OPTRE_12Rnd_8Gauge_Tungsten_Slug",2,12}}},{"OPTRE_ILCS_Rucksack_Black",{{"OPTRE_1Rnd_50x137_PEN",2,1},{"OPTRE_1Rnd_50x137_HE",2,1}}},"LM_OPCAN_TH56","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

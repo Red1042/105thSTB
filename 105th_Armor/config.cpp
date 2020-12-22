@@ -141,7 +141,7 @@ class CfgWeapons
 class CfgVehicles
 {
 	class VES_BDU_V_Evolved_Slim;
-	class OPCAN_RADIO_Urb;
+	class OPTRE_ANPRC_521_black;
 	class r105_uniform_base: VES_BDU_V_Evolved_Slim
 	{
 		hiddenSelectionsTextures[]=
@@ -151,7 +151,7 @@ class CfgVehicles
 		};
 		uniformclass="r105th_ODST";
 	};
-	class BravoCompany_Radio: OPCAN_RADIO_Urb
+	class BravoCompany_Radio: OPTRE_ANPRC_521_black
 	{
 		displayName="[ODST]M25D Long Range Helmet Uplink";
 		model="\A3\weapons_f\empty";
