@@ -259,6 +259,16 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	class ACOMP_NCO_BSmith_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="Barkley";
+		displayName="[105th] ECH252 Helmet (Smith)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\BSmi_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
 
 
 

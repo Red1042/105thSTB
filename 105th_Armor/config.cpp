@@ -84,6 +84,15 @@ class CfgWeapons
 			"105th_Armor\data\bCoBeret.paa"
 		};
 	};
+	class 105th_VC497_Beret: H_Beret_Colonel
+	{
+		author="Barkley";
+		displayName="[VC-497] Beret";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\VC497\VC497_Beret.paa"
+		};
+	};
 	class VC497_Helmet_CO: VES_CH252_MAR_Vacuum
 	{
 		author="Barkley";
