@@ -290,13 +290,13 @@
         };
         memoryPointDriverOptics = "gunnerview";
 	}; */
-/*   
+  
  	class v105_D77HTCI_REACH: VES_D77HTCI
     {
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Pelican";
+        editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI Pelican [Reach Around]";
@@ -307,13 +307,13 @@
         };
 	
     };
-*/
-/*	 class v105_HOW_D77HTCI_Keen: v105_D77HTCI_A
+
+	 class v105_HOW_D77HTCI_Keen: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Pelican";
+        editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI Pelican/AV [Keen]";
@@ -322,13 +322,13 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Reach_Keen_co.paa"
         };
-    }; */
-/*	 class v105_HOW_D77HTCI_BulcHori: v105_D77HTCI_A
+    }; 
+	 class v105_HOW_D77HTCI_BulcHori: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Pelican";
+        editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI Pelican/AV [Bulck & Horizon]";
@@ -337,13 +337,13 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Bulck_Horizon_co.paa"
         };
-    }; */
-/*	class v105_HOW_D77HTCI_REACH_BubOday: v105_D77HTCI_A
+    }; 
+	class v105_HOW_D77HTCI_REACH_BubOday: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Pelican";
+        editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
         author="Mr. Hartley & Skyly Sky";
         displayName="D77H-TCI/AV Pelican [Bubba & ODay]";
@@ -352,13 +352,13 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Bubba_ODay_co.paa"
         };
-    };	*/
-/*	 class v105_HOW_D77HTCI_SHARK_MeatWind: v105_D77HTCI_A
+    };	
+	 class v105_HOW_D77HTCI_SHARK_MeatWind: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Pelican";
+        editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
         author="Howard";
         displayName="D77H-TCI/AV Pelican [Meatballs & Mailwind]";
@@ -367,13 +367,13 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Meatballs_Mailwind_2_co.paa"
         };
-    }; */
-/*	 class v105_HOW_D77HTCI_SHARK_Ragith: v105_D77HTCI_A
+    }; 
+	 class v105_HOW_D77HTCI_SHARK_Ragith: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Pelican";
+        editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
         author="Howard";
         displayName="D77H-TCI/AV Pelican [Smith & Ragnarson]";
@@ -382,4 +382,4 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Smith_Ragnarson_co.paa"
         };
-    }; */
+    }; 

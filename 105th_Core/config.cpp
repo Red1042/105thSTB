@@ -72,6 +72,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Waterborne Vehicles";
 	};
+	class HOW_105th_EdSubCat_Archived
+	{
+		displayName = "Archived";
+	};
 	//OPFOR
 	class HOW_URF_EdSubCat_Aircraft
 	{
@@ -100,6 +104,10 @@ class CfgFunctions
 			class PelicanLoadValidate{file = "105th_Core\init\fn_PelicanLoadValidate.sqf";};
 			class PelicanUnLoadValidate{file = "105th_Core\init\fn_PelicanUnloadValidate.sqf";};
 		};
-
+		class WarthogAddMortar
+		{
+			class WarthogAddMortar{file = "105th_Core\init\fn_WarthogAddMortar.sqf";};
+		};
+		
 	};
 };

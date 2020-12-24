@@ -53,17 +53,17 @@ class CfgPatches
 		//Pelicans
 		"v105_D77HTCI_A",
 		"v105_D77HTCI",
-	//	"v105_D77HTCI_REACH",
-	//	"v105_HOW_D77HTCI_REACH_BubOday",
-	//	"v105_HOW_D77HTCI_BulcHori",
-	//	"v105_HOW_D77HTCI_SHARK_MeatWind",
-	//	"v105_HOW_D77HTCI_SHARK_Ragith",
-	//	"v105_HOW_D77HTCI_REACH_KEEN",
+		"v105_D77HTCI_REACH",
+		"v105_HOW_D77HTCI_REACH_BubOday",
+		"v105_HOW_D77HTCI_BulcHori",
+		"v105_HOW_D77HTCI_SHARK_MeatWind",
+		"v105_HOW_D77HTCI_SHARK_Ragith",
+		"v105_HOW_D77HTCI_Keen",
 		// Hornets
 	//	"HOW_AV14_Base",
 		"HOW_AV14_CAP",
 		"HOW_AV14_CAS",
-	//	"HOW_AV14_CAS_Keen", 
+		"HOW_AV14_CAS_Keen", 
 		"HOW_AV14B_CAS",
 		//Claymore
 		"v105_A364_Claymore",
@@ -276,6 +276,8 @@ class MainTurret;
 class TopTurret;
 class CopilotTurret;
 class CargoGunner_1;
+class CargoGunner_2;
+class CargoGunner_3;
 class CodRiverTurret;
 class CargoTurret_01;
 class CargoTurret_02;

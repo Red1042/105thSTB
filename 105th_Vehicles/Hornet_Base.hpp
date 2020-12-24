@@ -162,7 +162,7 @@ class HOW_AV14_Base: VES_AV14
 		class TransportBackpacks{};
 		
 	};
-/*	class HOW_AV14_CAS_Keen: HOW_AV14_Base
+	class HOW_AV14_CAS_Keen: HOW_AV14_Base
 	{
 		dlc="105th";
 		author="Howard, Skywalker";
@@ -172,7 +172,7 @@ class HOW_AV14_Base: VES_AV14
 		forceInGarage=1;
 		displayName="AV-14 Hornet II [Keen]";
 		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+		editorSubcategory="HOW_105th_EdSubCat_Archived";
 		crew="VES_Rifleman_MA5B_ODST";
 		mainRotorSpeed=5;
 		backRotorSpeed=4;
@@ -196,7 +196,7 @@ class HOW_AV14_Base: VES_AV14
 		{
 			"105th_Vehicles\textures\Hornet\105th_Hornet_Keen.paa"
 		};
-	};*/
+	};
 
 	class HOW_AV14B_CAS: HOW_AV14_Base
 	{

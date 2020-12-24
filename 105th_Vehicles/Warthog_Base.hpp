@@ -299,57 +299,32 @@ class HOW_M12_LRV_ExpA : OPTRE_M12_LRV
 			};
 		};
 };
-class OPTRE_M12R_AA;
-class HOW_M12_Mortar: OPTRE_M12R_AA
+
+class HOW_M12_Mortar : VES_M12
 {
-		dlc="105th";
-		author="Howard";
-		
-		scope=2;
-		scopeCurator=2;
-		displayName="M12 Warthog (Mortar)";
-		editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Motorized";
-		slowSpeedForwardCoef = 0.090;
-		class TransportItems
-		{
-			#include "cfg\VehicleGearHog.hpp"
-		};
-		class TransportMagazines{};
-		class TransportWeapons{};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Vehicles\textures\Hog\V_M12_BLK_CO.paa",
-			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
-		};
-		artilleryScanner=1;
-		class Turrets:Turrets
+	dlc="105th";
+	author="Howard";
+	
+	scope=2;
+	scopeCurator=2;
+	displayName="M12 Warthog (Mortar)";
+	editorCategory="HOW_EdCat_105th";
+    editorSubcategory="HOW_105th_EdSubCat_Motorized";
+	slowSpeedForwardCoef = 0.090;
+	class TransportItems
+	{
+		#include "cfg\VehicleGearMort.hpp"
+	};
+	class TransportMagazines{};
+	class TransportWeapons{};
+	class EventHandlers: EventHandlers
+	{
+		init = "0 = _this spawn V_FZ_fnc_WarthogAddMortar";
+	};
+	class Turrets:Turrets
 		{
 			class CargoGunner_1 : CargoGunner_1{};
-			class MainTurret : MainTurret
-			{
-				elevationMode=3;
-				initCamElev=0;
-				minCamElev=-30;
-				maxCamElev=80;
-				initElev=0;
-				maxElev=80;
-				minTurn=-180;
-				maxTurn=180;
-				initTurn=0;
-				
-				weapons[]=
-				{
-					"mortar_82mm"
-				};
-				magazines[]=
-				{
-					"8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells",
-					"8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells",
-					"8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_shells",
-					"8Rnd_82mm_Mo_shells","8Rnd_82mm_Mo_Smoke_white",
-					"8Rnd_82mm_Mo_Smoke_white","8Rnd_82mm_Mo_Smoke_white",
-				};
-			};
+			class CargoGunner_2 : CargoGunner_2{};
+			class CargoGunner_3 : CargoGunner_3{};
 		};
 };
