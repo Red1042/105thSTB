@@ -15,32 +15,32 @@ class CfgPatches {
         requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
-            "lambs_danger",
-            "kka3_gestures_ace",
+        //    "lambs_danger",
+        //    "kka3_gestures_ace",
             "A3_Sounds_F",
-            "3rdView",
+        //   "3rdView",
             "A3_Sounds_F_Exp",
-            "jsrs_soundmod_complete_edition",
+        //    "jsrs_soundmod_complete_edition",
             "tfar_core",
-            "MRHSatellite",
-            "ace_gforces",
-            "ace_movement",
-            "ace_medical_feedback",
+        //    "MRHSatellite",
+        //    "ace_gforces",
+        //    "ace_movement",
+        //    "ace_medical_feedback",
             "A3_Data_F",
             "A3_Data_F_Curator",
             "A3_Air_F_Heli",
-            "CUP_Worlds_DustEffects",
-            "A3_Map_Abramia",
-            "pja310",
-            "pja305",
-            "pja314",
-            "ibr_panthera_c",
-            "hebontes",
-            "ace_thermals",
-            "zen_attributes",
-            "ace_refuel",
-            "CUP_Core",
-            "cba_xeh"
+        //    "CUP_Worlds_DustEffects",
+        //    "A3_Map_Abramia",
+        //    "pja310",
+        //    "pja305",
+        //    "pja314",
+        //    "ibr_panthera_c",
+        //    "hebontes",
+        //    "ace_thermals",
+        //    "zen_attributes",
+        //    "ace_refuel",
+        //    "CUP_Core",
+        //    "cba_xeh"
         };
         author = "Sgt. K. Bulck";
         authors[] = {"Sgt. K. Bulck"};
@@ -312,7 +312,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPCAN_CGA_U_W";
+        uniformClass = "LM_OPCAN_KOS_Gorka4_uni_Base";
 
         linkedItems[] = {"V_BandollierB_ghex_F","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_BandollierB_ghex_F","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
@@ -320,10 +320,10 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA32","OPTRE_M33","Binocular"};
         respawnWeapons[] = {"OPTRE_MA32","OPTRE_M33","Binocular"};
 
-        magazines[] = {"Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl","Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl"};
-        respawnMagazines[] = {"Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl","Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl"};
+        magazines[] = {"OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl","OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl"};
+        respawnMagazines[] = {"OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl","OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl"};
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","","","",{"Echo_32Rnd_762x51_Mag_TTR",32},{},""},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"OPCAN_CGA_U_W",{{"FirstAidKit",1},{"Echo_32Rnd_762x51_Mag_TTR",3,32},{"OPTRE_6Rnd_127x40_Cyl",1,6}}},{"V_BandollierB_ghex_F",{{"MiniGrenade",3,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_6Rnd_127x40_Cyl",2,6},{"OPTRE_32Rnd_762x51_Mag",4,32}}},{},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","","","",{"OPTRE_32Rnd_762x51_Mag",32},{},""},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"LM_OPCAN_KOS_Gorka4_uni_Base",{{"FirstAidKit",1},{"OPTRE_32Rnd_762x51_Mag",3,32},{"OPTRE_6Rnd_127x40_Cyl",1,6}}},{"V_BandollierB_ghex_F",{{"MiniGrenade",3,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_6Rnd_127x40_Cyl",2,6},{"OPTRE_32Rnd_762x51_Mag",4,32}}},{},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -350,7 +350,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPCAN_CGA_U_W";
+        uniformClass = "LM_OPCAN_KOS_Gorka4_uni_Base";
 
         linkedItems[] = {"V_Pocketed_coyote_F","H_Bandanna_cbr","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_Pocketed_coyote_F","H_Bandanna_cbr","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
@@ -358,12 +358,12 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA5K","MatGrp_M6C_Auto","Binocular"};
         respawnWeapons[] = {"OPTRE_MA5K","MatGrp_M6C_Auto","Binocular"};
 
-        magazines[] = {"Echo_32Rnd_762x51_Mag_TTR","MatGrp_20Rnd_127x40_Mag","Echo_32Rnd_762x51_Mag_TTR","MatGrp_20Rnd_127x40_Mag"};
-        respawnMagazines[] = {"Echo_32Rnd_762x51_Mag_TTR","MatGrp_20Rnd_127x40_Mag","Echo_32Rnd_762x51_Mag_TTR","MatGrp_20Rnd_127x40_Mag"};
+        magazines[] = {"OPTRE_32Rnd_762x51_Mag","MatGrp_20Rnd_127x40_Mag","OPTRE_32Rnd_762x51_Mag","MatGrp_20Rnd_127x40_Mag"};
+        respawnMagazines[] = {"OPTRE_32Rnd_762x51_Mag","MatGrp_20Rnd_127x40_Mag","OPTRE_32Rnd_762x51_Mag","MatGrp_20Rnd_127x40_Mag"};
 
         backpack = "B_Messenger_IDAP_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA5K","","","",{"Echo_32Rnd_762x51_Mag_TTR",32},{},""},{},{"MatGrp_M6C_Auto","","","",{"MatGrp_20Rnd_127x40_Mag",20},{},""},{"OPCAN_CGA_U_W",{{"FirstAidKit",1},{"Echo_32Rnd_762x51_Mag_TTR",3,32},{"MatGrp_20Rnd_127x40_Mag",3,20}}},{"V_Pocketed_coyote_F",{{"MiniGrenade",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_32Rnd_762x51_Mag",3,32},{"MatGrp_20Rnd_127x40_Mag_Tracer",1,20}}},{"B_Messenger_IDAP_F",{{"ACE_elasticBandage",40},{"ACE_surgicalKit",1},{"ACE_tourniquet",4},{"ACE_splint",10},{"ACE_salineIV",3},{"ACE_salineIV_500",2},{"ACE_packingBandage",20}}},"H_Bandanna_cbr","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA5K","","","",{"OPTRE_32Rnd_762x51_Mag",32},{},""},{},{"MatGrp_M6C_Auto","","","",{"MatGrp_20Rnd_127x40_Mag",20},{},""},{"LM_OPCAN_KOS_Gorka4_uni_Base",{{"FirstAidKit",1},{"OPTRE_32Rnd_762x51_Mag",3,32},{"MatGrp_20Rnd_127x40_Mag",3,20}}},{"V_Pocketed_coyote_F",{{"MiniGrenade",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_32Rnd_762x51_Mag",3,32},{"MatGrp_20Rnd_127x40_Mag_Tracer",1,20}}},{"B_Messenger_IDAP_F",{{"ACE_elasticBandage",40},{"ACE_surgicalKit",1},{"ACE_tourniquet",4},{"ACE_splint",10},{"ACE_salineIV",3},{"ACE_salineIV_500",2},{"ACE_packingBandage",20}}},"H_Bandanna_cbr","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -390,7 +390,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPCAN_CGA_U_W";
+        uniformClass = "LM_OPCAN_KOS_Gorka4_uni_Base";
 
         linkedItems[] = {"V_TacChestrig_oli_F","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_TacChestrig_oli_F","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
@@ -403,7 +403,7 @@ class CfgVehicles {
 
         backpack = "B_AssaultPack_tna_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{"OPTRE_60Rnd_762x51_Mag",60},{},""},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"OPCAN_CGA_U_W",{{"FirstAidKit",1},{"OPTRE_6Rnd_127x40_Cyl",1,6},{"OPTRE_60Rnd_762x51_Mag",3,60}}},{"V_TacChestrig_oli_F",{{"MiniGrenade",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_6Rnd_127x40_Cyl",2,6},{"OPTRE_60Rnd_762x51_Mag",6,60}}},{"B_AssaultPack_tna_F",{{"ACE_fieldDressing",5},{"OPTRE_60Rnd_762x51_Mag",7,60},{"MiniGrenade",2,1}}},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37B","","","",{"OPTRE_60Rnd_762x51_Mag",60},{},""},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"LM_OPCAN_KOS_Gorka4_uni_Base",{{"FirstAidKit",1},{"OPTRE_6Rnd_127x40_Cyl",1,6},{"OPTRE_60Rnd_762x51_Mag",3,60}}},{"V_TacChestrig_oli_F",{{"MiniGrenade",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_6Rnd_127x40_Cyl",2,6},{"OPTRE_60Rnd_762x51_Mag",6,60}}},{"B_AssaultPack_tna_F",{{"ACE_fieldDressing",5},{"OPTRE_60Rnd_762x51_Mag",7,60},{"MiniGrenade",2,1}}},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -510,7 +510,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPCAN_CGA_U_W";
+        uniformClass = "LM_OPCAN_KOS_Gorka4_uni_Base";
 
         linkedItems[] = {"V_BandollierB_ghex_F","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_BandollierB_ghex_F","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
@@ -518,12 +518,12 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA32","OPTRE_M48_PAW","OPTRE_M33","Binocular"};
         respawnWeapons[] = {"OPTRE_MA32","OPTRE_M48_PAW","OPTRE_M33","Binocular"};
 
-        magazines[] = {"Echo_32Rnd_762x51_Mag_TTR","OPTRE_1Rnd_50x137_HEAT","OPTRE_6Rnd_127x40_Cyl","Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl"};
-        respawnMagazines[] = {"Echo_32Rnd_762x51_Mag_TTR","OPTRE_1Rnd_50x137_HEAT","OPTRE_6Rnd_127x40_Cyl","Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl"};
+        magazines[] = {"OPTRE_32Rnd_762x51_Mag","OPTRE_1Rnd_50x137_HEAT","OPTRE_6Rnd_127x40_Cyl","OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl"};
+        respawnMagazines[] = {"OPTRE_32Rnd_762x51_Mag","OPTRE_1Rnd_50x137_HEAT","OPTRE_6Rnd_127x40_Cyl","OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl"};
 
         backpack = "B_AssaultPack_tna_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","","","",{"Echo_32Rnd_762x51_Mag_TTR",32},{},""},{"OPTRE_M48_PAW","","","",{"OPTRE_1Rnd_50x137_HEAT",1},{},""},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"OPCAN_CGA_U_W",{{"FirstAidKit",1},{"Echo_32Rnd_762x51_Mag_TTR",3,32},{"OPTRE_6Rnd_127x40_Cyl",1,6}}},{"V_BandollierB_ghex_F",{{"MiniGrenade",3,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_6Rnd_127x40_Cyl",2,6},{"OPTRE_32Rnd_762x51_Mag",4,32}}},{"B_AssaultPack_tna_F",{{"OPTRE_1Rnd_50x137_HEAT",4,1}}},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","","","",{"OPTRE_32Rnd_762x51_Mag",32},{},""},{"OPTRE_M48_PAW","","","",{"OPTRE_1Rnd_50x137_HEAT",1},{},""},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"LM_OPCAN_KOS_Gorka4_uni_Base",{{"FirstAidKit",1},{"OPTRE_32Rnd_762x51_Mag",3,32},{"OPTRE_6Rnd_127x40_Cyl",1,6}}},{"V_BandollierB_ghex_F",{{"MiniGrenade",3,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_6Rnd_127x40_Cyl",2,6},{"OPTRE_32Rnd_762x51_Mag",4,32}}},{"B_AssaultPack_tna_F",{{"OPTRE_1Rnd_50x137_HEAT",4,1}}},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -550,7 +550,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPCAN_CGA_U_W";
+        uniformClass = "LM_OPCAN_KOS_Gorka4_uni_Base";
 
         linkedItems[] = {"V_TacChestrig_oli_F","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_TacChestrig_oli_F","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
@@ -558,12 +558,12 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA32","OPTRE_M33","Binocular"};
         respawnWeapons[] = {"OPTRE_MA32","OPTRE_M33","Binocular"};
 
-        magazines[] = {"Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl","Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl"};
-        respawnMagazines[] = {"Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl","Echo_32Rnd_762x51_Mag_TTR","OPTRE_6Rnd_127x40_Cyl"};
+        magazines[] = {"OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl","OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl"};
+        respawnMagazines[] = {"OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl","OPTRE_32Rnd_762x51_Mag","OPTRE_6Rnd_127x40_Cyl"};
 
         backpack = "TFAR_bussole";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","","","",{"Echo_32Rnd_762x51_Mag_TTR",32},{},""},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"OPCAN_CGA_U_W",{{"FirstAidKit",1},{"Echo_32Rnd_762x51_Mag_TTR",3,32},{"OPTRE_6Rnd_127x40_Cyl",1,6}}},{"V_TacChestrig_oli_F",{{"MiniGrenade",3,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_6Rnd_127x40_Cyl",2,6},{"OPTRE_32Rnd_762x51_Mag",4,32}}},{"TFAR_bussole",{}},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","","","",{"OPTRE_32Rnd_762x51_Mag",32},{},""},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"LM_OPCAN_KOS_Gorka4_uni_Base",{{"FirstAidKit",1},{"OPTRE_32Rnd_762x51_Mag",3,32},{"OPTRE_6Rnd_127x40_Cyl",1,6}}},{"V_TacChestrig_oli_F",{{"MiniGrenade",3,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_6Rnd_127x40_Cyl",2,6},{"OPTRE_32Rnd_762x51_Mag",4,32}}},{"TFAR_bussole",{}},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -590,7 +590,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "U_C_Uniform_Farmer_01_F";
+        uniformClass = "LM_OPCAN_KOS_Gorka4_uni_Base";
 
         linkedItems[] = {"VES_M52A_WDL_Rifleman_D","OPTRE_Ins_URF_Helmet1","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"VES_M52A_WDL_Rifleman_D","OPTRE_Ins_URF_Helmet1","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
@@ -603,7 +603,7 @@ class CfgVehicles {
 
         backpack = "B_Messenger_Olive_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA5AGL","OPTRE_MA5Suppressor","OPTRE_BMR_Laser","OPTRE_BR55HB_Scope",{"OPTRE_60Rnd_762x51_Mag",60},{"UGL_8Gauge_Pellet",1},""},{},{"MatGrp_M6C_Auto","OPTRE_M6C_compensator","OPTRE_M6C_Laser","OPTRE_M7_Sight_v2",{"MatGrp_20Rnd_127x40_Mag",20},{},""},{"U_C_Uniform_Farmer_01_F",{{"FirstAidKit",1},{"UGL_8Gauge_Pellet",1,1}}},{"VES_M52A_WDL_Rifleman_D",{{"ACE_fieldDressing",15},{"MiniGrenade",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_60Rnd_762x51_Mag",10,60}}},{"B_Messenger_Olive_F",{{"3Rnd_HE_Grenade_shell",4,3}}},"OPTRE_Ins_URF_Helmet1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA5AGL","OPTRE_MA5Suppressor","OPTRE_BMR_Laser","OPTRE_BR55HB_Scope",{"OPTRE_60Rnd_762x51_Mag",60},{"UGL_8Gauge_Pellet",1},""},{},{"MatGrp_M6C_Auto","OPTRE_M6C_compensator","OPTRE_M6C_Laser","OPTRE_M7_Sight_v2",{"MatGrp_20Rnd_127x40_Mag",20},{},""},{"LM_OPCAN_KOS_Gorka4_uni_Base",{{"FirstAidKit",1},{"UGL_8Gauge_Pellet",1,1}}},{"VES_M52A_WDL_Rifleman_D",{{"ACE_fieldDressing",15},{"MiniGrenade",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",2,1},{"OPTRE_60Rnd_762x51_Mag",10,60}}},{"B_Messenger_Olive_F",{{"3Rnd_HE_Grenade_shell",4,3}}},"OPTRE_Ins_URF_Helmet1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -630,7 +630,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "OPCAN_CGA_U_W";
+        uniformClass = "LM_OPCAN_KOS_Gorka4_uni_Base";
 
         linkedItems[] = {"V_Rangemaster_Belt","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_Rangemaster_Belt","H_Bandanna_sgg","ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch"};
@@ -641,7 +641,7 @@ class CfgVehicles {
         magazines[] = {"HOW_15Rnd_762x51_338_API_Mag","OPTRE_6Rnd_127x40_Cyl","HOW_15Rnd_762x51_338_API_Mag","OPTRE_6Rnd_127x40_Cyl"};
         respawnMagazines[] = {"HOW_15Rnd_762x51_338_API_Mag","OPTRE_6Rnd_127x40_Cyl","HOW_15Rnd_762x51_338_API_Mag","OPTRE_6Rnd_127x40_Cyl"};
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M393S_DMR","","","OPTRE_M393_Scope_v2",{"HOW_15Rnd_762x51_338_API_Mag",15},{},""},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"OPCAN_CGA_U_W",{{"FirstAidKit",1},{"OPTRE_6Rnd_127x40_Cyl",1,6},{"HOW_15Rnd_762x51_338_API_Mag",3,15}}},{"V_Rangemaster_Belt",{{"OPTRE_6Rnd_127x40_Cyl",1,6},{"HOW_15Rnd_762x51_338_Magnum_Mag",3,15}}},{},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M393S_DMR","","","OPTRE_M393_Scope_v2",{"HOW_15Rnd_762x51_338_API_Mag",15},{},""},{},{"OPTRE_M33","","","",{"OPTRE_6Rnd_127x40_Cyl",6},{},""},{"LM_OPCAN_KOS_Gorka4_uni_Base",{{"FirstAidKit",1},{"OPTRE_6Rnd_127x40_Cyl",1,6},{"HOW_15Rnd_762x51_338_API_Mag",3,15}}},{"V_Rangemaster_Belt",{{"OPTRE_6Rnd_127x40_Cyl",1,6},{"HOW_15Rnd_762x51_338_Magnum_Mag",3,15}}},{},"H_Bandanna_sgg","",{"Binocular","","","",{},{},""},{"ItemMap","ItemAndroid","TFAR_rf7800str","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
