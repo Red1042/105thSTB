@@ -5,11 +5,11 @@ class v105_408_SRSC:OPTRE_SRS99C
 				author = "Howard";
 				scope = 2;
 				scopeArsenal = 2;
-				displayName = "[105th] SRS-99C (.408)";
+				displayName = "[105th] SRS-99C";
 				magazines[]=
 				{
-					"ACE_7Rnd_408_305gr_Mag",
-					"7Rnd_408_Mag"
+					"v105_4Rnd_145x114_Mag",
+					"v105_4Rnd_145x114_Mag_Tracer"
 				};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -30,7 +30,7 @@ class v105_408_SRSC:OPTRE_SRS99C
 					"optic_nvs",
 					"optic_ams",
 
-					"optre_srs99_scope",
+					//"v105_srs99c_scope",
 					"optre_srs99c_scope"
 
 					

@@ -17,10 +17,12 @@
 		{
 			
 			"HOW_Flares",
-			
+			"Laserdesignator_pilotCamera"
+
 		};
 		magazines[]=
 		{
+            "Laserbatteries",
 			"HOW_320Rnd_Flare_Chaff_Magazine",
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
@@ -185,6 +187,71 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Base_co.paa"
         };
+		 class pilotCamera
+        {
+            class OpticsIn
+            {
+                class Wide
+                {
+                    opticsDisplayName = "WFOV";
+                    initAngleX = 0;
+                    minAngleX = 0;
+                    maxAngleX = 0;
+                    initAngleY = 0;
+                    minAngleY = 0;
+                    maxAngleY = 0;
+                    initFov = "(75 / 120)";
+                    minFov = "(75 / 120)";
+                    maxFov = "(75 / 120)";
+                    directionStabilized = 1;
+                    visionMode[] = {"Normal","NVG","Ti"};
+                    thermalMode[] = {0,1};
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                };
+                class Medium: Wide
+                {
+                    opticsDisplayName = "MFOV";
+                    initFov = "(14.4 / 120)";
+                    minFov = "(14.4 / 120)";
+                    maxFov = "(14.4 / 120)";
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+                };
+                class Narrow: Wide
+                {
+                    opticsDisplayName = "NFOV";
+                    initFov = "(4.8 / 120)";
+                    minFov = "0.01";
+                    maxFov = "(4.8 / 120)";
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+                };
+            };
+            minTurn = -90;
+            maxTurn = 90;
+            initTurn = 0;
+            minElev = -10;
+            maxElev = 90;
+            initElev = 25;
+            maxXRotSpeed = 1;
+            maxYRotSpeed = 1;
+            maxMouseXRotSpeed = 0.5;
+            maxMouseYRotSpeed = 0.5;
+            pilotOpticsShowCursor = 1;
+            controllable = 1;
+        };
+        memoryPointDriverOptics = "gunnerview";
+        soundLocked[]=
+		{
+			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedOn1",
+			1,
+			1
+		};
+		soundIncommingMissile[]=
+		{
+			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedon2",
+			1,
+			1.5
+		};
     };
     
     class v105_D77HTCI: VES_D77HTCI
@@ -194,16 +261,17 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
+        author="N-4 Logistics";
         displayName="D77H-TCI Pelican [Navy]";
         fuelCapacity=1200;
 		weapons[]=
 		{
-			"HOW_Flares"
+			"HOW_Flares",
+            "Laserdesignator_pilotCamera"
 		};
 		magazines[]=
 		{
-			
+			"Laserbatteries",
 			"HOW_320Rnd_Flare_Chaff_Magazine",
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
@@ -211,7 +279,152 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Base_co.paa"
         };
+		 class pilotCamera
+        {
+            class OpticsIn
+            {
+                class Wide
+                {
+                    opticsDisplayName = "WFOV";
+                    initAngleX = 0;
+                    minAngleX = 0;
+                    maxAngleX = 0;
+                    initAngleY = 0;
+                    minAngleY = 0;
+                    maxAngleY = 0;
+                    initFov = "(75 / 120)";
+                    minFov = "(75 / 120)";
+                    maxFov = "(75 / 120)";
+                    directionStabilized = 1;
+                    visionMode[] = {"Normal","NVG","Ti"};
+                    thermalMode[] = {0,1};
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                };
+                class Medium: Wide
+                {
+                    opticsDisplayName = "MFOV";
+                    initFov = "(14.4 / 120)";
+                    minFov = "(14.4 / 120)";
+                    maxFov = "(14.4 / 120)";
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+                };
+                class Narrow: Wide
+                {
+                    opticsDisplayName = "NFOV";
+                    initFov = "(4.8 / 120)";
+                    minFov = "0.01";
+                    maxFov = "(4.8 / 120)";
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+                };
+            };
+            minTurn = -90;
+            maxTurn = 90;
+            initTurn = 0;
+            minElev = -10;
+            maxElev = 90;
+            initElev = 25;
+            maxXRotSpeed = 1;
+            maxYRotSpeed = 1;
+            maxMouseXRotSpeed = 0.5;
+            maxMouseYRotSpeed = 0.5;
+            pilotOpticsShowCursor = 1;
+            controllable = 1;
+        };
+        memoryPointDriverOptics = "gunnerview";
+        soundLocked[]=
+		{
+			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedOn1",
+			1,
+			1
+		};
+		soundIncommingMissile[]=
+		{
+			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedon2",
+			1,
+			1.5
+		};
     };
+	class v105_D78DHTC:v105_D77HTCI
+	{
+		scopeCurator = 2;
+        editorCategory="HOW_EdCat_105th";
+        editorSubcategory="HOW_105th_EdSubCat_Pelican";
+        dlc="105th";
+        author="N-4 Logistics";
+        displayName="D78TC Pelican [Troop Carrier]";
+        fuelCapacity=1200;
+		class EventHandlers: EventHandlers
+		{
+			init = "0 = _this spawn V_FZ_fnc_PelicanAddTransportPod";
+		};
+		 class pilotCamera
+        {
+            class OpticsIn
+            {
+                class Wide
+                {
+                    opticsDisplayName = "WFOV";
+                    initAngleX = 0;
+                    minAngleX = 0;
+                    maxAngleX = 0;
+                    initAngleY = 0;
+                    minAngleY = 0;
+                    maxAngleY = 0;
+                    initFov = "(75 / 120)";
+                    minFov = "(75 / 120)";
+                    maxFov = "(75 / 120)";
+                    directionStabilized = 1;
+                    visionMode[] = {"Normal","NVG","Ti"};
+                    thermalMode[] = {0,1};
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
+                    opticsPPEffects[] = {"OpticsCHAbera2","OpticsBlur2"};
+                };
+                class Medium: Wide
+                {
+                    opticsDisplayName = "MFOV";
+                    initFov = "(14.4 / 120)";
+                    minFov = "(14.4 / 120)";
+                    maxFov = "(14.4 / 120)";
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+                };
+                class Narrow: Wide
+                {
+                    opticsDisplayName = "NFOV";
+                    initFov = "(4.8 / 120)";
+                    minFov = "0.01";
+                    maxFov = "(4.8 / 120)";
+                    gunnerOpticsModel = "\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+                };
+            };
+            minTurn = -90;
+            maxTurn = 90;
+            initTurn = 0;
+            minElev = -10;
+            maxElev = 90;
+            initElev = 25;
+            maxXRotSpeed = 1;
+            maxYRotSpeed = 1;
+            maxMouseXRotSpeed = 0.5;
+            maxMouseYRotSpeed = 0.5;
+            pilotOpticsShowCursor = 1;
+            controllable = 1;
+        };
+        memoryPointDriverOptics = "gunnerview";
+        soundLocked[]=
+		{
+			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedOn1",
+			1,
+			1
+		};
+		soundIncommingMissile[]=
+		{
+			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedon2",
+			1,
+			1.5
+		};
+	};
+
 /*	class v105_D78HTCI_AV:v105_D77HTCI_A
 	{
 		author="Keen and Howard";
@@ -298,7 +511,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
+        author="N-4 Logistics";
         displayName="D77H-TCI Pelican [Reach Around]";
         fuelCapacity=1200;
         hiddenSelectionsTextures[]=
@@ -315,7 +528,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
+        author="N-4 Logistics";
         displayName="D77H-TCI Pelican/AV [Keen]";
         fuelCapacity=1200;
         hiddenSelectionsTextures[]=
@@ -330,7 +543,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
+        author="N-4 Logistics";
         displayName="D77H-TCI Pelican/AV [Bulck & Horizon]";
         fuelCapacity=1200;
         hiddenSelectionsTextures[]=
@@ -345,7 +558,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
-        author="Mr. Hartley & Skyly Sky";
+        author="N-4 Logistics";
         displayName="D77H-TCI/AV Pelican [Bubba & ODay]";
         fuelCapacity=1200;
         hiddenSelectionsTextures[]=

@@ -216,3 +216,22 @@ class v105_HOW_300Rnd_762x51_Box_Tracer: OPTRE_100Rnd_762x51_Box_Tracer
 	tracersEvery				= 2;
 	mass						= 50;
 };
+class ACE_7Rnd_408_305gr_Mag;
+class v105_4Rnd_145x114_Mag:ACE_7Rnd_408_305gr_Mag
+{
+	author						= "Howard";
+	scope						= 2;
+	scopeArsenal				= 2;		
+	count						= 4;
+	displayname 				= "[105th] 14.5x114mm Magazine";
+	ammo						= "v105_145x114_Ball";
+};
+class v105_4Rnd_145x114_Mag_Tracer:ACE_7Rnd_408_305gr_Mag
+{
+	author						= "Howard";
+	scope						= 2;
+	scopeArsenal				= 2;		
+	count						= 4;
+	displayname 				= "[105th] 14.5x114mm Tracer Magazine";
+	ammo						= "v105_145x114_Tracer";
+};

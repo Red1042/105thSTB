@@ -53,6 +53,7 @@ class CfgPatches
 		//Pelicans
 		"v105_D77HTCI_A",
 		"v105_D77HTCI",
+		"v105_D78DHTC",
 		"v105_D77HTCI_REACH",
 		"v105_HOW_D77HTCI_REACH_BubOday",
 		"v105_HOW_D77HTCI_BulcHori",
@@ -255,13 +256,14 @@ class CfgPatches
 			"A3_Weapons_F",
 			"A3_Air_F",
 			"A3_Air_F_Beta",
+			"A3_Air_F_Jets",
 			"A3_Armor_F_Beta",
 			"A3_Armor_F_Beta_APC_Wheeled_01",
 			"A3_Soft_F_Exp",
 			"A3_Soft_F_Exp_LSV_01",
 			"A3_Armor_F_Tank",
 			"A3_Armor_F_Tank_AFV_Wheeled_01",
-			
+			"FIR_AirWeaponSystem_US"
 		};
 	};
 };
@@ -828,5 +830,25 @@ class cfgVehicles
 		ace_cargo_space = 4;
 		ace_cargo_hasCargo = 1;
 	};
-	
+	class Land_Pod_Heli_Transport_04_covered_F;
+	class v105_Land_Transport_Covered_Pod:Land_Pod_Heli_Transport_04_covered_F
+	{
+		scopeCurator = 2;
+		scope  = 2;
+		Author = "Howard";
+		displayName = "[105th] Passenger Compartment";
+		editorCategory = "HOW_EdCat_105th"
+		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+			class TransportItems
+			{
+				#include "cfg\SupplyPods\ResupplyPodRifle.hpp"
+			};
+			class TransportMagazines{};
+			class TransportWeapons{};
+			hiddenSelectionsTextures[]=
+			{
+				"105th_Vehicles\textures\TransportPod\taru_1_retexture.paa",
+				"105th_Vehicles\textures\TransportPod\taru_2_retexture.paa"
+			};
+	};
 };

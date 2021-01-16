@@ -130,19 +130,17 @@ switch true do {
 		_veh attachTo [_pelican,[0,-5,.40]];
 		_loaded = true; 
 	};
-	case (_veh isKindOf "v105_SDV_Marine"):
-	{
-		_veh attachTo [_pelican,[0,-5,.40]];
-		_loaded = true; 
-	};
 	case (_veh isKindOf "v105_SDV_ODST"):
 	{
 		_veh attachTo [_pelican,[0,-5,.40]];
 		_loaded = true; 
 	};
+	
+
+	
 	case (_veh isKindOf "optre_hornet_base"):
 	{
-		_veh attachTo [_pelican,[0,-5,-0.8]];  
+		_veh attachTo [_pelican,[0,-5,-0.12]];
 		_loaded = true;  
 	};
 	

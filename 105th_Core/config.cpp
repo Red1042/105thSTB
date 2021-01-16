@@ -108,6 +108,17 @@ class CfgFunctions
 		{
 			class WarthogAddMortar{file = "105th_Core\init\fn_WarthogAddMortar.sqf";};
 		};
-		
+		class PelicanAddTransportPod
+		{
+			class PelicanAddTransportPod{file = "105th_Core\init\fn_PelicanAddTransportPod.sqf";};
+		};
+		class droptanks
+		{
+			class droptanks{file = "105th_Core\init\droptanks.sqf";};
+		};
+		class F16_Refuel
+		{
+			class F16_Refuel{file = "105th_Core\init\F16_Refuel.sqf";};
+		};
 	};
 };

@@ -25,7 +25,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 				{
 					1.6,
 					1.8,
-					1.5,
+					1.75,
 					1.51,
 					1.5,
 					1.4900001,
@@ -50,10 +50,23 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		armorStructural=5;
 		explosionShielding=3;
 
-		lockDetectionSystem="1+2+4+8+16";
-		incomingMissileDetectionSystem=16;
+		LockDetectionSystem=8;
+		incomingMissileDetectionSystem="8 + 16";
+		soundLocked[]=
+		{
+			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedOn1",
+			1,
+			1
+		};
+		soundIncommingMissile[]=
+		{
+			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedon2",
+			1,
+			1.5
+		};
 		weapons[]=
 		{
+			"FIR_MasterArm",
 			"FIR_GAU8",
 			"Laserdesignator_pilotCamera",
 			"CMFlareLauncher"
@@ -177,6 +190,9 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					class AntiRadiationSensorComponent: SensorTemplateAntiRadiation
 					{
 					};
+					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
+					{
+					};
 					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
 					{
 					};
@@ -254,7 +270,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					{
 						hardpoints[]=
 						{
-							"105th_Claymore"
+							"FIR_BLUFOR_Combined_HP","FIR_A10_MER_HP","FIR_F23_AA_HP","FIR_F22_SW_HP","FIR_A10A_GUN_HP","FIR_F16_Under_HP","FIR_F16_Aux_HP"
 						};
 						attachment="v105_AIM9X_P_2rnd_M";
 						priority=5;
@@ -271,7 +287,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					class Pylons3: Pylons1
 					{
 						priority=3;
-						attachment="v105_ALQ99_P_1rnd_M";
+						attachment="v105_AGM65E2_P_1rnd_M";
 						maxweight=1200;
 						UIposition[]={0.34,0.1};
 					};
@@ -327,76 +343,140 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 						displayName="$STR_empty";
 						attachment[]={};
 					};
-					class JUPITER	//General Payload
+					class Heavy_AT
 					{
-						displayName="Jupiter";
+						displayName="Heavy AT";
 						attachment[]=
 						{
-							"v105_AIM9X_P_2rnd_M",
-							"v105_LZuni_P_8rnd_M",
-							"v105_APKWS_P_38rnd_M",
-							"v105_GBU53_P_4rnd_M",
-							"v105_FIR_EGBU12_P_2rnd_M",
-							"v105_FIR_EGBU12_P_2rnd_M",
-							"v105_GBU53_P_4rnd_M",
-							"v105_APKWS_M282_P_38rnd_M",
-							"v105_LZuni_P_8rnd_M",
-							"v105_AIM9X_P_2rnd_M"
+							"FIR_AIM9X_P_2rnd_M", //1
+							"FIR_APKWS_M282_P_38rnd_M", //2
+							"FIR_AGM65D_P_3rnd_M", //3
+							"FIR_AGM65E2_P_1rnd_M", //4
+							"FIR_GBU53_P_4rnd_M", //5
+							"FIR_GBU53_P_4rnd_M", //6
+							"FIR_AGM65E2_P_1rnd_M", //7
+							"FIR_AGM65D_P_3rnd_M", //8
+							"FIR_APKWS_M282_P_38rnd_M", //9
+							"v105_AIM9X_P_2rnd_M" //10
 						};
 					};
-					class JUNO		//Heavy Payloads
+					class Light_AT
 					{
-						displayName="Juno";
+						displayName="Light AT";
 						attachment[]=
 						{
-							"v105_AIM9X_P_2rnd_M",
-							"v105_GBU53_P_4rnd_M",
-							"v105_FIR_EGBU12_P_2rnd_M",
-							"v105_FIR_GBU24A_P_1rnd_M",
-							"v105_FIR_AGM154A_P_1rnd_M",
-							"v105_FIR_AGM154C_P_1rnd_M",
-							"v105_FIR_GBU24A_P_1rnd_M",
-							"v105_FIR_EGBU12_P_2rnd_M",
-							"v105_GBU53_P_4rnd_M",
-							"v105_AIM9X_P_2rnd_M"
+							"FIR_AIM9X_P_2rnd_M", //1
+							"FIR_APKWS_M282_P_38rnd_M", //2
+							"FIR_AGM65D_P_3rnd_M", //3
+							"FIR_AGM65E2_P_1rnd_M", //4
+							"FIR_GBU53_P_4rnd_M", //5
+							"FIR_GBU53_P_4rnd_M", //6
+							"FIR_AGM65E2_P_1rnd_M", //7
+							"FIR_AGM65D_P_3rnd_M", //8
+							"FIR_APKWS_M282_P_38rnd_M", //9
+							"v105_AIM9X_P_2rnd_M" //10
 						};
 					};
-					class APOLLO	//Precision Strikes
+					class Precision_Strikes
 					{
-						displayName="Apollo";
+						displayName="Precision Strike Packages";
 						attachment[]=
 						{
-							"v105_AIM9X_P_2rnd_M",
-							"v105_APKWS_M282_P_38rnd_M",
-							"v105_AGM65E2_P_1rnd_M",
-							"v105_AGM65E2_P_1rnd_M",
-							"v105_GBU53_P_4rnd_M",
-							"v105_GBU53_P_4rnd_M",
-							"v105_AGM65E2_P_1rnd_M",
-							"v105_APKWS_P_38rnd_M",
-							"v105_AGM88_P_1rnd_M",
-							"v105_AIM9X_P_2rnd_M"
+							"FIR_AIM9X_P_2rnd_M", //1
+							"FIR_APKWS_M282_P_38rnd_M", //2
+							"FIR_AGM65D_P_3rnd_M", //3
+							"FIR_AGM65E2_P_1rnd_M", //4
+							"FIR_GBU53_P_4rnd_M", //5
+							"FIR_GBU53_P_4rnd_M", //6
+							"FIR_AGM65E2_P_1rnd_M", //7
+							"FIR_AGM65D_P_3rnd_M", //8
+							"FIR_APKWS_M282_P_38rnd_M", //9
+							"v105_AIM9X_P_2rnd_M" //10
 						};
-					};	
+					};
+					class Anti_Air 
+					{
+						displayName="Anti Air";
+						attachment[]=
+						{
+							"FIR_AIM9X_P_2rnd_M", //1
+							"FIR_APKWS_M282_P_38rnd_M", //2
+							"FIR_AGM65D_P_3rnd_M", //3
+							"FIR_AGM65E2_P_1rnd_M", //4
+							"FIR_GBU53_P_4rnd_M", //5
+							"FIR_GBU53_P_4rnd_M", //6
+							"FIR_AGM65E2_P_1rnd_M", //7
+							"FIR_AGM65D_P_3rnd_M", //8
+							"FIR_APKWS_M282_P_38rnd_M", //9
+							"v105_AIM9X_P_2rnd_M" //10
+						};
+					};
+					class Dumb_Payload //Dumb bombs / Rockets
+					{
+						displayName="Dumb Payload";
+						attachment[]=
+						{
+							"FIR_AIM9X_P_2rnd_M", //1
+							"FIR_APKWS_M282_P_38rnd_M", //2
+							"FIR_AGM65D_P_3rnd_M", //3
+							"FIR_AGM65E2_P_1rnd_M", //4
+							"FIR_GBU53_P_4rnd_M", //5
+							"FIR_GBU53_P_4rnd_M", //6
+							"FIR_AGM65E2_P_1rnd_M", //7
+							"FIR_AGM65D_P_3rnd_M", //8
+							"FIR_APKWS_M282_P_38rnd_M", //9
+							"v105_AIM9X_P_2rnd_M" //10
+						};
+					};
+					class Training_Payload
+					{
+						displayName="Training Payload";
+						attachment[]=
+						{
+							"FIR_AIM9X_P_2rnd_M", //1
+							"FIR_APKWS_M282_P_38rnd_M", //2
+							"FIR_AGM65D_P_3rnd_M", //3
+							"FIR_AGM65E2_P_1rnd_M", //4
+							"FIR_GBU53_P_4rnd_M", //5
+							"FIR_GBU53_P_4rnd_M", //6
+							"FIR_AGM65E2_P_1rnd_M", //7
+							"FIR_AGM65D_P_3rnd_M", //8
+							"FIR_APKWS_M282_P_38rnd_M", //9
+							"v105_AIM9X_P_2rnd_M" //10
+						};
+					};
 				};
 			};
 		};
-	
-		class UserActions : UserActions
+	//	CustomFuelEnabled = 1;
+	//	CustomFuelScript = "105th_Core\init\F16_Refuel.sqf";
+		class JettisonSystem
 		{
-			class Plane_CAS_01_Eject
-			{
-				priority=0.050000001;
-				shortcut="Eject";
-				displayName="$STR_A3_action_eject";
-				condition="player in this && {speed this > 1}";
-				statement="[this] spawn bis_fnc_planeEjection";
-				position="pilotcontrol";
-				radius=10;
-				onlyforplayer=1;
-				showWindow=0;
-				hideOnUse=1;
-			};
+			JettisonEnabled = 1;		
+			JettisonType = 1; // 1= drop only 2 = hide only 3 = both			
+			JettisonPylon = 1; // 0 = no pylon based fueltank 1 = pylon based fueltank			
+			fuelswitch_type = "variable"; // variable and anim
+			FuelswitchName = "fuelswitch";			
+			JettisonScript = "105th_Core\init\droptanks.sqf";		
+			Fuel_Internal = 0.6;	
+			Fueltank_code_enable = 1; //enable fueltank code
+			Fueltank_code = "fir_f16_center_fueltank"; //fueltank compatible code
+			Fueltank_list[] = {"FIR_F16C_center_Fueltank_P_1rnd_M"};
+			Fueltank_Hardpoint[] = {1,2,3,4,5,6,7,8,9,10};  //setpylonloadout command using element number + 1;			
+			Fueltank_Hardpoint_Offset[] = {-1.5,-1,0,1,1.5};
+			Fueltank_hide[] = {"fueltank_1_hide","fueltank_2_hide","fueltank_3_hide","fueltank_4_hide","fueltank_5_hide"};
+		};	
+		fir_ams_image = "\FIR_AirWeaponSystem_US_Cfg\loadout_pic\wipeout_ca.paa";		
+		class AMSData
+		{
+											
+			AircraftBase = "Plane_CAS_01_dynamicLoadout_base_F";
+			CustomPreset = "Plane_CAS_01_dynamicLoadout_base_F_CustomPreset_list";
+			CustomPresetAttachment = "Plane_CAS_01_dynamicLoadout_base_F_CustomPreset_list_attachment";
+		};		
+		
+    	class UserActions : UserActions
+		{
 			class AMS_LiteOpen
 			{
 				displayName = "<t color='#739eff'>Open AMS Lite</t>";
@@ -408,7 +488,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 				onlyforplayer = "false";
 				priority = 6;
 				hideOnUse = 1;
-			};
+			};				
 			class Aircraft_MFD_Open_N
 			{
 				displayName = "Open I-TGT System";
@@ -430,20 +510,16 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 				statement = "[this] execVM ""\FIR_AirWeaponSystem_US\Script\ECM\ECM_ON.sqf"";";
 				onlyforplayer = "False";
 				hideOnUse = 1;
-			};	
-			class eventhandlers : EventHandlers
+			};			
+		};
+		
+		class eventhandlers : EventHandlers
+		{
+			class FIR_AWS_Common_EH
 			{
-				
-				class FIR_AWS_Common_EH
-				{
-					Init = "[_this select 0,'yes'] execVM ""\FIR_AirWeaponSystem_US\Script\init\init.sqf"";";			
-					hit = "_this call bis_fnc_planeAiEject";
-					landing = "[_this,true] call bis_fnc_aircraftTailhookAi";
-					landingcanceled = "[_this,false] call bis_fnc_aircraftTailhookAi";
-					engine = "_this call bis_fnc_aircraftFoldingWings";
-					gear = "_this call bis_fnc_aircraftFoldingWings";			
-				};			
-			};					
+				Init = "[_this select 0,'yes'] execVM ""\FIR_AirWeaponSystem_US\Script\init\init.sqf"";";
+				hit = "_this call bis_fnc_planeAiEject";
+			};			
 		};
 		hiddenSelections[]=
 		{

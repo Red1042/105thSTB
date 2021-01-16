@@ -166,8 +166,54 @@ class CfgVehicles
 		model="\A3\weapons_f\empty";
 		hiddenSelections[]={};
 	};
+	//Hardcase Bags
+	class OPTRE_ONI_Researcher_Suitcase;
+    class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
+    {
+		scope=1;
+		scopeArsenal=1;
+        author="Barkley, Howard, Freeman";
+        displayName="[105th] Barkley's Satchel";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[]=
+        {
+            "105th_Armor\data\misc\HardcaseSatchel_Barkley.paa"
+        };
+        maximumLoad=250;
+        tf_encryptionCode="tf_west_radio_code";
+        tf_dialog="rt1523_radio_dialog";
+        tf_subtype="digital_lr";
+        tf_range =25000;
+    };
+    class v105_HardcaseSatchel_Medical: OPTRE_ONI_Researcher_Suitcase
+    {
+		scope=2;
+		scopeArsenal=2;
+        author="Barkley, Howard, Freeman";
+        displayName="[105th] Medic Satchel";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[]=
+        {
+            "105th_Armor\data\misc\HardcaseSatchel_Medical.paa"
+        };
+        maximumLoad=250;
+    };
 
 
+
+
+
+
+
+	class ACE_gunbag;
+	class v105_ACE_gunbag:ACE_gunbag
+	{
+		displayName="[105th] Gun Bag";
+		maximumLoad = 300;
+		mass = 20;
+		ace_gunbag = 1;
+		hiddenSelectionsTextures[] = {"105th_Armor\data\misc\LongRifleBag.paa"};
+	};
 
 
 
