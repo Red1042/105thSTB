@@ -179,7 +179,7 @@ class CfgVehicles
         {
             "105th_Armor\data\misc\HardcaseSatchel_Barkley.paa"
         };
-        maximumLoad=250;
+        maximumLoad=350;
         tf_encryptionCode="tf_west_radio_code";
         tf_dialog="rt1523_radio_dialog";
         tf_subtype="digital_lr";
@@ -196,7 +196,7 @@ class CfgVehicles
         {
             "105th_Armor\data\misc\HardcaseSatchel_Medical.paa"
         };
-        maximumLoad=250;
+        maximumLoad=350;
     };
 
 
