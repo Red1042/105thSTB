@@ -50,6 +50,7 @@ class CfgWeapons
 	class VES_BDU_MulticamBlack_Slim;
 	class VES_BDU_MulticamBlack;
 	class OPTRE_PatrolCap_Navy;
+	class OPTRE_UNSC_Dress_Hat;
 	class H_Beret_Colonel;
 	class H_Beret_02;
 	class UniformItem;
@@ -92,6 +93,16 @@ class CfgWeapons
 		{
 			"105th_Armor\data\VC497\VC497_Beret.paa"
 		};
+	};
+	class 105th_ODST_DressHat: OPTRE_UNSC_Dress_Hat
+	{
+		author="Barkley, Howard";
+        displayName="[ODST] Dress Hat";
+        hiddenSelections[] = {"camo1"};
+        hiddenSelectionsTextures[]=
+        {
+            "105th_Armor\data\ODST_Dress_Hat.paa"
+        };
 	};
 	class VC497_Helmet_CO: VES_CH252_MAR_Vacuum
 	{
@@ -179,7 +190,7 @@ class CfgVehicles
         {
             "105th_Armor\data\misc\HardcaseSatchel_Barkley.paa"
         };
-        maximumLoad=350;
+        maximumLoad=400;
         tf_encryptionCode="tf_west_radio_code";
         tf_dialog="rt1523_radio_dialog";
         tf_subtype="digital_lr";
@@ -196,7 +207,7 @@ class CfgVehicles
         {
             "105th_Armor\data\misc\HardcaseSatchel_Medical.paa"
         };
-        maximumLoad=350;
+        maximumLoad=400;
     };
 
 

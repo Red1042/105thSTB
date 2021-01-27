@@ -1,8 +1,8 @@
 			class OPTRE_MA5B;
 			class OPTRE_MA5C: OPTRE_MA5B
 			{
-				dlc							= "SO";
-				author						= "Fireteam Zulu";
+				//dlc							= "SO";
+				//author						= "Fireteam Zulu";
 				scope						= 2;
 				scopeArsenal				= 2;
 				
@@ -36,8 +36,8 @@
 			class OPTRE_MA5BGL;
 			class OPTRE_MA5CGL: OPTRE_MA5BGL
 			{
-				dlc							= "SO";
-				author						= "Fireteam Zulu";
+				//dlc							= "SO";
+				//author						= "Fireteam Zulu";
 				scope						= 2;
 				scopeArsenal				= 2;
 				displayName					= "MA5CX + M301 GL Assault Rifle";
@@ -122,13 +122,13 @@
 							"optic_aco_smg",
 							"optic_aco_grn_smg",
 							"optic_holosight_smg_blk_f",
-							"OPTRE_M7_Sight_v2",
-							"OPTRE_M392_Scope_v2",
-							"OPTRE_M393_Scope_v2",
-							"OPTRE_M393_ACOG_v2",
-							"OPTRE_M393_EOTECH_v2",
-							"OPTRE_BR55HB_Scope_v2",
-							"OPTRE_BMR_Scope_v2"
+							"OPTRE_M7_Sight",
+							"OPTRE_M392_Scope",
+							"OPTRE_M393_Scope",
+							"OPTRE_M393_ACOG",
+							"OPTRE_M393_EOTECH",
+							"OPTRE_BR55HB_Scope",
+							"OPTRE_BMR_Scope"
 						};
 					};
 					class PointerSlot: PointerSlot
@@ -190,16 +190,13 @@
 									"optic_Holosight_khk_F",
 									"optic_Holosight_smg_blk_F",
 									"optic_Holosight_smg_khk_F",
-									"OPTRE_M392_Scope",
 									"OPTRE_M7_Sight",
-									"optre_m73_smartlink_v2",                                
-									"OPTRE_M7_Sight_v2",                              
-									"OPTRE_M392_Scope_v2",       
-									"OPTRE_M393_Scope_v2",       
-									"OPTRE_M393_ACOG_v2",   
-									"OPTRE_M393_EOTECH_v2",            
-									"OPTRE_BR55HB_Scope_v2",         
-									"OPTRE_BMR_Scope_v2",
+									"OPTRE_M392_Scope",
+									"OPTRE_M393_Scope",
+									"OPTRE_M393_ACOG",
+									"OPTRE_M393_EOTECH",
+									"OPTRE_BR55HB_Scope",
+									"OPTRE_BMR_Scope",
 									"optic_ico_01_black_f"
 								};					
 							};
@@ -314,16 +311,13 @@
 								"optic_Holosight_khk_F",
 								"optic_Holosight_smg_blk_F",
 								"optic_Holosight_smg_khk_F",
-								"OPTRE_M392_Scope",
 								"OPTRE_M7_Sight",
-								"optre_m73_smartlink_v2",                                
-								"OPTRE_M7_Sight_v2",                              
-								"OPTRE_M392_Scope_v2",       
-								"OPTRE_M393_Scope_v2",       
-								"OPTRE_M393_ACOG_v2",   
-								"OPTRE_M393_EOTECH_v2",            
-								"OPTRE_BR55HB_Scope_v2",         
-								"OPTRE_BMR_Scope_v2",
+								"OPTRE_M392_Scope",
+								"OPTRE_M393_Scope",
+								"OPTRE_M393_ACOG",
+								"OPTRE_M393_EOTECH",
+								"OPTRE_BR55HB_Scope",
+								"OPTRE_BMR_Scope",
 								"optic_ico_01_black_f"
 							};
 					};					
