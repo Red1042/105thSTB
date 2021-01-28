@@ -61,7 +61,7 @@
 								"optic_arco_blk_f",
 								"optic_holosight_blk_f",
 								"optic_mrco",
-								
+								"optic_SOS",
 								"optic_hamr",
 							
 								
@@ -153,7 +153,7 @@
 								"optic_arco_blk_f",
 								"optic_holosight_blk_f",
 								"optic_mrco",
-								
+								"optic_SOS",
 								"optic_hamr",
 							
 								
@@ -240,7 +240,7 @@
 							"optic_arco_blk_f",
 							"optic_holosight_blk_f",
 							"optic_mrco",
-							
+							"optic_SOS",
 							"optic_hamr",
 						
 							
