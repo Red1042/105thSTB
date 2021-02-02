@@ -295,11 +295,11 @@ class DefaultVehicleSystemsDisplayManagerRight
 {
 	class components;
 };
-class VehicleSystemsTemplateLeftDriver: DefaultVehicleSystemsDisplayManagerLeft
+class VehicleSystemsTemplateLeftPilot: DefaultVehicleSystemsDisplayManagerLeft
 {
 	class components;
 };
-class VehicleSystemsTemplateRightDriver: DefaultVehicleSystemsDisplayManagerRight
+class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
 {
 	class components;
 };

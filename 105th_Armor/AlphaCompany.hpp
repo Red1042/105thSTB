@@ -103,7 +103,7 @@
 	class ACOMP_NCO_JHoward_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="Varner, Barkley";
-		displayName="[105th] ECH252 Helmet (Howard)";
+		displayName="[VC-497] ECH252 Helmet (Howard)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\JHow_CH252_MAR_CO.paa",
@@ -112,6 +112,8 @@
 	};
 	class ACOMP_NCO_MED_CMcDaniel_MAR: VES_CH252_MAR_Vacuum
 	{
+		scope=1;
+		scopeArsenal=1;
 		author="Varner, Barkley";
 		displayName="[105th] ECH252 Helmet (McDaniel)";
 		hiddenSelectionsTextures[]=
@@ -132,6 +134,8 @@
 	};
 	class ACOMP_CO_AGaffney_MAR:VES_CH252_MAR_Vacuum
 	{
+		scope=1;
+		scopeArsenal=1;
 		author="Sturm";
 		displayName="[105th] ECH252 Helmet (Gaffney)";
 		hiddenSelectionsTextures[]=
@@ -181,6 +185,7 @@
 	};
 	class ACOMP_NCO_LSkynyrd: VES_CH252_MAR_Vacuum
 	{
+		
 		author="Sturm";
 		displayName="[105th] ECH252 Helmet (Skynyrd)";
 		hiddenSelectionsTextures[]=
@@ -261,6 +266,8 @@
 	};
 	class ACOMP_NCO_BSmith_MAR: VES_CH252_MAR_Vacuum
 	{
+		scope=1;
+		scopeArsenal=1;
 		author="Barkley";
 		displayName="[105th] ECH252 Helmet (Smith)";
 		hiddenSelectionsTextures[]=
@@ -341,6 +348,8 @@
 		//CH252 Open Helmets
 	class ACOMP_CO_JAmbrose_MAR: VES_CH252_MAR_Light
 	{
+		scope=1;
+		scopeArsenal=1;
 		author="Varner";
 		displayName="[105th] CH252 Helmet (Ambrose)";
 		hiddenSelectionsTextures[]=

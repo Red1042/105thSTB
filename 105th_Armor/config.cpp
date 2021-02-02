@@ -67,13 +67,13 @@ class CfgWeapons
 	//ODST Armor 
 	#include "BravoCompanyVests.hpp"
 	//Berets and other headgear that are not helmets
-	class 105th_STB_Beret: H_Beret_Colonel
+	class 105th_ACo_Beret: H_Beret_Colonel
 	{
-		author="Fafnir";
+		author="Stürmischer";
 		displayName="[105th] Beret";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\105th_Beret_CO.paa"
+			"105th_Armor\data\ACo_Beret.paa"
 		};
 	};
 	class 105th_ODST_STB_Beret: H_Beret_Colonel
@@ -94,6 +94,10 @@ class CfgWeapons
 			"105th_Armor\data\VC497\VC497_Beret.paa"
 		};
 	};
+
+	///
+	
+	//
 	class 105th_ODST_DressHat: OPTRE_UNSC_Dress_Hat
 	{
 		author="Barkley, Howard";
@@ -106,8 +110,10 @@ class CfgWeapons
 	};
 	class VC497_Helmet_CO: VES_CH252_MAR_Vacuum
 	{
+		scope=1;
+		scopeArsenal=1;
 		author="Barkley";
-		displayName="[VC497] ECH252 Helmet (Nungester)";
+		displayName="[VC-497] ECH252 Helmet (Nungester)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\VC497\ENun_CH252_URB_Blk.paa", 
@@ -116,8 +122,10 @@ class CfgWeapons
 	};
 	class VC497_Helmet_CO_dp: VES_CH252_MAR_Vacuum_dp
 	{
+		scope=1;
+		scopeArsenal=1;
 		author="Barkley";
-		displayName="[VC497] ECH252 Helmet (Nungester)";
+		displayName="[VC-497] ECH252 Helmet (Nungester)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\VC497\ENun_CH252_URB_Blk.paa", 
@@ -127,7 +135,7 @@ class CfgWeapons
 	class VC497_Helmet_JCol: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
-		displayName="[VC497] ECH252 Helmet (Collins)";
+		displayName="[VC-497] ECH252 Helmet (Collins)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\VC497\JCol_CH252_URB_Blk.paa", 
@@ -137,7 +145,7 @@ class CfgWeapons
 	class VC497_Helmet_JCol_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		author="N-4 Logistics";
-		displayName="[VC497] ECH252 Helmet (Collins)";
+		displayName="[VC-497] ECH252 Helmet (Collins)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\VC497\JCol_CH252_URB_Blk.paa", 

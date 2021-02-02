@@ -141,71 +141,217 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		class Components: Components
 		{
 			class TransportCountermeasuresComponent;
+			
 			class SensorsManagerComponent
 			{
 				class Components
 				{
-					class IRSensorComponent: SensorTemplateIR
+				    class IRSensorComponent: SensorTemplateIR
 					{
 						class AirTarget
 						{
-							minRange=500;
+							minRange=10000;
 							maxRange=10000;
 							objectDistanceLimitCoef=-1;
 							viewDistanceLimitCoef=1;
 						};
 						class GroundTarget
 						{
-							minRange=500;
+							minRange=10000;
 							maxRange=10000;
 							objectDistanceLimitCoef=1;
 							viewDistanceLimitCoef=1;
 						};
 						angleRangeHorizontal=360;
 						angleRangeVertical=360;
-						maxTrackableSpeed=1200;
-						animDirection="PilotCamera_V";
+						maxTrackableSpeed=1600;
+						componentType="IRSensorComponent";
+						typeRecognitionDistance=2000;
+						maxFogSeeThrough=0.995;
+						color[]={1,0,0,1};
+						allowsMarking=1;
+						groundNoiseDistanceCoef=-1;
+						maxGroundNoiseDistance=-1;
+						minSpeedThreshold=0;
+						maxSpeedThreshold=0;
+						animDirection="";
+						aimDown=0;
+						minTrackableSpeed=-1e+010;
+						minTrackableATL=-1e+010;
+						maxTrackableATL=1e+010;
 					};
 					class VisualSensorComponent: SensorTemplateVisual
 					{
 						class AirTarget
 						{
-							minRange=500;
-							maxRange=10000;
+							minRange=20000;
+							maxRange=20000;
 							objectDistanceLimitCoef=-1;
 							viewDistanceLimitCoef=1;
 						};
 						class GroundTarget
 						{
-							minRange=500;
-							maxRange=9000;
+							minRange=20000;
+							maxRange=20000;
 							objectDistanceLimitCoef=1;
 							viewDistanceLimitCoef=1;
 						};
 						angleRangeHorizontal=360;
 						angleRangeVertical=360;
-						maxTrackableSpeed=900;
-						animDirection="PilotCamera_V";
-					};
-					class AntiRadiationSensorComponent: SensorTemplateAntiRadiation
-					{
-					};
-					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
-					{
+						maxTrackableSpeed=1600;
+						aimDown=1;
+						animDirection="";
+						componentType="VisualSensorComponent";
+						nightRangeCoef=0;
+						maxFogSeeThrough=0.94;
+						color[]={1,1,0.5,0.80000001};
+						typeRecognitionDistance=2000;
+						allowsMarking=1;
+						groundNoiseDistanceCoef=-1;
+						maxGroundNoiseDistance=-1;
+						minSpeedThreshold=0;
+						maxSpeedThreshold=0;
+						minTrackableSpeed=-1e+010;
+						minTrackableATL=-1e+010;
+						maxTrackableATL=1e+010;
 					};
 					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
 					{
+						componentType="PassiveRadarSensorComponent";
+						class AirTarget
+						{
+							minRange=20000;
+							maxRange=20000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=-1;
+						};
+						class GroundTarget
+						{
+							minRange=20000;
+							maxRange=20000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=-1;
+						};
+						typeRecognitionDistance=12000;
+						angleRangeHorizontal=360;
+						angleRangeVertical=360;
+						groundNoiseDistanceCoef=-1;
+						maxGroundNoiseDistance=-1;
+						minSpeedThreshold=0;
+						maxSpeedThreshold=0;
+						animDirection="";
+						aimDown=0;
+						color[]={0.5,1,0.5,0.5};
+						minTrackableSpeed=-1e+010;
+						maxTrackableSpeed=1e+010;
+						minTrackableATL=-1e+010;
+						maxTrackableATL=1e+010;
+						allowsMarking=0;
+					};
+					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
+					{
+						class AirTarget
+						{
+							minRange=16000;
+							maxRange=16000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=-1;
+						};
+						class GroundTarget
+						{
+							minRange=8000;
+							maxRange=8000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=-1;
+						};
+						typeRecognitionDistance=8000;
+						angleRangeHorizontal=180;
+						angleRangeVertical=180;
+						groundNoiseDistanceCoef=0.2;
+						componentType="ActiveRadarSensorComponent";
+						maxGroundNoiseDistance=200;
+						minSpeedThreshold=30;
+						maxSpeedThreshold=40;
+						color[]={0,1,1,1};
+						allowsMarking=1;
+						animDirection="";
+						aimDown=0;
+						minTrackableSpeed=-1e+010;
+						maxTrackableSpeed=1e+010;
+						minTrackableATL=-1e+010;
+						maxTrackableATL=1e+010;
 					};
 					class LaserSensorComponent: SensorTemplateLaser
 					{
+						componentType="LaserSensorComponent";
+						class AirTarget
+						{
+							minRange=15000;
+							maxRange=15000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=-1;
+						};
+						class GroundTarget
+						{
+							minRange=15000;
+							maxRange=15000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=-1;
+						};
+						angleRangeHorizontal=180;
+						angleRangeVertical=180;
+						typeRecognitionDistance=0;
+						color[]={1,1,1,0};
+						allowsMarking=1;
+						groundNoiseDistanceCoef=-1;
+						maxGroundNoiseDistance=-1;
+						minSpeedThreshold=0;
+						maxSpeedThreshold=0;
+						animDirection="";
+						aimDown=0;
+						minTrackableSpeed=-1e+010;
+						maxTrackableSpeed=1e+010;
+						minTrackableATL=-1e+010;
+						maxTrackableATL=1e+010;
 					};
 					class NVSensorComponent: SensorTemplateNV
 					{
+						componentType="NVSensorComponent";
+						color[]={1,1,1,0};
+						typeRecognitionDistance=0;
+						class AirTarget
+						{
+							minRange=8000;
+							maxRange=8000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=-1;
+						};
+						class GroundTarget
+						{
+							minRange=8000;
+							maxRange=8000;
+							objectDistanceLimitCoef=-1;
+							viewDistanceLimitCoef=-1;
+						};
+						angleRangeHorizontal=90;
+						angleRangeVertical=90;
+						allowsMarking=1;
+						groundNoiseDistanceCoef=-1;
+						maxGroundNoiseDistance=-1;
+						minSpeedThreshold=0;
+						maxSpeedThreshold=0;
+						animDirection="";
+						aimDown=0;
+						minTrackableSpeed=-1e+010;
+						maxTrackableSpeed=1e+010;
+						minTrackableATL=-1e+010;
+						maxTrackableATL=1e+010;
 					};
 				};
 			};
 			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
 			{
+				defaultDisplay="EmptyDisplay";
 				class Components
 				{
 					class EmptyDisplay
@@ -215,10 +361,13 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					class MinimapDisplay
 					{
 						componentType="MinimapDisplayComponent";
-						resource="RscCustomInfoAirborneMiniMap";
+						resource="RscCustomInfoMiniMap";
 					};
-					
-					
+					class VehicleDriverDisplay
+					{
+						componentType="TransportFeedDisplayComponent";
+						source="Driver";
+					};
 					class VehicleMissileDisplay
 					{
 						componentType="TransportFeedDisplayComponent";
@@ -227,7 +376,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					class SensorDisplay
 					{
 						componentType="SensorsDisplayComponent";
-						range[]={4000,2000,16000,8000};
+						range[]={16000,12000,8000,4000,2000};
 						resource="RscCustomInfoSensors";
 					};
 				};
@@ -244,10 +393,13 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					class MinimapDisplay
 					{
 						componentType="MinimapDisplayComponent";
-						resource="RscCustomInfoAirborneMiniMap";
+						resource="RscCustomInfoMiniMap";
 					};
-					
-					
+					class VehicleDriverDisplay
+					{
+						componentType="TransportFeedDisplayComponent";
+						source="Driver";
+					};
 					class VehicleMissileDisplay
 					{
 						componentType="TransportFeedDisplayComponent";
@@ -256,11 +408,12 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					class SensorDisplay
 					{
 						componentType="SensorsDisplayComponent";
-						range[]={4000,2000,16000,8000};
+						range[]={16000,12000,8000,4000,2000};
 						resource="RscCustomInfoSensors";
 					};
 				};
 			};
+			
 			class TransportPylonsComponent
 			{
 				uiPicture="\A3\Air_F_EPC\Plane_CAS_01\Data\UI\Plane_CAS_01_3DEN_CA.paa";
@@ -272,7 +425,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 						{
 							"FIR_BLUFOR_Combined_HP","FIR_A10_MER_HP","FIR_F23_AA_HP","FIR_F22_SW_HP","FIR_A10A_GUN_HP","FIR_F16_Under_HP","FIR_F16_Aux_HP"
 						};
-						attachment="v105_AIM9X_P_2rnd_M";
+						attachment="FIR_AIM9X_P_2rnd_M";
 						priority=5;
 						maxweight=300;
 						UIposition[]={0.34999999,0};
@@ -280,58 +433,58 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 					class Pylons2: Pylons1
 					{
 						priority=4;
-						attachment="v105_APKWS_M247_P_38rnd_M";
+						attachment="FIR_APKWS_M282_P_38rnd_M";
 						maxweight=750;
 						UIposition[]={0.345,0.050000001};
 					};
 					class Pylons3: Pylons1
 					{
 						priority=3;
-						attachment="v105_AGM65E2_P_1rnd_M";
+						attachment="FIR_AGM65D_P_3rnd_M";
 						maxweight=1200;
 						UIposition[]={0.34,0.1};
 					};
 					class Pylons4: Pylons1
 					{
 						priority=2;
-						attachment="v105_AGM65E2_P_1rnd_M";
+						attachment="FIR_AGM65D_P_3rnd_M";
 						maxweight=2000;
 						UIposition[]={0.33000001,0.2};
 					};
 					class Pylons5: Pylons1
 					{
 						priority=1;
-						attachment="v105_FIR_GBU12_P_2rnd_M";
+						attachment="FIR_GBU53_P_4rnd_M";
 						maxweight=2000;
 						UIposition[]={0.33000001,0.25};
 					};
 					class Pylons6: Pylons5
 					{
-						attachment="v105_FIR_GBU12_P_2rnd_M";
+						attachment="FIR_GBU53_P_4rnd_M";
 						UIposition[]={0.33000001,0.30000001};
 						mirroredMissilePos=5;
 					};
 					class Pylons7: Pylons4
 					{
-						attachment="v105_AGM65E2_P_1rnd_M";
+						attachment="FIR_AGM65D_P_3rnd_M";
 						UIposition[]={0.33000001,0.34999999};
 						mirroredMissilePos=4;
 					};
 					class Pylons8: Pylons3
 					{
-						attachment="v105_AGM65D_P_3rnd_M";
+						attachment="FIR_AGM65D_P_3rnd_M";
 						UIposition[]={0.34,0.44999999};
 						mirroredMissilePos=3;
 					};
 					class Pylons9: Pylons2
 					{
-						attachment="v105_Hydra_P_38rnd_M";
+						attachment="FIR_APKWS_M282_P_38rnd_M";
 						UIposition[]={0.345,0.5};
 						mirroredMissilePos=2;
 					};
 					class Pylons10: Pylons1
 					{
-						attachment="v105_AIM9X_P_2rnd_M";
+						attachment="FIR_AIM9X_P_2rnd_M";
 						UIposition[]={0.34999999,0.55000001};
 						mirroredMissilePos=1;
 					};
@@ -374,7 +527,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 							"FIR_AGM65E2_P_1rnd_M", //7
 							"FIR_AGM65D_P_3rnd_M", //8
 							"FIR_APKWS_M282_P_38rnd_M", //9
-							"v105_AIM9X_P_2rnd_M" //10
+							"FIR_AIM9X_P_2rnd_M" //10
 						};
 					};
 					class Precision_Strikes
@@ -391,7 +544,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 							"FIR_AGM65E2_P_1rnd_M", //7
 							"FIR_AGM65D_P_3rnd_M", //8
 							"FIR_APKWS_M282_P_38rnd_M", //9
-							"v105_AIM9X_P_2rnd_M" //10
+							"FIR_AIM9X_P_2rnd_M" //10
 						};
 					};
 					class Anti_Air 
@@ -408,7 +561,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 							"FIR_AGM65E2_P_1rnd_M", //7
 							"FIR_AGM65D_P_3rnd_M", //8
 							"FIR_APKWS_M282_P_38rnd_M", //9
-							"v105_AIM9X_P_2rnd_M" //10
+							"FIR_AIM9X_P_2rnd_M" //10
 						};
 					};
 					class Dumb_Payload //Dumb bombs / Rockets
@@ -425,7 +578,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 							"FIR_AGM65E2_P_1rnd_M", //7
 							"FIR_AGM65D_P_3rnd_M", //8
 							"FIR_APKWS_M282_P_38rnd_M", //9
-							"v105_AIM9X_P_2rnd_M" //10
+							"FIR_AIM9X_P_2rnd_M" //10
 						};
 					};
 					class Training_Payload
@@ -442,7 +595,7 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 							"FIR_AGM65E2_P_1rnd_M", //7
 							"FIR_AGM65D_P_3rnd_M", //8
 							"FIR_APKWS_M282_P_38rnd_M", //9
-							"v105_AIM9X_P_2rnd_M" //10
+							"FIR_AIM9X_P_2rnd_M" //10
 						};
 					};
 				};

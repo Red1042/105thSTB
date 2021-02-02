@@ -239,3 +239,54 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class BCOMP_CSO_BSmith_ODST_dp: VES_CH252D_dp
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Smith)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\BSmi_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_ENungester_ODST_dp: VES_CH252D_dp
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Nungester)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\ENun_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_FPierce_ODST_dp: VES_CH252D_dp
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Pierce)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\FPie_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_MSound_ODST_dp: VES_CH252D_dp
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Sound)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\MSou_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_TKynx_ODST_dp: VES_CH252D_dp
+	{
+		author="Barkley";
+		displayName="[ODST] CH252D Helmet (Kynx)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\TKyn_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	
