@@ -189,8 +189,8 @@ class CfgVehicles
 	class OPTRE_ONI_Researcher_Suitcase;
     class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
     {
-		scope=1;
-		scopeArsenal=1;
+		scope=2;
+		scopeArsenal=2;
         author="Barkley, Howard, Freeman";
         displayName="[105th] Barkley's Satchel";
         hiddenSelections[] = {"camo"};

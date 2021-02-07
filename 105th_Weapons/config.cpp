@@ -95,9 +95,9 @@ class cfgMagazineWells
 		v105_grenades[]=
 		{
 			"v105_Whistler_Grenade",
-			"3Rnd_UGL_8Gauge_Pellets",
+			/*"3Rnd_UGL_8Gauge_Pellets",
 			"3Rnd_UGL_8Gauge_Slugs",
-			"3Rnd_UGL_8Gauge_Beanbags"
+			"3Rnd_UGL_8Gauge_Beanbags"*/
 		};
 	};
 };
