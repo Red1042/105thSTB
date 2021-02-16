@@ -2,7 +2,7 @@
 class HOW_AV14_Base: VES_AV14
 	{
 		dlc="105th";
-		author="Howard,Skywalker";
+		author="Howard, Skywalker";
 		side=1;
 		scope=1;
 		scopeCurator=1;
@@ -11,12 +11,12 @@ class HOW_AV14_Base: VES_AV14
 		editorCategory="HOW_EdCat_105th";
 		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
-		mainRotorSpeed=5;
-		backRotorSpeed=6;
+		mainRotorSpeed=6;
+		backRotorSpeed=7;
 		tf_hasLRradio=1;
 		tf_isolatedAmount=.4;
 		tf_range=12000;
-		armor=60;
+		armor=150;
         weapons[]=
 		{
 			"weapon_Cannon_Phalanx",
@@ -108,11 +108,7 @@ class HOW_AV14_Base: VES_AV14
 		editorCategory="HOW_EdCat_105th";
 		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
-		mainRotorSpeed=5;
-		backRotorSpeed=4;
-		tf_hasLRradio=1;
-		tf_isolatedAmount=.4;
-		tf_range=12000;
+		
         weapons[]=
 		{
 			"HOW_Vulcan_20mm",
@@ -142,11 +138,7 @@ class HOW_AV14_Base: VES_AV14
 		editorCategory="HOW_EdCat_105th";
 		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
-		mainRotorSpeed=5;
-		backRotorSpeed=4;
-		tf_hasLRradio=1;
-		tf_isolatedAmount=.4;
-		tf_range=12000;
+		
         weapons[]=
 		{
 			"HOW_Gatling_30mm",
@@ -174,11 +166,7 @@ class HOW_AV14_Base: VES_AV14
 		editorCategory="HOW_EdCat_105th";
 		editorSubcategory="HOW_105th_EdSubCat_Archived";
 		crew="VES_Rifleman_MA5B_ODST";
-		mainRotorSpeed=5;
-		backRotorSpeed=4;
-		tf_hasLRradio=1;
-		tf_isolatedAmount=.4;
-		tf_range=12000;
+		
         weapons[]=
 		{
 			"HOW_Gatling_30mm",
@@ -210,11 +198,7 @@ class HOW_AV14_Base: VES_AV14
 		editorCategory="HOW_EdCat_105th";
 		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
-		mainRotorSpeed=5;
-		backRotorSpeed=4;
-		tf_hasLRradio=1;
-		tf_isolatedAmount=.4;
-		tf_range=12000;
+		
         weapons[]=
 		{
 			"HOW_145x114_minigun",
@@ -238,15 +222,11 @@ class HOW_AV14_Base: VES_AV14
 		scope=1;
 		scopeCurator=1;
 		forceInGarage=1;
-		displayName="AV-14L Hornet [Light]";
+		displayName="AV-14L Hornet";
 		editorCategory="HOW_EdCat_105th";
 		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
-		mainRotorSpeed=5;
-		backRotorSpeed=4;
-		tf_hasLRradio=1;
-		tf_isolatedAmount=.4;
-		tf_range=12000;
+		
 		
         weapons[]=
 		{

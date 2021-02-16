@@ -22,37 +22,54 @@ class CfgPatches
 };
 class CfgWeapons
 {
+	class VES_CH252_MAR_Crew;
+	class VES_CH252_MAR_Light;
+	class VES_CH252A;
+	class VES_CH252A_dp;
 	class VES_CH252_MAR_Vacuum;
 	class VES_CH252_MAR_Vacuum_dp;
 	class VES_CH252D;
 	class VES_CH252D_dp;
-	class VES_M52D_Rifleman;
-	class VES_M52D_Marksman;
-	class VES_M52D_Scout;
-	class VES_M52D_Sniper;
+
+	
+	
 	class OPTRE_UNSC_VX16_Helmet_MaskV;
 	class OPTRE_UNSC_VX16_Helmet_Mask;
-	class VES_CH252A;
+	
 	class VES_M52A_MAR_Rifleman_A;
+	class VES_M52A_MAR_Rifleman_B;
+	class VES_M52A_MAR_Rifleman_C;
+	class VES_M52A_URB_Rifleman_A;
+	class VES_M52A_URB_Rifleman_B;
+	class VES_M52A_URB_Rifleman_C;
 	class OPTRE_UNSC_Army_Soldier_WDL;
-	class VES_CH252A_dp;
+	
 	class OPTRE_UNSC_M52D_Armor;
-	class VES_CH252_MAR_Crew;
-	class VES_CH252_MAR_Light;
+	
+	
+	//ODST VESTS
 	class OPTRE_UNSC_M52D_Armor_Light;
 	class OPTRE_UNSC_M52D_Armor_Sniper;
 	class OPTRE_UNSC_M52D_Armor_Demolitions;
 	class OPTRE_UNSC_M52D_Armor_Rifleman;
 	class OPTRE_UNSC_M52D_Armor_Scout;
 	class OPTRE_UNSC_M52D_Armor_Marksman;
+	class VES_M52D_Rifleman;
+	class VES_M52D_Marksman;
+	class VES_M52D_Scout;
+	class VES_M52D_Sniper;
+	//BDUs
 	class VES_BDU_Evolved_Slim;
 	class VES_BDU_Reach_Slim;
 	class VES_BDU_MulticamBlack_Slim;
 	class VES_BDU_MulticamBlack;
+
+	//Hats
 	class OPTRE_PatrolCap_Navy;
 	class OPTRE_UNSC_Dress_Hat;
 	class H_Beret_Colonel;
 	class H_Beret_02;
+
 	class UniformItem;
 	class VestItem;
 
@@ -60,6 +77,8 @@ class CfgWeapons
 	#include "AlphaCompany.hpp"
 	//Marine Depolarized ECH Helmets
 	#include "AlphaCompany_DP.hpp"
+	//Marine Armor
+	#include "AlphaCompanyVests.hpp"
 	//ODST Polarized Helmets
 	#include "BravoCompany.hpp"
 	//ODST Depolarized helmets

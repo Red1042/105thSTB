@@ -6,7 +6,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		 
-		
+		armor = 150;
         dlc="105th";
 		author="Mike Hartley, Vespade";
         displayName="UH-144 Falcon [Navy]";
@@ -33,7 +33,7 @@
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
-		 
+		armor = 150;
 		
         dlc="105th";
         author="Mike Hartley, Vespade";
@@ -60,7 +60,7 @@
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
-	
+        armor = 150;
         dlc="105th";
         author="Mike Hartley, Vespade";
         displayName="UH-144 Falcon (Armed) [Navy]";
@@ -86,7 +86,7 @@
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
-		 
+		 armor = 150;
 	
         dlc="105th";
         author="Mike Hartley, Vespade";
@@ -155,7 +155,7 @@
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
-		 
+		armor = 150;
 	
         dlc="105th";
         author="Howard, Vespade";

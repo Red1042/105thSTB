@@ -57,7 +57,7 @@ class CfgPatches
 			"OPTRE_Weapons",
 			"V_SO_Weapons",
 			"OPTRE_Weapons_Sniper",
-			"OPTRE_JSRS"
+		//	"OPTRE_JSRS"
 		};
 	};
 };

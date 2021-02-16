@@ -140,7 +140,7 @@ switch true do {
 	
 	case (_veh isKindOf "optre_hornet_base"):
 	{
-		_veh attachTo [_pelican,[0,-5,-0.12]];
+		_veh attachTo [_pelican,[0,-5,-0.25]];
 		_loaded = true;  
 	};
 	
