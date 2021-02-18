@@ -222,27 +222,207 @@
 				{	
 					burst=2;				
 					reloadTime=0.0375;
-					class basesoundmodetype;
-					class standardsound: basesoundmodetype
+					sounds[]=
 					{
-						soundsetshot[]=
+						"StandardSound",
+						"SilencedSound"
+					};
+					class BaseSoundModeType
+					{
+						weaponSoundEffect="DefaultRifle";
+						closure1[]={};
+						closure2[]={};
+						soundClosure[]=
 						{
-							"jsrs_rifle_shake_soundset",
-							"jsrs_spar17_shot_soundset",
-							"jsrs_spar_shell_soundset",
-							"jsrs_6x5mm_reflector_1"
+							"closure1",
+							0.5,
+							"closure2",
+							0.5
 						};
 					};
-					class silencedsound: basesoundmodetype
+					class StandardSound: BaseSoundModeType
 					{
-						soundsetshot[]=
+						begin1[]=
 						{
-							"jsrs_rifle_shake_soundset",
-							"jsrs_spar_shot_silenced_soundset",
-							"jsrs_spar_shell_soundset",
-							"jsrs_frame_caliber_7x62mm_silenced"
+							"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+							1,
+							1,
+							2000
 						};
-
+						begin2[]=
+						{
+							"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+							1,
+							1,
+							2000
+						};
+						soundBegin[]=
+						{
+							"begin1",
+							0.34,
+							"begin2",
+							0.33000001
+						};
+						class SoundTails
+						{
+							class TailTrees
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_trees",
+									1,
+									1,
+									1400
+								};
+								frequency=1;
+								volume="(1-interior/1.4)*trees";
+							};
+							class TailForest
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_forest",
+									1,
+									1,
+									1400
+								};
+								frequency=1;
+								volume="(1-interior/1.4)*forest";
+							};
+							class TailInterior
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_interior",
+									1.5848932,
+									1,
+									1400
+								};
+								frequency=1;
+								volume="interior";
+							};
+							class TailMeadows
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_meadows",
+									1,
+									1,
+									1400
+								};
+								frequency=1;
+								volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+							};
+							class TailHouses
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_houses",
+									1,
+									1,
+									1400
+								};
+								frequency=1;
+								volume="(1-interior/1.4)*houses";
+							};
+						};
+					};
+					class SilencedSound: BaseSoundModeType
+					{
+						begin1[]=
+						{
+							"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_01",
+							1,
+							1,
+							400
+						};
+						begin2[]=
+						{
+							"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_02",
+							1,
+							1,
+							400
+						};
+						begin3[]=
+						{
+							"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_03",
+							1,
+							1,
+							400
+						};
+						soundBegin[]=
+						{
+							"begin1",
+							0.33000001,
+							"begin2",
+							0.33000001,
+							"begin3",
+							0.34
+						};
+						class SoundTails
+						{
+							class TailTrees
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_trees",
+									1,
+									1,
+									400
+								};
+								frequency=1;
+								volume="(1-interior/1.4)*trees";
+							};
+							class TailForest
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_forest",
+									1,
+									1,
+									400
+								};
+								frequency=1;
+								volume="(1-interior/1.4)*forest";
+							};
+							class TailInterior
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_tail_interior",
+									1,
+									1,
+									400
+								};
+								frequency=1;
+								volume="interior";
+							};
+							class TailMeadows
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_meadows",
+									1,
+									1,
+									400
+								};
+								frequency=1;
+								volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+							};
+							class TailHouses
+							{
+								sound[]=
+								{
+									"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_houses",
+									1,
+									1,
+									400
+								};
+								frequency=1;
+								volume="(1-interior/1.4)*houses";
+							};
+						};
+					};
 					dispersion=0.00008999991;
 					recoil="recoil_single_trg";
 					recoilProne="recoil_single_prone_trg";
@@ -253,7 +433,6 @@
 					maxRange=400;
 					maxRangeProbab=0.0099999998;
 					soundBurst=0;				
-					};
 				};
 
 			};
@@ -339,29 +518,210 @@
 						};
 				
 					class Burst: Mode_Burst
-					{
+					{	
 						burst=2;				
 						reloadTime=0.0375;
-						class basesoundmodetype;
-						class standardsound: basesoundmodetype
+						sounds[]=
 						{
-							soundsetshot[]=
+							"StandardSound",
+							"SilencedSound"
+						};
+						class BaseSoundModeType
+						{
+							weaponSoundEffect="DefaultRifle";
+							closure1[]={};
+							closure2[]={};
+							soundClosure[]=
 							{
-								"jsrs_rifle_shake_soundset",
-								"jsrs_spar17_shot_soundset",
-								"jsrs_spar_shell_soundset",
-								"jsrs_6x5mm_reflector_1"
+								"closure1",
+								0.5,
+								"closure2",
+								0.5
 							};
 						};
-						class silencedsound: basesoundmodetype
+						class StandardSound: BaseSoundModeType
 						{
-							soundsetshot[]=
+							begin1[]=
 							{
-								"jsrs_rifle_shake_soundset",
-								"jsrs_spar_shot_silenced_soundset",
-								"jsrs_spar_shell_soundset",
-								"jsrs_frame_caliber_7x62mm_silenced"
+								"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+								1,
+								1,
+								2000
 							};
+							begin2[]=
+							{
+								"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+								1,
+								1,
+								2000
+							};
+							soundBegin[]=
+							{
+								"begin1",
+								0.34,
+								"begin2",
+								0.33000001
+							};
+							class SoundTails
+							{
+								class TailTrees
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_trees",
+										1,
+										1,
+										1400
+									};
+									frequency=1;
+									volume="(1-interior/1.4)*trees";
+								};
+								class TailForest
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_forest",
+										1,
+										1,
+										1400
+									};
+									frequency=1;
+									volume="(1-interior/1.4)*forest";
+								};
+								class TailInterior
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_interior",
+										1.5848932,
+										1,
+										1400
+									};
+									frequency=1;
+									volume="interior";
+								};
+								class TailMeadows
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_meadows",
+										1,
+										1,
+										1400
+									};
+									frequency=1;
+									volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+								};
+								class TailHouses
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\TRG20_tail_houses",
+										1,
+										1,
+										1400
+									};
+									frequency=1;
+									volume="(1-interior/1.4)*houses";
+								};
+							};
+						};
+						class SilencedSound: BaseSoundModeType
+						{
+							begin1[]=
+							{
+								"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_01",
+								1,
+								1,
+								400
+							};
+							begin2[]=
+							{
+								"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_02",
+								1,
+								1,
+								400
+							};
+							begin3[]=
+							{
+								"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_short_03",
+								1,
+								1,
+								400
+							};
+							soundBegin[]=
+							{
+								"begin1",
+								0.33000001,
+								"begin2",
+								0.33000001,
+								"begin3",
+								0.34
+							};
+							class SoundTails
+							{
+								class TailTrees
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_trees",
+										1,
+										1,
+										400
+									};
+									frequency=1;
+									volume="(1-interior/1.4)*trees";
+								};
+								class TailForest
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_forest",
+										1,
+										1,
+										400
+									};
+									frequency=1;
+									volume="(1-interior/1.4)*forest";
+								};
+								class TailInterior
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_tail_interior",
+										1,
+										1,
+										400
+									};
+									frequency=1;
+									volume="interior";
+								};
+								class TailMeadows
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_meadows",
+										1,
+										1,
+										400
+									};
+									frequency=1;
+									volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+								};
+								class TailHouses
+								{
+									sound[]=
+									{
+										"A3\Sounds_F\arsenal\weapons\Rifles\TRG20\Silencer_TRG20_Tail_houses",
+										1,
+										1,
+										400
+									};
+									frequency=1;
+									volume="(1-interior/1.4)*houses";
+								};
+							};
+						};
 						dispersion=0.00008999991;
 						recoil="recoil_single_trg";
 						recoilProne="recoil_single_prone_trg";
@@ -371,8 +731,7 @@
 						midRangeProbab=0.0099999998;
 						maxRange=400;
 						maxRangeProbab=0.0099999998;
-						soundBurst=0;
-						};
+						soundBurst=0;				
 					};
 				};
 			};

@@ -43,7 +43,7 @@ class CfgPatches {
             "A3_Sounds_F",
             "3rdView",
             "A3_Sounds_F_Exp",
-            "jsrs_soundmod_complete_edition",
+        //    "jsrs_soundmod_complete_edition",
             "tfar_core",
             "MRHSatellite",
             "ace_gforces",
