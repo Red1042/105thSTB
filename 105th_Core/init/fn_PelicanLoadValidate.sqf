@@ -105,6 +105,16 @@ switch true do {
 				_veh attachTo [_pelican,[0,-4.8,0.30]];  
 				_loaded = true;  
 				};
+				case (_veh isKindOf "optre_catfish_unarmed_f"):
+				{
+				_veh attachTo [_pelican,[0,-4.8,0.30]];  
+				_loaded = true;  
+				};
+				case (_veh isKindOf "optre_catfish_mg_f"):
+				{
+				_veh attachTo [_pelican,[0,-4.8,0.30]];  
+				_loaded = true;  
+				};
 
 				
 

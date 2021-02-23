@@ -129,8 +129,13 @@ class HOW_M12_APC_MED:VES_M12_APC_MED
 		editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Motorized";
 		slowSpeedForwardCoef = 0.090;
+		
 		class EventHandlers: EventHandlers
 		{
+			class Make_this_thing_medical_vehicle
+			{
+				init = _this call ace_medical_treatment_fnc_isMedicalVehicle;
+			};
 		};
 		class TransportItems
 		{

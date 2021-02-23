@@ -287,6 +287,7 @@ class CargoTurret_03;
 
 
 class CommanderOptics;
+class components;
 class DefaultVehicleSystemsDisplayManagerLeft
 {
 	class components;
