@@ -73,6 +73,7 @@ class CfgPatches
 		//STAG UGV
 		"v105_UGV_STAG",
 		"v105_UGV_STAG_ATGM",
+		"v105_UCAV_Sentinel",
 		// Supply Pods
 		"HOW_105th_SupplyPod_Rifle",
 		"HOW_105th_SupplyPod_MachineGun",
@@ -287,7 +288,7 @@ class CargoTurret_03;
 
 
 class CommanderOptics;
-class components;
+//class components;
 class DefaultVehicleSystemsDisplayManagerLeft
 {
 	class components;
@@ -382,7 +383,7 @@ class cfgVehicles
 	class Plane_CAS_01_dynamicLoadout_base_F;
 	// UGV Stomper
 	class UGV_01_rcws_base_F;
-	
+	class B_UAV_05_F;
 	
 	
 	
@@ -398,6 +399,7 @@ class cfgVehicles
 	#include "Claymore_Base.hpp"	
 	#include "UGVStomper_Base.hpp"
 	#include "SupplyCrates.hpp"
+	#include "Sentinel_Base.hpp"
 	
 														// New Vehicles Below
 														// New Vehicles Below
