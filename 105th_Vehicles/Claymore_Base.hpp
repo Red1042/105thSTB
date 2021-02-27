@@ -141,127 +141,13 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		class Components: Components
 		{
 			class TransportCountermeasuresComponent;
-			class SensorsManagerComponent
+			class VehicleSystemsTemplateLeftPilot: DefaultVehicleSystemsDisplayManagerLeft
 			{
-				class Components
-				{
-					class IRSensorComponent: SensorTemplateIR
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						maxTrackableSpeed=300;
-						animDirection="mainGun";
-						angleRangeHorizontal=46;
-						angleRangeVertical=34;
-						aimdown=-0.25;
-					};
-					class VisualSensorComponent: SensorTemplateVisual
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=10000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=10000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						maxTrackableSpeed=300;
-						animDirection="mainGun";
-						angleRangeHorizontal=46;
-						angleRangeVertical=34;
-						aimdown=-0.25;
-					};
-					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=-1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=-1;
-						};
-						maxTrackableSpeed=300;
-						angleRangeHorizontal=180;
-						angleRangeVertical=90;
-						groundNoiseDistanceCoef=-1;
-						maxGroundNoiseDistance=-1;
-						minSpeedThreshold=0;
-						maxSpeedThreshold=0;
-						aimDown=30;
-					};
-					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
-					{
-					};
-					class LaserSensorComponent: SensorTemplateLaser
-					{
-					};
-					class NVSensorComponent: SensorTemplateNV
-					{
-					};
-				};
+				class components:components{};
 			};
-			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
+			class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
 			{
-				componentType = "VehicleSystemsDisplayManager";
-				class Components: components
-				{
-					
-					class VehicleMissileDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="Missile";
-					};
-					class SensorDisplay
-					{
-						componentType="SensorsDisplayComponent";
-						range[]={4000,2000,16000,8000};
-						resource="RscCustomInfoSensors";
-					};
-				};
-			};
-			class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
-			{
-				componentType = "VehicleSystemsDisplayManager";
-				defaultDisplay="SensorDisplay";
-				class Components: components
-				{
-					class VehicleMissileDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="Missile";
-					};
-					class SensorDisplay
-					{
-						componentType="SensorsDisplayComponent";
-						range[]={4000,2000,16000,8000};
-						resource="RscCustomInfoSensors";
-					};
-				};
+				class components:components{};
 			};
 			class TransportPylonsComponent
 			{

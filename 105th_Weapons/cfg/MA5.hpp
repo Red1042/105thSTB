@@ -197,7 +197,9 @@
 									"OPTRE_M393_EOTECH",
 									"OPTRE_BR55HB_Scope",
 									"OPTRE_BMR_Scope",
-									"optic_ico_01_black_f"
+									"optic_ico_01_black_f",
+									"optic_MRD",
+
 								};					
 							};
 						};
@@ -497,7 +499,8 @@
 								"OPTRE_M393_EOTECH",
 								"OPTRE_BR55HB_Scope",
 								"OPTRE_BMR_Scope",
-								"optic_ico_01_black_f"
+								"optic_ico_01_black_f",
+								"optic_MRD",
 							};
 					};					
 					modes[]=

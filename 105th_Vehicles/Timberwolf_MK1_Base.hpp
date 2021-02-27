@@ -64,7 +64,7 @@ class HOW_MGS_Base: AFV_Wheeled_01_base_F
 								boundary="wheel_1_1_bound";
 								width=0.40000001;
 								mass=250;
-								armor = 60;
+								armor = 150;
 								MOI=19.5474;
 								dampingRate=8;
 								dampingRateDamaged=55;

@@ -30,136 +30,13 @@
 		class Components: Components
 		{
 			class TransportCountermeasuresComponent;
-			class SensorsManagerComponent
+			class VehicleSystemsTemplateLeftPilot: DefaultVehicleSystemsDisplayManagerLeft
 			{
-				class Components
-				{
-					class IRSensorComponent: SensorTemplateIR
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						maxTrackableSpeed=300;
-						animDirection="mainGun";
-						angleRangeHorizontal=46;
-						angleRangeVertical=34;
-						aimdown=-0.25;
-					};
-					class VisualSensorComponent: SensorTemplateVisual
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=10000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=10000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						maxTrackableSpeed=300;
-						animDirection="mainGun";
-						angleRangeHorizontal=46;
-						angleRangeVertical=34;
-						aimdown=-0.25;
-					};
-					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=-1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=-1;
-						};
-						maxTrackableSpeed=300;
-						angleRangeHorizontal=180;
-						angleRangeVertical=90;
-						groundNoiseDistanceCoef=-1;
-						maxGroundNoiseDistance=-1;
-						minSpeedThreshold=0;
-						maxSpeedThreshold=0;
-						aimDown=30;
-					};
-					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
-					{
-					};
-					class LaserSensorComponent: SensorTemplateLaser
-					{
-					};
-					class NVSensorComponent: SensorTemplateNV
-					{
-					};
-				};
+				class components:components{};
 			};
-			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
+			class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
 			{
-				componentType = "VehicleSystemsDisplayManager";
-				class Components: components
-				{
-					class VehiclePrimaryGunnerDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="PrimaryGunner";
-					};
-					class VehicleMissileDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="Missile";
-					};
-					class SensorDisplay
-					{
-						componentType="SensorsDisplayComponent";
-						range[]={16000,8000,4000,2000};
-						resource="RscCustomInfoSensors";
-					};
-				};
-			};
-			class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
-			{
-				componentType = "VehicleSystemsDisplayManager";
-				defaultDisplay="SensorDisplay";
-				class Components: components
-				{
-					class VehiclePrimaryGunnerDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="PrimaryGunner";
-					};
-					class VehicleMissileDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="Missile";
-					};
-					class SensorDisplay
-					{
-						componentType="SensorsDisplayComponent";
-						range[]={16000,8000,4000,2000};
-						resource="RscCustomInfoSensors";
-					};
-				};
+				class components:components{};
 			};
 			class TransportPylonsComponent
 			{
@@ -374,139 +251,6 @@
             controllable = 1;
         };
         memoryPointDriverOptics = "gunnerview";
-		class Components: Components
-		{
-			class TransportCountermeasuresComponent;
-			class SensorsManagerComponent
-			{
-				class Components
-				{
-					class IRSensorComponent: SensorTemplateIR
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						maxTrackableSpeed=300;
-						animDirection="mainGun";
-						angleRangeHorizontal=90;
-						angleRangeVertical=60;
-						aimdown=-0.25;
-					};
-					class VisualSensorComponent: SensorTemplateVisual
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=10000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=10000;
-							objectDistanceLimitCoef=1;
-							viewDistanceLimitCoef=1;
-						};
-						maxTrackableSpeed=300;
-						animDirection="mainGun";
-						angleRangeHorizontal=90;
-						angleRangeVertical=60;
-						aimdown=-0.25;
-					};
-					class ActiveRadarSensorComponent: SensorTemplateActiveRadar
-					{
-						class AirTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=-1;
-						};
-						class GroundTarget
-						{
-							minRange=0;
-							maxRange=12000;
-							objectDistanceLimitCoef=-1;
-							viewDistanceLimitCoef=-1;
-						};
-						maxTrackableSpeed=300;
-						angleRangeHorizontal=180;
-						angleRangeVertical=90;
-						groundNoiseDistanceCoef=-1;
-						maxGroundNoiseDistance=-1;
-						minSpeedThreshold=0;
-						maxSpeedThreshold=0;
-						aimDown=30;
-					};
-					class PassiveRadarSensorComponent: SensorTemplatePassiveRadar
-					{
-					};
-					class LaserSensorComponent: SensorTemplateLaser
-					{
-					};
-					class NVSensorComponent: SensorTemplateNV
-					{
-					};
-				};
-			};
-			class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
-			{
-				class Components: components
-				{
-					class VehiclePrimaryGunnerDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="PrimaryGunner";
-					};
-					class VehicleMissileDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="Missile";
-					};
-					class SensorDisplay
-					{
-						componentType="SensorsDisplayComponent";
-						range[]={4000,2000,16000,8000};
-						resource="RscCustomInfoSensors";
-					};
-				};
-			};
-			class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
-			{
-				defaultDisplay="SensorDisplay";
-				class Components: components
-				{
-					class VehiclePrimaryGunnerDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="PrimaryGunner";
-					};
-					class VehicleMissileDisplay
-					{
-						componentType="TransportFeedDisplayComponent";
-						source="Missile";
-					};
-					class SensorDisplay
-					{
-						componentType="SensorsDisplayComponent";
-						range[]={4000,2000,16000,8000};
-						resource="RscCustomInfoSensors";
-					};
-				};
-			};
-		};
 		
 		
         soundLocked[]=
@@ -520,6 +264,19 @@
 			"A3\Sounds_F_Jets\vehicles\air\Shared\FX_Plane_Jet_lockedon2",
 			1,
 			1.5
+		};
+        class Components: Components
+		{
+			class TransportCountermeasuresComponent;
+			class VehicleSystemsTemplateLeftPilot: DefaultVehicleSystemsDisplayManagerLeft
+			{
+				class components:components{};
+			};
+			class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
+			{
+				class components:components{};
+			};
+			
 		};
     };
 	class v105_D78DHTC:v105_D77HTCI

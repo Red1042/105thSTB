@@ -271,5 +271,15 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class ACOMP_Legion14_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Legion 1-4)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\Centurion_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
 
 	

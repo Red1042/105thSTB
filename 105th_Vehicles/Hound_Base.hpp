@@ -38,7 +38,7 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 				steering = 1;
 				width = 0.35;
 				mass = 187.5;
-				armor = 30;
+				armor = 150;
 				MOI = 60;
 				dampingRate = 0.1;
 				dampingRateDamaged = 1.0;

@@ -816,7 +816,7 @@
             };	
 		};
 	};
-	class ODST_Rifleman_Test: OPTRE_UNSC_M52D_Armor
+/*	class ODST_Rifleman_Barkley: OPTRE_UNSC_M52D_Armor
 	{
 		author="Barkley";
 		displayName="[ODST] M52D Lead (Barkley)";
@@ -931,7 +931,8 @@
             //    "CustomKit_Scorch"
             };
 		};
-	};
+	};*/
+
 	class ODST_Rifleman_Canley: OPTRE_UNSC_M52D_Armor
 	{
 		author="Hartley";
@@ -1148,7 +1149,7 @@
 		};
 	};
 	
-	class BCo_CMcDaniel_M52D_ODST: OPTRE_UNSC_M52D_Armor
+/*	class BCo_CMcDaniel_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		author="N-4 Logistics";
 		displayName="[ODST] M52D (McDaniel)";
@@ -1264,6 +1265,7 @@
             };
 		};
 	};
+	*/
 	class BCo_AVirus_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		author="N-4 Logistics";
@@ -1380,6 +1382,7 @@
             };
 		};
 	};
+/*
 	class BCo_AHelms_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		scope=1;
@@ -1498,6 +1501,8 @@
             };
 		};
 	};
+	*/
+	/*
 	class BCo_CHannibal_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		scope=2;
@@ -1616,6 +1621,8 @@
             };
 		};
 	};
+	*/
+	/*
 	class BCo_CVarner_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		scope=1;
@@ -1734,6 +1741,7 @@
             };
 		};
 	};
+	*/
 	class BCo_MSevarach_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		scope=2;
