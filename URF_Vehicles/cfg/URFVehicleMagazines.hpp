@@ -36,3 +36,11 @@
 		author						= "Howard";
 		ammo						="v105_Whistler_40mm_HE";
 	};
+	// shotgun turret
+	class OPTRE_12Rnd_8Gauge_Tungsten_Buckshot;
+	class URF_30Rnd_8Gauge_Tungsten_Buckshot:OPTRE_12Rnd_8Gauge_Tungsten_Buckshot
+	{
+		scope 						= 1;
+		count						= 30;
+		ammo						="OPTRE_B_8Gauge_Tungsten_Buckshot";
+	};

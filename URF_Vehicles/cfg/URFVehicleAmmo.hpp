@@ -1,0 +1,1 @@
+class OPTRE_B_8Gauge_Tungsten_Buckshot;

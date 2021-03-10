@@ -53,7 +53,8 @@ class CfgPatches {
             "I_EridanusArmy_HMG_50_01",
             "I_EridanusArmy_AN_MPQ_105_Radar_01",
             "I_EridanusArmy_MIM_145_Defender_01",
-            "I_EridanusArmy_Buzzsaw_CIWS_01"
+            "I_EridanusArmy_Buzzsaw_CIWS_01",
+            "I_EridanusArmy_Drone_Bomber_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
@@ -2413,7 +2414,7 @@ class CfgVehicles {
         displayName = "Drone Bomber";
         side = 2;
         faction = "I_EridanusArmy";
-        crew = "C_IDAP_UAV_AI_antimine_F";
+        crew = "I_UAV_AI";
 
 
         class EventHandlers : EventHandlers {

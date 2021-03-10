@@ -45,6 +45,7 @@ class CfgPatches
 	//	"HOW_Fossa_armed_AT",
 		//Falcons
 		"v105_UH144",
+		"v105_UH144_MED",
 		"v105_UH144S",
 		"v105_UH144_A",
 		"v105_UH144S_A",
@@ -289,14 +290,8 @@ class CargoTurret_03;
 
 class CommanderOptics;
 //class components;
-class DefaultVehicleSystemsDisplayManagerLeft
-{
-	class components;
-};
-class DefaultVehicleSystemsDisplayManagerRight
-{
-	class components;
-};
+class DefaultVehicleSystemsDisplayManagerLeft;
+class DefaultVehicleSystemsDisplayManagerRight;
 class VehicleSystemsTemplateLeftPilot: DefaultVehicleSystemsDisplayManagerLeft
 {
 	class components;
@@ -360,6 +355,18 @@ class cfgWeapons
 class cfgMagazines
 {
 	#include "cfg\VehicleMagazines.hpp"
+};
+class cfgAmmo
+{
+	class B_127x99_Ball;
+	class OPTRE_B_127x99_Ball: B_127x99_Ball
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+		tracerStartTime=0;
+		tracerEndTime=10;
+		indirectHitRange=0.1;
+		indirectHit=0.5;
+	};
 };
 
 		
@@ -838,6 +845,7 @@ class cfgVehicles
 	{
 		scopeCurator = 2;
 		scope  = 2;
+		side = 1;
 		Author = "Howard";
 		displayName = "[105th] Passenger Compartment";
 		editorCategory = "HOW_EdCat_105th"
@@ -845,6 +853,28 @@ class cfgVehicles
 			class TransportItems
 			{
 				#include "cfg\SupplyPods\ResupplyPodRifle.hpp"
+			};
+			class TransportMagazines{};
+			class TransportWeapons{};
+			hiddenSelectionsTextures[]=
+			{
+				"105th_Vehicles\textures\TransportPod\taru_1_retexture.paa",
+				"105th_Vehicles\textures\TransportPod\taru_2_retexture.paa"
+			};
+	};
+	class Land_Pod_Heli_Transport_04_medevac_F;
+	class v105_Land_Medical_Covered_Pod:Land_Pod_Heli_Transport_04_medevac_F
+	{
+		scopeCurator = 2;
+		scope  = 2;
+		side = 1;
+		Author = "Howard";
+		displayName = "[105th] Medevac Compartment";
+		editorCategory = "HOW_EdCat_105th"
+		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+			class TransportItems
+			{
+				#include "cfg\SupplyPods\ResupplyPodMedical.hpp"
 			};
 			class TransportMagazines{};
 			class TransportWeapons{};

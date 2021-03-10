@@ -1,6 +1,6 @@
 // Class name convention as: ACo_InitialLastName_M52A_MAR
 // Example: ACo_JHoward_M52A_MAR
-
+// Vest , Reverse, Legs
 class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 {
 	dlc="105th";

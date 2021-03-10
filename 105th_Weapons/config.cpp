@@ -48,7 +48,11 @@ class CfgPatches
 
 					
 		};
-		ammo[]={"v105_Whistler_40mm_HE","v105_145x114_Ball"};
+		ammo[]= 
+		{
+					"v105_Whistler_40mm_HE",
+					"v105_145x114_Ball"
+		};
 		// Requirements
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -62,20 +66,12 @@ class CfgPatches
 	};
 };
 
-/*
-class CfgAddons
-{
-	class PreloadAddons
-	{
-		class V_SO_Magazines
-		{
-			list[]={"V_SO_Magazines"};
-		};
-	};
-};
-*/
+class GrenadeHand;
+class HandGrenade;
+class OPTRE_G_M9_Frag;
 class CfgMagazines
 {
+	
 	#include "cfgmagazines.hpp"
 	class 1Rnd_HE_Grenade_shell;
 	class v105_Whistler_Grenade:1Rnd_HE_Grenade_shell
@@ -87,6 +83,21 @@ class CfgMagazines
 		displayname 				= "40mm HE Whistler";
 		displaynameshort 			= "Run.";
 	};
+	class v105_Impact_M9: HandGrenade
+    {
+    	dlc="OPTRE";
+		ammo="v105_M9_Impact";
+		mass=8;
+		displayName="[105th] M9 Impact Grenade";
+		descriptionShort="Impact Grenade";
+		displayNameShort="M9 Impact";
+		model="\OPTRE_Weapons\explosives\m9_grenade.p3d";
+		picture="\OPTRE_Weapons\explosives\icons\m9.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Throw\FRAG.paa";
+		count=1;
+		nameSound="handgrenade";
+		initSpeed=20;
+    };
 };
 class cfgMagazineWells
 {
@@ -116,6 +127,29 @@ class CfgAmmo
 			100
 		};
 	};
+	class OPTRE_G_M9_Frag
+    {
+        model="\OPTRE_Weapons\explosives\m9_grenade.p3d";
+		hit=15;
+		indirectHit=13;
+		indirectHitRange=8;
+		visibleFire=0.5;
+		audibleFire=0.050000001;
+		visibleFireTime=1;
+		fuseDistance=0;
+    };
+    class v105_M9_Impact: GrenadeHand
+    {
+        model="\OPTRE_Weapons\explosives\m9_grenade.p3d";
+        hit = 10;
+        indirectHit = 8;
+        indirectHitRange = 5;
+        visibleFire = 0.5;
+		audibleFire = 0.050000001;
+		visibleFireTime = 1;
+		fuseDistance = 60;
+        explosionTime = -1;
+    };
 	class B_408_Ball;
 	class v105_145x114_Ball:B_408_Ball 
 	{
@@ -156,45 +190,6 @@ class OPTRE_M247;
 class UGL_F;
 class CfgWeapons
 {
-	/*
-		class OPTRE_SRS99C_Scope;
-		class v105_srs99c_scope:OPTRE_SRS99C_Scope
-		{
-			dlc							= "105th";
-			author						= "Howard";
-			scope						= 2;
-			scopeArsenal				= 2;
-
-			ACE_ScopeHeightAboveRail = 4.2098;
-			ACE_ScopeAdjust_Vertical[] = {0, 27};
-			ACE_ScopeAdjust_Horizontal[] = {-8, 8};
-			ACE_ScopeAdjust_VerticalIncrement = 0.1;
-			ACE_ScopeAdjust_HorizontalIncrement = 0.1;
-
-			model="\OPTRE_Weapons\Sniper\SRS99C_Scope.p3d";
-			descriptionShort="Oracle N-variant SRS99C Sniper Rifle 5-10x56 Scope";
-			modelOptics="\OPTRE_Weapons\Sniper\SRS99C_Scope.p3d";
-			class ItemInfo : ItemInfo
-			{
-				modelOptics="\OPTRE_Weapons\Sniper\SRS99C_Scope.p3d";
-				class OpticsModes 
-				{
-					class Snip 
-					{
-						opticsZoomMin = 0.011;
-						opticsZoomMax = 0.045;
-						opticsZoomInit = 0.045;
-						discretefov[] = {0.045, 0.011};
-						discreteDistance[] = {100};
-						discreteDistanceInitIndex = 0;
-					};
-				};
-			};
-		};
-	*/
-
-
-
 		class UGL_F;
 		class v105_M301X: UGL_F
 		{
@@ -270,5 +265,23 @@ class CfgWeapons
 		#include "cfg\MA5.hpp"
 		#include "cfg\Machineguns.hpp"
 		#include "cfg\SRS.hpp"
+
+		class GrenadeLauncher;
+	class Throw: GrenadeLauncher
+	{
+		class ThrowMuzzle;
+		muzzles[]+=
+		{
+            "v105_Impact_M9Muzzle"
+        };
+        class v105_Impact_M9Muzzle: ThrowMuzzle
+        {
+            magazines[]=
+            {
+               "v105_Impact_M9"
+            };
+        };
+    };
+
 
 };

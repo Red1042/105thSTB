@@ -97,7 +97,7 @@ class CfgWeapons
 	};
 	class 105th_ODST_STB_Beret: H_Beret_Colonel
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] Beret";
 		hiddenSelectionsTextures[]=
 		{
@@ -106,7 +106,7 @@ class CfgWeapons
 	};
 	class 105th_VC497_Beret: H_Beret_Colonel
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[VC-497] Beret";
 		hiddenSelectionsTextures[]=
 		{
@@ -119,7 +119,7 @@ class CfgWeapons
 	//
 	class 105th_ODST_DressHat: OPTRE_UNSC_Dress_Hat
 	{
-		author="Barkley, Howard";
+		author="N-4 Logistics, Howard";
         displayName="[ODST] Dress Hat";
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[]=
@@ -131,7 +131,7 @@ class CfgWeapons
 	{
 		scope=1;
 		scopeArsenal=1;
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[VC-497] ECH252 Helmet (Nungester)";
 		hiddenSelectionsTextures[]=
 		{
@@ -143,7 +143,7 @@ class CfgWeapons
 	{
 		scope=1;
 		scopeArsenal=1;
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[VC-497] ECH252 Helmet (Nungester)";
 		hiddenSelectionsTextures[]=
 		{
@@ -208,8 +208,8 @@ class CfgVehicles
 	class OPTRE_ONI_Researcher_Suitcase;
     class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
     {
-		scope=2;
-		scopeArsenal=2;
+		scope=1;
+		scopeArsenal=1;
         author="Barkley, Howard, Freeman";
         displayName="[105th] Barkley's Satchel";
         hiddenSelections[] = {"camo"};
@@ -227,7 +227,7 @@ class CfgVehicles
     {
 		scope=2;
 		scopeArsenal=2;
-        author="Barkley, Howard, Freeman";
+        author="N-4 Logistics, Howard, Freeman";
         displayName="[105th] Medic Satchel";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[]=

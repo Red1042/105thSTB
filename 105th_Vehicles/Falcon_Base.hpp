@@ -8,7 +8,7 @@
 		 
 		armor = 150;
         dlc="105th";
-		author="Mike Hartley, Vespade";
+		author="N-4 Logistics";
         displayName="UH-144 Falcon [Navy]";
         fuelCapacity=200;
 		fuelConsumptionRate=0.03;
@@ -27,6 +27,48 @@
 		class TransportWeapons{};
         class UserActions{};
     };
+    class v105_UH144_MED: VES_UH144
+    {
+        side=1;
+		scopeCurator = 2;
+        editorCategory="HOW_EdCat_105th";
+        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+		threat[]={0,0,0};
+		armor = 150;
+        dlc="105th";
+		author="N-4 Logistics";
+        displayName="UH-144-MED Falcon [Navy]";
+        fuelCapacity=200;
+		fuelConsumptionRate=0.03;
+        hiddenSelectionsTextures[]=
+		{
+			"105th_Vehicles\textures\Falcon\v105_Falcon_co.paa",
+			"105th_Vehicles\textures\Falcon\v105_Falcon_A_co.paa",
+			"105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
+			"105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
+		};
+		class TransportItems
+		{
+			#include "cfg\SupplyPods\ResupplyPodMedical.hpp"
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+        class UserActions{};
+        class Turrets: Turrets{};
+        TransportSoldier=0;
+        cargoAction[]=
+		{
+		//	"passenger_apc_narrow_generic03",
+		//	"passenger_apc_generic02",
+		//	"passenger_apc_narrow_generic01",
+		//	"passenger_apc_generic04",
+		//	"passenger_apc_narrow_generic02"
+		};
+        class EventHandlers: EventHandlers
+        {
+            init = "0 = _this spawn V_FZ_fnc_FalconAddMedicalPod";
+        };
+    };
     class v105_UH144S: VES_UH144S
     {
         side=1;
@@ -36,7 +78,7 @@
 		armor = 150;
 		
         dlc="105th";
-        author="Mike Hartley, Vespade";
+        author="N-4 Logistics";
         displayName="UH-144S Falcon [Navy]";
         fuelCapacity=200;
 		fuelConsumptionRate=0.03;
@@ -62,7 +104,7 @@
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
         armor = 150;
         dlc="105th";
-        author="Mike Hartley, Vespade";
+        author="N-4 Logistics";
         displayName="UH-144 Falcon (Armed) [Navy]";
         fuelCapacity=200;
 		fuelConsumptionRate=0.03;
@@ -89,7 +131,7 @@
 		 armor = 150;
 	
         dlc="105th";
-        author="Mike Hartley, Vespade";
+        author="N-4 Logistics";
         displayName="UH-144S Falcon (Armed) [Navy]";
         fuelCapacity=200;
 		fuelConsumptionRate=0.03;
@@ -118,7 +160,7 @@
 		 
 	
         dlc="105th";
-        author="Howard, Vespade";
+        author="N-4 Logistics";
         displayName="UH-144S-GL Falcon [Navy]";
         fuelCapacity=200;
 		fuelConsumptionRate=0.03;
@@ -158,7 +200,7 @@
 		armor = 150;
 	
         dlc="105th";
-        author="Howard, Vespade";
+        author="N-4 Logistics";
         displayName="UH-144S-RC Falcon [Navy]";
         fuelCapacity=200;
 		fuelConsumptionRate=0.03;

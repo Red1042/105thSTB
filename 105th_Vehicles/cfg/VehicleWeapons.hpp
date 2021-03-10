@@ -288,62 +288,132 @@
 	};
 
 
-
-	class OPTRE_M41_LAAG;
-	class HOW_M41_LAAG:OPTRE_M41_LAAG
+	class HMG_127;
+	class OPTRE_M41_LAAG: HMG_127
 	{
-		magazines[]=
+			magazines[]=
+		{
+			"OPTRE_1000Rnd_127x99_M41"
+		};
+		class GunParticles
+		{
+			class effect1
+			{
+				positionName="konec hlavne";
+				directionName="Usti hlavne";
+				effectName="MachineGunCloud";
+			};
+			class effect2
+			{
+				positionName="machinegun_eject_pos";
+				directionName="machinegun_eject_dir";
+				effectName="MachineGunEject";
+			};
+			class effect3
+			{
+				positionName="machinegun_eject_pos";
+				directionName="machinegun_eject_dir";
+				effectName="MachineGunCartridge2";
+			};
+		};
+		selectionFireAnim="zasleh";
+		displayName="M41 LAAG";
+		descriptionShort="Light AA Gun";
+		aiDispersionCoefY=3;
+		aiDispersionCoefX=5;
+		showAimCursorInternal=1;
+		magazineReloadTime=4;
+		initFov=0.75;
+		minFov=0.375;
+		maxFov=1.1;
+		cursor="EmptyCursor";
+		cursorAim="OPTRE_M41";
+		modes[]=
+		{
+			"FullAuto",
+			"close",
+			"short",
+			"medium"
+		};
+		class FullAuto: MGun
+		{
+			sounds[]=
+			{
+				"StandardSound"
+			};
+			class StandardSound
+			{
+				begin1[]=
 				{
-					"OPTRE_1000Rnd_127x99_M41"
+					"OPTRE_Weapons\Vehicle\data\sounds\M41LAAG_1.wss",
+					1,
+					1,
+					1500
 				};
-				class FullAuto: MGun
+				soundBegin[]=
 				{
-					reloadTime=0.0785;
-					dispersion=0.001745;
-					minRange=2;
-					minRangeProbab=0.30000001;
-					midRange=300;
-					midRangeProbab=0.69999999;
-					maxRange=800;
-					maxRangeProbab=0.050000001;
+					"begin1",
+					1
 				};
-				class close: FullAuto
-				{
-					burst=30;
-					aiRateOfFire=0.75;
-					aiRateOfFireDistance=50;
-					minRange=10;
-					minRangeProbab=0.050000001;
-					midRange=20;
-					midRangeProbab=0.69999999;
-					maxRange=50;
-					maxRangeProbab=0.039999999;
-					showToPlayer=0;
-				};
-				class short: close
-				{
-					burst=20;
-					aiRateOfFire=2;
-					aiRateOfFireDistance=300;
-					minRange=50;
-					minRangeProbab=0.050000001;
-					midRange=150;
-					midRangeProbab=0.69999999;
-					maxRange=300;
-					maxRangeProbab=0.039999999;
-				};
-				class medium: close
-				{
-					burst=10;
-					aiRateOfFire=4;
-					aiRateOfFireDistance=600;
-					minRange=200;
-					minRangeProbab=0.050000001;
-					midRange=300;
-					midRangeProbab=0.69999999;
-					maxRange=500;
-					maxRangeProbab=0.1;
-				};
+			};
+			reloadTime=0.045;
+			dispersion=0.0049999999;
+			minRange=2;
+			minRangeProbab=0.30000001;
+			midRange=300;
+			midRangeProbab=0.69999999;
+			maxRange=800;
+			maxRangeProbab=0.050000001;
+		};
+		class close: FullAuto
+		{
+			burst=40;
+			aiRateOfFire=0.1;
+			aiRateOfFireDistance=50;
+			minRange=10;
+			minRangeProbab=0.050000001;
+			midRange=20;
+			midRangeProbab=0.69999999;
+			maxRange=50;
+			maxRangeProbab=0.039999999;
+			showToPlayer=0;
+		};
+		class short: close
+		{
+			burst=20;
+			aiRateOfFire=0.5;
+			aiRateOfFireDistance=300;
+			minRange=50;
+			minRangeProbab=0.050000001;
+			midRange=150;
+			midRangeProbab=0.69999999;
+			maxRange=300;
+			maxRangeProbab=0.039999999;
+		};
+		class medium: close
+		{
+			burst=20;
+			aiRateOfFire=0.75;
+			aiRateOfFireDistance=600;
+			minRange=200;
+			minRangeProbab=0.050000001;
+			midRange=300;
+			midRangeProbab=0.69999999;
+			maxRange=500;
+			maxRangeProbab=0.1;
+		};
+		class far: close
+		{
+			burst=10;
+			aiRateOfFire=0.75;
+			aiRateOfFireDistance=1000;
+			minRange=200;
+			minRangeProbab=0.050000001;
+			midRange=300;
+			midRangeProbab=0.69999999;
+			maxRange=1000;
+			maxRangeProbab=0.1;
+		};
 	};
 
 

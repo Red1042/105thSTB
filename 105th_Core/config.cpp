@@ -93,6 +93,10 @@ class CfgEditorSubcategories
 	{
 		displayName = "Armor";
 	};
+	class HOW_URF_EdSubCat_Turrets
+	{
+		displayName = "Turrets";
+	};
 };
 class CfgFunctions
 {
@@ -111,6 +115,10 @@ class CfgFunctions
 		class PelicanAddTransportPod
 		{
 			class PelicanAddTransportPod{file = "105th_Core\init\fn_PelicanAddTransportPod.sqf";};
+		};
+		class FalconAddMedicalPod
+		{
+			class FalconAddMedicalPod{file = "105th_Core\init\fn_FalconAddMedicalPod.sqf";};
 		};
 		class droptanks
 		{

@@ -141,13 +141,14 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		class Components: Components
 		{
 			class TransportCountermeasuresComponent;
+			
 			class VehicleSystemsTemplateLeftPilot: DefaultVehicleSystemsDisplayManagerLeft
 			{
-				class components:components{};
+				class Components:Components{};
 			};
 			class VehicleSystemsTemplateRightPilot: DefaultVehicleSystemsDisplayManagerRight
 			{
-				class components:components{};
+				class Components:Components{};
 			};
 			class TransportPylonsComponent
 			{

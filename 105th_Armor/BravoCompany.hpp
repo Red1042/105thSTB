@@ -68,7 +68,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-
+/*
 	class BCOMP_ELEAD_BBarkley_ODST: VES_CH252D
 	{
 		author="Varner";
@@ -79,7 +79,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-
+*/
 	class BCOMP_ELEAD_BCraig_ODST: VES_CH252D
 	{
 		author="Varner";

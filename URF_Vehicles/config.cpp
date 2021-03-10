@@ -32,7 +32,9 @@ class CfgPatches
 			"HOW_URF_MBT_Sochor",
 			//Aircraft
 			"v105_URF_AV14_CAS",
-			"v105_URF_D77HTCI_A"
+			"v105_URF_D77HTCI_A",
+			"URF_SG_Turret_A",
+			"URF_HMG_Turret_A"
 		};
 		weapons[] = 
 		{
@@ -81,6 +83,7 @@ class CfgPatches
 			"A3_Soft_F_Exp_LSV_01",
 			"A3_Armor_F_Tank",
 			"A3_Armor_F_Tank_AFV_Wheeled_01",
+			"A3_Static_F"
 		};
 	};
 };
@@ -164,6 +167,10 @@ class cfgMagazines
 {
 	#include "cfg\URFVehicleMagazines.hpp"
 };	
+class cfgAmmo
+{
+	#include "cfg\URFVehicleAmmo.hpp"
+};
 class cfgVehicles
 {
 	#include "Stalker_Base.hpp"
@@ -172,5 +179,6 @@ class cfgVehicles
 	#include "Karatel_Base.hpp"
 	#include "Aircraft.hpp"
 	#include "Sochor.hpp"
+	#include "StaticTurrets_Base.hpp"
 
 };

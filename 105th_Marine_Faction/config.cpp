@@ -92,7 +92,7 @@ class CfgPatches {
             "A3_Soft_F_Gamma_Van_01",
             "A3_Soft_F_EPC_Truck_03",
         //    "Cat_Dumper",
-            "Forklift",
+        //    "Forklift",
             "A3_Soft_F_Orange_Van_02",
         //    "ace_repair",
             "OPTRE_Vehicles_Pelican",

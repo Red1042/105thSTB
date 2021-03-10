@@ -185,5 +185,17 @@
 			"96Rnd_40mm_G_belt"
 		};
 	};
+	class OPTRE_M90A;
+	class URF_M359SG:OPTRE_M90A
+	{
+		scope=1;
+		scopeArsenal=1;
+		displayName = "8 Gauge Automatic Shotgun";
+		displayNameShort = "GLHF";
+		magazines[]=
+		{
+				"URF_30Rnd_8Gauge_Tungsten_Buckshot"
+		};
+	};
 	
 	
