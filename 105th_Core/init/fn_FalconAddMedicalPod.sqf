@@ -16,9 +16,9 @@ if((isDedicated) OR (hasInterface && isServer)) then
 	[] spawn {sleep 3;};
 
   _MedicalPod = "v105_Land_Medical_Covered_Pod" createVehicle position _falcon;
-  _MedicalPod setObjectScale 0.82;
-  _MedicalPod attachTo [_falcon, [-0.035,-1.1,-0.43]];
   
+  _MedicalPod attachTo [_falcon, [-0.035,-1.1,-0.43]];
+  _MedicalPod setObjectScale 0.82;
 
 
 

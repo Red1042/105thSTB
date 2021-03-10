@@ -880,7 +880,7 @@ class cfgVehicles
 			class TransportWeapons{};
 			hiddenSelectionsTextures[]=
 			{
-				"105th_Vehicles\textures\TransportPod\taru_1_retexture.paa",
+				"105th_Vehicles\textures\TransportPod\taru_med_retexture.paa",
 				"105th_Vehicles\textures\TransportPod\taru_2_retexture.paa"
 			};
 	};
