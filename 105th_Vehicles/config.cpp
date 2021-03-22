@@ -850,6 +850,7 @@ class cfgVehicles
 		displayName = "[105th] Passenger Compartment";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		armor = 150;
 			class TransportItems
 			{
 				#include "cfg\SupplyPods\ResupplyPodRifle.hpp"
@@ -872,6 +873,7 @@ class cfgVehicles
 		displayName = "[105th] Medevac Compartment";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		armor = 150;
 			class TransportItems
 			{
 				#include "cfg\SupplyPods\ResupplyPodMedical.hpp"
