@@ -235,3 +235,19 @@ class v105_4Rnd_145x114_Mag_Tracer:ACE_7Rnd_408_305gr_Mag
 	displayname 				= "[105th] 14.5x114mm Tracer Magazine";
 	ammo						= "v105_145x114_Tracer";
 };
+class OPTRE_1Rnd_50x137_PEN;
+class OPTRE_1Rnd_50x137_HE;
+class CRCKT_PEN: OPTRE_1Rnd_50x137_PEN
+{
+	author = "Nest";
+	displayName = "M48B 'Penetrator'";
+	scope = 2;
+	mass = 5;
+};
+class CRCKT_HE: OPTRE_1Rnd_50x137_HE
+{
+	author = "Nest";
+	displayName = "M48B 'High Explosive'";
+	scope = 2;
+	mass = 5;
+};

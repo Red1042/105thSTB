@@ -17,7 +17,13 @@ class CfgPatches
 			"v105_HOW_M73SAW",
 			"v105_HOW_M247SSW",
 			"v105_408_SRSC",
-			"v105_M301X"
+			"v105_M301X",
+			"105_CRCKT_PEN",
+            "105_CRCKT_PEN_Loaded", 
+            "105_CRCKT_PEN_Used",
+            "105_CRCKT_HE",
+            "105_CRCKT_HE_Loaded", 
+            "105_CRCKT_HE_Used",
 		};
 		magazines[]=
 		{			//M247
@@ -43,7 +49,9 @@ class CfgPatches
 					//HE Grenade
 					"v105_Whistler_Grenade",
 					"v105_4Rnd_145x114_Mag",
-					"v105_4Rnd_145x114_Mag_Tracer"
+					"v105_4Rnd_145x114_Mag_Tracer",
+					"CRCKT_PEN",
+           			"CRCKT_HE",
 
 
 					
@@ -61,7 +69,7 @@ class CfgPatches
 			"OPTRE_Weapons",
 			"V_SO_Weapons",
 			"OPTRE_Weapons_Sniper",
-		//	"OPTRE_JSRS"
+			"A2 Declassified- Specialized Ordnance",
 		};
 	};
 };
@@ -112,6 +120,19 @@ class cfgMagazineWells
 		};
 	};
 };
+class CBA_DisposableLaunchers
+    {
+        105_CRCKT_PEN[]=
+        {
+            "105_CRCKT_PEN_Loaded", 
+            "105_CRCKT_PEN_Used",
+        };
+        105_CRCKT_HE[]=
+        {
+            "105_CRCKT_HE_Loaded",
+            "105_CRCKT_HE_Used",
+        };
+    };
 class CfgAmmo
 {
 	class G_40mm_HE;
@@ -265,7 +286,7 @@ class CfgWeapons
 		#include "cfg\MA5.hpp"
 		#include "cfg\Machineguns.hpp"
 		#include "cfg\SRS.hpp"
-
+		#include "cfg\CricketDisposables.hpp"
 		class GrenadeLauncher;
 	class Throw: GrenadeLauncher
 	{
