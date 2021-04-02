@@ -69,7 +69,7 @@ class CfgPatches
 			"OPTRE_Weapons",
 			"V_SO_Weapons",
 			"OPTRE_Weapons_Sniper",
-			"A2 Declassified- Specialized Ordnance",
+			
 		};
 	};
 };
