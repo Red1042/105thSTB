@@ -307,16 +307,6 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
-	class ACOMP_NCO_ARodriguez_MAR: VES_CH252_MAR_Vacuum
-	{
-		author="N-4 Logistics";
-		displayName="[105th] ECH252 Helmet (Rodriguez)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\data\Alpha Company Helmets\ARod_CH252_MAR_CO.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
-		};
-	};
 	class ACOMP_NCO_KKolt_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
@@ -324,6 +314,46 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\KKol_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class ACOMP_NCO_JMitchell_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Mitchell)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\JMit_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class ACOMP_NCO_EAspari_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Aspari)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\EAsp_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class ACOMP_NCO_KKat_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Kat)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\KKat_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class ACOMP_ODST_Trainee_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (ODST Trainee)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\ODST_Trainee_CH252_MAR_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
@@ -417,4 +447,13 @@
 			"105th_Armor\data\Alpha Company Helmets\PKro_CH252_MAR_CO.paa"
 		};
 	};
-	
+	class ACOMP_NCO_ARodriguez_MAR: VES_CH252_MAR_Light
+	{
+		author="N-4 Logistics";
+		displayName="[105th] CH252 Helmet (Rodriguez)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\ARod_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};

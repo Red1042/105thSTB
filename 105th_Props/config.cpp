@@ -14,7 +14,7 @@ class CfgPatches
 		requiredVersion=1.0;
 		 requiredAddons[] = 
 			{
-           		"V_FZ_Core","OPTRE_UNSC_Structure_Military"
+           		"V_FZ_Core","OPTRE_UNSC_Structure_Military","A3_Structures_F_Civ"
         	};
 	};
 };
@@ -62,5 +62,16 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"105th_Props\Textures\bCoFlagArmaTest.paa"};
   	};
+};
+class Land_MapBoard_F;
+class v105_WhiteBoard_intel:Land_MapBoard_F
+{
+	scope=1;
+	scopeCurator=1;
+	displayName="105th Whiteboard";
+	hiddenSelectionsTextures[]=
+		{
+			"105th_Props\Textures\InkedMapBoard_Default_CO_LI.paa"
+		};
 };
 

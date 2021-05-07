@@ -67,15 +67,15 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		weapons[]=
 		{
 			"FIR_MasterArm",
-			//"FIR_GAU8",
-			"OPTRE_110mm_Gatling",
+			"FIR_GAU8",
+			//"OPTRE_110mm_Gatling",
 			"Laserdesignator_pilotCamera",
 			"CMFlareLauncher"
 		};
 		magazines[]=
 		{
-			//"FIR_GAU8_1174rnd_M",
-			"OPTRE_600Rnd_110mm",
+			"FIR_GAU8_1174rnd_M",
+			//"OPTRE_600Rnd_110mm",
 			"Laserbatteries",
 			"120Rnd_CMFlare_Chaff_Magazine",
 			"120Rnd_CMFlare_Chaff_Magazine",

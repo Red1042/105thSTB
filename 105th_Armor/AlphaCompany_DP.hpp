@@ -321,4 +321,43 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	
+	class ACOMP_NCO_JMitchell_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Mitchell)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\JMit_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class ACOMP_ODST_Trainee_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (ODST Trainee)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\ODST_Trainee_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class ACOMP_NCO_EAspari_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Aspari)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\EAsp_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class ACOMP_NCO_KKat_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Kat)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\KKat_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
