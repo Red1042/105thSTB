@@ -108,9 +108,9 @@ class CfgFunctions
 			class PelicanLoadValidate{file = "105th_Core\init\fn_PelicanLoadValidate.sqf";};
 			class PelicanUnLoadValidate{file = "105th_Core\init\fn_PelicanUnloadValidate.sqf";};
 		};
-		class WarthogAddMortar
+		class WarthogAddContainer
 		{
-			class WarthogAddMortar{file = "105th_Core\init\fn_WarthogAddMortar.sqf";};
+			class WarthogAddContainer{file = "105th_Core\init\fn_WarthogAddContainer.sqf";};
 		};
 		class PelicanAddTransportPod
 		{
@@ -120,13 +120,6 @@ class CfgFunctions
 		{
 			class FalconAddMedicalPod{file = "105th_Core\init\fn_FalconAddMedicalPod.sqf";};
 		};
-		class droptanks
-		{
-			class droptanks{file = "105th_Core\init\droptanks.sqf";};
-		};
-		class F16_Refuel
-		{
-			class F16_Refuel{file = "105th_Core\init\F16_Refuel.sqf";};
-		};
+		
 	};
 };

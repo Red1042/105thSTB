@@ -9,7 +9,7 @@ class HOW_105th_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
 	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
-	Author = "Howard, Barkley";
+	Author = "N-4 Logistics";
 	displayName = "[105th] Rifle Ammo Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -25,7 +25,7 @@ class HOW_105th_SupplyPod_MachineGun: OPTRE_Ammo_SupplyPod_Empty
 	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
-	Author = "Howard, Barkley";
+	Author = "N-4 Logistics";
 	displayName = "[105th] Machinegun Ammo Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -41,7 +41,7 @@ class HOW_105th_SupplyPod_Precision: OPTRE_Ammo_SupplyPod_Empty
 	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
-	Author = "Howard, Barkley";
+	Author = "N-4 Logistics";
 	displayName = "[105th] Precision Weapons Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -57,7 +57,7 @@ class HOW_105th_SupplyPod_Rockets: OPTRE_Ammo_SupplyPod_Empty
 	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
-	Author = "Howard, Barkley";
+	Author = "N-4 Logistics";
 	displayName = "[105th] Rockets/Missiles Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -73,7 +73,7 @@ class HOW_105th_SupplyPod_Medical: OPTRE_Ammo_SupplyPod_Empty
 	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
-	Author = "Howard, Barkley";
+	Author = "N-4 Logistics";
 	displayName = "[105th] Medical Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -93,7 +93,7 @@ class HOW_105th_SupplyPod_Utility: OPTRE_Ammo_SupplyPod_Empty
 	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
-	Author = "Howard, Barkley";
+	Author = "N-4 Logistics";
 	displayName = "[105th] Utility Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -109,13 +109,45 @@ class HOW_105th_SupplyPod_Demo: OPTRE_Ammo_SupplyPod_Empty
 	ace_cargo_size = 2;
 	scopeCurator = 2;
 	scope  = 2;
-	Author = "Howard, Barkley";
+	Author = "N-4 Logistics";
 	displayName = "[105th] Demolitions Supply Pod";
 	editorCategory = "HOW_EdCat_105th"
 	editorSubCategory = "HOW_105th_EdSubCat_Supply";
 		class TransportItems
 		{
 			#include "cfg\SupplyPods\ResupplyPodDemo.hpp"
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+};
+class HOW_105th_SupplyPod_MortarHE: OPTRE_Ammo_SupplyPod_Empty
+{
+	ace_cargo_size = 2;
+	scopeCurator = 2;
+	scope  = 2;
+	Author = "N-4 Logistics";
+	displayName = "[105th] 82mm HE Mortar Pod";
+	editorCategory = "HOW_EdCat_105th"
+	editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		class TransportItems
+		{
+			#include "cfg\SupplyPods\ResupplyPodMortarHE.hpp"
+		};
+		class TransportMagazines{};
+		class TransportWeapons{};
+};
+class HOW_105th_SupplyPod_MortarSMK: OPTRE_Ammo_SupplyPod_Empty
+{
+	ace_cargo_size = 2;
+	scopeCurator = 2;
+	scope  = 2;
+	Author = "N-4 Logistics";
+	displayName = "[105th] 82mm Smoke Mortar Pod";
+	editorCategory = "HOW_EdCat_105th"
+	editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		class TransportItems
+		{
+			#include "cfg\SupplyPods\ResupplyPodMortarSMK.hpp"
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
@@ -175,6 +207,16 @@ class Module_OPTRE_PelicanSupplyDrop: Module_F
 				{
 					name = "[105th] Transport Pod";
 					value = "v105_Land_Transport_Covered_Pod";
+				};
+				class n9
+				{
+					name = "[105th] 82mm HE Mortar Pod";
+					value = "HOW_105th_SupplyPod_MortarHE";
+				};
+				class n10
+				{
+					name = "[105th] 82mm Smoke Mortar Pod";
+					value = "HOW_105th_SupplyPod_MortarSMK";
 				};
 			};
 		};

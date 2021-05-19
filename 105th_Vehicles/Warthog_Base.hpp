@@ -1,15 +1,15 @@
-class VES_M12;
-class VES_M12_LRV;
-class VES_M12G1_LRV;
-class VES_M12A1_LRV;
-class VES_M813_TT;
-class VES_M12_APC_MED;
-class VES_M12_APC;
+class OPTRE_M12;
+class OPTRE_M12_LRV;
+class OPTRE_M12G1_LRV;
+class OPTRE_M12A1_LRV;
+class OPTRE_M813_TT;
+class OPTRE_M12_APC_MED;
+class OPTRE_M12_APC;
 
-class HOW_M12 : VES_M12
+class HOW_M12 : OPTRE_M12
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="";
 		
 		scope=2;
 		scopeCurator=2;
@@ -25,10 +25,10 @@ class HOW_M12 : VES_M12
 		class TransportWeapons{};
 };
 
-class HOW_M12_LRV : VES_M12_LRV
+class HOW_M12_LRV : OPTRE_M12_LRV
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -45,10 +45,10 @@ class HOW_M12_LRV : VES_M12_LRV
 		class TransportWeapons{};
 };
 
-class HOW_M12G1_LRV : VES_M12G1_LRV
+class HOW_M12G1_LRV : OPTRE_M12G1_LRV
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -63,10 +63,10 @@ class HOW_M12G1_LRV : VES_M12G1_LRV
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_M12A1_LRV : VES_M12A1_LRV
+class HOW_M12A1_LRV : OPTRE_M12A1_LRV
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -81,10 +81,10 @@ class HOW_M12A1_LRV : VES_M12A1_LRV
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_M813_TT:VES_M813_TT
+class HOW_M813_TT:OPTRE_M813_TT
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -99,10 +99,10 @@ class HOW_M813_TT:VES_M813_TT
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_M813_MORT: VES_M813_TT
+class HOW_M813_MORT: OPTRE_M813_TT
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -114,14 +114,18 @@ class HOW_M813_MORT: VES_M813_TT
 		{
 			#include "cfg\VehicleGearMort.hpp"
 		};
+		class EventHandlers: EventHandlers
+		{
+			init = "0 = _this spawn V_FZ_fnc_WarthogAddContainer";
+		};
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
 class EventHandlers;
-class HOW_M12_APC_MED:VES_M12_APC_MED
+class HOW_M12_APC_MED:OPTRE_M12_APC_MED
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -144,10 +148,10 @@ class HOW_M12_APC_MED:VES_M12_APC_MED
 		class TransportMagazines{};
 		class TransportWeapons{};
 };
-class HOW_M12_APC:VES_M12_APC
+class HOW_M12_APC:OPTRE_M12_APC
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -165,7 +169,7 @@ class HOW_M12_APC:VES_M12_APC
 class HOW_M12_ODST : HOW_M12
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -179,16 +183,12 @@ class HOW_M12_ODST : HOW_M12
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Vehicles\textures\Hog\V_M12_BLK_CO.paa",
-			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
-		};
+	
 };
-class HOW_M12_LRV_ODST : VES_M12_LRV
+class HOW_M12_LRV_ODST : OPTRE_M12_LRV
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -202,16 +202,12 @@ class HOW_M12_LRV_ODST : VES_M12_LRV
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Vehicles\textures\Hog\V_M12_BLK_CO.paa",
-			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
-		};
+		
 };
-class HOW_M12G1_LRV_ODST : VES_M12G1_LRV
+class HOW_M12G1_LRV_ODST : OPTRE_M12G1_LRV
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -225,16 +221,12 @@ class HOW_M12G1_LRV_ODST : VES_M12G1_LRV
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Vehicles\textures\Hog\V_M12_BLK_CO.paa",
-			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
-		};
+		
 };
-class HOW_M813_TT_ODST:VES_M813_TT
+class HOW_M813_TT_ODST:OPTRE_M813_TT
 {
 		dlc="105th";
-		author="Howard, Vespade";
+		author="N-4 Logistics";
 		
 		scope=2;
 		scopeCurator=2;
@@ -248,11 +240,7 @@ class HOW_M813_TT_ODST:VES_M813_TT
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Vehicles\textures\Hog\V_M12_BLK_CO.paa",
-			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
-		};
+		
 };
 
 
@@ -260,7 +248,7 @@ class HOW_M813_TT_ODST:VES_M813_TT
 
 
 // Experimentals
-class OPTRE_M12_LRV;
+
 class HOW_M12_LRV_ExpA : OPTRE_M12_LRV
 {
 		dlc="105th";
@@ -278,11 +266,7 @@ class HOW_M12_LRV_ExpA : OPTRE_M12_LRV
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Vehicles\textures\Hog\V_M12_BLK_CO.paa",
-			"105th_Vehicles\textures\Hog\V_M12_BLK_A_CO"
-		};
+		
 		
 		class Turrets:Turrets
 		{
@@ -302,34 +286,5 @@ class HOW_M12_LRV_ExpA : OPTRE_M12_LRV
 					"HOW_Vulcan20mm_620RND"
 				};
 			};
-		};
-};
-
-class HOW_M12_Mortar : VES_M12
-{
-	dlc="105th";
-	author="Howard";
-	
-	scope=2;
-	scopeCurator=2;
-	displayName="M12 Warthog (Mortar)";
-	editorCategory="HOW_EdCat_105th";
-    editorSubcategory="HOW_105th_EdSubCat_Motorized";
-	slowSpeedForwardCoef = 0.090;
-	class TransportItems
-	{
-		#include "cfg\VehicleGearMort.hpp"
-	};
-	class TransportMagazines{};
-	class TransportWeapons{};
-	class EventHandlers: EventHandlers
-	{
-		init = "0 = _this spawn V_FZ_fnc_WarthogAddMortar";
-	};
-	class Turrets:Turrets
-		{
-			class CargoGunner_1 : CargoGunner_1{};
-			class CargoGunner_2 : CargoGunner_2{};
-			class CargoGunner_3 : CargoGunner_3{};
 		};
 };

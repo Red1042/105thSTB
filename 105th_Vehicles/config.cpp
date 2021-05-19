@@ -11,8 +11,8 @@ class CfgPatches
 {
 	class 105th_Vehicles
 	{
-		author = "Howard";
-		name = "105th Vehicle Enhancement Project";
+		author = "N-4 Logistics";
+		name = "[105th] N-4 Logistics";
 		url = "";
 		units[] = 
 		{
@@ -38,7 +38,7 @@ class CfgPatches
 		"HOW_M12_APC_MED",
 		"HOW_M12_APC",
 		"HOW_M813_MORT",
-		"HOW_M12_Mortar",
+		//"HOW_M12_Mortar",
 		//Fossas
 	//	"HOW_Fossa_unarmed",
 	//	"HOW_Fossa_armed",
@@ -83,6 +83,8 @@ class CfgPatches
 		"HOW_105th_SupplyPod_Medical",
 		"HOW_105th_SupplyPod_Utility",
 		"HOW_105th_SupplyPod_Demo",
+		"HOW_105th_SupplyPod_MortarHE",
+		"HOW_105th_SupplyPod_MortarSMK"
 		
 		};
 		weapons[] = 
@@ -422,7 +424,7 @@ class cfgVehicles
 	class HOW_IFV76_A: HOW_IFV76_Base
 	{
 		dlc = "105th";
-		author = "Howard";
+		author = "N-4 Logistics";
 		side=1;
 		scope = 1;
 		scopeCurator = 1;
@@ -465,7 +467,7 @@ class cfgVehicles
 	class HOW_IFV76_B: HOW_IFV76_Base
 	{
 		dlc = "105th";
-		author = "Howard";
+		author = "N-4 Logistics";
 		side=1;
 		scope = 2;
 		scopeCurator = 2;
@@ -510,7 +512,7 @@ class cfgVehicles
 	class HOW_APC76_TT : LM_OPCAN_AFV102_MC_U_WDL
 	{
 		dlc = "105th";
-		author = "Howard, Burgess";
+		author = "N-4 Logistics, Burgess";
 		side=1;
 		scope = 2;
 		scopeCurator = 2;
@@ -645,7 +647,7 @@ class cfgVehicles
 	class HOW_APC76_MED:HOW_APC76_TT
 	{
 		dlc = "105th";
-		author = "Howard, Burgess";
+		author = "N-4 Logistics, Burgess";
 		side=1;
 		scope = 2;
 		scopeCurator = 2;
@@ -666,7 +668,7 @@ class cfgVehicles
 	class HOW_MGS_Timberwolf:HOW_MGS_Base
 	{
 		dlc = "105th";
-		author = "Howard, Burgess";
+		author = "N-4 Logistics, Burgess";
 		side=1;
 		scope = 2;
 		scopeCurator = 2;
@@ -720,7 +722,7 @@ class cfgVehicles
 	class HOW_MGS_UP_Timberwolf:HOW_MGS_Base_UP
 	{
 		dlc = "105th";
-		author = "Howard, Burgess";
+		author = "N-4 Logistics, Burgess";
 		side=1;
 		scope = 2;
 		scopeCurator = 2;
@@ -787,7 +789,7 @@ class cfgVehicles
 	class LM_OPCAN_HOW_M808_MC_WDL:LM_OPCAN_M808_MC_WDL
 	{
 		dlc = "105th";
-		author = "Howard";
+		author = "N-4 Logistics";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "M808 Scorpion";
@@ -846,7 +848,7 @@ class cfgVehicles
 		scopeCurator = 2;
 		scope  = 2;
 		side = 1;
-		Author = "Howard";
+		Author = "N-4 Logistics";
 		displayName = "[105th] Passenger Compartment";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -869,7 +871,7 @@ class cfgVehicles
 		scopeCurator = 2;
 		scope  = 2;
 		side = 1;
-		Author = "Howard";
+		Author = "N-4 Logistics";
 		displayName = "[105th] Medevac Compartment";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -884,6 +886,21 @@ class cfgVehicles
 			{
 				"105th_Vehicles\textures\TransportPod\taru_med_retexture.paa",
 				"105th_Vehicles\textures\TransportPod\taru_2_retexture.paa"
+			};
+	};
+	class Land_optre_milcrate_h3_long;
+	class v105_Mortar_Container: Land_optre_milcrate_h3_long
+	{
+		scopeCurator = 2;
+		scope  = 2;
+		side = 1;
+		Author = "N-4 Logistics";
+		displayName = "[105th] Mortar Container";
+		editorCategory = "HOW_EdCat_105th"
+		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		class TransportItems
+			{
+				#include "cfg\SupplyPods\MortarContainer.hpp"
 			};
 	};
 };
