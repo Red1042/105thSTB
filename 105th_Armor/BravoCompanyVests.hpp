@@ -816,7 +816,7 @@
             };	
 		};
 	};
-/*	class ODST_Rifleman_Barkley: OPTRE_UNSC_M52D_Armor
+	class ODST_Rifleman_Barkley: OPTRE_UNSC_M52D_Armor
 	{
 		author="Barkley";
 		displayName="[ODST] M52D Lead (Barkley)";
@@ -931,7 +931,7 @@
             //    "CustomKit_Scorch"
             };
 		};
-	};*/
+	};
 
 	class ODST_Rifleman_Canley: OPTRE_UNSC_M52D_Armor
 	{
@@ -1622,11 +1622,11 @@
 		};
 	};
 	*/
-	/*
+	
 	class BCo_CVarner_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
-		scope=1;
-		scopeArsenal=1;
+		scope=2;
+		scopeArsenal=2;
 		author="N-4 Logistics";
 		displayName="[ODST] M52D (Varner)";
 		hiddenSelectionsTextures[]=
@@ -1635,7 +1635,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\tempest_teamleader_upper.paa"
+			"105th_Armor\data\Bravo Company Chests\CVarner_M52D_Upper.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -1686,7 +1686,7 @@
 			};
 			hiddenSelections[]=
             {
-                "camo",
+               "camo",
                 "camo2",
                 "camo3",
                 "camo4",
@@ -1695,14 +1695,14 @@
             //    "A_ChestArmor",
             //    "A_KneesLeft",
             //    "A_KneesRight",
-            //    "A_KneesMarLeft",
-            //    "A_KneesMarRight",
+                "A_KneesMarLeft",
+                "A_KneesMarRight",
             //    "A_ODST",
             //    "A_ShinArmorLeft",
             //    "A_ShinArmorRight",
             //    "A_TacPad",
-                "A_ThighArmorLeft",
-                "A_ThighArmorRight",
+            //    "A_ThighArmorLeft",
+            //    "A_ThighArmorRight",
             //    "AS_BaseLeft",
             //    "AS_BaseRight",
                 "AS_LargeLeft",
@@ -1712,36 +1712,36 @@
                 "AS_ODSTCQBLeft",
                 "AS_ODSTCQBRight",
             //    "AS_ODSTLeft",
-               "AS_ODSTRight",
+            //    "AS_ODSTRight",
                 "AS_ODSTSniperLeft",
                 "AS_ODSTSniperRight",
                 "AS_SmallLeft",
                 "AS_SmallRight",
-                "AP_Canteen",
+            //    "AP_Canteen",
                 "AP_GL",
-                "AP_Knife",
+            //    "AP_Knife",
                 "AP_MGThigh",
                 "AP_AR",
                 "AP_BR",
                 "AP_Pack",
-                "AP_Pistol",
+            //    "AP_Pistol",
                 "AP_Rounds",
-            //    "AP_SG",
+                "AP_SG",
                 "AP_SMG",
                 "AP_Sniper",
-                "AP_Thigh",
+            //    "AP_Thigh",
                 "AP_Frag",
-                "AP_Smoke",
-            //    "APO_AR",
-                "APO_BR",
+            //    "AP_Smoke",
+                "APO_AR",
+            //    "APO_BR",
             //    "APO_Knife",
-                "APO_SMG",
+            //    "APO_SMG",
                 "APO_Sniper",
                 "CustomKit_Scorch"
             };
 		};
 	};
-	*/
+	
 	class BCo_MSevarach_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		scope=2;
@@ -1839,7 +1839,7 @@
                 "AP_Canteen",
             //    "AP_GL",
                 "AP_Knife",
-            //    "AP_MGThigh",
+                "AP_MGThigh",
                 "AP_AR",
                 "AP_BR",
                 "AP_Pack",
@@ -1848,7 +1848,7 @@
                 "AP_SG",
                 "AP_SMG",
                 "AP_Sniper",
-            //    "AP_Thigh",
+                "AP_Thigh",
             //    "AP_Frag",
             //    "AP_Smoke",
             //    "APO_AR",
@@ -1986,7 +1986,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\data\Bravo Company Chests\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\data\Bravo Company Chests\BSmith_M52D_Upper.paa"
+			"105th_Armor\data\Bravo Company Chests\tempest_personnel_upper_white.paa"
 		};
 		class ItemInfo: VestItem
 		{

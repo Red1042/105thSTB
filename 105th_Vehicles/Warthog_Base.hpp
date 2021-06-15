@@ -1,4 +1,4 @@
-class OPTRE_M12;
+class OPTRE_M12_FAV;
 class OPTRE_M12_LRV;
 class OPTRE_M12G1_LRV;
 class OPTRE_M12A1_LRV;
@@ -6,7 +6,7 @@ class OPTRE_M813_TT;
 class OPTRE_M12_APC_MED;
 class OPTRE_M12_APC;
 
-class HOW_M12 : OPTRE_M12
+class HOW_M12 : OPTRE_M12_FAV
 {
 		dlc="105th";
 		author="";

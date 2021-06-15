@@ -1,13 +1,7 @@
 // Reorganized Assets 15102020 <- Texture changelogs will reflect via dayMonthYear Basis
 //Changelog 
 //
-//
-// Updated pathing, class names, and texture names (reflected in the respective folders) 25/10/2020
-// Added new helmets (Bolton, McDaniel, Howard) 25/10/2020
-// Updated Bratwurst Helmet 25/10/2020
-// Removed Hammonds Helmet 25/10/2020
-// Added Murks updated helmet 11/13/2020
-// 
+
 //Marine Polarized ECH Helmets
 	class ACOMP_CO_MAR: VES_CH252_MAR_Vacuum
 	{
@@ -453,7 +447,16 @@
 		displayName="[105th] CH252 Helmet (Rodriguez)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ARod_CH252_MAR_CO.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+			"105th_Armor\data\Alpha Company Helmets\ARod_CH252_MAR_CO.paa"
+			
+		};
+	};
+	class ACOMP_NCO_JNostra_MAR: VES_CH252_MAR_Light
+	{
+		author="N-4 Logistics";
+		displayName="[105th] CH252 Helmet (Nostra)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\JNos_CH252_MAR_CO.paa",
 		};
 	};

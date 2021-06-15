@@ -158,7 +158,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\VC497\JCol_CH252_URB_Blk.paa", 
-			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
 	class VC497_Helmet_JCol_dp: VES_CH252_MAR_Vacuum_dp
@@ -171,9 +171,30 @@ class CfgWeapons
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class VC497_Helmet_BMan: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[VC-497] ECH252 Helmet (Bman)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\VC497\ABma_CH252_URB_Blk.paa", 
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class VC497_Helmet_BMan_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[VC-497] ECH252 Helmet (Bman)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\VC497\ABma_CH252_URB_Blk.paa", 
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	// Uniforms
 	class r105_uniform_ODST: VES_BDU_Evolved_Slim
 	{
-		author="Kreah Leiser, Vespade, Hartley";
+		author="N-4 Logistics";
 		displayName="[ODST] Combat Uniform (Tempest)";
 		class ItemInfo: UniformItem
 		{
@@ -184,6 +205,113 @@ class CfgWeapons
 			uniformClass="r105_uniform_base";
 		};
 	};
+	class v105_uniform_JungleCam: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (Jungle)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_JungleCam";
+		};
+	};
+	/*
+	class v105_uniform_ATACSG_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (ATACSG)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_ATACSG_CO";
+		};
+	};
+	class v105_uniform_EMRSummer_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (EMR-Summer)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_EMRSummer_CO";
+		};
+	};
+	class v105_uniform_KLMK_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (KLMK)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_KLMK_CO";
+		};
+	};
+	class v105_uniform_PartizanS_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (Partizan-S)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_PartizanS_CO";
+		};
+	};
+	*/
+	class v105_uniform_UTiger_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] Combat Uniform (Tigerstripe)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_UTiger_CO";
+		};
+	};
+/*	class v105_uniform_mixedUrban_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[Test] Combat Uniform (Mixed Urban)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_MixedUrban_CO";
+		};
+	};
+	class v105_uniform_ERDLTrop_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[Test] Combat Uniform (Tropic)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_Custom_ERDLTropic_CO";
+		};
+	};
+*/
 };
 class CfgVehicles
 {
@@ -198,6 +326,80 @@ class CfgVehicles
 		};
 		uniformclass="r105th_ODST";
 	};
+	class v105_BDU_JungleCam: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\HOW_BDU_JungleCamo_01.paa",
+			"105th_Armor\data\HOW_BDU_JungleCamo_01.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_ATACSG_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_BDU_ATACSG_CO.paa",
+			"105th_Armor\data\v105_BDU_ATACSG_CO.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_EMRSummer_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_BDU_EMRSummer_CO.paa",
+			"105th_Armor\data\v105_BDU_EMRSummer_CO.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_KLMK_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_BDU_KLMK_CO.paa",
+			"105th_Armor\data\v105_BDU_KLMK_CO.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_PartizanS_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_BDU_PartizanS_CO.paa",
+			"105th_Armor\data\v105_BDU_PartizanS_CO.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_UTiger_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_BDU_UTiger_CO.paa",
+			"105th_Armor\data\v105_BDU_UTiger_CO.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_MixedUrban_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\mixedurban_uniform.paa",
+			"105th_Armor\data\mixedurban_uniform.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_Custom_ERDLTropic_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Custom_ERDLTropic.paa",
+			"105th_Armor\data\Custom_ERDLTropic.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+
+
 	class BravoCompany_Radio: OPTRE_ANPRC_521_black
 	{
 		displayName="[ODST]M25D Long Range Helmet Uplink";
@@ -208,9 +410,9 @@ class CfgVehicles
 	class OPTRE_ONI_Researcher_Suitcase;
     class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
     {
-		scope=1;
-		scopeArsenal=1;
-        author="Barkley, Howard, Freeman";
+		scope=2;
+		scopeArsenal=2;
+        author="N-4 Logistics";
         displayName="[105th] Barkley's Satchel";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[]=
@@ -227,7 +429,7 @@ class CfgVehicles
     {
 		scope=2;
 		scopeArsenal=2;
-        author="N-4 Logistics, Howard, Freeman";
+        author="N-4 Logistics";
         displayName="[105th] Medic Satchel";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[]=
