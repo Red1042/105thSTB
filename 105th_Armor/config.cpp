@@ -171,26 +171,6 @@ class CfgWeapons
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class VC497_Helmet_BMan: VES_CH252_MAR_Vacuum
-	{
-		author="N-4 Logistics";
-		displayName="[VC-497] ECH252 Helmet (Bman)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\data\VC497\ABma_CH252_URB_Blk.paa", 
-			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
-		};
-	};
-	class VC497_Helmet_BMan_dp: VES_CH252_MAR_Vacuum_dp
-	{
-		author="N-4 Logistics";
-		displayName="[VC-497] ECH252 Helmet (Bman)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\data\VC497\ABma_CH252_URB_Blk.paa", 
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
 	// Uniforms
 	class r105_uniform_ODST: VES_BDU_Evolved_Slim
 	{
