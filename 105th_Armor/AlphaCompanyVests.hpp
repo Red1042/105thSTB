@@ -327,3 +327,4 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 				
 			};
 	};
+	

@@ -283,6 +283,7 @@
 	};
 	class ACOMP_NCO_JVargas_MAR: VES_CH252_MAR_Vacuum
 	{
+		scope=1;
 		author="N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Vargas)";
 		hiddenSelectionsTextures[]=
@@ -343,6 +344,7 @@
 	};
 	class ACOMP_NCO_Bman_MAR: VES_CH252_MAR_Vacuum
 	{
+		scope=1;
 		author="N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Bman)";
 		hiddenSelectionsTextures[]=
@@ -463,6 +465,7 @@
 	};
 	class ACOMP_NCO_JNostra_MAR: VES_CH252_MAR_Light
 	{
+		scope=1;
 		author="N-4 Logistics";
 		displayName="[105th] CH252 Helmet (Nostra)";
 		hiddenSelectionsTextures[]=

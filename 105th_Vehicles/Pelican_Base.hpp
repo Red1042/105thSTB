@@ -40,7 +40,7 @@
 			};
 			class TransportPylonsComponent
 			{
-				UIPicture="\OPAEX_Pelican\Pelican.paa";
+				
 				class pylons
 				{
 					class pylons1

@@ -209,16 +209,6 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class BCOMP_CSO_JPedro_ODST_dp: VES_CH252D_dp
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (Pedro)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\data\Bravo Company Helmets\JPed_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
 	class BCOMP_CSO_WColeman_ODST_dp: VES_CH252D_dp
 	{
 		author="Barkley";
@@ -296,6 +286,56 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Bravo Company Helmets\AWin_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_ABman_ODST_dp: VES_CH252D_dp
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Bman)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\ABma_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_GCruz_ODST_dp: VES_CH252D_dp
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Cruz)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\GCru_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_JNostra_ODST_dp: VES_CH252D_dp
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Nostra)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\JNos_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_JVargas_ODST_dp: VES_CH252D_dp
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Vargas)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\JVar_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class BCOMP_CSO_GWells_ODST_dp: VES_CH252D_dp
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Wells)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\GWel_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};

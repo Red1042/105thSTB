@@ -265,6 +265,45 @@ class CfgWeapons
 			uniformClass="v105_BDU_UTiger_CO";
 		};
 	};
+	class v105_uniform_DigiWoodland_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (Dig-WDL)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_DigiWoodland";
+		};
+	};
+	/*class v105_uniform_DigiDesert_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (Dig-DES)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_DigiDesert";
+		};
+	};*/
+	class v105_uniform_Desert_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (DES)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_Desert";
+		};
+	};
 /*	class v105_uniform_mixedUrban_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
@@ -310,8 +349,35 @@ class CfgVehicles
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\HOW_BDU_JungleCamo_01.paa",
-			"105th_Armor\data\HOW_BDU_JungleCamo_01.paa"
+			"105th_Armor\data\HOW_BDU_JungleCamo_03.paa",
+			"105th_Armor\data\HOW_BDU_JungleCamo_03.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_DigiWoodland: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_BDU_DigiWoodland.paa",
+			"105th_Armor\data\v105_BDU_DigiWoodland.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_DigiDesert: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_BDU_DigiDesert.paa",
+			"105th_Armor\data\v105_BDU_DigiDesert.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+	class v105_BDU_Desert: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_BDU_Desert.paa",
+			"105th_Armor\data\v105_BDU_Desert.paa"
 		};
 		uniformclass="r105th_ODST";
 	};

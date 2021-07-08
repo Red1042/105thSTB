@@ -7,7 +7,7 @@
 // ODST Polarized Helmets
 	class BCOMP_DEMO_AVirus_ODST: VES_CH252D
 	{
-		author="Varner";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Virus)";
 		hiddenSelectionsTextures[]=
 		{
@@ -18,7 +18,7 @@
 	
 	class BCOMP_AUTO_MMusic_ODST: VES_CH252D
 	{
-		author="Varner";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Music)";
 		hiddenSelectionsTextures[]=
 		{
@@ -28,7 +28,7 @@
 	};
 	class BCOMP_SARC_MTrench_ODST: VES_CH252D
 	{
-		author="Varner";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Trench)";
 		hiddenSelectionsTextures[]=
 		{
@@ -38,7 +38,7 @@
 	};
 	class BCOMP_MARK_BSpade_ODST: VES_CH252D
 	{
-		author="Varner";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Spade)";
 		hiddenSelectionsTextures[]=
 		{
@@ -49,7 +49,7 @@
 	
 	class BCOMP_AELEAD_JMorveyn: VES_CH252D
 	{
-		author="Varner";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Morveyn)";
 		hiddenSelectionsTextures[]=
 		{
@@ -60,7 +60,7 @@
 	
 	class BCOMP_MARK_RCanley_ODST: VES_CH252D
 	{
-		author="Varner";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Canley)";
 		hiddenSelectionsTextures[]=
 		{
@@ -69,9 +69,9 @@
 		};
 	};
 
-	class BCOMP_ELEAD_BBarkley_ODST: VES_CH252D
+	class BCOMP_ELEAD_Barkley: VES_CH252D
 	{
-		author="Varner";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Barkley)";
 		hiddenSelectionsTextures[]=
 		{
@@ -82,7 +82,7 @@
 
 	class BCOMP_ELEAD_BCraig_ODST: VES_CH252D
 	{
-		author="Varner";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Craig)";
 		hiddenSelectionsTextures[]=
 		{
@@ -93,7 +93,7 @@
 
 	class BCOMP_DEMO_MSevarach_ODST: VES_CH252D
 	{
-		author="Borgly";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Sev)";
 		hiddenSelectionsTextures[]=
 		{
@@ -104,7 +104,7 @@
 
 	class BCOMP_RES_JAdams_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Adams)";
 		hiddenSelectionsTextures[]=
 		{
@@ -114,7 +114,7 @@
 	};
 	class BCOMP_MSL_KBulck_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Bulck)";
 		hiddenSelectionsTextures[]=
 		{
@@ -124,7 +124,7 @@
 	};
 	class BCOMP_SARC_SOverture_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Overture)";
 		hiddenSelectionsTextures[]=
 		{
@@ -144,7 +144,7 @@
 	};
 	class BCOMP_CSO_CDubbo_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Dubbo)";
 		hiddenSelectionsTextures[]=
 		{
@@ -155,7 +155,7 @@
 	
 	class BCOMP_CSO_NOKillen_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (O'Killen)";
 		hiddenSelectionsTextures[]=
 		{
@@ -163,19 +163,9 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	class BCOMP_CSO_JPedro_ODST: VES_CH252D
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (Pedro)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\data\Bravo Company Helmets\JPed_CH252D_DEF_CO.paa",
-			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
-		};
-	};
 	class BCOMP_CSO_WColeman_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Coleman)";
 		hiddenSelectionsTextures[]=
 		{
@@ -185,7 +175,7 @@
 	};
 	class BCOMP_CSO_TSwoner_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Swoner)";
 		hiddenSelectionsTextures[]=
 		{
@@ -195,7 +185,7 @@
 	};
 	class BCOMP_CSO_BSmith_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Smith)";
 		hiddenSelectionsTextures[]=
 		{
@@ -205,7 +195,7 @@
 	};
 	class BCOMP_CSO_ENungester_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Nungester)";
 		hiddenSelectionsTextures[]=
 		{
@@ -215,7 +205,7 @@
 	};
 	class BCOMP_CSO_FPierce_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Pierce)";
 		hiddenSelectionsTextures[]=
 		{
@@ -225,7 +215,7 @@
 	};
 	class BCOMP_CSO_MSound_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Sound)";
 		hiddenSelectionsTextures[]=
 		{
@@ -235,7 +225,7 @@
 	};
 	class BCOMP_CSO_TKynx_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Kynx)";
 		hiddenSelectionsTextures[]=
 		{
@@ -245,7 +235,7 @@
 	};
 	class BCOMP_CSO_AWinters_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Winters)";
 		hiddenSelectionsTextures[]=
 		{
@@ -276,10 +266,10 @@
 			"105th_Armor\data\Bravo Company Helmets\CHan_CH252D_DEF_CO.paa",
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
-	};
+	};*/
 	class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (McDaniel)";
 		hiddenSelectionsTextures[]=
 		{
@@ -287,6 +277,59 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	class BCOMP_CSO_ABman_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Bman)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\ABma_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_GCruz_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Cruz)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\GCru_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_JNostra_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Nostra)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\JNos_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_JVargas_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Vargas)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\JVar_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_GWells_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Wells)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\GWel_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+
+
+	/*
 	class BCOMP_GREN_OMadsen_ODST: VES_CH252D
 	{
 		author="Varner";
