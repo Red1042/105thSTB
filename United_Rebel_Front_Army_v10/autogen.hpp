@@ -826,7 +826,7 @@ class CfgVehicles
         ALiVE_orbatCreator_owned = 1;
 
     };
-
+/*
     class O_OURFArmy_anti_Air_01 : O_OURFArmy_Heavy_AT_01 {
         editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_anti_Air_01.JPG;
         author = "Travi";
@@ -867,6 +867,7 @@ class CfgVehicles
         ALiVE_orbatCreator_owned = 1;
 
     };
+    */
 ////////////////////////////////////////////////////////////////////   Assault Squad         ///////////////////////////////////////////////////////
     class O_OURFArmy_Assault_Leader_01 : O_recon_TL_F_OCimport_02 {
         editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Assault_Leader_01.JPG;

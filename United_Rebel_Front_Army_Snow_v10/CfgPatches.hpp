@@ -55,7 +55,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "A3_Characters_F",
+        /*    "A3_Characters_F",
             "A3_Sounds_F",
             "A3_Sounds_F_Exp",
         //    "ace_gforces",
@@ -158,7 +158,7 @@ class CfgPatches {
             "A3_Soft_F_Enoch_Truck_02",
             "LM_OPCAN_URA",
             "A3_Static_F_Jets_SAM_System_01",
-            "A3_Static_F_Jets_AAA_System_01"
+            "A3_Static_F_Jets_AAA_System_01" */
         };
         authors[] = {"Travi"};
     };

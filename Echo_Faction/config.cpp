@@ -30,7 +30,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "LM_OPCAN_UNSCA",
+        /*    "LM_OPCAN_UNSCA",
             "A3_Characters_F",
             "OPTRE_UNSC_Units",
         //    "lambs_danger",
@@ -115,7 +115,7 @@ class CfgPatches {
             "A3_Armor_F_Tank_MBT_04",
         //    "fxp_VehTank",
             "A3_Soft_F_Enoch_UGV_02",
-            "OPTRE_Vehicles_Elephant"
+            "OPTRE_Vehicles_Elephant" */
         };
         author = "SSgt. C. Varner";
         authors[] = {"SSgt. C. Varner"};

@@ -59,7 +59,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "A3_Characters_F",
+        /*    "A3_Characters_F",
             "A3_Sounds_F",
             "A3_Sounds_F_Exp",
             "ace_gforces",
@@ -166,7 +166,7 @@ class CfgPatches {
             "A3_Static_F_Enoch_SAM_System_03",
             "A3_Static_F_Sams_SAM_System_03",
             "LM_OPCAN_URA",
-            "A3_Static_F_Jets_AAA_System_01"
+            "A3_Static_F_Jets_AAA_System_01" */
         };
         author = "LT J. Howard";
         authors[] = {"LT J. Howard"};
@@ -1296,7 +1296,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-
+    /*
     class I_EridanusArmy_Rifleman_AA_01 : I_EridanusArmy_Rifleman_1_01 {
         author = "LT J. Howard";
         scope = 2;
@@ -1336,7 +1336,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-
+    */
     class I_EridanusArmy_Field_Commander_01 : I_EridanusArmy_Rifleman_1_01 {
         author = "LT J. Howard";
         scope = 2;
@@ -2693,7 +2693,9 @@ class CfgGroups {
                     };
                 };
 
-                class i_eridanusarmy_infantry_anti_air_team {
+                /*
+                class i_eridanusarmy_infantry_anti_air_team 
+                {
                     name = "Anti Air Team";
                     side = 2;
                     faction = "I_EridanusArmy";
@@ -2725,7 +2727,7 @@ class CfgGroups {
                         vehicle = "I_EridanusArmy_Rifleman_1_01";
                     };
                 };
-
+                */
             };
 
             class SpecOps {

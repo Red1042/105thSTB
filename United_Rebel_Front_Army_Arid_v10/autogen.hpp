@@ -780,7 +780,7 @@ class CfgVehicles
         ALiVE_orbatCreator_owned = 1;
 
     };
-
+/*
     class O_OURFArmy_ARID_anti_Air_01 : O_OURFArmy_ARID_Heavy_AT_01 {
         author = "LTJG J. Howard";
         scope = 2;
@@ -820,7 +820,7 @@ class CfgVehicles
         ALiVE_orbatCreator_owned = 1;
 
     };
-
+*/
     class O_OURFArmy_ARID_Assault_Leader_01 : O_recon_TL_F_OCimport_02 {
         author = "LTJG J. Howard";
         scope = 2;

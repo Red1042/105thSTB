@@ -36,7 +36,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "B_UNSCArmy",
+        /*    "B_UNSCArmy",
             "A3_Characters_F",
             "OPTRE_UNSC_Units",
         //    "lambs_danger",
@@ -112,7 +112,7 @@ class CfgPatches {
             "A3_Armor_F_Beta_APC_Wheeled_01",
             "A3_Armor_F_Beta_APC_Wheeled_02",
             "A3_Armor_F_Gamma_APC_Wheeled_03",
-        //    "ace_cookoff"
+        //    "ace_cookoff" */
         };
         author = "SSgt. C. Varner";
         authors[] = {"SSgt. C. Varner"};

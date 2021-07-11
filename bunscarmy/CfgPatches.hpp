@@ -33,7 +33,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-           "A3_Characters_F",
+        /*   "A3_Characters_F",
           //  "OPTRE_UNSC_Units",
            // "lambs_danger",
             "OPTRE_UNSC_Units_Army",
@@ -133,7 +133,7 @@ class CfgPatches {
             "A3_Air_F_Exp_VTOL_01",
             "A3_Air_F_Exp",
            // "ace_fastroping",
-            "A3_Air_F_Heli_Heli_Transport_03"
+            "A3_Air_F_Heli_Heli_Transport_03" */
         };
         author = "CPO. W. Cunningham";
         authors[] = {"CPO. W. Cunningham"};

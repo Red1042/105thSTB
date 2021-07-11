@@ -100,7 +100,7 @@ class CfgGroups
                     };
                 };
 
-                class O_URFArmy_ARID_infantry_regular_aa_fireteam {
+            /*    class O_URFArmy_ARID_infantry_regular_aa_fireteam {
                     name = "Infantry AA Fireteam";
                     side = 0;
                     faction = "O_URFArmy_ARID";
@@ -132,7 +132,7 @@ class CfgGroups
                         vehicle = "O_OURFArmy_ARID_Rifleman_01";
                     };
                 };
-
+                */
                 class O_URFArmy_ARID_infantry_regular_squad_1 {
                     name = "Infantry Squad 1";
                     side = 0;

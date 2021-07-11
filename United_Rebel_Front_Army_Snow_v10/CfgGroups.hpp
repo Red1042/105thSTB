@@ -99,7 +99,7 @@ class CfgGroups
                         vehicle = "O_OURFArmy_SNOW_Light_AT_01";
                     };
                 };
-
+/*
                 class o_urfarmy_snow_infantry_regular_aa_fireteam {
                     name = "Infantry AA Fireteam";
                     side = 0;
@@ -132,7 +132,7 @@ class CfgGroups
                         vehicle = "O_OURFArmy_SNOW_Rifleman_01";
                     };
                 };
-
+*/
                 class o_urfarmy_snow_infantry_regular_squad_1 {
                     name = "Infantry Squad 1";
                     side = 0;
