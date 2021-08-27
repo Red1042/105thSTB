@@ -3,7 +3,7 @@
 // Renamed all Bravo Company personnel helmets to correct naming convention as JDoe_CH252D_DEF_CO
 // Updated pathing 25/10/2020
 // Added Swoner and Coleman, updated Canley and Hannibal's helmets.
-//
+// Re-added Helms, Madsen, commented out Music, Trench, Spade, Sound, McDaniel
 // ODST Polarized Helmets
 	class BCOMP_DEMO_AVirus_ODST: VES_CH252D
 	{
@@ -15,7 +15,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	
+	/*
 	class BCOMP_AUTO_MMusic_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -46,7 +46,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	
+	*/
 	class BCOMP_AELEAD_JMorveyn: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -213,6 +213,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	/*
 	class BCOMP_CSO_MSound_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -223,6 +224,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	*/
 	class BCOMP_CSO_TKynx_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -256,7 +258,6 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	}; 
-	/*
 	class BCOMP_TLEAD_CHannibal_ODST: VES_CH252D
 	{
 		author="Varner";
@@ -266,7 +267,7 @@
 			"105th_Armor\data\Bravo Company Helmets\CHan_CH252D_DEF_CO.paa",
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
-	};*/
+	}; /*
 	class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -276,7 +277,7 @@
 			"105th_Armor\data\Bravo Company Helmets\CMcD_CH252D_DEF_CO.paa",
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
-	};
+	}; */
 	class BCOMP_CSO_ABman_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -329,7 +330,7 @@
 	};
 
 
-	/*
+	
 	class BCOMP_GREN_OMadsen_ODST: VES_CH252D
 	{
 		author="Varner";
@@ -350,4 +351,4 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	*/
+	
