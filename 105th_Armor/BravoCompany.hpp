@@ -271,13 +271,9 @@
 			"105th_Armor\data\Bravo Company Helmets\CHan_CH252D_DEF_CO.paa",
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
-<<<<<<< Updated upstream
-	}; /*
+	}; 
+	/*
 	class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
-=======
-	};*/
-	/*class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
->>>>>>> Stashed changes
 	{
 		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (McDaniel)";
@@ -286,11 +282,8 @@
 			"105th_Armor\data\Bravo Company Helmets\CMcD_CH252D_DEF_CO.paa",
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
-<<<<<<< Updated upstream
-	}; */
-=======
-	};*/
->>>>>>> Stashed changes
+	}; 
+	*/
 	class BCOMP_CSO_ABman_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
