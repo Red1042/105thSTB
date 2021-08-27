@@ -45,59 +45,47 @@
 				{
 					class pylons1
 					{
-						maxweight=600;
-						hardpoints[]={"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
-						attachment="FIR_Hydra_M247_P_7rnd_M";
+						maxweight=300;
+						hardpoints[]={"105th_PelicanUnguided","105th_AntiAir","105th_PelicanHeavy"};
+						attachment="v105_Hydra_M247_P_7Rnd_M";
 						bay=-1;
 						priority=2;
-						UIposition[]={0.1,0.5};
+						UIposition[]={0.1,0.10};
 						turret[]={};
 					};
 					class pylons2: pylons1
 					{
-						mirroredMissilePos=1;
-						hardpoints[]={"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
-						UIposition[]={0.1,0.1};
+						hardpoints[]={"105th_PelicanUnguided","105th_PelicanMed","105th_PelicanHeavy"};
+						UIposition[]={0.1,0.20};
 					};
 					class pylons3: pylons1
 					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[] = {"105th_PelicanBomb"};
 						priority = 5;
-						attachment = "FIR_Hydra_M247_P_7rnd_M";
-						maxweight = 600;
-						UIposition[] = {0.1,0.45};
+						attachment = "v105_FIR_Mk83_GP_Navy_P_1rnd_M";
+						maxweight = 2000;
+						UIposition[] = {0.1,0.30};
                         bay = -1;
 					};
 					class pylons4: pylons1
 					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[] = {"105th_PelicanUnguided","105th_PelicanMed","105th_PelicanHeavy"};
 						priority = 5;
-						attachment = "FIR_Hydra_M247_P_7rnd_M";
-						maxweight = 600;
+						attachment = "v105_Hydra_M247_P_7Rnd_M";
+						maxweight = 300;
 						UIposition[] = {0.1,0.40};
                         bay = -1;
-												
+                        mirroredMissilePos=2;	
 					};
 					class pylons5:pylons1
 					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
+						hardpoints[] = {"105th_PelicanUnguided","105th_AntiAir","105th_PelicanHeavy"};
 						priority = 5;
-						attachment = "FIR_Hydra_M247_P_7rnd_M";
-						maxweight = 600;
-						UIposition[] = {0.1,0.15};
+						attachment = "v105_Hydra_M247_P_7Rnd_M";
+						maxweight = 300;
+						UIposition[] = {0.1,0.50};
                         bay = -1;	
-						mirroredMissilePos=3;				
-					};
-					class pylons6:pylons1
-					{
-						hardpoints[] = {"105th_PelicanLite","105th_PelicanMed","105th_PelicanHeavy","105th_PelicanBomb"};
-						priority = 5;
-						attachment = "FIR_Hydra_M247_P_7rnd_M";
-						maxweight = 600;
-						UIposition[] = {0.1,0.20};
-                        bay = -1;	
-						mirroredMissilePos=4;
-										
+						mirroredMissilePos=1;				
 					};
 				};
 			};

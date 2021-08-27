@@ -84,7 +84,8 @@ class CfgPatches
 		"HOW_105th_SupplyPod_Utility",
 		"HOW_105th_SupplyPod_Demo",
 		"HOW_105th_SupplyPod_MortarHE",
-		"HOW_105th_SupplyPod_MortarSMK"
+		"HOW_105th_SupplyPod_MortarSMK",
+		"HOW_105th_SupplyPod_Radios"
 		
 		};
 		weapons[] = 

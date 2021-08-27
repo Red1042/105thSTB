@@ -71,57 +71,6 @@ class CfgVehicles
             class CargoTurret_02;
         };
     };
-
-    class OPTRE_M12_FAV_ins;
-    class OPTRE_M12_FAV_ins_OCimport_01 : OPTRE_M12_FAV_ins { scope = 0; class EventHandlers; class Turrets; };
-    class OPTRE_M12_FAV_ins_OCimport_02 : OPTRE_M12_FAV_ins_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoGunner_1;
-            class CargoTurret_02;
-            class CargoTurret_03;
-        };
-    };
-
-    class OPTRE_M12_LRV_ins;
-    class OPTRE_M12_LRV_ins_OCimport_01 : OPTRE_M12_LRV_ins { scope = 0; class EventHandlers; class Turrets; };
-    class OPTRE_M12_LRV_ins_OCimport_02 : OPTRE_M12_LRV_ins_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoGunner_1;
-            class MainTurret;
-        };
-    };
-
-    class OPTRE_M12A1_LRV_ins;
-    class OPTRE_M12A1_LRV_ins_OCimport_01 : OPTRE_M12A1_LRV_ins { scope = 0; class EventHandlers; class Turrets; };
-    class OPTRE_M12A1_LRV_ins_OCimport_02 : OPTRE_M12A1_LRV_ins_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoGunner_1;
-            class MainTurret;
-        };
-    };
-
-    class OPTRE_M914_RV_ins;
-    class OPTRE_M914_RV_ins_OCimport_01 : OPTRE_M914_RV_ins { scope = 0; class EventHandlers; class Turrets; };
-    class OPTRE_M914_RV_ins_OCimport_02 : OPTRE_M914_RV_ins_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoGunner_1;
-        };
-    };
-
-    class VES_M12_APC_URF;
-    class VES_M12_APC_URF_OCimport_01 : VES_M12_APC_URF { scope = 0; class EventHandlers; class Turrets; };
-    class VES_M12_APC_URF_OCimport_02 : VES_M12_APC_URF_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoGunner_1;
-            class CargoGunner_02;
-        };
-    };
-
     class OPTRE_UNSC_hornet_ins;
     class OPTRE_UNSC_hornet_ins_OCimport_01 : OPTRE_UNSC_hornet_ins { scope = 0; class EventHandlers; class Turrets; };
     class OPTRE_UNSC_hornet_ins_OCimport_02 : OPTRE_UNSC_hornet_ins_OCimport_01 { 
@@ -135,7 +84,6 @@ class CfgVehicles
             class CargoTurret_06;
         };
     };
-
     class OPTRE_Pelican_unarmed_ins;
     class OPTRE_Pelican_unarmed_ins_OCimport_01 : OPTRE_Pelican_unarmed_ins { scope = 0; class EventHandlers; class Turrets; };
     class OPTRE_Pelican_unarmed_ins_OCimport_02 : OPTRE_Pelican_unarmed_ins_OCimport_01 { 
@@ -146,7 +94,6 @@ class CfgVehicles
             class CargoTurret_02;
         };
     };
-
     class OPTRE_Pelican_armed_ins;
     class OPTRE_Pelican_armed_ins_OCimport_01 : OPTRE_Pelican_armed_ins { scope = 0; class EventHandlers; class Turrets; };
     class OPTRE_Pelican_armed_ins_OCimport_02 : OPTRE_Pelican_armed_ins_OCimport_01 { 
@@ -157,7 +104,6 @@ class CfgVehicles
             class CargoTurret_02;
         };
     };
-
     class OPAEX_VTOL_Hornet_INS;
     class OPAEX_VTOL_Hornet_INS_OCimport_01 : OPAEX_VTOL_Hornet_INS { scope = 0; class EventHandlers; class Turrets; };
     class OPAEX_VTOL_Hornet_INS_OCimport_02 : OPAEX_VTOL_Hornet_INS_OCimport_01 { 
@@ -171,104 +117,6 @@ class CfgVehicles
             class CargoTurret_06;
         };
     };
-
-    class LM_OPCAN_MGS_SU;
-    class LM_OPCAN_MGS_SU_OCimport_01 : LM_OPCAN_MGS_SU { scope = 0; class EventHandlers; class Turrets; };
-    class LM_OPCAN_MGS_SU_OCimport_02 : LM_OPCAN_MGS_SU_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class LM_OPCAN_Fox_SU;
-    class LM_OPCAN_Fox_SU_OCimport_01 : LM_OPCAN_Fox_SU { scope = 0; class EventHandlers; class Turrets; };
-    class LM_OPCAN_Fox_SU_OCimport_02 : LM_OPCAN_Fox_SU_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class LM_OPCAN_Rake_SU_HMG;
-    class LM_OPCAN_Rake_SU_HMG_OCimport_01 : LM_OPCAN_Rake_SU_HMG { scope = 0; class EventHandlers; class Turrets; };
-    class LM_OPCAN_Rake_SU_HMG_OCimport_02 : LM_OPCAN_Rake_SU_HMG_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class TopTurret;
-            class CodRiverTurret;
-            class CargoTurret_02;
-            class CargoTurret_03;
-        };
-    };
-
-    class LM_OPCAN_Rake_SU_U;
-    class LM_OPCAN_Rake_SU_U_OCimport_01 : LM_OPCAN_Rake_SU_U { scope = 0; class EventHandlers; class Turrets; };
-    class LM_OPCAN_Rake_SU_U_OCimport_02 : LM_OPCAN_Rake_SU_U_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_01;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
-    class LM_OPCAN_MBTB_KOS;
-    class LM_OPCAN_MBTB_KOS_OCimport_01 : LM_OPCAN_MBTB_KOS { scope = 0; class EventHandlers; class Turrets; };
-    class LM_OPCAN_MBTB_KOS_OCimport_02 : LM_OPCAN_MBTB_KOS_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class OPTRE_M808B_UNSC;
-    class OPTRE_M808B_UNSC_OCimport_01 : OPTRE_M808B_UNSC { scope = 0; class EventHandlers; class Turrets; };
-    class OPTRE_M808B_UNSC_OCimport_02 : OPTRE_M808B_UNSC_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret1;
-            class CargoTurret2;
-            class CargoTurret3;
-            class CargoTurret4;
-            class CargoTurret5;
-            class CargoTurret6;
-            class CargoTurret7;
-            class CargoTurret8;
-        };
-    };
-
-    class OPTRE_Static_FG75;
-    class OPTRE_Static_FG75_OCimport_01 : OPTRE_Static_FG75 { scope = 0; class EventHandlers; class Turrets; };
-    class OPTRE_Static_FG75_OCimport_02 : OPTRE_Static_FG75_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class OPTRE_Static_M41_Ins;
-    class OPTRE_Static_M41_Ins_OCimport_01 : OPTRE_Static_M41_Ins { scope = 0; class EventHandlers; class Turrets; };
-    class OPTRE_Static_M41_Ins_OCimport_02 : OPTRE_Static_M41_Ins_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class OPTRE_Static_ATGM_Ins;
-    class OPTRE_Static_ATGM_Ins_OCimport_01 : OPTRE_Static_ATGM_Ins { scope = 0; class EventHandlers; class Turrets; };
-    class OPTRE_Static_ATGM_Ins_OCimport_02 : OPTRE_Static_ATGM_Ins_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class O_Plane_Fighter_02_F;
     class O_Plane_Fighter_02_F_OCimport_01 : O_Plane_Fighter_02_F { scope = 0; class EventHandlers; };
     class O_Plane_Fighter_02_F_OCimport_02 : O_Plane_Fighter_02_F_OCimport_01 { scope = 0; class EventHandlers; };
@@ -277,60 +125,6 @@ class CfgVehicles
     class I_Plane_Fighter_03_dynamicLoadout_F_OCimport_01 : I_Plane_Fighter_03_dynamicLoadout_F { scope = 0; class EventHandlers; };
     class I_Plane_Fighter_03_dynamicLoadout_F_OCimport_02 : I_Plane_Fighter_03_dynamicLoadout_F_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class O_APC_Tracked_02_AA_F;
-    class O_APC_Tracked_02_AA_F_OCimport_01 : O_APC_Tracked_02_AA_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_APC_Tracked_02_AA_F_OCimport_02 : O_APC_Tracked_02_AA_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class O_MBT_02_arty_F;
-    class O_MBT_02_arty_F_OCimport_01 : O_MBT_02_arty_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_MBT_02_arty_F_OCimport_02 : O_MBT_02_arty_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class O_Radar_System_02_F;
-    class O_Radar_System_02_F_OCimport_01 : O_Radar_System_02_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_Radar_System_02_F_OCimport_02 : O_Radar_System_02_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class O_SAM_System_04_F;
-    class O_SAM_System_04_F_OCimport_01 : O_SAM_System_04_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_SAM_System_04_F_OCimport_02 : O_SAM_System_04_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class I_Truck_02_MRL_F;
-    class I_Truck_02_MRL_F_OCimport_01 : I_Truck_02_MRL_F { scope = 0; class EventHandlers; class Turrets; };
-    class I_Truck_02_MRL_F_OCimport_02 : I_Truck_02_MRL_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class LM_OPCAN_M92_BOLT_URA;
-    class LM_OPCAN_M92_BOLT_URA_OCimport_01 : LM_OPCAN_M92_BOLT_URA { scope = 0; class EventHandlers; class Turrets; };
-    class LM_OPCAN_M92_BOLT_URA_OCimport_02 : LM_OPCAN_M92_BOLT_URA_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class LM_OPCAN_M48_Buzz_URA;
     class LM_OPCAN_M48_Buzz_URA_OCimport_01 : LM_OPCAN_M48_Buzz_URA { scope = 0; class EventHandlers; class Turrets; };
     class LM_OPCAN_M48_Buzz_URA_OCimport_02 : LM_OPCAN_M48_Buzz_URA_OCimport_01 { 
@@ -338,11 +132,9 @@ class CfgVehicles
         class Turrets : Turrets {
             class MainTurret;
         };
-    };
-
+    }; 
 
     class O_OURFArmy_Squad_Leader_01 : O_Soldier_SL_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Squad_Leader_01.JPG;
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -383,7 +175,6 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Team_Leader_01 : O_Soldier_TL_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Team_Leader_01.JPG;
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -424,7 +215,6 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Officer_01 : O_officer_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Officer_01.JPG;
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -465,7 +255,6 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Rifleman_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Rifleman_01.JPG;
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -504,7 +293,6 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Autorifleman_01 : O_Soldier_AR_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Autorifleman_01.JPG;
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -545,7 +333,6 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Medic_01 : O_Soldier_GL_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Medic_01.JPG;
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -586,7 +373,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Pilot_01 : O_Pilot_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Pilot_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -627,7 +414,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Crewman_01 : O_crew_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Crewman_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -668,7 +455,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Grenadier_01 : O_Soldier_GL_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Grenadier_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -707,7 +494,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Marksman_01 : O_Sharpshooter_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Marksman_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -746,7 +533,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Light_AT_01 : O_Soldier_LAT_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Light_AT_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -787,7 +574,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Heavy_AT_01 : O_OURFArmy_Light_AT_01 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Heavy_AT_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -828,7 +615,7 @@ class CfgVehicles
     };
 /*
     class O_OURFArmy_anti_Air_01 : O_OURFArmy_Heavy_AT_01 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_anti_Air_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -870,7 +657,7 @@ class CfgVehicles
     */
 ////////////////////////////////////////////////////////////////////   Assault Squad         ///////////////////////////////////////////////////////
     class O_OURFArmy_Assault_Leader_01 : O_recon_TL_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Assault_Leader_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -911,7 +698,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Assault_Breacher_01 : O_OURFArmy_Assault_Leader_01 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Assault_Breacher_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -952,7 +739,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Assault_Grenadier_01 : O_OURFArmy_Assault_Breacher_01 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Assault_Grenadier_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -993,7 +780,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Assault_Marksman_01 : O_OURFArmy_Assault_Leader_01 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Assault_Marksman_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1034,7 +821,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Sniper_01 : O_sniper_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Sniper_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1073,7 +860,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Battlejumper_Team_Leader_01 : OPTRE_Ins_BJ_Soldier_URB_TeamLeader_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Battlejumper_Team_Leader_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1114,7 +901,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Battlejumper_AutoRifleman_01 : O_OURFArmy_Battlejumper_Team_Leader_01 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Battlejumper_AutoRifleman_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1155,7 +942,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Battlejumper_Assaultman_01 : O_OURFArmy_Battlejumper_AutoRifleman_01 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Battlejumper_Assaultman_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1196,7 +983,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_Battlejumper_Breacher_01 : O_OURFArmy_Battlejumper_Assaultman_01 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Battlejumper_Breacher_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1237,7 +1024,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_M1069_Burro_01 : B_Truck_01_transport_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M1069_Burro_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1268,164 +1055,8 @@ class CfgVehicles
 
     };
 
-    class O_OURFArmy_M12_Fav_Warthog_Unarmed_01 : OPTRE_M12_FAV_ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M12_Fav_Warthog_Unarmed_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M12 Fav Warthog [Unarmed]";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Rifleman_01";
-
-        class Turrets : Turrets {
-            class CargoGunner_1 : CargoGunner_1 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'OPTRE_Vehicles\Warthog\data\warthog_ins_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "colorinnie";
-
-    };
-
-    class O_OURFArmy_M12_LRV_LAAG_01 : OPTRE_M12_LRV_ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M12_LRV_LAAG_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M12 LRV LAAG";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Rifleman_01";
-
-        class Turrets : Turrets {
-            class CargoGunner_1 : CargoGunner_1 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Grenadier_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class O_OURFArmy_M12A1_LRV_Rocket_01 : OPTRE_M12A1_LRV_ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M12A1_LRV_Rocket_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M12A1 LRV [Rocket]";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Rifleman_01";
-
-        class Turrets : Turrets {
-            class CargoGunner_1 : CargoGunner_1 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Autorifleman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class O_OURFArmy_NM914_Recovery_Warthog_01 : OPTRE_M914_RV_ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_NM914_Recovery_Warthog_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "NM914 Recovery Warthog";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Rifleman_01";
-
-        class Turrets : Turrets {
-            class CargoGunner_1 : CargoGunner_1 { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class O_OURFArmy_M12_APC_01 : VES_M12_APC_URF_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M12_APC_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M12 APC";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Rifleman_01";
-
-        class Turrets : Turrets {
-            class CargoGunner_1 : CargoGunner_1 { gunnerType = ""; };
-            class CargoGunner_02 : CargoGunner_02 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
     class O_OURFArmy_AV_14_Hornet_01 : OPTRE_UNSC_hornet_ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_AV_14_Hornet_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1461,7 +1092,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_D77H_TCI_Pelican_01 : OPTRE_Pelican_unarmed_ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_D77H_TCI_Pelican_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1494,7 +1125,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_D77H_TCI_AV_Pelican_Gunship_01 : OPTRE_Pelican_armed_ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_D77H_TCI_AV_Pelican_Gunship_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1526,7 +1157,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_AV_14_Hornet_VTOL_01 : OPAEX_VTOL_Hornet_INS_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_AV_14_Hornet_VTOL_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1560,297 +1191,10 @@ class CfgVehicles
 
     };
 
-    class O_OURFArmy_MGS_32_TimberWolf_01 : LM_OPCAN_MGS_SU_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_MGS_32_TimberWolf_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MGS-32 TimberWolf";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'LM_OPCAN3.0\OPF\SU\VEH\MGSB.paa'];_unit setObjectTextureGlobal [1,'LM_OPCAN3.0\OPF\SU\VEH\MGSG.paa'];_unit setObjectTextureGlobal [2,'a3\Armor_F_Tank\AFV_Wheeled_01\data\afv_wheeled_01_wheel_green_CO.paa'];_unit setObjectTextureGlobal [3,'a3\Armor_F\Data\camonet_NATO_Green_CO.paa'];_unit setObjectTextureGlobal [4,'a3\Armor_F\Data\cage_csat_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "SU";
-
-    };
-
-    class O_OURFArmy_APC_112_Fox_01 : LM_OPCAN_Fox_SU_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_APC_112_Fox_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "APC-112 Fox";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class O_OURFArmy_Rake_V5_HMG_01 : LM_OPCAN_Rake_SU_HMG_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Rake_V5_HMG_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Rake V-5 [HMG]";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Assault_Marksman_01";
-
-        class Turrets : Turrets {
-            class TopTurret : TopTurret { gunnerType = "O_OURFArmy_Assault_Grenadier_01"; };
-            class CodRiverTurret : CodRiverTurret { gunnerType = "O_OURFArmy_Assault_Leader_01"; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = "O_OURFArmy_Assault_Breacher_01"; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = "O_OURFArmy_Assault_Leader_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class O_OURFArmy_Rake_V5_01 : LM_OPCAN_Rake_SU_U_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Rake_V5_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Rake V-5 ";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Assault_Leader_01";
-
-        class Turrets : Turrets {
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class O_OURFArmy_M1022_Beetle_01 : LM_OPCAN_MBTB_KOS_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M1022_Beetle_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1022 Beetle";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'LM_OPCAN3.0\OPF\KOS\VEH\Beetle_Body.paa'];_unit setObjectTextureGlobal [1,'LM_OPCAN3.0\OPF\KOS\VEH\Beetle_Gun.paa'];_unit setObjectTextureGlobal [2,'LM_OPCAN3.0\OPF\KOS\VEH\Beetle_Back.paa'];_unit setObjectTextureGlobal [3,'A3\Armor_F\Data\camonet_CSAT_Stripe_Desert_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "KOS";
-
-    };
-
-    class O_OURFArmy_M808B_Scorpion_MBT_01 : OPTRE_M808B_UNSC_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M808B_Scorpion_MBT_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M808B Scorpion MBT";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-            class CargoTurret1 : CargoTurret1 { gunnerType = ""; };
-            class CargoTurret2 : CargoTurret2 { gunnerType = ""; };
-            class CargoTurret3 : CargoTurret3 { gunnerType = ""; };
-            class CargoTurret4 : CargoTurret4 { gunnerType = ""; };
-            class CargoTurret5 : CargoTurret5 { gunnerType = ""; };
-            class CargoTurret6 : CargoTurret6 { gunnerType = ""; };
-            class CargoTurret7 : CargoTurret7 { gunnerType = ""; };
-            class CargoTurret8 : CargoTurret8 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'OPTRE_Vehicles\Scorpion\data\body_co.paa'];_unit setObjectTextureGlobal [1,'OPTRE_Vehicles\Scorpion\data\decals_ca.paa'];_unit setObjectTextureGlobal [2,'OPTRE_Vehicles\Scorpion\data\interior_co.paa'];_unit setObjectTextureGlobal [3,'OPTRE_Vehicles\Scorpion\data\miscparts_co.paa'];_unit setObjectTextureGlobal [4,'OPTRE_Vehicles\Scorpion\data\trackhousing_co.paa'];_unit setObjectTextureGlobal [5,'OPTRE_Vehicles\Scorpion\data\turret_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "colorgreen";
-
-    };
-
-    class O_OURFArmy_FG75_Anti_Tank_Gun_01 : OPTRE_Static_FG75_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_FG75_Anti_Tank_Gun_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "FG75 Anti-Tank Gun";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "OPTRE_Ins_URF_Engineer";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Rifleman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class O_OURFArmy_M41_LAAG_Turret_01 : OPTRE_Static_M41_Ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M41_LAAG_Turret_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M41 LAAG Turret";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "OPTRE_Ins_URF_Rifleman_AR";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Rifleman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class O_OURFArmy_AT_Rocket_Turret_01 : OPTRE_Static_ATGM_Ins_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_AT_Rocket_Turret_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AT Rocket Turret";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "OPTRE_Ins_URF_Rifleman_AR";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Rifleman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
+    
 
     class O_OURFArmy_TO_201_Shikra_01 : O_Plane_Fighter_02_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_TO_201_Shikra_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1876,7 +1220,7 @@ class CfgVehicles
     };
 
     class O_OURFArmy_L159_ALCA_01 : I_Plane_Fighter_03_dynamicLoadout_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_L159_ALCA_01.JPG;
+        
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
@@ -1900,221 +1244,150 @@ class CfgVehicles
         ALiVE_orbatCreator_texture = "Grey";
 
     };
-
-    class O_OURFArmy_ZSU_35_Tigris_01 : O_APC_Tracked_02_AA_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_ZSU_35_Tigris_01.JPG;
+    class OPTRE_M12_ins_APC;
+    class O_OURF_M12_APC_ins:OPTRE_M12_ins_APC
+    {
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
-        displayName = "ZSU-35 Tigris";
+        displayName = "M12 APC";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class OPTRE_M12_LRV_ins;
+    class O_OURF_M12_LRV_ins:OPTRE_M12_LRV_ins
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M12 LRV";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class OPTRE_M12A1_LRV_ins;
+    class O_OURF_M12A1_LRV_ins:OPTRE_M12A1_LRV_ins
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M12A1 LRV";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class OPTRE_M12R_AA_ins;
+    class O_OURF_M12R_AA_ins:OPTRE_M12R_AA_ins
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M12R AA";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class OPTRE_M12_FAV_ins;
+    class O_OURF_M12_FAV_ins:OPTRE_M12_FAV_ins
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M12 FAV";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+
+    class OPTRE_armed_puma_02;
+    class O_OURF_armed_puma_ins:OPTRE_armed_puma_02
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Puma (Minigun)";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class OPTRE_unarmed_puma_02;
+    class O_OURF_unarmed_puma_ins:OPTRE_unarmed_puma_02
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Puma (Unarmed)";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class OPTRE_AT_puma_02;
+    class O_OURF_AT_puma_ins:OPTRE_AT_puma_02
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Puma (ATGM)";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class LM_OPCAN_Rake_SU_HMG;
+    class O_OURF_AT_Rake_SU_HMG:LM_OPCAN_Rake_SU_HMG
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Rake (Armed)";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class LM_OPCAN_Rake_SU_AT;
+    class O_OURF_Rake_SU_AT:LM_OPCAN_Rake_SU_AT
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Rake (ATGM)";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class LM_OPCAN_Rake_SU_U;
+    class O_OURF_Rake_SU_U:LM_OPCAN_Rake_SU_U
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Rake (Unarmed)";
+        side = 0;
+        faction = "O_URFArmy";
+        crew = "O_OURFArmy_Rifleman_01";
+    };
+    class LM_OPCAN_Fox_SU;
+    class O_OURF_Fox_SU:LM_OPCAN_Fox_SU
+    {
+        author = "Travi";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "APC Fox";
         side = 0;
         faction = "O_URFArmy";
         crew = "O_OURFArmy_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'A3\Armor_F_Exp\APC_Tracked_02\Data\APC_Tracked_02_ext_01_AA_ghex_CO.paa'];_unit setObjectTextureGlobal [1,'A3\Armor_F_Exp\APC_Tracked_02\Data\APC_Tracked_02_ext_02_ghex_CO.paa'];_unit setObjectTextureGlobal [2,'A3\Armor_F_Exp\APC_Tracked_02\Data\APC_Tracked_01_AA_Tower_ghex_CO.paa'];_unit setObjectTextureGlobal [3,'A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa'];_unit setObjectTextureGlobal [4,'A3\armor_f\data\cage_csat_green_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "GreenHex";
-
     };
-
-    class O_OURFArmy_2S9_Sochor_01 : O_MBT_02_arty_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_2S9_Sochor_01.JPG;
+    class LM_OPCAN_MGS_SU;
+    class O_OURF_MGS_SU:LM_OPCAN_MGS_SU
+    {
         author = "Travi";
         scope = 2;
         scopeCurator = 2;
-        displayName = "2S9 Sochor";
+        displayName = "MGS Hound";
         side = 0;
         faction = "O_URFArmy";
         crew = "O_OURFArmy_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'a3\Armor_F_Exp\MBT_02\Data\MBT_02_body_ghex_CO.paa'];_unit setObjectTextureGlobal [1,'a3\Armor_F_Exp\MBT_02\Data\MBT_02_scorcher_ghex_CO.paa'];_unit setObjectTextureGlobal [2,'a3\Armor_F_Exp\MBT_02\Data\MBT_02_ghex_CO.paa'];_unit setObjectTextureGlobal [3,'a3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa'];_unit setObjectTextureGlobal [4,'A3\Armor_F\Data\camonet_CSAT_HEX_Green_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "GreenHex";
-
     };
 
-    class O_OURFArmy_R750_Cronus_01 : O_Radar_System_02_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_R750_Cronus_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "R-750 Cronus";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_UAV_AI";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'A3\Static_F_Sams\Radar_System_02\Data\Radar_system_02_mat_01_ghex_CO.paa'];_unit setObjectTextureGlobal [1,'A3\Static_F_Sams\Radar_System_02\Data\Radar_system_02_mat_02_ghex_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "JungleHex";
-
-    };
-
-    class O_OURFArmy_R750_Rhea_01 : O_SAM_System_04_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_R750_Rhea_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "R-750 Rhea";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_UAV_AI";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'A3\Static_F_Sams\SAM_System_04\Data\Sam_system_04_mat_01_ghex_CO.paa'];_unit setObjectTextureGlobal [1,'A3\Static_F_Sams\SAM_System_04\Data\Sam_system_04_mat_02_ghex_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "JungleHex";
-
-    };
-
-    class O_OURFArmy_Kamaz_MRL_01 : I_Truck_02_MRL_F_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_Kamaz_MRL_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Kamaz MRL";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "O_OURFArmy_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\soft_f_exp\Truck_02\Data\Truck_02_kab_GHEX_co.paa'];_unit setObjectTextureGlobal [1,'\A3\soft_f_beta\Truck_02\Data\Truck_02_int_co.paa'];_unit setObjectTextureGlobal [2,'\A3\Soft_F_Gamma\Truck_02\Data\Truck_02_MRL_OPFOR_CO.paa'];_unit setObjectTextureGlobal [3,'\A3\Soft_F_Beta\Truck_02\data\truck_02_chassis_OPFOR_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "GreenHex";
-
-    };
-
-    class O_OURFArmy_M92_Bolt_SAM_01 : LM_OPCAN_M92_BOLT_URA_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M92_Bolt_SAM_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M92 Bolt SAM";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "B_UAV_AI";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'LM_OPCAN3.0\OPF\URA\VEH\BOLT_URA.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "INS";
-
-    };
-
-    class O_OURFArmy_M48_Buzzsaw_CIWS_01 : LM_OPCAN_M48_Buzz_URA_OCimport_02 {
-        editorPreview = \x\\addons\ourfarmy\data\preview\O_OURFArmy_M48_Buzzsaw_CIWS_01.JPG;
-        author = "Travi";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M48 Buzzsaw CIWS";
-        side = 0;
-        faction = "O_URFArmy";
-        crew = "B_UAV_AI";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_OURFArmy_Crewman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'LM_OPCAN3.0\OPF\URA\VEH\BUZZ_URA_G.paa'];_unit setObjectTextureGlobal [1,'LM_OPCAN3.0\OPF\URA\VEH\BUZZ_URA_B.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Green";
-
-    };
 };

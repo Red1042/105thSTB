@@ -155,20 +155,20 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_AIM9X_P_2rnd_M;
 	class v105_AIM9X_P_2rnd_M: FIR_AIM9X_P_2rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore","105th_AntiAir"};
 		pylonWeapon="v105_FIR_AIM9X";
 	};
 	class FIR_AIM120B_LAU115_P_1rnd_M;
 	class v105_AIM120B_LAU115_P_1rnd_M:FIR_AIM120B_LAU115_P_1rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_AntiAir"};
 		pylonWeapon="v105_FIR_AIM120";
 	};
 	// AGM65s
 	class FIR_AGM65D_P_3rnd_M;
 	class v105_AGM65D_P_3rnd_M:FIR_AGM65D_P_3rnd_M
 	{
-		hardpoints[] = {"105th_PelicanMed","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanMed","105th_Claymore","105th_Hornet"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class FIR_AGM65B_P_3rnd_M;
@@ -188,7 +188,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_AGM65F_P_1rnd_M:FIR_AGM65F_P_1rnd_M
 	{
 		displayName = "AGM-65F Maverick x1";
-		hardpoints[] = {"105th_Claymore"};
+		hardpoints[] = {"105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class v105_AGM65F_P_3rnd_M:FIR_AGM65F_P_1rnd_M
@@ -202,7 +202,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_AGM65G_P_1rnd_M:FIR_AGM65G_P_1rnd_M
 	{
 		displayName = "AGM-65G Maverick x1";
-		hardpoints[] = {"105th_Claymore"};
+		hardpoints[] = {"105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class v105_AGM65G_P_3rnd_M:FIR_AGM65G_P_1rnd_M
@@ -216,7 +216,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_AGM65K_P_1rnd_M:FIR_AGM65K_P_1rnd_M
 	{
 		displayName = "AGM-65K Maverick x1";
-		hardpoints[] = {"105th_Claymore"};
+		hardpoints[] = {"105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class v105_AGM65K_P_3rnd_M:FIR_AGM65K_P_1rnd_M
@@ -230,7 +230,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_AGM65E_P_1rnd_M:FIR_AGM65E_P_1rnd_M
 	{
 		displayName = "AGM-65E Maverick x1";
-		hardpoints[] = {"105th_Claymore"};
+		hardpoints[] = {"105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class v105_AGM65E_P_3rnd_M:FIR_AGM65E_P_1rnd_M
@@ -244,7 +244,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_AGM65E2_P_1rnd_M:FIR_AGM65E2_P_1rnd_M
 	{
 		displayName = "AGM-65E2 Maverick x1";
-		hardpoints[] = {"105th_Claymore"};
+		hardpoints[] = {"105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class v105_AGM65E2_P_3rnd_M:FIR_AGM65E2_P_1rnd_M
@@ -258,7 +258,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_AGM65L_P_1rnd_M:FIR_AGM65L_P_1rnd_M
 	{
 		displayName = "AGM-65L Maverick x1";
-		hardpoints[] = {"105th_Claymore"};
+		hardpoints[] = {"105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_AGM65";
 	};
 	class v105_AGM65L_P_3rnd_M:FIR_AGM65L_P_1rnd_M
@@ -283,116 +283,116 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_Hydra_P_7rnd_M;
 	class v105_Hydra_P_7rnd_M:FIR_Hydra_P_7rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_P_19rnd_M;
 	class v105_Hydra_P_19rnd_M:FIR_Hydra_P_19rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	// HEDP 38
 	class FIR_Hydra_P_38rnd_M;
 	class v105_Hydra_P_38rnd_M:FIR_Hydra_P_38rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	// HE
 	class FIR_Hydra_M229_P_7rnd_M;
 	class v105_Hydra_M229_P_7rnd_M:FIR_Hydra_M229_P_7rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_M229_P_19rnd_M;
 	class v105_Hydra_M229_P_19rnd_M:FIR_Hydra_M229_P_19rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_M229_P_38rnd_M;
 	class v105_Hydra_M229_P_38rnd_M:FIR_Hydra_M229_P_38rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	// HEAT
 	class FIR_Hydra_M247_P_7Rnd_M;
 	class v105_Hydra_M247_P_7Rnd_M: FIR_Hydra_M247_P_7Rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_M247_P_19rnd_M;
 	class v105_Hydra_M247_P_19rnd_M:FIR_Hydra_M247_P_19rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_M247_P_38rnd_M;
 	class v105_Hydra_M247_P_38rnd_M:FIR_Hydra_M247_P_38rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	// Penetrator
 	class FIR_Hydra_M282_P_7rnd_M;
 	class v105_FIR_Hydra_M282_P_7rnd_M:FIR_Hydra_M282_P_7rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	
 	class FIR_Hydra_M282_P_19rnd_M;
 	class v105_Hydra_M282_P_19rnd_M:FIR_Hydra_M282_P_19rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_M282_P_38rnd_M;
 	class v105_Hydra_M282_P_38rnd_M:FIR_Hydra_M282_P_38rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	// APERS
 	class FIR_Hydra_WDU4_P_7rnd_M;
 	class v105_FIR_Hydra_WDU4_P_7rnd_M:FIR_Hydra_WDU4_P_7rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_WDU4_P_19rnd_M;
 	class v105_Hydra_WDU4_P_19rnd_M:FIR_Hydra_WDU4_P_19rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_WDU4_P_38rnd_M;
 	class v105_Hydra_WDU4_P_38rnd_M:FIR_Hydra_WDU4_P_38rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	// MPSM
 	class FIR_Hydra_M261_P_7rnd_M;
 	class v105_Hydra_M261_P_7rnd_M:FIR_Hydra_M261_P_7rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_M261_P_19rnd_M;
 	class v105_Hydra_M261_P_19rnd_M:FIR_Hydra_M261_P_19rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_M261_P_38rnd_M;
 	class v105_Hydra_M261_P_38rnd_M:FIR_Hydra_M261_P_38rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	//WP
@@ -451,14 +451,14 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_Zuni_P_8rnd_M;
 	class v105_Zuni_P_8rnd_M:FIR_Zuni_P_8rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_PelicanLite","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_Zuni_Launcher";
 	};
 	// Zuni HEAT
 	class FIR_Zuni_Mk32_P_8rnd_M;
 	class v105_Zuni_Mk32_P_8rnd_M:FIR_Zuni_Mk32_P_8rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_PelicanLite","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_Zuni_Launcher";
 	};
 	// Laser Zuni HE
