@@ -16,6 +16,8 @@ class CfgPatches
 		url = "";
 		units[] = 
 		{
+		//Cleric
+		"v105_MBT_Cleric",
 		//Hounds
 		"HOW_IFV76_B",
 		"HOW_APC76_TT",
@@ -410,6 +412,7 @@ class cfgVehicles
 	#include "UGVStomper_Base.hpp"
 	#include "SupplyCrates.hpp"
 	#include "Sentinel_Base.hpp"
+	#include "Sholef.hpp"
 	
 														// New Vehicles Below
 														// New Vehicles Below

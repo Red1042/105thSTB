@@ -66,6 +66,7 @@ class CfgWeapons
 
 	//Hats
 	class OPTRE_PatrolCap_Navy;
+	class OPTRE_UNSC_PatrolCap_Army;
 	class OPTRE_UNSC_Dress_Hat;
 	class H_Beret_Colonel;
 	class H_Beret_02;
@@ -113,7 +114,16 @@ class CfgWeapons
 			"105th_Armor\data\VC497\VC497_Beret.paa"
 		};
 	};
-
+	class 105th_PatrolCap_Marines : OPTRE_UNSC_PatrolCap_Army
+	{
+		scope=2;
+		author="N-4 Logistics";
+		displayName="[105th] Patrol Cap TEST";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\PatrolCap_MAR_Test.paa"
+		};
+	};
 	///
 	
 	//
@@ -198,6 +208,7 @@ class CfgWeapons
 			uniformClass="v105_BDU_JungleCam";
 		};
 	};
+
 	/*
 	class v105_uniform_ATACSG_CO: VES_BDU_Evolved_Slim
 	{
@@ -278,6 +289,7 @@ class CfgWeapons
 			uniformClass="v105_BDU_DigiWoodland";
 		};
 	};
+	
 	/*class v105_uniform_DigiDesert_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";

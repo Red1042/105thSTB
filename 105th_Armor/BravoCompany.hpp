@@ -1,13 +1,11 @@
 // Reorganized Assets 15102020 <- Texture changelogs will reflect via dayMonthYear Basis
 //Changelog 
 // Renamed all Bravo Company personnel helmets to correct naming convention as JDoe_CH252D_DEF_CO
-<<<<<<< Updated upstream
 // Updated pathing 25/10/2020
 // Added Swoner and Coleman, updated Canley and Hannibal's helmets.
-// Re-added Helms, Madsen, commented out Music, Trench, Spade, Sound, McDaniel
-=======
+// Re-added Helms, Madsen, commented out Music, Trench, Spade, Sound, McDaniel 8/27/21
 //
->>>>>>> Stashed changes
+
 // ODST Polarized Helmets
 	class BCOMP_DEMO_AVirus_ODST: VES_CH252D
 	{
@@ -167,6 +165,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	
 	class BCOMP_CSO_WColeman_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -177,6 +176,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	
 	class BCOMP_CSO_TSwoner_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
