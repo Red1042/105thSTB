@@ -62,6 +62,7 @@ class CfgPatches
 		"v105_HOW_D77HTCI_BulcHori",
 		"v105_HOW_D77HTCI_SHARK_MeatWind",
 		"v105_HOW_D77HTCI_SHARK_Ragith",
+		"v105_HOW_D77HTCI_SHARK",
 		"v105_HOW_D77HTCI_Keen",
 		// Hornets
 	//	"HOW_AV14_Base",
@@ -291,7 +292,7 @@ class CodRiverTurret;
 class CargoTurret_01;
 class CargoTurret_02;
 class CargoTurret_03;
-
+class HitPoints;
 
 class CommanderOptics;
 //class components;

@@ -88,7 +88,7 @@
 		displayName="[ODST] CH252D Helmet (Craig)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\BCra_CH252_DEF_CO.paa",
+			"105th_Armor\data\Bravo Company Helmets\BCra_CH252D_DEF_CO.paa",
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};

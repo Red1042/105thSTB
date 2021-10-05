@@ -10,9 +10,10 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Pelican";
         dlc="105th";
-        author="Keen and Howard";
+        author="N-4 Logistics";
         displayName="D77H-TCI/AV Pelican [Navy]";
         fuelCapacity=1200;
+       
 		weapons[]=
 		{
 			
@@ -26,7 +27,59 @@
 			"HOW_320Rnd_Flare_Chaff_Magazine",
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
-		
+		/*
+        armorHull = 0.5;
+        armorEngine = 0.6;
+        armorAvionics = 1.4;
+        armorVRotor = 0.5;
+        armorHRotor = 0.7;
+        armorMissiles = 1.6;
+        armorGlass = 0.5;
+        armor = 200;
+        irTarget=2;
+		irTargetSize=3;
+        radarTarget=2;
+		radarTargetSize=3;
+        class HitPoints: HitPoints
+		{
+			class HitHull: HitHull
+			{
+				armor=0.1;
+				visual="Hull";
+				minimalHit=0.050000001;
+				depends="Total";
+				radius=0.0099999998;
+			};
+			class HitFuel: HitFuel
+			{
+				armor=0.69999999;
+				radius=0.25;
+				minimalHit=0.050000001;
+				explosionShielding=2;
+			};
+			class HitAvionics: HitAvionics
+			{
+				armor=1.3;
+				radius=0.40000001;
+				minimalHit=0.050000001;
+				explosionShielding=1.5;
+			};
+			class HitHRotor: HitHRotor
+			{
+				armor=2.5999999;
+				radius=0.40000001;
+				minimalHit=0.090000004;
+				explosionShielding=2.5;
+			};
+			class HitVRotor: HitVRotor
+			{
+				armor=1.3;
+				radius=0.059999999;
+				minimalHit=0.050000001;
+				explosionShielding=6;
+			};
+		};
+        */
 		class Components: Components
 		{
 			class TransportCountermeasuresComponent;
@@ -60,7 +113,7 @@
 					};
 					class pylons3: pylons1
 					{
-						hardpoints[] = {"105th_PelicanBomb"};
+						hardpoints[] = {"105th_PelicanBomb","FIR_F16_Under_HP"};
 						priority = 5;
 						attachment = "v105_FIR_Mk83_GP_Navy_P_1rnd_M";
 						maxweight = 2000;
@@ -349,7 +402,7 @@
 
 /*	class v105_D78HTCI_AV:v105_D77HTCI_A
 	{
-		author="Keen and Howard";
+		author="N-4 Logistics";
         displayName="D78H-TCI/AV Gunship Pelican [Navy]";
 		class Turrets:Turrets
 		{
@@ -495,7 +548,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
-        author="Howard";
+        author="N-4 Logistics";
         displayName="D77H-TCI/AV Pelican [Meatballs & Mailwind]";
         fuelCapacity=1200;
         hiddenSelectionsTextures[]=
@@ -510,11 +563,24 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Archived";
         dlc="105th";
-        author="Howard";
+        author="N-4 Logistics";
         displayName="D77H-TCI/AV Pelican [Smith & Ragnarson]";
         fuelCapacity=1200;
         hiddenSelectionsTextures[]=
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Smith_Ragnarson_co.paa"
+        };
+    }; 
+     class v105_HOW_D77HTCI_SHARK: v105_D77HTCI_A
+    {
+        side=1;
+        scopeCurator = 2;
+        dlc="105th";
+        author="N-4 Logistics";
+        displayName="D77H-TCI/AV Pelican (Shark)";
+        fuelCapacity=1200;
+        hiddenSelectionsTextures[]=
+        {
+            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark.paa"
         };
     }; 

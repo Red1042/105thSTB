@@ -114,14 +114,14 @@ class CfgWeapons
 			"105th_Armor\data\VC497\VC497_Beret.paa"
 		};
 	};
-	class 105th_PatrolCap_Marines : OPTRE_UNSC_PatrolCap_Army
+	class 105th_WCol_Patrol_Cap : OPTRE_UNSC_PatrolCap_Army
 	{
 		scope=2;
 		author="N-4 Logistics";
-		displayName="[105th] Patrol Cap TEST";
+		displayName="[105th] Patrol Cap (Coleman))";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\PatrolCap_MAR_Test.paa"
+			"105th_Armor\data\WCol_Patrol_Cap_MAR.paa"
 		};
 	};
 	///
@@ -466,7 +466,7 @@ class CfgVehicles
 	};
 	//Hardcase Bags
 	class OPTRE_ONI_Researcher_Suitcase;
-    class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
+    /*class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
     {
 		scope=2;
 		scopeArsenal=2;
@@ -482,7 +482,7 @@ class CfgVehicles
         tf_dialog="rt1523_radio_dialog";
         tf_subtype="digital_lr";
         tf_range =25000;
-    };
+    };*/
     class v105_HardcaseSatchel_Medical: OPTRE_ONI_Researcher_Suitcase
     {
 		scope=2;
@@ -509,6 +509,25 @@ class CfgVehicles
         tf_subtype="digital_lr";
         tf_range =25000;
         maximumLoad=400;
+	};
+	class MatGrp_ANPRC_521_black_blue;
+	class v105_BBarkley_ANPRC521_black_blue: MatGrp_ANPRC_521_black_blue
+	{
+		author="N-4 Logistics";
+        displayName= "AN-PRC521 (Barkley)"
+
+
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"B_Medic"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"optre_unsc_units\army\data\soft_backpack_co.paa",
+			"105th_Armor\data\misc\BBar_ANPRC521.paa"
+		};
 	};
 
 
