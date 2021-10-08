@@ -1032,7 +1032,7 @@
 			};
 		};
 	};
-	class BCo_SOveture_M52D_ODST: OPTRE_UNSC_M52D_Armor
+	/* class BCo_SOveture_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		author="N-4 Logistics";
 		displayName="[ODST] M52D (Overture)";
@@ -1149,7 +1149,7 @@
 		};
 	};
 	
-/*	class BCo_CMcDaniel_M52D_ODST: OPTRE_UNSC_M52D_Armor
+	class BCo_CMcDaniel_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		author="N-4 Logistics";
 		displayName="[ODST] M52D (McDaniel)";
@@ -1265,7 +1265,7 @@
             };
 		};
 	};
-	*/
+	
 	class BCo_AVirus_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		author="N-4 Logistics";
@@ -1382,7 +1382,7 @@
             };
 		};
 	};
-/*
+
 	class BCo_AHelms_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		scope=1;
@@ -1501,8 +1501,8 @@
             };
 		};
 	};
-	*/
-	/*
+
+
 	class BCo_CHannibal_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		scope=2;
@@ -1709,9 +1709,9 @@
                 "AS_LargeRight",
                 "AS_MediumLeft",
                 "AS_MediumRight",
-                "AS_ODSTCQBLeft",
+            //   "AS_ODSTCQBLeft",
                 "AS_ODSTCQBRight",
-            //    "AS_ODSTLeft",
+                "AS_ODSTLeft",
             //    "AS_ODSTRight",
                 "AS_ODSTSniperLeft",
                 "AS_ODSTSniperRight",
