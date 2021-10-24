@@ -118,7 +118,7 @@ class CfgWeapons
 	{
 		scope=2;
 		author="N-4 Logistics";
-		displayName="[105th] Patrol Cap (Coleman))";
+		displayName="[105th] Patrol Cap (Coleman)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\WCol_Patrol_Cap_MAR.paa"
@@ -514,7 +514,7 @@ class CfgVehicles
 	class v105_BBarkley_ANPRC521_black_blue: MatGrp_ANPRC_521_black_blue
 	{
 		author="N-4 Logistics";
-        displayName= "AN-PRC521 (Barkley)"
+        displayName= "[ODST] AN-PRC521 (Barkley)"
 
 
 		hiddenSelections[]=

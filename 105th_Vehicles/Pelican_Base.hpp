@@ -571,7 +571,7 @@
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Smith_Ragnarson_co.paa"
         };
     }; 
-     class v105_HOW_D77HTCI_SHARK: v105_D77HTCI_A
+    class v105_HOW_D77HTCI_SHARK: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
@@ -582,5 +582,31 @@
         hiddenSelectionsTextures[]=
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark.paa"
+        };
+    }; 
+    class v105_HOW_D77HTCI_SHARKv2: v105_D77HTCI_A
+    {
+        side=1;
+        scopeCurator = 2;
+        dlc="105th";
+        author="N-4 Logistics";
+        displayName="D77H-TCI/AV Pelican (Shark 2)";
+        fuelCapacity=1200;
+        hiddenSelectionsTextures[]=
+        {
+            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_By_KeenV2.paa"
+        };
+    }; 
+    class v105_HOW_D77HTCI_SHARKv1_5: v105_D77HTCI_A
+    {
+        side=1;
+        scopeCurator = 2;
+        dlc="105th";
+        author="N-4 Logistics";
+        displayName="D77H-TCI/AV Pelican (Shark)";
+        fuelCapacity=1200;
+        hiddenSelectionsTextures[]=
+        {
+            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_By_KeenV1.5.paa"
         };
     }; 

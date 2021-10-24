@@ -5,6 +5,8 @@ item_xx(ACE_tourniquet,4);
 item_xx(ACE_packingBandage,15);
 item_xx(ACE_elasticBandage,15);
 item_xx(ACE_fieldDressing,15);
+item_xx(kat_bloodIV_O,3);
+item_xx(kat_bloodIV_O_500,6);
 item_xx(OPTRE_32Rnd_762x51_Mag,12);
 item_xx(OPTRE_100Rnd_95x40_Box,2);
 item_xx(OPTRE_M2_Smoke_Yellow,2);

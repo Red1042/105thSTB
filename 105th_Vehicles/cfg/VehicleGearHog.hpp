@@ -3,6 +3,8 @@
 item_xx(ACE_morphine,5);
 item_xx(ACE_epinephrine,5);
 item_xx(ACE_adenosine,5);
+item_xx(kat_bloodIV_O,3);
+item_xx(kat_bloodIV_O_500,6);
 item_xx(ACE_splint,10);
 item_xx(ACE_tourniquet,10);
 item_xx(ACE_packingBandage,15);

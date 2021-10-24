@@ -3,6 +3,13 @@
 item_xx(ACE_bloodIV,20);
 item_xx(ACE_bloodIV_250,20);
 item_xx(ACE_bloodIV_500,20);
+item_xx(kat_AED,1);
+item_xx(kat_aatKit,1);
+item_xx(kat_accuvac,1);
+item_xx(kat_Pulseoximeter,2);
+item_xx(kat_chestSeal,5);
+item_xx(kat_larynx,5);
+item_xx(kat_guedel,5);
 item_xx(ACE_morphine,40);
 item_xx(ACE_epinephrine,40);
 item_xx(ACE_adenosine,40);
