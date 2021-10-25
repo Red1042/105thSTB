@@ -124,6 +124,7 @@ class CfgWeapons
 			"105th_Armor\data\WCol_Patrol_Cap_MAR.paa"
 		};
 	};
+	
 	///
 	
 	//

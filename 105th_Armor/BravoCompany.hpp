@@ -28,6 +28,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	*/
 	class BCOMP_SARC_MTrench_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -38,6 +39,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	/*
 	class BCOMP_MARK_BSpade_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -262,7 +264,8 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	}; 
-	/* class BCOMP_TLEAD_CHannibal_ODST: VES_CH252D
+	/*
+	class BCOMP_TLEAD_CHannibal_ODST: VES_CH252D
 	{
 		author="Varner";
 		displayName="[ODST] CH252D Helmet (Hannibal)";
@@ -272,7 +275,8 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	}; 
-	
+	*/
+	/*
 	class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";

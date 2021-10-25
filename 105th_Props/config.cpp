@@ -60,7 +60,29 @@ class CfgVehicles
         editorSubcategory="HOW_105th_EdSubCat_Props";
 		displayName="[ODST] CTF Flag";
 		hiddenSelections[] = {"camo1"};
-		hiddenSelectionsTextures[] = {"105th_Props\Textures\bCoFlagArmaTest.paa"};
+		hiddenSelectionsTextures[] = {"105th_Props\Textures\BCo_Flag.paa"};
+  	};
+	  class v105_CTF_Flag_Base: OPTRE_CTF_Flag_Base
+ 	{
+		dlc="105th";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="HOW_EdCat_105th";
+        editorSubcategory="HOW_105th_EdSubCat_Props";
+		displayName="[105th] CTF Flag";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"105th_Props\Textures\105th_Flag.paa"};
+  	};
+	  class v105_pride_CTF_Flag_Base: OPTRE_CTF_Flag_Base
+ 	{
+		dlc="105th";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="HOW_EdCat_105th";
+        editorSubcategory="HOW_105th_EdSubCat_Props";
+		displayName="[105th] Pride Flag";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"105th_Props\Textures\Pride_Flag.paa"};
   	};
 };
 class Land_MapBoard_F;
