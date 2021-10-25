@@ -571,6 +571,7 @@
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Smith_Ragnarson_co.paa"
         };
     }; 
+    /*
     class v105_HOW_D77HTCI_SHARK: v105_D77HTCI_A
     {
         side=1;
@@ -610,3 +611,4 @@
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_By_KeenV1.5.paa"
         };
     }; 
+    */

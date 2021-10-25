@@ -7,6 +7,9 @@ class CfgPatches
 		url="";
 		units[]=
 		{
+			"BCOMP_CTF_Flag_Base",
+			"v105_CTF_Flag_Base",
+			"v105_pride_CTF_Flag_Base"
 		};
 		weapons[]={};
 		magazines[]={};
