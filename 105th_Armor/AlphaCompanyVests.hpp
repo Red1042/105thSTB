@@ -172,7 +172,11 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 		dlc="105th";
 		author="N-4 Logistics";
 		displayName="[105th] M52A (Nest)";
-		hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_MAR_CO","V_FZ_Armor\Data\Vests\V_M52_MAR_CO","V_FZ_Armor\Data\Vests\V_M52_L_MAR_CO","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};
+		hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO",
+			"V_FZ_Armor\Data\Vests\V_M52_URB_CO",
+			"V_FZ_Armor\Data\Vests\V_M52_L_URB_CO",
+			"optre_unsc_units\army\data\ghillie_woodland_co",
+			"optre_unsc_units\army\data\odst_armor_co"};
 		class ItemInfo: VestItem
 			{
 				mass=75;
