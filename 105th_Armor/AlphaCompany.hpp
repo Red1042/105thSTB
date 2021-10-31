@@ -86,7 +86,7 @@
 	};
 	class ACOMP_NCO_DBolton_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="Varner, Barkley";
+		author="Varner, N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Bolton)";
 		hiddenSelectionsTextures[]=
 		{
@@ -96,7 +96,7 @@
 	};
 	class ACOMP_NCO_JHoward_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="Varner, Barkley";
+		author="Varner, N-4 Logistics";
 		displayName="[VC-497] ECH252 Helmet (Howard)";
 		hiddenSelectionsTextures[]=
 		{
@@ -108,7 +108,7 @@
 	{
 		scope=1;
 		scopeArsenal=1;
-		author="Varner, Barkley";
+		author="Varner, N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (McDaniel)";
 		hiddenSelectionsTextures[]=
 		{
@@ -118,7 +118,7 @@
 	};
 	class ACOMP_NCO_DMurk_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="Varner, Barkley";
+		author="Varner, N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Murk)";
 		hiddenSelectionsTextures[]=
 		{
@@ -210,7 +210,7 @@
 	};
 	class ACOMP_CO_GWells_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Wells)";
 		hiddenSelectionsTextures[]=
 		{
@@ -250,7 +250,7 @@
 	};
 	class ACOMP_NCO_MBrady_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="Barkley";
+		author="N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Brady)";
 		hiddenSelectionsTextures[]=
 		{
@@ -261,9 +261,9 @@
 	
 	class ACOMP_NCO_BSmith_MAR: VES_CH252_MAR_Vacuum
 	{
-		scope=1;
-		scopeArsenal=1;
-		author="Barkley";
+		scope=2;
+		scopeArsenal=2;
+		author="N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Smith)";
 		hiddenSelectionsTextures[]=
 		{

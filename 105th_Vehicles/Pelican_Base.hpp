@@ -571,7 +571,7 @@
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Smith_Ragnarson_co.paa"
         };
     }; 
-    /*
+    
     class v105_HOW_D77HTCI_SHARK: v105_D77HTCI_A
     {
         side=1;
@@ -585,30 +585,30 @@
             "105th_Vehicles\textures\Pelican\v105_Pelican_Shark.paa"
         };
     }; 
-    class v105_HOW_D77HTCI_SHARKv2: v105_D77HTCI_A
+    class v105_HOW_D77HTCI_SHARK_WildRide: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
         dlc="105th";
         author="N-4 Logistics";
-        displayName="D77H-TCI/AV Pelican (Shark 2)";
+        displayName="D77H-TCI/AV Pelican (Wild Ride)";
         fuelCapacity=1200;
         hiddenSelectionsTextures[]=
         {
-            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_By_KeenV2.paa"
+            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_105th_Wild_Ride.paa"
         };
     }; 
-    class v105_HOW_D77HTCI_SHARKv1_5: v105_D77HTCI_A
+    class v105_HOW_D77HTCI_SHARK_CallForFire: v105_D77HTCI_A
     {
         side=1;
         scopeCurator = 2;
         dlc="105th";
         author="N-4 Logistics";
-        displayName="D77H-TCI/AV Pelican (Shark)";
+        displayName="D77H-TCI/AV Pelican (Call For Fire)";
         fuelCapacity=1200;
         hiddenSelectionsTextures[]=
         {
-            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_By_KeenV1.5.paa"
+            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_Call_For_Fire.paa"
         };
     }; 
-    */
+    

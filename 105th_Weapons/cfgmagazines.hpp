@@ -69,6 +69,8 @@ class HOW_15Rnd_762x51_338_Mixed_Mag:HOW_15Rnd_762x51_338_Magnum_Mag
 //
 
 class OPTRE_60Rnd_762x51_Mag;
+class OPTRE_64Rnd_57x31_Mag;
+
 //32 Rnds
 class HOW_32Rnd_762x51_IRDM_Mag: OPTRE_60Rnd_762x51_Mag
 {
@@ -78,6 +80,19 @@ class HOW_32Rnd_762x51_IRDM_Mag: OPTRE_60Rnd_762x51_Mag
 	count 						= 32;
 	tracersEvery 				= 2;
 	lastRoundsTracer			= 4;
+};
+//N12
+class v105_762x51_DP_Mag: OPTRE_64Rnd_57x31_Mag
+{
+	displayname=    "42Rnd Dual Purpose";
+	descriptionShort=   "Underwater Dual-Purpose Ammunition (Tracers)";
+	count=  42;
+	ammo=   "v105_N12_UWDP_Ball";
+	scope=  2;
+	scopeArsenal=   2;
+	mass=   10;
+	initspeed=  550;
+	deleteIfEmpty=  0; 
 };
 
 
@@ -216,6 +231,7 @@ class v105_HOW_300Rnd_762x51_Box_Tracer: OPTRE_100Rnd_762x51_Box_Tracer
 	tracersEvery				= 2;
 	mass						= 50;
 };
+//SRS
 class ACE_7Rnd_408_305gr_Mag;
 class v105_4Rnd_145x114_Mag:ACE_7Rnd_408_305gr_Mag
 {
@@ -235,6 +251,7 @@ class v105_4Rnd_145x114_Mag_Tracer:ACE_7Rnd_408_305gr_Mag
 	displayname 				= "[105th] 14.5x114mm Tracer Magazine";
 	ammo						= "v105_145x114_Tracer";
 };
+//Disposables
 class OPTRE_1Rnd_50x137_PEN;
 class OPTRE_1Rnd_50x137_HE;
 class CRCKT_PEN: OPTRE_1Rnd_50x137_PEN
@@ -251,3 +268,4 @@ class CRCKT_HE: OPTRE_1Rnd_50x137_HE
 	scope = 2;
 	mass = 5;
 };
+

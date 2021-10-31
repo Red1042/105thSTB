@@ -516,7 +516,7 @@ class CfgVehicles
 	{
 		author="N-4 Logistics";
         displayName= "[ODST] AN-PRC521 (Barkley)"
-
+		maximumLoad=461;
 
 		hiddenSelections[]=
 		{
