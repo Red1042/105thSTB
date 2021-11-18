@@ -1032,7 +1032,7 @@
 			};
 		};
 	};
-	/* class BCo_SOveture_M52D_ODST: OPTRE_UNSC_M52D_Armor
+	 class BCo_SOveture_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		author="N-4 Logistics";
 		displayName="[ODST] M52D (Overture)";
@@ -1621,7 +1621,7 @@
             };
 		};
 	};
-	*/
+	
 	
 	class BCo_CVarner_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
