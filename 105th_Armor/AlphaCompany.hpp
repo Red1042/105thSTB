@@ -106,8 +106,8 @@
 	};
 	class ACOMP_NCO_MED_CMcDaniel_MAR: VES_CH252_MAR_Vacuum
 	{
-		scope=1;
-		scopeArsenal=1;
+		scope=2;
+		scopeArsenal=2;
 		author="Varner, N-4 Logistics";
 		displayName="[105th] ECH252 Helmet (McDaniel)";
 		hiddenSelectionsTextures[]=

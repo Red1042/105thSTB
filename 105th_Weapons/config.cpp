@@ -540,7 +540,7 @@ class CfgWeapons
         model=  "\OPTRE_Weapons\smg\m12.p3d";
         displayName=    "[105th] N12 USOC";
         descriptionShort=   "N12 Underwater Special Operations Carbine";
-        picutre=    "\OPTRE_weapons\smg\icons\m12.paa";
+        picture=    "\OPTRE_weapons\smg\icons\m12.paa";
         baseWeapon= "v105_N12_USOC";
         magazines[]={"v105_762x51_DP_Mag"};
         canShootInWater=    1;

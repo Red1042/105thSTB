@@ -30,5 +30,12 @@ class CfgMusic
 		duration = "411";
 		musicClass = "v105_AmbientTracks";
 	};
-	
+	class v105_track_2
+	{
+		name = "[c7ph3r] This is War (Synthwave Remix)";
+		sound[] = {"105th_Music\This Is War (Synthwave Remix)_c7ph3r",1,1};
+		theme = "v105_AmbientTracks";
+		duration = "110";
+		musicClass = "v105_AmbientTracks";
+	}
 };

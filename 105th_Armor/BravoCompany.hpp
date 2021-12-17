@@ -276,7 +276,7 @@
 		};
 	}; 
 	*/
-	/*
+	
 	class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -287,7 +287,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	}; 
-	*/
+	
 	class BCOMP_CSO_ABman_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";

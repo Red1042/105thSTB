@@ -70,7 +70,7 @@ class CfgWeapons
 	class OPTRE_UNSC_Dress_Hat;
 	class H_Beret_Colonel;
 	class H_Beret_02;
-
+	class OPTRE_cap_FinalDawn;
 	class UniformItem;
 	class VestItem;
 
@@ -86,7 +86,13 @@ class CfgWeapons
 	#include "BravoCompany_DP.hpp"
 	//ODST Armor 
 	#include "BravoCompanyVests.hpp"
+	//Aviation Armor
+	#include "VC497Vests.hpp"
 	//Berets and other headgear that are not helmets
+
+	class OPTRE_UNSC_Army_Soldier_DressGray;
+	//Dress Uniforms
+	#include "DressUniforms.hpp"
 	class 105th_ACo_Beret: H_Beret_Colonel
 	{
 		author="Stürmischer";
@@ -122,6 +128,16 @@ class CfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\WCol_Patrol_Cap_MAR.paa"
+		};
+	};
+	class 105th_TwoForFlinching_Cap : OPTRE_cap_FinalDawn
+	{
+		scope=2;
+		author="N-4 Logistics";
+		displayName="[105th] Cap (TFF)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\v105_cap_TwoForFlinching.paa"
 		};
 	};
 	
@@ -347,6 +363,10 @@ class CfgWeapons
 };
 class CfgVehicles
 {
+	class OPTRE_UNSC_Army_Soldier_DressGray;
+	//dress uniform configs
+	#include "DressUniformConfig.hpp"
+
 	class VES_BDU_V_Evolved_Slim;
 	class OPTRE_ANPRC_521_black;
 	class r105_uniform_base: VES_BDU_V_Evolved_Slim
