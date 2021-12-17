@@ -518,7 +518,7 @@ class CfgVehicles
         maximumLoad=400;
     };
 	class OPTRE_ILCS_Rucksack_Heavy;
-	class v105_Severach_Rucksack_Heavy
+	class v105_Severach_Rucksack_Heavy:OPTRE_ILCS_Rucksack_Heavy
 	{
 		scope=2;
 		scopeArsenal=2;
@@ -536,7 +536,7 @@ class CfgVehicles
 	{
 		author="N-4 Logistics";
         displayName= "[ODST] AN-PRC521 (Barkley)"
-		maximumLoad=461;
+		maximumLoad=261;
 
 		hiddenSelections[]=
 		{
