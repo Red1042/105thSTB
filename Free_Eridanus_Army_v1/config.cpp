@@ -59,7 +59,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-        /*    "A3_Characters_F",
+            "A3_Characters_F",
             "A3_Sounds_F",
             "A3_Sounds_F_Exp",
             "ace_gforces",
@@ -118,7 +118,7 @@ class CfgPatches {
             "A3_Boat_F_Boat_Armed_01",
             "LM_OPCAN_UNSC_VEH",
             "OPTRE_Vehicles_Falcon",
-            "OPAEX_Falcon",
+        //    "OPAEX_Falcon",
             "A3_Air_F",
             "A3_Air_F_Heli_Light_01",
             "A3_Air_F_Heli_Light_02",
@@ -126,8 +126,8 @@ class CfgPatches {
             "OPTRE_Vehicles_Hornet",
             "OPTRE_Vehicles_Pelican",
             "OPTRE_Vehicles_Sparrowhawk",
-            "OPAEX_Pelican",
-            "OPAEX_Sparrowhawk",
+        //    "OPAEX_Pelican",
+        //    "OPAEX_Sparrowhawk",
             "A3_Drones_F_Air_F_Gamma_UAV_01",
             "A3_Air_F_Orange",
             "A3_Sounds_F_Orange",
@@ -166,7 +166,7 @@ class CfgPatches {
             "A3_Static_F_Enoch_SAM_System_03",
             "A3_Static_F_Sams_SAM_System_03",
             "LM_OPCAN_URA",
-            "A3_Static_F_Jets_AAA_System_01" */
+            "A3_Static_F_Jets_AAA_System_01" 
         };
         author = "LT J. Howard";
         authors[] = {"LT J. Howard"};

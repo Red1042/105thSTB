@@ -55,7 +55,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-        /*    "A3_Characters_F",
+            "A3_Characters_F",
             "A3_Sounds_F",
             "A3_Sounds_F_Exp",
         //    "ace_gforces",
@@ -97,16 +97,15 @@ class CfgPatches {
             "OPTRE_Vehicles_Warthog",
             "V_FZ_Vehicles",
             "OPTRE_Vehicles_Hornet",
-            "OPAEX_Hornet",
+           
             "A3_Air_F",
             "A3_Air_F_Heli_Light_01",
             "A3_Air_F_Heli_Light_02",
             "A3_Air_F_Beta_Heli_Transport_01",
             "OPTRE_Vehicles_Falcon",
-            "OPAEX_Falcon",
+          
             "OPTRE_Vehicles_Pelican",
-            "OPAEX_Pelican",
-            "OPAEX_Sparrowhawk",
+          
         //    "ace_logistics_uavbattery",
             "A3_Air_F_Exp",
             "A3_Air_F_Exp_VTOL_01",
@@ -142,7 +141,7 @@ class CfgPatches {
             "OPTRE_Vehicles_Elephant",
             "OPTRE_Vehicles_Scorpion",
             "OPTRE_Vehicles_Grizzly",
-            "OPAEX_Scorpion",
+           
             "A3_Armor_F_EPC_MBT_01",
             "OPTRE_Weapons_FG75",
             "A3_Static_F",
@@ -158,7 +157,7 @@ class CfgPatches {
             "A3_Soft_F_Enoch_Truck_02",
             "LM_OPCAN_URA",
             "A3_Static_F_Jets_SAM_System_01",
-            "A3_Static_F_Jets_AAA_System_01"*/
+            "A3_Static_F_Jets_AAA_System_01"
         };
         authors[] = {"Travi"};
     };
