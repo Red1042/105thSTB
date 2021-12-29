@@ -14,6 +14,7 @@ class HOW_URF_MBT_Sochor: O_MBT_02_arty_F
 		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		faction = "v105_URF_EnhancedVehicles";
 		
 		class Turrets:Turrets
 		{

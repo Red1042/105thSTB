@@ -14,6 +14,7 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		faction = "v105_URF_EnhancedVehicles";
 		
 		class Turrets:Turrets
 		{

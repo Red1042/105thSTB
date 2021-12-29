@@ -16,7 +16,15 @@ class CfgPatches
         	};
 	};
 };
-
+class CfgFactionClasses {
+    class v105_URF_EnhancedVehicles {
+        displayName = "[105th] URF - Enhanced Vehicles";
+        side = 0;
+        flag = "\OPTRE_Core\Data\flag_Ins_ca.paa";
+        icon = "\OPTRE_Core\Data\flag_Ins_ca.paa";
+        priority = 0;
+    };
+};
 class CfgEditorCategories
 {
 	class HOW_EdCat_105th

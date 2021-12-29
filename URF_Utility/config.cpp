@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class 105th_Weapons
+	class URF_Utility
 	{
 		author="Howard";
-		name="105th STB Ammunition and Weapons Enhancement";
+		name="105th United Rebel Front Utility";
 		url="";
 		// Added Items
 		units[]=

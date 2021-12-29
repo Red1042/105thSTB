@@ -11,6 +11,7 @@ class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		faction = "v105_URF_EnhancedVehicles";
 		armor=500;
 		class Turrets:Turrets
 		{

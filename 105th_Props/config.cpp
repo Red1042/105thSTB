@@ -87,6 +87,17 @@ class CfgVehicles
 		hiddenSelections[] = {"camo1"};
 		hiddenSelectionsTextures[] = {"105th_Props\Textures\Pride_Flag.paa"};
   	};
+	class v11th_Battalion_Flag_Base: OPTRE_CTF_Flag_Base
+ 	{
+		dlc="105th";
+		scope=2;
+		scopeCurator=2;
+		editorCategory="HOW_EdCat_105th";
+        editorSubcategory="HOW_105th_EdSubCat_Props";
+		displayName="[11th] Battalion Flag";
+		hiddenSelections[] = {"camo1"};
+		hiddenSelectionsTextures[] = {"105th_Props\Textures\11bnFlag.paa"};
+  	};
 };
 class Land_MapBoard_F;
 class v105_WhiteBoard_intel:Land_MapBoard_F

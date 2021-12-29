@@ -10,6 +10,8 @@
 			displayName="AV14 Hornet CAS";
 			editorCategory="HOW_EdCat_URF";
 			editorSubcategory="HOW_URF_EdSubCat_Aircraft";
+			faction = "v105_URF_EnhancedVehicles";
+			
 			crew="O_OURFArmy_Pilot_01";
 			class TransportItems{};
 			hiddenSelectionsTextures[]=
@@ -26,6 +28,8 @@
 			displayName="D77AV Pelican";
 			editorCategory="HOW_EdCat_URF";
 			editorSubcategory="HOW_URF_EdSubCat_Aircraft";
+			faction = "v105_URF_EnhancedVehicles";
+			
 			crew="O_OURFArmy_Pilot_01";
 			class TransportItems{};
 			hiddenSelectionsTextures[]=

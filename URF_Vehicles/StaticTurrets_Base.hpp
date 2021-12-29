@@ -12,6 +12,7 @@ class URF_SG_Turret_A:O_GMG_01_A_F
 	crew="O_UAV_AI";
 	editorCategory="HOW_EdCat_URF";
 	editorSubcategory="HOW_URF_EdSubCat_Turrets";
+	faction = "v105_URF_EnhancedVehicles";
 	class Turrets:Turrets
 	{
 			class MainTurret: MainTurret
@@ -37,6 +38,7 @@ class URF_HMG_Turret_A:O_HMG_01_A_F
 	crew="O_UAV_AI";
 	editorCategory="HOW_EdCat_URF";
 	editorSubcategory="HOW_URF_EdSubCat_Turrets";
+	faction = "v105_URF_EnhancedVehicles";
 	class Turrets:Turrets
 	{
 			class MainTurret: MainTurret

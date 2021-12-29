@@ -1,7 +1,7 @@
 class O_MRAP_02_F;
 class O_MRAP_02_hmg_F;
 class O_MRAP_02_gmg_F;
-class HOW_URF_Karatel:O_MRAP_02_F
+class HOW_URF_Karatel: O_MRAP_02_F
 {
 		dlc="105th";
 		author="Howard";
@@ -12,6 +12,7 @@ class HOW_URF_Karatel:O_MRAP_02_F
 		crew="O_OURFArmy_Rifleman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		faction = "v105_URF_EnhancedVehicles";
 		class TextureSources
 		{
 			class URF
@@ -36,7 +37,7 @@ class HOW_URF_Karatel:O_MRAP_02_F
 			1
 		};
 };		
-class HOW_URF_Karatel_HMG:O_MRAP_02_hmg_F
+class HOW_URF_Karatel_HMG: O_MRAP_02_hmg_F
 {
 		dlc="105th";
 		author="Howard";
@@ -47,7 +48,7 @@ class HOW_URF_Karatel_HMG:O_MRAP_02_hmg_F
 		crew="O_OURFArmy_Rifleman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
-		
+		faction = "v105_URF_EnhancedVehicles";
 		class Turrets:Turrets
 		{
 			class MainTurret:MainTurret
@@ -87,7 +88,7 @@ class HOW_URF_Karatel_HMG:O_MRAP_02_hmg_F
 		};
 };
 
-class HOW_URF_Karatel_GMG:O_MRAP_02_gmg_F
+class HOW_URF_Karatel_GMG: O_MRAP_02_gmg_F
 {
 	dlc="105th";
 		author="Howard";
@@ -98,6 +99,7 @@ class HOW_URF_Karatel_GMG:O_MRAP_02_gmg_F
 		crew="O_OURFArmy_Rifleman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		faction = "v105_URF_EnhancedVehicles";
 		
 		class Turrets:Turrets
 		{
@@ -139,7 +141,7 @@ class HOW_URF_Karatel_GMG:O_MRAP_02_gmg_F
 		};
 };
 
-class HOW_URF_Karatel_AT:O_MRAP_02_gmg_F
+class HOW_URF_Karatel_AT: O_MRAP_02_gmg_F
 {
 		dlc="105th";
 		author="Howard";

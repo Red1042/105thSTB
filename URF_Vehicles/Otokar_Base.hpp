@@ -13,6 +13,8 @@ class HOW_URF_APC_Otokar:O_APC_Wheeled_02_rcws_F
 		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		faction = "v105_URF_EnhancedVehicles";
+		
 		armor=200;
 		class Turrets:Turrets
 		{

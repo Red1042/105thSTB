@@ -27,6 +27,7 @@
 			"HOW_320Rnd_Flare_Chaff_Magazine",
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
+        armor = 200;
 		/*
         armorHull = 0.5;
         armorEngine = 0.6;
