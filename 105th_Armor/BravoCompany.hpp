@@ -4,7 +4,7 @@
 // Updated pathing 25/10/2020
 // Added Swoner and Coleman, updated Canley and Hannibal's helmets.
 // Re-added Helms, Madsen, commented out Music, Trench, Spade, Sound, McDaniel 8/27/21
-//
+// Re-added Overture, Pierce 12/29/2021
 
 // ODST Polarized Helmets
 	class BCOMP_DEMO_AVirus_ODST: VES_CH252D
@@ -209,7 +209,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	/*class BCOMP_CSO_FPierce_ODST: VES_CH252D
+	class BCOMP_CSO_FPierce_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
 		displayName="[ODST] CH252D Helmet (Pierce)";
@@ -219,7 +219,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	
+	/*
 	class BCOMP_CSO_MSound_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -251,8 +251,6 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	
-// 7th Bois
 
 	class BCOMP_CHIEF_CVarner_ODST: VES_CH252D
 	{
@@ -264,7 +262,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	}; 
-	
+	/*
 	class BCOMP_TLEAD_CHannibal_ODST: VES_CH252D
 	{
 		author="Varner";
@@ -275,7 +273,7 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	}; 
-	
+	*/
 	class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -349,7 +347,7 @@
 	};
 
 
-	
+	/*
 	class BCOMP_GREN_OMadsen_ODST: VES_CH252D
 	{
 		author="Varner";
@@ -370,4 +368,4 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	
+	*/
