@@ -195,6 +195,57 @@
 			uniformModel="-";
 		};
 	}
+	
+		class r105_mar_dress_CBar: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[105th] Dress Uniform [Barrier]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_mar_CBar";
+			uniformModel="-";
+		};
+	}
+	
+		class r105_mar_dress_MHoe: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[105th] Dress Uniform [Hoefer]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_mar_MHoe";
+			uniformModel="-";
+		};
+	}
+	
+		class r105_mar_dress_EAsp: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[105th] Dress Uniform [Aspari]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_mar_EAsp";
+			uniformModel="-";
+		};
+	}
 // ODST UNIFORMS  =================================================================================================	
 
 		class r105_odst_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
@@ -383,6 +434,41 @@
 			uniformModel="-";
 		};
 	};
+
+		class r105_odst_dress_BCra: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[ODST] Dress Uniform [Craig]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_odst_BCra";
+			uniformModel="-";
+		};
+	};
+	
+		class r105_odst_dress_JNos: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[ODST] Dress Uniform [Nostra]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_odst_JNos";
+			uniformModel="-";
+		};
+	};
+	
 //AVIATION UNIFORMS ==========================================================
 
 		class r105_vc497_dresshat: OPTRE_UNSC_Dress_Hat

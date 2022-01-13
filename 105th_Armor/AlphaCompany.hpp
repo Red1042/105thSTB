@@ -461,6 +461,12 @@
 			"105th_Armor\data\Alpha Company Helmets\ACo_CH252_MAR_CO.paa"
 		};
 	};
+
+
+
+
+
+	
 	// Custom Helmets
 		//CH252 Open Helmets
 	class ACOMP_CO_JAmbrose_MAR: VES_CH252_MAR_Light

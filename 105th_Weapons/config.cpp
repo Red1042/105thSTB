@@ -25,6 +25,7 @@ class CfgPatches
             "105_CRCKT_HE",
             "105_CRCKT_HE_Loaded", 
             "105_CRCKT_HE_Used",
+			"v105_spaceRPG7"
 		};
 		magazines[]=
 		{			//M247
@@ -227,6 +228,7 @@ class OPTRE_MA5K;
 class OPTRE_M73;
 class OPTRE_M247;
 class UGL_F;
+class launch_RPG7_F;
 class CfgWeapons
 {
 	// BEGIN NEST's ACE COOKOFF OPTRE FIX
@@ -530,7 +532,16 @@ class CfgWeapons
             };
         };
     };
-
+	
+	class v105_spaceRPG7:launch_RPG7_F
+	{
+		scope=  2;
+        scopeArsenal=   2;
+        displayName=    "[105th] RPG-2507";
+        descriptionShort=   "RPG-2507";
+        baseWeapon= "v105_spaceRPG7";
+        magazines[]={"OPTRE_1Rnd_50x137_HE","OPTRE_1Rnd_50x137_PEN"};
+	};
 	// N-12
 	class OPTRE_M12_SOC;
 	class v105_N12_USOC:OPTRE_M12_SOC
