@@ -393,6 +393,18 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	/* Luke's Additions start */
+	class ACOMP_NCO_AMclendon_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[105th] CH252 Helmet (Mclendon)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Alpha Company Helmets\AMcl_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	/* Luke's Additions stop */
 	
 
 

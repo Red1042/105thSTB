@@ -345,6 +345,89 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+/* Luke's Additions start */
+	class BCOMP_CSO_PLuke_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Luke)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\PLuk_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_MSmith_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Smith)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\MSmi_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_MMokes_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Mokes)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\MMok_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_LOswald_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Oswald)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\LOsw_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_KMidreus_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Midreus)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\KMid_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_JRamos_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Ramos)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\JRam_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_JChristopher_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Christopher)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\JChr_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+	class BCOMP_CSO_BRonin_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Ronin)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\BRon_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
+/* Luke's Additions end */
+	
 
 
 	/*
