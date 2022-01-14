@@ -366,7 +366,7 @@
 	class ACOMP_NCO_WColeman_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
-		displayName="[105th] CH252 Helmet (Coleman)";
+		displayName="[105th] ECH252 Helmet (Coleman)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\WCol_CH252_MAR_CO.paa",
@@ -376,7 +376,7 @@
 	class ACOMP_NCO_LHiggins_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
-		displayName="[105th] CH252 Helmet (Higgins)";
+		displayName="[105th] ECH252 Helmet (Higgins)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\LHig_CH252_MAR_CO.paa",
@@ -386,7 +386,7 @@
 	class ACOMP_NCO_MHoefer_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
-		displayName="[105th] CH252 Helmet (Hoefer)";
+		displayName="[105th] ECH252 Helmet (Hoefer)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\MHoe_CH252_MAR_CO.paa",
@@ -397,7 +397,7 @@
 	class ACOMP_NCO_AMclendon_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
-		displayName="[105th] CH252 Helmet (Mclendon)";
+		displayName="[105th] ECH252 Helmet (Mclendon)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\data\Alpha Company Helmets\AMcl_CH252_MAR_CO.paa",
@@ -405,8 +405,6 @@
 		};
 	};
 	/* Luke's Additions stop */
-	
-
 
 	// OPEN HELMETS
 	// Baseline Helmets

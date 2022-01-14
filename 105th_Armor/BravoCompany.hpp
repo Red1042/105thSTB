@@ -426,6 +426,16 @@
 			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	class BCOMP_CSO_CBarrier_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Barrier)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\data\Bravo Company Helmets\CBar_CH252D_DEF_CO.paa",
+			"105th_Armor\data\7_CH252_BLK_V_CO.paa"
+		};
+	};
 /* Luke's Additions end */
 	
 
