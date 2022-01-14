@@ -487,7 +487,7 @@ class CfgVehicles
 	};
 	//Hardcase Bags
 	class OPTRE_ONI_Researcher_Suitcase;
-    /*class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
+    class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
     {
 		scope=2;
 		scopeArsenal=2;
@@ -503,7 +503,7 @@ class CfgVehicles
         tf_dialog="rt1523_radio_dialog";
         tf_subtype="digital_lr";
         tf_range =25000;
-    };*/
+    };
     class v105_HardcaseSatchel_Medical: OPTRE_ONI_Researcher_Suitcase
     {
 		scope=2;
@@ -531,6 +531,7 @@ class CfgVehicles
         tf_range =25000;
         maximumLoad=400;
 	};
+	/*
 	class MatGrp_ANPRC_521_black_blue;
 	class v105_BBarkley_ANPRC521_black_blue: MatGrp_ANPRC_521_black_blue
 	{
@@ -550,6 +551,7 @@ class CfgVehicles
 			"105th_Armor\data\misc\BBar_ANPRC521.paa"
 		};
 	};
+	*/
 
 
 
