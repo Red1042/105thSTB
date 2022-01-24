@@ -30,17 +30,6 @@
 		};
 	};
 	
-	class 105th_WCol_Patrol_Cap : OPTRE_UNSC_PatrolCap_Army
-	{
-		scope=2;
-		author="N-4 Logistics";
-		displayName="[105th] Patrol Cap (Coleman)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\105th\data\Hats\WCol_Patrol_Cap_MAR.paa"
-		};
-	};
-	
 /*
 	ODST Hats
 */
@@ -66,5 +55,31 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\105th\data\Hats\VC497_Beret.paa"
+		};
+	};
+
+/*
+    Custom Hats
+*/
+
+	class 105th_WCol_Patrol_Cap : OPTRE_UNSC_PatrolCap_Army
+	{
+		scope=2;
+		author="N-4 Logistics";
+		displayName="[105th] Patrol Cap (Coleman)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\105th\data\Hats\WCol_Patrol_Cap_MAR.paa"
+		};
+	};
+
+	class 105th_CVar_Patrol_Cap : OPTRE_UNSC_PatrolCap_Army
+	{
+		scope=2;
+		author="N-4 Logistics";
+		displayName="[105th] Patrol Cap (Varner)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\105th\data\Hats\CVar_Patrol_Cap_MAR.paa"
 		};
 	};
