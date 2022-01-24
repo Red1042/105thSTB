@@ -15,7 +15,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Officer)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ACo_CO_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ACo_CO_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -25,7 +25,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (NCO)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ACo_NCO_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ACo_NCO_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -35,7 +35,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (RTO)(NCO)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ACo_NCO_RTO_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ACo_NCO_RTO_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -45,7 +45,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Corpsman)(NCO)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ACo_NCO_HM_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ACo_NCO_HM_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -55,7 +55,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (RTO)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ACo_RTO_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ACo_RTO_CH252_MAR_CO.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -65,7 +65,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Corpsman)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ACo_HM_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ACo_HM_CH252_MAR_CO.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -75,7 +75,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ACo_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ACo_CH252_MAR_CO.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -87,7 +87,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Bratwurst)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\KBra_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\KBra_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -97,7 +97,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Bolton)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\DBol_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\DBol_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -107,7 +107,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Howard)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\JHow_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\JHow_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -117,7 +117,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (McDaniel)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\CMcD_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\CMcD_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -127,7 +127,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Murk)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\DMur_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\DMur_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -137,7 +137,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Gaffney)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\AGaf_CH252_MAR_CO.paa.paa",
+			"105th_Armor\Alpha Company\data\Helmets\AGaf_CH252_MAR_CO.paa.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -147,7 +147,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th]Marine Helmet (Misaria)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\SMis_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\SMis_CH252_MAR_CO.paa",
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -157,7 +157,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Carranza)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\CCar_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\CCar_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -167,7 +167,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Adams)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\KAda_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\KAda_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -177,7 +177,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Nest)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\QNes_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\QNes_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -187,7 +187,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Skynyrd)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\LSky_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\LSky_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -197,7 +197,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Travis)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\WTra_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\WTra_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -207,7 +207,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Sturm)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\GStu_CO_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\GStu_CO_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -217,7 +217,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Wells)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\GWel_CH252_MAR_CAPT.paa",
+			"105th_Armor\Alpha Company\data\Helmets\GWel_CH252_MAR_CAPT.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -227,7 +227,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Bettez)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\JBet_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\JBet_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -237,7 +237,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Legion 2-1)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ACo_Legion21_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ACo_Legion21_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -247,7 +247,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] CH252 Helmet (Long)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\Alon_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\Alon_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -257,7 +257,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Brady)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\MBra_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\MBra_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -267,7 +267,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Smith)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\BSmi_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\BSmi_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -277,7 +277,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Legion 1-4)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\Centurion_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\Centurion_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -287,7 +287,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Vargas)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\JVar_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\JVar_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -297,7 +297,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Dunlop";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ADun_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ADun_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -307,7 +307,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Rodriguez)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ARod_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ARod_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -317,7 +317,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Kolt)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\KKol_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\KKol_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -327,7 +327,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Mitchell)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\JMit_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\JMit_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -337,7 +337,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (ODST Trainee)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ODST_Trainee_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ODST_Trainee_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -347,7 +347,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Aspari)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\EAsp_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\EAsp_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -357,7 +357,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Kat)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\KKat_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\KKat_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -367,7 +367,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Bman)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\ABma_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\ABma_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -377,7 +377,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Coleman)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\WCol_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\WCol_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -387,7 +387,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Higgins)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\LHig_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\LHig_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -397,7 +397,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Hoefer)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\MHoe_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\MHoe_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -408,7 +408,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		displayName="[105th] ECH252 Helmet (Mclendon)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Alpha Company Helmets\AMcl_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\AMcl_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};

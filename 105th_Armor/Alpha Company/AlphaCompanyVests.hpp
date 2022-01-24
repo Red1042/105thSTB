@@ -6,7 +6,7 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 	dlc="105th";
 	author="N-4 Logistics";
 	displayName="[105th] M52A (Stürmischer)";
-	hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_MAR_CO","105th_Armor\data\Alpha Company Chests\GStu_M52A_MAR","V_FZ_Armor\Data\Vests\V_M52_L_MAR_CO","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};
+	hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_MAR_CO","105th_Armor\Alpha Company\data\Chests\GStu_M52A_MAR","V_FZ_Armor\Data\Vests\V_M52_L_MAR_CO","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};
 	hiddenSelectionsMaterials[]={"V_FZ_Armor\Data\Vests\Materials\V_M52_V.rvmat","V_FZ_Armor\Data\Vests\Materials\V_M52.rvmat","V_FZ_Armor\Data\Vests\Materials\V_M52_L.rvmat","",""};
 		
 	class ItemInfo: VestItem
@@ -81,8 +81,8 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 				"CustomKit_Scorch"
 			};
 	/*	hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_MAR_CO",
-									"105th_Armor\data\Alpha Company Chests\GStu_M52A_MAR",
-										"105th_Armor\data\Alpha Company Chests\GStu_M52A_MAR","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};*/
+									"105th_Armor\Alpha Company\data\Chests\GStu_M52A_MAR",
+										"105th_Armor\Alpha Company\data\Chests\GStu_M52A_MAR","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};*/
 		};
 	};
 	class ACo_LSkynyrd_M52A_MAR:VES_M52A_MAR_Rifleman_C
@@ -90,7 +90,7 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 		dlc="105th";
 		author="N-4 Logistics";
 		displayName="[105th] M52A (Skynyrd)";
-		hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_MAR_CO","105th_Armor\data\Alpha Company Chests\LSky_M52A_MAR","V_FZ_Armor\Data\Vests\V_M52_L_MAR_CO","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};
+		hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_MAR_CO","105th_Armor\Alpha Company\data\Chests\LSky_M52A_MAR","V_FZ_Armor\Data\Vests\V_M52_L_MAR_CO","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};
 		hiddenSelectionsMaterials[]={"V_FZ_Armor\Data\Vests\Materials\V_M52_V.rvmat","V_FZ_Armor\Data\Vests\Materials\V_M52.rvmat","V_FZ_Armor\Data\Vests\Materials\V_M52_L.rvmat","",""};
 		
 		class ItemInfo: VestItem

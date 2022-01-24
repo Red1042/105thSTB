@@ -1,4 +1,7 @@
 //Dress Uniform Ground Holder
+/*
+	If you are wanting to modify this I'd suggest talking to Bman
+*/
 
 		class r105_dress_mar_base: OPTRE_UNSC_Army_Soldier_DressGray
 	{
@@ -16,8 +19,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_enlisted.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_enlisted.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -38,8 +41,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_corpsman.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_corpsman.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -60,8 +63,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_nco.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_nco.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -82,8 +85,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_ncocorpsman.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_ncocorpsman.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -104,8 +107,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_co.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_co.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -126,8 +129,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_E81sg.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_BSmi.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E81sg.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_BSmi.paa"
 		};
 		
 	};
@@ -148,8 +151,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_maj.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_Gwel.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_maj.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_Gwel.paa"
 		};
 		
 	};
@@ -170,8 +173,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_maj.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_WelFun.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_maj.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_WelFun.paa"
 		};
 		
 	};
@@ -192,8 +195,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_E5Corp.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_DMur.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E5Corp.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_DMur.paa"
 		};
 		
 	};
@@ -214,8 +217,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_E6.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_CMcD.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E6.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_CMcD.paa"
 		};
 		
 	};
@@ -236,8 +239,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_2ndLt.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_CVar.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_2ndLt.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_CVar.paa"
 		};
 		
 	};
@@ -258,8 +261,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_E5.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_CBar.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E5.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_CBar.paa"
 		};
 		
 	};
@@ -280,8 +283,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_E5.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_MHoe.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E5.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_MHoe.paa"
 		};
 		
 	};
@@ -302,8 +305,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Marine Uniforms\dress_uniform_mar_E7.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_EAsp.paa"
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E7.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_EAsp.paa"
 		};
 		
 	};
@@ -325,8 +328,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_base.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_base.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -347,8 +350,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_sarc.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_sarc.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -369,8 +372,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_co.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_co.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -391,8 +394,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_E7SARC.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_ABma.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E7SARC.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ABma.paa"
 		};
 		
 	};
@@ -413,8 +416,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_E7.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_MSev.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E7.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_MSev.paa"
 		};
 		
 	};
@@ -435,8 +438,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_2ndLt.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_AVir.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_2ndLt.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_AVir.paa"
 		};
 		
 	};
@@ -457,8 +460,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_E8Msg.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_BBar.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E8Msg.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_BBar.paa"
 		};
 		
 	};
@@ -479,8 +482,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_E5.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_GCru.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E5.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_GCru.paa"
 		};
 		
 	};
@@ -501,8 +504,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_E5.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_JVar.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E5.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JVar.paa"
 		};
 		
 	};
@@ -523,8 +526,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_E5.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_KBul.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E5.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_KBul.paa"
 		};
 		
 	};
@@ -545,8 +548,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_capt.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_ENun.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_capt.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ENun.paa"
 		};
 		
 	};
@@ -567,8 +570,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_E7.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_BCra.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E7.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_BCra.paa"
 		};
 		
 	};
@@ -589,8 +592,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\ODST Uniforms\dress_uniform_odst_E5.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_JNos.paa"
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E5.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JNos.paa"
 		};
 		
 	};
@@ -615,8 +618,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\VC497 Uniforms\dress_uniform_vc497_base.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_base.paa"
+			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_base.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_base.paa"
 		};
 		
 	};
@@ -637,8 +640,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\VC497 Uniforms\dress_uniform_vc497_lt.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_JCol.paa"
+			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_lt.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JCol.paa"
 		};
 		
 	};
@@ -659,8 +662,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\VC497 Uniforms\dress_uniform_vc497_lcdr.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_TMai.paa"
+			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_lcdr.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_TMai.paa"
 		};
 		
 	};
@@ -681,8 +684,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\VC497 Uniforms\dress_uniform_vc497_ens.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_GStu.paa"
+			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_ens.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_GStu.paa"
 		};
 		
 	};
@@ -703,8 +706,8 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\VC497 Uniforms\dress_uniform_vc497_ltjg.paa",
-			"105th_Armor\data\Dress Ranks\dress_rank_JCha.paa"
+			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_ltjg.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JCha.paa"
 		};
 		
 	};

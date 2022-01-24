@@ -1,3 +1,8 @@
+// Initial Commit
+/*
+	If you are wanting to modify this I'd suggest talking to Bman
+*/
+
 		class r105_mar_dresshat: OPTRE_UNSC_Dress_Hat
 	{
 		author="Bman";

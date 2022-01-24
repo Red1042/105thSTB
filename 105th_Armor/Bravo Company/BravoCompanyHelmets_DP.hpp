@@ -11,7 +11,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Virus)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\AVir_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\AVir_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -21,7 +21,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Varner)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\CVar_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\CVar_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -31,7 +31,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Hannibal)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\CHan_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\CHan_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -41,7 +41,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Music)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\MMus_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\MMus_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -51,7 +51,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Trench)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\MTre_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\MTre_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -61,7 +61,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Spade)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\BSpa_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\BSpa_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -71,7 +71,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Madsen)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\OMad_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\OMad_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -81,7 +81,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Morveyn)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\JMor_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\JMor_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -91,7 +91,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Helms)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\AHel_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\AHel_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -101,7 +101,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Canley)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\RCan_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\RCan_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -112,7 +112,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Barkley)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\BBar_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\BBar_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -123,7 +123,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Craig)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\BCra_CH252_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\BCra_CH252_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -134,7 +134,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Sev)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\MSev_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\MSev_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -145,7 +145,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Adams)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\JAda_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\JAda_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -155,7 +155,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Bulck)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\KBul_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\KBul_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -165,7 +165,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Overture)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\SOve_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\SOve_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -175,7 +175,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Richter)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\FRic_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\FRic_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -185,7 +185,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Dubbo)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\CDub_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\CDub_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -195,7 +195,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (McDaniel)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\CMcD_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\CMcD_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -205,7 +205,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (O'Killen)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\NOKi_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\NOKi_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -215,7 +215,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Coleman)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\WCol_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\WCol_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -225,7 +225,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Swoner)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\TSwo_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\TSwo_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -235,7 +235,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Smith)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\BSmi_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\BSmi_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -245,7 +245,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Nungester)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\ENun_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\ENun_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -255,7 +255,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Pierce)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\FPie_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\FPie_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -265,7 +265,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Sound)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\MSou_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\MSou_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -275,7 +275,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Kynx)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\TKyn_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\TKyn_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -285,7 +285,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Winters)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\AWin_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\AWin_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -295,7 +295,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Bman)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\ABma_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\ABma_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -305,7 +305,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Cruz)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\GCru_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\GCru_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -315,7 +315,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Nostra)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\JNos_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\JNos_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -325,7 +325,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Vargas)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\JVar_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\JVar_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -335,7 +335,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Wells)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\GWel_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\GWel_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -345,7 +345,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Collins)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\JCol_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\JCol_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -356,7 +356,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Luke)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\PLuk_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\PLuk_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -366,7 +366,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Smith)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\MSmi_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\MSmi_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -376,7 +376,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Mokes)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\MMok_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\MMok_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -386,7 +386,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Oswald)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\LOsw_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\LOsw_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -396,7 +396,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Midreus)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\KMid_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\KMid_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -406,7 +406,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Ramos)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\JRam_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\JRam_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -416,7 +416,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Christopher)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\JChr_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\JChr_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -426,7 +426,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Ronin)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\BRon_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\BRon_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
@@ -436,7 +436,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		displayName="[ODST] CH252D Helmet (Barrier)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\data\Bravo Company Helmets\CBar_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\CBar_CH252D_DEF_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};

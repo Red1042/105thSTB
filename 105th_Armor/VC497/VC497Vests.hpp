@@ -6,7 +6,7 @@ class VC497_GSturmischer_M52A_AVI:VES_M52A_MAR_Rifleman_B
 	dlc="105th";
 	author="N-4 Logistics";
 	displayName="[VC-497] M52A (Stürmischer)";
-	hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO","105th_Armor\data\VC497 Chests\GStu_M52A_AIR","105th_Armor\data\VC497 Chests\GStu_M52_L_AIR_CO","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};
+	hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO","105th_Armor\VC497\data\Chests\GStu_M52A_AIR","105th_Armor\VC497\data\Chests\GStu_M52_L_AIR_CO","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};
 	hiddenSelectionsMaterials[]={"V_FZ_Armor\Data\Vests\Materials\V_M52_V.rvmat","V_FZ_Armor\Data\Vests\Materials\V_M52.rvmat","V_FZ_Armor\Data\Vests\Materials\V_M52_L.rvmat","",""};
 		
 	class ItemInfo: VestItem
