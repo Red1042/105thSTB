@@ -1,5 +1,5 @@
 
-
+class B_UAV_05_F;
 
 //B_UAV_05_F 
 class v105_UCAV_Sentinel:B_UAV_05_F

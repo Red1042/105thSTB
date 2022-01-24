@@ -396,7 +396,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	//WP
-/*	class FIR_Hydra_WP_P_7rnd_M;
+	class FIR_Hydra_WP_P_7rnd_M;
 	class v105_Hydra_WP_P_7rnd_M:FIR_Hydra_WP_P_7rnd_M
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
@@ -407,7 +407,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
-	}; */
+	}; 
 	// APKWS HEDP
 	class FIR_APKWS_P_19rnd_M;
 	class v105_APKWS_P_19rnd_M:FIR_APKWS_P_19rnd_M
@@ -630,22 +630,132 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114K;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K:PylonRack_3Rnd_ACE_Hellfire_AGM114K
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
 		pylonWeapon = "v105_FIR_AGM65";
 	};
 	
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114N;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N:PylonRack_3Rnd_ACE_Hellfire_AGM114N
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
 		pylonWeapon = "v105_FIR_AGM65";
 	};
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114L;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L:PylonRack_3Rnd_ACE_Hellfire_AGM114L
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
 		pylonWeapon = "v105_FIR_AGM65";
 	};
-	
-
+	class OPTRE_16Rnd_Anvil1_missiles;
+	class OPTRE_16Rnd_AnvilSMK_W_missiles: OPTRE_16Rnd_Anvil1_missiles
+	{
+		displayName="16x 'ANVIL SMK-W' Smoke Rockets";
+		displayNameShort="'ANVIL SMK-W' Smoke Rockets";
+		pylonWeapon="OPTRE_missiles_AnvilSMK";
+		ammo="OPTRE_M_ANVILSMK_W_Rocket";
+		hardpoints[]=
+		{
+			"Pelican_Utility"
+		};
+	};
+	class OPTRE_16Rnd_AnvilSMK_B_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
+	{
+		displayName="16x 'ANVIL SMK-B' Smoke Rocket";
+		displayNameShort="'ANVIL SMK-B' Smoke Rockets";
+		ammo="OPTRE_M_ANVILSMK_B_Rocket";
+	};
+	class OPTRE_16Rnd_AnvilSMK_R_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
+	{
+		displayName="16x 'ANVIL SMK-R' Smoke Rocket";
+		displayNameShort="'ANVIL SMK-R' Smoke Rockets";
+		ammo="OPTRE_M_ANVILSMK_R_Rocket";
+	};
+	class OPTRE_16Rnd_AnvilSMK_G_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
+	{
+		displayName="16x 'ANVIL SMK-G' Smoke Rocket";
+		displayNameShort="'ANVIL SMK-G' Smoke Rockets";
+		ammo="OPTRE_M_ANVILSMK_G_Rocket";
+	};
+	class OPTRE_16Rnd_AnvilSMK_O_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
+	{
+		displayName="16x 'ANVIL SMK-O' Smoke Rocket";
+		displayNameShort="'ANVIL SMK-O' Smoke Rockets";
+		ammo="OPTRE_M_ANVILSMK_O_Rocket";
+	};
+	class OPTRE_16Rnd_AnvilSMK_P_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
+	{
+		displayName="16x 'ANVIL SMK-P' Smoke Rocket";
+		displayNameShort="'ANVIL SMK-P' Smoke Rockets";
+		ammo="OPTRE_M_ANVILSMK_P_Rocket";
+	};
+	class OPTRE_16Rnd_AnvilSMK_Y_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
+	{
+		displayName="16x 'ANVIL SMK-Y' Smoke Rocket";
+		displayNameShort="'ANVIL SMK-Y' Smoke Rockets";
+		ammo="OPTRE_M_ANVILSMK_Y_Rocket";
+	};
+	class ace_hot_1_6Rnd;
+	class v105_hot_1_6Rnd : ace_hot_1_6Rnd
+	{
+		displayName="HOT-1 6Rnd";
+		displayNameShort="HOT-1 6Rnd";
+		hardpoints[]={"105th_HOTs"};
+		pylonWeapon="v105_HOT_Generic_Launcher";
+	};
+	class ace_hot_1_2Rnd;
+	class v105_hot_1_2Rnd : ace_hot_1_2Rnd
+	{
+		displayName="HOT-1 2Rnd";
+		displayNameShort="HOT-1 2Rnd";
+		hardpoints[]={"105th_HOTs"};
+		pylonWeapon="v105_HOT_Generic_Launcher";
+	};
+	class ace_hot_2_6Rnd;
+	class v105_hot_2_6Rnd : ace_hot_2_6Rnd
+	{
+		displayName="HOT-2 6Rnd";
+		displayNameShort="HOT-2 6Rnd";
+		hardpoints[]={"105th_HOTs"};
+		pylonWeapon="v105_HOT_Generic_Launcher";
+	};
+	class ace_hot_2_2Rnd;
+	class v105_hot_2_2Rnd : ace_hot_2_2Rnd
+	{
+		displayName="HOT-2 2Rnd";
+		displayNameShort="HOT-2 2Rnd";
+		hardpoints[]={"105th_HOTs"};
+		pylonWeapon="v105_HOT_Generic_Launcher";
+	};
+	class ace_hot_2mp_6Rnd;
+	class v105_hot_2mp_6Rnd : ace_hot_2mp_6Rnd
+	{
+		displayName="HOT-2MP 6Rnd";
+		displayNameShort="HOT-2MP 6Rnd";
+		hardpoints[]={"105th_HOTs"};
+		pylonWeapon="v105_HOT_Generic_Launcher";
+	};
+	class ace_hot_2mp_2Rnd;
+	class v105_hot_2mp_2Rnd : ace_hot_2mp_2Rnd
+	{
+		displayName="HOT-2MP 2Rnd";
+		displayNameShort="HOT-2MP 2Rnd";
+		hardpoints[]={"105th_HOTs"};
+		pylonWeapon="v105_HOT_Generic_Launcher";
+	};
+	class ace_hot_3_6Rnd;
+	class v105_hot_3_6Rnd : ace_hot_3_6Rnd
+	{ 
+		displayName="HOT-3 6Rnd";
+		displayNameShort="HOT-3 6Rnd";
+		hardpoints[]={"105th_HOTs"};
+		pylonWeapon="v105_HOT_Generic_Launcher";
+	};
+	class ace_hot_3_2Rnd;
+	class v105_hot_3_2Rnd : ace_hot_3_2Rnd
+	{
+		displayName="HOT-3 2Rnd";
+		displayNameShort="HOT-3 2Rnd";
+		hardpoints[]={"105th_HOTs"};
+		pylonWeapon="v105_HOT_Generic_Launcher";
+	};
 	

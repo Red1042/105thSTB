@@ -1,4 +1,5 @@
 //class RotorLibHelicopterProperties;
+class VES_AV14;
 class HOW_AV14_Base: VES_AV14
 	{
 		dlc="105th";
@@ -47,7 +48,7 @@ class HOW_AV14_Base: VES_AV14
 				{
 					class pylons1
 					{
-						hardpoints[] = {"105th_Hornet"};
+						hardpoints[] = {"105th_Hornet","105th_HOTs"};
 						attachment = "v105_Hydra_M247_P_7Rnd_M";
 						priority = 6;
 						maxweight = 600;
@@ -56,7 +57,7 @@ class HOW_AV14_Base: VES_AV14
 					};
 					class pylons2: pylons1
 					{
-						hardpoints[] = {"105th_Hornet"};
+						hardpoints[] = {"105th_Hornet","105th_HOTs"};
 						priority = 6;
 						attachment = "v105_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;
@@ -66,7 +67,7 @@ class HOW_AV14_Base: VES_AV14
 					};
 					class pylons3: pylons1
 					{
-						hardpoints[] = {"105th_Hornet"};
+						hardpoints[] = {"105th_Hornet","105th_HOTs"};
 						priority = 5;
 						attachment = "v105_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;
@@ -75,7 +76,7 @@ class HOW_AV14_Base: VES_AV14
 					};
 					class pylons4: pylons1
 					{
-						hardpoints[] = {"105th_Hornet"};
+						hardpoints[] = {"105th_Hornet","105th_HOTs"};
 						priority = 5;
 						attachment = "v105_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;
@@ -219,8 +220,8 @@ class HOW_AV14_Base: VES_AV14
 		dlc="105th";
 		author="Howard";
 		side=1;
-		scope=1;
-		scopeCurator=1;
+		scope=2;
+		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14L Hornet";
 		editorCategory="HOW_EdCat_105th";

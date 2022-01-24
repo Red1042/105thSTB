@@ -1,4 +1,8 @@
- 	
+ 	class VES_UH144;
+    class VES_UH144_A;
+    class VES_UH144S;
+    class VES_UH144S_A;
+    
     class v105_UH144: VES_UH144
     {
         side=1;
@@ -150,7 +154,7 @@
 		class TransportWeapons{};
     };
 	
-/*	
+
     class v105_UH144S_AM: VES_UH144S_A
     {
         side=1;
@@ -188,7 +192,7 @@
 			"168Rnd_CMFlare_Chaff_Magazine"
 		};
     };
-*/
+
 	
 	class v105_UH144S_ARC: VES_UH144S_A
     {

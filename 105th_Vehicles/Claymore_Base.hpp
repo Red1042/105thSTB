@@ -1,3 +1,4 @@
+class Plane_CAS_01_dynamicLoadout_base_F;
 class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 {
 		dlc="105th";
