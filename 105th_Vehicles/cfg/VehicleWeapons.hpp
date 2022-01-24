@@ -525,7 +525,7 @@
 					"v105_Hydra_WDU4_P_7rnd_M","v105_Hydra_WDU4_P_19rnd_M","v105_Hydra_WDU4_P_38rnd_M",
 					"v105_Hydra_M261_P_7rnd_M","v105_Hydra_M261_P_19rnd_M","v105_Hydra_M261_P_38rnd_M",
 
-					//"v105_Hydra_WP_P_7rnd_M","v105_Hydra_WP_P_21rnd_M"
+					"v105_Hydra_WP_P_7rnd_M","v105_Hydra_WP_P_21rnd_M"
 					
 				};
 			};
@@ -641,6 +641,21 @@
 			class v105_FIR_AGM154:FIR_AGM154
 			{
 				magazines[]={"v105_FIR_AGM154A_P_1rnd_M","v105_FIR_AGM154C_P_1rnd_M"};
+			};
+			class ace_hot_generic_launcher;
+			class v105_HOT_Generic_Launcher:ace_hot_generic_launcher
+			{
+				magazines[]=
+				{
+					"v105_hot_1_6Rnd",
+					"v105_hot_1_2Rnd",
+					"v105_hot_2_6Rnd",
+					"v105_hot_2_2Rnd",
+					"v105_hot_2mp_6Rnd",
+					"v105_hot_2mp_2Rnd",
+					"v105_hot_3_6Rnd",
+					"v105_hot_3_2Rnd"
+				};
 			};
 		
 			

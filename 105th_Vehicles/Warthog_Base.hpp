@@ -35,7 +35,7 @@ class HOW_M12_LRV : OPTRE_M12_LRV
 		displayName="M12 Warthog (M41 LAAG)";
 		editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_Motorized";
-		
+
 		slowSpeedForwardCoef = 0.090;
 		class TransportItems
 		{

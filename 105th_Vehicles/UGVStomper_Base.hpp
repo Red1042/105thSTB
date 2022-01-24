@@ -1,3 +1,4 @@
+class UGV_01_rcws_base_F;
 class v105_UGV_Stag_Base:UGV_01_rcws_base_F
 {
     author="Howard";

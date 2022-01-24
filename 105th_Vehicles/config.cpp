@@ -9,7 +9,7 @@
 
 class CfgPatches
 {
-	class 105th_Vehicles
+	class v105_Vehicles
 	{
 		author = "N-4 Logistics";
 		name = "[105th] N-4 Logistics";
@@ -22,8 +22,6 @@ class CfgPatches
 		"HOW_IFV76_B",
 		"HOW_APC76_TT",
 		"HOW_APC76_MED",
-		//Scorpion
-		"LM_OPCAN_HOW_M808_MC_WDL",
 		//Timberwolves
 		"HOW_MGS_Timberwolf",
 		"HOW_MGS_UP_Timberwolf",
@@ -42,9 +40,9 @@ class CfgPatches
 		"HOW_M813_MORT",
 		//"HOW_M12_Mortar",
 		//Fossas
-	//	"HOW_Fossa_unarmed",
-	//	"HOW_Fossa_armed",
-	//	"HOW_Fossa_armed_AT",
+		"HOW_Fossa_unarmed",
+		"HOW_Fossa_armed",
+		"HOW_Fossa_armed_AT",
 		//Falcons
 		"v105_UH144",
 		"v105_UH144_MED",
@@ -54,7 +52,10 @@ class CfgPatches
 		"v105_UH144S_AM",
 		"v105_UH144S_ARC",
 		//Pelicans
-		"v105_D77HTCI_A",
+		"v105_D77HTCI_AV_TestPlatform_Pelican",
+		"v105_D77HTCI_AV_Minigun_Pelican",
+		"v105_D77HTCI_AV_RotaryCannon_Pelican",
+		"v105_D77ATCI_Crow_Gunship",
 		"v105_D77HTCI",
 		"v105_D78DHTC",
 		"v105_D77HTCI_REACH",
@@ -70,6 +71,7 @@ class CfgPatches
 		"HOW_AV14_CAS",
 		"HOW_AV14_CAS_Keen", 
 		"HOW_AV14B_CAS",
+		"HOW_AV14L_MULTI",
 		//Claymore
 		"v105_A364_Claymore",
 		//SDV
@@ -78,17 +80,8 @@ class CfgPatches
 		"v105_UGV_STAG",
 		"v105_UGV_STAG_ATGM",
 		"v105_UCAV_Sentinel",
-		// Supply Pods
-		"HOW_105th_SupplyPod_Rifle",
-		"HOW_105th_SupplyPod_MachineGun",
-		"HOW_105th_SupplyPod_Precision",
-		"HOW_105th_SupplyPod_Rockets",
-		"HOW_105th_SupplyPod_Medical",
-		"HOW_105th_SupplyPod_Utility",
-		"HOW_105th_SupplyPod_Demo",
-		"HOW_105th_SupplyPod_MortarHE",
-		"HOW_105th_SupplyPod_MortarSMK",
-		"HOW_105th_SupplyPod_Radios"
+		//Stork
+		"v105_Stork_Armed"
 		
 		};
 		weapons[] = 
@@ -271,7 +264,12 @@ class CfgPatches
 			"A3_Soft_F_Exp_LSV_01",
 			"A3_Armor_F_Tank",
 			"A3_Armor_F_Tank_AFV_Wheeled_01",
-			"FIR_AirWeaponSystem_US"
+			"FIR_AirWeaponSystem_US",
+			"ace_interaction",
+    		"ace_missileguidance",
+			"ace_interaction",
+			"ace_logistics_rope"
+
 		};
 	};
 };
@@ -285,6 +283,7 @@ class NewTurret;
 class MainTurret;
 class TopTurret;
 class CopilotTurret;
+class CargoTurret;
 class CargoGunner_1;
 class CargoGunner_2;
 class CargoGunner_3;
@@ -292,7 +291,14 @@ class CodRiverTurret;
 class CargoTurret_01;
 class CargoTurret_02;
 class CargoTurret_03;
+class GunnerTurret_01;
+class GunnerTurret_02;
 class HitPoints;
+class HitHull;
+class HitFuel;
+class HitAvionics;
+class HitHRotor;
+class HitVRotor;
 
 class CommanderOptics;
 //class components;
@@ -350,8 +356,7 @@ class Optics_Gunner_APC_01: Optics_Armored
 	class Wide;
 	class Medium;
 	class Narrow;
-};
-
+}; 
 
 
 class cfgWeapons
@@ -378,437 +383,81 @@ class cfgAmmo
 		
 		
 class cfgVehicles
-{
-	//Hound
-	class B_APC_Wheeled_01_cannon_F;
-	//Timberwolves
-	class AFV_Wheeled_01_base_F;
-	class AFV_Wheeled_01_up_base_F;
-	//Hornet
-	class VES_AV14;
-	//Falcons
-	class VES_UH144; 
-    class VES_UH144S;
-    class VES_UH144_A;
-    class VES_UH144S_A;
-	
-	// A-164 Wipeout
-	class Plane_CAS_01_dynamicLoadout_base_F;
-	// UGV Stomper
-	class UGV_01_rcws_base_F;
-	class B_UAV_05_F;
-	
-	
-	
-		
+{	
+	class Air;
+	class Helicopter: Air
+	{
+		class Turrets;
+		class HitPoints;
+	};
+	class Helicopter_Base_F: Helicopter
+	{
+		class HitPoints: HitPoints
+		{
+			class HitHull;
+			class HitFuel;
+			class HitAvionics;
+			class HitMissiles;
+			class HitEngine;
+			class HitHRotor;
+			class HitVRotor;
+			class HitGlass1;
+			class HitGlass2;
+			class HitGlass3;
+			class HitGlass4;
+			class HitGlass5;
+			class HitGlass6;
+			class HitWinch;
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret;
+		};
+		class AnimationSources;
+		class EventHandlers;
+		class ViewOptics;
+		class ViewPilot;
+		class Components;
+	};
+	class Plane;
+	class Plane_Base_F: Plane
+	{
+		class MarkerLights;
+		class Turrets;
+		class HitPoints;
+	};
+	class VTOL_Base_F: Plane_Base_F
+	{
+		class AnimationSources;
+		class HitPoints: HitPoints
+		{
+			class HitHull;
+		};
+		class CargoTurret;
+		class MarkerLights: MarkerLights
+		{
+			class PositionWhite;
+		};
+		class NewTurret;
+		class Turrets: Turrets
+		{
+			class CopilotTurret;
+		};
+		class ViewPilot;
+		class Components;
+	};
 	#include "Hound_Base.hpp"
-	#include "Timberwolf_MK1_Base.hpp"
-	#include "Timberwolf_MK2_Base.hpp"
+	#include "Timberwolf_Base.hpp"
 	#include "Hornet_Base.hpp"
 	#include "Warthog_Base.hpp"
-//	#include "Fossa_Base.hpp"
+	#include "Fossa_Base.hpp"
 	#include "Falcon_Base.hpp"
 	#include "Pelican_Base.hpp"
 	#include "Claymore_Base.hpp"	
 	#include "UGVStomper_Base.hpp"
-	#include "SupplyCrates.hpp"
 	#include "Sentinel_Base.hpp"
 	#include "Sholef.hpp"
-	
-														// New Vehicles Below
-														// New Vehicles Below
-														// New Vehicles Below
-														// New Vehicles Below
-														// New Vehicles Below
-														
-														
-									
-				//
-				// 		IFV 76 HOUND
-				// 										
-	class HOW_IFV76_A: HOW_IFV76_Base
-	{
-		dlc = "105th";
-		author = "N-4 Logistics";
-		side=1;
-		scope = 1;
-		scopeCurator = 1;
-		displayName = "IFV-76 Prototype 1";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
-		crew = "VES_Rifleman_MA5B_MAR";
-		dampingRateFullThrottle = 0.10;
-		tf_hasLRradio = 1;
-		tf_isolatedAmount = 0.65;
-		tf_range = 10000;
-		TFAR_hasIntercom = 1;
-		
-		class NewTurret;
-		class Turrets: Turrets
-		{
-			class MainTurret: MainTurret
-			{
-				weapons[] = {"OPTRE_M230_HE","OPTRE_M230_AP","HMG_127_APC"};
-				magazines[] = 
-				{
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
-					"500Rnd_127x99_mag_Tracer_Green",
-					"500Rnd_127x99_mag_Tracer_Green",
-					"500Rnd_127x99_mag_Tracer_Green",
-					"500Rnd_127x99_mag_Tracer_Green",
-				};
-				soundServo[] = {"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner",0.56234133,1,30};
-				soundServoVertical[] = {"A3\Sounds_F\vehicles\armor\APC\noises\servo_APC_gunner_vertical",0.56234133,1,30};
-			};
-		};
-		
-	};
-	class HOW_IFV76_B: HOW_IFV76_Base
-	{
-		dlc = "105th";
-		author = "N-4 Logistics";
-		side=1;
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "IFV-76 Hound";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
-		crew = "VES_Rifleman_MA5B_MAR";
-		dampingRateFullThrottle = 0.10;
-		tf_hasLRradio = 1;
-		tf_isolatedAmount = 0.65;
-		tf_range = 10000;
-		TFAR_hasIntercom = 1;
-		
-		
-		class Turrets: Turrets
-		{
-			class MainTurret: MainTurret
-			{
-				weapons[] = {"OPTRE_M230_HE","OPTRE_M230_AP","LMG_coax_Hound"};
-				magazines[] = 
-				{
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
-					"1000Rnd_762x51_Belt_T_Yellow_HOW",
-					"1000Rnd_762x51_Belt_T_Yellow_HOW",
-					"1000Rnd_762x51_Belt_T_Yellow_HOW"
-				};
-				
-			};
-		};
-		
-	};
-	//
-	//		Unarmed Hound
-	// 
-	class LM_OPCAN_AFV102_MC_U_WDL;
-	class HOW_APC76_TT : LM_OPCAN_AFV102_MC_U_WDL
-	{
-		dlc = "105th";
-		author = "N-4 Logistics, Burgess";
-		side=1;
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "APC-76 Shepherd";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
-		crew = "VES_Rifleman_MA5B_MAR";
-		armor = 1350;
-		enginePower = 600;
-		peakTorque = 3500;
-		maxSpeed = 120;
-		slowSpeedForwardCoef = 0.100;
-		waterResistanceCoef = 0.10;
-		waterspeedcoef = 3.5;
-		idleRpm = 425;
-		redRpm = 2550;
-		maxOmega = 600;
-		minOmega = 50;
-		dampingRateFullThrottle = 0.10;
-		crewCrashProtection = 0.005;
-		tf_hasLRradio = 1;
-		tf_isolatedAmount = 0.65;
-		tf_range = 10000;
-		TFAR_hasIntercom = 1;
-		class Wheels
-		{
-			class L1
-			{
-				side = "left";
-				suspTravelDirection[] = {-0.125,-1,0};
-				boneName = "wheel_1_1_damper";
-				center = "wheel_1_1_center";
-				boundary = "wheel_1_1_bound";
-				steering = 1;
-				width = 0.35;
-				mass = 187.5;
-				armor = 40;
-				MOI = 60;
-				dampingRate = 0.1;
-				dampingRateDamaged = 1.0;
-				dampingRateDestroyed = 1000.0;
-				maxBrakeTorque = 45000;
-				maxHandBrakeTorque = 0;
-				suspForceAppPointOffset = "wheel_1_1_center";
-				tireForceAppPointOffset = "wheel_1_1_center";
-				maxCompression = 0.1125;
-				maxDroop = 0.15;
-				sprungMass = 3090;
-				springStrength = 110000;
-				springDamperRate = 27900;
-				longitudinalStiffnessPerUnitGravity = 10000;
-				latStiffX = 25;
-				latStiffY = 180;
-				frictionVsSlipGraph[] = {{0,1},{0.5,1},{1,1}};
-			};
-			class L2: L1
-			{
-				boneName = "wheel_1_2_damper";
-				steering = 1;
-				center = "wheel_1_2_center";
-				boundary = "wheel_1_2_bound";
-				suspForceAppPointOffset = "wheel_1_2_center";
-				tireForceAppPointOffset = "wheel_1_2_center";
-			};
-			class L3: L1
-			{
-				boneName = "wheel_1_3_damper";
-				steering = 0;
-				center = "wheel_1_3_center";
-				boundary = "wheel_1_3_bound";
-				suspForceAppPointOffset = "wheel_1_3_center";
-				tireForceAppPointOffset = "wheel_1_3_center";
-				maxHandBrakeTorque = 300000;
-			};
-			class L4: L1
-			{
-				boneName = "wheel_1_4_damper";
-				steering = 0;
-				center = "wheel_1_4_center";
-				boundary = "wheel_1_4_bound";
-				suspForceAppPointOffset = "wheel_1_4_center";
-				tireForceAppPointOffset = "wheel_1_4_center";
-				maxHandBrakeTorque = 300000;
-			};
-			class R1: L1
-			{
-				side = "right";
-				suspTravelDirection[] = {0.125,-1,0};
-				boneName = "wheel_2_1_damper";
-				center = "wheel_2_1_center";
-				boundary = "wheel_2_1_bound";
-				suspForceAppPointOffset = "wheel_2_1_center";
-				tireForceAppPointOffset = "wheel_2_1_center";
-			};
-			class R2: R1
-			{
-				boneName = "wheel_2_2_damper";
-				steering = 1;
-				center = "wheel_2_2_center";
-				boundary = "wheel_2_2_bound";
-				suspForceAppPointOffset = "wheel_2_2_center";
-				tireForceAppPointOffset = "wheel_2_2_center";
-			};
-			class R3: R1
-			{
-				boneName = "wheel_2_3_damper";
-				steering = 0;
-				center = "wheel_2_3_center";
-				boundary = "wheel_2_3_bound";
-				suspForceAppPointOffset = "wheel_2_3_center";
-				tireForceAppPointOffset = "wheel_2_3_center";
-				maxHandBrakeTorque = 300000;
-			};
-			class R4: R1
-			{
-				boneName = "wheel_2_4_damper";
-				steering = 0;
-				center = "wheel_2_4_center";
-				boundary = "wheel_2_4_bound";
-				suspForceAppPointOffset = "wheel_2_4_center";
-				tireForceAppPointOffset = "wheel_2_4_center";
-				maxHandBrakeTorque = 300000;
-			};		
-		};
-		class TransportItems
-				{
-					#include "cfg\VehicleGearMedium.hpp"
-				};
-				class TransportMagazines{};
-				class TransportWeapons{};
-	};
-	class HOW_APC76_MED:HOW_APC76_TT
-	{
-		dlc = "105th";
-		author = "N-4 Logistics, Burgess";
-		side=1;
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "APC-76M Shepherd";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
-		crew = "VES_Rifleman_MA5B_MAR";
-			class TransportItems
-				{
-					#include "cfg\VehicleGearMedical.hpp"
-				};
-			class TransportMagazines{};
-			class TransportWeapons{};
-	};
-	//
-	//	Timberwolves
-	//
-	class HOW_MGS_Timberwolf:HOW_MGS_Base
-	{
-		dlc = "105th";
-		author = "N-4 Logistics, Burgess";
-		side=1;
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "AFV-43 Timberwolf I";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
-		class Turrets: Turrets
-		{
-			class MainTurret: MainTurret
-			{
-				class Turrets: Turrets
-				{
-					class CommanderOptics: CommanderOptics
-					{
-						weapons[]=
-						{
-						"SmokeLauncher",
-						"Laserdesignator_vehicle"
-						};
-						magazines[]=
-						{
-						"SmokeLauncherMag",
-						"Laserbatteries"
-						};
-					};	
-				}; 
-				weapons[]=
-				{
-				"HOW_cannon_120mm_GP",
-				"HOW_cannon_120mm_AP",
-				"MMG_02_coax"
-				};
-				magazines[]=
-				{
-				"20Rnd_120mm_APFSDS_shells_Tracer_Red",
-				"16Rnd_120mm_HE_shells_Tracer_Red",
-				"12Rnd_120mm_HEAT_MP_T_Red",
-				"4Rnd_120mm_LG_cannon_missiles",
-				"4Rnd_120mm_LG_cannon_missiles",
-				"4Rnd_120mm_LG_cannon_missiles",
-											
-				"200Rnd_338_Mag",
-				"200Rnd_338_Mag",
-				"200Rnd_338_Mag",
-				"200Rnd_338_Mag",
-				"200Rnd_338_Mag"
-				};
-			};
-		};
-	};
-	class HOW_MGS_UP_Timberwolf:HOW_MGS_Base_UP
-	{
-		dlc = "105th";
-		author = "N-4 Logistics, Burgess";
-		side=1;
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "AFV-43 Timberwolf II";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
-		
-		class Turrets: Turrets
-		{
-			class MainTurret: MainTurret
-			{
-				class Turrets: Turrets
-				{
-					class CommanderOptics: CommanderOptics
-					{
-						weapons[]=
-						{
-						"SmokeLauncher",
-						"Laserdesignator_vehicle",
-						"HOW_HMG_127_AFV"
-						};
-						magazines[]=
-						{
-						"SmokeLauncherMag",
-						"Laserbatteries",
-						"500Rnd_127x99_mag_Tracer_Red",
-						"500Rnd_127x99_mag_Tracer_Red",
-						"500Rnd_127x99_mag_Tracer_Red",
-						"500Rnd_127x99_mag_Tracer_Red"
-						};
-					};	
-				}; 
-				weapons[]=
-				{
-				"HOW_cannon_120mm_GP",
-				"HOW_cannon_120mm_AP",
-				"MMG_02_coax"
-				};
-				magazines[]=
-				{
-				"20Rnd_120mm_APFSDS_shells_Tracer_Red",
-				"16Rnd_120mm_HE_shells_Tracer_Red",
-				"12Rnd_120mm_HEAT_MP_T_Red",
-				"4Rnd_120mm_LG_cannon_missiles",
-				"4Rnd_120mm_LG_cannon_missiles",
-				"4Rnd_120mm_LG_cannon_missiles",
-											
-				"200Rnd_338_Mag",
-				"200Rnd_338_Mag",
-				"200Rnd_338_Mag",
-				"200Rnd_338_Mag",
-				"200Rnd_338_Mag"
-				};
-			};
-		};
-	};
-	
-	
-	
-	//
-	//		Scorpion
-	//
-	class LM_OPCAN_M808_MC_WDL;
-	class LM_OPCAN_HOW_M808_MC_WDL:LM_OPCAN_M808_MC_WDL
-	{
-		dlc = "105th";
-		author = "N-4 Logistics";
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "M808 Scorpion";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Armor";
-		tf_hasLRradio = 1;
-		tf_isolatedAmount = 0.65;
-		tf_range = 10000;
-		TFAR_hasIntercom = 1;
-		class TransportItems
-		{
-			#include "cfg\VehicleGearMedium.hpp"
-		};
-	};
+	//#include "Blackfish_Gunship_Base.hpp"
 	//
 	// 		SDV
 	//
@@ -847,65 +496,5 @@ class cfgVehicles
 		ace_cargo_space = 4;
 		ace_cargo_hasCargo = 1;
 	};
-	class Land_Pod_Heli_Transport_04_covered_F;
-	class v105_Land_Transport_Covered_Pod:Land_Pod_Heli_Transport_04_covered_F
-	{
-		scopeCurator = 2;
-		scope  = 2;
-		side = 1;
-		Author = "N-4 Logistics";
-		displayName = "[105th] Passenger Compartment";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
-		armor = 150;
-			class TransportItems
-			{
-				#include "cfg\SupplyPods\ResupplyPodRifle.hpp"
-			};
-			class TransportMagazines{};
-			class TransportWeapons{};
-			hiddenSelectionsTextures[]=
-			{
-				"105th_Vehicles\textures\TransportPod\taru_1_retexture.paa",
-				"105th_Vehicles\textures\TransportPod\taru_2_retexture.paa"
-			};
-	};
-	class Land_Pod_Heli_Transport_04_medevac_F;
-	class v105_Land_Medical_Covered_Pod:Land_Pod_Heli_Transport_04_medevac_F
-	{
-		scopeCurator = 2;
-		scope  = 2;
-		side = 1;
-		Author = "N-4 Logistics";
-		displayName = "[105th] Medevac Compartment";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
-		armor = 150;
-			class TransportItems
-			{
-				#include "cfg\SupplyPods\ResupplyPodMedical.hpp"
-			};
-			class TransportMagazines{};
-			class TransportWeapons{};
-			hiddenSelectionsTextures[]=
-			{
-				"105th_Vehicles\textures\TransportPod\taru_med_retexture.paa",
-				"105th_Vehicles\textures\TransportPod\taru_2_retexture.paa"
-			};
-	};
-	class Land_optre_milcrate_h3_long;
-	class v105_Mortar_Container: Land_optre_milcrate_h3_long
-	{
-		scopeCurator = 2;
-		scope  = 2;
-		side = 1;
-		Author = "N-4 Logistics";
-		displayName = "[105th] Mortar Container";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
-		class TransportItems
-			{
-				#include "cfg\SupplyPods\MortarContainer.hpp"
-			};
-	};
+	
 };
