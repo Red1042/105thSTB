@@ -399,13 +399,13 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_Hydra_WP_P_7rnd_M;
 	class v105_Hydra_WP_P_7rnd_M:FIR_Hydra_WP_P_7rnd_M
 	{
-		hardpoints[] = {"105th_PelicanUnguided""105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_WP_P_21rnd_M;
 	class v105_Hydra_WP_P_21rnd_M:FIR_Hydra_WP_P_21rnd_M
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	}; 
 	// APKWS HEDP
@@ -631,20 +631,20 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K:PylonRack_3Rnd_ACE_Hellfire_AGM114K
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_ace_hellfire_launcher";
+		pylonWeapon = "v105_FIR_AGM65";
 	};
 	
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114N;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N:PylonRack_3Rnd_ACE_Hellfire_AGM114N
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_ace_hellfire_launcher";
+		pylonWeapon = "v105_FIR_AGM65";
 	};
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114L;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L:PylonRack_3Rnd_ACE_Hellfire_AGM114L
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_ace_hellfire_launcher";
+		pylonWeapon = "v105_FIR_AGM65";
 	};
 	class OPTRE_16Rnd_Anvil1_missiles;
 	class OPTRE_16Rnd_AnvilSMK_W_missiles: OPTRE_16Rnd_Anvil1_missiles
@@ -758,4 +758,19 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		hardpoints[]={"105th_HOTs"};
 		pylonWeapon="v105_HOT_Generic_Launcher";
 	};
+
+	/* Overrides for the Anvil 2&3 to fix the 16rn ammo counts */
+
+    class OPTRE_1Rnd_Anvil1_missiles;
+    class OPTRE_16Rnd_Anvil2_missiles: OPTRE_1Rnd_Anvil1_missiles
+    {
+    	count=16;
+    };
+
+    	class OPTRE_16Rnd_Anvil3_missiles: OPTRE_1Rnd_Anvil1_missiles
+    {
+    	count=16;
+    };
+
+    /* End of overrides for Anvil 2&3 to fix the 16rn ammo counts */
 	
