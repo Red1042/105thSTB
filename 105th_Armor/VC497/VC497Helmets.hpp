@@ -1,6 +1,34 @@
 
 // Initial Commit
-	
+	class v105_VX19_Helmet:OPTRE_FC_VX19_Helmet
+	{
+		dlc="OPTRE";
+		scope=2;
+		author="Article 2 Studios";
+		displayName="[VC-497] VX19 Flight Helmet";
+		
+		hiddenSelectionsTextures[]=
+		{
+			"optre_fc_units\marines\data\h3_pilothelmet_co.paa",
+			"optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"optre_fc_units\marines\data\h3_pilothelmet_co.paa",
+				"optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+			};
+		};
+	};
+
+
 	class VC497_Helmet_CO: VES_CH252_MAR_Vacuum
 	{
 		scope=1;

@@ -286,7 +286,15 @@
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
 	};
-
+	class OPTRE_missiles_ASGM2;
+	class OPTRE_missiles_C2GMLS: OPTRE_missiles_ASGM2
+	{
+		maxRange=3500;
+		minRange=75;
+		reloadTime=2;
+		weaponLockDelay=3;
+		cmImmunity = 0.3;
+	};
 
 	class HMG_127;
 	class OPTRE_M41_LAAG: HMG_127
@@ -319,8 +327,8 @@
 		selectionFireAnim="zasleh";
 		displayName="M41 LAAG";
 		descriptionShort="Light AA Gun";
-		aiDispersionCoefY=3;
-		aiDispersionCoefX=5;
+		aiDispersionCoefY=1.0;
+		aiDispersionCoefX=1.0;
 		showAimCursorInternal=1;
 		magazineReloadTime=4;
 		initFov=0.75;
@@ -345,7 +353,63 @@
 			{
 				begin1[]=
 				{
-					"OPTRE_Weapons\Vehicle\data\sounds\M41LAAG_1.wss",
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-01.ogg",
+					1,
+					1,
+					1500
+				};
+				begin2[]=
+				{
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-02.ogg",
+					1,
+					1,
+					1500
+				};
+				begin3[]=
+				{
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-03.ogg",
+					1,
+					1,
+					1500
+				};
+				begin4[]=
+				{
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-04.ogg",
+					1,
+					1,
+					1500
+				};
+				begin5[]=
+				{
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-05.ogg",
+					1,
+					1,
+					1500
+				};
+				begin6[]=
+				{
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-06.ogg",
+					1,
+					1,
+					1500
+				};
+				begin7[]=
+				{
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-07.ogg",
+					1,
+					1,
+					1500
+				};
+				begin8[]=
+				{
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-08.ogg",
+					1,
+					1,
+					1500
+				};
+				begin9[]=
+				{
+					"OPTRE_Weapons\Vehicle\data\sounds\M41 LAAG-09.ogg",
 					1,
 					1,
 					1500
@@ -353,22 +417,102 @@
 				soundBegin[]=
 				{
 					"begin1",
-					1
+					0.2,
+					"begin2",
+					0.1,
+					"begin3",
+					0.1,
+					"begin4",
+					0.1,
+					"begin5",
+					0.1,
+					"begin6",
+					0.1,
+					"begin7",
+					0.1,
+					"begin8",
+					0.1,
+					"begin9",
+					0.1
+				};
+				class SoundTails
+				{
+					class TailTrees
+					{
+						sound[]=
+						{
+							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\MK200_tail_trees",
+							1,
+							1,
+							1200
+						};
+						frequency=1;
+						volume="(1-interior/1.4)*trees";
+					};
+					class TailForest
+					{
+						sound[]=
+						{
+							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\MK200_tail_forest",
+							1,
+							1,
+							1200
+						};
+						frequency=1;
+						volume="(1-interior/1.4)*forest";
+					};
+					class TailInterior
+					{
+						sound[]=
+						{
+							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\MK200_tail_interior",
+							1.9952624,
+							1,
+							1200
+						};
+						frequency=1;
+						volume="interior";
+					};
+					class TailMeadows
+					{
+						sound[]=
+						{
+							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\MK200_tail_meadows",
+							1,
+							1,
+							1200
+						};
+						frequency=1;
+						volume="(1-interior/1.4)*(meadows/2 max sea/2)";
+					};
+					class TailHouses
+					{
+						sound[]=
+						{
+							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\MK200_tail_houses",
+							1,
+							1,
+							1200
+						};
+						frequency=1;
+						volume="(1-interior/1.4)*houses";
+					};
 				};
 			};
 			reloadTime=0.045;
-			dispersion=0.0049999999;
+			dispersion=0.00049999999;
 			minRange=2;
 			minRangeProbab=0.30000001;
 			midRange=300;
 			midRangeProbab=0.69999999;
-			maxRange=800;
-			maxRangeProbab=0.050000001;
+			maxRange=2000;
+			maxRangeProbab=1;
 		};
 		class close: FullAuto
 		{
-			burst=40;
-			aiRateOfFire=0.1;
+			burst=25;
+			dispersion=0.050000001;
+			aiRateOfFire=0.059999999;
 			aiRateOfFireDistance=50;
 			minRange=10;
 			minRangeProbab=0.050000001;
@@ -380,8 +524,9 @@
 		};
 		class short: close
 		{
-			burst=20;
-			aiRateOfFire=0.5;
+			burst=18;
+			dispersion=0.025;
+			aiRateOfFire=0.1;
 			aiRateOfFireDistance=300;
 			minRange=50;
 			minRangeProbab=0.050000001;
@@ -392,26 +537,15 @@
 		};
 		class medium: close
 		{
-			burst=20;
-			aiRateOfFire=0.75;
+			burst=10;
+			dispersion=0.0049999999;
+			aiRateOfFire=0.16;
 			aiRateOfFireDistance=600;
 			minRange=200;
 			minRangeProbab=0.050000001;
 			midRange=300;
 			midRangeProbab=0.69999999;
 			maxRange=500;
-			maxRangeProbab=0.1;
-		};
-		class far: close
-		{
-			burst=10;
-			aiRateOfFire=0.75;
-			aiRateOfFireDistance=1000;
-			minRange=200;
-			minRangeProbab=0.050000001;
-			midRange=300;
-			midRangeProbab=0.69999999;
-			maxRange=1000;
 			maxRangeProbab=0.1;
 		};
 	};
@@ -439,39 +573,31 @@
 	
 	
 	// Pelican Ordnances
-			//
-			
-	/*		class OPTRE_M638
-				{
-					ballisticsComputer=4;
-					displayName="M638 Autocannon";
-					descriptionShort="20mm";
-					displayNameShort="M638";
-					
-					class FullAuto: MGun
-					{
-						reloadTime=0.04;
-						dispersion=0.001;
-						minRange=2;
-						minRangeProbab=0.30000001;
-						midRange=300;
-						midRangeProbab=0.69999999;
-						maxRange=3000;
-						maxRangeProbab=0.050000001;
-					};
-				};
-				*/
+
 			class OPTRE_M638;
-			class v105_gatling_30mm:OPTRE_M638
+			class v105_gatling_30mm_HE:OPTRE_M638
 			{
 				ballisticsComputer=1;
 				canLock = 2;
-				displayName="M917 Autocannon";
-				descriptionShort="30mm";
-				displayNameShort="M917";
+				displayName="M917 Autocannon HE";
+				descriptionShort="30mm HE";
+				displayNameShort="M917 (HE)";
+				magazineReloadTime=2;
 				magazines[]=
 				{
 					"250Rnd_30mm_HE_shells_Tracer_Green",
+				};
+			};
+			class v105_gatling_30mm_AP:OPTRE_M638
+			{
+				ballisticsComputer=1;
+				canLock = 2;
+				displayName="M917 Autocannon AP";
+				descriptionShort="30mm APDS";
+				displayNameShort="M917 (APDS)";
+				magazineReloadTime=2;
+				magazines[]=
+				{
 					"250Rnd_30mm_APDS_shells_Tracer_Green",
 				};
 			};
@@ -480,6 +606,7 @@
 			class v105_FIR_AIM9X:FIR_AIM9X
 			{
 				magazines[]={"v105_AIM9X_P_2rnd_M"};
+				cmImmunity=1;
 			};
 			class FIR_AIM120;
 			class v105_FIR_AIM120:FIR_AIM120
@@ -502,9 +629,9 @@
 					"v105_AGM65E_P_1rnd_M",
 					"v105_AGM65E2_P_1rnd_M",
 					"v105_AGM65L_P_1rnd_M",
-					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K",
-					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N",
-					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L"
+					//"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K",
+					//"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N",
+					//"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L"
 				};
 			};
 			class FIR_ASM2;
@@ -655,6 +782,16 @@
 					"v105_hot_2mp_2Rnd",
 					"v105_hot_3_6Rnd",
 					"v105_hot_3_2Rnd"
+				};
+			};
+			class ace_hellfire_launcher;
+			class v105_ace_hellfire_launcher:ace_hellfire_launcher
+			{
+				magazines[]=
+				{
+					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K",
+					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N",
+					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L"
 				};
 			};
 		

@@ -399,13 +399,13 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_Hydra_WP_P_7rnd_M;
 	class v105_Hydra_WP_P_7rnd_M:FIR_Hydra_WP_P_7rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided""105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	};
 	class FIR_Hydra_WP_P_21rnd_M;
 	class v105_Hydra_WP_P_21rnd_M:FIR_Hydra_WP_P_21rnd_M
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
 		pylonWeapon="v105_FIR_RKT_Launcher";
 	}; 
 	// APKWS HEDP
@@ -631,20 +631,20 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K:PylonRack_3Rnd_ACE_Hellfire_AGM114K
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_FIR_AGM65";
+		pylonWeapon = "v105_ace_hellfire_launcher";
 	};
 	
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114N;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N:PylonRack_3Rnd_ACE_Hellfire_AGM114N
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_FIR_AGM65";
+		pylonWeapon = "v105_ace_hellfire_launcher";
 	};
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114L;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L:PylonRack_3Rnd_ACE_Hellfire_AGM114L
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_FIR_AGM65";
+		pylonWeapon = "v105_ace_hellfire_launcher";
 	};
 	class OPTRE_16Rnd_Anvil1_missiles;
 	class OPTRE_16Rnd_AnvilSMK_W_missiles: OPTRE_16Rnd_Anvil1_missiles

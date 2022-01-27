@@ -6,19 +6,7 @@
 ////////////////////////////////////////////////////////////////////
 
 #define _ARMA_
-class CfgAddons 
-{
-	class PreloadAddons 
-	{
-		class O_URFArmy
-		{
-			list[] = 
-			{
-				"O_URFArmy"
-			};
-		};
-	};
-};
+
 class CfgPatches
 {
 	class URF_Vehicles
@@ -198,7 +186,7 @@ class cfgVehicles
 	#include "Aircraft.hpp"
 	#include "Sochor.hpp"
 	#include "StaticTurrets_Base.hpp"
-	#include "Karatel_Base.hpp"
-	#include "URF_Warthog_Base.hpp"
+	//#include "Karatel_Base.hpp"
+	//#include "URF_Warthog_Base.hpp"
 	
 };

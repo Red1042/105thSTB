@@ -32,7 +32,7 @@ class CfgWeapons
 	class VES_CH252_MAR_Vacuum_dp;
 	class VES_CH252D;
 	class VES_CH252D_dp;
-	
+	class OPTRE_FC_VX19_Helmet;
 	
 	class OPTRE_UNSC_VX16_Helmet_MaskV;
 	class OPTRE_UNSC_VX16_Helmet_Mask;

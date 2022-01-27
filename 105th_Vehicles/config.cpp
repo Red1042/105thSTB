@@ -55,6 +55,8 @@ class CfgPatches
 		"v105_D77HTCI_AV_TestPlatform_Pelican",
 		"v105_D77HTCI_AV_Minigun_Pelican",
 		"v105_D77HTCI_AV_RotaryCannon_Pelican",
+		"v105_D77HTCI_AV_40mmCannon_Pelican",
+		"v105_D77HTCI_AV_30mmCannon_Pelican",
 		"v105_D77ATCI_Crow_Gunship",
 		"v105_D77HTCI",
 		"v105_D78DHTC",
@@ -378,6 +380,7 @@ class cfgAmmo
 		indirectHitRange=0.1;
 		indirectHit=0.5;
 	};
+	
 };
 
 		
