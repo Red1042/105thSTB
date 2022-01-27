@@ -13,24 +13,6 @@
 	};
 	
 	/*
-		Start of custom items (For players)
-	*/
-	
-	class v105_Severach_Rucksack_Heavy:OPTRE_ILCS_Rucksack_Heavy
-	{
-		scope=2;
-		scopeArsenal=2;
-        author="N-4 Logistics";
-        displayName="[ODST] ILCS Rucksack (Sev)";
-		
-        tf_encryptionCode="tf_west_radio_code";
-        tf_dialog="rt1523_radio_dialog";
-        tf_subtype="digital_lr";
-        tf_range =25000;
-        maximumLoad=400;
-	};
-	
-	/*
 		Barkley's custom backpacks (ONLY ONE CAN BE ACTIVE AT A TIME)
 	*/
 	class OPTRE_ONI_Researcher_Suitcase;
