@@ -75,7 +75,7 @@ class CfgWeapons
 	class OPTRE_cap_FinalDawn;
 	class UniformItem;
 	class VestItem;
-	
+	class ItemInfo;
 	// Dress Gear
 	class OPTRE_UNSC_Army_Soldier_DressGray;
 
@@ -138,6 +138,9 @@ class CfgVehicles
 	
 	//Generic 105th Backpacks
 	#include "105th\105thBackpacks.hpp"
+	
+	//ODST Backpacks
+	#include "Bravo Company\BravoCompanyBackpacks.hpp"
 	
 	//Marine Uniforms Base
 	#include "Alpha Company\AlphaCompanyUniformsBase.hpp"

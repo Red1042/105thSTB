@@ -1,7 +1,24 @@
+class OPTRE_M12_Base;
+
+
 class OPTRE_M12_FAV;
 class OPTRE_M12_LRV;
-class OPTRE_M12G1_LRV;
-class OPTRE_M12A1_LRV;
+class OPTRE_M12G1_LRV: OPTRE_M12_Base
+{
+	class Turrets:Turrets
+	{
+		class CargoGunner_1;
+		class MainTurret;
+	};
+};
+class OPTRE_M12A1_LRV: OPTRE_M12_Base
+{
+	class Turrets:Turrets
+	{
+		class CargoGunner_1;
+		class MainTurret;
+	};
+};
 class OPTRE_M813_TT;
 class OPTRE_M12_APC_MED;
 class OPTRE_M12_APC;
@@ -38,6 +55,11 @@ class v105_URF_M12_Hydra: OPTRE_M12A1_LRV
 				};
 			};
 		};
+		hiddenSelectionsTextures[]=
+		{
+			"\OPTRE_Vehicles\Warthog\data\M12HogMaav_extupper_innie_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\M12HogMaav_extunder_co.paa"
+		};
 };
 class v105_URF_M12_SPG:OPTRE_M12G1_LRV
 {
@@ -70,5 +92,10 @@ class v105_URF_M12_SPG:OPTRE_M12G1_LRV
 					"HOW_15Rnd_50x137_HEAT"
 				};
 			};
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\OPTRE_Vehicles\Warthog\data\M12HogMaav_extupper_innie_co.paa",
+			"\OPTRE_Vehicles\Warthog\data\M12HogMaav_extunder_co.paa"
 		};
 };

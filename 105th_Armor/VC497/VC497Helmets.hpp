@@ -9,8 +9,8 @@
 		
 		hiddenSelectionsTextures[]=
 		{
-			"optre_fc_units\marines\data\h3_pilothelmet_co.paa",
-			"optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+			"105th_Armor\VC497\data\Helmets\VX19_VC497_CO.paa",
+			"105th_Armor\VC497\data\Helmets\VX19_Visor_Air_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -22,8 +22,35 @@
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"optre_fc_units\marines\data\h3_pilothelmet_co.paa",
-				"optre_fc_units\marines\data\h3_pilothelmet_visor_co.paa"
+				"105th_Armor\VC497\data\Helmets\VX19_VC497_CO.paa",
+				"105th_Armor\VC497\data\Helmets\VX19_Visor_Air_CO.paa"
+			};
+		};
+	};
+	class v105_VX19_Helmet_GStu:v105_VX19_Helmet
+	{
+		dlc="OPTRE";
+		scope=2;
+		author="Article 2 Studios";
+		displayName="[VC-497] VX19 Flight Helmet";
+		
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\VC497\data\Helmets\GStu_VX19_Air_CO.paa", 
+			"105th_Armor\VC497\data\Helmets\VX19_Visor_Air_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"105th_Armor\VC497\data\Helmets\GStu_VX19_Air_CO.paa", 
+				"105th_Armor\VC497\data\Helmets\VX19_Visor_Air_CO.paa"
 			};
 		};
 	};

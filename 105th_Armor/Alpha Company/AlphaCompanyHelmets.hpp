@@ -198,6 +198,9 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	/* 
+		Sturm transferred to VC-497, marine helmet gets bopped.
+
 	class ACOMP_CO_GSturmischer: VES_CH252_MAR_Vacuum
 	{
 		author="Sturm";
@@ -208,6 +211,7 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	*/
 	class ACOMP_CO_GWells_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";

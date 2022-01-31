@@ -15,27 +15,29 @@
 	/*
 		Barkley's custom backpacks (ONLY ONE CAN BE ACTIVE AT A TIME)
 	*/
+	/*
 	class OPTRE_ONI_Researcher_Suitcase;
     class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
     {
 		scope=2;
 		scopeArsenal=2;
         author="N-4 Logistics";
-        displayName="[105th] Barkley's Satchel";
+        displayName="[ODST] Barkley's Satchel";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[]=
         {
             "105th_Armor\Bravo Company\data\Backpacks\BBar_HardcaseSatchel.paa"
         };
         maximumLoad=400;
-    };
-	/*
+    }; 
+	*/
+	
 	class MatGrp_ANPRC_521_black_blue;
 	class v105_BBarkley_ANPRC521_black_blue: MatGrp_ANPRC_521_black_blue
 	{
 		author="N-4 Logistics";
         displayName= "[ODST] AN-PRC521 (Barkley)"
-		maximumLoad=261;
+		maximumLoad=400;
 
 		hiddenSelections[]=
 		{
@@ -49,4 +51,4 @@
 			"105th_Armor\Bravo Company\data\Backpacks\BBar_ANPRC521.paa"
 		};
 	};
-	*/
+	

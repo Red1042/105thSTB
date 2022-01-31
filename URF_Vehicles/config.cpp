@@ -85,6 +85,7 @@ class CfgPatches
 			"A3_Armor_F_Gamma",
 			"A3_Soft_F_Exp",
 			"A3_Soft_F_Exp_LSV_01",
+			"A3_Soft_F_MRAP_02",
 			"A3_Armor_F_Tank",
 			"A3_Armor_F_Tank_AFV_Wheeled_01",
 			"A3_Static_F"
@@ -186,7 +187,7 @@ class cfgVehicles
 	#include "Aircraft.hpp"
 	#include "Sochor.hpp"
 	#include "StaticTurrets_Base.hpp"
-	//#include "Karatel_Base.hpp"
-	//#include "URF_Warthog_Base.hpp"
+	#include "Karatel_Base.hpp"
+	#include "URF_Warthog_Base.hpp"
 	
 };
