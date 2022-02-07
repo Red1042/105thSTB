@@ -114,7 +114,7 @@ class HOW_AV14_Base: VES_AV14
 				{
 					class pylons1
 					{
-						hardpoints[] = {"105th_Hornet","105th_HOTs","105th_Hellfires"};
+						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles"};
 						attachment = "v105_Hydra_M247_P_7Rnd_M";
 						priority = 6;
 						maxweight = 600;
@@ -123,7 +123,7 @@ class HOW_AV14_Base: VES_AV14
 					};
 					class pylons2: pylons1
 					{
-						hardpoints[] = {"105th_Hornet","105th_HOTs","105th_Hellfires"};
+						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles"};
 						priority = 6;
 						attachment = "v105_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;
@@ -133,7 +133,7 @@ class HOW_AV14_Base: VES_AV14
 					};
 					class pylons3: pylons1
 					{
-						hardpoints[] = {"105th_Hornet","105th_HOTs","105th_Hellfires"};
+						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles"};
 						priority = 5;
 						attachment = "v105_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;
@@ -142,7 +142,7 @@ class HOW_AV14_Base: VES_AV14
 					};
 					class pylons4: pylons1
 					{
-						hardpoints[] = {"105th_Hornet","105th_HOTs","105th_Hellfires"};
+						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles"};
 						priority = 5;
 						attachment = "v105_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;

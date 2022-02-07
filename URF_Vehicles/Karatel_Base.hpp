@@ -1,29 +1,17 @@
 class O_MRAP_02_F;
 class MRAP_02_hmg_base_F;
-class O_MRAP_02_hmg_F: MRAP_02_hmg_base_F
-{
-	class Turrets:Turrets
-	{
-		class MainTurret;
-	};
-};
+class O_MRAP_02_hmg_F;
 class MRAP_02_gmg_base_F;
-class O_MRAP_02_gmg_F: MRAP_02_gmg_base_F
-{
-	class Turrets:Turrets
-	{
-		class MainTurret;
-	};
-};
+class O_MRAP_02_gmg_F;
 class HOW_URF_Karatel: O_MRAP_02_F
 {
 		dlc="105th";
 		author="Howard";
-		side=0;
+		faction="O_URFArmy";
 		scope=2;
 		scopeCurator=2;
 		displayName="Karatel II";
-		crew="O_OURFArmy_Rifleman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
@@ -41,7 +29,7 @@ class HOW_URF_Karatel: O_MRAP_02_F
 				};
 				factions[]=
 				{
-					"OPF_F"
+					"O_URFArmy"
 				};
 			};
 		};
@@ -50,16 +38,22 @@ class HOW_URF_Karatel: O_MRAP_02_F
 			"URF",
 			1
 		};
+		hiddenSelectionsTextures[]=
+				{
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_01_CO_URF.paa",
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
+				};
 };		
 class HOW_URF_Karatel_HMG: O_MRAP_02_hmg_F
 {
 		dlc="105th";
 		author="Howard";
-		side=0;
+		faction="O_URFArmy";
 		scope=2;
 		scopeCurator=2;
 		displayName="Karatel II (HMG)";
-		crew="O_OURFArmy_Rifleman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
@@ -91,7 +85,7 @@ class HOW_URF_Karatel_HMG: O_MRAP_02_hmg_F
 				};
 				factions[]=
 				{
-					"OPF_F"
+					"O_URFArmy"
 				};
 			};
 		};
@@ -100,17 +94,23 @@ class HOW_URF_Karatel_HMG: O_MRAP_02_hmg_F
 			"URF",
 			1
 		};
+		hiddenSelectionsTextures[]=
+				{
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_01_CO_URF.paa",
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
+				};
 };
 
 class HOW_URF_Karatel_GMG: O_MRAP_02_gmg_F
 {
 	dlc="105th";
 		author="Howard";
-		side=0;
+		faction="O_URFArmy";
 		scope=2;
 		scopeCurator=2;
 		displayName="Karatel II (GMG)";
-		crew="O_OURFArmy_Rifleman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
@@ -144,7 +144,7 @@ class HOW_URF_Karatel_GMG: O_MRAP_02_gmg_F
 				};
 				factions[]=
 				{
-					"OPF_F"
+					"O_URFArmy"
 				};
 			};
 		};
@@ -153,17 +153,23 @@ class HOW_URF_Karatel_GMG: O_MRAP_02_gmg_F
 			"URF",
 			1
 		};
+		hiddenSelectionsTextures[]=
+				{
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_01_CO_URF.paa",
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
+				};
 };
 
 class HOW_URF_Karatel_AT: O_MRAP_02_gmg_F
 {
 		dlc="105th";
 		author="Howard";
-		side=0;
+		faction="O_URFArmy";
 		scope=2;
 		scopeCurator=2;
 		displayName="Karatel II (AT)";
-		crew="O_OURFArmy_Rifleman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
@@ -195,7 +201,7 @@ class HOW_URF_Karatel_AT: O_MRAP_02_gmg_F
 				};
 				factions[]=
 				{
-					"OPF_F"
+					"O_URFArmy"
 				};
 			};
 		};
@@ -204,4 +210,10 @@ class HOW_URF_Karatel_AT: O_MRAP_02_gmg_F
 			"URF",
 			1
 		};
+		hiddenSelectionsTextures[]=
+				{
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_01_CO_URF.paa",
+					"URF_Vehicles\Textures\Karatel\MRAP_02_ext_02_CO_URF.paa",
+					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
+				};
 };

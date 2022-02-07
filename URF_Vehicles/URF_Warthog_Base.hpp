@@ -29,7 +29,7 @@ class v105_URF_M12_Hydra: OPTRE_M12A1_LRV
 		scopeCurator=2;
 		side=0;
 		displayName="M12 Warthog (Hydras)";
-		crew="O_OURFArmy_Rifleman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
@@ -55,6 +55,11 @@ class v105_URF_M12_Hydra: OPTRE_M12A1_LRV
 				};
 			};
 		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
+		};
 		hiddenSelectionsTextures[]=
 		{
 			"\OPTRE_Vehicles\Warthog\data\M12HogMaav_extupper_innie_co.paa",
@@ -67,7 +72,7 @@ class v105_URF_M12_SPG:OPTRE_M12G1_LRV
 		scopeCurator=2;
 		side=0;
 		displayName="M12 Warthog (SPG)";
-		crew="O_OURFArmy_Rifleman_01";
+		crew="O_OURFArmy_Crewman_01";
 		editorCategory="HOW_EdCat_URF";
         editorSubcategory="HOW_URF_EdSubCat_Motorized";
 		
@@ -92,6 +97,11 @@ class v105_URF_M12_SPG:OPTRE_M12G1_LRV
 					"HOW_15Rnd_50x137_HEAT"
 				};
 			};
+		};
+		hiddenSelections[]=
+		{
+			"Camo1",
+			"Camo2"
 		};
 		hiddenSelectionsTextures[]=
 		{

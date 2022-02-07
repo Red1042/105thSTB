@@ -1,3 +1,4 @@
+		
 		defaultUserMFDvalues[] = {0.082,0.408,0.039,0.8};
 		class MFD
 		{
@@ -51,18 +52,6 @@
 						source = "weaponToView";
 						pos0[] = {0.5,0.5};
 						pos10[] = {0.774,0.77};
-					};
-					class ThrustVectoringRotation
-					{
-						type = "rotational";
-						source = "vtolvectoring";
-						sourceScale = 100;
-						center[] = {0.06,0.145};
-						min = 0;
-						max = 100;
-						minAngle = 0;
-						maxAngle = -90;
-						aspectRatio = 0.982906;
 					};							
 					class MissileFlightTimeRot1
 					{
@@ -1936,3 +1925,4 @@
 				};
 			};
 		};
+		

@@ -149,325 +149,399 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		count = 320;
 	};
 	
+	//
+	//	Firewills pylon overrides
+	//
+	class VehicleMagazine;
 	
-	
-	// Pelican pylon hardpoints
-	class FIR_AIM9X_P_2rnd_M;
-	class v105_AIM9X_P_2rnd_M: FIR_AIM9X_P_2rnd_M
+	class FIR_AIM9X_P_2rnd_M:VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore","105th_AntiAir"};
-		pylonWeapon="v105_FIR_AIM9X";
+		hardpoints[] = { "B_MISSILE_PYLON","FIR_A10C_AA_HP","FIR_BLUFOR_AA_HP",
+						 "FIR_BLUFOR_Combined_HP","FIR_MQ81_WEP_HP","B_MISSILE_PYLON","105th_AA_Missiles" };
+		pylonWeapon = "FIR_AIM9X";
 	};
-	class FIR_AIM120B_LAU115_P_1rnd_M;
-	class v105_AIM120B_LAU115_P_1rnd_M:FIR_AIM120B_LAU115_P_1rnd_M
+	class FIR_AIM9X_LAU115_P_2rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_AntiAir"};
-		pylonWeapon="v105_FIR_AIM120";
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","B_BIM9X_RAIL",
+						 "I_BIM9X_RAIL","105th_AA_Missiles" };
+		pylonWeapon = "FIR_AIM9X";			
+	};
+	class FIR_AIM120B_LAU115_P_1rnd_M: VehicleMagazine
+	{
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","B_BIM9X_RAIL",
+						 "I_BIM9X_RAIL","105th_AA_Missiles" };
+		pylonWeapon = "FIR_AIM120";
 	};
 	// AGM65s
-	class FIR_AGM65D_P_3rnd_M;
-	class v105_AGM65D_P_3rnd_M:FIR_AGM65D_P_3rnd_M
+	class FIR_AGM65D_P_3rnd_M: VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanMed","105th_Claymore","105th_Hornet"};
-		pylonWeapon="v105_FIR_AGM65";
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";
 	};
-	class FIR_AGM65B_P_3rnd_M;
-	class v105_AGM65B_P_3rnd_M:FIR_AGM65B_P_3rnd_M
+	class FIR_AGM65B_P_3rnd_M: VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanMed","105th_Claymore"};
-		pylonWeapon="v105_FIR_AGM65";
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";
 	};
-	class FIR_AGM65H_P_3rnd_M;
-	class v105_AGM65H_P_3rnd_M:FIR_AGM65H_P_3rnd_M
+	class FIR_AGM65H_P_3rnd_M: VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanMed","105th_Claymore"};
-		pylonWeapon="v105_FIR_AGM65";
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";
 		
 	};
-	class FIR_AGM65F_P_1rnd_M;
-	class v105_AGM65F_P_1rnd_M:FIR_AGM65F_P_1rnd_M
+	class FIR_AGM65F_P_1rnd_M: VehicleMagazine
 	{
-		displayName = "AGM-65F Maverick x1";
-		hardpoints[] = {"105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_AGM65";
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";
 	};
-	class v105_AGM65F_P_3rnd_M:FIR_AGM65F_P_1rnd_M
+	class FIR_AGM65G_P_1rnd_M : VehicleMagazine
 	{
-		displayName = "AGM-65F Maverick x3";
-		hardpoints[] = {"105th_PelicanMed"};
-		pylonWeapon="v105_FIR_AGM65";
-		count=3;
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";
+		
 	};
-	class FIR_AGM65G_P_1rnd_M;
-	class v105_AGM65G_P_1rnd_M:FIR_AGM65G_P_1rnd_M
+	class FIR_AGM65K_P_1rnd_M : VehicleMagazine
 	{
-		displayName = "AGM-65G Maverick x1";
-		hardpoints[] = {"105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_AGM65";
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";
+		
 	};
-	class v105_AGM65G_P_3rnd_M:FIR_AGM65G_P_1rnd_M
+	class FIR_AGM65E_P_1rnd_M : VehicleMagazine
 	{
-		displayName = "AGM-65G Maverick x3";
-		hardpoints[] = {"105th_PelicanMed"};
-		pylonWeapon="v105_FIR_AGM65";
-		count=3;
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";
+		
 	};
-	class FIR_AGM65K_P_1rnd_M;
-	class v105_AGM65K_P_1rnd_M:FIR_AGM65K_P_1rnd_M
+	class FIR_AGM65E2_P_1rnd_M : VehicleMagazine
 	{
-		displayName = "AGM-65K Maverick x1";
-		hardpoints[] = {"105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_AGM65";
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";
 	};
-	class v105_AGM65K_P_3rnd_M:FIR_AGM65K_P_1rnd_M
+	class FIR_AGM65L_P_1rnd_M : VehicleMagazine
 	{
-		displayName = "AGM-65K Maverick x3";
-		hardpoints[] = {"105th_PelicanMed"};
-		pylonWeapon="v105_FIR_AGM65";
-		count=3;
-	};
-	class FIR_AGM65E_P_1rnd_M;
-	class v105_AGM65E_P_1rnd_M:FIR_AGM65E_P_1rnd_M
-	{
-		displayName = "AGM-65E Maverick x1";
-		hardpoints[] = {"105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_AGM65";
-	};
-	class v105_AGM65E_P_3rnd_M:FIR_AGM65E_P_1rnd_M
-	{
-		displayName = "AGM-65E Maverick x3";
-		hardpoints[] = {"105th_PelicanMed"};
-		pylonWeapon="v105_FIR_AGM65";
-		count=3;
-	};
-	class FIR_AGM65E2_P_1rnd_M;
-	class v105_AGM65E2_P_1rnd_M:FIR_AGM65E2_P_1rnd_M
-	{
-		displayName = "AGM-65E2 Maverick x1";
-		hardpoints[] = {"105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_AGM65";
-	};
-	class v105_AGM65E2_P_3rnd_M:FIR_AGM65E2_P_1rnd_M
-	{
-		displayName = "AGM-65E2 Maverick x3";
-		hardpoints[] = {"105th_PelicanMed"};
-		pylonWeapon="v105_FIR_AGM65";
-		count=3;
-	};
-	class FIR_AGM65L_P_1rnd_M;
-	class v105_AGM65L_P_1rnd_M:FIR_AGM65L_P_1rnd_M
-	{
-		displayName = "AGM-65L Maverick x1";
-		hardpoints[] = {"105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_AGM65";
-	};
-	class v105_AGM65L_P_3rnd_M:FIR_AGM65L_P_1rnd_M
-	{
-		displayName = "AGM-65L Maverick x3";
-		hardpoints[] = {"105th_PelicanMed"};
-		pylonWeapon="v105_FIR_AGM65";
-		count=3;
+		hardpoints[] = { "FIR_EA18G_AA_HP","FIR_FA181E_AA_HP","FIR_F35B_Combined_HP",
+						 "FIR_FA18EF_Combined_HP","FIR_FA18_Combined_HP","105th_AG_Missiles"};
+		pylonWeapon = "FIR_AGM65";		
 	};
 	// ASM
-	class FIR_ASM2_P_1rnd_M;
-	class v105_ASM2_P_2rnd_M:FIR_ASM2_P_1rnd_M
+	class FIR_ASM2_P_1rnd_M : VehicleMagazine
 	{
-		displayName = "ASM-2 x2";
-		hardpoints[] = {"105th_PelicanMed"};
-		pylonWeapon="v105_FIR_ASM2";
-		count=2;
+		hardpoints[] = { "FIR_F2A_Combined_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","105th_AG_Missiles" };
+		pylonWeapon = "FIR_ASM2";
 	};
-	
-	
 	// HEDP 19
-	class FIR_Hydra_P_7rnd_M;
-	class v105_Hydra_P_7rnd_M:FIR_Hydra_P_7rnd_M
+	class FIR_Hydra_P_7rnd_M: VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","DAR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+				
 	};
-	class FIR_Hydra_P_19rnd_M;
-	class v105_Hydra_P_19rnd_M:FIR_Hydra_P_19rnd_M
+	class FIR_Hydra_P_19rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F2A_Combined_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP"};
+		pylonWeapon = "FIR_RKT_Launcher";		
 	};
-	// HEDP 38
-	class FIR_Hydra_P_38rnd_M;
-	class v105_Hydra_P_38rnd_M:FIR_Hydra_P_38rnd_M
+	class FIR_Hydra_LAU130_P_19rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
+		hardpoints[] = {"v105_UnguidedRockets",  "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};		
+	class FIR_Hydra_P_21rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};			
+	class FIR_Hydra_P_14rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};		
+	class FIR_Hydra_P_38rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};		
+	class FIR_CRV7_P_19rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets",  "FIR_AV8B_GR_AG_HP","FIR_F35B_Combined_HP","B_MISSILE_PYLON","I_AGM65_RAIL"};
+		pylonWeapon = "FIR_RKT_Launcher";		
 	};
-	// HE
-	class FIR_Hydra_M229_P_7rnd_M;
-	class v105_Hydra_M229_P_7rnd_M:FIR_Hydra_M229_P_7rnd_M
+	class FIR_Hydra_M229_P_7rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
+		hardpoints[] = {"v105_UnguidedRockets",  "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","DAR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};			
+	class FIR_Hydra_M229_P_19rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets",  "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};				
+	class FIR_Hydra_M229_P_14rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets",  "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};		
+	class FIR_Hydra_M229_P_38rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};			
+	class FIR_Hydra_M247_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets",  "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","DAR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};			
+	class FIR_Hydra_M247_P_19rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets",  "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};			
+	class  FIR_Hydra_M247_P_14rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};		
+	class  FIR_Hydra_M247_P_38rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};				
+	class FIR_Hydra_M257_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = { "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","DAR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};			
+	class FIR_Hydra_M261_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","DAR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};			
+	class FIR_Hydra_M261_P_19rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};			
+	class  FIR_Hydra_M261_P_14rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};		
+	class  FIR_Hydra_M261_P_38rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";	
+	};				
+	class FIR_Hydra_M282_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = { "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","DAR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};			
+	class FIR_Hydra_M282_P_19rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
+	};				
+	class  FIR_Hydra_M282_P_14rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};		
+	class  FIR_Hydra_M282_P_38rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};			
+	class FIR_Hydra_WDU4_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","DAR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
 	};
-	class FIR_Hydra_M229_P_19rnd_M;
-	class v105_Hydra_M229_P_19rnd_M:FIR_Hydra_M229_P_19rnd_M
+	class FIR_Hydra_WDU4_P_19rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL"};
+		pylonWeapon = "FIR_RKT_Launcher";			
+	};		
+	class  FIR_Hydra_WDU4_P_14rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";	
+	};		
+	class  FIR_Hydra_WDU4_P_38rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";
+	};				
+	class FIR_Hydra_WP_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";		
 	};
-	class FIR_Hydra_M229_P_38rnd_M;
-	class v105_Hydra_M229_P_38rnd_M:FIR_Hydra_M229_P_38rnd_M
+	class FIR_Hydra_WP_P_21rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_A10_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_RKT_Launcher";	
+	};	
+	// APKWS
+	class FIR_APKWS_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+		pylonWeapon = "FIR_APKWS_Launcher";
 	};
-	// HEAT
-	class FIR_Hydra_M247_P_7Rnd_M;
-	class v105_Hydra_M247_P_7Rnd_M: FIR_Hydra_M247_P_7Rnd_M
+	class FIR_APKWS_P_19rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
+	};		
+	class  FIR_APKWS_P_14rnd_M : VehicleMagazine
+	{
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
+	};		
+	class  FIR_APKWS_P_38rnd_M : VehicleMagazine
+	{
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
+	};					
+	class FIR_APKWS_M247_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
 	};
-	class FIR_Hydra_M247_P_19rnd_M;
-	class v105_Hydra_M247_P_19rnd_M:FIR_Hydra_M247_P_19rnd_M
+	class FIR_APKWS_M247_P_19rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
+	};		
+	class  FIR_APKWS_M247_P_14rnd_M : VehicleMagazine
+	{
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
+	};		
+	class  FIR_APKWS_M247_P_38rnd_M : VehicleMagazine
+	{
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
+	};					
+	class FIR_APKWS_M282_P_7rnd_M : VehicleMagazine
+	{
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
 	};
-	class FIR_Hydra_M247_P_38rnd_M;
-	class v105_Hydra_M247_P_38rnd_M:FIR_Hydra_M247_P_38rnd_M
+	class FIR_APKWS_M282_P_19rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	// Penetrator
-	class FIR_Hydra_M282_P_7rnd_M;
-	class v105_FIR_Hydra_M282_P_7rnd_M:FIR_Hydra_M282_P_7rnd_M
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
+	};			
+	class  FIR_APKWS_M282_P_14rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	
-	class FIR_Hydra_M282_P_19rnd_M;
-	class v105_Hydra_M282_P_19rnd_M:FIR_Hydra_M282_P_19rnd_M
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
+	};		
+	class  FIR_APKWS_M282_P_38rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	class FIR_Hydra_M282_P_38rnd_M;
-	class v105_Hydra_M282_P_38rnd_M:FIR_Hydra_M282_P_38rnd_M
-	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	// APERS
-	class FIR_Hydra_WDU4_P_7rnd_M;
-	class v105_FIR_Hydra_WDU4_P_7rnd_M:FIR_Hydra_WDU4_P_7rnd_M
-	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	class FIR_Hydra_WDU4_P_19rnd_M;
-	class v105_Hydra_WDU4_P_19rnd_M:FIR_Hydra_WDU4_P_19rnd_M
-	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	class FIR_Hydra_WDU4_P_38rnd_M;
-	class v105_Hydra_WDU4_P_38rnd_M:FIR_Hydra_WDU4_P_38rnd_M
-	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	// MPSM
-	class FIR_Hydra_M261_P_7rnd_M;
-	class v105_Hydra_M261_P_7rnd_M:FIR_Hydra_M261_P_7rnd_M
-	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	class FIR_Hydra_M261_P_19rnd_M;
-	class v105_Hydra_M261_P_19rnd_M:FIR_Hydra_M261_P_19rnd_M
-	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	class FIR_Hydra_M261_P_38rnd_M;
-	class v105_Hydra_M261_P_38rnd_M:FIR_Hydra_M261_P_38rnd_M
-	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	//WP
-	class FIR_Hydra_WP_P_7rnd_M;
-	class v105_Hydra_WP_P_7rnd_M:FIR_Hydra_WP_P_7rnd_M
-	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	};
-	class FIR_Hydra_WP_P_21rnd_M;
-	class v105_Hydra_WP_P_21rnd_M:FIR_Hydra_WP_P_21rnd_M
-	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_RKT_Launcher";
-	}; 
-	// APKWS HEDP
-	class FIR_APKWS_P_19rnd_M;
-	class v105_APKWS_P_19rnd_M:FIR_APKWS_P_19rnd_M
-	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_APKWS_Launcher";
-	};
-	class FIR_APKWS_P_38rnd_M;
-	class v105_APKWS_P_38rnd_M: FIR_APKWS_P_38rnd_M
-	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
-		pylonWeapon="v105_FIR_APKWS_Launcher";
-	};
-	// APKWS HEAT
-	class FIR_APKWS_M247_P_19rnd_M;
-	class v105_APKWS_M247_P_19rnd_M:FIR_APKWS_M247_P_19rnd_M
-	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_APKWS_Launcher";
-	};
-	class FIR_APKWS_M247_P_38rnd_M;
-	class v105_APKWS_M247_P_38rnd_M:FIR_APKWS_M247_P_38rnd_M
-	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
-		pylonWeapon="v105_FIR_APKWS_Launcher";
-	};
-	// APKWS Penetrators
-	class FIR_APKWS_M282_P_19rnd_M;
-	class v105_APKWS_M282_P_19rnd_M:FIR_APKWS_M282_P_19rnd_M
-	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_APKWS_Launcher";
-	};
-	class FIR_APKWS_M282_P_38rnd_M;
-	class v105_APKWS_M282_P_38rnd_M:FIR_APKWS_M282_P_38rnd_M
-	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore"};
-		pylonWeapon="v105_FIR_APKWS_Launcher";
+		hardpoints[] = 
+					{
+						"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", 
+						"B_BOMB_PYLON","FIR_A10C_BOMB_HP","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP",
+						"FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP",
+						"DAGR","RHS_HP_FFAR_ARMY","RHS_HP_FFAR_USMC","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" 
+					};
+					pylonWeapon = "FIR_APKWS_Launcher";		
 	};
 	// Zuni HE
-	class FIR_Zuni_P_8rnd_M;
-	class v105_Zuni_P_8rnd_M:FIR_Zuni_P_8rnd_M
+	class FIR_Zuni_P_8rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_PelicanLite","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_Zuni_Launcher";
-	};
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_Zuni_Launcher";
+	};	
 	// Zuni HEAT
-	class FIR_Zuni_Mk32_P_8rnd_M;
-	class v105_Zuni_Mk32_P_8rnd_M:FIR_Zuni_Mk32_P_8rnd_M
+	class FIR_Zuni_Mk32_P_8rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanUnguided","105th_PelicanLite","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_Zuni_Launcher";
+		hardpoints[] = {"v105_UnguidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_Zuni_Launcher";
 	};
 	// Laser Zuni HE
-	class FIR_LZuni_P_8rnd_M;
-	class v105_LZuni_P_8rnd_M:FIR_LZuni_P_8rnd_M
+	class FIR_LZuni_P_8rnd_M : VehicleMagazine
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Hornet","105th_Claymore"};
-		pylonWeapon="v105_FIR_LZuni_Launcher";
-	};
+		hardpoints[] = {"v105_GuidedRockets", "FIR_F16_Combined_HP", "FIR_F16_AG_HP","FIR_FA18EF_Combined_HP", "B_BOMB_PYLON","FIR_AV8B_AG_HP","FIR_SH_AG_HP","FIR_BLUFOR_AG_HP","FIR_BLUFOR_Combined_HP","FIR_FA181E_AG_HP","FIR_F35B_Combined_HP","FIR_FA18_Combined_HP","B_MISSILE_PYLON","B_AGM65_RAIL","I_AGM65_RAIL" };
+		pylonWeapon = "FIR_LZuni_Launcher";
+	};		
 	
 	// ECM Jammer
 	class FIR_ALQ99_P_1rnd_M;
@@ -631,20 +705,20 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K:PylonRack_3Rnd_ACE_Hellfire_AGM114K
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_FIR_AGM65";
+		pylonWeapon = "v105_ace_hellfire_launcher";
 	};
 	
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114N;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N:PylonRack_3Rnd_ACE_Hellfire_AGM114N
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_FIR_AGM65";
+		pylonWeapon = "v105_ace_hellfire_launcher";
 	};
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114L;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L:PylonRack_3Rnd_ACE_Hellfire_AGM114L
 	{
 		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
-		pylonWeapon = "v105_FIR_AGM65";
+		pylonWeapon = "v105_ace_hellfire_launcher";
 	};
 	class OPTRE_16Rnd_Anvil1_missiles;
 	class OPTRE_16Rnd_AnvilSMK_W_missiles: OPTRE_16Rnd_Anvil1_missiles

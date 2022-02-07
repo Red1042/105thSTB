@@ -475,7 +475,7 @@ class CfgAmmo
     {
         model="\OPTRE_Weapons\explosives\m9_grenade.p3d";
 		hit=25;
-		indirectHit=35;
+		indirectHit=15;
 		indirectHitRange=12;
 		visibleFire=0.5;
 		audibleFire=0.050000001;

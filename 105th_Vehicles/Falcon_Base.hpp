@@ -633,7 +633,9 @@
 			"1000Rnd_20mm_shells",
 			"168Rnd_CMFlare_Chaff_Magazine"
 		};
-        class FullAirbrakeEngageFast
+        class UserActions
+        {
+            class FullAirbrakeEngageFast
 			{
 				animPeriod=5;
 				condition="(player == driver this) AND (alive this) AND ((speed this) > 100)";
@@ -696,7 +698,8 @@
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
 				
 				userActionID=53;
-			}; 
+			};  
+        };
     };
 /*
     class v105_UH144S_JLonger_ARC:v105_UH144S_ARC
