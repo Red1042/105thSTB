@@ -30,7 +30,7 @@
 		};
 	};
 
-	class 105th_Black_Boonie : OPTRE_h_Booniehat_Grey
+	class 105th_Black_Boonie : H_Booniehat_khk_hs
 	{
 		scope=2;
 		author="N-4 Logistics";

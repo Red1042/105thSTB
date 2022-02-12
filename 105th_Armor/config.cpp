@@ -67,7 +67,7 @@ class CfgWeapons
 	class VES_BDU_MulticamBlack;
 
 	//Hats
-	class OPTRE_h_Booniehat_Grey;
+	class H_Booniehat_khk_hs;
 	class OPTRE_PatrolCap_Navy;
 	class OPTRE_UNSC_PatrolCap_Army;
 	class OPTRE_UNSC_Dress_Hat;
