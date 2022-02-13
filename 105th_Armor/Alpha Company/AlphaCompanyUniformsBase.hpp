@@ -91,3 +91,21 @@
 		};
 		uniformclass="r105th_ODST";
 	};
+	class v105_BDU_Custom_WMARPAT_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT_CO.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT_CO.paa"
+		};
+		uniformclass="r105th_ODST";
+	};
+		class v105_BDU_Custom_M81_CO: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81_CO.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81_CO.paa"
+		};
+		uniformclass="r105th_ODST";
+	};

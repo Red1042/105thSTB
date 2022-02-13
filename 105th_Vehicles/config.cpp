@@ -499,5 +499,15 @@ class cfgVehicles
 		ace_cargo_space = 4;
 		ace_cargo_hasCargo = 1;
 	};
-	
+	class LM_OPCAN_M808_MC_WDL;
+	class LM_OPCAN_HOW_M808_MC_WDL: LM_OPCAN_M808_MC_WDL
+	{
+		displayName="M808 Scorpion";
+		editorCategory="HOW_EdCat_105th";
+		editorSubcategory="HOW_105th_EdSubCat_Armor";
+		fuelCapacity=300;
+
+	};
+
+
 };

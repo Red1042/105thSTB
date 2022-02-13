@@ -1,6 +1,6 @@
 
 //	Inital Commit
-
+	
 	class v105_uniform_JungleCam: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
@@ -42,8 +42,36 @@
 			uniformClass="v105_BDU_Desert";
 		};
 	};
+	
+	class v105_uniform_WMARPAT_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (MARPAT-WDL)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_Custom_WMARPAT_CO";
+		};
+	};
+	class v105_uniform_M81_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (M81)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply200";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_Custom_M81_CO";
+		};
+	};
+	
 
-/*
+
 	
 	class v105_uniform_ATACSG_CO: VES_BDU_Evolved_Slim
 	{
@@ -71,6 +99,7 @@
 			uniformClass="v105_BDU_EMRSummer_CO";
 		};
 	};
+
 	class v105_uniform_KLMK_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
@@ -97,9 +126,8 @@
 			uniformClass="v105_BDU_PartizanS_CO";
 		};
 	};
-	*/
 	
-	/*class v105_uniform_DigiDesert_CO: VES_BDU_Evolved_Slim
+	class v105_uniform_DigiDesert_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
 		displayName="[105th] Combat Uniform (Dig-DES)";
@@ -111,8 +139,9 @@
 			uniformModel="";
 			uniformClass="v105_BDU_DigiDesert";
 		};
-	};*/
-/*	class v105_uniform_mixedUrban_CO: VES_BDU_Evolved_Slim
+	};
+
+	class v105_uniform_mixedUrban_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
 		displayName="[Test] Combat Uniform (Mixed Urban)";
