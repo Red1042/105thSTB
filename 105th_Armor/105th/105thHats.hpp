@@ -29,6 +29,17 @@
 			"105th_Armor\105th\data\Hats\v105_cap_TwoForFlinching.paa"
 		};
 	};
+
+	class 105th_Black_Boonie : H_Booniehat_khk_hs
+	{
+		scope=2;
+		author="N-4 Logistics";
+		displayName="[105th] Boonie hat (Black)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\105th\data\Hats\booniehat_sno_co.paa"
+		};
+	};
 	
 /*
 	ODST Hats
