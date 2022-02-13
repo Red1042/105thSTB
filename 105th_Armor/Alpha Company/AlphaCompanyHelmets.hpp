@@ -94,16 +94,7 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
-	class ACOMP_NCO_JHoward_MAR: VES_CH252_MAR_Vacuum
-	{
-		author="Varner, N-4 Logistics";
-		displayName="[VC-497] ECH252 Helmet (Howard)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Alpha Company\data\Helmets\JHow_CH252_MAR_CO.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
-		};
-	};
+	
 	class ACOMP_NCO_MED_CMcDaniel_MAR: VES_CH252_MAR_Vacuum
 	{
 		scope=2;
@@ -138,15 +129,7 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
-	class ACOMP_SMisaria_MAR:VES_CH252_MAR_Vacuum
-	{
-		author="Sturm";
-		displayName="[105th] ECH252 Helmet (Misaria)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Alpha Company\data\Helmets\SMis_CH252_MAR_CO.paa"
-		};
-	};
+	
 	class ACOMP_NCO_CCarranza_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="Sturm";
@@ -285,6 +268,7 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
 		};
 	};
+	/* Hid on 2/13/22 Because Vargas is an ODST
 	class ACOMP_NCO_JVargas_MAR: VES_CH252_MAR_Vacuum
 	{
 		scope=1;
@@ -296,6 +280,8 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	*/
+	
 	class ACOMP_NCO_ADunlop_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
@@ -306,6 +292,7 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	
 	class ACOMP_NCO_KKolt_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
@@ -367,6 +354,7 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	/* Hid on 2/13/22 because Coleman ODST now
 	class ACOMP_NCO_WColeman_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
@@ -377,6 +365,7 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	*/
 	class ACOMP_NCO_LHiggins_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
@@ -394,6 +383,16 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\Alpha Company\data\Helmets\MHoe_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
+	class ACOMP_NCO_BCraig_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Craig)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\BCra_CH252_MAR_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};

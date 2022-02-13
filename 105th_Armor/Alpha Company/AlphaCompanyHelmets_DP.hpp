@@ -141,16 +141,7 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class ACOMP_SMisaria_MAR_dp:VES_CH252_MAR_Vacuum_dp
-	{
-		author="Sturm";
-		displayName="[105th]Marine Helmet (Misaria)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Alpha Company\data\Helmets\SMis_CH252_MAR_CO.paa",
-            "optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
+	
 	class ACOMP_NCO_CCarranza_MAR_dp: VES_CH252_MAR_Vacuum_dp
 	{
 		author="Sturm";

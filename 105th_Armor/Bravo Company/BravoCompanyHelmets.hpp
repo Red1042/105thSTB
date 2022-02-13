@@ -84,6 +84,8 @@
 		};
 	};
 
+// Update 2/13/22 Hid Craig's helmet because he's in 2nd platoon now.
+/*
 	class BCOMP_ELEAD_BCraig_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -94,7 +96,7 @@
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
 	};
-
+*/
 	class BCOMP_DEMO_MSevarach_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -105,7 +107,7 @@
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
 	};
-
+	/*
 	class BCOMP_RES_JAdams_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -116,6 +118,7 @@
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	*/
 	class BCOMP_MSL_KBulck_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
