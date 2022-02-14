@@ -114,6 +114,8 @@ class CfgWeapons
 
 	// Hats
 	#include "105th\105thHats.hpp"
+	//Nightvision
+	#include "105th\105thNightVision.hpp"
 };
 
 class CfgVehicles
@@ -149,6 +151,11 @@ class CfgVehicles
 	//Bravo Uniforms Base
 	#include "Bravo Company\BravoCompanyUniformsBase.hpp"
 
+};
+class cfgGlasses
+{
+	//105th Facewear
+	#include "105th\105thFacewear.hpp"
 };
 class cfgMods
 {
