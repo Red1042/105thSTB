@@ -18,7 +18,8 @@ class CfgPatches
 			"V_FZ_Core",
 			"OPTRE_UNSC_Units_Army",
 			"OPTRE_Weapons",
-			"OPTRE_Weapons_Backpacks"
+			"OPTRE_Weapons_Backpacks",
+			"LM_OPCAN_UNSC"
 		};
 	};
 };
