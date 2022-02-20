@@ -11,5 +11,5 @@ class OPTRE_B_8Gauge_Tungsten_Buckshot;
 		triggerSpeedCoef=1;
 		lightColor[]={0.94999999,0.94999999,1,0.5};
 		smokeColor[]={1,1,1,0.5};
-		intensity=1750000;
+		intensity=5000000;
 	};
