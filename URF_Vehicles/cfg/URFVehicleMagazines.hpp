@@ -44,3 +44,14 @@
 		count						= 30;
 		ammo						="OPTRE_B_8Gauge_Tungsten_Buckshot";
 	};
+	//Artillery Flares
+	class 6Rnd_155mm_Mo_smoke;
+	class v105_URF_6Rnd_155mm_Mo_Flare:6Rnd_155mm_Mo_smoke
+	{
+		author="N-4 Logistics";
+		count=6;
+		displayName="155mm Flare - White";
+		displayNameShort="Flare - White";
+		displayNameMFDFormat="FLARE";
+		ammo="v105_Flare_155mm_AMOS_White";
+	};

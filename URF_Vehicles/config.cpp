@@ -47,7 +47,9 @@ class CfgPatches
 			//Stalker II
 			"HOW_URF_75mm_Chaingun",
 			//Otokar
-			"HOW_URF_launcher_SPG9"
+			"HOW_URF_launcher_SPG9",
+			//Artillery
+			"v105_URF_mortar_155mm_AMOS"
 		};
 		magazines[] = 
 		{
@@ -57,6 +59,8 @@ class CfgPatches
 			"HOW_40Rnd_75mm_AP",
 			//Otokar
 			"HOW_15Rnd_50x137_HEAT",
+			//Flare
+			"v105_URF_6Rnd_155mm_Mo_Flare"
 			
 		};
 		ammo[] = {};
