@@ -41,7 +41,7 @@ class HOW_URF_MBT_Sochor: O_MBT_02_arty_F
 				};
 				weapons[]=
 				{
-					"mortar_155mm_AMOS"
+					"v105_URF_mortar_155mm_AMOS"
 				};
 				magazines[]=
 				{
@@ -51,7 +51,9 @@ class HOW_URF_MBT_Sochor: O_MBT_02_arty_F
 					"6Rnd_155mm_Mo_smoke_O",
 					"6Rnd_155mm_Mo_smoke_O",
 					"6Rnd_155mm_Mo_smoke_O",
-					"6Rnd_155mm_Mo_smoke_O"
+					"6Rnd_155mm_Mo_smoke_O",
+					"v105_URF_6Rnd_155mm_Mo_Flare",
+					"v105_URF_6Rnd_155mm_Mo_Flare"
 					
 				};
 			};

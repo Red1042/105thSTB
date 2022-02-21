@@ -198,4 +198,30 @@
 		};
 	};
 	
-	
+	class mortar_155mm_AMOS;
+	class v105_URF_mortar_155mm_AMOS:mortar_155mm_AMOS
+	{
+
+		magazines[]=
+		{
+			"32Rnd_155mm_Mo_shells",
+			"32Rnd_155mm_Mo_shells_O",
+			"6Rnd_155mm_Mo_smoke",
+			"6Rnd_155mm_Mo_smoke_O",
+			"2Rnd_155mm_Mo_guided",
+			"4Rnd_155mm_Mo_guided",
+			"4Rnd_155mm_Mo_guided_O",
+			"2Rnd_155mm_Mo_LG",
+			"4Rnd_155mm_Mo_LG",
+			"4Rnd_155mm_Mo_LG_O",
+			"6Rnd_155mm_Mo_mine",
+			"6Rnd_155mm_Mo_mine_O",
+			"2Rnd_155mm_Mo_Cluster",
+			"2Rnd_155mm_Mo_Cluster_O",
+			"6Rnd_155mm_Mo_AT_mine",
+			"6Rnd_155mm_Mo_AT_mine_O",
+			//Howard's super cool blinder flares that'll make people upsettispaghetti
+			"v105_URF_6Rnd_155mm_Mo_Flare"
+
+		};
+	};

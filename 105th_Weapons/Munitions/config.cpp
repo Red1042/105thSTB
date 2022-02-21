@@ -459,8 +459,8 @@ class CfgAmmo
     class v105_Whistler_40mm_HE:G_40mm_HE 
 	{
         hit=    30;
-        indirectHit=    40;
-		indirectHitRange=   12;
+        indirectHit=    15;
+		indirectHitRange=   10;
 		whistleDist=400;
 		whistleOnFire=1;
 		soundFly[]=
@@ -505,14 +505,12 @@ class CfgAmmo
 };
 class cfgMagazineWells
 {
-	class CBA_40mm_M203
+	class UGL_40x36
 	{
-		v105_grenades[]=
+		ADDONS[]=
 		{
 			"v105_Whistler_Grenade",
-			/*"3Rnd_UGL_8Gauge_Pellets",
-			"3Rnd_UGL_8Gauge_Slugs",
-			"3Rnd_UGL_8Gauge_Beanbags"*/
+			
 		};
 	};
 };

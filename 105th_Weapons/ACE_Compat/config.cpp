@@ -258,26 +258,31 @@ class CfgWeapons
 	class mk20_base_F;
 	class arifle_Mk20_F: mk20_base_F
 	{
+        ace_overheating_closedBolt = 0;
 		class WeaponSlotsInfo;
 	};
 	class EBR_base_F;
 	class srifle_EBR_F: EBR_base_F
 	{
+        ace_overheating_closedBolt = 0;
 		class WeaponSlotsInfo;
 	};
 	class Rifle_Long_Base_F;
 	class LMG_Mk200_F: Rifle_Long_Base_F
 	{
+        ace_overheating_closedBolt = 0;
 		class WeaponSlotsInfo;
 	};
 	class SMG_01_Base;
 	class SMG_01_F: SMG_01_Base
 	{
+        ace_overheating_closedBolt = 0;
 		class WeaponSlotsInfo;
 	};
 	class Pistol_Base_F;
 	class hgun_Pistol_heavy_01_F: Pistol_Base_F
 	{
+        ace_overheating_closedBolt = 0;
 		class WeaponSlotsInfo;
 	};
 	class Launcher_Base_F;
