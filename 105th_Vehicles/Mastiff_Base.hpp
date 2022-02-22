@@ -13,7 +13,7 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
     side=1;
     scope = 2;
     scopeCurator = 2;
-    displayName = "APC-14 Mastiff";
+    displayName = "M18 Mastiff";
     editorCategory = "HOW_EdCat_105th";
     editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
     crew = "VES_Rifleman_MA5B_MAR";
@@ -22,8 +22,11 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
     tf_isolatedAmount = 0.65;
     tf_range = 10000;
     TFAR_hasIntercom = 1;
-    transportSoldier=8;
-
+    transportSoldier=12;
+    class TransportItems
+		{
+			#include "cfg\VehicleGearMedium.hpp"
+		};
     class Turrets:Turrets
     {
         class MainTurret: MainTurret
@@ -57,28 +60,12 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
             {
                 "A3\Armor_F_Beta\APC_Tracked_01\Data\APC_Tracked_01_body_CO.paa",
                 "A3\Armor_F_Beta\APC_Tracked_01\Data\mbt_01_body_co.paa",
-                "a3\data_f\vehicles\turret_co.paa",
-                "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
-            };
-            factions[]=
-            {
-                "BLU_F"
-            };
-        };
-        class Olive
-        {
-            displayName="$STR_A3_TEXTURESOURCES_OLIVE0";
-            author="$STR_A3_Bohemia_Interactive";
-            textures[]=
-            {
-                "A3\Armor_F_exp\APC_Tracked_01\Data\APC_Tracked_01_body_olive_CO.paa",
-                "A3\Armor_F_exp\APC_Tracked_01\Data\mbt_01_body_olive_co.paa",
-                "A3\Data_F_Exp\Vehicles\Turret_olive_CO.paa",
+                "105th_Vehicles\Textures\Stag\v105_Stag_Turret.paa",
                 "a3\Armor_F\Data\camonet_NATO_Green_CO.paa"
             };
             factions[]=
             {
-                "BLU_T_F"
+                "BLU_F"
             };
         };
     };
