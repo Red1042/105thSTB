@@ -1,19 +1,6 @@
 
 //	Inital Commit
-	
-	class v105_uniform_JungleCam: VES_BDU_Evolved_Slim
-	{
-		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (Jungle)";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply150";
-			mass=40;
-			uniformType="Neopren";
-			uniformModel="";
-			uniformClass="v105_BDU_JungleCam";
-		};
-	};
+
 	
 	class v105_uniform_DigiWoodland_CO: VES_BDU_Evolved_Slim
 	{
@@ -29,19 +16,7 @@
 		};
 	};
 	
-		class v105_uniform_Desert_CO: VES_BDU_Evolved_Slim
-	{
-		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (DES)";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply150";
-			mass=40;
-			uniformType="Neopren";
-			uniformModel="";
-			uniformClass="v105_BDU_Desert";
-		};
-	};
+	
 	
 	class v105_uniform_WMARPAT_CO: VES_BDU_Evolved_Slim
 	{
@@ -71,8 +46,36 @@
 	};
 	
 
-
+/*
 	
+	class v105_uniform_JungleCam: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (Jungle)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_JungleCam";
+		};
+	};
+	
+	class v105_uniform_Desert_CO: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (DES)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_Desert";
+		};
+	};
+
 	class v105_uniform_ATACSG_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
@@ -86,6 +89,7 @@
 			uniformClass="v105_BDU_ATACSG_CO";
 		};
 	};
+
 	class v105_uniform_EMRSummer_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
@@ -127,19 +131,6 @@
 		};
 	};
 	
-	class v105_uniform_DigiDesert_CO: VES_BDU_Evolved_Slim
-	{
-		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (Dig-DES)";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply150";
-			mass=40;
-			uniformType="Neopren";
-			uniformModel="";
-			uniformClass="v105_BDU_DigiDesert";
-		};
-	};
 
 	class v105_uniform_mixedUrban_CO: VES_BDU_Evolved_Slim
 	{
@@ -167,3 +158,4 @@
 			uniformClass="v105_BDU_Custom_ERDLTropic_CO";
 		};
 	};
+*/

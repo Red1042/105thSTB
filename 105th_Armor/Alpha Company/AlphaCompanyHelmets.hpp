@@ -392,7 +392,7 @@
 		displayName="[105th] ECH252 Helmet (Craig)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Alpha Company\data\Helmets\BCra_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\2PLTHelmets\BCra_CH252_MAR_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
