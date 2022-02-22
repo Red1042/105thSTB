@@ -201,7 +201,6 @@
 	class mortar_155mm_AMOS;
 	class v105_URF_mortar_155mm_AMOS:mortar_155mm_AMOS
 	{
-
 		magazines[]=
 		{
 			"32Rnd_155mm_Mo_shells",
@@ -223,5 +222,14 @@
 			//Howard's super cool blinder flares that'll make people upsettispaghetti
 			"v105_URF_6Rnd_155mm_Mo_Flare"
 
+		};
+	};
+
+	class UGL_F;
+	class v105_Drone_UGL_F:UGL_F
+	{
+		magazines[]=
+		{
+			"v105_URF_Drone_Grenade"
 		};
 	};

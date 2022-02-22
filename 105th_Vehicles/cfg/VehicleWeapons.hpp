@@ -38,6 +38,26 @@
 					dispersion=0.00025;
 				};
 			};
+			class HMG_127_APC;
+			class v105_HMG_127_APC:HMG_127_APC
+			{
+				displayName = "MAG 14.5mm";
+				displayNameShort = "14.5x114mm";
+				magazines[]=
+				{
+					"v105_200Rnd_145x114_Red_Belt"
+				};
+				magazineReloadTime = 4.0;
+			};
+			class GMG_40mm;
+			class v105_GMG_40mm:GMG_40mm
+			{
+				magazines[]=
+				{
+					"v105_96Rnd_40mm_G_belt_WSMK",
+					"96Rnd_40mm_G_belt"
+				};
+			};
 			
 	class cannon_20mm;
 	class HOW_cannon_20mm : cannon_20mm
@@ -156,7 +176,7 @@
 				FCSZeroingDelay=1;
 				ace_overpressure_angle = 30;  // Cone in which the damage is applied (in degrees from the muzzle of the cannon)
         ace_overpressure_range = 10;  // Range in meters in which the damage is applied
-        ace_overpressure_damage = 0.45;  // Damage multiplier
+        ace_overpressure_damage = 0.1;  // Damage multiplier
 				magazines[]=
 					{
 						"32Rnd_120mm_APFSDS_shells",
@@ -200,7 +220,7 @@
 				FCSZeroingDelay=1;
 				ace_overpressure_angle = 30;  // Cone in which the damage is applied (in degrees from the muzzle of the cannon)
         ace_overpressure_range = 10;  // Range in meters in which the damage is applied
-        ace_overpressure_damage = 0.45;  // Damage multiplier
+        ace_overpressure_damage = 0.1;  // Damage multiplier
 				magazines[]=
 					{
 						"20Rnd_120mm_HEAT_MP",
@@ -555,7 +575,7 @@
 
 
 	// Falcon GL
-	class GMG_40mm;
+	
 	class v105_FalconGL : GMG_40mm
 	{
 			displayName = "82mm Automatic Mortar";

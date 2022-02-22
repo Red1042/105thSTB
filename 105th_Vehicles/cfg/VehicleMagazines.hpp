@@ -118,6 +118,28 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		descriptionShort			= "";
 		tracersEvery				= 1;
 	};
+	class v105_200Rnd_145x114_Red_Belt:HOW_1200Rnd_145x114_Red_Belt
+	{
+		initspeed 					= 500;
+		count						= 200;
+		ammo						="OPTRE_B_145x114_APFSDST";
+		displayname 				= "14.5 APFSDS";
+		displaynameshort 			= "";
+		descriptionShort			= "";
+		tracersEvery				= 1;
+	};
+	class 96Rnd_40mm_G_belt;
+	class v105_96Rnd_40mm_G_belt_WSMK:96Rnd_40mm_G_belt
+	{
+		displayname 				= "Impact Smoke / White";
+		ammo 						= "OPTRE_40mm_Smoke";
+	};
+	class 24Rnd_40mm_Flash:v105_96Rnd_40mm_G_belt_WSMK
+	{
+		displayname 				= "Flashbang";
+		ammo 						= "";
+		count						= 24;
+	};
 	//FALCON GL
 	class 8Rnd_82mm_Mo_shells;
 	class HOW_50Rnd_82mm_shells: 8Rnd_82mm_Mo_shells
