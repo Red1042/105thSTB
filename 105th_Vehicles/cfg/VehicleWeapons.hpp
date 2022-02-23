@@ -47,11 +47,12 @@
 				{
 					"v105_200Rnd_145x114_Red_Belt"
 				};
-				magazineReloadTime = 4.0;
+				magazineReloadTime = 2.0;
 			};
 			class GMG_40mm;
 			class v105_GMG_40mm:GMG_40mm
 			{
+				magazineReloadTime = 4.0;
 				magazines[]=
 				{
 					"v105_96Rnd_40mm_G_belt_WSMK",
@@ -622,6 +623,7 @@
 				};
 			};
 			// Light Weaponry
+			
 			class FIR_AIM9X;
 			class v105_FIR_AIM9X:FIR_AIM9X
 			{
@@ -814,5 +816,6 @@
 					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L"
 				};
 			};
+			
 		
 			

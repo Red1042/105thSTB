@@ -49,24 +49,11 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
 				};
         };
     };
-    
-    class TextureSources
+    hiddenSelectionsTextures[]=
     {
-        class Sand
-        {
-            displayName="$STR_A3_TextureSources_Sand0";
-            author="$STR_A3_Bohemia_Interactive";
-            textures[]=
-            {
-                "A3\Armor_F_Beta\APC_Tracked_01\Data\APC_Tracked_01_body_CO.paa",
-                "A3\Armor_F_Beta\APC_Tracked_01\Data\mbt_01_body_co.paa",
-                "105th_Vehicles\Textures\Stag\v105_Stag_Turret.paa",
-                "a3\Armor_F\Data\camonet_NATO_Green_CO.paa"
-            };
-            factions[]=
-            {
-                "BLU_F"
-            };
-        };
+        "A3\Armor_F_Beta\APC_Tracked_01\Data\APC_Tracked_01_body_CO.paa",
+            "A3\Armor_F_Beta\APC_Tracked_01\Data\mbt_01_body_co.paa",
+            "105th_Vehicles\Textures\Stag\v105_Stag_Turret.paa",
+            "a3\Armor_F\Data\camonet_NATO_Green_CO.paa"
     };
 };

@@ -132,9 +132,11 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_96Rnd_40mm_G_belt_WSMK:96Rnd_40mm_G_belt
 	{
 		displayname 				= "Impact Smoke / White";
+		displaynameshort 			= "White SMK";
+		descriptionShort			= "White SMK";
 		ammo 						= "OPTRE_40mm_Smoke";
 	};
-	class 24Rnd_40mm_Flash:v105_96Rnd_40mm_G_belt_WSMK
+	class v105_24Rnd_40mm_Flash:v105_96Rnd_40mm_G_belt_WSMK
 	{
 		displayname 				= "Flashbang";
 		ammo 						= "";
