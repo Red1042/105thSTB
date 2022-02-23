@@ -3,17 +3,6 @@
 	If you are wanting to modify this I'd suggest talking to Bman
 */
 
-		class r105_mar_dresshat: OPTRE_UNSC_Dress_Hat
-	{
-		author="Bman";
-        displayName="[105th] Dress Hat";
-        hiddenSelections[] = {"camo1"};
-        hiddenSelectionsTextures[]=
-        {
-            "105th_Armor\data\Marine Uniforms\dress_hat_mar.paa"
-        };
-	};
-
 		class r105_mar_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
 	{ 
 		author="Bman";
@@ -475,17 +464,6 @@
 	};
 	
 //AVIATION UNIFORMS ==========================================================
-
-		class r105_vc497_dresshat: OPTRE_UNSC_Dress_Hat
-	{
-		author="Bman";
-        displayName="[VC-497] Dress Hat";
-        hiddenSelections[] = {"camo1"};
-        hiddenSelectionsTextures[]=
-        {
-            "105th_Armor\data\VC497 Uniforms\dress_hat_vc497.paa"
-        };
-	};
 
 		class r105_vc497_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
 	{ 
