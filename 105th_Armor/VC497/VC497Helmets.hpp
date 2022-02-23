@@ -106,7 +106,7 @@
 		displayName="[VC-497] ECH252 Helmet (Howard)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\VC497\data\Helmets\JHow_CH252_MAR_CO.paa",
+			"105th_Armor\VC497\data\Helmets\JHow_CH252_URB_Blk.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};

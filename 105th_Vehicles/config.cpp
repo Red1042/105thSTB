@@ -83,7 +83,9 @@ class CfgPatches
 		"v105_UGV_STAG_ATGM",
 		"v105_UCAV_Sentinel",
 		//Stork
-		"v105_Stork_Armed"
+		"v105_Stork_Armed",
+		//Namer
+		"v105_M18_Mastiff"
 		
 		};
 		weapons[] = 
@@ -460,6 +462,7 @@ class cfgVehicles
 	#include "UGVStomper_Base.hpp"
 	#include "Sentinel_Base.hpp"
 	#include "Sholef.hpp"
+	#include "Mastiff_Base.hpp"
 	//#include "Blackfish_Gunship_Base.hpp"
 	//
 	// 		SDV

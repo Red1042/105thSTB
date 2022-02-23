@@ -55,3 +55,9 @@
 		displayNameMFDFormat="FLARE";
 		ammo="v105_Flare_155mm_AMOS_White";
 	};
+	class OPTRE_M9_Frag;
+	class v105_URF_Drone_Grenade:OPTRE_M9_Frag
+	{	
+		hardpoints[]={"v105_Drones"};
+		pylonWeapon = "v105_Drone_UGL_F";
+	};

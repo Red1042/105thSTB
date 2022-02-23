@@ -38,7 +38,9 @@ class CfgPatches
 			"v105_URF_D77HTCI_A",
 			//Turrets
 			"URF_SG_Turret_A",
-			"URF_HMG_Turret_A"
+			"URF_HMG_Turret_A",
+			//Drones
+			"v105_URF_antimine_UAV"
 		};
 		weapons[] = 
 		{
@@ -187,11 +189,12 @@ class cfgVehicles
 	#include "Stalker_Base.hpp"
 	#include "Otokar_Base.hpp"
 	#include "Tigris_Base.hpp"
-	
+	#include "URF_Warthog_Base.hpp"
 	#include "Aircraft.hpp"
 	#include "Sochor.hpp"
 	#include "Karatel_Base.hpp"
 	#include "StaticTurrets_Base.hpp"
-	#include "URF_Warthog_Base.hpp"
+	#include "Drones.hpp"
+	
 	
 };
