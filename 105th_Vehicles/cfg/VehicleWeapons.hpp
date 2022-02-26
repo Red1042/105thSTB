@@ -627,33 +627,30 @@
 			class FIR_AIM9X;
 			class v105_FIR_AIM9X:FIR_AIM9X
 			{
-				magazines[]={"v105_AIM9X_P_2rnd_M"};
+				magazines[]={"v105_FIR_AIM9X_P_2rnd_M"};
 				cmImmunity=1;
 			};
 			class FIR_AIM120;
 			class v105_FIR_AIM120:FIR_AIM120
 			{
-				magazines[]={"v105_AIM120B_LAU115_P_1rnd_M"};
+				magazines[]={"v105_FIR_AIM120B_LAU115_P_1rnd_M"};
 			};
 			class FIR_AGM65;
 			class v105_FIR_AGM65:FIR_AGM65
 			{
 				magazines[]=
 				{
-					"v105_AGM65D_P_3rnd_M","v105_AGM65B_P_3rnd_M",
-					"v105_AGM65H_P_3rnd_M","v105_AGM65F_P_3rnd_M",
-					"v105_AGM65G_P_3rnd_M","v105_AGM65K_P_3rnd_M",
-					"v105_AGM65E_P_3rnd_M","v105_AGM65E2_P_3rnd_M",
-					"v105_AGM65L_P_3rnd_M",
-					"v105_AGM65F_P_1rnd_M",
-					"v105_AGM65G_P_1rnd_M",
-					"v105_AGM65K_P_1rnd_M",
-					"v105_AGM65E_P_1rnd_M",
-					"v105_AGM65E2_P_1rnd_M",
-					"v105_AGM65L_P_1rnd_M",
-					//"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K",
-					//"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N",
-					//"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L"
+					"v105_FIR_AGM65D_P_3rnd_M","v105_FIR_AGM65B_P_3rnd_M",
+					"v105_FIR_AGM65H_P_3rnd_M","v105_FIR_AGM65F_P_3rnd_M",
+					"v105_FIR_AGM65G_P_3rnd_M","v105_FIR_AGM65K_P_3rnd_M",
+					"v105_FIR_AGM65E_P_3rnd_M","v105_FIR_AGM65E2_P_3rnd_M",
+					"v105_FIR_AGM65L_P_3rnd_M",
+					"v105_FIR_AGM65F_P_1rnd_M",
+					"v105_FIR_AGM65G_P_1rnd_M",
+					"v105_FIR_AGM65K_P_1rnd_M",
+					"v105_FIR_AGM65E_P_1rnd_M",
+					"v105_FIR_AGM65E2_P_1rnd_M",
+					"v105_FIR_AGM65L_P_1rnd_M",
 				};
 			};
 			class FIR_ASM2;
@@ -667,14 +664,14 @@
 			{
 				magazines[]= 
 				{
-					"v105_Hydra_P_7rnd_M","v105_Hydra_P_19rnd_M","v105_Hydra_P_38rnd_M",
-					"v105_Hydra_M229_P_7rnd_M","v105_Hydra_M229_P_19rnd_M","v105_Hydra_M229_P_38rnd_M",
-					"v105_Hydra_M247_P_7rnd_M","v105_Hydra_M247_P_19rnd_M","v105_Hydra_M247_P_38rnd_M",
-					"v105_Hydra_M282_P_7rnd_M","v105_Hydra_M282_P_19rnd_M","v105_Hydra_M282_P_38rnd_M",
-					"v105_Hydra_WDU4_P_7rnd_M","v105_Hydra_WDU4_P_19rnd_M","v105_Hydra_WDU4_P_38rnd_M",
-					"v105_Hydra_M261_P_7rnd_M","v105_Hydra_M261_P_19rnd_M","v105_Hydra_M261_P_38rnd_M",
+					"v105_FIR_Hydra_P_7rnd_M","v105_FIR_Hydra_P_19rnd_M","v105_FIR_Hydra_P_38rnd_M",
+					"v105_FIR_Hydra_M229_P_7rnd_M","v105_FIR_Hydra_M229_P_19rnd_M","v105_FIR_Hydra_M229_P_38rnd_M",
+					"v105_FIR_Hydra_M247_P_7rnd_M","v105_FIR_Hydra_M247_P_19rnd_M","v105_FIR_Hydra_M247_P_38rnd_M",
+					"v105_FIR_Hydra_M282_P_7rnd_M","v105_FIR_Hydra_M282_P_19rnd_M","v105_FIR_Hydra_M282_P_38rnd_M",
+					"v105_FIR_Hydra_WDU4_P_7rnd_M","v105_FIR_Hydra_WDU4_P_19rnd_M","v105_FIR_Hydra_WDU4_P_38rnd_M",
+					"v105_FIR_Hydra_M261_P_7rnd_M","v105_FIR_Hydra_M261_P_19rnd_M","v105_FIR_Hydra_M261_P_38rnd_M",
 
-					"v105_Hydra_WP_P_7rnd_M","v105_Hydra_WP_P_21rnd_M"
+					"v105_FIR_Hydra_WP_P_7rnd_M","v105_FIR_Hydra_WP_P_21rnd_M"
 					
 				};
 			};
@@ -683,20 +680,20 @@
 			{
 				magazines[]=
 				{
-					"v105_APKWS_P_19rnd_M","v105_APKWS_P_38rnd_M",
-					"v105_APKWS_M247_P_19rnd_M","v105_APKWS_M247_P_38rnd_M",
-					"v105_APKWS_M282_P_19rnd_M","v105_APKWS_M282_P_38rnd_M"
+					"v105_FIR_APKWS_P_19rnd_M","v105_FIR_APKWS_P_38rnd_M",
+					"v105_FIR_APKWS_M247_P_19rnd_M","v105_FIR_APKWS_M247_P_38rnd_M",
+					"v105_FIR_APKWS_M282_P_19rnd_M","v105_FIR_APKWS_M282_P_38rnd_M"
 				};
 			};
 			class FIR_Zuni_Launcher;
 			class v105_FIR_Zuni_Launcher:FIR_Zuni_Launcher
 			{
-				magazines[]={"v105_Zuni_P_8rnd_M","v105_Zuni_Mk32_P_8rnd_M"};
+				magazines[]={"v105_FIR_Zuni_P_8rnd_M","v105_FIR_Zuni_Mk32_P_8rnd_M"};
 			};
 			class FIR_LZuni_Launcher;
 			class v105_FIR_LZuni_Launcher:FIR_LZuni_Launcher
 			{
-				magazines[]={"v105_LZuni_P_8rnd_M"};
+				magazines[]={"v105_FIR_LZuni_P_8rnd_M"};
 			};
 			//ECM
 			class FIR_ECMPOD;

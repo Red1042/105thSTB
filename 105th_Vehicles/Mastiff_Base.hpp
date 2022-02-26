@@ -17,7 +17,7 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
     editorCategory = "HOW_EdCat_105th";
     editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
     crew = "VES_Rifleman_MA5B_MAR";
-    crewCrashProtection = 0.005;
+    crewCrashProtection = 0.1;
     tf_hasLRradio = 1;
     tf_isolatedAmount = 0.65;
     tf_range = 10000;
@@ -31,6 +31,7 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
     {
         class MainTurret: MainTurret
         {
+
             weapons[]=
 				{
 					"v105_HMG_127_APC",
@@ -46,6 +47,35 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
                     "v105_200Rnd_145x114_Red_Belt",
                     "v105_200Rnd_145x114_Red_Belt",
                     "v105_200Rnd_145x114_Red_Belt"
+				};
+                class HitPoints: HitPoints
+				{
+					class HitTurret
+					{
+						armor=1;
+						material=-1;
+						armorComponent="hit_main_turret";
+						name="hit_main_turret_point";
+						visual="-";
+						passThrough=0;
+						minimalHit=0.1;
+						explosionShielding=0.5;
+						radius=0.25;
+						isTurret=1;
+					};
+					class HitGun
+					{
+						armor=1;
+						material=-1;
+						armorComponent="hit_main_gun";
+						name="hit_main_gun_point";
+						visual="-";
+						passThrough=0;
+						minimalHit=0.1;
+						explosionShielding=0.40000001;
+						radius=0.2;
+						isGun=1;
+					};
 				};
         };
     };

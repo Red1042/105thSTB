@@ -494,7 +494,7 @@
 					{
 						maxweight=300;
 						hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility"};
-						attachment="FIR_Hydra_M229_P_19rnd_M";
+						attachment="v105_FIR_Hydra_P_7rnd_M";
 						bay=-1;
 						priority=2;
 						UIposition[]={0.1,0.10};
@@ -518,7 +518,7 @@
 					{
 						hardpoints[] = {"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs"};
 						priority = 5;
-						attachment = "FIR_Hydra_M229_P_19rnd_M";
+						attachment = "v105_FIR_Hydra_P_7rnd_M";
 						maxweight = 300;
 						UIposition[] = {0.1,0.40};
                         bay = -1;
@@ -528,7 +528,7 @@
 					{
 						hardpoints[] = {"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility"};
 						priority = 5;
-						attachment = "FIR_Hydra_M229_P_19rnd_M";
+						attachment = "v105_FIR_Hydra_P_7rnd_M";
 						maxweight = 300;
 						UIposition[] = {0.1,0.50};
                         bay = -1;	
@@ -547,11 +547,11 @@
 						displayName="CAP";
 						attachment[]=
 						{
-							"FIR_AIM9X_LAU115_P_2rnd_M", //1
-							"FIR_AIM9X_LAU115_P_2rnd_M", //2
-							"FIR_GBU12_P_2rnd_M", //3
-							"FIR_AIM9X_LAU115_P_2rnd_M", //4
-							"FIR_AIM9X_LAU115_P_2rnd_M", //5
+							"v105_FIR_AIM9X_P_2rnd_M", //1
+							"v105_FIR_AIM9X_P_2rnd_M", //2
+							"v105_FIR_GBU12_P_1rnd_M", //3
+							"v105_FIR_AIM9X_P_2rnd_M", //4
+							"v105_FIR_AIM9X_P_2rnd_M", //5
 						};
 					};
 					class CAS_Rockets
@@ -559,11 +559,11 @@
 						displayName="CAS: Light";
 						attachment[]=
 						{
-							"FIR_Hydra_M229_P_19rnd_M", //1
-							"FIR_Hydra_M229_P_19rnd_M", //2
-							"FIR_GBU12_P_2rnd_M", //3
-							"FIR_Hydra_M229_P_19rnd_M", //4
-							"FIR_Hydra_M229_P_19rnd_M", //5
+							"v105_FIR_Hydra_P_7rnd_M", //1
+							"v105_FIR_Hydra_P_7rnd_M", //2
+							"v105_FIR_GBU12_P_1rnd_M", //3
+							"v105_FIR_Hydra_P_7rnd_M", //4
+							"v105_FIR_Hydra_P_7rnd_M", //5
 						};
 					};
 					
@@ -1672,4 +1672,20 @@
 			1,
 			1.5
 		};
+	};
+	class v105_D77HTCI_AV_Minigun_Pelican_WildRide:v105_D77HTCI_AV_Minigun_Pelican
+	{
+		displayName="D77H-TCI/AV-MG Pelican [Call For Fire]";
+		hiddenSelectionsTextures[]=
+        {
+            "105th_Vehicles\textures\v105_Pelican_Shark_Call_For_Fire.paa"
+        };
+	};
+	class v105_D77HTCI_AV_40mmCannon_Pelican_WildRide:v105_D77HTCI_AV_40mmCannon_Pelican
+	{
+		displayName="D77H-TCI/AV-40mm Pelican [Wild Ride]";
+		hiddenSelectionsTextures[]=
+        {
+            "105th_Vehicles\textures\Pelican\v105_Pelican_Shark_105th_Wild_Ride.paa"
+        };
 	};
