@@ -34,10 +34,13 @@ class CfgWeapons
 	class VES_CH252D;
 	class VES_CH252D_dp;
 	class OPTRE_FC_VX19_Helmet;
-	
+
+	// VC497 Helmets
 	class OPTRE_UNSC_VX16_Helmet_MaskV;
 	class OPTRE_UNSC_VX16_Helmet_Mask;
-	
+	class OPTRE_FC_VX19_Helmet;
+
+	// Marine Vests
 	class VES_M52A_MAR_Rifleman_A;
 	class VES_M52A_MAR_Rifleman_B;
 	class VES_M52A_MAR_Rifleman_C;
@@ -45,11 +48,9 @@ class CfgWeapons
 	class VES_M52A_URB_Rifleman_B;
 	class VES_M52A_URB_Rifleman_C;
 	class OPTRE_UNSC_Army_Soldier_WDL;
-	
+
+	//ODST Vests
 	class OPTRE_UNSC_M52D_Armor;
-	
-	
-	//ODST VESTS
 	class OPTRE_UNSC_M52D_Armor_Light;
 	class OPTRE_UNSC_M52D_Armor_Sniper;
 	class OPTRE_UNSC_M52D_Armor_Demolitions;
@@ -86,6 +87,7 @@ class CfgWeapons
 	class UniformItem;
 	class VestItem;
 	class ItemInfo;
+
 	// Dress Gear
 	class OPTRE_UNSC_Army_Soldier_DressGray;
 
@@ -129,6 +131,8 @@ class CfgWeapons
 
 class CfgVehicles
 {
+
+    // Uniforms
 	class VES_BDU_V_Evolved;
 	class VES_BDU_SS_V_Evolved;
 	class VES_BDU_R_V_Evolved;
@@ -137,18 +141,19 @@ class CfgVehicles
 	class VES_BDU_R_V_Evolved_Slim;
 	class OPTRE_UNSC_Army_Soldier_DressGray;
 	
-	//Backpacks
+	// Backpacks
 	class OPTRE_ILCS_Rucksack_Heavy;
 	class OPTRE_ILCS_Rucksack_Black;
 	class OPTRE_ILCS_Rucksack_Black_Spartan;
 	class OPTRE_UNSC_Rucksack;
 	class OPTRE_UNSC_Rucksack_Spartan;
 	class OPTRE_ANPRC_521_black;
+	class MatGrp_ANPRC_521_black_blue;
 	class ACE_gunbag;
 	class OPTRE_ONI_Researcher_Suitcase;
-	
-	// Overrides of other Configs
-	#include "Overrides\Overrides.hpp"
+
+	// Overrides of other configs
+    #include "Overrides\Overrides.hpp"
 	
 	//dress uniform base
 	#include "Dress Gear\DressUniformBase.hpp"

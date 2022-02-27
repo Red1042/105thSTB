@@ -31,8 +31,7 @@
         maximumLoad=400;
     }; 
 	*/
-	
-	class MatGrp_ANPRC_521_black_blue;
+
 	class v105_BBarkley_ANPRC521_black_blue: MatGrp_ANPRC_521_black_blue
 	{
 		author="N-4 Logistics";
@@ -51,4 +50,20 @@
 			"105th_Armor\Bravo Company\data\Backpacks\BBar_ANPRC521.paa"
 		};
 	};
+
+    class v105_GCru_ANPRC515: OPTRE_ANPRC_515
+    {
+    	author="N-4 Logistics";
+        displayName= "[ODST] AN-PRC515 (Cruz)"
+    	maximumLoad=400;
+
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+    	hiddenSelectionsTextures[]=
+    	{
+    		"105th_Armor\Bravo Company\data\Backpacks\GCru_ANPRC515.paa"
+    	};
+    };
 	

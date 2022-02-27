@@ -9,7 +9,7 @@
 		
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\VC497\data\Helmets\VX19_VC497_CO.paa",
+			"105th_Armor\VC497\data\Helmets\VX19_Air_CO.paa",
 			"105th_Armor\VC497\data\Helmets\VX19_Visor_Air_CO.paa"
 		};
 		class ItemInfo: ItemInfo
