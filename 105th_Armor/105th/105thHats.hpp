@@ -40,7 +40,21 @@
 			"105th_Armor\105th\data\Hats\booniehat_sno_co.paa"
 		};
 	};
-	
+
+   /*
+        COMMENTED OUT DUE TO BEING ONLY A TEST
+
+	class 105th_Bandana_Test : H_Bandanna_gry
+	{
+    	scope=2;
+    	author="N-4 Logistics";
+    	displayName="[105th] Bandana Test";
+    	hiddenSelectionsTextures[]=
+    	{
+    		"105th_Armor\105th\data\Hats\bandanaTest.paa"
+    	};
+    };
+    */
 /*
 	ODST Hats
 */

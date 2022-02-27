@@ -3132,10 +3132,10 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
             //    "AP_Smoke",
             //    "APO_AR",
                 "APO_BR",
-            //    "APO_Knife",
+                "APO_Knife",
                 "APO_SMG",
                 "APO_Sniper",
-                "CustomKit_Scorch"
+            //    "CustomKit_Scorch"
             };
 		};
 	};

@@ -441,8 +441,6 @@
 		};
 	};
 /* Luke's Additions end */
-	
-
 
 	/*
 	class BCOMP_GREN_OMadsen_ODST: VES_CH252D
