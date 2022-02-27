@@ -8,6 +8,7 @@ class v105_URF_antimine_UAV: UAV_06_antimine_base_F
 		displayName="UAV-23 Drone (Armed)";
 		editorCategory="HOW_EdCat_URF";
 		editorSubcategory="HOW_URF_EdSubCat_Aircraft";
+		crew="O_UAV_AI";
 		hiddenSelectionsTextures[]=
 		{
 			"A3\Air_F_Orange\UAV_06\Data\C_IDAP_UAV_06_antimine_CO.paa"
@@ -24,7 +25,7 @@ class v105_URF_antimine_UAV: UAV_06_antimine_base_F
 						maxweight=200;
 						hardpoints[]=
 						{
-							"ANTIMINE_DRONE_PYLON","v105_UnguidedRockets","v105_Drones"
+							"ANTIMINE_DRONE_PYLON",
 						};
 						attachment="PylonRack_4Rnd_BombDemine_01_F";
 						bay=-1;

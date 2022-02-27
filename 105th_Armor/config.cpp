@@ -62,7 +62,14 @@ class CfgWeapons
 	class VES_M52D_Sniper;
 	
 	//BDUs
+	class VES_BDU_Evolved;
 	class VES_BDU_Evolved_Slim;
+	class VES_BDU_SS_Evolved;
+	class VES_BDU_SS_Evolved_Slim;
+	class VES_BDU_R_Evolved;
+	class VES_BDU_R_Evolved_Slim;
+	
+	class VES_BDU_R_Reach;
 	class VES_BDU_Reach_Slim;
 	class VES_BDU_MulticamBlack_Slim;
 	class VES_BDU_MulticamBlack;
@@ -121,7 +128,12 @@ class CfgWeapons
 
 class CfgVehicles
 {
+	class VES_BDU_V_Evolved;
+	class VES_BDU_SS_V_Evolved;
+	class VES_BDU_R_V_Evolved;
 	class VES_BDU_V_Evolved_Slim;
+	class VES_BDU_SS_V_Evolved_Slim;
+	class VES_BDU_R_V_Evolved_Slim;
 	class OPTRE_UNSC_Army_Soldier_DressGray;
 	
 	//Backpacks

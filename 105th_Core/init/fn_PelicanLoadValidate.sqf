@@ -50,6 +50,11 @@ switch true do {
 				_veh attachTo [_pelican,[0,-4.6,.25]]; 
 				_loaded = true;  
 				};
+				case (_veh isKindOf "v105_M18_Mastiff"):
+				{
+				_veh attachTo [_pelican,[0,-4.6,.25]]; 
+				_loaded = true;  
+				};
 				case (_veh isKindOf "HOW_MGS_Timberwolf"):
 				{
 				_veh attachTo [_pelican,[0,-4.6,.33]]; 

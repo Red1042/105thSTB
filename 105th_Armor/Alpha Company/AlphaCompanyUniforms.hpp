@@ -1,11 +1,18 @@
-
+//THIS IS INSIDE CFGWEAPONS
 //	Inital Commit
-
+/*
+	class VES_BDU_Evolved;
+	class VES_BDU_Evolved_Slim;
+	class VES_BDU_SS_Evolved;
+	class VES_BDU_SS_Evolved_Slim;
+	class VES_BDU_R_Evolved;
+	class VES_BDU_R_Evolved_Slim;
+*/
 	
-	class v105_uniform_DigiWoodland_CO: VES_BDU_Evolved_Slim
+	class v105_uniform_DigiWoodland_CO: VES_BDU_Evolved
 	{
 		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (Dig-WDL)";
+		displayName="[105th] Combat Uniform (DWDL)";
 		class ItemInfo: UniformItem
 		{
 			containerClass="Supply150";
@@ -15,7 +22,71 @@
 			uniformClass="v105_BDU_DigiWoodland";
 		};
 	};
-	
+	class v105_uniform_DigiWoodland_SS: VES_BDU_SS_Evolved
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (DWDL/Short-Sleeve)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_DigiWoodland_SS";
+		};
+	};
+	class v105_uniform_DigiWoodland_R: VES_BDU_R_Evolved
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (DWDL/Rolled)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_DigiWoodland_R";
+		};
+	};
+	class v105_uniform_DigiWoodland_Slim: VES_BDU_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (DWDL/Slim)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_DigiWoodland_Slim";
+		};
+	};
+	class v105_uniform_DigiWoodland_SS_Slim: VES_BDU_SS_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (DWDL/Slim Short-Sleeve)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_DigiWoodland_SS_Slim";
+		};
+	};
+	class v105_uniform_DigiWoodland_R_Slim: VES_BDU_R_Evolved_Slim
+	{
+		author="N-4 Logistics";
+		displayName="[105th] Combat Uniform (DWDL/Slim Rolled)";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply150";
+			mass=40;
+			uniformType="Neopren";
+			uniformModel="";
+			uniformClass="v105_BDU_DigiWoodland_R_Slim";
+		};
+	};
 	
 	
 	class v105_uniform_WMARPAT_CO: VES_BDU_Evolved_Slim
@@ -24,138 +95,79 @@
 		displayName="[105th] Combat Uniform (MARPAT-WDL)";
 		class ItemInfo: UniformItem
 		{
-			containerClass="Supply200";
+			containerClass="Supply150";
 			mass=40;
 			uniformType="Neopren";
 			uniformModel="";
-			uniformClass="v105_BDU_Custom_WMARPAT_CO";
+			uniformClass="v105_BDU_Custom_WMARPAT_Slim";
 		};
 	};
+
 	class v105_uniform_M81_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
 		displayName="[105th] Combat Uniform (M81)";
 		class ItemInfo: UniformItem
 		{
-			containerClass="Supply200";
+			containerClass="Supply150";
 			mass=40;
 			uniformType="Neopren";
 			uniformModel="";
 			uniformClass="v105_BDU_Custom_M81_CO";
 		};
 	};
-	
 
-/*
-	
-	class v105_uniform_JungleCam: VES_BDU_Evolved_Slim
+	class v105_uniform_ACAM_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (Jungle)";
+		displayName="[105th] Combat Uniform (ACAM)";
 		class ItemInfo: UniformItem
 		{
 			containerClass="Supply150";
 			mass=40;
 			uniformType="Neopren";
 			uniformModel="";
-			uniformClass="v105_BDU_JungleCam";
+			uniformClass="v105_BDU_Custom_ACAM_CO";
 		};
 	};
-	
-	class v105_uniform_Desert_CO: VES_BDU_Evolved_Slim
+
+	class v105_uniform_ACAM_Arid_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (DES)";
+		displayName="[105th] Combat Uniform (ACAM-Arid)";
 		class ItemInfo: UniformItem
 		{
 			containerClass="Supply150";
 			mass=40;
 			uniformType="Neopren";
 			uniformModel="";
-			uniformClass="v105_BDU_Desert";
+			uniformClass="v105_BDU_Custom_ACAM_Arid_CO";
 		};
 	};
 
-	class v105_uniform_ATACSG_CO: VES_BDU_Evolved_Slim
+	class v105_uniform_ACAM_Temperate1_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (ATACSG)";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply200";
-			mass=40;
-			uniformType="Neopren";
-			uniformModel="";
-			uniformClass="v105_BDU_ATACSG_CO";
-		};
-	};
-
-	class v105_uniform_EMRSummer_CO: VES_BDU_Evolved_Slim
-	{
-		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (EMR-Summer)";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply200";
-			mass=40;
-			uniformType="Neopren";
-			uniformModel="";
-			uniformClass="v105_BDU_EMRSummer_CO";
-		};
-	};
-
-	class v105_uniform_KLMK_CO: VES_BDU_Evolved_Slim
-	{
-		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (KLMK)";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply200";
-			mass=40;
-			uniformType="Neopren";
-			uniformModel="";
-			uniformClass="v105_BDU_KLMK_CO";
-		};
-	};
-	class v105_uniform_PartizanS_CO: VES_BDU_Evolved_Slim
-	{
-		author="N-4 Logistics";
-		displayName="[105th] Combat Uniform (Partizan-S)";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply200";
-			mass=40;
-			uniformType="Neopren";
-			uniformModel="";
-			uniformClass="v105_BDU_PartizanS_CO";
-		};
-	};
-	
-
-	class v105_uniform_mixedUrban_CO: VES_BDU_Evolved_Slim
-	{
-		author="N-4 Logistics";
-		displayName="[Test] Combat Uniform (Mixed Urban)";
+		displayName="[105th] Combat Uniform (ACAM Temp1)";
 		class ItemInfo: UniformItem
 		{
 			containerClass="Supply150";
 			mass=40;
 			uniformType="Neopren";
 			uniformModel="";
-			uniformClass="v105_BDU_MixedUrban_CO";
+			uniformClass="v105_BDU_Custom_ACAM_Temperate1_CO";
 		};
 	};
-	class v105_uniform_ERDLTrop_CO: VES_BDU_Evolved_Slim
+	class v105_uniform_ACAM_Temperate2_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
-		displayName="[Test] Combat Uniform (Tropic)";
+		displayName="[105th] Combat Uniform (ACAM Temp2)";
 		class ItemInfo: UniformItem
 		{
 			containerClass="Supply150";
 			mass=40;
 			uniformType="Neopren";
 			uniformModel="";
-			uniformClass="v105_BDU_Custom_ERDLTropic_CO";
+			uniformClass="v105_BDU_Custom_ACAM_Temperate2_CO";
 		};
 	};
-*/
