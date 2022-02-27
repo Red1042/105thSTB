@@ -5,6 +5,7 @@
 // Added Swoner and Coleman, updated Canley and Hannibal's helmets.
 // Re-added Helms, Madsen, commented out Music, Trench, Spade, Sound, McDaniel 8/27/21
 // Re-added Overture, Pierce 12/29/2021
+// Re-added Helms 27/02/2022
 
 // ODST Polarized Helmets
 	class BCOMP_DEMO_AVirus_ODST: VES_CH252D
@@ -454,6 +455,7 @@
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
 	};
+	*/
 	class BCOMP_CO_AHelms_ODST: VES_CH252D
 	{
 		author="Varner";
@@ -464,4 +466,3 @@
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	*/
