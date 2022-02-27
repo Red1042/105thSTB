@@ -1162,7 +1162,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
                 "APO_SMG",
                 "APO_Sniper",
                 "CustomKit_Scorch"
-            };	
+            };
 		};
 	};	class ODST_JTAC_Lead: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
@@ -3023,10 +3023,6 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
     	};
     };
 
-	/* Luke's Additions Start */
-	/*
-		THIS COMMENT IS AWAITING TIG FOR G. Cruz. Once he has TIG for the gear this can be uncommented.
-		
 	class ODST_GCruz_M52D_ODST: OPTRE_UNSC_M52D_Armor_Rifleman
 	{
 		author="N-4 Logistics";
@@ -3037,7 +3033,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\GCru_M52D_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_SOO_Lead_Upper.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -3111,10 +3107,10 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
                 "AS_LargeRight",
                 "AS_MediumLeft",
                 "AS_MediumRight",
-            //    "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTLeft",
-            //    "AS_ODSTRight",
+                "AS_ODSTCQBLeft",
+            //    "AS_ODSTCQBRight",
+            //    "AS_ODSTLeft",
+                "AS_ODSTRight",
                 "AS_ODSTSniperLeft",
                 "AS_ODSTSniperRight",
                 "AS_SmallLeft",
@@ -3140,8 +3136,6 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
                 "APO_SMG",
                 "APO_Sniper",
                 "CustomKit_Scorch"
-            };	
+            };
 		};
 	};
-	*/
-	/* Luke Additions End */
