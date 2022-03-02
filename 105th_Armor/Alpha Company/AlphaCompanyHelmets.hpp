@@ -407,6 +407,16 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	class ACOMP_NCO_MMarocy_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Marocy)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\MMar_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
 	/* Luke's Additions stop */
 
 	// OPEN HELMETS
@@ -522,4 +532,3 @@
 			"105th_Armor\Alpha Company\data\Helmets\JNos_CH252_MAR_CO.paa",
 		};
 	};
-	
