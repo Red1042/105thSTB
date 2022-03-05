@@ -1,6 +1,6 @@
 
 // Initial Commit
-	class v105_VX19_Helmet:OPTRE_FC_VX19_Helmet
+	class v105_VX19_Helmet : OPTRE_FC_VX19_Helmet
 	{
 		dlc="OPTRE";
 		scope=2;
@@ -27,7 +27,7 @@
 			};
 		};
 	};
-	class v105_VX19_Helmet_GStu:v105_VX19_Helmet
+	class v105_VX19_Helmet_GStu : v105_VX19_Helmet
 	{
 		dlc="OPTRE";
 		scope=2;
