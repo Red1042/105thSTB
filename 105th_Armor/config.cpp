@@ -33,10 +33,7 @@ class CfgWeapons
 	class VES_CH252_MAR_Vacuum_dp;
 	class VES_CH252D;
 	class VES_CH252D_dp;
-<<<<<<< Updated upstream
-=======
 	
->>>>>>> Stashed changes
 
 	// VC497 Helmets
 	class OPTRE_UNSC_VX16_Helmet_MaskV;

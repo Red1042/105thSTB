@@ -301,8 +301,17 @@ class HitPoints;
 class HitHull;
 class HitFuel;
 class HitAvionics;
+class HitMissiles;
+class HitEngine;
 class HitHRotor;
 class HitVRotor;
+class HitGlass1;
+class HitGlass2;
+class HitGlass3;
+class HitGlass4;
+class HitGlass5;
+class HitGlass6;
+class HitWinch;
 
 class CommanderOptics;
 //class components;
@@ -450,6 +459,55 @@ class cfgVehicles
 		};
 		class ViewPilot;
 		class Components;
+	};
+	class Helicopter_Base_H;
+	class OPTRE_Hornet_base: Helicopter_Base_H
+	{
+		class HitPoints: HitPoints
+		{
+			class HitHull: HitHull
+			{
+				armor=0.1;
+				visual="Hull";
+				minimalHit=0.050000001;
+				depends="Total";
+				radius=0.0099999998;
+			};
+			class HitFuel: HitFuel
+			{
+				armor=0.69999999;
+				radius=0.25;
+				minimalHit=0.050000001;
+				explosionShielding=2;
+			};
+			class HitAvionics: HitAvionics
+			{
+				armor=1.3;
+				radius=0.40000001;
+				minimalHit=0.050000001;
+				explosionShielding=1.5;
+			};
+			class HitHRotor: HitHRotor
+			{
+				armor=2.5999999;
+				radius=0.40000001;
+				minimalHit=0.090000004;
+				explosionShielding=2.5;
+			};
+			class HitVRotor: HitVRotor
+			{
+				armor=1.3;
+				radius=0.059999999;
+				minimalHit=0.050000001;
+				explosionShielding=6;
+			};
+			class HitGlass1: HitGlass1
+			{
+				armor=0.1;
+				minimalHit=0.050000001;	
+				radius=0.0099999998;
+			};
+		};
 	};
 	#include "Hound_Base.hpp"
 	#include "Timberwolf_Base.hpp"
