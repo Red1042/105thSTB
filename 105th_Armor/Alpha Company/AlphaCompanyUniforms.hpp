@@ -116,7 +116,7 @@
 			uniformClass="v105_BDU_Custom_M81_CO";
 		};
 	};
-
+/*
 	class v105_uniform_ACAM_CO: VES_BDU_Evolved_Slim
 	{
 		author="N-4 Logistics";
@@ -171,3 +171,4 @@
 			uniformClass="v105_BDU_Custom_ACAM_Temperate2_CO";
 		};
 	};
+*/

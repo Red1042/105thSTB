@@ -89,6 +89,8 @@
 		};
 		//*uniformclass="r105th_ODST";
 	};
+	
+	/*
 	class v105_BDU_Custom_ACAM_CO: VES_BDU_V_Evolved_Slim
 	{
 		hiddenSelectionsTextures[]=
@@ -125,5 +127,5 @@
 		};
 		//*uniformclass="r105th_ODST";
 	};
-	
+	*/
 	
