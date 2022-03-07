@@ -40,6 +40,7 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
 				magazines[]=
 				{
 					"v105_96Rnd_40mm_G_belt_WSMK",
+					"v105_96Rnd_40mm_G_belt_WSMK",
 					"96Rnd_40mm_G_belt",
                     "96Rnd_40mm_G_belt",
 					"v105_200Rnd_145x114_Red_Belt",
