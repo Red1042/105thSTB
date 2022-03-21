@@ -25,3 +25,14 @@
         };
         maximumLoad=400;
     };
+
+    /*
+        IGNORE PURELY TESTING
+
+    class v105_JumpPack: OPTRE_J: OPTRE_S12_SOLA_Jetpack
+    {
+        displayName="[105th] Jumppack";
+        maximumLoad=100;
+    }
+
+    */
