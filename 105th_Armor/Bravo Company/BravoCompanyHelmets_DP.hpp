@@ -4,7 +4,21 @@
 //
 //
 //
+
+// ODST Rookie Depolarized Helmet
+	class BCOMP_CSO_Rookie_ODST_dp: VES_CH252D_dp
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet [Rookie]";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Bravo Company\data\Helmets\base\Rookie_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+
 //ODST Depolarized ECH Helmets
+
 class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 	{
 		author="Varner";

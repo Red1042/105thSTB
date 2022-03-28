@@ -9,8 +9,8 @@
 //
 //
 //Marine Depolarized ECH Helmets
-class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
-	{
+    class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	    {
 		author="Varner, Hannibal";
 		displayName="[105th] ECH252 Helmet (Officer)";
 		hiddenSelectionsTextures[]=
@@ -79,6 +79,18 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
             "optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class ACOMP_NCO_Raid_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet [Raider]";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\base\Raider_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+
+
     //CUSTOM HELMETS
         //CH252 VACUUM HELMETS
     class ACOMP_NCO_KBrat_MAR_dp: VES_CH252_MAR_Vacuum_dp
@@ -421,6 +433,16 @@ class ACOMP_CO_MAR_dp: VES_CH252_MAR_Vacuum_dp
 		{
 			"105th_Armor\Alpha Company\data\Helmets\MMar_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
+	class ACOMP_NCO_KPenguin_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[105th] ECH252 Helmet (Penguin)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\AMcl_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
 	/* Luke's Additions stop */

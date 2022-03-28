@@ -7,6 +7,20 @@
 // Re-added Overture, Pierce 12/29/2021
 // Re-added Helms 27/02/2022
 
+
+// ODST Rookie Polarized Helmet
+	class BCOMP_CSO_Rookie_ODST: VES_CH252D
+	{
+		author="N-4 Logistics";
+		displayName="[ODST] CH252D Helmet [Rookie]";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Bravo Company\data\Helmets\base\Rookie_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
+		};
+	};
+
+
 // ODST Polarized Helmets
 	class BCOMP_DEMO_AVirus_ODST: VES_CH252D
 	{

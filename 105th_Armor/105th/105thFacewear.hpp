@@ -203,4 +203,24 @@
 		};
 		optreHUDStyle="ODST_1";
 	};
+	class v105_hudvipers_ABma: agls_pitvipers_test
+	{
+		displayname = "[105th] HUD Vipers (Bman)";
+		scope = 2;
+		author = "Aiglos_, Bman";
+		model = "agls\agls_pitvipers\agls_pitvipers.p3d";
+		hiddenSelections[] = {"frame", "lens_left", "lens_right", "plastic"};
+		hiddenSelectionsTextures[] = {
+		"AGLS\agls_pitvipers\data\frame\agls_pitviper_frame_blacking_CO.paa",
+		"105th_Armor\105th\data\agls_pitviper_lensleftv2_straya_ca.paa",
+		"105th_Armor\105th\data\agls_pitviper_lensrightv2_straya_ca.paa",
+		"AGLS\agls_pitvipers\data\plastic\agls_pitviper_plastic_CO.paa"
+		};
+		optreVarietys[]=
+		{
+			"",
+			"V"
+		};
+		optreHUDStyle="ODST_1";
+	};
 	
