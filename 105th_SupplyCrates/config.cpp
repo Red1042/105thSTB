@@ -19,6 +19,7 @@ class CfgPatches
 			"HOW_105th_SupplyPod_Demo",
 			"HOW_105th_SupplyPod_MortarHE",
 			"HOW_105th_SupplyPod_MortarSMK",
+			"HOW_105th_SupplyPod_60mmMortar",
 			"HOW_105th_SupplyPod_Radios",
 			
 			
@@ -282,6 +283,22 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
+	class HOW_105th_SupplyPod_60mmMortar: OPTRE_Ammo_SupplyPod_Empty
+	{
+		ace_cargo_size = 2;
+		scopeCurator = 2;
+		scope  = 2;
+		Author = "N-4 Logistics";
+		displayName = "[105th] 60mm Mortar Pod";
+		editorCategory = "HOW_EdCat_105th"
+		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+			class TransportItems
+			{
+				#include "SupplyPods\ResupplyPod60mm.hpp"
+			};
+			class TransportMagazines{};
+			class TransportWeapons{};
+	};
 	class HOW_105th_SupplyPod_Radios: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
@@ -365,6 +382,11 @@ class CfgVehicles
 						value = "HOW_105th_SupplyPod_MortarSMK";
 					};
 					class n_11
+					{
+						name = "[105th] 60mmMortar Pod";
+						value="HOW_105th_SupplyPod_60mmMortar";
+					}
+					class n_12
 					{
 						name = "[105th] Radio Pod";
 						value = "HOW_105th_SupplyPod_Radios";
