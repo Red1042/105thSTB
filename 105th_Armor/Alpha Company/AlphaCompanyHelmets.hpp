@@ -434,7 +434,7 @@
 		displayName="[105th] ECH252 Helmet (Penguin)";
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Alpha Company\data\Helmets\AMcl_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\KPen_CH252_MAR_CO.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};

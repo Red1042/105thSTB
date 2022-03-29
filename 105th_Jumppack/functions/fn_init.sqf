@@ -16,7 +16,6 @@
         player removeAllEventHandlers "HandleDamage";
         player addEventHandler ["HandleDamage", {
             _damage = _this select 2;
-            hint str _damage;
             _type = _this select 4;
             _backpack = backpack player;
             if (_type == "") then {

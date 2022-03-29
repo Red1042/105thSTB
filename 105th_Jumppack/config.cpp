@@ -46,7 +46,7 @@ class CfgFunctions
 	{
 		class Functions
 		{
-			file = "105th_Armor\functions";
+			file = "105th_Jumppack\functions";
 			class Init
 			{
 			    postInit = 1;
@@ -56,4 +56,9 @@ class CfgFunctions
 			};
 		};
 	};
+};
+
+class RscTitles
+{
+	#include "ui\progress.hpp"
 };
