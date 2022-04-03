@@ -212,8 +212,8 @@
 		hiddenSelections[] = {"frame", "lens_left", "lens_right", "plastic"};
 		hiddenSelectionsTextures[] = {
 		"AGLS\agls_pitvipers\data\frame\agls_pitviper_frame_blacking_CO.paa",
-		"105th_Armor\105th\data\agls_pitviper_lensleftv2_straya_ca.paa",
-		"105th_Armor\105th\data\agls_pitviper_lensrightv2_straya_ca.paa",
+		"105th_Armor\105th\data\Facewear\agls_pitviper_lensleftv2_straya_ca.paa",
+		"105th_Armor\105th\data\Facewear\agls_pitviper_lensrightv2_straya_ca.paa",
 		"AGLS\agls_pitvipers\data\plastic\agls_pitviper_plastic_CO.paa"
 		};
 		optreVarietys[]=
