@@ -41,7 +41,9 @@ class CfgPatches
             // Confetti Maker
             "v105_Confetti_Belt_200m",
             "v105_Confetti_Belt_100m",
-            "v105_Confetti_Belt_15m"
+            "v105_Confetti_Belt_15m",
+            //C7 Throwable
+            "v105_C7_Throwable_Mag"
 
         };
         ammo[]=
@@ -50,6 +52,7 @@ class CfgPatches
             "v105_Whistler_40mm_HE",
             "v105_145x114_Ball",
             "v105_N12_UWDP_Ball",
+            "v105_C7_Throwable_Ammo"
         };
         requiredVersion=    0.1;
         requiredAddons[]=
@@ -340,6 +343,15 @@ class CfgMagazines
 		displayname 				= "40mm HE Whistler";
 		displaynameshort 			= "Run.";
 	};
+    class v105_C7_Throwable_Mag:HandGrenade
+    {
+        dlc							= "105th";
+		author						= "N-4 Logistics";
+		count = 1;
+		ammo 						= "v105_C7_Throwable_Ammo";
+		displayname 				= "C7 Explosive (Sticky)";
+		displaynameshort 			= "C7 Throwable Explosive";
+    };
     class v105_Confetti_Belt_200m: 200Rnd_65x39_cased_Box
     {
         scope=  2;
@@ -458,11 +470,12 @@ class CfgAmmo
     };
     class v105_Whistler_40mm_HE:G_40mm_HE 
 	{
-        hit=    30;
+        hit=    15;
         indirectHit=    15;
-		indirectHitRange=   10;
+		indirectHitRange= 5;
 		whistleDist=400;
 		whistleOnFire=1;
+        cost=40;
 		soundFly[]=
 		{
 			"A3\Sounds_F_Orange\Vehicles\Air\UAV_06\UAV_6_DemineDrone_Bomb_Whistle",
@@ -475,12 +488,18 @@ class CfgAmmo
     {
         model="\OPTRE_Weapons\explosives\m9_grenade.p3d";
 		hit=25;
-		indirectHit=15;
-		indirectHitRange=12;
+		indirectHit=10;
+		indirectHitRange=6;
 		visibleFire=0.5;
 		audibleFire=0.050000001;
 		visibleFireTime=1;
 		fuseDistance=0;
+        cost=40;
+    };
+    class v105_C7_Throwable_Ammo:GrenadeHand
+    {
+        model="\OPTRE_Weapons\Charges\C7.p3d"
+
     };
     class v105_145x114_Ball:B_408_Ball 
 	{
