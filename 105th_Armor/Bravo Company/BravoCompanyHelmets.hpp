@@ -8,6 +8,72 @@
 // Re-added Helms 27/02/2022
 
 
+
+/* The entire part below is purely a test at this time so please ignore */
+/*
+	class OPTRE_UNSC_CH252_Helmet_Base: H_HelmetB
+	{
+		dlc="OPTRE";
+		scope=0;
+		author="N-4 Logistics";
+		displayName="[105th] ODST Helmet [TEST]";
+		picture="\105th_Armor\Bravo Company\data\Helmets\base\test.paa";
+		model="\105th_Armor\Bravo Company\data\Helmets\base\models\test.p3d";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+			"H_Collar",
+			"H_Neck",
+			"H_UNSCVacLower",
+			"H_UNSCVacVisor",
+			"H_VacCollar"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"optre_unsc_units\army\data\helmet_co.paa",
+			"optre_unsc_units\army\data\soft_packs_co.paa",
+			"optre_unsc_units\army\data\ghillie_woodland_co.paa"
+		};
+		class ItemInfo: HeadgearItem
+		{
+			uniformModel="\OPTRE_UNSC_Units\Army\helmet.p3d";
+			mass=40;
+			modelSides[]={6};
+			passThrough=0.1;
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2",
+				"camo3",
+				"H_Collar",
+				"H_Neck",
+				"H_UNSCVacLower",
+				"H_UNSCVacVisor",
+				"H_VacCollar",
+				"H_Ghillie"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"OPTRE_UNSC_Units\Army\data\helmet_co.paa",
+				"optre_unsc_units\army\data\soft_packs_co.paa",
+				"optre_unsc_units\army\data\ghillie_woodland_co.paa"
+			};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=20;
+					passThrough=0.1;
+				};
+			};
+		};
+	};
+
+*/
+
 // ODST Rookie Polarized Helmet
 	class BCOMP_CSO_Rookie_ODST: VES_CH252D
 	{

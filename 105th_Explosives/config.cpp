@@ -240,3 +240,18 @@ class CfgPatches
             };
         };
     };
+
+class CfgFunctions
+{
+	class v105_Explosives
+	{
+		class Functions
+		{
+			file = "105th_Explosives\functions";
+			class Init
+			{
+			    postInit = 1;
+			};
+		};
+	};
+};

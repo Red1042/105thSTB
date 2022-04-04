@@ -9,6 +9,7 @@ if ((player getVariable ["ACE_isUnconscious", false]) or (not (alive player)) or
 
 if (not _held) exitWith {
     v105_JumpPack_ON = false;
+    WMO_Enabled = true;
     playSound "OPTRE_Sounds_Jetpack_End";
     _backpackItems = backpackItems player;
     removeBackpack player;
@@ -85,6 +86,7 @@ if(v105_JumpPack_ON) exitWith {};
 playSound "OPTRE_Sounds_Jetpack_StartUp";
 player playMoveNow "PlayerStand";
 v105_JumpPack_ON = true;
+WMO_Enabled = false;
 
 _backpackItems = backpackItems player;
 removeBackpack player;
