@@ -82,9 +82,9 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
     };
     hiddenSelectionsTextures[]=
     {
-        "A3\Armor_F_Beta\APC_Tracked_01\Data\APC_Tracked_01_body_CO.paa",
-            "A3\Armor_F_Beta\APC_Tracked_01\Data\mbt_01_body_co.paa",
-            "105th_Vehicles\Textures\Stag\v105_Stag_Turret.paa",
-            "a3\Armor_F\Data\camonet_NATO_Green_CO.paa"
+        "105th_Vehicles\Textures\Mastiff\APC_Tracked_01_body_CO_v6.paa",
+		"A3\Armor_F_Beta\APC_Tracked_01\Data\mbt_01_body_co.paa",
+		"105th_Vehicles\Textures\Stag\v105_Stag_Turret.paa",
+		"a3\Armor_F\Data\camonet_NATO_Green_CO.paa"
     };
 };
