@@ -29,24 +29,24 @@ class CfgVehicles
 
     class v105_JumpPack: OPTRE_S12_SOLA_Jetpack
     {
-        displayName="[105th] Jumppack";
-        maximumLoad=100;
+        displayName="[105th] JumpPack";
+        maximumLoad=150;
     };
 
     class v105_JumpPack_on: OPTRE_S12_SOLA_Jetpack_ON
     {
-        displayName="[105th] Jumppack";
-        maximumLoad=100;
+        displayName="[105th] JumpPack";
+        maximumLoad=150;
     };
 };
 
 class CfgFunctions
 {
-	class v105
+	class v105_JumpPack
 	{
 		class Functions
 		{
-			file = "105th_Jumppack\functions";
+			file = "105th_JumpPack\functions";
 			class Init
 			{
 			    postInit = 1;

@@ -1,9 +1,9 @@
 #include "\a3\ui_f\hpp\defineDIKCodes.inc"
 
 ["105th Utility", "v105_Detonate_All", ["Detonate All", "Press this keybind to detonate all ace explosives"], {
-    [] spawn v105_fnc_DetonateAll;
+    [] spawn v105_explosives_fnc_DetonateAll;
 }, {
-}, [DIK_SPACE, [true, false, false]]] call CBA_fnc_addKeybind;
+}, [DIK_NUMPADMINUS, [false, true, false]]] call CBA_fnc_addKeybind;
 
 
 [] spawn {
@@ -11,7 +11,7 @@
     if (hasInterface) then {
         ["ace_firedPlayer", {
             params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile", "_gunner"];
-            if(not (_unit isEqualTo player) or _weapon != "throw" or typeOf _projectile != "SOMETHINGRANDOM") exitWith {};
+            if(not (_unit isEqualTo player) or _weapon != "throw" or typeOf _projectile != "DISABLED") exitWith {};
             [_projectile] spawn {
                 params["_projectile"];
                 sleep .5;

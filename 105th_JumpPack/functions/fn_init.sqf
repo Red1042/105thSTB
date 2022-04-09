@@ -1,9 +1,9 @@
 #include "\a3\ui_f\hpp\defineDIKCodes.inc"
 
 ["105th Utility", "v105_JumpPack_Use", ["Jump Pack Use", "Hold this key to activate JumpPack"], {
-    [true] spawn v105_fnc_JumpPack;
+    [true] spawn v105_JumpPack_fnc_JumpPack;
 }, {
-    [false] spawn v105_fnc_JumpPack;
+    [false] spawn v105_JumpPack_fnc_JumpPack;
 }, [DIK_SPACE, [true, false, false]]] call CBA_fnc_addKeybind;
 
 // Removing fall damage

@@ -252,6 +252,9 @@ class CfgFunctions
 			{
 			    postInit = 1;
 			};
+			class DetonateAll
+			{
+			};
 		};
 	};
 };
