@@ -570,7 +570,15 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\Alpha Company\data\Helmets\ARod_CH252_MAR_CO.paa"
-			
+		};
+	};
+	class ACOMP_NCO_BKowalski_MAR: VES_CH252_MAR_Light
+	{
+		author="N-4 Logistics";
+		displayName="[105th] CH252 Helmet (Kowalski)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\BKow_CH252_MAR_CO.paa"
 		};
 	};
 	/*

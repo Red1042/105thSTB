@@ -255,6 +255,9 @@ class CfgFunctions
 			class DetonateAll
 			{
 			};
+			class Throwable
+			{
+			};
 		};
 	};
 };
