@@ -1,6 +1,6 @@
 params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile", "_gunner"];
 
-if(not (_unit isEqualTo player) or _weapon != "throw" or typeOf _projectile != "CHANGEME") exitWith {};
+if(not (_unit isEqualTo player) or _weapon != "throw" or typeOf _projectile != "INACTIVE") exitWith {};
 
 
 sleep .5;

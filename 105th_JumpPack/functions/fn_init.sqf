@@ -8,6 +8,12 @@
 
 // Removing fall damage
 
+// Default values
+v105_JumpPack_stuckCount = 0;
+v105_JumpPack_lastY = -1.45;
+v105_JumpPack_timesStuck = 0;
+
+
 [] spawn {
     waitUntil {time > 5};
     if (hasInterface) then {

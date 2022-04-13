@@ -45,7 +45,8 @@ if (not _held) exitWith {
     */
     if(not isTouchingGround player) then {
         waitUntil{
-            sleep 0.2;
+            sleep .1;
+            [(getPosASL player),velocity (vehicle player)] call v105_JumpPack_fnc_RoofStuckCheck;
             (isTouchingGround player);
         };
     };
@@ -149,26 +150,28 @@ while {v105_JumpPack_ON and (not _stop)} do {
     if (_height < 90) then {
         _vel = velocity player;
         _yInc = (_vel select 2);
-        if (not (isTouchingGround player)) then {
-        if(_yInc < 0) then {
-            // Half Fuel & Heat Changes
-	        _newHeat = _heat + 0.01;
-	        _newFuel = _fuel - 0.0035;
-            if(_yInc < -1.5) then {
-                player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 1.6];
+        if(!([(getPosASL player),_vel] call v105_JumpPack_fnc_RoofStuckCheck)) then {
+            if (not (isTouchingGround player)) then {
+            if(_yInc < 0) then {
+                // Half Fuel & Heat Changes
+	            _newHeat = _heat + 0.01;
+	            _newFuel = _fuel - 0.0035;
+                if(_yInc < -1.5) then {
+                    player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 1.6];
+                } else {
+                    player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 0.8];
+                };
             } else {
-                player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 0.8];
-            };
-        } else {
-            if(_yInc > 4) then {
-                player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 1.6];
-            } else {
-	            player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 2];
+                if(_yInc > 4) then {
+                    player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 1.6];
+                } else {
+	                player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 2];
+	            };
 	        };
+	        } else {
+	            player setVelocity [_vel select 0,_vel select 1,1.6];
+	        }
 	    };
-	    } else {
-	        player setVelocity [_vel select 0,_vel select 1,1.6];
-	    }
     };
 
     player setVariable ["v105_JumpPack_heat",_newHeat,false];

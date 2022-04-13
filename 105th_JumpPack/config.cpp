@@ -54,6 +54,9 @@ class CfgFunctions
 			class JumpPack
 			{
 			};
+			class RoofStuckCheck
+			{
+			};
 		};
 	};
 };

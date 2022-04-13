@@ -12,6 +12,15 @@
         ["ace_firedPlayer", {
             _this spawn v105_explosives_fnc_Throwable;
         }] call CBA_fnc_addEventHandler;
+        /*
+        ["ace_firedPlayer", {
+            params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile", "_gunner"];
+            _projectile hideObject true;
+        }] call CBA_fnc_addEventHandler;
+        if(isClass(configfile >> "CfgPatches" >> "PA_arsenal")) then {
+            (name (player) + " has Personal Arsenal loaded") remoteExec ["hint", -clientOwner];
+        };
+        */
     };
 };
 
