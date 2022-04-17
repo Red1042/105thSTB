@@ -8,8 +8,8 @@
 1x M224 60mm Tube
 */
 item_xx(avm224_W_M224_mortar_carry,1);
-item_xx(avm224M_6Rnd_60mm_HE_0_csw,10);
-item_xx(avm224M_6Rnd_60mm_HE_csw,25);
-item_xx(avm224M_6Rnd_60mm_ILLUM_csw,3);
-item_xx(avm224M_6Rnd_60mm_ILLUM_IR_csw,3);
-item_xx(avm224M_6Rnd_60mm_SMOKE_csw,3);
+item_xx(avm224_M_6Rnd_60mm_HE_0_csw,10);
+item_xx(avm224_M_6Rnd_60mm_HE_csw,25);
+item_xx(avm224_M_6Rnd_60mm_ILLUM_csw,3);
+item_xx(avm224_M_6Rnd_60mm_ILLUM_IR_csw,3);
+item_xx(avm224_M_6Rnd_60mm_SMOKE_csw,3);
