@@ -1,17 +1,14 @@
 #include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
-	class C_105_Armor
+	class V_105_JumpPack
 	{
 		author="105th";
 		name="105th Jumppack";
-		units[]=
-		{
-			"ODST_Test"
-		};
 		weapons[]={};
 		magazines[]={};
 		ammo[]={};
+		units[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{

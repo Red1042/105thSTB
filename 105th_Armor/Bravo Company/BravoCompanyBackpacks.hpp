@@ -11,6 +11,13 @@
 		model="\A3\weapons_f\empty";
 		hiddenSelections[]={};
 	};
+
+	class BravoCompany_Radio_Broken: BravoCompany_Radio
+	{
+		author="N-4 Logistics";
+		displayName="[ODST]M25D Long Range Helmet Uplink (BROKEN)";
+		tf_hasLRradio=0;
+	};
 	
 	/*
 		Barkley's custom backpacks (ONLY ONE CAN BE ACTIVE AT A TIME)

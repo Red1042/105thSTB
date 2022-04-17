@@ -94,17 +94,5 @@ class JumpPackUI
 			w = 0.3; h = 0.03;
 			texture = "#(argb,8,8,3)color(1,0,0,1)";
 		};
-		/*
-		class ProgressText: ProgressBaseTextHUD
-		{
-			idc = 37203;
-
-			text = "$STR_DIALOG_PROGRESS_FUEL";
-			x = (0.01 * safezoneW) + safezoneX;
-			y = (0.01 * safezoneH) + safezoneY;
-			w = 0.286687 * safezoneW;
-			h = 0.0340016 * safezoneH;
-		};
-		*/
 	};
 };

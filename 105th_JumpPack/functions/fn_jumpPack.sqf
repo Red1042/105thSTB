@@ -56,6 +56,8 @@ if (not _held) exitWith {
     //player switchMove "";
 };
 
+if(stance player == "PRONE") exitWith {player playMoveNow "AmovPercMstpSrasWrflDnon";};
+
 _heat = player getVariable ["v105_JumpPack_heat",0];
 _fuel = player getVariable ["v105_JumpPack_fuel",1];
 if(_heat >= 1 and _fuel <= 0) exitWith {};
@@ -97,10 +99,10 @@ player addBackpack "v105_JumpPack_on";
 if(isNil "v105_JumpPack_Effects") then {
     _fireSparks1 = "#particlesource" createVehicleLocal [0,0,0];
     _fireSparks1 setParticleClass "LaptopSparks";
-    _fireSparks1 attachto [vehicle player,[0.225,-0.1,1.5]];
+    _fireSparks1 attachTo [vehicle player,[0.225,-0.1,1.5]];
     _fireSparks2 = "#particlesource" createVehicleLocal [0,0,0];
     _fireSparks2 setParticleClass "LaptopSparks";
-    _fireSparks2 attachto [vehicle player,[-0.225,-0.1,1.5]];
+    _fireSparks2 attachTo [vehicle player,[-0.225,-0.1,1.5]];
 
     v105_JumpPack_Effects = [_fireSparks1,_fireSparks2];
 };
@@ -119,8 +121,7 @@ if(isNil "v105_JumpPack_keyDownEH") then {
                 {_addDir = 90;};
         };
         if(_addDir == -1) exitWith {};
-        _arrayDir = player weaponDirection currentWeapon player;
-        _dir = (_arrayDir select 0) atan2 (_arrayDir select 1);
+        _dir = getDir player;
         _dir = _dir + _addDir;
         if(_dir > 360) then {
             _dir = _dir - 360;
