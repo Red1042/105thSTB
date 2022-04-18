@@ -44,6 +44,10 @@ class CfgFunctions
 		class Functions
 		{
 			file = "105th_JumpPack\functions";
+			class PreInit
+			{
+			    preInit = 1;
+			};
 			class Init
 			{
 			    postInit = 1;

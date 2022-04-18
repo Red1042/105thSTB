@@ -1,10 +1,11 @@
 params ["_held"];
 private ["_held","_velC","_vel","_pos","_height","_arrayDir","_dir","_addDir"];
 
-
 _backpack = backpack player;
 if ((_backpack != "v105_JumpPack_on"  AND _backpack != "v105_JumpPack")) exitWith {};
-if ((player getVariable ["ACE_isUnconscious", false]) or (not (alive player)) or (vehicle player != player)) exitWith {};
+if !(v105_JumpPack_Enabled) exitWith {hint "JumpPacks are currently disabled by an admin";};
+
+if ((player getVariable ["ace_medical_isUnconscious", false]) or (not (alive player)) or (vehicle player != player)) exitWith {};
 
 
 if (not _held) exitWith {
@@ -22,28 +23,7 @@ if (not _held) exitWith {
     if(not (isNil "v105_JumpPackWaiting")) then {
         if(v105_JumpPackWaiting) exitWith {};
     };
-    /*
-    _velC = velocity (vehicle player);
-    if(
-       ((_velC select 2) == -0.4) or
-       (abs(_velC select 0) < 0.001) and
-       (abs(_velC select 1) < 0.001) and
-       (abs(_velC select 2) < 0.001)) exitWith {
-            if (!isNil "v105_JumpPack_keyDownEH") then {(findDisplay 46) displayRemoveEventHandler ["KeyDown",v105_JumpPack_keyDownEH];};
-            v105_JumpPack_keyDownEH = nil;
-            //player switchMove "";
-    };
-    v105_JumpPackWaiting = true;
-    waitUntil {
-        sleep 0.25;
-        _velC = velocity (vehicle player);
-        ((_velC select 2) == -0.4) or
-        (abs(_velC select 0) < 0.001) and
-        (abs(_velC select 1) < 0.001) and
-        (abs(_velC select 2) < 0.001);
-    };
-    */
-    if(not isTouchingGround player) then {
+    if(not isTouchingGround player and (vehicle player == player)) then {
         waitUntil{
             sleep .1;
             [(getPosASL player),velocity (vehicle player)] call v105_JumpPack_fnc_RoofStuckCheck;
@@ -127,7 +107,11 @@ if(isNil "v105_JumpPack_keyDownEH") then {
             _dir = _dir - 360;
         };
         _vel = velocity (vehicle player);
+        _yInc = (_vel select 2);
         _speed = 0.075;
+        if(_yInc <= 0) then {
+            _speed = 0.030;
+        };
         player setVelocity [
     	    (_vel select 0) + (sin _dir * _speed),
     	    (_vel select 1) + (cos _dir * _speed),
@@ -171,7 +155,7 @@ while {v105_JumpPack_ON and (not _stop)} do {
 	        };
 	        } else {
 	            player setVelocity [_vel select 0,_vel select 1,1.6];
-	        }
+	        };
 	    };
     };
 
@@ -217,7 +201,7 @@ while {(not v105_JumpPack_ON) and _change} do {
     };
     if(_fuel < 1) then {
         _change = true;
-        _newFuel = _fuel + 0.002;
+        _newFuel = _fuel + 0.001;
         player setVariable ["v105_JumpPack_fuel",_newFuel,false];
         (uiNamespace getVariable "v105_JumpPack_UI_fuel") progressSetPosition _newFuel;
     };

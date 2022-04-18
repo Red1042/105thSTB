@@ -6,6 +6,9 @@
 
 sleep 5;
 
-if(isClass(configfile >> "CfgPatches" >> "PA_arsenal")) then {
-    (name (player) + " has Personal Arsenal loaded") remoteExec ["hint", -clientOwner];
-};
+{
+    if(isClass(configfile >> "CfgPatches" >> _x select 1)) then {
+        _formatted = format ["%1 has %2 loaded",name player,_x select 0];
+        (_formatted) remoteExec ["hint", -clientOwner];
+    };
+} forEach v105_IllegalModsList;

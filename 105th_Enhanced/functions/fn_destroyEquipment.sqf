@@ -45,6 +45,5 @@ _action = ["Break Sensitive Equipment","Break Sensitive Equipment","",{
 	    {_target addItemToBackpack _x;} forEach _backpackItems;
 	};
 	[_target,0,["ACE_MainActions","Break Sensitive Equipment"]] remoteExec ["ace_interact_menu_fnc_removeActionFromObject"];
-    //[_target,0,["ACE_MainActions","Break Sensitive Equipment"]] call ace_interact_menu_fnc_removeActionFromObject;
-},{true},{},[parameters], [0,0,0], 100] call ace_interact_menu_fnc_createAction;
+},{true}] call ace_interact_menu_fnc_createAction;
 [_unit, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
