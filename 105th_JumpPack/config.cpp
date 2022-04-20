@@ -64,5 +64,5 @@ class CfgFunctions
 
 class RscTitles
 {
-	#include "ui\progress.hpp"
+	#include "ui\jumpPackUI.hpp"
 };
