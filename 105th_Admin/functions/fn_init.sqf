@@ -1,6 +1,6 @@
 // Public variables
 
-v105_Admin_blacklistedMods = ["Rat"];
+v105_Admin_blacklistedMods = [];
 v105_Admin_whitelistedMods = ["TFAR","Deniland","Jbad"];
 
 v105_Admin_blacklistedItems = [];
@@ -12,7 +12,9 @@ if(hasInterface) then {
     [player] call v105_Admin_fnc_CheckMods;
 };
 
+/*
 player addAction ["Test",{
     _name = (name player);
     [_name] spawn V105_Admin_fnc_ShowAdminViewUserUI;
 }];
+*/

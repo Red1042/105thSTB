@@ -27,7 +27,7 @@ if(isNil "_target") exitWith {closeDialog 0; hint format ["%1 is noLonger in the
 
 _listPlayers lbSetCurSel _targetIndex;
 
-_result = [_target] call v105_Enhanced_fnc_ScanInventory;
+_result = [_target] call v105_Admin_fnc_ScanInventory;
 _items = _result select 0;
 _itemsMap = _result select 1;
 
@@ -42,10 +42,10 @@ _index = -1;
         _name = format ["%1 [%2]",_x,_amount];
     };
     _listCtrlItems lbAdd _name;
-    if(_x in v105_Enhanced_whitelistedItems) then {
+    if(_x in v105_Admin_whitelistedItems) then {
         _listCtrlItems lbSetColor [_index,[0,1,0,1]]
     };
-    if(_x in v105_Enhanced_blacklistedItems) then {
+    if(_x in v105_Admin_blacklistedItems) then {
         _listCtrlItems lbSetColor [_index,[1,0,0,1]]
     };
 } forEach _items;
@@ -62,10 +62,10 @@ _mods = _target getVariable ["activeMods",[]];
 {
     _index = _index + 1;
     _listCtrlMods lbAdd _x;
-    if(_x in v105_Enhanced_whitelistedMods) then {
+    if(_x in v105_Admin_whitelistedMods) then {
         _listCtrlMods lbSetColor [_index,[0,1,0,1]]
     };
-    if(_x in v105_Enhanced_blacklistedMods) then {
+    if(_x in v105_Admin_blacklistedMods) then {
         _listCtrlMods lbSetColor [_index,[1,0,0,1]]
     };
 } forEach _mods;
