@@ -1,4 +1,5 @@
 #include "BIS_AddonInfo.hpp"
+
 class CfgPatches
 {
 	class v105_Enhanced
@@ -37,9 +38,6 @@ class CfgFunctions
 			{
 			};
 			class DestroyEquipment
-			{
-			};
-			class IllegalModsCheck
 			{
 			};
 			class ZeusMessage

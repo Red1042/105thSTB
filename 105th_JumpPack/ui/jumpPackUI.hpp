@@ -33,7 +33,7 @@ class RscProgressBar
 class JumpPackUI
 {
 	name = "JumpPackUI";
-	idd = 37200;
+	idd = 49200;
 	fadein=0;
 	duration = 99999999999;
 	fadeout=0;
