@@ -8,13 +8,19 @@ _detectedModsString = "";
     _mod = _mod regexReplace ["@",""];
     if(_x select 2) then {continue;};
     _mods pushBack _mod;
+    _first = true;
     if(_mod in v105_Admin_blacklistedMods) then {
-        _detectedModsString = _detectedModsString + "\n - " + _mod;
+        if(_first) then {
+            _detectedModsString = _detectedModsString + " - " + _mod;
+            _first = false;
+        } else {
+            _detectedModsString = _detectedModsString + "\n - " + _mod;
+        };
     };
 } forEach getLoadedModsInfo;
 
 if(_detectedModsString != "") then {
-    hint format ["%1 has blacklisted mods loaded\n%2",(name _target),_detectedModsString];
+    hint format ["%1 has blacklisted mods loaded:\n%2",(name _target),_detectedModsString];
 };
 
 _mods = _mods call BIS_fnc_sortAlphabetically;
