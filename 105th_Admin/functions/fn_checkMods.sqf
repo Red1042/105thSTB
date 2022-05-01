@@ -3,12 +3,12 @@ params ["_target"];
 _mods = [];
 _detectedModsString = "";
 
+_first = true;
 {
     _mod = _x select 0;
     _mod = _mod regexReplace ["@",""];
     if(_x select 2) then {continue;};
     _mods pushBack _mod;
-    _first = true;
     if(_mod in v105_Admin_blacklistedMods) then {
         if(_first) then {
             _detectedModsString = _detectedModsString + " - " + _mod;

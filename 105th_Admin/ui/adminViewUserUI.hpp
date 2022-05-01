@@ -34,7 +34,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Next: RscButton
         {
         	idc = 1601;
-        	action = "_display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [(_display lbText lbCurSel _display)] spawn V105_Admin_fnc_ShowAdminViewUserUI;";
+        	action = "_display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [(_display lbText lbCurSel _display)] call V105_Admin_fnc_ShowAdminViewUserUI;";
         	text = "Search"; //--- ToDo: Localize;
         	x = 0.644375 * safezoneW + safezoneX;
         	y = 0.247 * safezoneH + safezoneY;
@@ -78,7 +78,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Whitelist_Mod: RscButton
         {
         	idc = 1602;
-        	action = "[1500,""v105_Admin_whitelistedMods"",v105_Admin_whitelistedMods,false] call v105_Admin_fnc_AllowedActions;";
+        	action = "[1500,""v105_Admin_whitelistedMods"",v105_Admin_whitelistedMods,""v105_Admin_blacklistedMods"",v105_Admin_blacklistedMods,false,false] call v105_Admin_fnc_AllowedActions;";
         
         	text = "Whitelist"; //--- ToDo: Localize;
         	x = 0.314375 * safezoneW + safezoneX;
@@ -90,7 +90,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Blacklist_Mod: RscButton
         {
         	idc = 1603;
-        	action = "[1500,""v105_Admin_blacklistedMods"",v105_Admin_blacklistedMods,false] call v105_Admin_fnc_AllowedActions;";
+        	action = "[1500,""v105_Admin_blacklistedMods"",v105_Admin_blacklistedMods,""v105_Admin_whitelistedMods"",v105_Admin_whitelistedMods,true,false] call v105_Admin_fnc_AllowedActions;";
         
         	text = "Blacklist"; //--- ToDo: Localize;
         	x = 0.386562 * safezoneW + safezoneX;
@@ -125,7 +125,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Whitelist_Items: RscButton
         {
         	idc = 1604;
-        	action = "[1501,""v105_Admin_whitelistedItems"",v105_Admin_whitelistedItems,true] call v105_Admin_fnc_AllowedActions;";
+        	action = "[1501,""v105_Admin_whitelistedItems"",v105_Admin_whitelistedItems,""v105_Admin_blacklistedItems"",v105_Admin_blacklistedItems,false,true] call v105_Admin_fnc_AllowedActions;";
         
         	text = "Whitelist"; //--- ToDo: Localize;
         	x = 0.469062 * safezoneW + safezoneX;
@@ -137,7 +137,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Blacklist_Items: RscButton
         {
         	idc = 1605;
-        	action = "[1501,""v105_Admin_blacklistedItems"",v105_Admin_blacklistedItems,true] call v105_Admin_fnc_AllowedActions;";
+        	action = "[1501,""v105_Admin_blacklistedItems"",v105_Admin_blacklistedItems,""v105_Admin_whitelistedItems"",v105_Admin_whitelistedItems,true,true] call v105_Admin_fnc_AllowedActions;";
         
         	text = "Blacklist"; //--- ToDo: Localize;
         	x = 0.54125 * safezoneW + safezoneX;

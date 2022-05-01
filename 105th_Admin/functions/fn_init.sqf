@@ -23,17 +23,16 @@ if(isServer) then {
     publicVariable "v105_Admin_whitelistedItems";
 };
 
-
-private _uid = getPlayerUID player;
-private _adminState = call BIS_fnc_admin;
-if(_uid in v105_Admin_List or _adminState != 0) then {
-    _action = ["Open Admin Menu","Open Admin Menu","",{
-        _name = (name player);
-        [_name] spawn V105_Admin_fnc_ShowAdminViewUserUI;
-    },{true}] call ace_interact_menu_fnc_createAction;
-    [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
-};
-
 if(hasInterface) then {
     [player] call v105_Admin_fnc_CheckMods;
+
+    private _uid = getPlayerUID player;
+    private _adminState = call BIS_fnc_admin;
+    if(_uid in v105_Admin_List or _adminState != 0) then {
+        _action = ["Open Admin Menu","Open Admin Menu","",{
+            _name = (name player);
+            [_name] spawn V105_Admin_fnc_ShowAdminViewUserUI;
+        },{true}] call ace_interact_menu_fnc_createAction;
+        [player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+    };
 };
