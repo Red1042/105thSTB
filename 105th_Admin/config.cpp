@@ -38,6 +38,9 @@ class CfgFunctions
 			class ScanInventory
 			{
 			};
+			class AllowedActions
+			{
+			};
 			class ShowBossBarUI
 			{
 			};
