@@ -26,10 +26,6 @@ class CfgFunctions
 		class Functions
 		{
 			file = "105th_Enhanced\functions";
-			class PreInit
-			{
-			    preInit = 1;
-			};
 			class Init
 			{
 			    postInit = 1;

@@ -73,12 +73,12 @@ class v105_Admin_ViewUser_UI
         	y = 0.247 * safezoneH + safezoneY;
         	w = 0.2475 * safezoneW;
         	h = 0.055 * safezoneH;
-        	sizeEx = 2 *(((safezoneW / safezoneH) min 1.2) / 1.2) / 25) *((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * GUI_GRID_H;
+        	sizeEx = 1.5 *(((safezoneW / safezoneH) min 1.2) / 1.2) / 25) *((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * GUI_GRID_H;
         };
         class RscButton_Whitelist_Mod: RscButton
         {
         	idc = 1602;
-        	action = "_listCtrl = (uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1500; _index = lbCurSel _listCtrl; if(_index == -1) exitWith {}; _listCtrl lbSetColor [_index,[0,1,0,1]]; v105_Admin_whitelistedMods pushBackUnique (_listCtrl lbText _index);";
+        	action = "_listCtrl = (uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1500; _index = lbCurSel _listCtrl; if(_index == -1) exitWith {}; _listCtrl lbSetColor [_index,[0,1,0,1]]; v105_Admin_whitelistedMods pushBackUnique (_listCtrl lbText _index); profileNamespace setVariable [""v105_Admin_whitelistedMods"", v105_Admin_whitelistedMods];";
         
         	text = "Whitelist"; //--- ToDo: Localize;
         	x = 0.314375 * safezoneW + safezoneX;
@@ -90,7 +90,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Blacklist_Mod: RscButton
         {
         	idc = 1603;
-        	action = "_listCtrl = (uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1500; _index = lbCurSel _listCtrl; if(_index == -1) exitWith {}; _listCtrl lbSetColor [_index,[1,0,0,1]]; v105_Admin_blacklistedMods pushBackUnique (_listCtrl lbText _index);";
+        	action = "_listCtrl = (uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1500; _index = lbCurSel _listCtrl; if(_index == -1) exitWith {}; _listCtrl lbSetColor [_index,[1,0,0,1]]; v105_Admin_blacklistedMods pushBackUnique (_listCtrl lbText _index); profileNamespace setVariable [""v105_Admin_blacklistedMods"", v105_Admin_blacklistedMods];";
         
         	text = "Blacklist"; //--- ToDo: Localize;
         	x = 0.386562 * safezoneW + safezoneX;
@@ -125,7 +125,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Whitelist_Items: RscButton
         {
         	idc = 1604;
-        	action = "_listCtrl = (uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1501; _index = lbCurSel _listCtrl; if(_index == -1) exitWith {}; _listCtrl lbSetColor [_index,[0,1,0,1]]; v105_Admin_whitelistedItems pushBackUnique (((_listCtrl lbText _index) regexReplace ["" \[[0-9][0-9]]"",""""] ) regexReplace ["" \[[0-9]]"",""""]);";
+        	action = "_listCtrl = (uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1501; _index = lbCurSel _listCtrl; if(_index == -1) exitWith {}; _listCtrl lbSetColor [_index,[0,1,0,1]]; v105_Admin_whitelistedItems pushBackUnique (((_listCtrl lbText _index) regexReplace ["" \[[0-9][0-9]]"",""""] ) regexReplace ["" \[[0-9]]"",""""]); profileNamespace setVariable [""v105_Admin_whitelistedItems"", v105_Admin_whitelistedItems];";
         
         	text = "Whitelist"; //--- ToDo: Localize;
         	x = 0.469062 * safezoneW + safezoneX;
@@ -137,7 +137,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Blacklist_Items: RscButton
         {
         	idc = 1605;
-        	action = "_listCtrl = (uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1501; _index = lbCurSel _listCtrl; if(_index == -1) exitWith {}; _listCtrl lbSetColor [_index,[1,0,0,1]]; v105_Admin_blacklistedItems pushBackUnique (((_listCtrl lbText _index) regexReplace ["" \[[0-9][0-9]]"",""""]) regexReplace ["" \[[0-9]]"",""""]);";
+        	action = "_listCtrl = (uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1501; _index = lbCurSel _listCtrl; if(_index == -1) exitWith {}; _listCtrl lbSetColor [_index,[1,0,0,1]]; v105_Admin_blacklistedItems pushBackUnique (((_listCtrl lbText _index) regexReplace ["" \[[0-9][0-9]]"",""""]) regexReplace ["" \[[0-9]]"",""""]); profileNamespace setVariable [""v105_Admin_blacklistedItems"", v105_Admin_blacklistedItems];";
         
         	text = "Blacklist"; //--- ToDo: Localize;
         	x = 0.54125 * safezoneW + safezoneX;

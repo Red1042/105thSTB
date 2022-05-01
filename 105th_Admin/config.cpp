@@ -21,6 +21,10 @@ class CfgFunctions
 		class Functions
 		{
 			file = "105th_Admin\functions";
+			class PreInit
+			{
+			    preInit = 1;
+			};
 			class Init
 			{
 			    postInit = 1;
@@ -34,6 +38,9 @@ class CfgFunctions
 			class ScanInventory
 			{
 			};
+			class ShowBossBarUI
+			{
+			};
 		};
 	};
 };
@@ -42,3 +49,8 @@ class CfgFunctions
 #include "\a3\ui_f\hpp\definecommongrids.inc"
 #include "defines.hpp"
 #include "ui\adminViewUserUI.hpp"
+
+class RscTitles
+{
+    #include "ui\bossBarUI.hpp"
+}

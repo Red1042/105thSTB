@@ -2,8 +2,6 @@ disableSerialization;
 
 params["_targetName"];
 
-systemChat ("Target: " + _targetName);
-
 closeDialog 0;
 _display = createDialog ["v105_Admin_ViewUser_UI",true];
 _listPlayers = _display displayCtrl 2000;

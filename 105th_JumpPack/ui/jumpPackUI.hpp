@@ -34,9 +34,7 @@ class JumpPackUI
 {
 	name = "JumpPackUI";
 	idd = 49200;
-	fadein=0;
 	duration = 99999999999;
-	fadeout=0;
 	movingEnable = 0;
 	onLoad = "uiNamespace setVariable ['v105_JumpPack_UI',_this select 0];";
 	class Controls
