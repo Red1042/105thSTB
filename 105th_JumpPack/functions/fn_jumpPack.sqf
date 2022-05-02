@@ -108,9 +108,9 @@ if(isNil "v105_JumpPack_keyDownEH") then {
         };
         _vel = velocity (vehicle player);
         _yInc = (_vel select 2);
-        _speed = 0.075;
+        _speed = 0.08;
         if(_yInc <= 0) then {
-            _speed = 0.030;
+            _speed = 0.035;
         };
         player setVelocity [
     	    (_vel select 0) + (sin _dir * _speed),
@@ -120,9 +120,19 @@ if(isNil "v105_JumpPack_keyDownEH") then {
     }];
 };
 
-_stop = false;
+/*
 
-while {v105_JumpPack_ON and (not _stop)} do {
+    TODO: SETUP THIS
+
+if(isNil "v105_JumpPack_getInEH") then {
+    v105_JumpPack_getInEH = player addEventHandler ["GetInMan", {
+
+    }];
+};
+
+*/
+
+while {v105_JumpPack_ON} do {
 	_heat = player getVariable ["v105_JumpPack_heat",0];
 	_fuel = player getVariable ["v105_JumpPack_fuel",1];
 
@@ -167,7 +177,6 @@ while {v105_JumpPack_ON and (not _stop)} do {
     (uiNamespace getVariable "v105_JumpPack_UI_fuel") progressSetPosition _newFuel;
 
     if(_newFuel <= 0 or _newHeat >= 1) then {
-       _stop = true;
         v105_JumpPack_ON = false;
         playSound "OPTRE_Sounds_Jetpack_End";
         _backpackItems = backpackItems player;
@@ -184,33 +193,7 @@ while {v105_JumpPack_ON and (not _stop)} do {
     uiSleep .1;
 };
 
-uiSleep 1;
-_change = true;
-if(player getVariable ["v105_JumpPack_Refuelling",false]) exitWith {};
-player setVariable ["v105_JumpPack_Refuelling",true];
-while {(not v105_JumpPack_ON) and _change} do {
-	_heat = player getVariable ["v105_JumpPack_heat",0];
-	_fuel = player getVariable ["v105_JumpPack_fuel",1];
-    _change = false;
-    if(_heat > 0) then {
-        _change = true;
-        _newHeat = _heat - 0.035;
-        player setVariable ["v105_JumpPack_heat",_newHeat,false];
-	    (uiNamespace getVariable "v105_JumpPack_UI_heat") progressSetPosition _newHeat;
-        (uiNamespace getVariable "v105_JumpPack_UI_heat2") progressSetPosition _newHeat;
-    };
-    if(_fuel < 1) then {
-        _change = true;
-        _newFuel = _fuel + 0.001;
-        player setVariable ["v105_JumpPack_fuel",_newFuel,false];
-        (uiNamespace getVariable "v105_JumpPack_UI_fuel") progressSetPosition _newFuel;
-    };
-    uiSleep .1;
-};
-player setVariable ["v105_JumpPack_Refuelling",false];
 
-_heat = player getVariable ["v105_JumpPack_heat",0];
-_fuel = player getVariable ["v105_JumpPack_fuel",1];
-if(_heat <= 0 and _fuel >= 1) then {
-    82 cutText ["", "PLAIN",0];
-}
+//  JumpPack Refueling Handler
+uiSleep 1;
+[] spawn v105_JumpPack_fnc_JumpPackRefuel;
