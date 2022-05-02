@@ -25,7 +25,7 @@ if (not _held) exitWith {
     };
     if(not isTouchingGround player and (vehicle player == player)) then {
         waitUntil{
-            sleep .1;
+            uiSleep .1;
             [(getPosASL player),velocity (vehicle player)] call v105_JumpPack_fnc_RoofStuckCheck;
             (isTouchingGround player);
         };
@@ -181,10 +181,10 @@ while {v105_JumpPack_ON and (not _stop)} do {
     };
 
     playSound "OPTRE_Sounds_Jetpack_LoopShort";
-    sleep .1;
+    uiSleep .1;
 };
 
-sleep 1;
+uiSleep 1;
 _change = true;
 if(player getVariable ["v105_JumpPack_Refuelling",false]) exitWith {};
 player setVariable ["v105_JumpPack_Refuelling",true];
@@ -205,7 +205,7 @@ while {(not v105_JumpPack_ON) and _change} do {
         player setVariable ["v105_JumpPack_fuel",_newFuel,false];
         (uiNamespace getVariable "v105_JumpPack_UI_fuel") progressSetPosition _newFuel;
     };
-    sleep .1;
+    uiSleep .1;
 };
 player setVariable ["v105_JumpPack_Refuelling",false];
 
