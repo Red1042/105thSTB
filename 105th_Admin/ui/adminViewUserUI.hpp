@@ -3,7 +3,8 @@ class v105_Admin_ViewUser_UI
 	name = "Admin_viewUser";
 	idd = 49201;
 	movingEnable = false;
-    onLoad = "uiNamespace setVariable ['v105_Admin_ViewUser_UI',_this select 0];";
+    onLoad = "v105_Admin_Change = false; uiNamespace setVariable ['v105_Admin_ViewUser_UI',_this select 0];";
+    onUnload = "if(v105_Admin_Change) then {[] remoteExec [""saveProfileNamespace"",2]};";
 
 	class controls
 	{

@@ -41,6 +41,9 @@ class CfgFunctions
 			class AllowedActions
 			{
 			};
+			class AdminHint
+			{
+			};
 			class ShowBossBarUI
 			{
 			};

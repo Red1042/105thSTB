@@ -5,8 +5,8 @@
 //[] call V105_Admin_fnc_ShowBossBarUI;
 
 /* Testing Area End */
-
-v105_Admin_List = ["76561198110027425","76561198118936414"];
+//                  Luke                Nungester           Varner
+v105_Admin_List = ["76561198110027425","76561198118936414","76561198122766627"];
 
 if(isServer) then {
     v105_Admin_blacklistedMods = profileNamespace getVariable ["v105_Admin_blacklistedMods", []];

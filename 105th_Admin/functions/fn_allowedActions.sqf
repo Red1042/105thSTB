@@ -1,5 +1,6 @@
 params ["_displayOne","_variableName","_variableData","_otherVariableName","_otherVariableData","_blacklist","_regex"];
 
+v105_Admin_Change = true;
 _listCtrl = (uiNamespace getVariable "v105_Admin_ViewUser_UI") displayCtrl _displayOne;
 _index = lbCurSel _listCtrl;
 if(_index == -1) exitWith {};

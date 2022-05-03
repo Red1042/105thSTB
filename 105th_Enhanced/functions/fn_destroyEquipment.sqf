@@ -8,6 +8,8 @@
 params["_unit","_state"];
 if(!(isPlayer _unit)) exitWith {};
 
+[_unit,0,["ACE_MainActions","Break Sensitive Equipment"]] call ace_interact_menu_fnc_removeActionFromObject;
+
 if(!(_state)) exitWith {
     [_unit,0,["ACE_MainActions","Break Sensitive Equipment"]] call ace_interact_menu_fnc_removeActionFromObject;
 };
