@@ -26,6 +26,45 @@
 				initTurn=0;
 			};
 		};
+		class HitPoints: HitPoints
+		{
+				class HitHull: HitHull
+				{
+					armor=0.1;
+					visual="Hull";
+					minimalHit=0.050000001;
+					depends="Total";
+					radius=0.0099999998;
+				};
+				class HitFuel: HitFuel
+				{
+					armor=0.69999999;
+					radius=0.25;
+					minimalHit=0.050000001;
+					explosionShielding=2;
+				};
+				class HitAvionics: HitAvionics
+				{
+					armor=1.3;
+					radius=0.40000001;
+					minimalHit=0.050000001;
+					explosionShielding=1.5;
+				};
+				class HitHRotor: HitHRotor
+				{
+					armor=2.5999999;
+					radius=0.40000001;
+					minimalHit=0.090000004;
+					explosionShielding=2.5;
+				};
+				class HitVRotor: HitVRotor
+				{
+					armor=1.3;
+					radius=0.059999999;
+					minimalHit=0.050000001;
+					explosionShielding=6;
+				};
+		};
 	};
  
 	class v105_D77HTCI_AV_TestPlatform_Pelican: OPTRE_Pelican_armed
@@ -289,6 +328,23 @@
 				};
 				class Components
 				{
+					class TransportPylonsComponent
+						{
+							UIPicture="\OPTRE_Vehicles\Pelican\pelicanPylonPic.paa";
+							class pylons
+							{
+								class pylons1
+								{
+									maxweight=300;
+									hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility"};
+									attachment="v105_FIR_Hydra_P_7rnd_M";
+									bay=-1;
+									priority=2;
+									UIposition[]={0.5,0.25};
+									turret[]={MainTurret};
+								};
+							};
+						};
 					class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
 					{
 						class Components: components
@@ -447,6 +503,7 @@
 					};
 				};
 				ace_hellfire_addLaserDesignator = 1;
+					
 			}; //end mainturret
 			class CargoTurret_01: CargoTurret
 			{

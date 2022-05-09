@@ -114,8 +114,8 @@ class HOW_AV14_Base: VES_AV14
 				{
 					class pylons1
 					{
-						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet"};
-						attachment = "v105_Hydra_M247_P_7Rnd_M";
+						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet","Pelican_Utility"};
+						attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
 						priority = 6;
 						maxweight = 600;
 						UIposition[] = {0.5,0.4};
@@ -123,9 +123,9 @@ class HOW_AV14_Base: VES_AV14
 					};
 					class pylons2: pylons1
 					{
-						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet"};
+						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet","Pelican_Utility"};
 						priority = 6;
-						attachment = "v105_Hydra_M247_P_7Rnd_M";
+						attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;
 						UIposition[] = {0.5,0.2};
 						mirroredMissilePos = 1;						
@@ -133,22 +133,32 @@ class HOW_AV14_Base: VES_AV14
 					};
 					class pylons3: pylons1
 					{
-						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet"};
+						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet","Pelican_Utility"};
 						priority = 5;
-						attachment = "v105_Hydra_M247_P_7Rnd_M";
+						attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;
 						UIposition[] = {0.4,0.35};
                         bay = 1;
 					};
 					class pylons4: pylons1
 					{
-						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet"};
+						hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet","Pelican_Utility"};
 						priority = 5;
-						attachment = "v105_Hydra_M247_P_7Rnd_M";
+						attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
 						maxweight = 600;
 						UIposition[] = {0.4,0.25};
                         bay = 1;
 						mirroredMissilePos = 3;						
+					};
+					class pylons5: pylons1
+					{
+						hardpoints[] = {"v105_Gunpods"};
+						priority = 5;
+						attachment = "";
+						maxweight = 600;
+						UIposition[] = {0.4,0.30};
+                        bay = 1;
+						mirroredMissilePos = 0;						
 					};
 				};
 			};

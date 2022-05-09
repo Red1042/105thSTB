@@ -14,13 +14,13 @@
 			class LMG_coax_Hound: LMG_coax
 			{
 				displayName = "MAG 58M";
-				displayNameShort = "7.62x51mm";
+				displayNameShort = "MAG 58M";
 				magazineReloadTime = 3.0;
 				magazines[] = 
 				{
 				"1000Rnd_762x51_Belt_T_Yellow",
-				"1000Rnd_762x51_Belt_T_Yellow_HOW"
-				
+				"1000Rnd_762x51_Belt_T_Yellow_HOW",
+				"HOW_1000Rnd_93x64_Mixed_Box"
 				};
 				class manual:MGun
 				{
@@ -42,7 +42,7 @@
 			class v105_HMG_127_APC:HMG_127_APC
 			{
 				displayName = "MAG 14.5mm";
-				displayNameShort = "14.5x114mm";
+				displayNameShort = "14.5x114mm (Mastiff)";
 				magazines[]=
 				{
 					"v105_200Rnd_145x114_Red_Belt"
@@ -262,7 +262,15 @@
 		
 	};
 	
-	// Hornets
+	// Hornet
+	class gatling_20mm;
+	class v105_gatling_20mm:gatling_20mm
+	{
+		magazines[]=
+		{
+			"v105_750Rnd_20mm_shells"
+		};
+	};
 	class Gatling_30mm_Plane_CAS_01_F;
 	class HOW_Gatling_30mm:Gatling_30mm_Plane_CAS_01_F
 	{
@@ -620,6 +628,13 @@
 				magazines[]=
 				{
 					"250Rnd_30mm_APDS_shells_Tracer_Green",
+				};
+			};
+			class v105_M638:OPTRE_M638
+			{
+				magazines[]=
+				{
+					"v105_800rnd_20mm_HE"
 				};
 			};
 			// Light Weaponry

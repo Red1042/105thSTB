@@ -31,6 +31,8 @@
 		tracersEvery				= 1;
 		lastRoundTracers 			= 0;
 		mass						= 400;
+		hardpoints[] = {"v105_Gunpods"};
+		pylonWeapon = "LMG_coax_Hound";
 	};
 	class 1000Rnd_762x51_Belt_T_Yellow;
 	class 1000Rnd_762x51_Belt_T_Yellow_HOW : 1000Rnd_762x51_Belt_T_Yellow
@@ -93,10 +95,28 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		initspeed 					= 1200;
 		count						= 570;
 		ammo						="Gatling_30mm_HE_Plane_CAS_01_F";
-		displayname 				= "30mm";
+		displayname 				= "GAU-8/30mm 570Rnd";
 		displaynameshort 			= "";
 		descriptionShort			= "";
 		tracersEvery				= 1;
+		hardpoints[] = {"v105_Gunpods"};
+		pylonWeapon = "HOW_Gatling_30mm";
+	};
+	class 1000Rnd_20mm_shells;
+	class v105_750Rnd_20mm_shells:1000Rnd_20mm_shells
+	{
+		count=750;
+		displayname	= "M513-RC 20mm 750Rnd";
+		hardpoints[] = {"v105_Gunpods"};
+		pylonWeapon = "v105_gatling_20mm";
+	};
+	class OPTRE_2000Rnd_20mm_HE;
+	class v105_800rnd_20mm_HE: OPTRE_2000Rnd_20mm_HE
+	{
+		count=800;
+		displayname	= "M638 20mm 800Rnd";
+		hardpoints[] = {"v105_Gunpods"};
+		pylonWeapon = "v105_M638";
 	};
 	class magazine_Cannon_Phalanx_x1550;
 	class HOW_Vulcan20mm_620RND: magazine_Cannon_Phalanx_x1550
@@ -106,6 +126,9 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		scopeArsenal				= 1;
 		initspeed 					= 1500;
 		count						= 620;
+		displayname 				= "Vulcan 20mm 620Rnd";
+		hardpoints[] = {"v105_Gunpods"};
+		pylonWeapon = "HOW_Vulcan_20mm";
 	};
 	class 5000Rnd_762x51_Yellow_Belt;
 	class HOW_1200Rnd_145x114_Red_Belt:5000Rnd_762x51_Yellow_Belt
@@ -113,20 +136,24 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		initspeed 					= 1200;
 		count						= 1200;
 		ammo						="OPTRE_B_145x114_APFSDST";
-		displayname 				= "14.5 APFSDS";
+		displayname 				= "14.5x114mm APFSDS-T 1200Rnd";
 		displaynameshort 			= "";
 		descriptionShort			= "";
 		tracersEvery				= 1;
+		hardpoints[] = {"v105_Gunpods"};
+		pylonWeapon = "HOW_145x114_minigun";
 	};
 	class v105_200Rnd_145x114_Red_Belt:HOW_1200Rnd_145x114_Red_Belt
 	{
 		initspeed 					= 1000;
 		count						= 200;
 		ammo						="OPTRE_B_145x114_APFSDST";
-		displayname 				= "14.5 APFSDS";
+		displayname 				= "14.5x114mm APFSDS-T 200Rnd";
 		displaynameshort 			= "";
 		descriptionShort			= "";
 		tracersEvery				= 1;
+		hardpoints[] = {};
+		pylonWeapon = "";
 	};
 	class 96Rnd_40mm_G_belt;
 	class v105_96Rnd_40mm_G_belt_WSMK:96Rnd_40mm_G_belt
@@ -151,6 +178,9 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		scopeArsenal				= 1;
 		initspeed 					= 250;
 		count						= 50;
+		displayname 				= "HOW-82mm HE 50Rnd";
+		hardpoints[] = {"v105_Gunpods"};
+		pylonWeapon = "v105_FalconGL";
 	};
 	class 60Rnd_20mm_AP_shells;
 	class HOW_8Rnd_20mm_AP:60Rnd_20mm_AP_shells

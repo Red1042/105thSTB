@@ -146,6 +146,7 @@ class CfgPatches
 			"HOW_60Rnd_50mm_APFSDS",
 			"HOW_60Rnd_50mm_HE",
 			"1000Rnd_762x51_Belt_T_Yellow_HOW",
+			"v105_750Rnd_20mm_shells",
 			// Falcon GL
 			"HOW_50Rnd_82mm_shells",
 			//Pelican Ordnance
