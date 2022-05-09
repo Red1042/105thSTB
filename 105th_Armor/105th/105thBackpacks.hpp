@@ -25,3 +25,18 @@
         };
         maximumLoad=400;
     };
+
+    // Broken variants of LongRanges for the "destroy sensitive equipment" script
+    class v105_ANPRC_521_Broken: OPTRE_ANPRC_521_Black
+    {
+		author="N-4 Logistics";
+		displayName="AN/PRC-521 (BROKEN)";
+		tf_hasLRradio=0;
+    };
+
+    class v105_ANPRC_515_Broken: OPTRE_ANPRC_515
+    {
+		author="N-4 Logistics";
+		displayName="AN/PRC-515 (BROKEN)";
+		tf_hasLRradio=0;
+    };

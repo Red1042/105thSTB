@@ -1,17 +1,14 @@
 #include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
-	class C_105_Armor
+	class V_105_JumpPack
 	{
 		author="105th";
 		name="105th Jumppack";
-		units[]=
-		{
-			"ODST_Test"
-		};
 		weapons[]={};
 		magazines[]={};
 		ammo[]={};
+		units[]={};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -47,11 +44,21 @@ class CfgFunctions
 		class Functions
 		{
 			file = "105th_JumpPack\functions";
+			class PreInit
+			{
+			    preInit = 1;
+			};
 			class Init
 			{
 			    postInit = 1;
 			};
 			class JumpPack
+			{
+			};
+			class EventHandlers
+			{
+			};
+			class JumpPackRefuel
 			{
 			};
 			class RoofStuckCheck
@@ -63,5 +70,5 @@ class CfgFunctions
 
 class RscTitles
 {
-	#include "ui\progress.hpp"
+	#include "ui\jumpPackUI.hpp"
 };

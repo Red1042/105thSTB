@@ -6,6 +6,11 @@
     [false] spawn v105_JumpPack_fnc_JumpPack;
 }, [DIK_SPACE, [true, false, false]]] call CBA_fnc_addKeybind;
 
+["105th Utility", "v105_JumpPack_Toggle", ["Jump Pack Toggle", "Press this key to toggle activate the JumpPack"], {
+    [!(v105_JumpPack_ON)] spawn v105_JumpPack_fnc_JumpPack;
+}, {
+}, [nil, [false, false, false]]] call CBA_fnc_addKeybind;
+
 // Removing fall damage
 
 // Default values

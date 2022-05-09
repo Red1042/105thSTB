@@ -1,7 +1,7 @@
 params ["_posASL","_vel"];
 
 _currentY = _posASL select 2;
-if(_currentY == 0 or _vel select 2 <= 0 or isTouchingGround player) exitWith {false};
+if(_currentY == 0 or _vel select 2 <= 0 or isTouchingGround player or (stance player) == "UNDEFINED") exitWith {false};
 
 if(abs(_currentY - v105_JumpPack_lastY) <= 0.02) then {
     if(v105_JumpPack_stuckCount >= 3) exitWith {

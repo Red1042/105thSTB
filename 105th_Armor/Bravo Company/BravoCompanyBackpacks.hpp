@@ -1,5 +1,6 @@
-
-// Initial Commit
+/*
+    Initial Commit
+*/
 
 	/*
 		Start of general items (Not player custom)
@@ -11,11 +12,17 @@
 		model="\A3\weapons_f\empty";
 		hiddenSelections[]={};
 	};
+
+	class BravoCompany_Radio_Broken: BravoCompany_Radio
+	{
+		author="N-4 Logistics";
+		displayName="[ODST]M25D Long Range Helmet Uplink (BROKEN)";
+		tf_hasLRradio=0;
+	};
 	
 	/*
 		Barkley's custom backpacks (ONLY ONE CAN BE ACTIVE AT A TIME)
-	*/
-	/*
+
 	class OPTRE_ONI_Researcher_Suitcase;
     class v105_HardcaseSatchel_Barkley: OPTRE_ONI_Researcher_Suitcase
     {
@@ -29,7 +36,7 @@
             "105th_Armor\Bravo Company\data\Backpacks\BBar_HardcaseSatchel.paa"
         };
         maximumLoad=400;
-    }; 
+    };
 	*/
 
 	class v105_BBarkley_ANPRC521_black_blue: MatGrp_ANPRC_521_black_blue
@@ -66,4 +73,3 @@
     		"105th_Armor\Bravo Company\data\Backpacks\GCru_ANPRC515.paa"
     	};
     };
-	
