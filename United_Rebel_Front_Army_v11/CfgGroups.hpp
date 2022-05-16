@@ -10,7 +10,7 @@ class CfgGroups {
                 class o_urfarmy_infantry_regular_patrol {
                     name = "Infantry Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -31,7 +31,7 @@ class CfgGroups {
                 class o_urfarmy_infantry_regular_fireteam {
                     name = "Infantry Fireteam";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -64,7 +64,7 @@ class CfgGroups {
                 class o_urfarmy_infantry_regular_at_fireteam {
                     name = "Infantry AT Fireteam";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -97,7 +97,7 @@ class CfgGroups {
                 class o_urfarmy_infantry_regular_squad_1 {
                     name = "Infantry Squad 1";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -166,7 +166,7 @@ class CfgGroups {
                 class o_urfarmy_infantry_regular_squad_2 {
                     name = "Infantry Squad 2";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -235,7 +235,7 @@ class CfgGroups {
                 class o_urfarmy_infantry_regular_squad_3 {
                     name = "Infantry Squad 3";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -304,7 +304,7 @@ class CfgGroups {
                 class o_urfarmy_infantry_regular_command_squad {
                     name = "Infantry Command Squad";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -348,7 +348,7 @@ class CfgGroups {
                 class o_urfarmy_specops_regular_sniper_team {
                     name = "Sniper Team";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -369,7 +369,7 @@ class CfgGroups {
                 class o_urfarmy_specops_assaultsquad_fireteam {
                     name = "Assault Fireteam";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -402,7 +402,7 @@ class CfgGroups {
                 class o_urfarmy_specops_battlejumper_fireteam {
                     name = "Battlejumper Fireteam";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -440,7 +440,7 @@ class CfgGroups {
                 class o_urfarmy_motorized_motorized_infantry_fireteam {
                     name = "Motorized Infantry Fireteam";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -479,7 +479,7 @@ class CfgGroups {
                 class o_urfarmy_motorized_motorized_infantry_recon_team {
                     name = "Motorized MG Infantry Recon Team";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -506,7 +506,7 @@ class CfgGroups {
                 class o_urfarmy_motorized_motorized_infantry_at_recon_team {
                     name = "Motorized Infantry Recon Team";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -545,7 +545,7 @@ class CfgGroups {
                 class o_urfarmy_motorized_motorized_infantry_squad {
                     name = "Motorized Infantry Squad";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -632,7 +632,7 @@ class CfgGroups {
                 class o_urfarmy_motorized_motorized_rifle_squad {
                     name = "Motorized Rifle Squad";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -719,7 +719,7 @@ class CfgGroups {
                 class o_urfarmy_motorized_warthog__patrol {
                     name = "Warthog LAAG/APC Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -764,7 +764,7 @@ class CfgGroups {
                 class o_urfarmy_motorized_warthog_laag_patrol {
                     name = "Warthog LAAG Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -785,7 +785,7 @@ class CfgGroups {
                 class o_urfarmy_motorized_warthog_atgm_patrol {
                     name = "Warthog ATGM Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -816,7 +816,7 @@ class CfgGroups {
                 class o_urfarmy_support_assault_infantry {
                     name = "Rifle Squad";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -879,7 +879,7 @@ class CfgGroups {
                 class o_urfarmy_support_weapons_squad {
                     name = "Weapons Squad";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -948,7 +948,7 @@ class CfgGroups {
                 class o_urfarmy_support_weapons_fireteam {
                     name = "Weapons Fireteam";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -986,7 +986,7 @@ class CfgGroups {
                 class o_urfarmy_mechanized_mechanized_infantry_squad {
                     name = "Mechanized Infantry Squad";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1037,7 +1037,7 @@ class CfgGroups {
                 class o_urfarmy_mechanized_apc112_fox_patrol {
                     name = "APC-112 Fox Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1058,7 +1058,7 @@ class CfgGroups {
                 class o_urfarmy_mechanized_mgs32_timberwolf_section {
                     name = "MGS-32 Timberwolf Section";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1079,7 +1079,7 @@ class CfgGroups {
                 class o_urfarmy_mechanized_stalker_patrol {
                     name = "Stalker Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1105,7 +1105,7 @@ class CfgGroups {
                 class o_urfarmy_armored_m1022_beetle_section {
                     name = "M1022 Beetle Section";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -1125,7 +1125,7 @@ class CfgGroups {
                 class o_urfarmy_armored_O_URFArmy_M808B_Scorpion_01_section {
                     name = "M1022 Beetle Section";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -1146,7 +1146,7 @@ class CfgGroups {
                 class o_urfarmy_armored_O_URFArmy_T140K_Capybara_01_section {
                     name = "T-140K Capybara Section";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -1166,7 +1166,7 @@ class CfgGroups {
                 class o_urfarmy_armored_O_URFArmy_M350_Recluse_01_section {
                     name = "M350 Recluse Section";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -1192,7 +1192,7 @@ class CfgGroups {
                 class o_urfarmy_artillery_2s9_sochor_section {
                     name = "2S9 Sochor Section";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
 
@@ -1213,7 +1213,7 @@ class CfgGroups {
                 class o_urfarmy_artillery_kamaz_mrl_section {
                     name = "Kamaz MRL Section";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
 
@@ -1244,7 +1244,7 @@ class CfgGroups {
                 class o_urfarmy_air_hornet_helicopter_patrol {
                     name = "Hornet Helicopter Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -1265,7 +1265,7 @@ class CfgGroups {
                 class o_urfarmy_air_pelican_gunship_patrol {
                     name = "Pelican Gunship Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -1280,7 +1280,7 @@ class CfgGroups {
                 class o_urfarmy_air_pelican_transport_patrol {
                     name = "Pelican Transport Patrol";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -1301,7 +1301,7 @@ class CfgGroups {
                 class o_urfarmy_air_hornet_vtol_wing {
                     name = "Hornet VTOL Wing";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -1322,7 +1322,7 @@ class CfgGroups {
                 class o_urfarmy_air_shikra_wing {
                     name = "Shikra Wing";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -1343,7 +1343,7 @@ class CfgGroups {
                 class o_urfarmy_air_alca_wing {
                     name = "Alca Wing";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -1363,7 +1363,7 @@ class CfgGroups {
                 class o_urfarmy_air_O_URFArmy_Gripen_01_wing {
                     name = "Gripen Wing";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -1383,7 +1383,7 @@ class CfgGroups {
                 class o_urfarmy_air_O_URFArmy_Yak_130_01_wing {
                     name = "YAK-130 Wing";
                     side = 0;
-                    faction = "o_urfarmy";
+                    faction = "O_URFArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
