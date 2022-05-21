@@ -173,7 +173,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E5Corp.paa",
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E4Corp.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_DMur.paa"
 		};
 		
@@ -327,8 +327,52 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_nco.paa",
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E5.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JCha.paa"
+		};
+		
+	};
+	
+			class r105_dress_mar_ENun: OPTRE_UNSC_Army_Soldier_DressGray
+	{
+		author="Bman";
+		uniformclass="r105_mar_dress_ENun";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"insignia",
+			"clan",
+//			"awards",
+//			"nametag",
+//			"ODST"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_mar_Enun.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ENun.paa"
+		};
+		
+	};
+	
+				class r105_dress_mar_ENunfun: OPTRE_UNSC_Army_Soldier_DressGray
+	{
+		author="Bman";
+		uniformclass="r105_mar_dress_ENunfun";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"insignia",
+			"clan",
+//			"awards",
+//			"nametag",
+//			"ODST"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_mar_ENunfun.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ENun.paa"
 		};
 		
 	};
@@ -531,50 +575,6 @@
 		};
 		
 	};
-	
-		class r105_dress_odst_KBul: OPTRE_UNSC_Army_Soldier_DressGray
-	{
-		author="Bman";
-		uniformclass="r105_odst_dress_KBul";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"insignia",
-			"clan",
-//			"awards",
-//			"nametag",
-//			"ODST"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E7.paa",
-			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_KBul.paa"
-		};
-		
-	};
-	
-		class r105_dress_odst_ENun: OPTRE_UNSC_Army_Soldier_DressGray
-	{
-		author="Bman";
-		uniformclass="r105_odst_dress_ENun";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"insignia",
-			"clan",
-//			"awards",
-//			"nametag",
-//			"ODST"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_maj.paa",
-			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ENun.paa"
-		};
-		
-	};
 		
 		class r105_dress_odst_JNos: OPTRE_UNSC_Army_Soldier_DressGray
 	{
@@ -772,6 +772,28 @@
 		{
 			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_ens.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_CFlu.paa"
+		};
+		
+	};
+
+	class r105_dress_vc497_KBul: OPTRE_UNSC_Army_Soldier_DressGray
+	{
+		author="Bman";
+		uniformclass="r105_vc497_dress_KBul";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"insignia",
+			"clan",
+//			"awards",
+//			"nametag",
+//			"ODST"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_ens.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_KBul.paa"
 		};
 		
 	};

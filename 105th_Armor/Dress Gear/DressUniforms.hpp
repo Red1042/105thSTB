@@ -258,6 +258,39 @@
 		};
 	};
 	
+		class r105_mar_dress_ENun: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[105th] Dress Uniform [Nungester]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_mar_ENun";
+			uniformModel="-";
+		};
+	};
+	
+		class r105_mar_dress_ENunfun: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[105th] Dress Uniform [Smiley]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_mar_ENunfun";
+			uniformModel="-";
+		};
+	};
 // ODST UNIFORMS  =================================================================================================	
 
 		class r105_odst_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
@@ -409,40 +442,6 @@
 		{
 			containerClass="Supply100";
 			uniformClass="r105_dress_odst_JVar";
-			uniformModel="-";
-		};
-	};
-	
-		class r105_odst_dress_KBul: OPTRE_UNSC_Army_Soldier_DressGray
-	{ 
-		author="Bman";
-		scope = 2;
-		scopeArsenal = 2;
-		mass=40;
-		displayName="[ODST] Dress Uniform [Bulck]";
-		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-		model="\OPTRE_UNSC_Units\Army\officer.p3d";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply100";
-			uniformClass="r105_dress_odst_KBul";
-			uniformModel="-";
-		};
-	};
-	
-		class r105_odst_dress_ENun: OPTRE_UNSC_Army_Soldier_DressGray
-	{ 
-		author="Bman";
-		scope = 2;
-		scopeArsenal = 2;
-		mass=40;
-		displayName="[ODST] Dress Uniform [Nungester]";
-		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-		model="\OPTRE_UNSC_Units\Army\officer.p3d";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply100";
-			uniformClass="r105_dress_odst_ENun";
 			uniformModel="-";
 		};
 	};
@@ -598,6 +597,23 @@
 		{
 			containerClass="Supply100";
 			uniformClass="r105_dress_vc497_CFlu";
+			uniformModel="-";
+		};
+	};
+
+	class r105_vc497_dress_KBul: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[VC-497] Dress Uniform [Bulck]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_vc497_KBul";
 			uniformModel="-";
 		};
 	};

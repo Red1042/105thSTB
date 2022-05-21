@@ -6,6 +6,7 @@
 // Re-added Helms, Madsen, commented out Music, Trench, Spade, Sound, McDaniel 8/27/21
 // Re-added Overture, Pierce 12/29/2021
 // Re-added Helms 27/02/2022
+// Did a massive cleanup to remove all completely inactive helmets (Any that aren't Other Services, Reserves or Active Billet) 19/05/2022 [LUKE]
 
 
 
@@ -84,8 +85,12 @@
 			"105th_Armor\Bravo Company\data\Helmets\base\Rookie_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Rookie";
+        };
 	};
-
 
 // ODST Polarized Helmets
 	class BCOMP_DEMO_AVirus_ODST: VES_CH252D
@@ -98,51 +103,7 @@
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
 	};
-	/*
-	class BCOMP_AUTO_MMusic_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Music)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\MMus_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	*/
-	class BCOMP_SARC_MTrench_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Trench)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\MTre_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	/*
-	class BCOMP_MARK_BSpade_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Spade)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\BSpa_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	
-	class BCOMP_AELEAD_JMorveyn: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Morveyn)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\JMor_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	*/
+
 	class BCOMP_MARK_RCanley_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -152,6 +113,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\RCan_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Canley";
+        };
 	};
 
 	class BCOMP_ELEAD_BBarkley_ODST: VES_CH252D
@@ -163,21 +129,12 @@
 			"105th_Armor\Bravo Company\data\Helmets\BBar_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Barkley";
+        };
 	};
-
-// Update 2/13/22 Hid Craig's helmet because he's in 2nd platoon now.
-/*
-	class BCOMP_ELEAD_BCraig_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Craig)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\BCra_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-*/
 	class BCOMP_DEMO_MSevarach_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -187,19 +144,12 @@
 			"105th_Armor\Bravo Company\data\Helmets\MSev_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Sevarach";
+        };
 	};
-	/*
-	class BCOMP_RES_JAdams_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Adams)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\JAda_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	*/
 	class BCOMP_MSL_KBulck_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -209,16 +159,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\KBul_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
-	};
-	class BCOMP_SARC_SOverture_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Overture)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\SOve_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Bulck";
+        };
 	};
 	class BCOMP_XO_FRichter_ODST: VES_CH252D
 	{
@@ -229,6 +174,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\FRic_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Richter";
+        };
 	};
 	class BCOMP_CSO_CDubbo_ODST: VES_CH252D
 	{
@@ -239,19 +189,12 @@
 			"105th_Armor\Bravo Company\data\Helmets\CDub_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Dubbo";
+        };
 	};
-	
-	class BCOMP_CSO_NOKillen_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (O'Killen)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\NOKi_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	
 	class BCOMP_CSO_WColeman_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -261,6 +204,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\WCol_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Coleman";
+        };
 	};
 	
 	class BCOMP_CSO_TSwoner_ODST: VES_CH252D
@@ -272,16 +220,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\TSwo_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
-	};
-	class BCOMP_CSO_BSmith_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Smith)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\BSmi_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Swoner";
+        };
 	};
 	class BCOMP_CSO_ENungester_ODST: VES_CH252D
 	{
@@ -292,29 +235,12 @@
 			"105th_Armor\Bravo Company\data\Helmets\ENun_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Nungester";
+        };
 	};
-	class BCOMP_CSO_FPierce_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Pierce)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\FPie_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	/*
-	class BCOMP_CSO_MSound_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Sound)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\MSou_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	*/
 	class BCOMP_CSO_TKynx_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -324,6 +250,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\TKyn_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Kynx";
+        };
 	};
 	class BCOMP_CSO_AWinters_ODST: VES_CH252D
 	{
@@ -334,6 +265,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\AWin_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Winters";
+        };
 	};
 
 	class BCOMP_CHIEF_CVarner_ODST: VES_CH252D
@@ -345,30 +281,12 @@
 			"105th_Armor\Bravo Company\data\Helmets\CVar_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
-	}; 
-	/*
-	class BCOMP_TLEAD_CHannibal_ODST: VES_CH252D
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Hannibal)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\CHan_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	}; 
-	*/
-	class BCOMP_CSO_CMcDaniel_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (McDaniel)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\CMcD_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	}; 
-	
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Varner";
+        };
+	};
 	class BCOMP_CSO_ABman_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -378,6 +296,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\ABma_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Bman";
+        };
 	};
 	class BCOMP_CSO_GCruz_ODST: VES_CH252D
 	{
@@ -388,6 +311,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\GCru_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Cruz";
+        };
 	};
 	class BCOMP_CSO_JNostra_ODST: VES_CH252D
 	{
@@ -398,6 +326,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\JNos_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Nostra";
+        };
 	};
 	class BCOMP_CSO_JVargas_ODST: VES_CH252D
 	{
@@ -408,6 +341,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\JVar_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Vargas";
+        };
 	};
 	class BCOMP_CSO_GWells_ODST: VES_CH252D
 	{
@@ -418,6 +356,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\GWel_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Wells";
+        };
 	};
 	class BCOMP_CSO_JCollins_ODST: VES_CH252D
 	{
@@ -428,8 +371,12 @@
 			"105th_Armor\Bravo Company\data\Helmets\JCol_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Collins";
+        };
 	};
-/* Luke's Additions start */
 	class BCOMP_CSO_PLuke_ODST: VES_CH252D
 	{
 		author="N-4 Logistics";
@@ -439,16 +386,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\PLuk_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
-	};
-	class BCOMP_CSO_MSmith_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Smith)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\MSmi_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Luke";
+        };
 	};
 	class BCOMP_CSO_MMokes_ODST: VES_CH252D
 	{
@@ -459,6 +401,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\MMok_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Mokes";
+        };
 	};
 	class BCOMP_CSO_LOswald_ODST: VES_CH252D
 	{
@@ -469,6 +416,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\LOsw_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Oswald";
+        };
 	};
 	class BCOMP_CSO_KMidreus_ODST: VES_CH252D
 	{
@@ -479,6 +431,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\KMid_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Midreus";
+        };
 	};
 	class BCOMP_CSO_JRamos_ODST: VES_CH252D
 	{
@@ -489,16 +446,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\JRam_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
-	};
-	class BCOMP_CSO_JChristopher_ODST: VES_CH252D
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Christopher)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\JChr_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Ramos";
+        };
 	};
 	class BCOMP_CSO_BRonin_ODST: VES_CH252D
 	{
@@ -509,6 +461,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\BRon_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Ronin";
+        };
 	};
 	class BCOMP_CSO_CBarrier_ODST: VES_CH252D
 	{
@@ -519,21 +476,12 @@
 			"105th_Armor\Bravo Company\data\Helmets\CBar_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Barrier";
+        };
 	};
-/* Luke's Additions end */
-
-	/*
-	class BCOMP_GREN_OMadsen_ODST: VES_CH252D
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Madsen)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\OMad_CH252D_DEF_CO.paa",
-			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
-		};
-	};
-	*/
 	class BCOMP_CO_AHelms_ODST: VES_CH252D
 	{
 		author="Varner";
@@ -543,4 +491,9 @@
 			"105th_Armor\Bravo Company\data\Helmets\AHel_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Helms";
+        };
 	};

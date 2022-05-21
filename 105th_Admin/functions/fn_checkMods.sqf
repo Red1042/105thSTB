@@ -24,4 +24,4 @@ if(_detectedModsString != "") then {
 };
 
 _mods = _mods call BIS_fnc_sortAlphabetically;
-_target setVariable ["activeMods",_mods];
+_target setVariable ["activeMods",_mods,true];

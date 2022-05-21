@@ -23,6 +23,10 @@ class CfgPatches
 		};
 	};
 };
+
+// Handles the Arsenal collapsing to make it a cleaner ace arsenal
+#include "XtdGear\XtdGearModels.hpp"
+
 class CfgWeapons
 {
 	class VES_CH252_MAR_Crew;
@@ -41,12 +45,7 @@ class CfgWeapons
 	class OPTRE_FC_VX19_Helmet;
 
 	// Marine Vests
-	class VES_M52A_MAR_Rifleman_A;
-	class VES_M52A_MAR_Rifleman_B;
-	class VES_M52A_MAR_Rifleman_C;
-	class VES_M52A_URB_Rifleman_A;
-	class VES_M52A_URB_Rifleman_B;
-	class VES_M52A_URB_Rifleman_C;
+	class OPTRE_UNSC_M52A_Armor_Rifleman_MAR;
 	class OPTRE_UNSC_Army_Soldier_WDL;
 
 	//ODST Vests
@@ -90,6 +89,9 @@ class CfgWeapons
 
 	// Dress Gear
 	class OPTRE_UNSC_Army_Soldier_DressGray;
+
+	// Marine Vests Xtd Gear Overrides
+	#include "XtdGear\MarineVestsOverrides.hpp"
 
 	//Marine Polarized ECH Helmets
 	#include "Alpha Company\AlphaCompanyHelmets.hpp"
@@ -176,6 +178,8 @@ class cfgGlasses
 	//105th Facewear
 	#include "105th\105thFacewear.hpp"
 };
+
+
 class cfgMods
 {
 	author="Left Shark";

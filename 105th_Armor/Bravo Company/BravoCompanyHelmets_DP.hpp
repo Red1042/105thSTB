@@ -19,7 +19,7 @@
 
 //ODST Depolarized ECH Helmets
 
-class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
+    class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 	{
 		author="Varner";
 		displayName="[ODST] CH252D Helmet (Virus)";
@@ -29,6 +29,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CHIEF_CVarner_ODST_dp:VES_CH252D_dp
 	{
 		author="Varner";
@@ -39,76 +40,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class BCOMP_TLEAD_CHannibal_ODST_dp: VES_CH252D_dp
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Hannibal)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\CHan_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-	class BCOMP_AUTO_MMusic_ODST_dp: VES_CH252D_dp
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Music)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\MMus_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-	class BCOMP_SARC_MTrench_ODST_dp: VES_CH252D_dp
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Trench)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\MTre_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-	class BCOMP_MARK_BSpade_ODST_dp: VES_CH252D_dp
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Spade)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\BSpa_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-	class BCOMP_GREN_OMadsen_ODST_dp: VES_CH252D_dp
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Madsen)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\OMad_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-	class BCOMP_AELEAD_JMorveyn_dp: VES_CH252D_dp
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Morveyn)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\JMor_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-	class BCOMP_CO_AHelms_ODST_dp: VES_CH252D_dp
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Helms)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\AHel_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
+
 	class BCOMP_MARK_RCanley_ODST_dp: VES_CH252D_dp
 	{
 		author="Varner";
@@ -131,17 +63,6 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		};
 	};
 
-	class BCOMP_ELEAD_BCraig_ODST_dp: VES_CH252D_dp
-	{
-		author="Varner";
-		displayName="[ODST] CH252D Helmet (Craig)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\BCra_CH252_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-
 	class BCOMP_DEMO_MSevarach_ODST_dp: VES_CH252D_dp
 	{
 		author="Borgly";
@@ -153,16 +74,6 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 		};
 	};
 
-	class BCOMP_RES_JAdams_ODST_dp: VES_CH252D_dp
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (Adams)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\JAda_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
 	class BCOMP_MSL_KBulck_ODST_dp: VES_CH252D_dp
 	{
 		author="Barkley";
@@ -173,16 +84,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class BCOMP_SARC_SOverture_ODST_dp: VES_CH252D_dp
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (Overture)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\SOve_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
+
 	class BCOMP_XO_FRichter_ODST_dp: VES_CH252D_dp
 	{
 		author="Hannibal";
@@ -193,6 +95,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_CDubbo_ODST_dp: VES_CH252D_dp
 	{
 		author="Barkley";
@@ -203,26 +106,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class BCOMP_CSO_CMcDaniel_ODST_dp: VES_CH252D_dp
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (McDaniel)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\CMcD_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-	class BCOMP_CSO_NOKillen_ODST_dp: VES_CH252D_dp
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (O'Killen)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\NOKi_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
+
 	class BCOMP_CSO_WColeman_ODST_dp: VES_CH252D_dp
 	{
 		author="Barkley";
@@ -233,6 +117,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_TSwoner_ODST_dp: VES_CH252D_dp
 	{
 		author="Barkley";
@@ -243,16 +128,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class BCOMP_CSO_BSmith_ODST_dp: VES_CH252D_dp
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (Smith)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\BSmi_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
+
 	class BCOMP_CSO_ENungester_ODST_dp: VES_CH252D_dp
 	{
 		author="Barkley";
@@ -263,26 +139,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class BCOMP_CSO_FPierce_ODST_dp: VES_CH252D_dp
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (Pierce)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\FPie_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
-	class BCOMP_CSO_MSound_ODST_dp: VES_CH252D_dp
-	{
-		author="Barkley";
-		displayName="[ODST] CH252D Helmet (Sound)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\MSou_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
+
 	class BCOMP_CSO_TKynx_ODST_dp: VES_CH252D_dp
 	{
 		author="Barkley";
@@ -293,6 +150,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_AWinters_ODST_dp: VES_CH252D_dp
 	{
 		author="Barkley";
@@ -303,6 +161,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_ABman_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -313,6 +172,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_GCruz_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -323,6 +183,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_JNostra_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -333,6 +194,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_JVargas_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -343,6 +205,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_GWells_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -353,6 +216,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_JCollins_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -363,7 +227,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-/* Luke's Additions start */
+
 	class BCOMP_CSO_PLuke_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -374,16 +238,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class BCOMP_CSO_MSmith_ODST_dp: VES_CH252D_dp
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Smith)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\MSmi_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
+
 	class BCOMP_CSO_MMokes_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -394,6 +249,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_LOswald_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -404,6 +260,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_KMidreus_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -414,6 +271,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_JRamos_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -424,16 +282,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	class BCOMP_CSO_JChristopher_ODST_dp: VES_CH252D_dp
-	{
-		author="N-4 Logistics";
-		displayName="[ODST] CH252D Helmet (Christopher)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Bravo Company\data\Helmets\JChr_CH252D_DEF_CO.paa",
-			"optre_unsc_units\army\data\helmet_visor_ca.paa"
-		};
-	};
+
 	class BCOMP_CSO_BRonin_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -444,6 +293,7 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
 	class BCOMP_CSO_CBarrier_ODST_dp: VES_CH252D_dp
 	{
 		author="N-4 Logistics";
@@ -454,4 +304,3 @@ class BCOMP_DEMO_AVirus_ODST_dp:VES_CH252D_dp
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-/* Luke's Additions end */

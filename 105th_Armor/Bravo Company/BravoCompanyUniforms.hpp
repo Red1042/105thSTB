@@ -14,6 +14,11 @@
 			uniformModel="";
 			uniformClass="r105_uniform_base";
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Uniforms";
+            camo="Tempest";
+        };
 	};
 	
 	class v105_uniform_UTiger_CO: VES_BDU_Evolved_Slim
@@ -28,4 +33,9 @@
 			uniformModel="";
 			uniformClass="v105_BDU_UTiger_CO";
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Uniforms";
+            camo="Tiger";
+        };
 	};

@@ -19,6 +19,10 @@
 		displayName="[ODST]M25D Long Range Helmet Uplink (BROKEN)";
 		tf_hasLRradio=0;
 	};
+
+	/*
+	    Start of Custom Player Items
+	*/
 	
 	/*
 		Barkley's custom backpacks (ONLY ONE CAN BE ACTIVE AT A TIME)
