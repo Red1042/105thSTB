@@ -58,19 +58,46 @@ class XtdGearModels
             Alpha Company Arsenal Extended Section
         */
 
-                class AComp_Vests
-                {
-                    label = "[Marine] Vests";
-                    author = "S4 Logistics";
-                    options[] = {"Billet","Variant"};
-                    class billet
-                    {
-                        values[] = {"Breacher","Corpsman","Grenadier","Radio","Rifleman","Security","Sniper","Vest"};
-                    };
-                    class variant
-                    {
-                        values[] = {"A","B","C","D"};
-                    };
-                };
+        class AComp_Vests
+        {
+            label = "[Marine] Vests";
+            author = "S4 Logistics";
+            options[] = {"Billet","Variant"};
+            class billet
+            {
+                values[] = {"Breacher","Corpsman","Grenadier","Radio","Rifleman","Security","Sniper","Vest"};
+            };
+            class variant
+            {
+                values[] = {"A","B","C","D"};
+            };
+        };
+
+         /*
+            VC-497 Arsenal Extended Section
+         */
+
+        class VC497_Custom_Helmets
+        {
+            label = "[VC-497] Custom Helmets";
+            author = "S4 Logistics";
+            options[] = {"Owner"};
+            class owner
+            {
+                values[] = {"Collins","Howard","Nungester"};
+            };
+        };
+
+        class VC497_Custom_Vests
+        {
+            label = "[VC-497] Custom Vests";
+            author = "S4 Logistics";
+            options[] = {"Owner"};
+            class owner
+            {
+                values[] = {"Stürmischer"};
+            };
+        };
+
     };
 };
