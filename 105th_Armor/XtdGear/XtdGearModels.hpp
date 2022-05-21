@@ -73,6 +73,17 @@ class XtdGearModels
             };
         };
 
+        class AComp_Custom_Vests
+        {
+            label = "[Marine] Custom Vests";
+            author = "S4 Logistics";
+            options[] = {"Owner"};
+            class owner
+            {
+                values[] = {"Brady","Murk","Nest","Skynyrd","Stürmischer"};
+            };
+        };
+
          /*
             VC-497 Arsenal Extended Section
          */
