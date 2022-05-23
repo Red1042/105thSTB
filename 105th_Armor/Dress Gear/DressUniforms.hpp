@@ -531,6 +531,22 @@
 		};
 	}
 	
+			class r105_odst_dress_PLuk: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[ODST] Dress Uniform [Luke]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_odst_PLuk";
+			uniformModel="-";
+		};
+	}
 //AVIATION UNIFORMS ==========================================================
 
 		class r105_vc497_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
