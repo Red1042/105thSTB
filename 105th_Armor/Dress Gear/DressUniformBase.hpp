@@ -686,28 +686,6 @@
 		
 	};
 	
-		class r105_dress_odst_PLuk: OPTRE_UNSC_Army_Soldier_DressGray
-	{
-		author="Bman";
-		uniformclass="r105_odst_dress_PLuk";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"insignia",
-			"clan",
-//			"awards",
-//			"nametag",
-//			"ODST"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E5.paa",
-			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JRam.paa"
-		};
-		
-	};
-	
 			class r105_dress_odst_PLuk: OPTRE_UNSC_Army_Soldier_DressGray
 	{
 		author="Bman";
