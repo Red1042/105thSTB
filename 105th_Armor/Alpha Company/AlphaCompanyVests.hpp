@@ -401,6 +401,8 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 				"A_KneesMarRight",
 				"A_ODST",
 			//	  "A_TacPad",
+            //    "AS_MediumLeft",
+            //    "AS_MediumRight",
 				"AS_LargeLeft",
 				"AS_LargeRight",
 				"AS_ODSTCQBLeft",
