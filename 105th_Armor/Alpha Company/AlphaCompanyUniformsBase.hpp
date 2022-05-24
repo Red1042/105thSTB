@@ -68,8 +68,35 @@
 
 
 
+	class v105_BDU_WMARPAT: VES_BDU_V_Evolved
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
 	
-	class v105_BDU_Custom_WMARPAT_Slim: VES_BDU_V_Evolved_Slim
+	class v105_BDU_WMARPAT_SS: VES_BDU_SS_V_Evolved
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa",
+			"105th_Armor\Alpha Company\d1ata\Uniforms\v105_BDU_WMARPAT.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
+	class v105_BDU_WMARPAT_R: VES_BDU_R_V_Evolved
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
+	class v105_BDU_WMARPAT_Slim: VES_BDU_V_Evolved_Slim
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -78,9 +105,54 @@
 		};
 		//*uniformclass="r105th_ODST";
 	};
+	class v105_BDU_WMARPAT_SS_Slim: VES_BDU_SS_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
+	class v105_BDU_WMARPAT_R_Slim: VES_BDU_R_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
 
-
-	class v105_BDU_Custom_M81_Slim: VES_BDU_V_Evolved_Slim
+	class v105_BDU_M81: VES_BDU_V_Evolved
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
+	
+	class v105_BDU_M81_SS: VES_BDU_SS_V_Evolved
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa",
+			"105th_Armor\Alpha Company\d1ata\Uniforms\v105_BDU_M81.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
+	class v105_BDU_M81_R: VES_BDU_R_V_Evolved
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
+	class v105_BDU_M81_Slim: VES_BDU_V_Evolved_Slim
 	{
 		hiddenSelectionsTextures[]=
 		{
@@ -89,43 +161,25 @@
 		};
 		//*uniformclass="r105th_ODST";
 	};
+	class v105_BDU_M81_SS_Slim: VES_BDU_SS_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
+	class v105_BDU_M81_R_Slim: VES_BDU_R_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa"
+		};
+		//*uniformclass="r105th_ODST";
+	};
+
 	
-	/*
-	class v105_BDU_Custom_ACAM_CO: VES_BDU_V_Evolved_Slim
-	{
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_ACam_CO.paa",
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_ACam_CO.paa"
-		};
-		//*uniformclass="r105th_ODST";
-	};
-	class v105_BDU_Custom_ACAM_Arid_CO: VES_BDU_V_Evolved_Slim
-	{
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_ACamArid_CO.paa",
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_ACamArid_CO.paa"
-		};
-		//*uniformclass="r105th_ODST";
-	};
-	class v105_BDU_Custom_ACAM_Temperate1_CO: VES_BDU_V_Evolved_Slim
-	{
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_ACamTemperate1_CO.paa",
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_ACamTemperate1_CO.paa"
-		};
-		//*uniformclass="r105th_ODST";
-	};
-	class v105_BDU_Custom_ACAM_Temperate2_CO: VES_BDU_V_Evolved_Slim
-	{
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_ACamTemperate2_CO.paa",
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_ACamTemperate2_CO.paa"
-		};
-		//*uniformclass="r105th_ODST";
-	};
-	*/
+	
 	
