@@ -433,6 +433,7 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 		};
 	};
 
+    /*
 	class ACo_BSmith_M52A_MAR:VES_M52A_MAR_Rifleman_C
 	{
 		dlc="105th";
@@ -513,6 +514,7 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 				
 			};
 	};
+	*/
 
     /*
 	class ACo_CMcDaniel_M52A_MAR:VES_M52A_MAR_Rifleman_C

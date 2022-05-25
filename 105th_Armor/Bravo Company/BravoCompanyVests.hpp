@@ -2952,7 +2952,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
             };			
 		};
 	};
-	/*
+
 	class BCo_BSmith_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		author="N-4 Logistics";
@@ -3074,7 +3074,6 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
             };			
 		};
 	};
-    */
 
 	class BCo_Bman_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
