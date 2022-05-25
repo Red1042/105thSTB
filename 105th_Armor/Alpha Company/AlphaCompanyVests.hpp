@@ -309,7 +309,7 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 				//	"A_KneesRight",
 					"A_KneesMarLeft",
 					"A_KneesMarRight",
-					"A_ODST",
+				//	"A_ODST",
 				//	"A_ShinArmorLeft",
 				//	"A_ShinArmorRight",
 					"A_TacPad",
@@ -433,7 +433,6 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 		};
 	};
 
-	/*
 	class ACo_BSmith_M52A_MAR:VES_M52A_MAR_Rifleman_C
 	{
 		dlc="105th";
@@ -514,7 +513,6 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
 				
 			};
 	};
-	*/
 
     /*
 	class ACo_CMcDaniel_M52A_MAR:VES_M52A_MAR_Rifleman_C

@@ -482,6 +482,7 @@
             owner="Barrier";
         };
 	};
+
 	class BCOMP_CO_AHelms_ODST: VES_CH252D
 	{
 		author="Varner";
@@ -495,5 +496,21 @@
         {
             model="BComp_Custom_Helmets";
             owner="Helms";
+        };
+	};
+
+	class BCOMP_CO_BSmith_ODST: VES_CH252D
+	{
+		author="S-4 Logistics";
+		displayName="[ODST] CH252D Helmet (Smith)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Bravo Company\data\Helmets\BSmi_CH252D_DEF_CO.paa",
+			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
+		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Smith";
         };
 	};

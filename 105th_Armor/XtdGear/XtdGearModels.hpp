@@ -24,7 +24,7 @@ class XtdGearModels
             options[] = {"Owner"};
             class owner
             {
-                values[] = {"Rookie","Barkley","Barrier","Bman","Bulck","Canley","Coleman","Collins","Cruz","Dubbo","Helms","Kynx","Luke","Midreus","Mokes","Nostra","Nungester","Oswald","Ramos","Richter","Ronin","Sevarach","Swoner","Vargas","Varner","Virus","Wells","Winters"};
+                values[] = {"Rookie","Barkley","Barrier","Bman","Bulck","Canley","Coleman","Collins","Cruz","Dubbo","Helms","Kynx","Luke","Midreus","Mokes","Nostra","Nungester","Oswald","Ramos","Richter","Ronin","Sevarach","Smith","Swoner","Vargas","Varner","Virus","Wells","Winters"};
             };
         };
 
@@ -50,7 +50,7 @@ class XtdGearModels
             options[] = {"Owner"};
             class owner
             {
-                values[] = {"Barkley","Barrier","Bman","Canley","Cruz","Dubbo","Nostra","Nungester","Sevarach","Varner"};
+                values[] = {"Barkley","Barrier","Bman","Canley","Cruz","Dubbo","Nostra","Nungester","Sevarach","Smith","Varner"};
             };
         };
 
