@@ -102,6 +102,11 @@
 			"105th_Armor\Bravo Company\data\Helmets\AVir_CH252D_DEF_CO.paa",
 			"105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Helmets";
+            owner="Virus";
+        };
 	};
 
 	class BCOMP_MARK_RCanley_ODST: VES_CH252D
