@@ -58,6 +58,33 @@ class XtdGearModels
             Alpha Company Arsenal Extended Section
         */
 
+        class AComp_Uniforms
+        {
+            label = "[Marine] Uniforms";
+            author = "S4 Logistics";
+            options[] = {"Camo","Sleeves","Slim"};
+            class camo
+            {
+                values[] = {"DWDL","M81","MARPAT"};
+                class DWDL
+                {
+                    image = "105th_Armor\Alpha Company\data\Uniforms\v105_BDU_DigiWoodland.paa";
+                };
+                class MARPAT
+                {
+                    image = "105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa";
+                };
+            };
+            class sleeves
+            {
+                values[] = {"Full","Rolled","Short"};
+            };
+            class slim
+            {
+                values[] = {"Yes","No"};
+            };
+        }
+
         class AComp_Vests
         {
             label = "[Marine] Vests";
@@ -110,5 +137,27 @@ class XtdGearModels
             };
         };
 
+        /*
+            105th Generic Arsenal Extended Section
+        */
+
+        class v105_LongRanges
+        {
+            label = "[105th] Long Ranges";
+            author = "S4 Logistics";
+            options[] = {"Range","Base","Stripe"};
+            class range
+            {
+                values[] = {"25k","40k"};
+            };
+            class base
+            {
+                values[] = {"Black","Green","Yellow","Snow","Tan"};
+            };
+            class stripe
+            {
+                values[] = {"None","Black","Blue","Green","Red","White","Yellow"};
+            };
+        };
     };
 };

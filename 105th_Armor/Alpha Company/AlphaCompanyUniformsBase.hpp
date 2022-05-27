@@ -83,7 +83,7 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa",
-			"105th_Armor\Alpha Company\d1ata\Uniforms\v105_BDU_WMARPAT.paa"
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa"
 		};
 		//*uniformclass="r105th_ODST";
 	};
@@ -100,8 +100,8 @@
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT_CO.paa",
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT_CO.paa"
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_WMARPAT.paa"
 		};
 		//*uniformclass="r105th_ODST";
 	};
@@ -139,7 +139,7 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa",
-			"105th_Armor\Alpha Company\d1ata\Uniforms\v105_BDU_M81.paa"
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa"
 		};
 		//*uniformclass="r105th_ODST";
 	};
@@ -156,8 +156,8 @@
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81_CO.paa",
-			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81_CO.paa"
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa",
+			"105th_Armor\Alpha Company\data\Uniforms\v105_BDU_M81.paa"
 		};
 		//*uniformclass="r105th_ODST";
 	};

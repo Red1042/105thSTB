@@ -150,12 +150,15 @@ class CfgVehicles
 	class OPTRE_UNSC_Rucksack;
 	class OPTRE_UNSC_Rucksack_Spartan;
 	class OPTRE_ANPRC_521_black;
-	class MatGrp_ANPRC_521_black_blue;
+	class MatGrp_ANPRC_515A1;
 	class ACE_gunbag;
 	class OPTRE_ONI_Researcher_Suitcase;
 
 	// Overrides of other configs
     #include "Overrides\Overrides.hpp"
+
+	// 105th Long Range Xtd Gear Overrides
+	#include "XtdGear\LongRangeOverrides.hpp"
 	
 	//dress uniform base
 	#include "Dress Gear\DressUniformBase.hpp"
