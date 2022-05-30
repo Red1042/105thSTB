@@ -3670,7 +3670,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
                     "AP_Rounds",
                     "AP_SG",
                     "AP_SMG",
-                //    "AP_Sniper",
+                    "AP_Sniper",
                 //    "AP_Thigh",
                     "AP_Frag",
                 //    "AP_Smoke",
@@ -3678,7 +3678,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
                     "APO_BR",
                 //    "APO_Knife",
                 //    "APO_SMG",
-                    "APO_Sniper",
+                //    "APO_Sniper",
                     "CustomKit_Scorch"
                 };
     		};

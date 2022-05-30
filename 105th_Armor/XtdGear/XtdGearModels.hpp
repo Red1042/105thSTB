@@ -122,7 +122,7 @@ class XtdGearModels
             options[] = {"Owner"};
             class owner
             {
-                values[] = {"Collins","Howard","Nungester"};
+                values[] = {"Collins","Howard","Nungester","Shepard","Stürmischer"};
             };
         };
 
@@ -136,12 +136,15 @@ class XtdGearModels
                 values[] = {"Stürmischer"};
             };
         };
+    };
 
+    class CfgVehicles
+    {
         /*
-            105th Generic Arsenal Extended Section
+            105th Generic Arsenal Extended Section (Vehicles)
         */
 
-        class v105_LongRanges
+        class v105_Long_Ranges
         {
             label = "[105th] Long Ranges";
             author = "S4 Logistics";
@@ -152,7 +155,7 @@ class XtdGearModels
             };
             class base
             {
-                values[] = {"Black","Green","Yellow","Snow","Tan"};
+                values[] = {"Black","Green","Snow","Tan"};
             };
             class stripe
             {

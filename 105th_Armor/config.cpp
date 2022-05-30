@@ -19,7 +19,8 @@ class CfgPatches
 			"OPTRE_UNSC_Units_Army",
 			"OPTRE_Weapons",
 			"OPTRE_Weapons_Backpacks",
-			"LM_OPCAN_UNSC"
+			"LM_OPCAN_UNSC",
+			"MatGrp_Radios"
 		};
 	};
 };

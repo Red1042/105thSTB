@@ -27,12 +27,19 @@
 			};
 		};
 	};
+
+
+	/*
+	    Start of custom VC-497 Helmets
+	    Start of Custom VX19's
+	*/
+
 	class v105_VX19_Helmet_GStu : v105_VX19_Helmet
 	{
 		dlc="OPTRE";
 		scope=2;
-		author="Article 2 Studios";
-		displayName="[VC-497] VX19 Flight Helmet";
+		author="S-4 Logistics";
+		displayName="[VC-497] VX19 (Stürmischer)";
 		
 		hiddenSelectionsTextures[]=
 		{
@@ -53,10 +60,48 @@
 				"105th_Armor\VC497\data\Helmets\VX19_Visor_Air_CO.paa"
 			};
 		};
+        class XtdGearInfo
+        {
+            model="VC497_Custom_Helmets";
+            owner="Stürmischer";
+        };
+	};
+
+	class v105_VX19_Helmet_JShe : v105_VX19_Helmet
+	{
+		dlc="OPTRE";
+		scope=2;
+		author="S-4 Logistics";
+		displayName="[VC-497] VX19 (Shepard)";
+
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\VC497\data\Helmets\JShe_VX19_Air_CO.paa",
+			"105th_Armor\VC497\data\Helmets\VX19_Visor_Air_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			uniformModel="\OPTRE_FC_Units\Marines\h3_pilothelmet.p3d";
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2"
+			};
+			hiddenSelectionsTextures[]=
+			{
+				"105th_Armor\VC497\data\Helmets\GStu_VX19_Air_CO.paa",
+				"105th_Armor\VC497\data\Helmets\VX19_Visor_Air_CO.paa"
+			};
+		};
+        class XtdGearInfo
+        {
+            model="VC497_Custom_Helmets";
+            owner="Shepard";
+        };
 	};
 
 	/*
-	    Start of custom VC-497 Helmets
+	    Start of custom ECH's
 	*/
 
 	class VC497_Helmet_ENun: VES_CH252_MAR_Vacuum

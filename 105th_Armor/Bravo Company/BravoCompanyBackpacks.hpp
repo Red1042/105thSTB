@@ -60,6 +60,11 @@
 			"optre_unsc_units\army\data\soft_backpack_co.paa",
 			"105th_Armor\Bravo Company\data\Backpacks\BBar_ANPRC521.paa"
 		};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Backpacks";
+            owner="Barkley";
+        };
 	};
 
     class v105_GCru_ANPRC515: OPTRE_ANPRC_515
@@ -76,4 +81,9 @@
     	{
     		"105th_Armor\Bravo Company\data\Backpacks\GCru_ANPRC515.paa"
     	};
+        class XtdGearInfo
+        {
+            model="BComp_Custom_Backpacks";
+            owner="Cruz";
+        };
     };

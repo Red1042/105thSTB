@@ -173,7 +173,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E4Corp.paa",
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_ncocorpsman.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_DMur.paa"
 		};
 		
