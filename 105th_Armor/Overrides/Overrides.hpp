@@ -15,10 +15,7 @@
 	{
 		maximumLoad=350;
 	};
-	class OPTRE_ANPRC_521_Green: OPTRE_UNSC_Rucksack
-	{
-		maximumLoad=400;
-	};
+	/* Green ANPRC_521 is handled in Overrides/LongRangeOverrides.hpp */
 	class OPTRE_ANPRC_521_Green_Spartan: OPTRE_UNSC_Rucksack_Spartan
 	{
 		maximumLoad=400;

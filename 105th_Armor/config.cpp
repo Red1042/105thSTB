@@ -150,7 +150,6 @@ class CfgVehicles
 	class OPTRE_ILCS_Rucksack_Black_Spartan;
 	class OPTRE_UNSC_Rucksack;
 	class OPTRE_UNSC_Rucksack_Spartan;
-	class OPTRE_ANPRC_521_black;
 	class MatGrp_ANPRC_515A1;
 	class ACE_gunbag;
 	class OPTRE_ONI_Researcher_Suitcase;

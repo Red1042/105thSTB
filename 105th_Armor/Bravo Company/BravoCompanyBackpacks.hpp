@@ -11,6 +11,9 @@
 		displayName="[ODST]M25D Long Range Helmet Uplink";
 		model="\A3\weapons_f\empty";
 		hiddenSelections[]={};
+        class XtdGearInfo
+        {
+        };
 	};
 
 	class BravoCompany_Radio_Broken: BravoCompany_Radio

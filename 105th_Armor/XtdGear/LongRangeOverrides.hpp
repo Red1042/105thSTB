@@ -1,3 +1,59 @@
+/*
+    Original OPTRE LRs
+*/
+
+class OPTRE_ANPRC_521_Green: OPTRE_UNSC_Rucksack
+{
+    maximumLoad=400;
+    /*
+    class XtdGearInfo
+    {
+        model="v105_Long_Ranges";
+        range="25k";
+        base="Green";
+        stripe="None";
+    };
+    */
+};
+
+class OPTRE_ANPRC_521_Black: OPTRE_ANPRC_521_Green
+{
+    class XtdGearInfo
+    {
+        model="v105_Long_Ranges";
+        range="25k";
+        base="Black";
+        stripe="None";
+    };
+};
+
+class OPTRE_ANPRC_521_Snow: OPTRE_ANPRC_521_Green
+{
+    class XtdGearInfo
+    {
+        model="v105_Long_Ranges";
+        range="25k";
+        base="Snow";
+        stripe="None";
+    };
+};
+
+class OPTRE_ANPRC_521_Tan: OPTRE_ANPRC_521_Green
+{
+    class XtdGearInfo
+    {
+        model="v105_Long_Ranges";
+        range="25k";
+        base="Tan";
+        stripe="None";
+    };
+};
+
+/*
+    MatGrp LRs
+*/
+
+
 class MatGrp_ANPRC_521A1_black: OPTRE_ANPRC_521_black
 {
     class XtdGearInfo
@@ -5,7 +61,7 @@ class MatGrp_ANPRC_521A1_black: OPTRE_ANPRC_521_black
         model="v105_Long_Ranges";
         range="40k";
         base="Black";
-        stripe="Black";
+        stripe="None";
     };
 };
 class MatGrp_ANPRC_521A1_black_yellow: MatGrp_ANPRC_521A1_black
@@ -65,7 +121,7 @@ class MatGrp_ANPRC_521A1_Snow: MatGrp_ANPRC_521A1_black
         model="v105_Long_Ranges";
         range="40k";
         base="Snow";
-        stripe="Snow";
+        stripe="None";
     };
 };
 class MatGrp_ANPRC_521A1_Snow_yellow: MatGrp_ANPRC_521A1_black
@@ -125,7 +181,7 @@ class MatGrp_ANPRC_521A1_Green: MatGrp_ANPRC_521A1_black
         model="v105_Long_Ranges";
         range="40k";
         base="Green";
-        stripe="Green";
+        stripe="None";
     };
 };
 class MatGrp_ANPRC_521A1_Green_yellow: MatGrp_ANPRC_521A1_black
@@ -185,7 +241,7 @@ class MatGrp_ANPRC_521A1_Tan: MatGrp_ANPRC_521A1_black
         model="v105_Long_Ranges";
         range="40k";
         base="Tan";
-        stripe="Tan";
+        stripe="None";
     };
 };
 class MatGrp_ANPRC_521A1_Tan_yellow: MatGrp_ANPRC_521A1_black
@@ -439,7 +495,9 @@ class MatGrp_ANPRC_521_Tan_blue: OPTRE_ANPRC_521_black
     };
 };
 
-/* Overriding to remove */
+/*
+    Overriding to remove sub-backpacks
+*/
 
 class MatGrp_ANPRC_521A2_black: MatGrp_ANPRC_521A1_black
 {
