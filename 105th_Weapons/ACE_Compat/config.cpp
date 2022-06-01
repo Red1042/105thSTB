@@ -453,4 +453,11 @@ class CfgWeapons
 			};
 		};
 	};  // END NEST's ACE COOKOFF FIX
+
+	class OPTRE_BR55HB : OPTRE_Rifle_Base
+	{
+	    ACE_overheating_mrbs = 15000;
+	    ACE_overheating_dispersion = 0.2;
+	    ACE_overheating_barrelMass = 4;
+	};
 };
