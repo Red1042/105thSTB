@@ -471,14 +471,14 @@ class CfgAmmo
 
     class G_40mm_HE: GrenadeBase
     {
-        hit=    10;
-        indirectHit=    10;
+        hit=10;
+        indirectHit=10;
 		indirectHitRange= 3;
     };
     class v105_Whistler_40mm_HE: G_40mm_HE
 	{
-        hit=    10;
-        indirectHit=    10;
+        hit= 10;
+        indirectHit= 10;
 		indirectHitRange= 3;
 		whistleDist=400;
 		whistleOnFire=1;
