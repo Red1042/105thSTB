@@ -406,10 +406,10 @@ class CfgMagazines
 };
 class BulletCore;
 class B_408_Ball;
-class G_40mm_HE;
 class B_12Gauge_Pellets_Submunition;
 class OPTRE_B_338_SP;
 class OPTRE_B_762x51_UW;
+class GrenadeBase;
 class CfgAmmo
 {
     class BulletCore;
@@ -468,11 +468,18 @@ class CfgAmmo
         caliber=    2;
         typicalSpeed=   300;
     };
-    class v105_Whistler_40mm_HE:G_40mm_HE 
+
+    class G_40mm_HE: GrenadeBase
+    {
+        hit=    10;
+        indirectHit=    10;
+		indirectHitRange= 3;
+    };
+    class v105_Whistler_40mm_HE: G_40mm_HE
 	{
-        hit=    15;
-        indirectHit=    15;
-		indirectHitRange= 5;
+        hit=    10;
+        indirectHit=    10;
+		indirectHitRange= 3;
 		whistleDist=400;
 		whistleOnFire=1;
         cost=40;
@@ -484,12 +491,12 @@ class CfgAmmo
 			300 //Distance m
 		};
 	};
-	class OPTRE_G_M9_Frag:GrenadeHand
+	class OPTRE_G_M9_Frag: GrenadeHand
     {
         model="\OPTRE_Weapons\explosives\m9_grenade.p3d";
-		hit=25;
-		indirectHit=10;
-		indirectHitRange=6;
+		hit=9;
+		indirectHit=9;
+		indirectHitRange=3.5;
 		visibleFire=0.5;
 		audibleFire=0.050000001;
 		visibleFireTime=1;
