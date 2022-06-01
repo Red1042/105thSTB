@@ -584,19 +584,19 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class v105_FIR_Zuni_P_8rnd_M : FIR_Zuni_P_8rnd_M
 	{
 		hardpoints[] = {"v105_UnguidedRockets"};
-		pylonWeapon = "FIR_Zuni_Launcher";
+		pylonWeapon = "v105_FIR_Zuni_Launcher";
 	};	
 	// Zuni HEAT
 	class v105_FIR_Zuni_Mk32_P_8rnd_M : FIR_Zuni_Mk32_P_8rnd_M
 	{
 		hardpoints[] = {"v105_UnguidedRockets"};
-		pylonWeapon = "FIR_Zuni_Launcher";
+		pylonWeapon = "v105_FIR_Zuni_Launcher";
 	};
 	// Laser Zuni HE
 	class v105_FIR_LZuni_P_8rnd_M : FIR_LZuni_P_8rnd_M
 	{
 		hardpoints[] = {"v105_GuidedRockets"};
-		pylonWeapon = "FIR_LZuni_Launcher";
+		pylonWeapon = "v105_FIR_LZuni_Launcher";
 	};		
 	
 	// ECM Jammer
