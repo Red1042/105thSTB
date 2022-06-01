@@ -75,6 +75,10 @@ class CfgWeapons
             class MuzzleSlot: MuzzleSlot
         {
             iconPosition[]={0,0.40000001};
+            compatibleitems[]=
+            {
+                "optre_srs99d_suppressor"
+            };
         };
         class CowsSlot: CowsSlot
         {
