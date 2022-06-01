@@ -679,14 +679,17 @@
 			{
 				magazines[]= 
 				{
-					"v105_FIR_Hydra_P_7rnd_M","v105_FIR_Hydra_P_19rnd_M","v105_FIR_Hydra_P_38rnd_M",
-					"v105_FIR_Hydra_M229_P_7rnd_M","v105_FIR_Hydra_M229_P_19rnd_M","v105_FIR_Hydra_M229_P_38rnd_M",
-					"v105_FIR_Hydra_M247_P_7rnd_M","v105_FIR_Hydra_M247_P_19rnd_M","v105_FIR_Hydra_M247_P_38rnd_M",
-					"v105_FIR_Hydra_M282_P_7rnd_M","v105_FIR_Hydra_M282_P_19rnd_M","v105_FIR_Hydra_M282_P_38rnd_M",
-					"v105_FIR_Hydra_WDU4_P_7rnd_M","v105_FIR_Hydra_WDU4_P_19rnd_M","v105_FIR_Hydra_WDU4_P_38rnd_M",
-					"v105_FIR_Hydra_M261_P_7rnd_M","v105_FIR_Hydra_M261_P_19rnd_M","v105_FIR_Hydra_M261_P_38rnd_M",
+					"v105_FIR_Hydra_P_7rnd_M","v105_FIR_Hydra_P_14rnd_M","v105_FIR_Hydra_P_19rnd_M","v105_FIR_Hydra_LAU130_P_19rnd_M","v105_FIR_Hydra_P_21rnd_M","v105_FIR_Hydra_P_38rnd_M",
+					"v105_FIR_Hydra_M229_P_7rnd_M","v105_FIR_Hydra_M229_P_14rnd_M","v105_FIR_Hydra_M229_P_19rnd_M","v105_FIR_Hydra_M229_P_38rnd_M",
+					"v105_FIR_Hydra_M247_P_7rnd_M","v105_FIR_Hydra_M247_P_14rnd_M","v105_FIR_Hydra_M247_P_19rnd_M","v105_FIR_Hydra_M247_P_38rnd_M",
+					"v105_FIR_Hydra_M282_P_7rnd_M","v105_FIR_Hydra_M282_P_14rnd_M","v105_FIR_Hydra_M282_P_19rnd_M","v105_FIR_Hydra_M282_P_38rnd_M",
+					"v105_FIR_Hydra_WDU4_P_7rnd_M","v105_FIR_Hydra_WDU4_P_14rnd_M","v105_FIR_Hydra_WDU4_P_19rnd_M","v105_FIR_Hydra_WDU4_P_38rnd_M",
+					"v105_FIR_Hydra_M261_P_7rnd_M","v105_FIR_Hydra_M261_P_14rnd_M","v105_FIR_Hydra_M261_P_19rnd_M","v105_FIR_Hydra_M261_P_38rnd_M",
 
-					"v105_FIR_Hydra_WP_P_7rnd_M","v105_FIR_Hydra_WP_P_21rnd_M"
+					"v105_FIR_Hydra_WP_P_7rnd_M","v105_FIR_Hydra_WP_P_21rnd_M",
+					"v105_FIR_CRV7_P_19rnd_M",
+					
+					
 					
 				};
 			};
@@ -695,9 +698,9 @@
 			{
 				magazines[]=
 				{
-					"v105_FIR_APKWS_P_19rnd_M","v105_FIR_APKWS_P_38rnd_M",
-					"v105_FIR_APKWS_M247_P_19rnd_M","v105_FIR_APKWS_M247_P_38rnd_M",
-					"v105_FIR_APKWS_M282_P_19rnd_M","v105_FIR_APKWS_M282_P_38rnd_M"
+					"v105_FIR_APKWS_P_7rnd_M","v105_FIR_APKWS_P_14rnd_M","v105_FIR_APKWS_P_19rnd_M","v105_FIR_APKWS_P_38rnd_M",
+					"v105_FIR_APKWS_M247_P_7rnd_M","v105_FIR_APKWS_M247_P_14rnd_M","v105_FIR_APKWS_M247_P_19rnd_M","v105_FIR_APKWS_M247_P_38rnd_M",
+					"v105_FIR_APKWS_M282_P_7rnd_M","v105_FIR_APKWS_M282_P_14rnd_M","v105_FIR_APKWS_M282_P_19rnd_M","v105_FIR_APKWS_M282_P_38rnd_M"
 				};
 			};
 			class FIR_Zuni_Launcher;
