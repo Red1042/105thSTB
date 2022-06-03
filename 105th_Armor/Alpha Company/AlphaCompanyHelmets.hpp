@@ -407,6 +407,16 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	class ACOMP_NCO_GArcher_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="N-4 Logistics";
+		displayName="[105th] CH252 Helmet (Archer)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\GArc_CH252_MAR_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+	};
 	/* Luke's Additions start */
 	class ACOMP_NCO_AMclendon_MAR: VES_CH252_MAR_Vacuum
 	{
@@ -581,15 +591,7 @@
 			"105th_Armor\Alpha Company\data\Helmets\BKow_CH252_MAR_CO.paa"
 		};
 	};
-	class ACOMP_NCO_GArcher_MAR: VES_CH252_MAR_Light
-	{
-		author="N-4 Logistics";
-		displayName="[105th] CH252 Helmet (Archer)";
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Alpha Company\data\Helmets\GArc_CH252_MAR_CO.paa"
-		};
-	};
+	
 	/*
 	class ACOMP_NCO_JNostra_MAR: VES_CH252_MAR_Light
 	{

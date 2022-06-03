@@ -414,7 +414,16 @@
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
-	
+	class ACOMP_NCO_GArcher_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="N-4 Logistics";
+		displayName="[105th] CH252 Helmet (Archer)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\GArc_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
 	/* Luke's Additions start */
 	class ACOMP_NCO_AMclendon_MAR_dp: VES_CH252_MAR_Vacuum_dp
 	{
