@@ -259,7 +259,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_CSO_Marksman_Lead_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_CSO_Marksman_Lead_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -381,7 +381,7 @@
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_CSO_Marksman_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_CSO_Marksman_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -625,7 +625,7 @@ class ODST_EOD: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_EOD_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_EOD_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -747,7 +747,7 @@ class ODST_Heavy: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_CSO_Heavy_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_CSO_Heavy_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -869,7 +869,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_CSO_Heavy_Lead_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_CSO_Heavy_Lead_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -991,7 +991,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_CSO_Lead_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_CSO_Lead_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -1113,7 +1113,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_SOO_Lead_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_SOO_Lead_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -1234,7 +1234,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_JTAC_Lead_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_JTAC_Lead_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -1356,7 +1356,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_CSO_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_CSO_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -1600,7 +1600,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_SARC_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_SARC_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -1850,7 +1850,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_EOD_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\RCan_M52D_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -3205,9 +3205,9 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 		{
 			"V_FZ_Armor\Data\Vests\V_M52_V_URB_CO.paa",
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
-			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
+			"105th_Armor\Bravo Company\data\Chests\GCru_M52D_Lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_SOO_Lead_Upper.paa"
+			"105th_Armor\Bravo Company\data\Chests\GCru_M52D_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -3572,7 +3572,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
     			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
     			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
     			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-    			"105th_Armor\Bravo Company\data\Chests\Bravo_M52D_CSO_Heavy_Upper.paa"
+    			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_CSO_Heavy_Upper.paa"
     		};
             class XtdGearInfo
             {
