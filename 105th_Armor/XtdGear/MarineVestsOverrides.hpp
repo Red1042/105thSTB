@@ -1078,3 +1078,9 @@ class VES_M52A_URB_Vest_B: VES_M52A_MAR_Vest_B
         variant="B"
     };
 };
+class VES_FH320_CPD_Heavy: VES_M52A_MAR_Vest_A
+{
+    class XtdGearInfo
+    {
+    };
+}
