@@ -92,7 +92,7 @@ class XtdGearModels
             options[] = {"Billet","Variant"};
             class billet
             {
-                values[] = {"Breacher","Corpsman","Grenadier","Radio","Rifleman","Security","Sniper"};
+                values[] = {"Breacher","Corpsman","Grenadier","Radio","Rifleman","Security","Sniper","Vest"};
             };
             class variant
             {
