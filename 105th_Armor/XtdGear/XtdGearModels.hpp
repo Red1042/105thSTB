@@ -162,5 +162,20 @@ class XtdGearModels
                 values[] = {"None","Black","Blue","Green","Red","White","Yellow"};
             };
         };
+
+        /*
+            Bravo Company Arsenal Extended Section
+        */
+
+        class BComp_Custom_Backpacks
+        {
+            label = "[ODST] Custom Backpacks";
+            author = "S4 Logistics";
+            options[] = {"Owner"};
+            class owner
+            {
+                values[] = {"Barkley","Cruz"};
+            };
+        }
     };
 };
