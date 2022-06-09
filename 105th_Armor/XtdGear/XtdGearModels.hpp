@@ -89,10 +89,14 @@ class XtdGearModels
         {
             label = "[Marine] Vests";
             author = "S4 Logistics";
-            options[] = {"Billet","Variant"};
+            options[] = {"Camo","Billet","Variant"};
+            class camo
+            {
+                values[] = {"CEA","Desert","Marine","Snow","Urban","Woodland"};
+            };
             class billet
             {
-                values[] = {"Breacher","Corpsman","Grenadier","Radio","Rifleman","Security","Sniper","Vest"};
+                values[] = {"Breacher","Corpsman","Grenadier","Light","Radio","Rifleman","Security","Sniper"};
             };
             class variant
             {
