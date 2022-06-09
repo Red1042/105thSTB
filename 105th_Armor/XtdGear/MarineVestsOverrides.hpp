@@ -142,24 +142,6 @@ class VES_M52A_MAR_Corpsman_B: VES_M52A_MAR_Corpsman_A
     variant="B"
     };
 };
-class VES_M52A_MAR_Vest_A: VES_M52A_MAR_Corpsman_A
-{
-    class XtdGearInfo
-    {
-    model="AComp_Vests";
-    billet="Vest"
-    variant="A"
-    };
-};
-class VES_M52A_MAR_Vest_B: VES_M52A_MAR_Vest_A
-{
-    class XtdGearInfo
-    {
-    model="AComp_Vests";
-    billet="Vest"
-    variant="B"
-    };
-};
 class VES_M52A_WDL_Rifleman_A: VES_M52A_MAR_Rifleman_A
 {
     class XtdGearInfo
