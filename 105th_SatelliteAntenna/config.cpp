@@ -5,7 +5,7 @@ class CfgPatches
 	class v105_Admin
 	{
 		author="105th";
-		name="105th Admin";
+		name="105th Satellite Antenna";
 		weapons[]={};
 		magazines[]={};
 		ammo[]={};
@@ -20,7 +20,11 @@ class CfgFunctions
 	{
 		class Functions
 		{
-			file = "105th_Admin\functions";
+			file = "105th_SatelliteAntenna\functions";
+			class PreInit
+			{
+			    preInit = 1;
+			};
 			class Init
 			{
 			    postInit = 1;
@@ -32,9 +36,6 @@ class CfgFunctions
 			{
 			};
 			class ScanInventory
-			{
-			};
-			class SaveData
 			{
 			};
 			class AllowedActions
@@ -49,13 +50,3 @@ class CfgFunctions
 		};
 	};
 };
-
-
-#include "\a3\ui_f\hpp\definecommongrids.inc"
-#include "defines.hpp"
-#include "ui\adminViewUserUI.hpp"
-
-class RscTitles
-{
-    #include "ui\bossBarUI.hpp"
-}

@@ -5,17 +5,16 @@
 //[] call V105_Admin_fnc_ShowBossBarUI;
 
 /* Testing Area End */
-//                  Luke                Nungester           Varner              Howard
-v105_Admin_List = ["76561198110027425","76561198118936414","76561198122766627","76561198082045004"];
+//                  Luke                Nungester           Varner
+v105_Admin_List = ["76561198110027425","76561198118936414","76561198122766627"];
 
 if(isServer) then {
-    v105_Admin_inidbi = ["new", "v105_Utility"] call OO_INIDBI;
-    v105_Admin_blacklistedMods = ["read",["v105_Admin","blacklistedMods", []]] call v105_Admin_inidbi;
-    v105_Admin_whitelistedMods = ["read",["v105_Admin","whitelistedMods", []]] call v105_Admin_inidbi;
+    v105_Admin_blacklistedMods = profileNamespace getVariable ["v105_Admin_blacklistedMods", []];
+    v105_Admin_whitelistedMods = profileNamespace getVariable ["v105_Admin_whitelistedMods", []];
 
 
-    v105_Admin_blacklistedItems = ["read",["v105_Admin","blacklistedItems", []]] call v105_Admin_inidbi;
-    v105_Admin_whitelistedItems = ["read",["v105_Admin","whitelistedItems", []]] call v105_Admin_inidbi;
+    v105_Admin_blacklistedItems = profileNamespace getVariable ["v105_Admin_blacklistedItems", []];
+    v105_Admin_whitelistedItems = profileNamespace getVariable ["v105_Admin_whitelistedItems", []];
 
     publicVariable "v105_Admin_blacklistedMods";
     publicVariable "v105_Admin_whitelistedMods";
@@ -28,7 +27,8 @@ if(hasInterface) then {
     [player] call v105_Admin_fnc_CheckMods;
 
     private _uid = getPlayerUID player;
-    if(_uid in v105_Admin_List) then {
+    private _adminState = call BIS_fnc_admin;
+    if(_uid in v105_Admin_List or _adminState != 0) then {
         _action = ["Open Admin Menu","Open Admin Menu","",{
             _name = (name player);
             [_name] spawn V105_Admin_fnc_ShowAdminViewUserUI;
