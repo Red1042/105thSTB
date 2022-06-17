@@ -27,6 +27,10 @@ if(isServer) then {
 if(hasInterface) then {
     [player] call v105_Admin_fnc_CheckMods;
 
+    ace_arsenal_blacklist_handler = ["ace_arsenal_displayClosed", {
+        [player] call v105_Admin_fnc_CheckInventory;
+    }] call CBA_fnc_addEventHandler;
+
     private _uid = getPlayerUID player;
     if(_uid in v105_Admin_List) then {
         _action = ["Open Admin Menu","Open Admin Menu","",{

@@ -5,7 +5,7 @@ class CfgPatches
 	class v105_Admin
 	{
 		author="105th";
-		name="105th Satellite Antenna";
+		name="105th Antenna";
 		weapons[]={};
 		magazines[]={};
 		ammo[]={};
@@ -16,11 +16,11 @@ class CfgPatches
 
 class CfgFunctions
 {
-	class v105_Admin
+	class v105_Antenna
 	{
 		class Functions
 		{
-			file = "105th_SatelliteAntenna\functions";
+			file = "105th_Antenna\functions";
 			class PreInit
 			{
 			    preInit = 1;
@@ -29,22 +29,13 @@ class CfgFunctions
 			{
 			    postInit = 1;
 			};
-			class CheckMods
+			class AntennaInit
 			{
 			};
-			class ShowAdminViewUserUI
+			class HandleConnection
 			{
 			};
-			class ScanInventory
-			{
-			};
-			class AllowedActions
-			{
-			};
-			class AdminHint
-			{
-			};
-			class ShowBossBarUI
+			class HandleConnected
 			{
 			};
 		};
