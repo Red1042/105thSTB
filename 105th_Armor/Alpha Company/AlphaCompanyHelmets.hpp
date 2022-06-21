@@ -356,7 +356,6 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
-	/* Hid on 2/13/22 because Coleman ODST now
 	class ACOMP_NCO_WColeman_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
@@ -367,7 +366,6 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
-	*/
 	class ACOMP_NCO_LHiggins_MAR: VES_CH252_MAR_Vacuum
 	{
 		author="N-4 Logistics";
