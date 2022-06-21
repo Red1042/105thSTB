@@ -123,6 +123,18 @@
 			0.31622776,
 			1
 		};
+		class EventHandlers
+		{
+			class FIR_AWS_Common_EH
+			{
+				init = "[_this select 0,'yes'] execVM ""\FIR_AirWeaponSystem_US\Script\init\init.sqf"";";
+				hit = "_this call bis_fnc_planeAiEject";
+			};
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,true] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		class pilotCamera
         {
             class OpticsIn
@@ -979,7 +991,7 @@
 			class RampOpen
 			{
 				animPeriod=5;
-				condition="((this animationPhase ""cargoDoor_1"" < 0.5) AND (!(this getvariable [""VES_PelicanMG_Status"",false])) AND (this animationPhase ""cargoDoor_2"" < 0.5) AND (alive this))";
+				condition="((this animationPhase ""cargoDoor_1"" < 0.5) AND (!(this getvariable [""VES_PelicanMG_Status"",false])) AND (this animationPhase ""cargoDoor_2"" < 0.5) AND (alive this) AND ((driver this) isEqualTo player))";
 				displayName="Open Ramp";
 				displayNameDefault="Open Ramp";
 				onlyForPlayer=0;
@@ -990,15 +1002,6 @@
 				statement="this animate [""cargoDoor_1"",1]; this animate [""cargoDoor_2"",1]";
 				textToolTip="Open Ramp";
 				userActionID=50;
-			};			
-		};
-		
-		class eventhandlers : EventHandlers
-		{
-			class FIR_AWS_Common_EH
-			{
-				Init = "[_this select 0,'yes'] execVM ""\FIR_AirWeaponSystem_US\Script\init\init.sqf"";";
-				hit = "_this call bis_fnc_planeAiEject";
 			};			
 		};
 	};	//end TEST Pelican
@@ -1204,9 +1207,12 @@
 			"HOW_320Rnd_Flare_Chaff_Magazine",
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
-		class EventHandlers: EventHandlers
+		class EventHandlers
 		{
-			init = "0 = _this spawn V_FZ_fnc_PelicanAddPointDefTurret";
+		    class v105_Pod_EH
+		    {
+			    init = "0 = _this spawn V_FZ_fnc_PelicanAddPointDefTurret";
+			};
 		};
 		class Turrets: Turrets
 		{
@@ -1276,6 +1282,13 @@
         {
             "105th_Vehicles\textures\Pelican\v105_Pelican_Base_co.paa"
         };
+		class EventHandlers
+		{
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,true] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		 class pilotCamera
         {
             class OpticsIn
@@ -1651,7 +1664,7 @@
 			};			
 		};
     };
-	class v105_D78DHTC:v105_D77HTCI
+	class v105_D78DHTC: v105_D77HTCI
 	{
 		scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
@@ -1660,9 +1673,16 @@
         author="N-4 Logistics";
         displayName="D78TC Pelican [Troop Carrier]";
         fuelCapacity=1200;
-		class EventHandlers: EventHandlers
+		class EventHandlers
 		{
-			init = "0 = _this spawn V_FZ_fnc_PelicanAddTransportPod";
+		    class v105_Pod_EH
+		    {
+			    init = "0 = _this spawn V_FZ_fnc_PelicanAddTransportPod";
+			};
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,true] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
 		};
 		 class pilotCamera
         {

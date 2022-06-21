@@ -370,7 +370,28 @@ class Optics_Gunner_APC_01: Optics_Armored
 	class Wide;
 	class Medium;
 	class Narrow;
-}; 
+};
+
+class CfgFunctions
+{
+	class v105_Vehicles
+	{
+		class Functions
+		{
+			file = "105th_Vehicles\functions";
+			class Init
+			{
+			    postInit = 1;
+			};
+			class EngineOff
+			{
+			};
+			class registerThrusters
+			{
+			};
+		};
+	};
+};
 
 
 class cfgWeapons

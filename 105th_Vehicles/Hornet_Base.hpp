@@ -163,6 +163,13 @@ class HOW_AV14_Base: VES_AV14
 				};
 			};
 		};
+		class EventHandlers
+		{
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		class TransportBackpacks
 		{
 			

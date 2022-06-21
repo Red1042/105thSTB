@@ -23,13 +23,19 @@
 			"105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
 			"105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
 		};
+		class EventHandlers
+		{
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		class TransportItems
 		{
 			#include "cfg\VehicleGearFalcon.hpp"
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
-        
         class UserActions
         {
             class FullAirbrakeEngageFast
@@ -118,6 +124,17 @@
 			"105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
 			"105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
 		};
+        class EventHandlers
+        {
+            class v105_Pod_EH
+            {
+                init = "0 = _this spawn V_FZ_fnc_FalconAddMedicalPod";
+            };
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+        };
 		class TransportItems
 		{
 			#include "cfg\SupplyPods\ResupplyPodMedical.hpp"
@@ -135,10 +152,6 @@
 		//	"passenger_apc_generic04",
 		//	"passenger_apc_narrow_generic02"
 		};
-        class EventHandlers: EventHandlers
-        {
-            init = "0 = _this spawn V_FZ_fnc_FalconAddMedicalPod";
-        };
         class UserActions
         {
             class FullAirbrakeEngageFast
@@ -204,7 +217,7 @@
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
 				
 				userActionID=53;
-			};  
+			};
         };
     };
     class v105_UH144S: VES_UH144S
@@ -227,6 +240,13 @@
             "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
             "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
         };
+		class EventHandlers
+		{
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		class TransportItems
 		{
 			#include "cfg\VehicleGearFalcon.hpp"
@@ -320,6 +340,13 @@
             "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
             "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
         };
+		class EventHandlers
+		{
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		class TransportItems
 		{
 			#include "cfg\VehicleGearFalcon.hpp"
@@ -414,6 +441,13 @@
             "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
             "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
         };
+		class EventHandlers
+		{
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		class TransportItems
 		{
 			#include "cfg\VehicleGearFalcon.hpp"
@@ -510,6 +544,13 @@
             "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
             "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
         };
+		class EventHandlers
+		{
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		class TransportItems
 		{
 			#include "cfg\VehicleGearFalcon.hpp"
@@ -617,6 +658,13 @@
             "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
             "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
         };
+		class EventHandlers
+		{
+			class v105_RegisterThrusters_EH
+			{
+			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
+			};
+		};
 		class TransportItems
 		{
 			#include "cfg\VehicleGearFalcon.hpp"
