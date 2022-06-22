@@ -11,7 +11,9 @@
     if(_vic == player) exitWith {};
     if((_vic getVariable ["OPTRE_Thruster_Usable",false]) and !(_vic getVariable ["OPTRE_Thruster_EngagedStatus",false])) exitWith {
         _vic spawn V_FZ_fnc_Thruster400Engage;
-        _vic spawn V_FZ_fnc_ThrusterAnimate;
+        if(_vic getVariable ["OPTRE_Afterburners_Usable",false]) then {
+            _vic spawn V_FZ_fnc_ThrusterAnimate;
+        }
     };
     if((_vic getVariable ["OPTRE_Afterburners_Usable",false]) and !(_vic getVariable ["OPTRE_Afterburners_EngagedStatus",false])) exitWith {
         _vic spawn V_FZ_fnc_Afterburners900Engage;
@@ -27,7 +29,9 @@
     };
     if(_vic getVariable ["OPTRE_Thruster_EngagedStatus",false]) exitWith {
         _vic spawn V_FZ_fnc_Thruster400Disengage;
-        _vic spawn V_FZ_fnc_ThrusterAnimate;
+        if(_vic getVariable ["OPTRE_Afterburners_Usable",false]) then {
+            _vic spawn V_FZ_fnc_ThrusterDeAnimate;
+        };
     };
 }, {
 }, [0xF3, [false, false, false]]] call CBA_fnc_addKeybind;
@@ -36,7 +40,9 @@
     _vic = (vehicle player);
     if((player == driver _vic) AND (alive _vic) AND ((speed _vic) > 450)) then {
         _vic spawn V_FZ_fnc_HalfAirbrakeEngageFast;
-        _vic spawn V_FZ_fnc_ThrusterDeAnimate;
+        if(_vic getVariable ["OPTRE_Afterburners_Usable",false]) then {
+            _vic spawn V_FZ_fnc_ThrusterDeAnimate;
+        };
     };
 }, {
 }, [nil, [false, false, false]]] call CBA_fnc_addKeybind;
@@ -45,7 +51,9 @@
     _vic = (vehicle player);
     if((player == driver _vic) AND (alive _vic) AND ((speed _vic) > 100)) then {
         _vic spawn V_FZ_fnc_FullAirbrakeEngageFast;
-        _vic spawn V_FZ_fnc_ThrusterDeAnimate;
+        if(_vic getVariable ["OPTRE_Afterburners_Usable",false]) then {
+            _vic spawn V_FZ_fnc_ThrusterDeAnimate;
+        };
     };
 }, {
 }, [nil, [false, false, false]]] call CBA_fnc_addKeybind;
