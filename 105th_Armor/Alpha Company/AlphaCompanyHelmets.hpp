@@ -73,7 +73,7 @@
 	};
 	class ACOMP_NCO_Raid_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet [Raider]";
 		hiddenSelectionsTextures[]=
 		{
@@ -208,7 +208,7 @@
 	*/
 	class ACOMP_CO_GWells_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Wells)";
 		hiddenSelectionsTextures[]=
 		{
@@ -252,7 +252,7 @@
 	{
 		scope=2;
 		scopeArsenal=2;
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Smith)";
 		hiddenSelectionsTextures[]=
 		{
@@ -262,7 +262,7 @@
 	};
 	class ACOMP_Legion14_MAR:VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Legion 1-4)";
 		hiddenSelectionsTextures[]=
 		{
@@ -274,7 +274,7 @@
 	class ACOMP_NCO_JVargas_MAR: VES_CH252_MAR_Vacuum
 	{
 		scope=1;
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Vargas)";
 		hiddenSelectionsTextures[]=
 		{
@@ -286,7 +286,7 @@
 	
 	class ACOMP_NCO_ADunlop_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Dunlop)";
 		hiddenSelectionsTextures[]=
 		{
@@ -297,7 +297,7 @@
 	
 	class ACOMP_NCO_KKolt_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Kolt)";
 		hiddenSelectionsTextures[]=
 		{
@@ -307,7 +307,7 @@
 	};
 	class ACOMP_NCO_JMitchell_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Mitchell)";
 		hiddenSelectionsTextures[]=
 		{
@@ -317,7 +317,7 @@
 	};
 	class ACOMP_NCO_EAspari_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Aspari)";
 		hiddenSelectionsTextures[]=
 		{
@@ -327,7 +327,7 @@
 	};
 	class ACOMP_NCO_KKat_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Kat)";
 		hiddenSelectionsTextures[]=
 		{
@@ -338,7 +338,7 @@
 	class ACOMP_NCO_Bman_MAR: VES_CH252_MAR_Vacuum
 	{
 		scope=1;
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Bman)";
 		hiddenSelectionsTextures[]=
 		{
@@ -348,7 +348,7 @@
 	};
 	class ACOMP_ODST_Trainee_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (ODST Trainee)";
 		hiddenSelectionsTextures[]=
 		{
@@ -358,7 +358,7 @@
 	};
 	class ACOMP_NCO_WColeman_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Coleman)";
 		hiddenSelectionsTextures[]=
 		{
@@ -368,7 +368,7 @@
 	};
 	class ACOMP_NCO_LHiggins_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Higgins)";
 		hiddenSelectionsTextures[]=
 		{
@@ -378,7 +378,7 @@
 	};
 	class ACOMP_NCO_MHoefer_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Hoefer)";
 		hiddenSelectionsTextures[]=
 		{
@@ -388,7 +388,7 @@
 	};
 	class ACOMP_NCO_BCraig_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Craig)";
 		hiddenSelectionsTextures[]=
 		{
@@ -398,7 +398,7 @@
 	};
 	class ACOMP_NCO_GArcher_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] CH252 Helmet (Archer)";
 		hiddenSelectionsTextures[]=
 		{
@@ -409,7 +409,7 @@
 	/* Luke's Additions start */
 	class ACOMP_NCO_AMclendon_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Mclendon)";
 		hiddenSelectionsTextures[]=
 		{
@@ -419,7 +419,7 @@
 	};
 	class ACOMP_NCO_MMarocy_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Marocy)";
 		hiddenSelectionsTextures[]=
 		{
@@ -429,7 +429,7 @@
 	};
 	class ACOMP_NCO_KPenguin_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Penguin)";
 		hiddenSelectionsTextures[]=
 		{
@@ -439,7 +439,7 @@
 	};
 	class ACOMP_NCO_ADork_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Dork)";
 		hiddenSelectionsTextures[]=
 		{
@@ -449,7 +449,7 @@
 	};
 	class ACOMP_NCO_CMandas_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Mandas)";
 		hiddenSelectionsTextures[]=
 		{
@@ -459,7 +459,7 @@
 	};
 	class ACOMP_NCO_AMesa_MAR: VES_CH252_MAR_Vacuum
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] ECH252 Helmet (Mesa)";
 		hiddenSelectionsTextures[]=
 		{
@@ -564,7 +564,7 @@
 	};
 	class ACOMP_NCO_ARodriguez_MAR: VES_CH252_MAR_Light
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] CH252 Helmet (Rodriguez)";
 		hiddenSelectionsTextures[]=
 		{
@@ -573,7 +573,7 @@
 	};
 	class ACOMP_NCO_BKowalski_MAR: VES_CH252_MAR_Light
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] CH252 Helmet (Kowalski)";
 		hiddenSelectionsTextures[]=
 		{
@@ -582,18 +582,27 @@
 	};
 	class ACOMP_NCO_MBrady_MAR: VES_CH252_MAR_Light
 	{
-		author="N-4 Logistics";
-		displayName="[105th] ECH252 Helmet (Brady)";
+		author="S-4 Logistics";
+		displayName="[105th] CH252 Helmet (Brady)";
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\Alpha Company\data\Helmets\MBra_CH252_MAR_CO.paa",
+		};
+	};
+	class ACOMP_NCO_MBrady_MAR: VES_CH252_MAR_Light
+	{
+		author="S-4 Logistics";
+		displayName="[105th] CH252 Helmet (Vayn)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\NVay_CH252_MAR_CO.paa",
 		};
 	};
 	/*
 	class ACOMP_NCO_JNostra_MAR: VES_CH252_MAR_Light
 	{
 		scope=1;
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[105th] CH252 Helmet (Nostra)";
 		hiddenSelectionsTextures[]=
 		{

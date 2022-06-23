@@ -3329,7 +3329,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\base\tempest_personnel_upper_white.paa"
+			"105th_Armor\Bravo Company\data\Chests\JNos_M52D_Upper.paa"
     	};
         class XtdGearInfo
         {

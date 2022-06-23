@@ -47,7 +47,7 @@
 }, {
 }, [nil, [false, false, false]]] call CBA_fnc_addKeybind;
 
-["105th Utility", "v105_Vehicles_AirBrakesFull", ["Air Brakes (Full)", "Airbrake button until half speed"], {
+["105th Utility", "v105_Vehicles_AirBrakesFull", ["Air Brakes (Full)", "Airbrake button until below 100km/h"], {
     _vic = (vehicle player);
     if((player == driver _vic) AND (alive _vic) AND ((speed _vic) > 100)) then {
         _vic spawn V_FZ_fnc_FullAirbrakeEngageFast;
