@@ -1,4 +1,4 @@
-wclass CfgPatches
+class CfgPatches
 {
     class v105_Explosives_ACE_Compat
     {
