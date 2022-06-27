@@ -78,7 +78,6 @@ class CfgPatches {
             "A3_Data_F_Curator",
             "A3_Air_F_Heli",
             "CUP_Worlds_DustEffects",
-            "hebontes",
             "ace_thermals",
             "zen_attributes",
             "ace_refuel",
