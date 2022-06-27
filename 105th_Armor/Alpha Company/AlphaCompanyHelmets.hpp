@@ -589,7 +589,7 @@
 			"105th_Armor\Alpha Company\data\Helmets\MBra_CH252_MAR_CO.paa",
 		};
 	};
-	class ACOMP_NCO_MBrady_MAR: VES_CH252_MAR_Light
+	class ACOMP_NCO_NVayn_MAR: VES_CH252_MAR_Light
 	{
 		author="S-4 Logistics";
 		displayName="[105th] CH252 Helmet (Vayn)";
