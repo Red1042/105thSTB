@@ -598,6 +598,15 @@
 			"105th_Armor\Alpha Company\data\Helmets\NVay_CH252_MAR_CO.paa",
 		};
 	};
+	class ACOMP_NCO_KMidreus_MAR: VES_CH252_MAR_Light
+	{
+		author="S-4 Logistics";
+		displayName="[105th] CH252 Helmet (Midreus)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\KMid_CH252_MAR_CO.paa",
+		};
+	};
 	/*
 	class ACOMP_NCO_JNostra_MAR: VES_CH252_MAR_Light
 	{

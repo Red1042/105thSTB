@@ -30,8 +30,8 @@ v105_JumpPack_timesStuck = 0;
             _type = _this select 4;
             _backpack = backpack player;
             if (_type == "") then {
-                if(_damage > 0.1) then {
-                    [_this select 0,_this select 1,(_damage - 0.1),_this select 3,_this select 4,_this select 5,_this select 6,_this select 7] call ACE_medical_engine_fnc_handleDamage;
+                if(_damage > 0.25) then {
+                    [_this select 0,_this select 1,(_damage - 0.25),_this select 3,_this select 4,_this select 5,_this select 6,_this select 7] call ACE_medical_engine_fnc_handleDamage;
                 } else {
                     0;
                 };

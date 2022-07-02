@@ -27,13 +27,15 @@ class CfgVehicles
     class v105_JumpPack: OPTRE_S12_SOLA_Jetpack
     {
         displayName="[105th] JumpPack";
-        maximumLoad=250;
+        author="S-4 Logistics";
+        maximumLoad=350;
     };
 
     class v105_JumpPack_on: OPTRE_S12_SOLA_Jetpack_ON
     {
         displayName="[105th] JumpPack";
-        maximumLoad=250;
+        author="S-4 Logistics";
+        maximumLoad=350;
     };
 };
 
