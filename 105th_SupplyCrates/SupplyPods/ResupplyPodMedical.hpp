@@ -1,8 +1,9 @@
 #define item_xx(a,b) class _xx_##a {name=a; count=b;}
-item_xx(ACE_bloodIV,5);
-item_xx(ACE_bloodIV_250,20);
-item_xx(ACE_bloodIV_500,20);
-
+item_xx(ACE_bloodIV,20);
+item_xx(ACE_bloodIV_250,5);
+item_xx(ACE_bloodIV_500,15);
+item_xx(kat_IV_16,30);
+item_xx(kat_IO_FAST,15);
 item_xx(ACE_morphine,30);
 item_xx(ACE_epinephrine,30);
 item_xx(ACE_adenosine,30);
@@ -13,7 +14,7 @@ item_xx(ACE_packingBandage,80);
 item_xx(ACE_elasticBandage,80);
 item_xx(ACE_fieldDressing,80);
 item_xx(kat_AED,1);
-item_xx(kat_aatKit,1);
+item_xx(kat_aatKit,10);
 item_xx(kat_accuvac,1);
 item_xx(kat_Pulseoximeter,2);
 item_xx(kat_chestSeal,5);
