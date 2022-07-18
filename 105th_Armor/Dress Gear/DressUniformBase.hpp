@@ -113,28 +113,6 @@
 		
 	};
 	
-		class r105_dress_mar_BSmi: OPTRE_UNSC_Army_Soldier_DressGray
-	{
-		author="Bman";
-		uniformclass="r105_mar_dress_BSmi";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"insignia",
-			"clan",
-//			"awards",
-//			"nametag",
-//			"ODST"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E81sg.paa",
-			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_BSmi.paa"
-		};
-		
-	};
-	
 		class r105_dress_mar_GWelFun: OPTRE_UNSC_Army_Soldier_DressGray
 	{
 		author="Bman";
@@ -195,7 +173,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_1stLt.paa",
+			"105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_CVar.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_CVar.paa"
 		};
 		
@@ -217,7 +195,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E6.paa",
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E7.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_MHoe.paa"
 		};
 		
@@ -239,7 +217,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_2ndLt.paa",
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_1stLt.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_EAsp.paa"
 		};
 		
@@ -349,13 +327,13 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_mar_Enun.paa",
+			"105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_ENun.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ENun.paa"
 		};
 		
 	};
 	
-				class r105_dress_mar_ENunfun: OPTRE_UNSC_Army_Soldier_DressGray
+			class r105_dress_mar_ENunfun: OPTRE_UNSC_Army_Soldier_DressGray
 	{
 		author="Bman";
 		uniformclass="r105_mar_dress_ENunfun";
@@ -373,6 +351,28 @@
 		{
 			"105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_mar_ENunfun.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ENun.paa"
+		};
+		
+	};
+	
+			class r105_dress_mar_GArc: OPTRE_UNSC_Army_Soldier_DressGray
+	{
+		author="Bman";
+		uniformclass="r105_mar_dress_GArc";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"insignia",
+			"clan",
+//			"awards",
+//			"nametag",
+			"ODST"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E6.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_GArc.paa"
 		};
 		
 	};
@@ -482,7 +482,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_1stLt.paa",
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_capt.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_MSev.paa"
 		};
 		
@@ -548,7 +548,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_GCru.paa",
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_capt.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_GCru.paa"
 		};
 		
@@ -680,7 +680,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E5.paa",
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E7.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JRam.paa"
 		};
 		
@@ -704,6 +704,28 @@
 		{
 			"105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_PLuk.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_PLuk.paa"
+		};
+		
+	};
+	
+		class r105_dress_odst_BSmi: OPTRE_UNSC_Army_Soldier_DressGray
+	{
+		author="Bman";
+		uniformclass="r105_odst_dress_BSmi";
+		hiddenSelections[]=
+		{
+			"camo1",
+			"camo2",
+			"insignia",
+			"clan",
+//			"awards",
+//			"nametag",
+//			"ODST"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_E81sg.paa",
+			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_BSmi.paa"
 		};
 		
 	};
@@ -770,7 +792,7 @@
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_ltjg.paa",
+			"105th_Armor\Dress Gear\data\VC497\dress_uniform_vc497_lt.paa",
 			"105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_GStu.paa"
 		};
 		

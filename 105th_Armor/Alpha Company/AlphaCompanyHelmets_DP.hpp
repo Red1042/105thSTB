@@ -485,6 +485,16 @@
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+	class ACOMP_NCO_ENungester_MAR_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		author="S-4 Logistics";
+		displayName="[105th] CH252 Helmet (Nungester)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\ENun_CH252_MAR_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+		};
+	};
 	/* Luke's Additions stop */
 
 	

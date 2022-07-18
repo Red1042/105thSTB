@@ -5,10 +5,16 @@ class CfgPatches
 {
 	class v105_InHouseTracks
 	{
-		units[] = {};
+		units[] = {
+		    "v105_windy"
+		};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
+		authors[]=
+        {
+        	"S-4 Logistics"
+        };
 	};
 };
 
@@ -38,4 +44,14 @@ class CfgMusic
 		duration = "110";
 		musicClass = "v105_AmbientTracks";
 	}
+};
+
+class CfgSounds
+{
+	sounds[]={v105_windy};
+	class v105_windy
+	{
+		name = “[LUKE] Windy”;
+		sound[] = {"105th_Music\sounds\Windy.ogg", db+10, 1.0};
+	};
 };

@@ -87,23 +87,6 @@
 			uniformModel="-";
 		};
 	};
-
-		class r105_mar_dress_BSmi: OPTRE_UNSC_Army_Soldier_DressGray
-	{ 
-		author="Bman";
-		scope = 2;
-		scopeArsenal = 2;
-		mass=40;
-		displayName="[105th] Dress Uniform [B. Smith]";
-		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-		model="\OPTRE_UNSC_Units\Army\officer.p3d";
-		class ItemInfo: UniformItem
-		{
-			containerClass="Supply100";
-			uniformClass="r105_dress_mar_BSmi";
-			uniformModel="-";
-		};
-	};
 	
 		class r105_mar_dress_GWelFun: OPTRE_UNSC_Army_Soldier_DressGray
 	{ 
@@ -288,6 +271,23 @@
 		{
 			containerClass="Supply100";
 			uniformClass="r105_dress_mar_ENunfun";
+			uniformModel="-";
+		};
+	};
+	
+		class r105_mar_dress_GArc: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[105th] Dress Uniform [Archer]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_mar_GArc";
 			uniformModel="-";
 		};
 	};
@@ -497,7 +497,7 @@
 		};
 	}
 	
-			class r105_odst_dress_CBar: OPTRE_UNSC_Army_Soldier_DressGray
+		class r105_odst_dress_CBar: OPTRE_UNSC_Army_Soldier_DressGray
 	{ 
 		author="Bman";
 		scope = 2;
@@ -547,6 +547,23 @@
 			uniformModel="-";
 		};
 	}
+	
+		class r105_odst_dress_BSmi: OPTRE_UNSC_Army_Soldier_DressGray
+	{ 
+		author="Bman";
+		scope = 2;
+		scopeArsenal = 2;
+		mass=40;
+		displayName="[ODST] Dress Uniform [B. Smith]";
+		picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
+		model="\OPTRE_UNSC_Units\Army\officer.p3d";
+		class ItemInfo: UniformItem
+		{
+			containerClass="Supply100";
+			uniformClass="r105_dress_odst_BSmi";
+			uniformModel="-";
+		};
+	};
 //AVIATION UNIFORMS ==========================================================
 
 		class r105_vc497_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray

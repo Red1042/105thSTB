@@ -1,12 +1,11 @@
 params ["_target"];
-hint "got-here";
 
 _items = [];
 _itemsMap = createHashMap;
 
 {
     _item = ([configFile >> "CfgWeapons" >> _x] call BIS_fnc_displayName);
-    if("AN/PRC",_item,false] call BIS_fnc_inString) then {
+    if(["AN/PRC",_item,false] call BIS_fnc_inString) then {
         _item = ([_item," "] call BIS_fnc_splitString select 0);
     };
     _items pushBackUnique _item;
@@ -21,4 +20,4 @@ _itemsMap = createHashMap;
 
 _items = _items call BIS_fnc_sortAlphabetically;
 
-[_items,_itemsMap]
+([_items,_itemsMap])

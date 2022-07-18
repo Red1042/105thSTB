@@ -467,6 +467,16 @@
 			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 		};
 	};
+	class ACOMP_NCO_ENungester_MAR: VES_CH252_MAR_Vacuum
+	{
+		author="S-4 Logistics";
+		displayName="[105th] CH252 Helmet (Nungester)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\ENun_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\GWel_CH252_MAR_BLU_V_CO.paa"
+		};
+	};
 	/* Luke's Additions stop */
 
 	// OPEN HELMETS
@@ -605,6 +615,24 @@
 		hiddenSelectionsTextures[]=
 		{
 			"105th_Armor\Alpha Company\data\Helmets\KMid_CH252_MAR_CO.paa",
+		};
+	};
+	class ACOMP_NCO_TMailwind_MAR: VES_CH252_MAR_Light
+	{
+		author="S-4 Logistics";
+		displayName="[105th] CH252 Helmet (Mailwind)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\TMai_CH252_MAR_CO.paa",
+		};
+	};
+	class ACOMP_NCO_LLee_MAR: VES_CH252_MAR_Light
+	{
+		author="S-4 Logistics";
+		displayName="[105th] CH252 Helmet (Lee)";
+		hiddenSelectionsTextures[]=
+		{
+			"105th_Armor\Alpha Company\data\Helmets\LLee_CH252_MAR_CO.paa",
 		};
 	};
 	/*

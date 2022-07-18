@@ -304,3 +304,15 @@
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
+
+
+	class BCOMP_CO_MBrady_ODST_dp: VES_CH252D_dp
+    {
+    	author="S-4 Logistics";
+    	displayName="[ODST] CH252D Helmet (Brady)";
+    	hiddenSelectionsTextures[]=
+    	{
+    		"105th_Armor\Bravo Company\data\Helmets\MBra_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+    	};
+    };
