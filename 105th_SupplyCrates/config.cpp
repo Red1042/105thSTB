@@ -2,8 +2,8 @@ class CfgPatches
 {
 	class v105_N4_SupplyPods
 	{
-		author = "N-4 Logistics";
-		name = "[105th] N-4 Logistics";
+		author = "S-4 Logistics";
+		name = "[105th] S-4 Logistics";
 		url = "";
 		units[] = 
 		{
@@ -21,7 +21,7 @@ class CfgPatches
 			"HOW_105th_SupplyPod_MortarSMK",
 			"HOW_105th_SupplyPod_60mmMortar",
 			"HOW_105th_SupplyPod_Radios",
-			
+			"HOW_105th_SupplyPod_SPNKR"
 			
 
 		};
@@ -78,7 +78,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		scope  = 2;
 		side = 1;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Passenger Compartment";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -101,7 +101,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		scope  = 2;
 		side = 1;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Medevac Compartment";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -124,7 +124,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		scope  = 2;
 		side = 1;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Mortar Container";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -140,7 +140,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Rifle Ammo Supply Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -156,7 +156,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Machinegun Ammo Supply Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -172,7 +172,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Precision Weapons Supply Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -188,7 +188,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Rockets/Missiles Supply Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -204,7 +204,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Medical Supply Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -224,7 +224,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Utility Supply Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -240,7 +240,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Demolitions Supply Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -256,7 +256,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] 82mm HE Mortar Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -272,7 +272,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] 82mm Smoke Mortar Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -288,7 +288,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] 60mm Mortar Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -304,7 +304,7 @@ class CfgVehicles
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
-		Author = "N-4 Logistics";
+		Author = "S-4 Logistics";
 		displayName = "[105th] Radio Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
@@ -315,6 +315,23 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
+	class HOW_105th_SupplyPod_SPNKR: OPTRE_Ammo_SupplyPod_Empty
+	{
+		ace_cargo_size = 2;
+		scopeCurator = 2;
+		scope  = 2;
+		Author = "S-4 Logistics";
+		displayName = "[105th] Radio Pod";
+		editorCategory = "HOW_EdCat_105th"
+		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+			class TransportItems
+			{
+				#include "SupplyPods\ResupplyPodSPNKR.hpp"
+			};
+			class TransportMagazines{};
+			class TransportWeapons{};
+	};
+
 	////////////////////////Pelican Resupply Module (Override this to change supply pod dropdown list.)
 	class Module_F;
 	class Module_OPTRE_PelicanSupplyDrop: Module_F
@@ -390,6 +407,11 @@ class CfgVehicles
 					{
 						name = "[105th] Radio Pod";
 						value = "HOW_105th_SupplyPod_Radios";
+					};
+					class n_13
+					{
+						name = "[105th] SPNKR Pod";
+						value = "HOW_105th_SupplyPod_SPNKR";
 					};
 				};
 			};
