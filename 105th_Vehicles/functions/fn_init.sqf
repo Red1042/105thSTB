@@ -17,7 +17,6 @@
     };
     if((_vic getVariable ["OPTRE_Afterburners_Usable",false]) and !(_vic getVariable ["OPTRE_Afterburners_EngagedStatus",false])) exitWith {
         _vic spawn v105_Vehicles_fnc_engageAfterburners;
-        _vic spawn V_FZ_fnc_ThrusterAnimate;
     };
 }, {
 }, [0xF4, [false, false, false]]] call CBA_fnc_addKeybind;
