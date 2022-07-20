@@ -83,7 +83,7 @@ class HOW_AV14_Base: VES_AV14
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage;";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters;";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
 				
 				userActionID=52;

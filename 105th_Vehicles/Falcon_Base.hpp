@@ -81,9 +81,9 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage;";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters;";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
-				
+
 				userActionID=52;
 			};
 			class Thruster400Disengage
@@ -99,9 +99,9 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_Thruster400Disengage;";
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
-				
+
 				userActionID=53;
-			};  
+			};
         };
     };
     class v105_UH144_MED: VES_UH144
@@ -141,7 +141,6 @@
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
-        
         class Turrets: Turrets{};
         TransportSoldier=0;
         cargoAction[]=
@@ -167,7 +166,6 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_FullAirbrakeEngageFast;";
 				textToolTip="<t color='#FE2E2E'>Engage Airbrakes";
-				
 				userActionID=57;
 			};
             class HalfAirbrakeEngageFast
@@ -183,7 +181,6 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_HalfAirbrakeEngageFast;";
 				textToolTip="<t color='#F28D00'>Engage Airbrakes (Half)";
-				
 				userActionID=58;
 			};
             class Thruster400Engage
@@ -197,9 +194,8 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage;";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters;";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
-				
 				userActionID=52;
 			};
 			class Thruster400Disengage
@@ -215,7 +211,6 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_Thruster400Disengage;";
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
-				
 				userActionID=53;
 			};
         };
@@ -227,7 +222,6 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		armor = 150;
-		
         dlc="105th";
         author="N-4 Logistics";
         displayName="UH-144S Falcon [Navy]";
@@ -268,7 +262,6 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_FullAirbrakeEngageFast;";
 				textToolTip="<t color='#FE2E2E'>Engage Airbrakes";
-				
 				userActionID=57;
 			};
             class HalfAirbrakeEngageFast
@@ -284,7 +277,6 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_HalfAirbrakeEngageFast;";
 				textToolTip="<t color='#F28D00'>Engage Airbrakes (Half)";
-				
 				userActionID=58;
 			};
             class Thruster400Engage
@@ -298,9 +290,8 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage;";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters;";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
-				
 				userActionID=52;
 			};
 			class Thruster400Disengage
@@ -316,9 +307,8 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_Thruster400Disengage;";
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
-				
 				userActionID=53;
-			};  
+			};
         };
     };
     class v105_UH144_A: VES_UH144_A
@@ -368,7 +358,7 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_FullAirbrakeEngageFast;";
 				textToolTip="<t color='#FE2E2E'>Engage Airbrakes";
-				
+
 				userActionID=57;
 			};
             class HalfAirbrakeEngageFast
@@ -384,7 +374,7 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_HalfAirbrakeEngageFast;";
 				textToolTip="<t color='#F28D00'>Engage Airbrakes (Half)";
-				
+
 				userActionID=58;
 			};
             class Thruster400Engage
@@ -398,9 +388,9 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage;";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters;";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
-				
+
 				userActionID=52;
 			};
 			class Thruster400Disengage
@@ -416,9 +406,9 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_Thruster400Disengage;";
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
-				
+
 				userActionID=53;
-			};  
+			};
         };
     };
     class v105_UH144S_A: VES_UH144S_A
@@ -428,7 +418,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		 armor = 150;
-	
+
         dlc="105th";
         author="N-4 Logistics";
         displayName="UH-144S Falcon (Armed) [Navy]";
@@ -469,7 +459,7 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_FullAirbrakeEngageFast;";
 				textToolTip="<t color='#FE2E2E'>Engage Airbrakes";
-				
+
 				userActionID=57;
 			};
             class HalfAirbrakeEngageFast
@@ -485,7 +475,7 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_HalfAirbrakeEngageFast;";
 				textToolTip="<t color='#F28D00'>Engage Airbrakes (Half)";
-				
+
 				userActionID=58;
 			};
             class Thruster400Engage
@@ -499,9 +489,9 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage;";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters;";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
-				
+
 				userActionID=52;
 			};
 			class Thruster400Disengage
@@ -517,12 +507,12 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_Thruster400Disengage;";
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
-				
+
 				userActionID=53;
-			};  
+			};
         };
     };
-	
+
 
     class v105_UH144S_AM: VES_UH144S_A
     {
@@ -530,8 +520,8 @@
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
-		 
-	
+
+
         dlc="105th";
         author="N-4 Logistics";
         displayName="UH-144S-GL Falcon [Navy]";
@@ -582,7 +572,7 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_FullAirbrakeEngageFast;";
 				textToolTip="<t color='#FE2E2E'>Engage Airbrakes";
-				
+
 				userActionID=57;
 			};
             class HalfAirbrakeEngageFast
@@ -598,7 +588,7 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_HalfAirbrakeEngageFast;";
 				textToolTip="<t color='#F28D00'>Engage Airbrakes (Half)";
-				
+
 				userActionID=58;
 			};
             class Thruster400Engage
@@ -612,9 +602,9 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage;";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters;";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
-				
+
 				userActionID=52;
 			};
 			class Thruster400Disengage
@@ -630,13 +620,13 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_Thruster400Disengage;";
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
-				
+
 				userActionID=53;
-			};  
+			};
         };
     };
 
-	
+
 	class v105_UH144S_ARC: VES_UH144S_A
     {
         side=1;
@@ -645,7 +635,7 @@
         editorCategory="HOW_EdCat_105th";
         editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		armor = 150;
-	
+
         dlc="105th";
         author="N-4 Logistics";
         displayName="UH-144S-RC Falcon [Navy]";
@@ -696,7 +686,7 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_FullAirbrakeEngageFast;";
 				textToolTip="<t color='#FE2E2E'>Engage Airbrakes";
-				
+
 				userActionID=57;
 			};
             class HalfAirbrakeEngageFast
@@ -712,7 +702,7 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_HalfAirbrakeEngageFast;";
 				textToolTip="<t color='#F28D00'>Engage Airbrakes (Half)";
-				
+
 				userActionID=58;
 			};
             class Thruster400Engage
@@ -726,7 +716,7 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage;";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters;";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
 				
 				userActionID=52;

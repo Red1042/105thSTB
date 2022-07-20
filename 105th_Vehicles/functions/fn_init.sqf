@@ -9,14 +9,14 @@
     _vic = (vehicle player);
     if((player != driver _vic) or !(alive _vic) or !(isEngineOn _vic) or  (((getPosATL _vic) select 2) < 1)) exitWith {};
     if(_vic == player) exitWith {};
-    if((_vic getVariable ["OPTRE_Thruster_Usable",false]) and !(_vic getVariable ["OPTRE_Thruster_EngagedStatus",false])) exitWith {
-        _vic spawn V_FZ_fnc_Thruster400Engage;
+    if((_vic getVariable ["OPTRE_Thruster_Usable",false]) and !(_vic getVariable ["OPTRE_Thruster_EngagedStatus",false]) and !(_vic getVariable ["OPTRE_Afterburners_EngagedStatus",false])) exitWith {
+        _vic spawn v105_Vehicles_fnc_engageForwardThrusters;
         if(_vic getVariable ["OPTRE_Afterburners_Usable",false]) then {
             _vic spawn V_FZ_fnc_ThrusterAnimate;
-        }
+        };
     };
     if((_vic getVariable ["OPTRE_Afterburners_Usable",false]) and !(_vic getVariable ["OPTRE_Afterburners_EngagedStatus",false])) exitWith {
-        _vic spawn V_FZ_fnc_Afterburners900Engage;
+        _vic spawn v105_Vehicles_fnc_engageAfterburners;
         _vic spawn V_FZ_fnc_ThrusterAnimate;
     };
 }, {

@@ -383,10 +383,16 @@ class CfgFunctions
 			{
 			    postInit = 1;
 			};
-			class EngineOff
+			class RegisterThrusters
 			{
 			};
-			class registerThrusters
+			class EngageForwardThrusters
+			{
+			};
+			class EngageAfterburners
+			{
+			};
+			class PelicanAddTransportPod
 			{
 			};
 		};

@@ -833,7 +833,6 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_HalfAirbrakeEngageFast; 0 = this spawn V_FZ_fnc_ThrusterDeAnimate";
 				textToolTip="<t color='#F28D00'>Engage Airbrakes (Half)";
-				
 				userActionID=58;
 			};
             class Thruster400Engage
@@ -847,9 +846,8 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage; 0 = this spawn V_FZ_fnc_ThrusterAnimate";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters; 0 = this spawn V_FZ_fnc_ThrusterAnimate";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
-				
 				userActionID=52;
 			};
 			class Thruster400Disengage
@@ -865,7 +863,6 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_Thruster400Disengage; 0 = this spawn V_FZ_fnc_ThrusterDeAnimate";
 				textToolTip="<t color='#FCE205'>Disengage Forward Thrusters";
-				
 				userActionID=53;
 			};    
             class Afterburners900Engage
@@ -879,9 +876,8 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Afterburners900Engage";
+				statement="0 = this spawn v105_Vehicles_fnc_engageAfterburners";
 				textToolTip="<t color='#04B45F'>Engage Afterburners";
-				
 				userActionID=54;
 			};
 			class Afterburners900Disengage
@@ -897,12 +893,11 @@
 				showWindow=0;
 				statement="0 = this spawn V_FZ_fnc_Afterburners900Disengage; 0 = this spawn V_FZ_fnc_ThrusterAnimate";
 				textToolTip="<t color='#FCE205'>Disengage Afterburners";
-				
 				userActionID=55;
 			}; 
 			class PelLift_LoadPodMenu
 			{
-				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND ((vehicle player) isKindOf ""OPTRE_cart_base"")";
+				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND ((vehicle player) isKindOf ""OPTRE_cart_base"")  and !(this getVariable[""v105_pod_attached"",false])";
 				displayName="<t color='#FFBF00'>Load Supply Pods";
 				displayNameDefault="<t color='#FFBF00'>Load Supply Pods";
 				onlyForPlayer=0;
@@ -912,13 +907,12 @@
 				showWindow=0;
 				statement="OPTRE_PelicanLoadSupplyPods_Menu_PelicanObject = this; createDialog ""OPTRE_PelicanLoadSupplyPods_Menu""; OPTRE_PelicanLoadSupplyPods_Menu_cam = ""camera"" CamCreate getPosATL OPTRE_PelicanLoadSupplyPods_Menu_PelicanObject;  OPTRE_PelicanLoadSupplyPods_Menu_cam CamSetTarget OPTRE_PelicanLoadSupplyPods_Menu_PelicanObject; OPTRE_PelicanLoadSupplyPods_Menu_cam CameraEffect [""Internal"",""Back""]; OPTRE_PelicanLoadSupplyPods_Menu_cam camSetRelPos [4,-12,-2.4]; OPTRE_PelicanLoadSupplyPods_Menu_cam CamCommit 0; showCinemaBorder false; if (sunOrMoon == 0) then {camUseNVG true;};";
 				textToolTip="<t color='#FFBF00'>Load Supply Pods";
-				
 				userActionID=9;
 			};
 			
 			class PelLift_LoadVehicle
 			{
-				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND (str (this getVariable [""OPTRE_Pelican_AttachedToVehiclesEffect"",[]]) == ""[]"") AND (vehicle player != player)";
+				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND (str (this getVariable [""OPTRE_Pelican_AttachedToVehiclesEffect"",[]]) == ""[]"") AND (vehicle player != player)  and !(this getVariable[""v105_pod_attached"",false])";
 				displayName="<t color='#FFBF00'>Maglock Cargo";
 				displayNameDefault="<t color='#FFBF00'>Maglock Cargo";
 				onlyForPlayer=0;
@@ -933,7 +927,7 @@
 			
 			class PelLift_LoadDevice
 			{
-				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND (str (this getVariable [""OPTRE_Pelican_AttachedToVehiclesEffect"",[]]) == ""[]"") AND (vehicle player != player) AND ((vehicle player) isKindOf ""VES_HDV134_Fujikawa"") AND (vehicle player getvariable [""VES_DeviceAvailable"",true])";
+				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND (str (this getVariable [""OPTRE_Pelican_AttachedToVehiclesEffect"",[]]) == ""[]"") AND (vehicle player != player) AND ((vehicle player) isKindOf ""VES_HDV134_Fujikawa"") AND (vehicle player getvariable [""VES_DeviceAvailable"",true])  and !(this getVariable[""v105_pod_attached"",false])";
 				displayName="<t color='#FFBF05'>Maglock Shaw-Fujikawa Device";
 				displayNameDefault="<t color='#FFBF05'>Maglock Shaw-Fujikawa Device";
 				onlyForPlayer=0;
@@ -1506,7 +1500,7 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Thruster400Engage; 0 = this spawn V_FZ_fnc_ThrusterAnimate";
+				statement="0 = this spawn v105_Vehicles_fnc_engageForwardThrusters; 0 = this spawn V_FZ_fnc_ThrusterAnimate";
 				textToolTip="<t color='#04B45F'>Engage Forward Thrusters";
 				
 				userActionID=52;
@@ -1538,7 +1532,7 @@
 				priority=10;
 				radius=100000;
 				showWindow=0;
-				statement="0 = this spawn V_FZ_fnc_Afterburners900Engage";
+				statement="0 = this spawn v105_Vehicles_fnc_engageAfterburners";
 				textToolTip="<t color='#04B45F'>Engage Afterburners";
 				
 				userActionID=54;
@@ -1561,7 +1555,7 @@
 			}; 
 			class PelLift_LoadPodMenu
 			{
-				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND ((vehicle player) isKindOf ""OPTRE_cart_base"")";
+				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND ((vehicle player) isKindOf ""OPTRE_cart_base"")  and !(this getVariable[""v105_pod_attached"",false])";
 				displayName="<t color='#FFBF00'>Load Supply Pods";
 				displayNameDefault="<t color='#FFBF00'>Load Supply Pods";
 				onlyForPlayer=0;
@@ -1577,7 +1571,7 @@
 			
 			class PelLift_LoadVehicle
 			{
-				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND (str (this getVariable [""OPTRE_Pelican_AttachedToVehiclesEffect"",[]]) == ""[]"") AND (vehicle player != player)";
+				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND (str (this getVariable [""OPTRE_Pelican_AttachedToVehiclesEffect"",[]]) == ""[]"") AND (vehicle player != player)  and !(this getVariable[""v105_pod_attached"",false])";
 				displayName="<t color='#FFBF00'>Maglock Cargo";
 				displayNameDefault="<t color='#FFBF00'>Maglock Cargo";
 				onlyForPlayer=0;
@@ -1592,7 +1586,7 @@
 			
 			class PelLift_LoadDevice
 			{
-				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND (str (this getVariable [""OPTRE_Pelican_AttachedToVehiclesEffect"",[]]) == ""[]"") AND (vehicle player != player) AND ((vehicle player) isKindOf ""VES_HDV134_Fujikawa"") AND (vehicle player getvariable [""VES_DeviceAvailable"",true])";
+				condition="!(player in [gunner this, driver this]) AND (player == driver vehicle player) AND (str (this getVariable [""OPTRE_Pelican_AttachedToVehiclesEffect"",[]]) == ""[]"") AND (vehicle player != player) AND ((vehicle player) isKindOf ""VES_HDV134_Fujikawa"") AND (vehicle player getvariable [""VES_DeviceAvailable"",true])  and !(this getVariable[""v105_pod_attached"",false])";
 				displayName="<t color='#FFBF05'>Maglock Shaw-Fujikawa Device";
 				displayNameDefault="<t color='#FFBF05'>Maglock Shaw-Fujikawa Device";
 				onlyForPlayer=0;
@@ -1677,7 +1671,7 @@
 		{
 		    class v105_Pod_EH
 		    {
-			    init = "0 = _this spawn V_FZ_fnc_PelicanAddTransportPod";
+			    init = "0 = _this spawn v105_Vehicles_fnc_PelicanAddTransportPod";
 			};
 			class v105_RegisterThrusters_EH
 			{
