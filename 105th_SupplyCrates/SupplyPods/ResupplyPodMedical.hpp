@@ -18,7 +18,7 @@ item_xx(kat_aatKit,10);
 item_xx(kat_accuvac,1);
 item_xx(kat_Pulseoximeter,2);
 item_xx(kat_chestSeal,5);
-item_xx(kat_larynx,5);
+item_xx(kat_larynx,15);
 item_xx(kat_guedel,5);
 item_xx(OPTRE_M2_Smoke_Blue,5);
 item_xx(OPTRE_M2_Smoke_Purple,5);

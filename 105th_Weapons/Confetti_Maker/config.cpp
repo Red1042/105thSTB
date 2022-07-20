@@ -169,8 +169,8 @@ class CfgWeapons
 {
     class v105_LMG_CM: LMG_Mk200_F
     {
-        scope=  1;
-        scopeArsenal=   1;
+        scope=  2;
+        scopeArsenal=   2;
         model="\A3\weapons_f\Machineguns\M200\M200_F.p3d";
 		picture="\A3\weapons_F\Machineguns\M200\Data\UI\gear_m200_X_CA.paa";
 		UiPicture="\A3\weapons_f\data\UI\icon_mg_CA.paa";
