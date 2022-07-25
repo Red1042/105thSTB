@@ -111,7 +111,7 @@ class XtdGearModels
             options[] = {"Owner"};
             class owner
             {
-                values[] = {"Brady","Murk","Nest","Skynyrd","Stürmischer"};
+                values[] = {"Brady","Midreus","Murk","Nest","Skynyrd","Stürmischer"};
             };
         };
 

@@ -66,7 +66,7 @@
          hint "MANUAL FIRE CANCELLED";
     } else {
          player action ["MANUALFIRE", _vic];
-         hint "MANUAL FIRE";
+         hint "MANUAL FIRE ACTIVATED";
     };
 }, {
 }, [nil, [false, false, false]]] call CBA_fnc_addKeybind;
