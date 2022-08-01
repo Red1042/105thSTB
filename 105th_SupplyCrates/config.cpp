@@ -321,7 +321,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
-		displayName = "[105th] Radio Pod";
+		displayName = "[105th] SPNKR Pod";
 		editorCategory = "HOW_EdCat_105th"
 		editorSubCategory = "HOW_105th_EdSubCat_Supply";
 			class TransportItems

@@ -137,7 +137,7 @@
         };
 		class TransportItems
 		{
-			#include "cfg\SupplyPods\ResupplyPodMedical.hpp"
+			#include "cfg\VehicleGearMedical.hpp"
 		};
 		class TransportMagazines{};
 		class TransportWeapons{};
