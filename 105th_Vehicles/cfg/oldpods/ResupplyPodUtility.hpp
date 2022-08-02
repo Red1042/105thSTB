@@ -15,3 +15,6 @@ item_xx(OPAEX_1Rnd_SmokeRed_Grenade_shell,10);
 item_xx(ACE_IR_Strobe_Item,10);
 item_xx(ACE_wirecutter,2);
 item_xx(ACE_UAVBattery,1);
+item_xx(ToolKit,5);
+item_xx(ACE_EntrenchingTool,5);
+item_xx(ACE_Fortify,5);

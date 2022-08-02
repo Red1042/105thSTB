@@ -1,7 +1,7 @@
 
 
 
-
+/*
 class OPTRE_Ammo_SupplyPod_Empty;
 
 class HOW_105th_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
@@ -243,4 +243,6 @@ class Module_OPTRE_PelicanSupplyDrop: Module_F
 		};
 	};
 };
+
+*/
 
