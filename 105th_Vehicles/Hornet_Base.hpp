@@ -10,7 +10,7 @@ class HOW_AV14_Base: VES_AV14
 		forceInGarage=1;
 		displayName="AV-14 Prototype";
 		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+		editorSubcategory="HOW_105th_EdSubCat_Hornhawk";
 		crew="VES_Rifleman_MA5B_ODST";
 		mainRotorSpeed=6;
 		backRotorSpeed=8;
@@ -189,8 +189,6 @@ class HOW_AV14_Base: VES_AV14
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14 Hornet I";
-		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
 		
         weapons[]=
@@ -220,7 +218,7 @@ class HOW_AV14_Base: VES_AV14
 		forceInGarage=1;
 		displayName="AV-14 Hornet II";
 		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+		editorSubcategory="HOW_105th_EdSubCat_Hornhawk";
 		crew="VES_Rifleman_MA5B_ODST";
 		
         weapons[]=
@@ -247,8 +245,6 @@ class HOW_AV14_Base: VES_AV14
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14 Hornet II [Keen]";
-		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_Archived";
 		crew="VES_Rifleman_MA5B_ODST";
 		
         weapons[]=
@@ -279,8 +275,6 @@ class HOW_AV14_Base: VES_AV14
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14 Hornet IIB";
-		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
 		
         weapons[]=
@@ -307,8 +301,6 @@ class HOW_AV14_Base: VES_AV14
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14L Hornet";
-		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
 		crew="VES_Rifleman_MA5B_ODST";
 		
 		

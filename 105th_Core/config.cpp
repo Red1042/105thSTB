@@ -60,10 +60,14 @@ class CfgEditorSubcategories
 	{
 		displayName="Pelicans";
 	};
-	class HOW_105th_EdSubCat_FalcHorn
+	class HOW_105th_EdSubCat_Falcon
 	{
-		displayName="Falcons and Hornets";
+		displayName="Falcons";
 	};
+	class HOW_105th_EdSubCat_Hornhawk
+    {
+    	displayName="Hornets and Sparrowhawks";
+    };
 	class HOW_105th_EdSubCat_FixedWing
 	{
 		displayName="Fixed-wing Aircraft";

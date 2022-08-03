@@ -2,7 +2,7 @@
     // Adds Camera support to all types of falcons
  	class OPTRE_falcon_base: Helicopter_Base_H
  	{
- 	    //memoryPointDriverOptics="Light_L";
+ 	    memoryPointDriverOptics="Light_L";
         class pilotCamera
 		{
 			class OpticsIn
@@ -76,7 +76,7 @@
         side=1;
 		scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+        editorSubcategory="HOW_105th_EdSubCat_Falcon";
 		 
 		armor = 150;
         dlc="105th";
@@ -177,7 +177,7 @@
         side=1;
 		scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+        editorSubcategory="HOW_105th_EdSubCat_Falcon";
 		threat[]={0,0,0};
 		armor = 150;
         dlc="105th";
@@ -288,7 +288,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+        editorSubcategory="HOW_105th_EdSubCat_Falcon";
 		armor = 150;
         dlc="105th";
         author="N-4 Logistics";
@@ -384,7 +384,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+        editorSubcategory="HOW_105th_EdSubCat_Falcon";
         armor = 150;
         dlc="105th";
         author="N-4 Logistics";
@@ -484,7 +484,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+        editorSubcategory="HOW_105th_EdSubCat_Falcon";
 		 armor = 150;
 
         dlc="105th";
@@ -587,7 +587,7 @@
         side=1;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+        editorSubcategory="HOW_105th_EdSubCat_Falcon";
 
 
         dlc="105th";
@@ -701,7 +701,7 @@
 		scope=2;
         scopeCurator = 2;
         editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_FalcHorn";
+        editorSubcategory="HOW_105th_EdSubCat_Falcon";
 		armor = 150;
 
         dlc="105th";

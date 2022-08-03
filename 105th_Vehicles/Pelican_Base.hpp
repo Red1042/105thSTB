@@ -21,8 +21,8 @@
 				minElev=-90;
 				maxElev=30;
 				initElev=0;
-				minTurn=-90;
-				maxTurn=90;
+				minTurn=-110;
+				maxTurn=110;
 				initTurn=0;
 			};
 		};
