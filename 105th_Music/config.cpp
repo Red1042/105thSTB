@@ -52,6 +52,6 @@ class CfgSounds
 	class v105_windy
 	{
 		name = “[LUKE] Windy”;
-		sound[] = {"105th_Music\sounds\Windy.ogg", db+10, 1.0};
+		sound[] = {"105th_Music\sounds\Windy.ogg", db-10, 1.0};
 	};
 };

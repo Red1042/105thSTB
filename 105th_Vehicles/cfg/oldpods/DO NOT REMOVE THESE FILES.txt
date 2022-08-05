@@ -1,2 +1,0 @@
-there's a lot of vehicles that call these hpp's for inventories, so I just left them in here EZ PZ lemon squeezy
-I know this is redundant with 105th_SupplyCrates.pbo, but it's less than 20kb of hpps. 
