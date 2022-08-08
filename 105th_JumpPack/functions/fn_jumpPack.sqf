@@ -98,12 +98,10 @@ while {v105_JumpPack_ON} do {
     _newFuel = _fuel - 0.01;
 
     _pos = getPosATL player;
-    _height = _pos select 2;
-    if (_height < 90) then {
-        _vel = velocity player;
-        _yInc = (_vel select 2);
-        if(!([(getPosASL player),_vel] call v105_JumpPack_fnc_RoofStuckCheck)) then {
-            if (not (isTouchingGround player)) then {
+    _vel = velocity player;
+    _yInc = (_vel select 2);
+    if(!([(getPosASL player),_vel] call v105_JumpPack_fnc_RoofStuckCheck)) then {
+        if (not (isTouchingGround player)) then {
             if(_yInc < 0) then {
                 // Half Fuel & Heat Changes
 	            _newHeat = _heat + 0.01;
@@ -120,11 +118,10 @@ while {v105_JumpPack_ON} do {
 	                player setVelocity [_vel select 0,_vel select 1,(_vel select 2) + 2];
 	            };
 	        };
-	        } else {
-	            player setVelocity [_vel select 0,_vel select 1,1.6];
-	        };
+	    } else {
+	        player setVelocity [_vel select 0,_vel select 1,1.6];
 	    };
-    };
+	};
 
     player setVariable ["v105_JumpPack_heat",_newHeat,false];
 	player setVariable ["v105_JumpPack_fuel",_newFuel,false];
