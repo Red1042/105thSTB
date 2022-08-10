@@ -30,6 +30,11 @@ class HOW_AV14_Base: VES_AV14
 			"1000Rnd_Gatling_30mm_Plane_CAS_01_F",
 			"HOW_320Rnd_Flare_Chaff_Magazine"
 		};
+
+		hiddenSelectionsTextures[]=
+        {
+            "V_FZ_Vehicles\data\Hornet\V_FZ_HORNET_URB.paa"
+        };
 		
 		altFullForce = 6000;
 		maxSpeed=450;

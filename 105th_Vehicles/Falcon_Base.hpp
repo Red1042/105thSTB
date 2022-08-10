@@ -308,6 +308,10 @@
 			{
 			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
 			};
+		    class v105_AddMGs_EH
+		    {
+			    init = "0 = _this spawn V_FZ_fnc_FalconAddMGs";
+		    };
 		};
 		class TransportItems
 		{
@@ -505,6 +509,10 @@
 			{
 			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
 			};
+		    class v105_AddMGs_EH
+		    {
+			    init = "0 = _this spawn V_FZ_fnc_FalconAddMGs";
+		    };
 		};
 		class TransportItems
 		{
@@ -608,6 +616,10 @@
 			{
 			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
 			};
+		    class v105_AddMGs_EH
+		    {
+			    init = "0 = _this spawn V_FZ_fnc_FalconAddMGs";
+		    };
 		};
 		class TransportItems
 		{
@@ -722,6 +734,10 @@
 			{
 			    init = "[(_this select 0),true,false] call V105_Vehicles_fnc_RegisterThrusters;";
 			};
+		    class v105_AddMGs_EH
+		    {
+			    init = "0 = _this spawn V_FZ_fnc_FalconAddMGs";
+		    };
 		};
 		class TransportItems
 		{
