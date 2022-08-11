@@ -70,7 +70,7 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 			"105th_Core",
-			"O_URFArmy",
+			//"O_URFArmy",
 			"OPTRE_Misc_Crates",
 			"OPTRE_Modules",
 			"OPTRE_Vehicles",
