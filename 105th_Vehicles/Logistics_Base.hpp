@@ -17,7 +17,7 @@ class v105_M1087_Stallion_Repair: OPTRE_m1087_stallion_unsc_repair
 	scopeCurator=2;
 	displayName="M1087 Stallion (Repair)";
 	editorCategory="v105_EdCat_105th";
-    editorSubcategory="v105_105th_EdSubCat_Motorized";
+    editorSubcategory="v105_105th_EdSubCat_Supply";
     class TransportItems{};
 	class TransportMagazines{};
 	class TransportWeapons{};
@@ -37,7 +37,7 @@ class v105_M1087_Stallion_Ammo: OPTRE_m1087_stallion_unsc_resupply
 	scopeCurator=2;
 	displayName="M1087 Stallion (Ammo)";
 	editorCategory="v105_EdCat_105th";
-    editorSubcategory="v105_105th_EdSubCat_Motorized";
+    editorSubcategory="v105_105th_EdSubCat_Supply";
     class TransportItems{};
 	class TransportMagazines{};
 	class TransportWeapons{};
@@ -57,7 +57,7 @@ class v105_M1087_Stallion_Fuel: OPTRE_m1087_stallion_unsc_refuel
 	scopeCurator=2;
 	displayName="M1087 Stallion (Fuel)";
 	editorCategory="v105_EdCat_105th";
-    editorSubcategory="v105_105th_EdSubCat_Motorized";
+    editorSubcategory="v105_105th_EdSubCat_Supply";
 	class TransportItems{};
 	class TransportMagazines{};
 	class TransportWeapons{};

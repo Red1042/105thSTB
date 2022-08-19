@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class v105_Admin
 	{
-		author="105th";
+		author="105th | S-4 Logistics";
 		name="105th Antenna";
 		weapons[]={};
 		magazines[]={};

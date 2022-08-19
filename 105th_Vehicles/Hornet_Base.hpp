@@ -10,7 +10,7 @@ class v105_AV14_Base: VES_AV14
 		forceInGarage=1;
 		displayName="AV-14 Prototype";
 		editorCategory="v105_EdCat_105th";
-		editorSubcategory="v105_105th_EdSubCat_Hornhawk";
+		editorSubcategory="v105_105th_EdSubCat_Hornets";
 		crew="VES_Rifleman_MA5B_ODST";
 		mainRotorSpeed=6;
 		backRotorSpeed=8;
@@ -185,8 +185,6 @@ class v105_AV14_Base: VES_AV14
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14 Hornet II";
-		editorCategory="v105_EdCat_105th";
-		editorSubcategory="v105_105th_EdSubCat_Hornhawk";
 		crew="VES_Rifleman_MA5B_ODST";
 		
         weapons[]=
@@ -207,36 +205,6 @@ class v105_AV14_Base: VES_AV14
 		    scope = 1;
 		    type = "30mm Cannon";
 		};
-	};
-	class v105_AV14_CAS_Keen: v105_AV14_Base
-	{
-		dlc="105th";
-		author="Howard, Skywalker";
-		side=1;
-		scope=2;
-		scopeCurator=2;
-		forceInGarage=1;
-		displayName="AV-14 Hornet II [Keen]";
-		crew="VES_Rifleman_MA5B_ODST";
-		
-        weapons[]=
-		{
-			"v105_Gatling_30mm",
-			"v105_Flares",
-			"Laserdesignator_pilotCamera"
-		};
-		magazines[]=
-		{
-			"v105_GAU30mm_570RND",
-			"v105_320Rnd_Flare_Chaff_Magazine",
-			"Laserbatteries"
-		};
-		class TransportBackpacks{};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_Vehicles\textures\Hornet\105th_Hornet_Keen.paa"
-		};
-		class VehicleSpawnerInfo{};
 	};
 
 	class v105_AV14B_CAS: v105_AV14_Base
@@ -277,10 +245,9 @@ class v105_AV14_Base: VES_AV14
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
+		editorSubcategory="v105_105th_EdSubCat_SparrowHawks";
 		displayName="AV-14L Hornet";
 		crew="VES_Rifleman_MA5B_ODST";
-		
-		
         weapons[]=
 		{
 			"OPTRE_M41_LAAG",

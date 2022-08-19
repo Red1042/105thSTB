@@ -8,8 +8,8 @@ class v105_A364_Claymore: Plane_CAS_01_dynamicLoadout_base_F
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="A-364 Claymore";
-		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_FixedWing";
+		editorCategory="v105_EdCat_105th";
+		editorSubcategory="v105_105th_EdSubCat_FixedWing";
 		crew="VES_Rifleman_MA5B_ODST";
 		tf_hasLRradio=1;
 		tf_isolatedAmount=.1;
