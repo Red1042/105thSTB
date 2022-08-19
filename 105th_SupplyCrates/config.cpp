@@ -2,8 +2,8 @@ class CfgPatches
 {
 	class v105_N4_SupplyPods
 	{
-		author = "S-4 Logistics";
-		name = "[105th] S-4 Logistics";
+		author=	"105th | S-4 Logistics";
+		name = "105th SupplyPods";
 		url = "";
 		units[] = 
 		{

@@ -1,22 +1,21 @@
 class OPTRE_AV22_Sparrowhawk_Base;
 
-class v105_AVXX_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
+class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 {
     dlc="105th";
     author="105th Logistics Team";
     displayName="AVN-XX-Sparrowhawk Base";
     editorCategory="v105_EdCat_105th";
     editorSubcategory="v105_105th_EdSubCat_SparrowHawks";
-    side=   1;
-    scope=  1;
-    scopeArsenal=   1;
-    scopeCurator=   1;
-    forceInGarage=  0;
-    maxFordingDepth=    5;
-    tf_hasLRradio=  1;
-    tf_isolatedAmount=  .35;
-    tf_range=   20000;
-    armor = 250;
+	side=1;
+	scope=1;
+	scopeCurator=1;
+	forceInGarage=1;
+    maxFordingDepth= 5;
+    tf_hasLRradio=1;
+    tf_isolatedAmount=.35;
+    tf_range=20000;
+    armor=250;
     destrType="DestructWreck";
 	gearRetracting=1;
 	mapSize=25;
@@ -62,10 +61,10 @@ class v105_AVXX_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 		"camo11",
 		"camo12",
 		"camo13",
+		"attach_Pylons",
 		//"attach_noseCannon",
 		"attach_noseLaser",
-		"attach_CannonLight",
-		"attach_Pylons",
+		"attach_CannonHeavy",
 		"attach_Decal1",
 		"attach_Decal2"
 	};
@@ -119,10 +118,36 @@ class v105_AVXX_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 	{
 		class MainTurret: MainTurret
 		{
+		    gunnerAction="pilot_Heli_Light_02";
+			gunnerInAction="pilot_Heli_Light_02";
+			precisegetinout=1;
+			gunnerGetInAction="pilot_Heli_Light_02_Enter";
+			gunnerGetOutAction="pilot_Heli_Light_02_Exit";
+			memoryPointsGetInGunner="Pos_Gunner";
+			memoryPointsGetInGunnerDir="Pos_Gunner_dir";
+			canEject=0;
+			body="mainTurret";
+			gun="mainGun";
+			animationSourceBody="mainTurret";
+			animationSourceGun="mainGun";
+			gunnerLeftHandAnimName="";
+			gunnerRightHandAnimName="";
+			maxHorizontalRotSpeed=5;
+			maxVerticalRotSpeed=5;
+			proxyindex=1;
+			isCopilot=1;
+			gunnerName="Gunner";
+			primaryGunner=1;
+			visionMode[]=
+			{
+				"Normal",
+				"NVG",
+				"Ti"
+			};
 			weapons[]=
 			{
-					"OPTRE_M230",
-					"Laserdesignator_mounted"
+				"OPTRE_M230",
+				"Laserdesignator_mounted"
 			};
 			magazines[]=
 			{
@@ -132,6 +157,166 @@ class v105_AVXX_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 				"OPTRE_100Rnd_50mm_APFSDS",
 				"Laserbatteries"
 			};
+			minElev=-80;
+			maxElev=10;
+			initElev=0;
+			minTurn=-100;
+			maxTurn=100;
+			initTurn=0;
+			stabilizedInAxes="StabilizedInAxesBoth";
+			startEngine=0;
+			class Viewoptics
+			{
+				minAngleX=-360;
+				maxAngleX=360;
+				initAngleX=0;
+				minAngleY=-360;
+				maxAngleY=360;
+				initAngleY=0;
+				initFov=0.75;
+				minFov=0.050000001;
+				maxFov=0.75;
+				visionMode[]=
+				{
+					"Normal",
+					"NVG",
+					"Ti"
+				};
+			};
+			class OpticsIn
+			{
+				class Wide
+				{
+					opticsDisplayName="W";
+					initAngleX=0;
+					minAngleX=-30;
+					maxAngleX=30;
+					initAngleY=0;
+					minAngleY=-100;
+					maxAngleY=100;
+					initFov=0.46599999;
+					minFov=0.46599999;
+					maxFov=0.46599999;
+					directionStabilized=1;
+					visionMode[]=
+					{
+						"Normal",
+						"NVG",
+						"Ti"
+					};
+					thermalMode[]={0,1};
+					gunnerOpticsModel="\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_wide_F";
+				};
+				class Medium: Wide
+				{
+					initFov=0.093000002;
+					minFov=0.093000002;
+					maxFov=0.093000002;
+					opticsDisplayName="M";
+					gunnerOpticsModel="\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_medium_F";
+				};
+				class Narrow: Wide
+				{
+					initFov=0.028999999;
+					minFov=0.028999999;
+					maxFov=0.028999999;
+					opticsDisplayName="N";
+					gunnerOpticsModel="\A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_narrow_F";
+				};
+			};
+			class OpticsOut
+			{
+				class Monocular
+				{
+					initAngleX=0;
+					minAngleX=-30;
+					maxAngleX=30;
+					initAngleY=0;
+					minAngleY=-100;
+					maxAngleY=100;
+					minFov=0.25;
+					maxFov=1.25;
+					initFov=0.75;
+					visionMode[]=
+					{
+						"Normal",
+						"NVG"
+						};
+					gunnerOpticsModel="";
+					gunnerOpticsEffect[]={};
+				};
+			};
+			class Components
+			{
+				class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
+				{
+					class Components: components
+					{
+						class VehiclePrimaryGunnerDisplay
+						{
+							componentType="TransportFeedDisplayComponent";
+							source="PrimaryGunner";
+						};
+						class VehicleMissileDisplay
+						{
+							componentType="TransportFeedDisplayComponent";
+							source="Missile";
+						};
+						class SensorDisplay
+						{
+							componentType="SensorsDisplayComponent";
+							range[]={4000,2000,16000,8000};
+							resource="RscCustomInfoSensors";
+						};
+					};
+				};
+				class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight
+				{
+					defaultDisplay="SensorDisplay";
+					class Components: components
+					{
+						class VehiclePrimaryGunnerDisplay
+						{
+							componentType="TransportFeedDisplayComponent";
+							source="PrimaryGunner";
+						};
+						class VehicleMissileDisplay
+						{
+							componentType="TransportFeedDisplayComponent";
+							source="Missile";
+						};
+						class SensorDisplay
+						{
+							componentType="SensorsDisplayComponent";
+							range[]={4000,2000,16000,8000};
+							resource="RscCustomInfoSensors";
+						};
+					};
+				};
+			};
+			soundServo[]=
+			{
+				"",
+				0.0099999998,
+				1
+			};
+			outGunnerMayFire=1;
+			commanding=-1;
+			gunEnd="konec hlavne";
+			gunBeg="Usti hlavne";
+			memoryPointGunnerOptics="gunner1";
+			selectionFireAnim="zasleh";
+			castGunnerShadow=0;
+			viewGunnerShadow=0;
+			turretAxis="OsaVeze";
+			gunnerOpticsModel="";
+			gunnerOpticsEffect[]=
+			{
+				"TankCommanderOptics1",
+				"BWTV"
+			};
+			gunnerForceOptics=0;
+			turretInfoType="RscOptics_Heli_Attack_01_gunner";
 		};
 	};
 	memoryPointDriverOptics="Light_L";
@@ -222,102 +407,44 @@ class v105_AVXX_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
         class TransportPylonsComponent
 		{
 			UIPicture="OPTRE_Vehicles\Sparrowhawk\sparrowhawkPylonImage.paa";
-			class pylons
-			{
-				class WingPylonRight1
+				class pylons
 				{
-					maxweight=560;
-					hardpoints[]=
+					class WingPylonRight1
 					{
-					    "v105_UnguidedRockets",
-                        "v105_GuidedRockets",
-                        "105th_HOTs",
-                        "105th_Hellfires",
-                        "105th_AA_Missiles",
-                        "OPTRE_8Rnd_C2GMLS_missiles"
+						maxweight=560;
+						hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs"};
+						attachment="v105_FIR_Hydra_P_7rnd_M";
+						bay=-1;
+						priority=3;
+						UIposition[]={0.34999999,0.1};
+						turret[]={};
 					};
-                    attachment= "OPTRE_8Rnd_C2GMLS_missiles";
-					bay=-1;
-					priority=3;
-					UIposition[]={0.34999999,0.1};
-					turret[]={};
+					class WingPylonRight2: WingPylonRight1
+					{
+						priority=2;
+						UIposition[]={0.30000001,0.134};
+					};
+					class WingPylonRight3: WingPylonRight1
+					{
+						priority=1;
+						UIposition[]={0.34999999,0.167};
+					};
+					class WingPylonLeft3: WingPylonRight3
+					{
+						mirroredMissilePos=3;
+						UIposition[]={0.34999999,0.40000001};
+					};
+					class WingPylonLeft2: WingPylonRight2
+					{
+						mirroredMissilePos=2;
+						UIposition[]={0.30000001,0.43399999};
+					};
+					class WingPylonLeft1: WingPylonRight1
+					{
+						mirroredMissilePos=1;
+						UIposition[]={0.34999999,0.46700001};
+					};
 				};
-				class WingPylonRight2: WingPylonRight1
-				{
-                    hardpoints[]=
-					{
-					    "v105_UnguidedRockets",
-                        "v105_GuidedRockets",
-                        "105th_HOTs",
-                        "105th_Hellfires",
-                        "105th_AA_Missiles",
-                        "OPTRE_8Rnd_C2GMLS_missiles"
-					};
-					priority=2;
-				    UIposition[]={0.30000001,0.134};
-                    attachment= "OPTRE_8Rnd_C2GMLS_missiles";
-                };
-				class WingPylonRight3: WingPylonRight1
-				{
-                    hardpoints[]=
-					{
-					    "v105_UnguidedRockets",
-                        "v105_GuidedRockets",
-                        "105th_HOTs",
-                        "105th_Hellfires",
-                        "105th_AA_Missiles",
-                        "OPTRE_8Rnd_C2GMLS_missiles"
-					};
-					priority=1;
-					UIposition[]={0.34999999,0.167};
-                    attachment= "OPTRE_8Rnd_C2GMLS_missiles";
-                };
-				class WingPylonLeft3: WingPylonRight3
-				{
-                    hardpoints[]=
-					{
-						"v105_UnguidedRockets",
-                        "v105_GuidedRockets",
-                        "105th_HOTs",
-                        "105th_Hellfires",
-                        "105th_AA_Missiles",
-                        "OPTRE_8Rnd_C2GMLS_missiles"
-					};
-					mirroredMissilePos=3;
-					UIposition[]={0.34999999,0.40000001};
-                    attachment= "OPTRE_8Rnd_C2GMLS_missiles";
-				};
-				class WingPylonLeft2: WingPylonRight2
-				{
-                    hardpoints[]=
-					{
-						"v105_UnguidedRockets",
-                        "v105_GuidedRockets",
-                        "105th_HOTs",
-                        "105th_Hellfires",
-                        "105th_AA_Missiles",
-                        "OPTRE_8Rnd_C2GMLS_missiles"
-					};
-					mirroredMissilePos=2;
-				    UIposition[]={0.30000001,0.43399999};
-                    attachment= "OPTRE_8Rnd_C2GMLS_missiles";
-				};
-				class WingPylonLeft1: WingPylonRight1
-				{
-                    hardpoints[]=
-					{
-						"v105_UnguidedRockets",
-                        "v105_GuidedRockets",
-                        "105th_HOTs",
-                        "105th_Hellfires",
-                        "105th_AA_Missiles",
-                        "OPTRE_8Rnd_C2GMLS_missiles"
-					};
-					mirroredMissilePos=1;
-					UIposition[]={0.34999999,0.46700001};
-                    attachment= "OPTRE_8Rnd_C2GMLS_missiles";
-				};
-			};
        };
 		class SensorsManagerComponent
 		{
@@ -471,15 +598,70 @@ class v105_AVXX_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 	};
 };
 
-class v105_AVXXN_50mmCannon_SparrowHawk: v105_AVXX_Sparrowhawk_Base
+class v105_AVXXN_50mmCannon_SparrowHawk: v105_Sparrowhawk_Base
 {
     displayName="AV/XXN-50mm Sparrowhawk";
-    side=   1;
-    scope=  2;
-    scopeCurator=   2;
+    side=1;
+	scope=2;
+	scopeCurator=2;
 	class VehicleSpawnerInfo: VehicleSpawnerInfo
 	{
         scope = 1;
         type = "50mm Cannon";
+	};
+};
+
+class v105_AVXXN_Laser_SparrowHawk: v105_Sparrowhawk_Base
+{
+    displayName="AV/XXN-Laser Sparrowhawk";
+    side=1;
+	scope=2;
+	scopeCurator=2;
+	hiddenSelections[]=
+	{
+		"camo1",
+		"camo2",
+		"camo3",
+		"camo4",
+		"camo5",
+		"camo6",
+		"camo7",
+		"camo8",
+		"camo9",
+		"camo10",
+		"camo11",
+		"camo12",
+		"camo13",
+		"attach_Pylons",
+		"attach_noseCannon",
+		//"attach_noseLaser",
+		"attach_CannonHeavy",
+		"attach_Decal1",
+		"attach_Decal2"
+	};
+	class Turrets: Turrets
+	{
+		class MainTurret: MainTurret
+		{
+			weapons[]=
+			{
+				"OPTRE_M6_Laser",
+				"Laserdesignator_mounted"
+			};
+			magazines[]=
+			{
+				"OPTRE_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
+				"Laserbatteries"
+			};
+		};
+	};
+	class VehicleSpawnerInfo: VehicleSpawnerInfo
+	{
+        scope = 1;
+        type = "Laser";
 	};
 };

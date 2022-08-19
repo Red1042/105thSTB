@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class URF_Utility
 	{
-		author="Howard";
+		author=	"105th | S-4 Logistics";
 		name="105th United Rebel Front Utility";
 		url="";
 		// Added Items

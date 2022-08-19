@@ -1,9 +1,9 @@
 #include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
-	class C_105_Armor
+	class v105_Armor
 	{
-		author="105th";
+		author=	"105th | S-4 Logistics";
 		name="105th Armor";
 		units[]=
 		{

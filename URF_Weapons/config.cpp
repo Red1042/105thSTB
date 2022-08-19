@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class URF_Mod_Magazines
 	{
-		author="URF Mod Development Team";
+		author=	"105th | S-4 Logistics";
 		name="URF Mod Magazines";
 		units[]=
 		{

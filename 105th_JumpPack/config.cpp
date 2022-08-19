@@ -1,9 +1,9 @@
 #include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
-	class V_105_JumpPack
+	class v105_JumpPack
 	{
-		author="105th";
+		author=	"105th | S-4 Logistics";
 		name="105th Jumppack";
 		weapons[]={};
 		magazines[]={};

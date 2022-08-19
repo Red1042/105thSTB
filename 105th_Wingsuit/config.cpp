@@ -3,7 +3,7 @@ class CfgPatches
 {
 	class V_105_Wingsuit
 	{
-		author="105th";
+		author=	"105th | S-4 Logistics";
 		name="105th Wingsuit";
 		weapons[]={};
 		magazines[]={};

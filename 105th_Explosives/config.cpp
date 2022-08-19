@@ -2,6 +2,7 @@ class CfgPatches
 {
     class v105_Explosives_ACE_Compat
     {
+        author=	"105th | S-4 Logistics";
         units[]={};
         weapons[]={};
         magazines[]={};

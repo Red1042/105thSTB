@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class 105th_Core
 	{
-		author="S-4 Logistics";
+		author="105th | S-4 Logistics";
 		name="105th Core Assets and Units";
 		url="";
 		units[]={};
@@ -84,7 +84,7 @@ class CfgEditorSubcategories
 	};
 	class v105_105th_EdSubCat_Supply
 	{
-		displayName = "Supplies & Equipment";
+		displayName = "Supply Logistics";
 	};
 	class v105_105th_EdSubCat_Props
 	{
@@ -98,6 +98,7 @@ class CfgEditorSubcategories
 	{
 		displayName = "Archived";
 	};
+
 	//OPFOR
 	class v105_URF_EdSubCat_Aircraft
 	{

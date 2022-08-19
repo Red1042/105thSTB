@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class 105th_Props
 	{
-		author="Howard";
+		author=	"105th | S-4 Logistics";
 		name="105th Props";
 		url="";
 		units[]=

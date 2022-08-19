@@ -11,10 +11,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
-		authors[]=
-        {
-        	"S-4 Logistics"
-        };
+		author="105th | S-4 Logistics";
 	};
 };
 
@@ -43,7 +40,7 @@ class CfgMusic
 		theme = "v105_AmbientTracks";
 		duration = "110";
 		musicClass = "v105_AmbientTracks";
-	}
+	};
 };
 
 class CfgSounds

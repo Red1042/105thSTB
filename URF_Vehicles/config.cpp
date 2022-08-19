@@ -11,7 +11,7 @@ class CfgPatches
 {
 	class URF_Vehicles
 	{
-		author = "Howard";
+		author=	"105th | S-4 Logistics";
 		name = "URF Vehicle Enhancement Project";
 		url = "";
 		units[] = 

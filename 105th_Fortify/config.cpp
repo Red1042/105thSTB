@@ -2,6 +2,10 @@ class CfgPatches
 {
 	class acex_fortify
 	{
+		author=	"105th | S-4 Logistics";
+		version=3.5;
+		versionStr="3.5.4.23";
+		versionAr[]={3,5,4,23};
 		units[]=
 		{};
 		weapons[]=
@@ -12,10 +16,6 @@ class CfgPatches
 			"acex_main",
 			"ace_interaction"
 		};
-		author=	"105th N-4 Logistics Team";
-		version=3.5;
-		versionStr="3.5.4.23";
-		versionAr[]={3,5,4,23};
 	};
 };
 class CfgVehicles

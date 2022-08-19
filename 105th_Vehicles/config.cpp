@@ -88,7 +88,8 @@ class CfgPatches
 		    "v105_M18_Mastiff",
 		    // Sparrowhawks
 	//	    "v105_AVXX_Sparrowhawk_Base",
-            "v105_AVXXN",
+            "v105_AVXXN_50mmCannon_SparrowHawk",
+            "v105_AVXXN_Laser_SparrowHawk",
             // Logistic Assets
             "v105_M1087_Stallion_Repair",
             "v105_M1087_Stallion_Ammo",
