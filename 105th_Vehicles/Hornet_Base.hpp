@@ -245,6 +245,7 @@ class v105_AV14_Base: VES_AV14
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
+		editorSubcategory="v105_105th_EdSubCat_SparrowHawks";
 		displayName="AV-14L Hornet";
 		crew="VES_Rifleman_MA5B_ODST";
         weapons[]=
