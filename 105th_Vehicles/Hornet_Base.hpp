@@ -146,14 +146,10 @@ class v105_AV14_Base: VES_AV14
 	
 	class v105_AV14_CAP: v105_AV14_Base
 	{
-		dlc="105th";
-		author="Howard, Skywalker";
-		side=1;
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14 Hornet I";
-		crew="VES_Rifleman_MA5B_ODST";
 		
         weapons[]=
 		{
@@ -178,14 +174,10 @@ class v105_AV14_Base: VES_AV14
 	};
 	class v105_AV14_CAS: v105_AV14_Base
 	{
-		dlc="105th";
-		author="Howard, Skywalker";
-		side=1;
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14 Hornet II";
-		crew="VES_Rifleman_MA5B_ODST";
 		
         weapons[]=
 		{
@@ -209,14 +201,10 @@ class v105_AV14_Base: VES_AV14
 
 	class v105_AV14B_CAS: v105_AV14_Base
 	{
-		dlc="105th";
-		author="Howard, Skywalker";
-		side=1;
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
 		displayName="AV-14 Hornet IIB";
-		crew="VES_Rifleman_MA5B_ODST";
 		
         weapons[]=
 		{
@@ -239,15 +227,10 @@ class v105_AV14_Base: VES_AV14
 	};
 	class v105_AV14L_MULTI: v105_AV14_Base
 	{
-		dlc="105th";
-		author="Howard";
-		side=1;
 		scope=2;
 		scopeCurator=2;
 		forceInGarage=1;
-		editorSubcategory="v105_105th_EdSubCat_SparrowHawks";
 		displayName="AV-14L Hornet";
-		crew="VES_Rifleman_MA5B_ODST";
         weapons[]=
 		{
 			"OPTRE_M41_LAAG",

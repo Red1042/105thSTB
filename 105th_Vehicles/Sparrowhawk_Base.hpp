@@ -7,6 +7,7 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
     displayName="AVN-XX-Sparrowhawk Base";
     editorCategory="v105_EdCat_105th";
     editorSubcategory="v105_105th_EdSubCat_SparrowHawks";
+    crew="VES_Rifleman_MA5B_ODST";
 	side=1;
 	scope=1;
 	scopeCurator=1;
