@@ -577,7 +577,7 @@ class cfgVehicles
 	#include "Fossa_Base.hpp"
 	#include "Falcon_Base.hpp"
 	#include "Pelican_Base.hpp"
-	#include "Claymore_Base.hpp"	
+	#include "Claymore_Base.hpp"
 	#include "UGVStomper_Base.hpp"
 	#include "Sentinel_Base.hpp"
 	#include "Sholef.hpp"

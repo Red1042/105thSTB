@@ -7,7 +7,7 @@
 //Chests
 	class ODST_Light: OPTRE_UNSC_M52D_Armor_Light
 	{
-		author="N-4 Logistics";
+		author="S-4 Logistics";
 		displayName="[ODST] M52D Light";
 		hiddenSelectionsTextures[]=
 		{

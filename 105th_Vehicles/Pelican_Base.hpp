@@ -551,8 +551,8 @@
 						attachment = "v105_FIR_Hydra_P_7rnd_M";
 						maxweight = 300;
 						UIposition[] = {0.1,0.50};
-                        bay = -1;	
-						mirroredMissilePos=1;				
+                        bay = -1;
+						mirroredMissilePos=1;
 					};
 				};
 				class Presets
@@ -586,7 +586,7 @@
 							"v105_FIR_Hydra_P_7rnd_M", //5
 						};
 					};
-					
+
 				};
 			};
 			class SensorsManagerComponent
@@ -762,6 +762,70 @@
 				};
 			};
 			#include "cfg\PelicanPassengerTurrets.hpp"
+		};
+		class Components: Components
+		{
+			class TransportPylonsComponent
+			{
+				UIPicture="\OPTRE_Vehicles\Pelican\pelicanPylonPic.paa";
+				class pylons
+				{
+					class pylons1
+					{
+						maxweight=300;
+						hardpoints[] = {"Pelican_Utility"};
+						attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
+						bay=-1;
+						priority=2;
+						UIposition[]={0.1,0.10};
+						turret[]={};
+					};
+					class pylons2: pylons1
+					{
+						hardpoints[] = {"Pelican_Utility"};
+						UIposition[]={0.1,0.20};
+					};
+					class pylons4: pylons1
+					{
+						hardpoints[] = {"Pelican_Utility"};
+						priority = 5;
+						attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
+						maxweight = 300;
+						UIposition[] = {0.1,0.40};
+                        bay = -1;
+                        mirroredMissilePos=2;
+					};
+					class pylons5:pylons1
+					{
+						hardpoints[] = {"Pelican_Utility"};
+						priority = 5;
+						attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
+						maxweight = 300;
+						UIposition[] = {0.1,0.50};
+                        bay = -1;
+						mirroredMissilePos=1;
+					};
+				};
+				class Presets
+				{
+					class Empty
+					{
+						displayName="Empty";
+						attachment[]={};
+					};
+					class Default
+					{
+						displayName="Utility";
+						attachment[]=
+						{
+							"OPTRE_16Rnd_AnvilSMK_W_missiles", //1
+							"OPTRE_16Rnd_AnvilSMK_W_missiles", //2
+							"OPTRE_16Rnd_AnvilSMK_W_missiles", //4
+							"OPTRE_16Rnd_AnvilSMK_W_missiles", //5
+						};
+					};
+				};
+			};
 		};
     };
 
