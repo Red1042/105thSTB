@@ -6,15 +6,15 @@ class v105_UGV_Stag_Base:UGV_01_rcws_base_F
     side=1;
 	scope = 1;
 	scopeCurator = 1;
-	editorCategory = "HOW_EdCat_105th";
-	editorSubCategory = "HOW_105th_EdSubCat_Drones";
+	editorCategory = "v105_EdCat_105th";
+	editorSubCategory = "v105_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
 	armor=50;
 	armorStructural=12;
     hiddenSelectionsTextures[]=
 		{
             "105th_Vehicles\Textures\Stag\v105_Stag_Ext.paa",
-            "\A3\Drones_F\soft_f_gamma\UGV_01\data\UGV_01_int_co.paa",
+            "A3\Drones_F\soft_f_gamma\UGV_01\data\UGV_01_int_co.paa",
             "105th_Vehicles\Textures\Stag\v105_Stag_Turret.paa"           
 		};
         fuelCapacity=30;
@@ -177,8 +177,8 @@ class v105_UGV_STAG:v105_UGV_Stag_Base
     side=1;
 	scope = 2;
 	scopeCurator = 2;
-	editorCategory = "HOW_EdCat_105th";
-	editorSubCategory = "HOW_105th_EdSubCat_Drones";
+	editorCategory = "v105_EdCat_105th";
+	editorSubCategory = "v105_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
     class Turrets:Turrets
     {
@@ -214,8 +214,8 @@ class v105_UGV_STAG_ATGM:v105_UGV_Stag_Base
     side=1;
 	scope = 2;
 	scopeCurator = 2;
-	editorCategory = "HOW_EdCat_105th";
-	editorSubCategory = "HOW_105th_EdSubCat_Drones";
+	editorCategory = "v105_EdCat_105th";
+	editorSubCategory = "v105_105th_EdSubCat_Drones";
 	crew="B_UAV_AI";
     class Turrets:Turrets
     {	

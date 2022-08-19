@@ -3,7 +3,7 @@ class MRAP_02_hmg_base_F;
 class O_MRAP_02_hmg_F;
 class MRAP_02_gmg_base_F;
 class O_MRAP_02_gmg_F;
-class HOW_URF_Karatel: O_MRAP_02_F
+class v105_URF_Karatel: O_MRAP_02_F
 {
 		dlc="105th";
 		author="Howard";
@@ -12,8 +12,8 @@ class HOW_URF_Karatel: O_MRAP_02_F
 		scopeCurator=2;
 		displayName="Karatel II";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Motorized";
 		
 		class TextureSources
 		{
@@ -45,7 +45,7 @@ class HOW_URF_Karatel: O_MRAP_02_F
 					"URF_Vehicles\Textures\Otokar\UGV_Turret_URF.paa"
 				};
 };		
-class HOW_URF_Karatel_HMG: O_MRAP_02_hmg_F
+class v105_URF_Karatel_HMG: O_MRAP_02_hmg_F
 {
 		dlc="105th";
 		author="Howard";
@@ -54,8 +54,8 @@ class HOW_URF_Karatel_HMG: O_MRAP_02_hmg_F
 		scopeCurator=2;
 		displayName="Karatel II (HMG)";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Motorized";
 		
 		class Turrets:Turrets
 		{
@@ -102,7 +102,7 @@ class HOW_URF_Karatel_HMG: O_MRAP_02_hmg_F
 				};
 };
 
-class HOW_URF_Karatel_GMG: O_MRAP_02_gmg_F
+class v105_URF_Karatel_GMG: O_MRAP_02_gmg_F
 {
 	dlc="105th";
 		author="Howard";
@@ -111,8 +111,8 @@ class HOW_URF_Karatel_GMG: O_MRAP_02_gmg_F
 		scopeCurator=2;
 		displayName="Karatel II (GMG)";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Motorized";
 		
 		
 		class Turrets:Turrets
@@ -161,7 +161,7 @@ class HOW_URF_Karatel_GMG: O_MRAP_02_gmg_F
 				};
 };
 
-class HOW_URF_Karatel_AT: O_MRAP_02_gmg_F
+class v105_URF_Karatel_AT: O_MRAP_02_gmg_F
 {
 		dlc="105th";
 		author="Howard";
@@ -170,8 +170,8 @@ class HOW_URF_Karatel_AT: O_MRAP_02_gmg_F
 		scopeCurator=2;
 		displayName="Karatel II (AT)";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Motorized";
 		
 		class Turrets:Turrets
 		{
@@ -179,11 +179,11 @@ class HOW_URF_Karatel_AT: O_MRAP_02_gmg_F
 			{
 				weapons[]=
 				{
-					"HOW_URF_launcher_SPG9"
+					"v105_URF_launcher_SPG9"
 				};
 				magazines[]=
 				{
-					"HOW_15Rnd_50x137_HEAT"
+					"v105_15Rnd_50x137_HEAT"
 				};
 			};
 		};

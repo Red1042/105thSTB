@@ -1,6 +1,6 @@
 class O_APC_Tracked_02_cannon_F;
 
-class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
+class v105_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 {
 		dlc="105th";
 		author="Howard";
@@ -9,8 +9,8 @@ class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 		scopeCurator=2;
 		displayName="BMP-VI Stalker IIA";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		faction = "v105_URF_EnhancedVehicles";
 		armor=500;
 		class Turrets:Turrets
@@ -69,7 +69,7 @@ class HOW_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 		};
 };
 
-class HOW_URF_APC_Stalker_B:O_APC_Tracked_02_cannon_F
+class v105_URF_APC_Stalker_B:O_APC_Tracked_02_cannon_F
 {
 		dlc="105th";
 		author="Howard";
@@ -78,8 +78,8 @@ class HOW_URF_APC_Stalker_B:O_APC_Tracked_02_cannon_F
 		scopeCurator=2;
 		displayName="BMP-VI Stalker IIB";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		armor=500;
 		class Turrets:Turrets
 		{

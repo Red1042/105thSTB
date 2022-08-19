@@ -2,17 +2,17 @@ class CfgPatches
 {
     class v105_Weapons
     {
-        author= "N4_Logistics_Team"; 
+        author= "105th | S4 Logistics";
         url="https://discord.gg/105thstb-arma";
         units[]={};
         weapons[]=
         {
-			"v105_CRCKT_PEN",
-            "v105_CRCKT_PEN_Loaded", 
-            "v105_CRCKT_PEN_Used",
-            "v105_CRCKT_HE",
-            "v105_CRCKT_HE_Loaded", 
-            "v105_CRCKT_HE_Used",
+			"v105_Cricket_PEN",
+            "v105_Cricket_PEN_Loaded", 
+            "v105_Cricket_PEN_Used",
+            "v105_Cricket_HE",
+            "v105_Cricket_HE_Loaded", 
+            "v105_Cricket_HE_Used"
         };
         magazines[]={};
         ammo[]={};
@@ -33,8 +33,7 @@ class CfgPatches
 			"ace_medical_treatment",
 			"A3_Data_F",
 			"OPTRE_Weapons_Items",
-            "OPTRE_ACE_Compat",
-			
+            "OPTRE_ACE_Compat"
 		};
     };
 };
@@ -46,20 +45,20 @@ class UnderBarrelSlot;
 class OPTRE_M48_PAW;
 class CfgWeapons
 {
-    class v105_CRCKT_PEN: OPTRE_M48_PAW
+    class v105_Cricket_PEN: OPTRE_M48_PAW
     {
         dlc = "105th";
         author = "N-4 Logistics";
         scope = 1;
         scopeArsenal = 1;
-        baseWeapon = "105_CRCKT_PEN";
+        baseWeapon = "v105_Cricket_PEN";
         displayName = "[105th] M48B 'Penetrator' PAW";
         descriptionShort= "Anti-Tank Disposable Tube";
         initSpeed=80;
         model="\V_SO_Weapons\data\M48\M48B_Cricket";
         picture="\V_SO_Weapons\data\M48\M48B_Cricket";
         magazineWell[]={};
-        magazines[]= {"CRCKT_PEN", "OPTRE_1Rnd_50x137_PEN,"};
+        magazines[]= {"v105_Cricket_1rnd_PEN", "OPTRE_1Rnd_50x137_PEN"};
         magazineReloadTime= 1;
         reloadMagazineSound[]= {"", 1, 1};
         class EventHandlers 
@@ -94,37 +93,36 @@ class CfgWeapons
             };
         };
     };
-    class v105_CRCKT_PEN_Loaded: v105_CRCKT_PEN
+    class v105_Cricket_PEN_Loaded: v105_Cricket_PEN
     {
         scope = 2;
         scopeArsenal = 2;
-        baseWeapon = "105_CRCKT_PEN_Loaded";
-        magazines[]= {"CRCKT_HE", "OPTRE_1Rnd_50x137_HE",};
+        baseWeapon = "v105_Cricket_PEN_Loaded";
+        magazines[]= {"v105_Cricket_1rnd_PEN", "OPTRE_1Rnd_50x137_PEN"};
         mass=95;
     };
-    class v105_CRCKT_PEN_Used: v105_CRCKT_PEN
+    class v105_Cricket_PEN_Used: v105_Cricket_PEN
     {
         scope = 1;
         scopeArsenal = 1;
-        baseWeapon = "105_CRCKT_PEN_Used";
+        baseWeapon = "v105_Cricket_PEN_Used";
         displayName = "Used M48B Tube";
         weaponPoolAvailable = 0;
         mass=90;
     };
-    class v105_CRCKT_HE: OPTRE_M48_PAW
+    class v105_Cricket_HE: OPTRE_M48_PAW
     {
         dlc= "105th";
         author= "N-4 Logistics";
         scope= 1;
         scopeArsenal= 1;
-        baseWeapon= "v105_CRCKT_HE";
+        baseWeapon= "v105_Cricket_HE";
         displayName= "[105th] M48B 'High Explosive' PAW";
         descriptionShort= "Anti-Personnel Disposable Tube";
         initSpeed=  80;
         model=  "\V_SO_Weapons\data\M48\M48B_Cricket";
         picture=    "\V_SO_Weapons\data\M48\M48B_Cricket";
-        magazineWell[]={};
-        magazines[]= {"CRCKT_HE", "OPTRE_1Rnd_50x137_HE",};
+        magazines[]= {"v105_Cricket_1rnd_HE", "OPTRE_1Rnd_50x137_HE"};
         magazineReloadTime = 0.1;
         reloadMagazineSound[]= {"", 1, 1};
         class EventHandlers 
@@ -159,19 +157,19 @@ class CfgWeapons
             };
         };
     };
-    class v105_CRCKT_HE_Loaded: v105_CRCKT_HE
+    class v105_Cricket_HE_Loaded: v105_Cricket_HE
     {
         scope = 2;
         scopeArsenal = 2;
-        baseWeapon = "105_CRCKT_HE_Loaded";
-        magazines[]= {"CRCKT_HE", "OPTRE_1Rnd_50x137_HE",};
+        baseWeapon = "v105_Cricket_HE_Loaded";
+        magazines[]= {"v105_Cricket_1rnd_HE", "OPTRE_1Rnd_50x137_HE"};
         mass=95;
     };
-    class v105_CRCKT_HE_Used: v105_CRCKT_HE
+    class v105_Cricket_HE_Used: v105_Cricket_HE
     {
         scope = 1;
         scopeArsenal = 1;
-        baseWeapon = "105_CRCKT_HE_Used";
+        baseWeapon = "v105_Cricket_HE_Used";
         displayName = "Used M48B Tube";
         weaponPoolAvailable = 0;
         mass=90;
@@ -179,14 +177,14 @@ class CfgWeapons
 };
 class CBA_DisposableLaunchers
 {
-    v105_CRCKT_PEN[]=
+    v105_Cricket_PEN[]=
     {
-        "v105_CRCKT_PEN_Loaded", 
-        "v105_CRCKT_PEN_Used",
+        "v105_Cricket_PEN_Loaded", 
+        "v105_Cricket_PEN_Used",
     };
-    v105_CRCKT_HE[]=
+    v105_Cricket_HE[]=
     {
-        "v105_CRCKT_HE_Loaded",
-        "v105_CRCKT_HE_Used",
+        "v105_Cricket_HE_Loaded",
+        "v105_Cricket_HE_Used",
     };
 };

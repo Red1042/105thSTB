@@ -2,14 +2,14 @@ class CfgPatches
 {
     class v105_Machineguns
     {  
-        author= "N4_Logistics_Team"; 
+        author= "105th | S4 Logistics";
         url="https://discord.gg/105thstb-arma";
         units[]={};
         weapons[]=
         {
-           "v105_HOW_M247SSW",
-           "v105_HOW_M73GPMG",
-           "v105_HOW_M73SAW",
+           "v105_M247SSW",
+           "v105_M73GPMG",
+           "v105_M73SAW",
         };
         magazines[]={};
         requiredVersion=0.1;
@@ -44,22 +44,22 @@ class OPTRE_M73;
 class OPTRE_M247;
 class CfgWeapons
 {	
-    class v105_HOW_M73SAW:OPTRE_M73
+    class v105_M73SAW:OPTRE_M73
     {
         dlc="105th";
         author="Howard";
         scope=2;
         scopeArsenal=2;
         displayName					= "[105th] M73 SAW";
-        baseWeapon 					= "v105_HOW_M73SAW";
+        baseWeapon 					= "v105_M73SAW";
         descriptionShort="UNSC Squad Automatic Weapon";
         recoil="recoil_lim";
         magazines[]=
         {
-            "v105_HOW_150Rnd_762x51_Box",
-            "v105_HOW_150Rnd_762x51_Box_Tracer",
-            "v105_HOW_300Rnd_762x51_Box",
-            "v105_HOW_300Rnd_762x51_Box_Tracer"
+            "v105_150Rnd_762x51_Box",
+            "v105_150Rnd_762x51_Box_Tracer",
+            "v105_300Rnd_762x51_Box",
+            "v105_300Rnd_762x51_Box_Tracer"
 
         };
         modes[]=
@@ -134,14 +134,14 @@ class CfgWeapons
                 priority=1;
             };
         };
-    class v105_HOW_M73GPMG:OPTRE_M73
+    class v105_M73GPMG:OPTRE_M73
     {
         dlc="105th";
         author="Howard";
         scope=2;
         scopeArsenal=2;
         displayName					= "[105th] M73 GPMG";
-        baseWeapon 					= "v105_HOW_M73GPMG";
+        baseWeapon 					= "v105_M73GPMG";
         descriptionShort="UNSC General Purpose Machine Gun";
         recoil="recoil_lim";
         modes[]=
@@ -215,23 +215,23 @@ class CfgWeapons
             priority=1;
         };
     };
-    class v105_HOW_M247SSW: OPTRE_M247
+    class v105_M247SSW: OPTRE_M247
     {
         dlc="105th";
         author="Howard";
         scope=2;
         scopeArsenal=2;
-        baseWeapon="v105_HOW_M247SSW";
+        baseWeapon="v105_M247SSW";
         displayName="[105th] M247 SSW";
         descriptionShort="UNSC Squad Support Weapon";
         magazines[]=
         {
-            "HOW_200Rnd_93x64_Box",
-            "HOW_150Rnd_93x64_Box",
-            "HOW_75Rnd_93x64_Box",
-            "HOW_200Rnd_93x64_Mixed_Box",
-            "HOW_150Rnd_93x64_Mixed_Box",
-            "HOW_75Rnd_93x64_Mixed_Box",		
+            "v105_200Rnd_93x64_Box",
+            "v105_150Rnd_93x64_Box",
+            "v105_75Rnd_93x64_Box",
+            "v105_200Rnd_93x64_Mixed_Box",
+            "v105_150Rnd_93x64_Mixed_Box",
+            "v105_75Rnd_93x64_Mixed_Box",		
         };
         recoil="recoil_mk200";
         HUD_BulletInARows=4;

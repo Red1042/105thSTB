@@ -1,5 +1,5 @@
 class B_APC_Wheeled_01_cannon_F;
-class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
+class v105_IFV76_Base: B_APC_Wheeled_01_cannon_F
 	{
 		dlc = "105th";
 		author = "Howard";
@@ -7,8 +7,8 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 		scope = 1;
 		scopeCurator = 1;
 		displayName = "IFV-76 Hound Prototype";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		crew = "VES_Rifleman_MA5B_MAR";
 		armor = 1350;
 		enginePower = 600;
@@ -173,7 +173,7 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 			"a3\Armor_F\Data\cage_olive_CO.paa"
 		};
 	};
-	class HOW_IFV76_A: HOW_IFV76_Base
+	class v105_IFV76_A: v105_IFV76_Base
 	{
 		dlc = "105th";
 		author = "N-4 Logistics";
@@ -181,8 +181,8 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 		scope = 1;
 		scopeCurator = 1;
 		displayName = "IFV-76 Prototype 1";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		crew = "VES_Rifleman_MA5B_MAR";
 		dampingRateFullThrottle = 0.10;
 		tf_hasLRradio = 1;
@@ -198,13 +198,13 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 				weapons[] = {"OPTRE_M230_HE","OPTRE_M230_AP","HMG_127_APC"};
 				magazines[] = 
 				{
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
+					"v105_60Rnd_50mm_HE",
+					"v105_60Rnd_50mm_HE",
+					"v105_60Rnd_50mm_HE",
+					"v105_60Rnd_50mm_HE",
+					"v105_60Rnd_50mm_APFSDS",
+					"v105_60Rnd_50mm_APFSDS",
+					"v105_60Rnd_50mm_APFSDS",
 					"500Rnd_127x99_mag_Tracer_Green",
 					"500Rnd_127x99_mag_Tracer_Green",
 					"500Rnd_127x99_mag_Tracer_Green",
@@ -216,7 +216,7 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 		};
 		
 	};
-	class HOW_IFV76_B: HOW_IFV76_Base
+	class v105_IFV76_B: v105_IFV76_Base
 	{
 		dlc = "105th";
 		author = "N-4 Logistics";
@@ -224,8 +224,8 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "IFV-76 Hound";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		crew = "VES_Rifleman_MA5B_MAR";
 		dampingRateFullThrottle = 0.10;
 		tf_hasLRradio = 1;
@@ -241,13 +241,13 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 				weapons[] = {"OPTRE_M230_HE","OPTRE_M230_AP","LMG_coax_Hound"};
 				magazines[] = 
 				{
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_HE",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
-					"HOW_60Rnd_50mm_APFSDS",
+					"v105_60Rnd_50mm_HE",
+					"v105_60Rnd_50mm_HE",
+					"v105_60Rnd_50mm_HE",
+					"v105_60Rnd_50mm_APFSDS",
+					"v105_60Rnd_50mm_APFSDS",
+					"v105_60Rnd_50mm_APFSDS",
+					"v105_60Rnd_50mm_APFSDS",
 					"1000Rnd_762x51_Belt_T_Yellow_HOW",
 					"1000Rnd_762x51_Belt_T_Yellow_HOW",
 					"1000Rnd_762x51_Belt_T_Yellow_HOW"
@@ -261,7 +261,7 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 	//		Unarmed Hound
 	// 
 	class LM_OPCAN_AFV102_MC_U_WDL;
-	class HOW_APC76_TT : LM_OPCAN_AFV102_MC_U_WDL
+	class v105_APC76_TT : LM_OPCAN_AFV102_MC_U_WDL
 	{
 		dlc = "105th";
 		author = "N-4 Logistics, Burgess";
@@ -269,8 +269,8 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "APC-76 Shepherd";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		crew = "VES_Rifleman_MA5B_MAR";
 		armor = 1350;
 		enginePower = 600;
@@ -396,7 +396,7 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 				class TransportMagazines{};
 				class TransportWeapons{};
 	};
-	class HOW_APC76_MED:HOW_APC76_TT
+	class v105_APC76_MED:v105_APC76_TT
 	{
 		dlc = "105th";
 		author = "N-4 Logistics, Burgess";
@@ -404,8 +404,8 @@ class HOW_IFV76_Base: B_APC_Wheeled_01_cannon_F
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "APC-76M Shepherd";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		crew = "VES_Rifleman_MA5B_MAR";
 			class TransportItems
 				{

@@ -6,7 +6,7 @@ class B_LSV_01_unarmed_F;
 class B_LSV_01_AT_F;
 class B_LSV_01_armed_F;
 
-class HOW_Fossa_unarmed : B_LSV_01_unarmed_F
+class v105_Fossa_unarmed : B_LSV_01_unarmed_F
 {
 		dlc="105th";
 		author="Howard";
@@ -14,8 +14,8 @@ class HOW_Fossa_unarmed : B_LSV_01_unarmed_F
 		scope=2;
 		scopeCurator=2;
 		displayName="M77 Fossa (Unarmed)";
-		editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Motorized";	
+		editorCategory="v105_EdCat_105th";
+        editorSubcategory="v105_105th_EdSubCat_Motorized";	
 		crew = "VES_Rifleman_MA5B_MAR";
 		tf_hasLRradio = 1;
 		tf_isolatedAmount = 0.65;
@@ -34,12 +34,12 @@ class HOW_Fossa_unarmed : B_LSV_01_unarmed_F
 					author="$STR_A3_Bohemia_Interactive";
 					textures[]=
 					{
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
-						"\A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
-						"\A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
+						"A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
+						"A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
 					};
 					factions[]=
 					{
@@ -55,7 +55,7 @@ class HOW_Fossa_unarmed : B_LSV_01_unarmed_F
 		
 };
 
-class HOW_Fossa_armed : B_LSV_01_armed_F
+class v105_Fossa_armed : B_LSV_01_armed_F
 {
 		dlc="105th";
 		author="Howard";
@@ -63,8 +63,8 @@ class HOW_Fossa_armed : B_LSV_01_armed_F
 		scope=2;
 		scopeCurator=2;
 		displayName="M77 Fossa (Armed)";
-		editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Motorized";	
+		editorCategory="v105_EdCat_105th";
+        editorSubcategory="v105_105th_EdSubCat_Motorized";	
 		crew = "VES_Rifleman_MA5B_MAR";
 		tf_hasLRradio = 1;
 		tf_isolatedAmount = 0.65;
@@ -130,12 +130,12 @@ class HOW_Fossa_armed : B_LSV_01_armed_F
 					author="$STR_A3_Bohemia_Interactive";
 					textures[]=
 					{
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
-						"\A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
-						"\A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
+						"A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
+						"A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
 					};
 					factions[]=
 					{
@@ -150,7 +150,7 @@ class HOW_Fossa_armed : B_LSV_01_armed_F
 		};
 };
 
-class HOW_Fossa_armed_AT : B_LSV_01_AT_F
+class v105_Fossa_armed_AT : B_LSV_01_AT_F
 {
 		dlc="105th";
 		author="Howard";
@@ -158,8 +158,8 @@ class HOW_Fossa_armed_AT : B_LSV_01_AT_F
 		scope=2;
 		scopeCurator=2;
 		displayName="M77 Fossa (AT)";
-		editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Motorized";	
+		editorCategory="v105_EdCat_105th";
+        editorSubcategory="v105_105th_EdSubCat_Motorized";	
 		crew = "VES_Rifleman_MA5B_MAR";
 		tf_hasLRradio = 1;
 		tf_isolatedAmount = 0.65;
@@ -178,12 +178,12 @@ class HOW_Fossa_armed_AT : B_LSV_01_AT_F
 					author="$STR_A3_Bohemia_Interactive";
 					textures[]=
 					{
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
-						"\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
-						"\A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
-						"\A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
+						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
+						"A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
+						"A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
 					};
 					factions[]=
 					{

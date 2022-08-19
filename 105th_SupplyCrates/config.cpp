@@ -10,18 +10,18 @@ class CfgPatches
 			"v105_Land_Transport_Covered_Pod",
 			"v105_Land_Medical_Covered_Pod",
 			"v105_Mortar_Container",
-			"HOW_105th_SupplyPod_Rifle",
-			"HOW_105th_SupplyPod_MachineGun",
-			"HOW_105th_SupplyPod_Precision",
-			"HOW_105th_SupplyPod_Rockets",
-			"HOW_105th_SupplyPod_Medical",
-			"HOW_105th_SupplyPod_Utility",
-			"HOW_105th_SupplyPod_Demo",
-			"HOW_105th_SupplyPod_MortarHE",
-			"HOW_105th_SupplyPod_MortarSMK",
-			"HOW_105th_SupplyPod_60mmMortar",
-			"HOW_105th_SupplyPod_Radios",
-			"HOW_105th_SupplyPod_SPNKR"
+			"v105_SupplyPod_Rifle",
+			"v105_SupplyPod_MachineGun",
+			"v105_SupplyPod_Precision",
+			"v105_SupplyPod_Rockets",
+			"v105_SupplyPod_Medical",
+			"v105_SupplyPod_Utility",
+			"v105_SupplyPod_Demo",
+			"v105_SupplyPod_MortarHE",
+			"v105_SupplyPod_MortarSMK",
+			"v105_SupplyPod_60mmMortar",
+			"v105_SupplyPod_Radios",
+			"v105_SupplyPod_SPNKR"
 			
 
 		};
@@ -73,51 +73,59 @@ class CfgVehicles
 {
 	
 	class Land_Pod_Heli_Transport_04_covered_F;
-	class v105_Land_Transport_Covered_Pod:Land_Pod_Heli_Transport_04_covered_F
+	class v105_Land_Transport_Covered_Pod: Land_Pod_Heli_Transport_04_covered_F
 	{
 		scopeCurator = 2;
 		scope  = 2;
 		side = 1;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Passenger Compartment";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 		armor = 150;
-			class TransportItems
-			{
-				#include "SupplyPods\ResupplyPodRifle.hpp"
-			};
-			class TransportMagazines{};
-			class TransportWeapons{};
-			hiddenSelectionsTextures[]=
-			{
-				"105th_SupplyCrates\textures\taru_1_retexture.paa",
-				"105th_SupplyCrates\textures\taru_2_retexture.paa"
-			};
+		class TransportMagazines{};
+		class TransportWeapons{};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_SupplyCrates\textures\taru_1_retexture.paa",
+			"105th_SupplyCrates\textures\taru_2_retexture.paa"
+		};
+		transportMaxMagazines = 100;
+        transportMaxWeapons = 50;
+		maximumLoad = 4000;
+		class TransportItems
+		{
+			#include "SupplyPods\ResupplyPodRifle.hpp"
+		};
 	};
 	class Land_Pod_Heli_Transport_04_medevac_F;
-	class v105_Land_Medical_Covered_Pod:Land_Pod_Heli_Transport_04_medevac_F
+	class v105_Land_Medical_Covered_Pod: Land_Pod_Heli_Transport_04_medevac_F
 	{
 		scopeCurator = 2;
 		scope  = 2;
 		side = 1;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Medevac Compartment";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 		armor = 150;
-			class TransportItems
-			{
-				#include "SupplyPods\ResupplyPodMedical.hpp"
-			};
-			class TransportMagazines{};
-			class TransportWeapons{};
-			hiddenSelectionsTextures[]=
-			{
-				"105th_SupplyCrates\textures\taru_med_retexture.paa",
-				"105th_SupplyCrates\textures\taru_2_retexture.paa"
-			};
+		class TransportMagazines{};
+		class TransportWeapons{};
+		hiddenSelectionsTextures[]=
+		{
+			"105th_SupplyCrates\textures\taru_med_retexture.paa",
+			"105th_SupplyCrates\textures\taru_2_retexture.paa"
+		};
+		transportMaxMagazines = 100;
+        transportMaxWeapons = 50;
+		maximumLoad = 2000;
+		class TransportItems
+		{
+			#include "SupplyPods\ResupplyPodMedical.hpp"
+		};
 	};
+
+
 	class Land_optre_milcrate_h3_long;
 	class v105_Mortar_Container: Land_optre_milcrate_h3_long
 	{
@@ -126,8 +134,8 @@ class CfgVehicles
 		side = 1;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Mortar Container";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 		class TransportItems
 			{
 				#include "SupplyPods\MortarContainer.hpp"
@@ -135,15 +143,15 @@ class CfgVehicles
 	};
 	class OPTRE_Ammo_SupplyPod_Empty;
 
-	class HOW_105th_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_Rifle: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
-		scopeCurator = 2;
-		scope  = 2;
+		scopeCurator= 2;
+		scope=2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Rifle Ammo Supply Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodRifle.hpp"
@@ -151,15 +159,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_MachineGun: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_MachineGun: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Machinegun Ammo Supply Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodMachineGun.hpp"
@@ -167,15 +175,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_Precision: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_Precision: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Precision Weapons Supply Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodPrecision.hpp"
@@ -183,15 +191,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_Rockets: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_Rockets: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Rockets/Missiles Supply Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodRockets.hpp"
@@ -199,15 +207,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_Medical: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_Medical: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Medical Supply Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodMedical.hpp"
@@ -219,15 +227,15 @@ class CfgVehicles
 				//filepath
 			};
 	};
-	class HOW_105th_SupplyPod_Utility: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_Utility: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Utility Supply Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodUtility.hpp"
@@ -235,15 +243,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_Demo: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_Demo: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Demolitions Supply Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodDemo.hpp"
@@ -251,15 +259,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_MortarHE: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_MortarHE: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] 82mm HE Mortar Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodMortarHE.hpp"
@@ -267,15 +275,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_MortarSMK: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_MortarSMK: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] 82mm Smoke Mortar Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodMortarSMK.hpp"
@@ -283,15 +291,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_60mmMortar: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_60mmMortar: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] 60mm Mortar Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPod60mm.hpp"
@@ -299,15 +307,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_Radios: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_Radios: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] Radio Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodRadios.hpp"
@@ -315,15 +323,15 @@ class CfgVehicles
 			class TransportMagazines{};
 			class TransportWeapons{};
 	};
-	class HOW_105th_SupplyPod_SPNKR: OPTRE_Ammo_SupplyPod_Empty
+	class v105_SupplyPod_SPNKR: OPTRE_Ammo_SupplyPod_Empty
 	{
 		ace_cargo_size = 2;
 		scopeCurator = 2;
 		scope  = 2;
 		Author = "S-4 Logistics";
 		displayName = "[105th] SPNKR Pod";
-		editorCategory = "HOW_EdCat_105th"
-		editorSubCategory = "HOW_105th_EdSubCat_Supply";
+		editorCategory = "v105_EdCat_105th"
+		editorSubCategory = "v105_EdSubCat_Supply";
 			class TransportItems
 			{
 				#include "SupplyPods\ResupplyPodSPNKR.hpp"
@@ -351,67 +359,67 @@ class CfgVehicles
 					class n_1
 					{
 						name = "[105th] Rifle Pod";
-						value = "HOW_105th_SupplyPod_Rifle";
+						value = "v105_SupplyPod_Rifle";
 					};
 					class n_2
 					{
 						name = "[105th] Machinegun Pod";
-						value = "HOW_105th_SupplyPod_MachineGun";
+						value = "v105_SupplyPod_MachineGun";
 					};
 					class n_3
 					{
 						name = "[105th] Precision Pod";
-						value = "HOW_105th_SupplyPod_Precision";
+						value = "v105_SupplyPod_Precision";
 					};
 					class n_4
 					{
 						name = "[105th] Rocket Pod";
-						value = "HOW_105th_SupplyPod_Rockets";
+						value = "v105_SupplyPod_Rockets";
 					};
 					class n_5
 					{
 						name = "[105th] Medical Pod";
-						value = "HOW_105th_SupplyPod_Medical";
+						value = "v105_SupplyPod_Medical";
 					};
 					class n_6
 					{
 						name = "[105th] Utility Pod";
-						value = "HOW_105th_SupplyPod_Utility";
+						value = "v105_SupplyPod_Utility";
 					};
 					class n_7
 					{
 						name = "[105th] Demolitions Pod";
-						value = "HOW_105th_SupplyPod_Demo";
+						value = "v105_SupplyPod_Demo";
 					};
 					class n_8
 					{
 						name = "[105th] Transport Pod";
-						value = "HOW_Land_Transport_Covered_Pod";
+						value = "v105_Land_Transport_Covered_Pod";
 					};
 					class n_9
 					{
 						name = "[105th] 82mm HE Mortar Pod";
-						value = "HOW_105th_SupplyPod_MortarHE";
+						value = "v105_SupplyPod_MortarHE";
 					};
 					class n_10
 					{
 						name = "[105th] 82mm Smoke Mortar Pod";
-						value = "HOW_105th_SupplyPod_MortarSMK";
+						value = "v105_SupplyPod_MortarSMK";
 					};
 					class n_11
 					{
 						name = "[105th] 60mmMortar Pod";
-						value="HOW_105th_SupplyPod_60mmMortar";
+						value="v105_SupplyPod_60mmMortar";
 					}
 					class n_12
 					{
 						name = "[105th] Radio Pod";
-						value = "HOW_105th_SupplyPod_Radios";
+						value = "v105_SupplyPod_Radios";
 					};
 					class n_13
 					{
 						name = "[105th] SPNKR Pod";
-						value = "HOW_105th_SupplyPod_SPNKR";
+						value = "v105_SupplyPod_SPNKR";
 					};
 				};
 			};

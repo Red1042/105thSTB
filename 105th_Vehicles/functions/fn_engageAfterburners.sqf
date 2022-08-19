@@ -1,30 +1,39 @@
 /*
-    Original code from:
-    Modified by: 105th, S-4 Logistics (Luke)
-*/
+	Author: Fireteam Zulu (Vespade) modified by 105th | S-4 Logistics (Luke)
 
-_pelican = _this;
-_pelican setVariable ["OPTRE_Thruster_EngagedStatus",false,true];
-_pelican setVariable ["OPTRE_Afterburners_EngagedStatus",true,true];
+	Description:
+	Enable afterburners on selected vehicle
+
+	Parameter(s):
+	_this select 0: OBJECT - vehicle to enable afterburners for
+
+	Returns:
+	NONE
+*/
+private ["_vehicle"];
+params ["_vehicle"];
+
+_vehicle setVariable ["OPTRE_Thruster_EngagedStatus",false,true];
+_vehicle setVariable ["OPTRE_Afterburners_EngagedStatus",true,true];
 hint "ENGAGING AFTERBURNERS";
 sleep 0.5;
-if (speed _pelican <= 600) then {
-		_vel = velocity _pelican;
-		_dir = direction _pelican;
+if (speed _vehicle <= 600) then {
+		_vel = velocity _vehicle;
+		_dir = direction _vehicle;
 		_speed = 35;
-		_pelican setVelocity [
+		_vehicle setVelocity [
 		(_vel select 0) + (sin _dir * _speed),
 		(_vel select 1) + (cos _dir * _speed),
 		(_vel select 2)
 		];
 	};
-while {((_pelican getVariable ["OPTRE_Afterburners_EngagedStatus",false]) AND (isEngineOn _pelican))} do
+while {((_vehicle getVariable ["OPTRE_Afterburners_EngagedStatus",false]) AND (isEngineOn _vehicle))} do
 {
-	if (speed _pelican <= 900) then {
-		_vel = velocity _pelican;
-		_dir = direction _pelican;
+	if (speed _vehicle <= 900) then {
+		_vel = velocity _vehicle;
+		_dir = direction _vehicle;
 		_speed = 19;
-		_pelican setVelocity [
+		_vehicle setVelocity [
 		(_vel select 0) + (sin _dir * _speed),
 		(_vel select 1) + (cos _dir * _speed),
 		(_vel select 2)
@@ -33,6 +42,6 @@ while {((_pelican getVariable ["OPTRE_Afterburners_EngagedStatus",false]) AND (i
 	sleep 0.5;
 };
 
-if(!(isEngineOn _pelican)) then {
-    _pelican setVariable ["OPTRE_Afterburners_EngagedStatus",false,true];
+if(!(isEngineOn _vehicle)) then {
+    _vehicle setVariable ["OPTRE_Afterburners_EngagedStatus",false,true];
 };

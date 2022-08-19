@@ -14,8 +14,8 @@ class v105_M18_Mastiff:B_APC_Tracked_01_rcws_F
     scope = 2;
     scopeCurator = 2;
     displayName = "M18 Mastiff";
-    editorCategory = "HOW_EdCat_105th";
-    editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+    editorCategory = "v105_EdCat_105th";
+    editorSubCategory = "v105_105th_EdSubCat_Mechanized";
     crew = "VES_Rifleman_MA5B_MAR";
     crewCrashProtection = 0.1;
     tf_hasLRradio = 1;

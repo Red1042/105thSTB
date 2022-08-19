@@ -20,7 +20,7 @@
 				{
 				"1000Rnd_762x51_Belt_T_Yellow",
 				"1000Rnd_762x51_Belt_T_Yellow_HOW",
-				"HOW_1000Rnd_93x64_Mixed_Box"
+				"v105_1000Rnd_93x64_Mixed_Box"
 				};
 				class manual:MGun
 				{
@@ -29,7 +29,7 @@
 				};
 			};
 			class HMG_127_AFV;
-			class HOW_HMG_127_AFV:HMG_127_AFV
+			class v105_HMG_127_AFV:HMG_127_AFV
 			{
 				magazineReloadTime = 2.0;
 				class manual:MGun
@@ -61,7 +61,7 @@
 			};
 			
 	class cannon_20mm;
-	class HOW_cannon_20mm : cannon_20mm
+	class v105_cannon_20mm : cannon_20mm
 	{
 		scope=2;
 		displayName = "20mm Light Cannon";
@@ -72,8 +72,8 @@
         ace_overpressure_damage = 0;  // Damage multiplier
 			magazines[] = 
 			{
-				"HOW_8Rnd_20mm_AP",
-				"HOW_8Rnd_20mm_HE"
+				"v105_8Rnd_20mm_AP",
+				"v105_8Rnd_20mm_HE"
 			};
 	};
 	
@@ -93,7 +93,7 @@
 				magazines[] = 
 				{
 				"OPTRE_100Rnd_50mm_HE",
-				"HOW_60Rnd_50mm_HE"
+				"v105_60Rnd_50mm_HE"
 				
 				};
 				modes[] = {"FullAuto"};
@@ -121,7 +121,7 @@
 				magazines[] = 
 				{
 				"OPTRE_100Rnd_50mm_APFSDS",
-				"HOW_60Rnd_50mm_APFSDS"
+				"v105_60Rnd_50mm_APFSDS"
 				
 				};
 				modes[] = {"FullAuto"};
@@ -163,7 +163,7 @@
 				};
 			};
 	class cannon_120mm;
-	class HOW_cannon_120mm_AP: cannon_120mm
+	class v105_cannon_120mm_AP: cannon_120mm
 	{
 				scope=2;
 				displayName = "120mm Smoothbore AP";
@@ -207,7 +207,7 @@
 					};
 		
 	};
-	class HOW_cannon_120mm_GP: cannon_120mm
+	class v105_cannon_120mm_GP: cannon_120mm
 	{
 				scope=2;
 				displayName = "120mm Smoothbore General Purpose";
@@ -272,7 +272,7 @@
 		};
 	};
 	class Gatling_30mm_Plane_CAS_01_F;
-	class HOW_Gatling_30mm:Gatling_30mm_Plane_CAS_01_F
+	class v105_Gatling_30mm:Gatling_30mm_Plane_CAS_01_F
 	{
 				ballisticsComputer=1+4;
 				scope=2;
@@ -280,11 +280,11 @@
 				displayNameShort = "30mm Brrrrt";
 				magazines[]=
 					{
-						"HOW_GAU30mm_570RND"
+						"v105_GAU30mm_570RND"
 					};
 	};
 	class weapon_Cannon_Phalanx;
-	class HOW_Vulcan_20mm:weapon_Cannon_Phalanx
+	class v105_Vulcan_20mm:weapon_Cannon_Phalanx
 	{
 				ballisticsComputer=1+4;
 				scope=2;
@@ -292,27 +292,27 @@
 				displayNameShort = "20mm Brrrrt";
 				magazines[]=
 					{
-						"HOW_Vulcan20mm_620RND"
+						"v105_Vulcan20mm_620RND"
 					};
 	};
 	class M134_minigun;
-	class HOW_145x114_minigun:M134_minigun
+	class v105_145x114_minigun:M134_minigun
 	{
 		ballisticsComputer=1+4;
 		displayName = "14.5x114mm APFSDS Gatling Gun";
 		magazines[]=
 					{
-						"HOW_1200Rnd_145x114_Red_Belt"
+						"v105_1200Rnd_145x114_Red_Belt"
 					};
 	};
 	class CMFlareLauncher;
-	class HOW_Flares:CMFlareLauncher
+	class v105_Flares:CMFlareLauncher
 	{
 		scope = 2;
 		magazines[]=
 		{
 			"168Rnd_CMFlare_Chaff_Magazine",
-			"HOW_320Rnd_Flare_Chaff_Magazine"
+			"v105_320Rnd_Flare_Chaff_Magazine"
 		};
 	};
 	class OPTRE_missiles_ASGM2;
@@ -590,7 +590,7 @@
 			displayName = "82mm Automatic Mortar";
 			magazines[]=
 			{
-				"HOW_50Rnd_82mm_shells"
+				"v105_50Rnd_82mm_shells"
 			};
 				reloadTime=0.45;
 				magazineReloadTime=3;

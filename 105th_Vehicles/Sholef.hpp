@@ -12,8 +12,8 @@ class v105_MBT_Cleric: B_MBT_01_arty_F
 		scopeCurator=2;
 		displayName="M279 Cleric";
 		crew="VES_Rifleman_MA5B_MAR";
-		editorCategory="HOW_EdCat_105th";
-        editorSubcategory="HOW_105th_EdSubCat_Mechanized";
+		editorCategory="v105_EdCat_105th";
+        editorSubcategory="v105_105th_EdSubCat_Mechanized";
 		
 		class Turrets:Turrets
 		{

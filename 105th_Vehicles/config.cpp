@@ -11,101 +11,110 @@ class CfgPatches
 {
 	class v105_Vehicles
 	{
-		author = "N-4 Logistics";
-		name = "[105th] N-4 Logistics";
+		author = "105th | S4 Logistics";
+		name = "105th Vehicles";
 		url = "";
 		units[] = 
 		{
-		//Cleric
-		"v105_MBT_Cleric",
-		//Hounds
-		"HOW_IFV76_B",
-		"HOW_APC76_TT",
-		"HOW_APC76_MED",
-		//Timberwolves
-		"HOW_MGS_Timberwolf",
-		"HOW_MGS_UP_Timberwolf",
-		//Warthogs
-		"HOW_M12",
-		"HOW_M12_LRV",
-		"HOW_M12_ODST",
-		"HOW_M12_LRV_ODST",
-		"HOW_M12A1_LRV",
-		"HOW_M12G1_LRV",
-		"HOW_M12G1_LRV_ODST",
-		"HOW_M813_TT",
-		"HOW_M813_TT_ODST",
-		"HOW_M12_APC_MED",
-		"HOW_M12_APC",
-		"HOW_M813_MORT",
-		//"HOW_M12_Mortar",
-		//Fossas
-		"HOW_Fossa_unarmed",
-		"HOW_Fossa_armed",
-		"HOW_Fossa_armed_AT",
-		//Falcons
-		"v105_UH144",
-		"v105_UH144_MED",
-		"v105_UH144S",
-		"v105_UH144_A",
-		"v105_UH144S_A",
-		"v105_UH144S_AM",
-		"v105_UH144S_ARC",
-		//Pelicans
-		"v105_D77HTCI_AV_TestPlatform_Pelican",
-		"v105_D77HTCI_AV_Minigun_Pelican",
-		"v105_D77HTCI_AV_RotaryCannon_Pelican",
-		"v105_D77HTCI_AV_40mmCannon_Pelican",
-		"v105_D77HTCI_AV_30mmCannon_Pelican",
-		"v105_D77ATCI_Crow_Gunship",
-		"v105_D77HTCI",
-		"v105_D78DHTC",
-		"v105_D77HTCI_REACH",
-		"v105_HOW_D77HTCI_REACH_BubOday",
-		"v105_HOW_D77HTCI_BulcHori",
-		"v105_HOW_D77HTCI_SHARK_MeatWind",
-		"v105_HOW_D77HTCI_SHARK_Ragith",
-		"v105_HOW_D77HTCI_SHARK",
-		"v105_HOW_D77HTCI_Keen",
-		// Hornets
-	//	"HOW_AV14_Base",
-		"HOW_AV14_CAP",
-		"HOW_AV14_CAS",
-		"HOW_AV14_CAS_Keen", 
-		"HOW_AV14B_CAS",
-		"HOW_AV14L_MULTI",
-		//Claymore
-		"v105_A364_Claymore",
-		//SDV
-		"v105_SDV_ODST",
-		//STAG UGV
-		"v105_UGV_STAG",
-		"v105_UGV_STAG_ATGM",
-		"v105_UCAV_Sentinel",
-		//Stork
-		"v105_Stork_Armed",
-		//Namer
-		"v105_M18_Mastiff",
-		// Sparrowhawks
-		"v105_AVXX_Sparrowhawk_Base",
-        "v105_AVXXN"
-		
+		    //Cleric
+		    "v105_MBT_Cleric",
+		    //Hounds
+		    "v105_IFV76_B",
+		    "v105_APC76_TT",
+		    "v105_APC76_MED",
+		    //Timberwolves
+		    "v105_MGS_Timberwolf",
+		    "v105_MGS_UP_Timberwolf",
+		    //Warthogs
+		    "v105_M12",
+		    "v105_M12_LRV",
+		    "v105_M12R_AA",
+		    "v105_M12A1_LRV",
+		    "v105_M12G1_LRV",
+		    "v105_M813_TT",
+		    "v105_M12_APC_MED",
+		    "v105_M12_APC",
+		    "v105_M813_MORT",
+		    //"v105_M12_Mortar",
+		    //Fossas
+		    "v105_Fossa_unarmed",
+		    "v105_Fossa_armed",
+		    "v105_Fossa_armed_AT",
+		    //Falcons
+	//	    "v105_Falcon_Unarmed_Base",
+	//	    "v105_Falcon_Base",
+		    "v105_UH144",
+		    "v105_UH144_MED",
+		    "v105_UH144S",
+		    "v105_UH144_A",
+		    "v105_UH144S_A",
+		    "v105_UH144S_AM",
+		    "v105_UH144S_ARC",
+		    //Pelicans
+	//	    "v105_Pelican_Base",
+	//	    "v105_Pelican_Unarmed_Base",
+		    "v105_D77HTCI_AV_Minigun_Pelican",
+		    "v105_D77HTCI_AV_20mmCannon_Pelican",
+		    "v105_D77HTCI_AV_30mmCannon_Pelican",
+		    "v105_D77HTCI_AV_40mmCannon_Pelican",
+		    "v105_D77ATCI_Crow_Gunship",
+		    "v105_D77HTCI",
+		    "v105_D78DHTC",
+		    "v105_D77HTCI_REACH",
+		    "v105_D77HTCI_REACH_BubOday",
+		    "v105_D77HTCI_BulcHori",
+		    "v105_D77HTCI_SHARK_MeatWind",
+		    "v105_D77HTCI_SHARK_Ragith",
+		    "v105_D77HTCI_SHARK",
+		    "v105_D77HTCI_Keen",
+		    // Hornets
+	//	    "v105_AV14_Base",
+		    "v105_AV14_CAP",
+		    "v105_AV14_CAS",
+		    "v105_AV14_CAS_Keen",
+		    "v105_AV14B_CAS",
+		    "v105_AV14L_MULTI",
+		    //Claymore
+		    "v105_A364_Claymore",
+		    //SDV
+		    "v105_SDV_ODST",
+		    //STAG UGV
+		    "v105_UGV_STAG",
+		    "v105_UGV_STAG_ATGM",
+		    "v105_UCAV_Sentinel",
+		    //Stork
+		    "v105_Stork_Armed",
+		    //Namer
+		    "v105_M18_Mastiff",
+		    // Sparrowhawks
+	//	    "v105_AVXX_Sparrowhawk_Base",
+            "v105_AVXXN",
+            // Logistic Assets
+            "v105_M1087_Stallion_Repair",
+            "v105_M1087_Stallion_Ammo",
+            "v105_M1087_Stallion_Fuel",
+            "v105_Huron_Repair",
+            "v105_Huron_Ammo",
+            "v105_Huron_Fuel",
+            "v105_Cart",
+        	// Modules
+        	"v105_vehicleSpawnerModule"
 		};
 		weapons[] = 
 		{
 			// Hornet
-			"HOW_Gatling_30mm",
-			"HOW_Vulcan_20mm",
-			"HOW_145x114_minigun",
+			"v105_Gatling_30mm",
+			"v105_Vulcan_20mm",
+			"v105_145x114_minigun",
 			//Fossa Gun
-			"HOW_cannon_20mm",
+			"v105_cannon_20mm",
 			//"CMFlareLauncher",
-			"HOW_Flares",
+			"v105_Flares",
 			// Warthog
-			"HOW_M41_LAAG",
+			"v105_M41_LAAG",
 			// Timberwolf
-			"HOW_cannon_120mm_AP",
-			"HOW_cannon_120mm_GP",
+			"v105_cannon_120mm_AP",
+			"v105_cannon_120mm_GP",
 			// Hound
 			"OPTRE_M230_AP",
 			"OPTRE_M230_HE",
@@ -137,23 +146,23 @@ class CfgPatches
 		magazines[] = 
 		{
 			//Hornets
-			"HOW_GAU30mm_570RND",
-			"HOW_Vulcan20mm_620RND",
-			"HOW_1200Rnd_145x114_Red_Belt",
+			"v105_GAU30mm_570RND",
+			"v105_Vulcan20mm_620RND",
+			"v105_1200Rnd_145x114_Red_Belt",
 			//Fossa Mags
-			"HOW_8Rnd_20mm_AP",
-			"HOW_8Rnd_20mm_HE",
+			"v105_8Rnd_20mm_AP",
+			"v105_8Rnd_20mm_HE",
 			//"168Rnd_CMFlare_Chaff_Magazine",
-			"HOW_320Rnd_Flare_Chaff_Magazine",
+			"v105_320Rnd_Flare_Chaff_Magazine",
 			//Hound
-			"HOW_60Rnd_50mm_APFSDS",
-			"HOW_60Rnd_50mm_HE",
+			"v105_60Rnd_50mm_APFSDS",
+			"v105_60Rnd_50mm_HE",
 			"1000Rnd_762x51_Belt_T_Yellow_HOW",
 			"v105_750Rnd_20mm_shells",
 			// Falcon GL
-			"HOW_50Rnd_82mm_shells",
+			"v105_50Rnd_82mm_shells",
 			//Pelican Ordnance
-			"HOW_OPTRE_M638",
+			"v105_OPTRE_M638",
 			"v105_FIR_AIM9X_P_2rnd_M",
 			"v105_FIR_AIM120B_LAU115_P_1rnd_M",
 			"v105_FIR_AGM65D_P_3rnd_M",
@@ -242,8 +251,6 @@ class CfgPatches
 			"v105_FIR_AGM154C_P_1rnd_M",
 			"v105_FIR_AGM88_P_1rnd_M",
 			"v105_FIR_ASM2_P_2rnd_M"
-			//
-
 		};
 		ammo[] = {};
 		requiredVersion = 1.0;
@@ -277,7 +284,6 @@ class CfgPatches
     		"ace_missileguidance",
 			"ace_interaction",
 			"ace_logistics_rope"
-
 		};
 	};
 };
@@ -398,6 +404,30 @@ class CfgFunctions
 			class PelicanAddTransportPod
 			{
 			};
+			class ShowVehicleSpawner
+			{
+			};
+			class ShowTypesAndLiveries
+			{
+			};
+			class SpawnVehicle
+			{
+			};
+			class DespawnVehicle
+			{
+			};
+			class CreatePIP
+			{
+			};
+			class NearbyVehicleHandle
+			{
+			};
+			class VehicleSpawnerModule
+			{
+			};
+			class EnhancedDamage
+			{
+			};
 		};
 	};
 };
@@ -422,13 +452,12 @@ class cfgAmmo
 		indirectHitRange=0.1;
 		indirectHit=0.5;
 	};
-	
 };
 
 		
 		
 class cfgVehicles
-{	
+{
 	class Air;
 	class Helicopter: Air
 	{
@@ -540,6 +569,7 @@ class cfgVehicles
 			};
 		};
 	};
+	#include "Modules.hpp"
 	#include "Hound_Base.hpp"
 	#include "Timberwolf_Base.hpp"
 	#include "Hornet_Base.hpp"
@@ -555,13 +585,18 @@ class cfgVehicles
 	#include "Sparrowhawk_Base.hpp"
 	//#include "Blackfish_Gunship_Base.hpp"
 	#include "SDV.hpp"
+	#include "Logistics_Base.hpp"
 	class LM_OPCAN_M808_MC_WDL;
-	class LM_OPCAN_HOW_M808_MC_WDL: LM_OPCAN_M808_MC_WDL
+	class LM_OPCAN_v105_M808_MC_WDL: LM_OPCAN_M808_MC_WDL
 	{
 		displayName="M808 Scorpion";
-		editorCategory="HOW_EdCat_105th";
-		editorSubcategory="HOW_105th_EdSubCat_Armor";
+		editorCategory="v105_EdCat_105th";
+		editorSubcategory="v105_105th_EdSubCat_Armor";
 		fuelCapacity=300;
-
 	};
 };
+
+/* Vehicle Spawner UI */
+
+#include "ui\defines.hpp"
+#include "ui\vehicleSpawnerUI.hpp"

@@ -1,14 +1,14 @@
 	class AFV_Wheeled_01_base_F;
 	class AFV_Wheeled_01_up_base_F;
-class HOW_MGS_Base: AFV_Wheeled_01_base_F
+class v105_MGS_Base: AFV_Wheeled_01_base_F
 {
 		dlc = "105th";
 		author = "Howard";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "AFV-43 Timberwolf I";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		crew = "VES_Rifleman_MA5B_MAR";
 		fuelCapacity = 30;
 		simulation = "carx";
@@ -212,7 +212,7 @@ class HOW_MGS_Base: AFV_Wheeled_01_base_F
 				};
 				factions[]=
 				{
-					"HOW_EdCat_105th"
+					"v105_EdCat_105th"
 				};
 			};
 		};
@@ -224,18 +224,18 @@ class HOW_MGS_Base: AFV_Wheeled_01_base_F
 		class TransportMagazines{};
 		class TransportWeapons{};
 								
-}; //END HOW_MGS_BASE
+}; //END v105_MGS_BASE
 
 
-class HOW_MGS_Base_UP: AFV_Wheeled_01_up_base_F
+class v105_MGS_Base_UP: AFV_Wheeled_01_up_base_F
 {
 		dlc = "105th";
 		author = "Howard";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "AFV-43 Timberwolf II";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		crew = "VES_Rifleman_MA5B_MAR";
 		fuelCapacity = 30;
 		simulation = "carx";
@@ -439,7 +439,7 @@ class HOW_MGS_Base_UP: AFV_Wheeled_01_up_base_F
 				};
 				factions[]=
 				{
-					"HOW_EdCat_105th"
+					"v105_EdCat_105th"
 				};
 			};
 		};
@@ -451,9 +451,9 @@ class HOW_MGS_Base_UP: AFV_Wheeled_01_up_base_F
 		class TransportMagazines{};
 		class TransportWeapons{};
 								
-}; //END HOW_MGS_BASE_UP
+}; //END v105_MGS_BASE_UP
 
-class HOW_MGS_Timberwolf:HOW_MGS_Base
+class v105_MGS_Timberwolf:v105_MGS_Base
 	{
 		dlc = "105th";
 		author = "N-4 Logistics, Burgess";
@@ -461,8 +461,8 @@ class HOW_MGS_Timberwolf:HOW_MGS_Base
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "AFV-43 Timberwolf I";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		class Turrets: Turrets
 		{
 			class MainTurret: MainTurret
@@ -485,8 +485,8 @@ class HOW_MGS_Timberwolf:HOW_MGS_Base
 				}; 
 				weapons[]=
 				{
-				"HOW_cannon_120mm_GP",
-				"HOW_cannon_120mm_AP",
+				"v105_cannon_120mm_GP",
+				"v105_cannon_120mm_AP",
 				"MMG_02_coax"
 				};
 				magazines[]=
@@ -507,7 +507,7 @@ class HOW_MGS_Timberwolf:HOW_MGS_Base
 			};
 		};
 	};
-	class HOW_MGS_UP_Timberwolf:HOW_MGS_Base_UP
+	class v105_MGS_UP_Timberwolf:v105_MGS_Base_UP
 	{
 		dlc = "105th";
 		author = "N-4 Logistics, Burgess";
@@ -515,8 +515,8 @@ class HOW_MGS_Timberwolf:HOW_MGS_Base
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "AFV-43 Timberwolf II";
-		editorCategory = "HOW_EdCat_105th";
-		editorSubCategory = "HOW_105th_EdSubCat_Mechanized";
+		editorCategory = "v105_EdCat_105th";
+		editorSubCategory = "v105_105th_EdSubCat_Mechanized";
 		
 		class Turrets: Turrets
 		{
@@ -530,7 +530,7 @@ class HOW_MGS_Timberwolf:HOW_MGS_Base
 						{
 						"SmokeLauncher",
 						"Laserdesignator_vehicle",
-						"HOW_HMG_127_AFV"
+						"v105_HMG_127_AFV"
 						};
 						magazines[]=
 						{
@@ -545,8 +545,8 @@ class HOW_MGS_Timberwolf:HOW_MGS_Base
 				}; 
 				weapons[]=
 				{
-				"HOW_cannon_120mm_GP",
-				"HOW_cannon_120mm_AP",
+				"v105_cannon_120mm_GP",
+				"v105_cannon_120mm_AP",
 				"MMG_02_coax"
 				};
 				magazines[]=

@@ -1270,10 +1270,10 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA32","OPTRE_M6C"};
         respawnWeapons[] = {"OPTRE_MA32","OPTRE_M6C"};
 
-        magazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag","HOW_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag"};
-        respawnMagazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag","HOW_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag"};
+        magazines[] = {"v105_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag","v105_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag"};
+        respawnMagazines[] = {"v105_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag","v105_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","","","",{"HOW_32Rnd_762x51_IRDM_Mag",32},{},""},{},{"OPTRE_M6C","","","",{"OPTRE_12Rnd_127x40_Mag",12},{},""},{"U_BG_Guerrilla_6_1",{{"ACE_fieldDressing",5},{"ACE_elasticBandage",5},{"OPTRE_Medigel",1},{"OPTRE_12Rnd_127x40_Mag",1,12}}},{"V_CarrierRigKBT_01_light_Olive_F",{{"OPTRE_12Rnd_127x40_Mag",1,12},{"OPTRE_32Rnd_762x51_Mag",5,32},{"ACE_M14",2,1},{"OPTRE_M9_Frag",1,1},{"OPTRE_M2_Smoke",2,1},{"OPTRE_M2_Smoke_Blue",1,1}}},{},"H_Shemag_olive","G_Combat",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","","","",{"v105_32Rnd_762x51_IRDM_Mag",32},{},""},{},{"OPTRE_M6C","","","",{"OPTRE_12Rnd_127x40_Mag",12},{},""},{"U_BG_Guerrilla_6_1",{{"ACE_fieldDressing",5},{"ACE_elasticBandage",5},{"OPTRE_Medigel",1},{"OPTRE_12Rnd_127x40_Mag",1,12}}},{"V_CarrierRigKBT_01_light_Olive_F",{{"OPTRE_12Rnd_127x40_Mag",1,12},{"OPTRE_32Rnd_762x51_Mag",5,32},{"ACE_M14",2,1},{"OPTRE_M9_Frag",1,1},{"OPTRE_M2_Smoke",2,1},{"OPTRE_M2_Smoke_Blue",1,1}}},{},"H_Shemag_olive","G_Combat",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1346,10 +1346,10 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA37","OPTRE_M6C"};
         respawnWeapons[] = {"OPTRE_MA37","OPTRE_M6C"};
 
-        magazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag","HOW_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag"};
-        respawnMagazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag","HOW_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag"};
+        magazines[] = {"v105_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag","v105_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag"};
+        respawnMagazines[] = {"v105_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag","v105_32Rnd_762x51_IRDM_Mag","OPTRE_12Rnd_127x40_Mag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37","","","",{"HOW_32Rnd_762x51_IRDM_Mag",32},{},""},{},{"OPTRE_M6C","","","",{"OPTRE_12Rnd_127x40_Mag",12},{},""},{"OPTRE_Ins_ER_rolled_OD_crimson",{{"ACE_fieldDressing",5},{"ACE_elasticBandage",5},{"OPTRE_Medigel",1},{"OPTRE_12Rnd_127x40_Mag",1,12}}},{"V_CarrierRigKBT_01_light_Olive_F",{{"OPTRE_12Rnd_127x40_Mag",1,12},{"ACE_M14",2,1},{"OPTRE_M9_Frag",1,1},{"OPTRE_M2_Smoke",2,1},{"OPTRE_M2_Smoke_Blue",1,1},{"OPTRE_32Rnd_762x51_Mag",5,32}}},{},"MatGrp_Rad_Helmet2C","G_Combat",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA37","","","",{"v105_32Rnd_762x51_IRDM_Mag",32},{},""},{},{"OPTRE_M6C","","","",{"OPTRE_12Rnd_127x40_Mag",12},{},""},{"OPTRE_Ins_ER_rolled_OD_crimson",{{"ACE_fieldDressing",5},{"ACE_elasticBandage",5},{"OPTRE_Medigel",1},{"OPTRE_12Rnd_127x40_Mag",1,12}}},{"V_CarrierRigKBT_01_light_Olive_F",{{"OPTRE_12Rnd_127x40_Mag",1,12},{"ACE_M14",2,1},{"OPTRE_M9_Frag",1,1},{"OPTRE_M2_Smoke",2,1},{"OPTRE_M2_Smoke_Blue",1,1},{"OPTRE_32Rnd_762x51_Mag",5,32}}},{},"MatGrp_Rad_Helmet2C","G_Combat",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1654,12 +1654,12 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA32GL","OPTRE_M6C"};
         respawnWeapons[] = {"OPTRE_MA32GL","OPTRE_M6C"};
 
-        magazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","v105_Whistler_Grenade","OPTRE_12Rnd_127x40_Mag","HOW_32Rnd_762x51_IRDM_Mag","v105_Whistler_Grenade","OPTRE_12Rnd_127x40_Mag"};
-        respawnMagazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","v105_Whistler_Grenade","OPTRE_12Rnd_127x40_Mag","HOW_32Rnd_762x51_IRDM_Mag","v105_Whistler_Grenade","OPTRE_12Rnd_127x40_Mag"};
+        magazines[] = {"v105_32Rnd_762x51_IRDM_Mag","v105_Whistler_Grenade","OPTRE_12Rnd_127x40_Mag","v105_32Rnd_762x51_IRDM_Mag","v105_Whistler_Grenade","OPTRE_12Rnd_127x40_Mag"};
+        respawnMagazines[] = {"v105_32Rnd_762x51_IRDM_Mag","v105_Whistler_Grenade","OPTRE_12Rnd_127x40_Mag","v105_32Rnd_762x51_IRDM_Mag","v105_Whistler_Grenade","OPTRE_12Rnd_127x40_Mag"};
 
         backpack = "B_FieldPack_taiga_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32GL","","","OPTRE_M393_EOTECH",{"HOW_32Rnd_762x51_IRDM_Mag",32},{"v105_Whistler_Grenade",1},""},{},{"OPTRE_M6C","","","",{"OPTRE_12Rnd_127x40_Mag",12},{},""},{"OPTRE_Ins_ER_jacket_surplus_redshirt",{{"ACE_fieldDressing",5},{"ACE_elasticBandage",5},{"OPTRE_Medigel",1},{"OPTRE_12Rnd_127x40_Mag",1,12},{"v105_Whistler_Grenade",2,1}}},{"V_PlateCarrier1_rgr_noflag_F",{{"OPTRE_12Rnd_127x40_Mag",1,12},{"ACE_M14",2,1},{"OPTRE_M9_Frag",1,1},{"OPTRE_M2_Smoke",1,1},{"OPTRE_32Rnd_762x51_Mag",5,32}}},{"B_FieldPack_taiga_F",{{"v105_Whistler_Grenade",8,1},{"OPTRE_32Rnd_762x51_Mag",3,32}}},"OPTRE_UNSC_CH252_Helmet_URB","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32GL","","","OPTRE_M393_EOTECH",{"v105_32Rnd_762x51_IRDM_Mag",32},{"v105_Whistler_Grenade",1},""},{},{"OPTRE_M6C","","","",{"OPTRE_12Rnd_127x40_Mag",12},{},""},{"OPTRE_Ins_ER_jacket_surplus_redshirt",{{"ACE_fieldDressing",5},{"ACE_elasticBandage",5},{"OPTRE_Medigel",1},{"OPTRE_12Rnd_127x40_Mag",1,12},{"v105_Whistler_Grenade",2,1}}},{"V_PlateCarrier1_rgr_noflag_F",{{"OPTRE_12Rnd_127x40_Mag",1,12},{"ACE_M14",2,1},{"OPTRE_M9_Frag",1,1},{"OPTRE_M2_Smoke",1,1},{"OPTRE_32Rnd_762x51_Mag",5,32}}},{"B_FieldPack_taiga_F",{{"v105_Whistler_Grenade",8,1},{"OPTRE_32Rnd_762x51_Mag",3,32}}},"OPTRE_UNSC_CH252_Helmet_URB","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1971,15 +1971,15 @@ class CfgVehicles {
         linkedItems[] = {"V_CarrierRigKBT_01_Olive_F","OPTRE_FC_CH255_Helmet","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_CarrierRigKBT_01_Olive_F","OPTRE_FC_CH255_Helmet","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"v105_HOW_M247SSW","OPTRE_M6C"};
-        respawnWeapons[] = {"v105_HOW_M247SSW","OPTRE_M6C"};
+        weapons[] = {"v105_M247SSW","OPTRE_M6C"};
+        respawnWeapons[] = {"v105_M247SSW","OPTRE_M6C"};
 
-        magazines[] = {"HOW_200Rnd_93x64_Box","OPTRE_12Rnd_127x40_Mag","HOW_200Rnd_93x64_Box","OPTRE_12Rnd_127x40_Mag"};
-        respawnMagazines[] = {"HOW_200Rnd_93x64_Box","OPTRE_12Rnd_127x40_Mag","HOW_200Rnd_93x64_Box","OPTRE_12Rnd_127x40_Mag"};
+        magazines[] = {"v105_200Rnd_93x64_Box","OPTRE_12Rnd_127x40_Mag","v105_200Rnd_93x64_Box","OPTRE_12Rnd_127x40_Mag"};
+        respawnMagazines[] = {"v105_200Rnd_93x64_Box","OPTRE_12Rnd_127x40_Mag","v105_200Rnd_93x64_Box","OPTRE_12Rnd_127x40_Mag"};
 
         backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"v105_HOW_M247SSW","","","",{"HOW_200Rnd_93x64_Box",200},{},"bipod_01_F_blk"},{},{"OPTRE_M6C","","","",{"OPTRE_12Rnd_127x40_Mag",12},{},""},{"U_I_C_Soldier_Para_4_F",{{"ACE_fieldDressing",5},{"ACE_elasticBandage",5},{"OPTRE_Medigel",1}}},{"V_CarrierRigKBT_01_Olive_F",{{"ACE_M14",2,1},{"OPTRE_M9_Frag",1,1},{"OPTRE_M2_Smoke",2,1},{"OPTRE_M2_Smoke_Blue",1,1},{"OPTRE_12Rnd_127x40_Mag",1,12}}},{"B_Kitbag_cbr",{{"HOW_200Rnd_93x64_Box",5,200}}},"OPTRE_FC_CH255_Helmet","LM_OPCAN_UP_Shemagh",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"v105_M247SSW","","","",{"v105_200Rnd_93x64_Box",200},{},"bipod_01_F_blk"},{},{"OPTRE_M6C","","","",{"OPTRE_12Rnd_127x40_Mag",12},{},""},{"U_I_C_Soldier_Para_4_F",{{"ACE_fieldDressing",5},{"ACE_elasticBandage",5},{"OPTRE_Medigel",1}}},{"V_CarrierRigKBT_01_Olive_F",{{"ACE_M14",2,1},{"OPTRE_M9_Frag",1,1},{"OPTRE_M2_Smoke",2,1},{"OPTRE_M2_Smoke_Blue",1,1},{"OPTRE_12Rnd_127x40_Mag",1,12}}},{"B_Kitbag_cbr",{{"v105_200Rnd_93x64_Box",5,200}}},"OPTRE_FC_CH255_Helmet","LM_OPCAN_UP_Shemagh",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

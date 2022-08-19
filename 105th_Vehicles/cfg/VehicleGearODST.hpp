@@ -21,7 +21,7 @@ item_xx(OPTRE_36Rnd_95x40_Mag_HPSAP,25);
 item_xx(OPTRE_32Rnd_762x51_Mag,25);
 item_xx(OPTRE_60Rnd_5x23mm_Mag_FMJ,15);
 item_xx(v105_4Rnd_145x114_Mag,5);
-item_xx(HOW_150Rnd_93x64_Box,5);
+item_xx(v105_150Rnd_93x64_Box,5);
 item_xx(OPTRE_200Rnd_95x40_Box_HPSAP,5);
 item_xx(OPTRE_M48_PAW,1);
 item_xx(OPTRE_1Rnd_50x137_THERMO,2);

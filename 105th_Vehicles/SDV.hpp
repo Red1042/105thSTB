@@ -4,8 +4,8 @@ class B_SDV_01_F;
 class v105_SDV_ODST:B_SDV_01_F
 {
 	displayName="SDV II";
-	editorCategory="HOW_EdCat_105th";
-	editorSubcategory="HOW_105th_EdSubCat_Waterborne";
+	editorCategory="v105_EdCat_105th";
+	editorSubcategory="v105_105th_EdSubCat_Waterborne";
 	fuelCapacity=300;
 	crew = "VES_Rifleman_MA5B_MAR";
 	armor=100;

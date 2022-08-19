@@ -2,7 +2,7 @@ class CfgPatches
 {
     class v105_Le_Buteur
     {
-        author= "N4_Logistics_Team"; 
+        author= "105th | S4 Logistics";
         url="https://discord.gg/105thstb-arma";
         units[]={};
         weapons[]=
@@ -14,11 +14,11 @@ class CfgPatches
         {
             "v105_4Rnd_145x114_Mag",
             "v105_4Rnd_145x114_Mag_Tracer",
-            "HOW_15Rnd_762x51_338_API_Mag",
-            "HOW_15Rnd_762x51_338_Magnum_Mag",
-            "HOW_15Rnd_762x51_338_APIT_Mag",
-            "HOW_15Rnd_762x51_338_MT_Mag",
-            "HOW_15Rnd_762x51_338_Mixed_Mag",
+            "v105_15Rnd_762x51_338_API_Mag",
+            "v105_15Rnd_762x51_338_Magnum_Mag",
+            "v105_15Rnd_762x51_338_APIT_Mag",
+            "v105_15Rnd_762x51_338_MT_Mag",
+            "v105_15Rnd_762x51_338_Mixed_Mag",
         };
         requiredVersion=0.1;
         requiredAddons[]=
@@ -116,11 +116,11 @@ class CfgWeapons
         baseWeapon= "v105_M392X";
         magazines[]=
         {
-            "HOW_15Rnd_762x51_338_API_Mag",
-            "HOW_15Rnd_762x51_338_Magnum_Mag",
-            "HOW_15Rnd_762x51_338_APIT_Mag",
-            "HOW_15Rnd_762x51_338_MT_Mag",
-            "HOW_15Rnd_762x51_338_Mixed_Mag",
+            "v105_15Rnd_762x51_338_API_Mag",
+            "v105_15Rnd_762x51_338_Magnum_Mag",
+            "v105_15Rnd_762x51_338_APIT_Mag",
+            "v105_15Rnd_762x51_338_MT_Mag",
+            "v105_15Rnd_762x51_338_Mixed_Mag",
             //   ^ New Mags above ^
             "OPTRE_15Rnd_762x51_Mag",
             "OPTRE_15Rnd_762x51_Mag_Tracer",

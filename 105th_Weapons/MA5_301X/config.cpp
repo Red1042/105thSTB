@@ -2,7 +2,7 @@ class CfgPatches
 {
     class v105_MA5_301X
     {
-        author= "N4_Logistics_Team"; 
+        author= "105th | S4 Logistics";
         url="https://discord.gg/105thstb-arma";
         units[]={};
         weapons[]=
@@ -124,7 +124,7 @@ class CfgWeapons
         displayName					= "MA5CX ICWS Assault Rifle";
         magazines[] = 
         {
-            "HOW_32Rnd_762x51_IRDM_Mag",
+            "v105_32Rnd_762x51_IRDM_Mag",
             // ^ New Mags Above ^
             "OPTRE_32Rnd_762x51_Mag",
             "OPTRE_32Rnd_762x51_Mag_Tracer",
@@ -632,7 +632,7 @@ class CfgWeapons
         class v105_M301X:v105_M301X{};
         magazines[] = 
         {
-            "HOW_32Rnd_762x51_IRDM_Mag",
+            "v105_32Rnd_762x51_IRDM_Mag",
             // ^ New Mags Above ^
             "OPTRE_32Rnd_762x51_Mag",
             "OPTRE_32Rnd_762x51_Mag_Tracer",
@@ -1138,7 +1138,7 @@ class CfgWeapons
         displayName					= "[105th] MA5KX ICWS";
         magazines[] = 
         {
-            "HOW_32Rnd_762x51_IRDM_Mag",
+            "v105_32Rnd_762x51_IRDM_Mag",
             // ^ New Mags Above ^
             "OPTRE_32Rnd_762x51_Mag",
             "OPTRE_32Rnd_762x51_Mag_Tracer",
@@ -1202,7 +1202,7 @@ class CfgWeapons
         displayName = "[105th] MA5C/FT ICWS (Flat-Top)";
         magazines[]=
         {
-            "OPTRE_32Rnd_762x51_Mag", "HOW_32Rnd_762x51_IRDM_Mag",
+            "OPTRE_32Rnd_762x51_Mag", "v105_32Rnd_762x51_IRDM_Mag",
             "OPTRE_32Rnd_762x51_Mag_Tracer","OPTRE_32Rnd_762x51_Mag_Tracer_Yellow",
             "OPTRE_32Rnd_762x51_Mag_AP","OPTRE_32Rnd_762x51_Mag_APT",
             "OPTRE_32Rnd_762x51_Mag_JHP","OPTRE_32Rnd_762x51_Mag_JHPT",
@@ -2009,7 +2009,7 @@ class CfgWeapons
         class v105_M301X:v105_M301X{};
         magazines[]=
         {
-            "OPTRE_32Rnd_762x51_Mag", "HOW_32Rnd_762x51_IRDM_Mag",
+            "OPTRE_32Rnd_762x51_Mag", "v105_32Rnd_762x51_IRDM_Mag",
             "OPTRE_32Rnd_762x51_Mag_Tracer","OPTRE_32Rnd_762x51_Mag_Tracer_Yellow",
             "OPTRE_32Rnd_762x51_Mag_AP","OPTRE_32Rnd_762x51_Mag_APT",
             "OPTRE_32Rnd_762x51_Mag_JHP","OPTRE_32Rnd_762x51_Mag_JHPT",

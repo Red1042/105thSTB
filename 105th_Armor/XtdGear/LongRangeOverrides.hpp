@@ -1,6 +1,18 @@
-/*
-    Original OPTRE LRs
-*/
+/* Start of Base level Radio Load changes */
+
+class OPTRE_ANPRC_515: OPTRE_ILCS_Rucksack_Black
+{
+    maximumLoad=350;
+};
+class OPTRE_ANPRC_515_Spartan: OPTRE_ILCS_Rucksack_Black_Spartan
+{
+	maximumLoad=350;
+};
+/* Green ANPRC_521 is handled in Overrides/LongRangeOverrides.hpp */
+class OPTRE_ANPRC_521_Green_Spartan: OPTRE_UNSC_Rucksack_Spartan
+{
+	maximumLoad=400;
+};
 
 class OPTRE_ANPRC_521_Green: OPTRE_UNSC_Rucksack
 {
@@ -15,6 +27,10 @@ class OPTRE_ANPRC_521_Green: OPTRE_UNSC_Rucksack
     };
     */
 };
+
+/* End of Base level Radio changes */
+
+/* Start of Sub Level changes of radios */
 
 class OPTRE_ANPRC_521_Black: OPTRE_ANPRC_521_Green
 {
@@ -49,13 +65,11 @@ class OPTRE_ANPRC_521_Tan: OPTRE_ANPRC_521_Green
     };
 };
 
-/*
-    MatGrp LRs
-*/
-
+/* MatGrp LRs */
 
 class MatGrp_ANPRC_521A1_black: OPTRE_ANPRC_521_black
 {
+    maximumLoad=300;
     class XtdGearInfo
     {
         model="v105_Long_Ranges";
@@ -64,6 +78,7 @@ class MatGrp_ANPRC_521A1_black: OPTRE_ANPRC_521_black
         stripe="None";
     };
 };
+
 class MatGrp_ANPRC_521A1_black_yellow: MatGrp_ANPRC_521A1_black
 {
     class XtdGearInfo

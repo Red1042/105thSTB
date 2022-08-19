@@ -16,7 +16,7 @@
 			lastRoundsTracer 					= 0;
 		}; 
 	class OPTRE_100Rnd_762x51_Box;
-	class HOW_1000Rnd_93x64_Mixed_Box: OPTRE_100Rnd_762x51_Box
+	class v105_1000Rnd_93x64_Mixed_Box: OPTRE_100Rnd_762x51_Box
 	{
 		dlc = "OPTRE";
 		author						= "Howard";
@@ -54,7 +54,7 @@
 // 50mm Cannon Ammo
 class OPTRE_100Rnd_50mm_HE;
 class OPTRE_100Rnd_50mm_APFSDS;
-	class HOW_60Rnd_50mm_HE : OPTRE_100Rnd_50mm_HE
+	class v105_60Rnd_50mm_HE : OPTRE_100Rnd_50mm_HE
 	{
 		dlc = "OPTRE";
 		author						= "Howard";
@@ -68,7 +68,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		descriptionShort			= "";
 		tracersEvery				= 1;
 	};
-	class HOW_60Rnd_50mm_APFSDS : OPTRE_100Rnd_50mm_HE
+	class v105_60Rnd_50mm_APFSDS : OPTRE_100Rnd_50mm_HE
 	{
 		dlc = "OPTRE";
 		author						= "Howard";
@@ -86,7 +86,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	
 	// Hornet Rotary Cannon
 	class 1000Rnd_Gatling_30mm_Plane_CAS_01_F;
-	class HOW_GAU30mm_570RND: 1000Rnd_Gatling_30mm_Plane_CAS_01_F
+	class v105_GAU30mm_570RND: 1000Rnd_Gatling_30mm_Plane_CAS_01_F
 	{
 		dlc = "OPTRE";
 		author						= "Howard";
@@ -100,7 +100,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		descriptionShort			= "";
 		tracersEvery				= 1;
 		hardpoints[] = {"v105_Gunpods"};
-		pylonWeapon = "HOW_Gatling_30mm";
+		pylonWeapon = "v105_Gatling_30mm";
 	};
 	class 1000Rnd_20mm_shells;
 	class v105_750Rnd_20mm_shells:1000Rnd_20mm_shells
@@ -119,7 +119,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		pylonWeapon = "v105_M638";
 	};
 	class magazine_Cannon_Phalanx_x1550;
-	class HOW_Vulcan20mm_620RND: magazine_Cannon_Phalanx_x1550
+	class v105_Vulcan20mm_620RND: magazine_Cannon_Phalanx_x1550
 	{
 		author						= "Howard";
 		scope						= 2;
@@ -128,10 +128,10 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		count						= 620;
 		displayname 				= "Vulcan 20mm 620Rnd";
 		hardpoints[] = {"v105_Gunpods"};
-		pylonWeapon = "HOW_Vulcan_20mm";
+		pylonWeapon = "v105_Vulcan_20mm";
 	};
 	class 5000Rnd_762x51_Yellow_Belt;
-	class HOW_1200Rnd_145x114_Red_Belt:5000Rnd_762x51_Yellow_Belt
+	class v105_1200Rnd_145x114_Red_Belt:5000Rnd_762x51_Yellow_Belt
 	{
 		initspeed 					= 1200;
 		count						= 1200;
@@ -141,9 +141,9 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		descriptionShort			= "";
 		tracersEvery				= 1;
 		hardpoints[] = {"v105_Gunpods"};
-		pylonWeapon = "HOW_145x114_minigun";
+		pylonWeapon = "v105_145x114_minigun";
 	};
-	class v105_200Rnd_145x114_Red_Belt:HOW_1200Rnd_145x114_Red_Belt
+	class v105_200Rnd_145x114_Red_Belt:v105_1200Rnd_145x114_Red_Belt
 	{
 		initspeed 					= 1000;
 		count						= 200;
@@ -171,7 +171,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	};
 	//FALCON GL
 	class 8Rnd_82mm_Mo_shells;
-	class HOW_50Rnd_82mm_shells: 8Rnd_82mm_Mo_shells
+	class v105_50Rnd_82mm_shells: 8Rnd_82mm_Mo_shells
 	{
 		author						= "Howard";
 		scope						= 2;
@@ -183,12 +183,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		pylonWeapon = "v105_FalconGL";
 	};
 	class 60Rnd_20mm_AP_shells;
-	class HOW_8Rnd_20mm_AP:60Rnd_20mm_AP_shells
+	class v105_8Rnd_20mm_AP:60Rnd_20mm_AP_shells
 	{
 		count						= 8;
 	};
 	class 60Rnd_20mm_HE_shells;
-	class HOW_8Rnd_20mm_HE:60Rnd_20mm_HE_shells
+	class v105_8Rnd_20mm_HE:60Rnd_20mm_HE_shells
 	{
 		count						= 8;
 	};
@@ -196,7 +196,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	
 	//Flares
 	class 168Rnd_CMFlare_Chaff_Magazine;
-	class HOW_320Rnd_Flare_Chaff_Magazine: 168Rnd_CMFlare_Chaff_Magazine
+	class v105_320Rnd_Flare_Chaff_Magazine: 168Rnd_CMFlare_Chaff_Magazine
 	{
 		author						= "Howard";
 		scope						= 2;

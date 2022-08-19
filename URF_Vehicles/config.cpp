@@ -17,22 +17,22 @@ class CfgPatches
 		units[] = 
 		{
 			//Tigris II
-			"HOW_URF_AA_Tigris",
+			"v105_URF_AA_Tigris",
 			//Stalker II
-			"HOW_URF_APC_Stalker_A",
-			"HOW_URF_APC_Stalker_B",
+			"v105_URF_APC_Stalker_A",
+			"v105_URF_APC_Stalker_B",
 			//Karatels
-			"HOW_URF_Karatel",
-			"HOW_URF_Karatel_HMG",
-			"HOW_URF_Karatel_GMG",
-			"HOW_URF_Karatel_AT",
+			"v105_URF_Karatel",
+			"v105_URF_Karatel_HMG",
+			"v105_URF_Karatel_GMG",
+			"v105_URF_Karatel_AT",
 			//Warthogs
 			"v105_URF_M12_Hydra",
 			"v105_URF_M12_SPG",
 			//Otokar
-			"HOW_URF_APC_Otokar",
+			"v105_URF_APC_Otokar",
 			//Sochor
-			"HOW_URF_MBT_Sochor",
+			"v105_URF_MBT_Sochor",
 			//Aircraft
 			"v105_URF_AV14_CAS",
 			"v105_URF_D77HTCI_A",
@@ -45,22 +45,22 @@ class CfgPatches
 		weapons[] = 
 		{
 			//Tigris II
-			"HOW_URF_Vulcan_20mm",
+			"v105_URF_Vulcan_20mm",
 			//Stalker II
-			"HOW_URF_75mm_Chaingun",
+			"v105_URF_75mm_Chaingun",
 			//Otokar
-			"HOW_URF_launcher_SPG9",
+			"v105_URF_launcher_SPG9",
 			//Artillery
 			"v105_URF_mortar_155mm_AMOS"
 		};
 		magazines[] = 
 		{
 			//Tigris II	
-			"HOW_URF_ABM_20MM_2000Rnd",
+			"v105_URF_ABM_20MM_2000Rnd",
 			//Stalker II
-			"HOW_40Rnd_75mm_AP",
+			"v105_40Rnd_75mm_AP",
 			//Otokar
-			"HOW_15Rnd_50x137_HEAT",
+			"v105_15Rnd_50x137_HEAT",
 			//Flare
 			"v105_URF_6Rnd_155mm_Mo_Flare"
 			

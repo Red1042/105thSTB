@@ -30,8 +30,8 @@ class v105_URF_M12_Hydra: OPTRE_M12A1_LRV
 		side=0;
 		displayName="M12 Warthog (Hydras)";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Motorized";
 		
 		slowSpeedForwardCoef = 0.090;
 
@@ -73,8 +73,8 @@ class v105_URF_M12_SPG:OPTRE_M12G1_LRV
 		side=0;
 		displayName="M12 Warthog (SPG)";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Motorized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Motorized";
 		
 
 		slowSpeedForwardCoef = 0.090;
@@ -90,11 +90,11 @@ class v105_URF_M12_SPG:OPTRE_M12G1_LRV
 			{
 				weapons[]=
 				{
-					"HOW_URF_launcher_SPG9"
+					"v105_URF_launcher_SPG9"
 				};
 				magazines[]=
 				{
-					"HOW_15Rnd_50x137_HEAT"
+					"v105_15Rnd_50x137_HEAT"
 				};
 			};
 		};

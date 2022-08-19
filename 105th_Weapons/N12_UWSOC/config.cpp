@@ -2,7 +2,7 @@ class CfgPatches
 {
     class v105_N12USOC
     {  
-        author= "N4_Logistics_Team"; 
+        author= "105th | S4 Logistics";
         url="https://discord.gg/105thstb-arma";
         units[]={};
         weapons[]=

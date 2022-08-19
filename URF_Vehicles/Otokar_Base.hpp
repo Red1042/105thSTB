@@ -2,7 +2,7 @@
 
 class O_APC_Wheeled_02_rcws_F;
 
-class HOW_URF_APC_Otokar:O_APC_Wheeled_02_rcws_F
+class v105_URF_APC_Otokar:O_APC_Wheeled_02_rcws_F
 {
 		dlc="105th";
 		author="Howard";
@@ -11,8 +11,8 @@ class HOW_URF_APC_Otokar:O_APC_Wheeled_02_rcws_F
 		scopeCurator=2;
 		displayName="Otokar APC II";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		faction = "v105_URF_EnhancedVehicles";
 		
 		armor=200;
@@ -25,13 +25,13 @@ class HOW_URF_APC_Otokar:O_APC_Wheeled_02_rcws_F
 				weapons[]=
 				{
 					"cannon_20mm",
-					"HOW_URF_launcher_SPG9"
+					"v105_URF_launcher_SPG9"
 				};
 				magazines[]=
 				{
 					"60Rnd_20mm_AP_shells","60Rnd_20mm_AP_shells","60Rnd_20mm_AP_shells",
 					"60Rnd_20mm_HE_shells","60Rnd_20mm_HE_shells",
-					"HOW_15Rnd_50x137_HEAT"
+					"v105_15Rnd_50x137_HEAT"
 					
 				};
 			};

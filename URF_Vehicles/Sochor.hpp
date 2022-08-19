@@ -2,7 +2,7 @@
 
 class O_MBT_02_arty_F;
 
-class HOW_URF_MBT_Sochor: O_MBT_02_arty_F
+class v105_URF_MBT_Sochor: O_MBT_02_arty_F
 {
 	
 		dlc="105th";
@@ -12,8 +12,8 @@ class HOW_URF_MBT_Sochor: O_MBT_02_arty_F
 		scopeCurator=2;
 		displayName="SPG-534 Sochor II ";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		faction = "v105_URF_EnhancedVehicles";
 		
 		class Turrets:Turrets

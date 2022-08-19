@@ -155,7 +155,7 @@ class CfgVehicles
 	class OPTRE_ONI_Researcher_Suitcase;
 
 	// Overrides of other configs
-    #include "Overrides\Overrides.hpp"
+    //#include "Overrides\Overrides.hpp"
 
 	// 105th Long Range Xtd Gear Overrides
 	#include "XtdGear\LongRangeOverrides.hpp"

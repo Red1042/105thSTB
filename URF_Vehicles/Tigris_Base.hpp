@@ -2,7 +2,7 @@
 
 class O_APC_Tracked_02_AA_F;
 
-class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
+class v105_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 {
 	
 		dlc="105th";
@@ -12,8 +12,8 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 		scopeCurator=2;
 		displayName="ZSU-35 Tigris II";
 		crew="O_OURFArmy_Crewman_01";
-		editorCategory="HOW_EdCat_URF";
-        editorSubcategory="HOW_URF_EdSubCat_Mechanized";
+		editorCategory="v105_EdCat_URF";
+        editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		faction = "v105_URF_EnhancedVehicles";
 		
 		class Turrets:Turrets
@@ -22,12 +22,12 @@ class HOW_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 			{
 				weapons[]=
 				{
-					"HOW_URF_Vulcan_20mm",
+					"v105_URF_Vulcan_20mm",
 					
 				};
 				magazines[]=
 				{
-					"HOW_URF_ABM_20MM_2000Rnd",
+					"v105_URF_ABM_20MM_2000Rnd",
 					
 				};
 			};

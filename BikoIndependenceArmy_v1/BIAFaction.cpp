@@ -510,12 +510,12 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA32","OPTRE_M48_PAW"};
         respawnWeapons[] = {"OPTRE_MA32","OPTRE_M48_PAW"};
 
-        magazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","OPTRE_1Rnd_50x137_HEAT","HOW_32Rnd_762x51_IRDM_Mag"};
-        respawnMagazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","OPTRE_1Rnd_50x137_HEAT","HOW_32Rnd_762x51_IRDM_Mag"};
+        magazines[] = {"v105_32Rnd_762x51_IRDM_Mag","OPTRE_1Rnd_50x137_HEAT","v105_32Rnd_762x51_IRDM_Mag"};
+        respawnMagazines[] = {"v105_32Rnd_762x51_IRDM_Mag","OPTRE_1Rnd_50x137_HEAT","v105_32Rnd_762x51_IRDM_Mag"};
 
         backpack = "B_Carryall_green_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","ACE_muzzle_mzls_B","","OPTRE_M393_EOTECH_v2",{"HOW_32Rnd_762x51_IRDM_Mag",32},{},""},{"OPTRE_M48_PAW","","","",{"OPTRE_1Rnd_50x137_HEAT",1},{},""},{},{"U_I_L_Uniform_01_tshirt_black_F",{{"FirstAidKit",1},{"HOW_32Rnd_762x51_IRDM_Mag",1,32}}},{"LM_OPCAN_ACTV_CGC_VEST",{{"OPTRE_Biofoam",2},{"ACE_M26_Clacker",1},{"HandGrenade",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"OPTRE_32Rnd_762x51_Mag",8,32},{"OPTRE_M9_Frag",2,1}}},{"B_Carryall_green_F",{{"OPTRE_1Rnd_50x137_HEAT",9,1}}},"H_Shemag_olive_hs","LM_OPCAN_Shemagh",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","ACE_muzzle_mzls_B","","OPTRE_M393_EOTECH_v2",{"v105_32Rnd_762x51_IRDM_Mag",32},{},""},{"OPTRE_M48_PAW","","","",{"OPTRE_1Rnd_50x137_HEAT",1},{},""},{},{"U_I_L_Uniform_01_tshirt_black_F",{{"FirstAidKit",1},{"v105_32Rnd_762x51_IRDM_Mag",1,32}}},{"LM_OPCAN_ACTV_CGC_VEST",{{"OPTRE_Biofoam",2},{"ACE_M26_Clacker",1},{"HandGrenade",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"OPTRE_32Rnd_762x51_Mag",8,32},{"OPTRE_M9_Frag",2,1}}},{"B_Carryall_green_F",{{"OPTRE_1Rnd_50x137_HEAT",9,1}}},"H_Shemag_olive_hs","LM_OPCAN_Shemagh",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -630,12 +630,12 @@ class CfgVehicles {
         weapons[] = {"OPTRE_MA32","MatGrp_M41_SSR_AA"};
         respawnWeapons[] = {"OPTRE_MA32","MatGrp_M41_SSR_AA"};
 
-        magazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","MatGrp_M41_Twin_HEAT_AA","HOW_32Rnd_762x51_IRDM_Mag"};
-        respawnMagazines[] = {"HOW_32Rnd_762x51_IRDM_Mag","MatGrp_M41_Twin_HEAT_AA","HOW_32Rnd_762x51_IRDM_Mag"};
+        magazines[] = {"v105_32Rnd_762x51_IRDM_Mag","MatGrp_M41_Twin_HEAT_AA","v105_32Rnd_762x51_IRDM_Mag"};
+        respawnMagazines[] = {"v105_32Rnd_762x51_IRDM_Mag","MatGrp_M41_Twin_HEAT_AA","v105_32Rnd_762x51_IRDM_Mag"};
 
         backpack = "B_Carryall_green_F";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","ACE_muzzle_mzls_B","","OPTRE_M393_EOTECH_v2",{"HOW_32Rnd_762x51_IRDM_Mag",32},{},""},{"MatGrp_M41_SSR_AA","","","",{"MatGrp_M41_Twin_HEAT_AA",2},{},""},{},{"U_I_L_Uniform_01_tshirt_black_F",{{"FirstAidKit",1},{"HOW_32Rnd_762x51_IRDM_Mag",1,32}}},{"LM_OPCAN_ACTV_CGC_VEST",{{"OPTRE_Biofoam",2},{"ACE_M26_Clacker",1},{"HandGrenade",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"OPTRE_32Rnd_762x51_Mag",8,32},{"OPTRE_M9_Frag",2,1}}},{"B_Carryall_green_F",{{"MatGrp_M41_Twin_HEAT_AA",4,2}}},"H_Shemag_olive_hs","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_MA32","ACE_muzzle_mzls_B","","OPTRE_M393_EOTECH_v2",{"v105_32Rnd_762x51_IRDM_Mag",32},{},""},{"MatGrp_M41_SSR_AA","","","",{"MatGrp_M41_Twin_HEAT_AA",2},{},""},{},{"U_I_L_Uniform_01_tshirt_black_F",{{"FirstAidKit",1},{"v105_32Rnd_762x51_IRDM_Mag",1,32}}},{"LM_OPCAN_ACTV_CGC_VEST",{{"OPTRE_Biofoam",2},{"ACE_M26_Clacker",1},{"HandGrenade",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"OPTRE_32Rnd_762x51_Mag",8,32},{"OPTRE_M9_Frag",2,1}}},{"B_Carryall_green_F",{{"MatGrp_M41_Twin_HEAT_AA",4,2}}},"H_Shemag_olive_hs","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -745,15 +745,15 @@ class CfgVehicles {
         linkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST","H_ShemagOpen_tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"LM_OPCAN_ACTV_CGC_VEST","H_ShemagOpen_tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"v105_HOW_M73SAW"};
-        respawnWeapons[] = {"v105_HOW_M73SAW"};
+        weapons[] = {"v105_M73SAW"};
+        respawnWeapons[] = {"v105_M73SAW"};
 
-        magazines[] = {"v105_HOW_150Rnd_762x51_Box","v105_HOW_150Rnd_762x51_Box"};
-        respawnMagazines[] = {"v105_HOW_150Rnd_762x51_Box","v105_HOW_150Rnd_762x51_Box"};
+        magazines[] = {"v105_150Rnd_762x51_Box","v105_150Rnd_762x51_Box"};
+        respawnMagazines[] = {"v105_150Rnd_762x51_Box","v105_150Rnd_762x51_Box"};
 
         backpack = "OPTRE_Rad_Rucksack_2";
 
-        ALiVE_orbatCreator_loadout[] = {{"v105_HOW_M73SAW","","OPTRE_M45_Flashlight","OPTRE_M73_SmartLink",{"v105_HOW_150Rnd_762x51_Box",150},{},"bipod_01_F_blk"},{},{},{"U_C_ArtTShirt_01_v5_F",{{"FirstAidKit",1}}},{"LM_OPCAN_ACTV_CGC_VEST",{{"OPTRE_Biofoam",2},{"ACE_M26_Clacker",1},{"HandGrenade",1,1},{"MiniGrenade",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"Chemlight_blue",1,1},{"M41_IED_Remote_Mag",1,1},{"v105_HOW_150Rnd_762x51_Box",2,150}}},{"OPTRE_Rad_Rucksack_2",{{"v105_HOW_300Rnd_762x51_Box_Tracer",6,300}}},"H_ShemagOpen_tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"v105_M73SAW","","OPTRE_M45_Flashlight","OPTRE_M73_SmartLink",{"v105_150Rnd_762x51_Box",150},{},"bipod_01_F_blk"},{},{},{"U_C_ArtTShirt_01_v5_F",{{"FirstAidKit",1}}},{"LM_OPCAN_ACTV_CGC_VEST",{{"OPTRE_Biofoam",2},{"ACE_M26_Clacker",1},{"HandGrenade",1,1},{"MiniGrenade",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"Chemlight_blue",1,1},{"M41_IED_Remote_Mag",1,1},{"v105_150Rnd_762x51_Box",2,150}}},{"OPTRE_Rad_Rucksack_2",{{"v105_300Rnd_762x51_Box_Tracer",6,300}}},"H_ShemagOpen_tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

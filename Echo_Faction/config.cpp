@@ -603,15 +603,15 @@ class CfgVehicles {
         linkedItems[] = {"Echo_M52A_AR_B","Echo_CH252_H1_T","ItemMap","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F2_HURS"};
         respawnlinkedItems[] = {"Echo_M52A_AR_B","Echo_CH252_H1_T","ItemMap","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F2_HURS"};
 
-        weapons[] = {"v105_HOW_M247SSW","OPTRE_M6G_SF"};
-        respawnWeapons[] = {"v105_HOW_M247SSW","OPTRE_M6G_SF"};
+        weapons[] = {"v105_M247SSW","OPTRE_M6G_SF"};
+        respawnWeapons[] = {"v105_M247SSW","OPTRE_M6G_SF"};
 
-        magazines[] = {"HOW_200Rnd_93x64_Box","OPTRE_8Rnd_127x40_Mag","HOW_200Rnd_93x64_Box","OPTRE_8Rnd_127x40_Mag"};
-        respawnMagazines[] = {"HOW_200Rnd_93x64_Box","OPTRE_8Rnd_127x40_Mag","HOW_200Rnd_93x64_Box","OPTRE_8Rnd_127x40_Mag"};
+        magazines[] = {"v105_200Rnd_93x64_Box","OPTRE_8Rnd_127x40_Mag","v105_200Rnd_93x64_Box","OPTRE_8Rnd_127x40_Mag"};
+        respawnMagazines[] = {"v105_200Rnd_93x64_Box","OPTRE_8Rnd_127x40_Mag","v105_200Rnd_93x64_Box","OPTRE_8Rnd_127x40_Mag"};
 
         backpack = "Echo_Rucksack_Soft_Heavy";
 
-        ALiVE_orbatCreator_loadout[] = {{"v105_HOW_M247SSW","","OPTRE_M45_Flashlight","OPTRE_M392_Scope_v2",{"HOW_200Rnd_93x64_Box",200},{},"bipod_01_F_blk"},{},{"OPTRE_M6G_SF","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"LM_OPCAN_SLIM_UNSCA_DES_1_UNI",{{"FirstAidKit",1},{"OPTRE_8Rnd_127x40_Mag",2,8},{"Chemlight_green",2,1},{"HandGrenade",1,1},{"HOW_200Rnd_93x64_Mixed_Box",3,200}}},{"Echo_M52A_AR_B",{{"OPTRE_Biofoam",2},{"ACE_packingBandage",5},{"ACE_quikclot",5},{"ACE_elasticBandage",5},{"ACE_fieldDressing",5},{"ACE_bloodIV_250",1},{"ACE_EarPlugs",1},{"MRH_Map",1},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"ACE_personalAidKit",1},{"ACE_tourniquet",4},{"OPTRE_8Rnd_127x40_Mag",3,8},{"OPTRE_M9_Frag",2,1},{"OPTRE_M2_Smoke",2,1},{"HOW_200Rnd_93x64_Mixed_Box",1,200}}},{"Echo_Rucksack_Soft_Heavy",{{"VES_TacSpraycan",2},{"ACE_splint",4},{"MRH_KeyCard_BLUFOR",1},{"ACE_RangeCard",1},{"ACE_personalAidKit",2},{"MRH_SoldierTab",1},{"ACE_morphine",5},{"ACE_MRE_BeefStew",1},{"ACE_M26_Clacker",1},{"ACE_IR_Strobe_Item",1},{"ACE_epinephrine",5},{"ACE_EntrenchingTool",1},{"ACE_Canteen",1},{"ACE_Flashlight_MX991",1},{"HOW_200Rnd_93x64_Mixed_Box",6,200}}},"Echo_CH252_H1_T","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F2_HURS"}};
+        ALiVE_orbatCreator_loadout[] = {{"v105_M247SSW","","OPTRE_M45_Flashlight","OPTRE_M392_Scope_v2",{"v105_200Rnd_93x64_Box",200},{},"bipod_01_F_blk"},{},{"OPTRE_M6G_SF","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"LM_OPCAN_SLIM_UNSCA_DES_1_UNI",{{"FirstAidKit",1},{"OPTRE_8Rnd_127x40_Mag",2,8},{"Chemlight_green",2,1},{"HandGrenade",1,1},{"v105_200Rnd_93x64_Mixed_Box",3,200}}},{"Echo_M52A_AR_B",{{"OPTRE_Biofoam",2},{"ACE_packingBandage",5},{"ACE_quikclot",5},{"ACE_elasticBandage",5},{"ACE_fieldDressing",5},{"ACE_bloodIV_250",1},{"ACE_EarPlugs",1},{"MRH_Map",1},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"ACE_personalAidKit",1},{"ACE_tourniquet",4},{"OPTRE_8Rnd_127x40_Mag",3,8},{"OPTRE_M9_Frag",2,1},{"OPTRE_M2_Smoke",2,1},{"v105_200Rnd_93x64_Mixed_Box",1,200}}},{"Echo_Rucksack_Soft_Heavy",{{"VES_TacSpraycan",2},{"ACE_splint",4},{"MRH_KeyCard_BLUFOR",1},{"ACE_RangeCard",1},{"ACE_personalAidKit",2},{"MRH_SoldierTab",1},{"ACE_morphine",5},{"ACE_MRE_BeefStew",1},{"ACE_M26_Clacker",1},{"ACE_IR_Strobe_Item",1},{"ACE_epinephrine",5},{"ACE_EntrenchingTool",1},{"ACE_Canteen",1},{"ACE_Flashlight_MX991",1},{"v105_200Rnd_93x64_Mixed_Box",6,200}}},"Echo_CH252_H1_T","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F2_HURS"}};
 
 
         class EventHandlers : EventHandlers {
@@ -726,12 +726,12 @@ class CfgVehicles {
         weapons[] = {"OPTRE_M392_DMR","OPTRE_M6G_SF"};
         respawnWeapons[] = {"OPTRE_M392_DMR","OPTRE_M6G_SF"};
 
-        magazines[] = {"HOW_15Rnd_762x51_338_API_Mag","OPTRE_8Rnd_127x40_Mag","HOW_15Rnd_762x51_338_API_Mag","OPTRE_8Rnd_127x40_Mag"};
-        respawnMagazines[] = {"HOW_15Rnd_762x51_338_API_Mag","OPTRE_8Rnd_127x40_Mag","HOW_15Rnd_762x51_338_API_Mag","OPTRE_8Rnd_127x40_Mag"};
+        magazines[] = {"v105_15Rnd_762x51_338_API_Mag","OPTRE_8Rnd_127x40_Mag","v105_15Rnd_762x51_338_API_Mag","OPTRE_8Rnd_127x40_Mag"};
+        respawnMagazines[] = {"v105_15Rnd_762x51_338_API_Mag","OPTRE_8Rnd_127x40_Mag","v105_15Rnd_762x51_338_API_Mag","OPTRE_8Rnd_127x40_Mag"};
 
         backpack = "Echo_Rucksack_Soft";
 
-        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M392_DMR","","OPTRE_BMR_Laser","OPTRE_BMR_Scope_v2",{"HOW_15Rnd_762x51_338_API_Mag",15},{},"bipod_01_F_blk"},{},{"OPTRE_M6G_SF","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"LM_OPCAN_SLIM_UNSCA_DES_1_UNI",{{"FirstAidKit",1},{"OPTRE_8Rnd_127x40_Mag",2,8},{"Chemlight_green",2,1},{"HandGrenade",1,1},{"HOW_15Rnd_762x51_338_API_Mag",3,15}}},{"Echo_M52A_MRK_B",{{"OPTRE_Biofoam",2},{"ACE_packingBandage",5},{"ACE_quikclot",5},{"ACE_elasticBandage",5},{"ACE_fieldDressing",5},{"ACE_bloodIV_250",1},{"ACE_EarPlugs",1},{"MRH_Map",1},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"ACE_personalAidKit",1},{"ACE_tourniquet",4},{"OPTRE_8Rnd_127x40_Mag",3,8},{"OPTRE_M9_Frag",2,1},{"OPTRE_M2_Smoke",2,1},{"HOW_15Rnd_762x51_338_Magnum_Mag",9,15}}},{"Echo_Rucksack_Soft",{{"VES_TacSpraycan",2},{"ACE_splint",4},{"MRH_KeyCard_BLUFOR",1},{"ACE_RangeCard",1},{"ACE_personalAidKit",2},{"MRH_SoldierTab",1},{"ACE_morphine",5},{"ACE_MRE_BeefStew",1},{"ACE_M26_Clacker",1},{"ACE_IR_Strobe_Item",1},{"ACE_epinephrine",5},{"ACE_EntrenchingTool",1},{"ACE_Canteen",1},{"ACE_Flashlight_MX991",1}}},"Echo_Tactical_Boonie_Khk","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F2"}};
+        ALiVE_orbatCreator_loadout[] = {{"OPTRE_M392_DMR","","OPTRE_BMR_Laser","OPTRE_BMR_Scope_v2",{"v105_15Rnd_762x51_338_API_Mag",15},{},"bipod_01_F_blk"},{},{"OPTRE_M6G_SF","","OPTRE_M6G_Flashlight","OPTRE_M6G_Scope",{"OPTRE_8Rnd_127x40_Mag",8},{},""},{"LM_OPCAN_SLIM_UNSCA_DES_1_UNI",{{"FirstAidKit",1},{"OPTRE_8Rnd_127x40_Mag",2,8},{"Chemlight_green",2,1},{"HandGrenade",1,1},{"v105_15Rnd_762x51_338_API_Mag",3,15}}},{"Echo_M52A_MRK_B",{{"OPTRE_Biofoam",2},{"ACE_packingBandage",5},{"ACE_quikclot",5},{"ACE_elasticBandage",5},{"ACE_fieldDressing",5},{"ACE_bloodIV_250",1},{"ACE_EarPlugs",1},{"MRH_Map",1},{"ACE_MapTools",1},{"ACE_Flashlight_XL50",1},{"ACE_personalAidKit",1},{"ACE_tourniquet",4},{"OPTRE_8Rnd_127x40_Mag",3,8},{"OPTRE_M9_Frag",2,1},{"OPTRE_M2_Smoke",2,1},{"v105_15Rnd_762x51_338_Magnum_Mag",9,15}}},{"Echo_Rucksack_Soft",{{"VES_TacSpraycan",2},{"ACE_splint",4},{"MRH_KeyCard_BLUFOR",1},{"ACE_RangeCard",1},{"ACE_personalAidKit",2},{"MRH_SoldierTab",1},{"ACE_morphine",5},{"ACE_MRE_BeefStew",1},{"ACE_M26_Clacker",1},{"ACE_IR_Strobe_Item",1},{"ACE_epinephrine",5},{"ACE_EntrenchingTool",1},{"ACE_Canteen",1},{"ACE_Flashlight_MX991",1}}},"Echo_Tactical_Boonie_Khk","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","A3_TVG_S_F2"}};
 
 
         class EventHandlers : EventHandlers {

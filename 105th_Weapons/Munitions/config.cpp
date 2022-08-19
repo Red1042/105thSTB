@@ -2,42 +2,42 @@ class CfgPatches
 {
     class v105_Munitions
     {
-        author= "N4_Logistics_Team"; 
+        author= "105th | S4 Logistics"; 
         url="https://discord.gg/105thstb-arma";
         units[]={};
         weapons[]={};
         magazines[]=
         {
             //M247
-            "HOW_200Rnd_93x64_Box",
-            "HOW_150Rnd_93x64_Box",
-            "HOW_75Rnd_93x64_Box",
-            "HOW_200Rnd_93x64_Mixed_Box",
-            "HOW_150Rnd_93x64_Mixed_Box",
-            "HOW_75Rnd_93x64_Mixed_Box",
+            "v105_200Rnd_93x64_Box",
+            "v105_150Rnd_93x64_Box",
+            "v105_75Rnd_93x64_Box",
+            "v105_200Rnd_93x64_Mixed_Box",
+            "v105_150Rnd_93x64_Mixed_Box",
+            "v105_75Rnd_93x64_Mixed_Box",
             //M73
-            "v105_HOW_150Rnd_762x51_Box",
-            "v105_HOW_150Rnd_762x51_Box_Tracer",
-            "v105_HOW_300Rnd_762x51_Box",
-            "v105_HOW_300Rnd_762x51_Box_Tracer",	
+            "v105_150Rnd_762x51_Box",
+            "v105_150Rnd_762x51_Box_Tracer",
+            "v105_300Rnd_762x51_Box",
+            "v105_300Rnd_762x51_Box_Tracer",	
             //MA5C
-            "HOW_32Rnd_762x51_IRDM_Mag",
+            "v105_32Rnd_762x51_IRDM_Mag",
             //N-12
             "v105_762x51_DP_Mag",
             //DMR
-            "HOW_15Rnd_762x51_338_API_Mag",
-            "HOW_15Rnd_762x51_338_Magnum_Mag",
-            "HOW_15Rnd_762x51_338_APIT_Mag",
-            "HOW_15Rnd_762x51_338_MT_Mag",
-            "HOW_15Rnd_762x51_338_Mixed_Mag",
+            "v105_15Rnd_762x51_338_API_Mag",
+            "v105_15Rnd_762x51_338_Magnum_Mag",
+            "v105_15Rnd_762x51_338_APIT_Mag",
+            "v105_15Rnd_762x51_338_MT_Mag",
+            "v105_15Rnd_762x51_338_Mixed_Mag",
             //40mm Grenade
             "v105_Whistler_Grenade",
             //SRS
             "v105_4Rnd_145x114_Mag",
             "v105_4Rnd_145x114_Mag_Tracer",
             // Cricket
-            "CRCKT_PEN",
-            "CRCKT_HE",
+            "v105_Cricket_1rnd_PEN",
+            "v105_Cricket_1rnd_HE",
             // Confetti Maker
             "v105_Confetti_Belt_200m",
             "v105_Confetti_Belt_100m",
@@ -93,7 +93,7 @@ class CfgMagazines
 {
     // 15 Round Magazines
     // DMR AMMO 
-    class HOW_15Rnd_762x51_338_Magnum_Mag: OPTRE_15Rnd_762x51_Mag
+    class v105_15Rnd_762x51_338_Magnum_Mag: OPTRE_15Rnd_762x51_Mag
     {
         dlc							= "105th";
         author						= "Howard";
@@ -107,7 +107,7 @@ class CfgMagazines
         descriptionShort			= "";
         lastRoundsTracer 			= 3;
     };
-    class HOW_15Rnd_762x51_338_API_Mag: HOW_15Rnd_762x51_338_Magnum_Mag
+    class v105_15Rnd_762x51_338_API_Mag: v105_15Rnd_762x51_338_Magnum_Mag
     {
         dlc							= "105th";
         author						= "Howard";
@@ -118,7 +118,7 @@ class CfgMagazines
         descriptionShort			= "";
         lastRoundsTracer = 3;
     };
-    class HOW_15Rnd_762x51_338_MT_Mag: HOW_15Rnd_762x51_338_Magnum_Mag
+    class v105_15Rnd_762x51_338_MT_Mag: v105_15Rnd_762x51_338_Magnum_Mag
     {
         ammo 						= "ACE_338_Ball";
         displayname 				= "15Rnd 7.62x51mm Magnum Tracer Magazine";
@@ -126,7 +126,7 @@ class CfgMagazines
         tracersEvery 				= 1;
         lastRoundsTracer			= 0;
     };
-    class HOW_15Rnd_762x51_338_APIT_Mag: HOW_15Rnd_762x51_338_API_Mag
+    class v105_15Rnd_762x51_338_APIT_Mag: v105_15Rnd_762x51_338_API_Mag
     {
         ammo 						= "ACE_338_Ball_API526";
         displayname 				= "15Rnd 7.62x51mm APIT526 Magazine";
@@ -134,7 +134,7 @@ class CfgMagazines
         tracersEvery 				= 1;
         lastRoundsTracer			= 0;
     };
-    class HOW_15Rnd_762x51_338_Mixed_Mag:HOW_15Rnd_762x51_338_Magnum_Mag
+    class v105_15Rnd_762x51_338_Mixed_Mag:v105_15Rnd_762x51_338_Magnum_Mag
     {
         initspeed 					= 950;
         ammo 						= "ACE_338_Ball";
@@ -146,7 +146,7 @@ class CfgMagazines
     };
     //RIFLE AMMO BELOW
     //32 Rnds
-    class HOW_32Rnd_762x51_IRDM_Mag: OPTRE_60Rnd_762x51_Mag
+    class v105_32Rnd_762x51_IRDM_Mag: OPTRE_60Rnd_762x51_Mag
     {
         ammo 						= "ACE_B_762x51_Tracer_Dim";
         displayname 				= "32Rnd 7.62x51mm IRDM Magazine";
@@ -169,7 +169,7 @@ class CfgMagazines
         deleteIfEmpty=  0; 
     };
     // M247
-    class HOW_150Rnd_93x64_Box: OPTRE_100Rnd_762x51_Box
+    class v105_150Rnd_93x64_Box: OPTRE_100Rnd_762x51_Box
     {
         dlc = "OPTRE";
         author						= "Howard";
@@ -183,7 +183,7 @@ class CfgMagazines
         descriptionShort			= "";
         mass						= 40;
     };
-    class HOW_75Rnd_93x64_Box: OPTRE_100Rnd_762x51_Box
+    class v105_75Rnd_93x64_Box: OPTRE_100Rnd_762x51_Box
     {
         dlc = "OPTRE";
         author						= "Howard";
@@ -197,7 +197,7 @@ class CfgMagazines
         descriptionShort			= "";
         mass						= 25;
     };
-    class HOW_150Rnd_93x64_Mixed_Box: OPTRE_100Rnd_762x51_Box
+    class v105_150Rnd_93x64_Mixed_Box: OPTRE_100Rnd_762x51_Box
     {
         dlc = "OPTRE";
         author						= "Howard";
@@ -213,7 +213,7 @@ class CfgMagazines
         lastRoundTracers 			= 5;
         mass						= 40;
     };
-    class HOW_75Rnd_93x64_Mixed_Box: OPTRE_100Rnd_762x51_Box
+    class v105_75Rnd_93x64_Mixed_Box: OPTRE_100Rnd_762x51_Box
     {
         dlc = "OPTRE";
         author						= "Howard";
@@ -229,7 +229,7 @@ class CfgMagazines
         lastRoundTracers 			= 5;
         mass						= 25;
     };
-    class HOW_200Rnd_93x64_Mixed_Box: OPTRE_100Rnd_762x51_Box
+    class v105_200Rnd_93x64_Mixed_Box: OPTRE_100Rnd_762x51_Box
     {
         dlc = "OPTRE";
         author						= "Howard";
@@ -245,7 +245,7 @@ class CfgMagazines
         lastRoundTracers 			= 8;
         mass						= 50;
     };
-    class HOW_200Rnd_93x64_Box: OPTRE_100Rnd_762x51_Box
+    class v105_200Rnd_93x64_Box: OPTRE_100Rnd_762x51_Box
     {
         dlc = "OPTRE";
         author						= "Howard";
@@ -262,7 +262,7 @@ class CfgMagazines
         mass						= 50;
     };
     // M73SAW
-    class v105_HOW_150Rnd_762x51_Box: OPTRE_100Rnd_762x51_Box
+    class v105_150Rnd_762x51_Box: OPTRE_100Rnd_762x51_Box
     {
         author						= "Howard";
         scope						= 2;
@@ -271,7 +271,7 @@ class CfgMagazines
         displayname 				= "[105th] 150Rnd 7.62x51mm Box";
         mass						= 35;
     };
-    class v105_HOW_150Rnd_762x51_Box_Tracer: OPTRE_100Rnd_762x51_Box_Tracer
+    class v105_150Rnd_762x51_Box_Tracer: OPTRE_100Rnd_762x51_Box_Tracer
     {
         
         count						= 150;
@@ -279,7 +279,7 @@ class CfgMagazines
         tracersEvery				= 2;
         mass						= 35;
     };
-    class v105_HOW_300Rnd_762x51_Box: OPTRE_100Rnd_762x51_Box
+    class v105_300Rnd_762x51_Box: OPTRE_100Rnd_762x51_Box
     {
         author						= "Howard";
         scope						= 2;
@@ -288,7 +288,7 @@ class CfgMagazines
         displayname 				= "[105th] 300Rnd 7.62x51mm Box";
         mass						= 50;
     };
-    class v105_HOW_300Rnd_762x51_Box_Tracer: OPTRE_100Rnd_762x51_Box_Tracer
+    class v105_300Rnd_762x51_Box_Tracer: OPTRE_100Rnd_762x51_Box_Tracer
     {
         author						= "Howard";
         scope						= 2;
@@ -318,14 +318,14 @@ class CfgMagazines
         ammo						= "v105_145x114_Tracer";
     };
     //Disposables
-    class CRCKT_PEN: OPTRE_1Rnd_50x137_PEN
+    class v105_Cricket_1rnd_PEN: OPTRE_1Rnd_50x137_PEN
     {
         author = "Nest";
         displayName = "M48B 'Penetrator'";
         scope = 2;
         mass = 5;
     };
-    class CRCKT_HE: OPTRE_1Rnd_50x137_HE
+    class v105_Cricket_1rnd_HE: OPTRE_1Rnd_50x137_HE
     {
         author = "Nest";
         displayName = "M48B 'High Explosive'";
@@ -491,6 +491,7 @@ class CfgAmmo
 			300 //Distance m
 		};
 	};
+
 	class OPTRE_G_M9_Frag: GrenadeHand
     {
         model="\OPTRE_Weapons\explosives\m9_grenade.p3d";
@@ -508,12 +509,12 @@ class CfgAmmo
         model="\OPTRE_Weapons\Charges\C7.p3d"
 
     };
-    class v105_145x114_Ball:B_408_Ball 
+    class v105_145x114_Ball:B_408_Ball
 	{
 		caliber						= 10;
 		hit 						= 40;
 	};
-	class v105_145x114_Tracer:B_408_Ball 
+	class v105_145x114_Tracer:B_408_Ball
 	{
 		caliber						= 10;
 		hit 						= 40;
@@ -529,6 +530,7 @@ class CfgAmmo
         effectFly=  "AmmoUnderwater";
     };
 };
+
 class cfgMagazineWells
 {
 	class UGL_40x36

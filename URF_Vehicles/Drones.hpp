@@ -6,8 +6,8 @@ class v105_URF_antimine_UAV: UAV_06_antimine_base_F
 		scopeCurator=2;
 		forceInGarage=0;
 		displayName="UAV-23 Drone (Armed)";
-		editorCategory="HOW_EdCat_URF";
-		editorSubcategory="HOW_URF_EdSubCat_Aircraft";
+		editorCategory="v105_EdCat_URF";
+		editorSubcategory="v105_URF_EdSubCat_Aircraft";
 		crew="O_UAV_AI";
 		hiddenSelectionsTextures[]=
 		{
