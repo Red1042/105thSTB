@@ -86,6 +86,7 @@
         displayName="D77H-TCI/Pelican [Armed Base]";
         fuelCapacity=1200;
         ace_hellfire_addLaserDesignator = 1;
+        crew="VES_Rifleman_MA5B_ODST";
 		#include "cfg\HUD\CfgHUD.hpp"
 		weapons[]=
 		{
