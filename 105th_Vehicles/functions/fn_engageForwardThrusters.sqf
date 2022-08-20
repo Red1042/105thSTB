@@ -26,7 +26,7 @@ if (speed _vehicle <= 250) then {
 		(_vel select 2)
 		];
 	};
-while {((_vehicle getVariable ["OPTRE_Thruster_EngagedStatus",false]) AND (isEngineOn _vehicle))} do
+while {((_vehicle getVariable ["OPTRE_Thruster_EngagedStatus",false]) AND (isEngineOn _vehicle) AND (_vehicle getHitPointDamage "hithull" < 0.8))} do
 {
 	if (speed _vehicle <= 400) then {
 		_vel = velocity _vehicle;
@@ -41,6 +41,13 @@ while {((_vehicle getVariable ["OPTRE_Thruster_EngagedStatus",false]) AND (isEng
 	sleep 0.5;
 };
 
-if(!(isEngineOn _vehicle)) then {
+if(!(isEngineOn _vehicle)) exitWith {
     _vehicle setVariable ["OPTRE_Thruster_EngagedStatus",false,true];
+    _vehicle spawn V_FZ_fnc_ThrusterDeAnimate;
+};
+
+if(_vehicle getHitPointDamage "hithull" > 0.8) exitWith {
+    hint "DISENGAGING FORWARD THRUSTERS, DUE TO DAMAGE";
+    _vehicle setVariable ["OPTRE_Thruster_EngagedStatus",false,true];
+    _vehicle spawn V_FZ_fnc_ThrusterDeAnimate;
 };

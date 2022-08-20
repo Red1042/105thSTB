@@ -107,9 +107,9 @@ class CfgPatches
 			"v105_Gatling_30mm",
 			"v105_Vulcan_20mm",
 			"v105_145x114_minigun",
-			//Fossa Gun
+			// Fossa Gun
 			"v105_cannon_20mm",
-			//"CMFlareLauncher",
+			// Flares
 			"v105_Flares",
 			// Warthog
 			"v105_M41_LAAG",
@@ -120,9 +120,8 @@ class CfgPatches
 			"OPTRE_M230_AP",
 			"OPTRE_M230_HE",
 			"LMG_coax_Hound",
-			//Falcon
+			// Falcon
 			"v105_FalconGL",
-			
 			// Pelican Weapons
 			"v105_gatling_30mm",
 			"v105_FIR_AIM9X",
@@ -142,7 +141,9 @@ class CfgPatches
 			"v105_FIR_GBU38",
 			"v105_FIR_AGM154",
 			"v105_FIR_AGM88",
-			"v105_FIR_mk82_Snakeye_Launcher"
+			"v105_FIR_mk82_Snakeye_Launcher",
+			// SparrowHawk
+			"v105_M6_Laser"
 		};
 		magazines[] = 
 		{
@@ -251,9 +252,14 @@ class CfgPatches
 			"v105_FIR_AGM154A_P_1rnd_M",
 			"v105_FIR_AGM154C_P_1rnd_M",
 			"v105_FIR_AGM88_P_1rnd_M",
-			"v105_FIR_ASM2_P_2rnd_M"
+			"v105_FIR_ASM2_P_2rnd_M",
+			//SparrowHawk Ordnance
+			"v105_SpLaser_Battery"
 		};
-		ammo[] = {};
+		ammo[] =
+		{
+		    "v105_SpLaserAmmo"
+		};
 		requiredVersion = 1.0;
 		requiredAddons[] = 
 		{
@@ -453,6 +459,15 @@ class cfgAmmo
 		indirectHitRange=0.1;
 		indirectHit=0.5;
 	};
+	class OPTRE_SpLaserAmmo;
+    class v105_SpLaserAmmo: OPTRE_SpLaserAmmo
+    {
+    	scope=2;
+        caliber=100;
+        hit=200; // Original 250
+        indirectHit=20; // Original 25
+        indirectHitRange=1;
+    };
 };
 
 		

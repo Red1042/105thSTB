@@ -152,10 +152,10 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 			};
 			magazines[]=
 			{
-				"OPTRE_100Rnd_50mm_HE",
-				"OPTRE_100Rnd_50mm_HE",
-				"OPTRE_100Rnd_50mm_HE",
 				"OPTRE_100Rnd_50mm_APFSDS",
+				"OPTRE_100Rnd_50mm_APFSDS",
+				"OPTRE_100Rnd_50mm_HE",
+				"OPTRE_100Rnd_50mm_HE",
 				"Laserbatteries"
 			};
 			minElev=-80;
@@ -646,16 +646,21 @@ class v105_AVXXN_Laser_SparrowHawk: v105_Sparrowhawk_Base
 		{
 			weapons[]=
 			{
-				"OPTRE_M6_Laser",
+				"v105_M6_Laser",
 				"Laserdesignator_mounted"
 			};
 			magazines[]=
 			{
-				"OPTRE_SpLaser_Battery",
-				"OPTRE_SpLaser_Battery",
-				"OPTRE_SpLaser_Battery",
-				"OPTRE_SpLaser_Battery",
-				"OPTRE_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
+				"v105_SpLaser_Battery",
 				"Laserbatteries"
 			};
 		};

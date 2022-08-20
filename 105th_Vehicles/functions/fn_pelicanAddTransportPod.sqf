@@ -45,7 +45,13 @@ _pelican addAction ["<t color='#FFA500'>Drop Transport Pod", {
 if(!(isServer)) exitWith {};
 
 _transportPod = "v105_Land_Transport_Covered_Pod" createVehicle position _pelican;
+_transportPod allowDamage false;
 _transportPod attachTo [_pelican, [0,-4.75,0.10]];
+[_transportPod] spawn {
+    params ["_transportPod"];
+    uiSleep 5;
+    _transportPod allowDamage true;
+};
 
 _transportPod addEventHandler ["GetOut",
 {
