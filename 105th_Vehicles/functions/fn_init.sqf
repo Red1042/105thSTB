@@ -131,12 +131,11 @@ v105_VehicleSpawnerData = createHashMap;
 }, {
 }, [nil, [false, false, false]]] call CBA_fnc_addKeybind;
 
-["105th Vehicles", "v105_Vehicles_OpenAMSMenu", ["Open I-TGT System", "Allows quick access to the I-TGT System"], {
+["105th Vehicles", "v105_Vehicles_OpenI_TGT_System", ["Open I-TGT System", "Allows quick access to the I-TGT System"], {
     private ["_vic"];
     _vic = (vehicle player);
     if(_vic == player) exitWith {};
     if(!((driver _vic) isEqualTo player)) exitWith {};
-    if(!(isEngineOn _vic)) exitWith {};
     _vic execVM "\FIR_AirWeaponSystem_US\Script\TGTSystem\FIR_AWS_MFD_N_Open.sqf";
 }, {
 }, [nil, [false, false, false]]] call CBA_fnc_addKeybind;

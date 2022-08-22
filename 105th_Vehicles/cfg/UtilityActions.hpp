@@ -14,7 +14,7 @@ class AMS_LiteOpen
 class I_TGT_Open
 {
     animPeriod=5;
-    condition="((driver this) isEqualTo player) AND (isEngineOn this)";
+    condition="((driver this) isEqualTo player)";
     displayName="<t color='#FFD700'>Open I-TGT System";
     displayNameDefault="<t color='#FFD700'>Open I-TGT System";
     onlyForPlayer=0;
