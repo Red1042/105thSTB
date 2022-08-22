@@ -56,13 +56,13 @@ v105_VehicleSpawnerData = createHashMap;
     _vic = (vehicle player);
     if((player != driver _vic) or !(alive _vic) or !(isEngineOn _vic) or  (((getPosATL _vic) select 2) < 1)) exitWith {};
     if(_vic == player) exitWith {};
-    if((_vic getVariable ["OPTRE_Thruster_Usable",false]) and !(_vic getVariable ["OPTRE_Thruster_EngagedStatus",false]) and !(_vic getVariable ["OPTRE_Afterburners_EngagedStatus",false])) exitWith {
+    if((_vic getVariable ["OPTRE_Thruster_Usable",false]) and !(_vic getVariable ["OPTRE_Thruster_EngagedStatus",false]) and !(_vic getVariable ["OPTRE_Afterburners_EngagedStatus",false]) and (_vic getHitPointDamage "hithull" < 0.8)) exitWith {
         _vic spawn v105_Vehicles_fnc_engageForwardThrusters;
         if(_vic getVariable ["OPTRE_Afterburners_Usable",false]) then {
             _vic spawn V_FZ_fnc_ThrusterAnimate;
         };
     };
-    if((_vic getVariable ["OPTRE_Afterburners_Usable",false]) and !(_vic getVariable ["OPTRE_Afterburners_EngagedStatus",false])) exitWith {
+    if((_vic getVariable ["OPTRE_Afterburners_Usable",false]) and !(_vic getVariable ["OPTRE_Afterburners_EngagedStatus",false]) and (_vic getHitPointDamage "hithull" < 0.5)) exitWith {
         _vic spawn v105_Vehicles_fnc_engageAfterburners;
     };
 }, {

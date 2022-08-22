@@ -401,6 +401,7 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 	};
 	class UserActions
 	{
+	    #include "cfg\UtilityActions.hpp"
 		#include "cfg\ThrusterActions.hpp"
 	};
     class Components : Components

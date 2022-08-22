@@ -10,7 +10,7 @@
 	Returns:
 	NONE
 */
-private ["_display","_listCtrlVehicles","_listCtrlTypes","_listCtrlLiveries","_indexVehicle","_indexType","_indexLivery","_vehicleName","_data","_typeName","_liveryName","_vehicleClass","_liveryData","_pad","_padLocation","_location","_vehicle"];
+private ["_display","_listCtrlVehicles","_listCtrlTypes","_listCtrlLiveries","_indexVehicle","_indexType","_indexLivery","_vehicleName","_data","_typeName","_liveryName","_vehicleClass","_liveryData","_alternativeLiveryData","_pad","_padLocation","_location","_vehicle","_spawnerIndexes","_wrongVehicle"];
 
 _display = (uiNamespace getVariable "v105_Vehicle_VehicleSpawner_UI");
 _listCtrlVehicles = _display displayCtrl 1500;
@@ -29,19 +29,19 @@ _data = (v105_VehicleSpawnerData get _vehicleName);
 _typeName = (((_data select 0) select _indexType) select 0);
 _liveryName = (((_data select 1) select _indexLivery) select 0);
 _vehicleClass = (((_data select 0) select _indexType) select 1);
-_alternativeLiveryData = (((((_data select 0) select _indexType) select 2) select _indexLivery) select 1);
 _liveryData = (((_data select 1) select _indexLivery) select 1);
+_alternativeLiveryData = (((((_data select 0) select _indexType) select 2) select _indexLivery) select 1);
 
 _vehicle = (uiNamespace getVariable ["v105_Vehicle_VehicleSpawner_ActiveVehicle",objNull]);
 _spawnerIndexes = _vehicle getVariable ["v105_spawnerIndexes",[-1,-1]];
-
+_wrongVehicle = false;
 
 
 /* Handle Vehicle reSkinning without re spawning the vehicle */
 if(((_spawnerIndexes select 0) != _indexVehicle) OR ((_spawnerIndexes select 1) != _indexType)) then {
     /* Handle Despawning */
     _pad = (uiNamespace getVariable ["v105_Vehicle_VehicleSpawner_Pad",nil]);
-    if(!([_pad] call v105_Vehicles_fnc_DespawnVehicle)) exitWith {};
+    if(!([_pad] call v105_Vehicles_fnc_DespawnVehicle)) exitWith {_wrongVehicle = true};
     (_display displayCtrl 1003) ctrlSetText (_typeName + " " + _vehicleName + " | " + _liveryName); //ToDo Correct for Alternative data
 
     uiSleep 0.1;
@@ -61,6 +61,8 @@ if(((_spawnerIndexes select 0) != _indexVehicle) OR ((_spawnerIndexes select 1) 
         _vehicle allowDamage true;
     };
 };
+
+if(_wrongVehicle) exitWith {};
 
 (_display displayCtrl 1003) ctrlSetText (_typeName + " " + _vehicleName + " | " + _liveryName); //ToDo Correct for Alternative data
 

@@ -136,7 +136,7 @@
 						"Ti"
 					};
 					thermalMode[]={0,1};
-					gunnerOpticsModel="A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
+					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
 					opticsPPEffects[]=
 					{
 						"OpticsCHAbera2",
@@ -149,7 +149,7 @@
 					initFov="(14.4 / 120)";
 					minFov="(14.4 / 120)";
 					maxFov="(14.4 / 120)";
-					gunnerOpticsModel="A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
 				};
 				class Narrow: Wide
 				{
@@ -157,7 +157,7 @@
 					initFov="(4.8 / 120)";
 					minFov="(4.8 / 120)";
 					maxFov="(4.8 / 120)";
-					gunnerOpticsModel="A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
 				};
 			};
 			minTurn=-110;
@@ -183,6 +183,7 @@
 
 		class UserActions
 		{
+		    #include "cfg\UtilityActions.hpp"
 		    #include "cfg\ThrusterActions.hpp"
 		};
 
@@ -281,27 +282,10 @@
 		};
     };
 
-    class v105_UH144S_A: v105_Falcon_Base
+    class v105_UH144S_AM: v105_Falcon_Base
     {
 		scope=2;
 		scopeCurator=2;
-        displayName="UH-144S Falcon (Armed) [Navy]";
-		class EventHandlers: EventHandlers
-		{
-		    class v105_AddMGs_EH
-		    {
-			    init = "0 = _this spawn V_FZ_fnc_FalconAddMGs";
-		    };
-		};
-		class VehicleSpawnerInfo: VehicleSpawnerInfo
-		{
-		    scope = 1;
-		    type = "20mm/M247H";
-		};
-    };
-
-    class v105_UH144S_AM: v105_UH144S_A
-    {
         displayName="UH-144S-GL Falcon [Navy]";
 
 		weapons[]=
@@ -317,11 +301,11 @@
 		class VehicleSpawnerInfo: VehicleSpawnerInfo
 		{
 		    scope = 1;
-		    type = "82mm/M247H";
+		    type = "82mm GL";
 		};
     };
 
-	class v105_UH144S_ARC: v105_UH144S_A
+	class v105_UH144S_ARC: v105_Falcon_Base
     {
         displayName="UH-144S-RC Falcon [Navy]";
 
@@ -338,38 +322,27 @@
 		class VehicleSpawnerInfo: VehicleSpawnerInfo
 		{
 		    scope = 1;
-		    type = "Minigun/M247H";
+		    type = "Minigun";
+		};
+    };
+
+    class v105_UH144S_A: v105_Falcon_Base
+    {
+		scope=2;
+		scopeCurator=2;
+        displayName="UH-144SG Falcon (Armed) [Navy]";
+		class EventHandlers: EventHandlers
+		{
+		    class v105_AddMGs_EH
+		    {
+			    init = "0 = _this spawn V_FZ_fnc_FalconAddMGs";
+		    };
+		};
+		class VehicleSpawnerInfo: VehicleSpawnerInfo
+		{
+		    scope = 1;
+		    type = "20mm/SG";
 		};
     };
 
     /* End of Armed Falcons */
-
-
-/*
-    class v105_UH144S_JLonger_ARC:v105_UH144S_ARC
-    {
-        author="Longer, Vespade";
-        displayName="UH-144S-RC Falcon [Longer]";
-        hiddenSelectionsTextures[]=
-        {
-            "105th_Vehicles\textures\Falcon\v105_Falcon_co.paa",
-            "105th_Vehicles\textures\Falcon\v105_Falcon_A_Longer_co.paa",
-            "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
-            "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
-        };
-    };
-    class v105_UH144S_JCollins_ARC:v105_UH144S_ARC
-    {
-        scope=1;
-        scopeCurator=1;
-        author="Collins, Vespade";
-        displayName="UH-144S-RC Falcon [Collins]";
-        hiddenSelectionsTextures[]=
-        {
-            "105th_Vehicles\textures\Falcon\v105_Falcon_Collins_co.paa",
-            "105th_Vehicles\textures\Falcon\v105_Falcon_A_Collins_co.paa",
-            "105th_Vehicles\textures\Falcon\v105_Falcon_T_co.paa",
-            "105th_Vehicles\textures\Falcon\v105_Falcon_S_co.paa"
-        };
-    };
-*/

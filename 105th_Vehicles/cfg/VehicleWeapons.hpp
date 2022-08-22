@@ -1,4 +1,7 @@
 class FullAuto;
+class Burst;
+class Mode_Burst;
+class Mode_FullAuto;
 class MGun;
 class autocannon_Base_F;
 // 	^ Class declarations above ^
@@ -67,11 +70,11 @@ class v105_cannon_20mm : cannon_20mm
     ace_overpressure_angle = 0;  // Cone in which the damage is applied (in degrees from the muzzle of the cannon)
     ace_overpressure_range = 0;  // Range in meters in which the damage is applied
     ace_overpressure_damage = 0;  // Damage multiplier
-        magazines[] =
-        {
-            "v105_8Rnd_20mm_AP",
-            "v105_8Rnd_20mm_HE"
-        };
+    magazines[] =
+    {
+        "v105_8Rnd_20mm_AP",
+        "v105_8Rnd_20mm_HE"
+    };
 };
 	
 /*
@@ -200,7 +203,7 @@ class v105_cannon_120mm_AP: cannon_120mm
         "12Rnd_120mm_APFSDS_shells",
         "12Rnd_120mm_APFSDS_shells_Tracer_Red",
         "12Rnd_120mm_APFSDS_shells_Tracer_Green",
-        "12Rnd_120mm_APFSDS_shells_Tracer_Yellow",
+        "12Rnd_120mm_APFSDS_shells_Tracer_Yellow"
     };
 };
 class v105_cannon_120mm_GP: cannon_120mm
@@ -591,8 +594,6 @@ class v105_FalconGL : GMG_40mm
     autoFire=true;
 };
 
-
-
 // Pelican Ordnances
 
 class OPTRE_M638;
@@ -807,7 +808,7 @@ class v105_HOT_Generic_Launcher:ace_hot_generic_launcher
         "v105_hot_2mp_6Rnd",
         "v105_hot_2mp_2Rnd",
         "v105_hot_3_6Rnd",
-        "v105_hot_3_2Rnd"
+        "v105_hot_3_2Rnd",
     };
 };
 class ace_hellfire_launcher;
@@ -824,5 +825,18 @@ class v105_ace_hellfire_launcher: ace_hellfire_launcher
 class OPTRE_M6_Laser;
 class v105_M6_Laser: OPTRE_M6_Laser
 {
-    magazines[]={"v105_SpLaser_Battery"};
+    magazines[]=
+    {
+        "v105_SpLaser_Battery"
+    };
+};
+
+class FIR_AGM84H;
+class v105_AGM84: FIR_AGM84H
+{
+    magazines[]=
+    {
+        "v105_AGM84H_P_1rnd_M",
+        "v105_AGM84K_P_1rnd_M"
+    };
 };

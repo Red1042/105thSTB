@@ -57,7 +57,7 @@ class v105_Vehicle_VehicleSpawner_UI
         {
 	        idc = 1603;
     	    text = "Despawn";
-    	    action = "[(uiNamespace getVariable ['v105_Vehicle_VehicleSpawner_Pad',nil])] call v105_Vehicles_fnc_DespawnVehicle; ((uiNamespace getVariable ""v105_Vehicle_VehicleSpawner_UI"") displayCtrl 1003) ctrlSetText ""None"";";
+    	    action = "[if(!((uiNamespace getVariable ['v105_Vehicle_VehicleSpawner_Pad',nil])] call v105_Vehicles_fnc_DespawnVehicle;)) exitWith {}; ((uiNamespace getVariable ""v105_Vehicle_VehicleSpawner_UI"") displayCtrl 1003) ctrlSetText ""None"";";
     	    x = 0.634062 * safezoneW + safezoneX;
             y = 0.687 * safezoneH + safezoneY;
     	    w = 0.061875 * safezoneW;

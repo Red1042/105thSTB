@@ -34,7 +34,7 @@ class HalfAirbrakeEngageFast
 class Thruster400Engage
 {
 	animPeriod=5;
-	condition="(!(this getvariable [""OPTRE_Thruster_EngagedStatus"",false])) AND (!(this getvariable [""OPTRE_Afterburners_EngagedStatus"",false])) AND (player == driver this) AND (alive this) AND (isEngineOn this) AND  (((getPosATL this) select 2) > 1) AND (_vehicle getHitPointDamage ""hithull"" < 0.55)";
+	condition="(!(this getvariable [""OPTRE_Thruster_EngagedStatus"",false])) AND (!(this getvariable [""OPTRE_Afterburners_EngagedStatus"",false])) AND (player == driver this) AND (alive this) AND (isEngineOn this) AND  (((getPosATL this) select 2) > 1) AND (_vehicle getHitPointDamage ""hithull"" < 0.5)";
 	displayName="<t color='#04B45F'>Engage Forward Thrusters";
 	displayNameDefault="<t color='#04B45F'>Engage Forward Thrusters";
 	onlyForPlayer=0;

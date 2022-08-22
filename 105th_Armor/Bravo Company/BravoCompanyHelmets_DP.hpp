@@ -316,3 +316,36 @@
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
     	};
     };
+
+	class BCOMP_CO_BSmith_ODST_dp: VES_CH252D_dp
+    {
+    	author="S-4 Logistics";
+    	displayName="[ODST] CH252D Helmet (B. Smith)";
+    	hiddenSelectionsTextures[]=
+    	{
+    		"105th_Armor\Bravo Company\data\Helmets\BSmi_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+    	};
+    };
+
+	class BCOMP_CO_MSmith_ODST_dp: VES_CH252D_dp
+    {
+    	author="S-4 Logistics";
+    	displayName="[ODST] CH252D Helmet (M. Smith)";
+    	hiddenSelectionsTextures[]=
+    	{
+    		"105th_Armor\Bravo Company\data\Helmets\MSmi_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+    	};
+    };
+
+	class BCOMP_CO_CMcDaniel_ODST_dp: VES_CH252D_dp
+    {
+    	author="S-4 Logistics";
+    	displayName="[ODST] CH252D Helmet (McDaniel)";
+    	hiddenSelectionsTextures[]=
+    	{
+    		"105th_Armor\Bravo Company\data\Helmets\CMcD_CH252D_DEF_CO.paa",
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
+    	};
+    };

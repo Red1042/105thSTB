@@ -271,46 +271,49 @@ class v105_Pelican_Base: OPTRE_Pelican_F
             };
             class OpticsIn
             {
-                class Wide
-                {
-                    directionStabilized = 1;
-
-                    initAngleX=0;
-                    minAngleX=-30;
-                    maxAngleX=30;
-                    initAngleY=0;
-                    minAngleY=-100;
-                    maxAngleY=100;
-                    initFov=0.46599999;
-                    minFov=0.46599999;
-                    maxFov=0.46599999;
-
-                    opticsDisplayName="WFOV";
-                    visionMode[]=
-                    {
-                        "Normal",
-                        "NVG",
-                        "Ti"
-                    };
-                    thermalMode[]={0,1};
-                    gunnerOpticsModel="A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_wide_F";
-                };
-                class Medium: Wide
-                {
-                    initFov=0.093000002;
-                    minFov=0.093000002;
-                    maxFov=0.093000002;
-                    opticsDisplayName="MFOV";
-                    gunnerOpticsModel="A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_medium_F";
-                };
-                class Narrow: Wide
-                {
-                    initFov=0.028999999;
-                    minFov=0.028999999;
-                    maxFov=0.028999999;
-                    opticsDisplayName="NFOV";
-                    gunnerOpticsModel="A3\Weapons_F_Beta\Reticle\Heli_Attack_01_Optics_Gunner_narrow_F";
-                };
+				class Wide
+				{
+					opticsDisplayName="WFOV";
+					initAngleX=0;
+					minAngleX=0;
+					maxAngleX=0;
+					initAngleY=0;
+					minAngleY=0;
+					maxAngleY=0;
+					initFov="(75 / 120)";
+					minFov="(75 / 120)";
+					maxFov="(75 / 120)";
+					directionStabilized=1;
+					visionMode[]=
+					{
+						"Normal",
+						"NVG",
+						"Ti"
+					};
+					thermalMode[]={0,1};
+					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_wide_F.p3d";
+					opticsPPEffects[]=
+					{
+						"OpticsCHAbera2",
+						"OpticsBlur2"
+					};
+				};
+				class Medium: Wide
+				{
+					opticsDisplayName="MFOV";
+					initFov="(14.4 / 120)";
+					minFov="(14.4 / 120)";
+					maxFov="(14.4 / 120)";
+					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_medium_F.p3d";
+				};
+				class Narrow: Wide
+				{
+					opticsDisplayName="NFOV";
+					initFov="(4.8 / 120)";
+					minFov="(4.8 / 120)";
+					maxFov="(4.8 / 120)";
+					gunnerOpticsModel="\A3\Drones_F\Weapons_F_Gamma\Reticle\UAV_Optics_Gunner_narrow_F.p3d";
+				};
             };
             class OpticsOut
             {
@@ -523,7 +526,8 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                 };
                 class pylons2: pylons1
                 {
-                    hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs"};
+                    hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs","105th_SLAM-ERs"};
+                    maxweight = 400;
                     UIposition[]={0.1,0.20};
                 };
                 class pylons3: pylons1
@@ -537,10 +541,10 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                 };
                 class pylons4: pylons1
                 {
-                    hardpoints[] = {"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs"};
+                    hardpoints[] = {"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs","105th_SLAM-ERs"};
                     priority = 5;
                     attachment = "v105_FIR_Hydra_P_7rnd_M";
-                    maxweight = 300;
+                    maxweight = 400;
                     UIposition[] = {0.1,0.40};
                     bay = -1;
                     mirroredMissilePos=2;
@@ -642,8 +646,8 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                 {
                     class AirTarget
                     {
-                        minRange=4000;
-                        maxRange=4000;
+                        minRange=5000;
+                        maxRange=5000;
                         objectDistanceLimitCoef=-1;
                         viewDistanceLimitCoef=-1;
                     };
@@ -720,7 +724,10 @@ class v105_Pelican_Base: OPTRE_Pelican_F
             };
         };
     };
-    #include "cfg\PelicanActions.hpp"
+    class UserActions
+    {
+        #include "cfg\PelicanActions.hpp"
+    };
     class VehicleSpawnerInfo
     {
         scope=0;

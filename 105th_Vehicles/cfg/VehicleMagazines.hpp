@@ -267,12 +267,12 @@ class FIR_LZuni_P_8rnd_M;
 
 class v105_FIR_AIM9X_P_2rnd_M: FIR_AIM9X_P_2rnd_M
 {
-    hardpoints[] = {"105th_AA_Missiles" };
+    hardpoints[] = {"105th_AA_Missiles"};
     pylonWeapon = "v105_FIR_AIM9X";
 };
 class v105_FIR_AIM120B_LAU115_P_1rnd_M: FIR_AIM120B_LAU115_P_1rnd_M
 {
-    hardpoints[] = {"105th_AA_Missiles" };
+    hardpoints[] = {"105th_AA_Missiles"};
     pylonWeapon = "v105_FIR_AIM120";
 };
 // AGM65s
@@ -487,98 +487,98 @@ class v105_FIR_Hydra_WP_P_21rnd_M: FIR_Hydra_WP_P_21rnd_M
 class v105_FIR_APKWS_P_7rnd_M:  FIR_APKWS_P_7rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
+    {
+        "v105_GuidedRockets"
+    };
     pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class v105_FIR_APKWS_P_19rnd_M: FIR_APKWS_P_19rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class  v105_FIR_APKWS_P_14rnd_M: FIR_APKWS_P_14rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class  v105_FIR_APKWS_P_38rnd_M: FIR_APKWS_P_38rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class v105_FIR_APKWS_M247_P_7rnd_M: FIR_APKWS_M247_P_7rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class v105_FIR_APKWS_M247_P_19rnd_M: FIR_APKWS_M247_P_19rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class  v105_FIR_APKWS_M247_P_14rnd_M: FIR_APKWS_M247_P_14rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class  v105_FIR_APKWS_M247_P_38rnd_M: FIR_APKWS_M247_P_38rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class v105_FIR_APKWS_M282_P_7rnd_M: FIR_APKWS_M282_P_7rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class v105_FIR_APKWS_M282_P_19rnd_M: FIR_APKWS_M282_P_19rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class  v105_FIR_APKWS_M282_P_14rnd_M: FIR_APKWS_M282_P_14rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 class  v105_FIR_APKWS_M282_P_38rnd_M: FIR_APKWS_M282_P_38rnd_M
 {
     hardpoints[] =
-                {
-                    "v105_GuidedRockets"
-                };
-                pylonWeapon = "v105_FIR_APKWS_Launcher";
+    {
+        "v105_GuidedRockets"
+    };
+    pylonWeapon = "v105_FIR_APKWS_Launcher";
 };
 // Zuni HE
 class v105_FIR_Zuni_P_8rnd_M: FIR_Zuni_P_8rnd_M
@@ -911,4 +911,26 @@ class v105_SpLaser_Battery: OPTRE_SpLaser_Battery
     reloadSound[] = {"\ca\Weapons\Data\Sound\gun125reload", 1, 1};
     ammo="v105_SpLaserAmmo";
     count=25;
+};
+
+class FIR_AGM84H_P_1rnd_M;
+class v105_AGM84H_P_1rnd_M: FIR_AGM84H_P_1rnd_M
+{
+	displayName = "AGM-84H SLAM-ER";
+	displayNameShort = "AGM-84H";
+	initSpeed = 50;
+	mass = 390;
+    hardpoints[]={"105th_SLAM-ERs"};
+    pylonWeapon = "v105_AGM84";
+};
+
+class FIR_AGM84K_P_1rnd_M;
+class v105_AGM84K_P_1rnd_M: FIR_AGM84K_P_1rnd_M
+{
+	displayName = "AGM-84K SLAM-ER";
+	displayNameShort = "AGM-84K";
+	initSpeed = 50;
+	mass = 390;
+    hardpoints[]={"105th_SLAM-ERs"};
+    pylonWeapon = "v105_AGM84";
 };

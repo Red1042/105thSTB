@@ -1,6 +1,7 @@
 disableSerialization;
 
 params["_targetName"];
+uiNamespace setVariable ["v105_Admin_loadingMenu",true];
 
 closeDialog 0;
 _display = createDialog ["v105_Admin_ViewUser_UI",true];
@@ -67,3 +68,5 @@ _mods = _target getVariable ["activeMods",[]];
         _listCtrlMods lbSetColor [_index,[1,0,0,1]]
     };
 } forEach _mods;
+
+uiNamespace setVariable ["v105_Admin_loadingMenu",false];

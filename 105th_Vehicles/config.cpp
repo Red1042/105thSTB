@@ -142,6 +142,7 @@ class CfgPatches
 			"v105_FIR_AGM154",
 			"v105_FIR_AGM88",
 			"v105_FIR_mk82_Snakeye_Launcher",
+			"v105_AGM84H",
 			// SparrowHawk
 			"v105_M6_Laser"
 		};
@@ -253,6 +254,9 @@ class CfgPatches
 			"v105_FIR_AGM154C_P_1rnd_M",
 			"v105_FIR_AGM88_P_1rnd_M",
 			"v105_FIR_ASM2_P_2rnd_M",
+
+			"v105_AGM84K_P_1rnd_M",
+
 			//SparrowHawk Ordnance
 			"v105_SpLaser_Battery"
 		};

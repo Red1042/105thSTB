@@ -24,7 +24,7 @@ class XtdGearModels
             options[] = {"Owner"};
             class owner
             {
-                values[] = {"Rookie","Barkley","Barrier","Bman","Brady","Bulck","Canley","Coleman","Collins","Cruz","Dubbo","Helms","Kynx","Luke","Midreus","Mokes","Nostra","Nungester","Oswald","Ramos","Richter","Ronin","Sevarach","Smith","Swoner","Vargas","Varner","Virus","Wells","Winters"};
+                values[] = {"Rookie","Barkley","Barrier","Bman","Brady","Bulck","Canley","Coleman","Collins","Cruz","Dubbo","Helms","Kynx","Luke","McDaniel","Midreus","Mokes","Nostra","Nungester","Oswald","Ramos","Richter","Ronin","Sevarach","Smith (B)","Smith (M)","Swoner","Vargas","Varner","Virus","Wells","Winters"};
             };
         };
 

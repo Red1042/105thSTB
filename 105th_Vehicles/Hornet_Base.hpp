@@ -45,6 +45,7 @@ class v105_AV14_Base: VES_AV14
 		backRotorForceCoef = 1.75;
 		class UserActions
 		{
+		    #include "cfg\UtilityActions.hpp"
 		    #include "cfg\ThrusterActions.hpp"
 		};
 		class Components: Components
