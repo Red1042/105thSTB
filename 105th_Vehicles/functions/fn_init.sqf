@@ -51,6 +51,11 @@ v105_VehicleSpawnerData = createHashMap;
 // TODo: Setup different Skins for Types if alternativeData is present
 
 
+
+/*
+    CBA Settings for 105th Vehicles
+*/
+
 ["105th Vehicles", "v105_Vehicles_ThrustersUp", ["Thrusters Up", "Thrusters go up a tier (none > forward > afterburners)"], {
     private ["_vic"];
     _vic = (vehicle player);

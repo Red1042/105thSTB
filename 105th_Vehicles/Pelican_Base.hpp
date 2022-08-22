@@ -537,26 +537,15 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                     attachment = "v105_FIR_Mk83_GP_Navy_P_1rnd_M";
                     maxweight = 2000;
                     UIposition[] = {0.1,0.30};
-                    bay = -1;
                 };
-                class pylons4: pylons1
+                class pylons4: pylons2
                 {
-                    hardpoints[] = {"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs","105th_SLAM-ERs"};
-                    priority = 5;
-                    attachment = "v105_FIR_Hydra_P_7rnd_M";
-                    maxweight = 400;
                     UIposition[] = {0.1,0.40};
-                    bay = -1;
                     mirroredMissilePos=2;
                 };
-                class pylons5:pylons1
+                class pylons5: pylons1
                 {
-                    hardpoints[] = {"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility"};
-                    priority = 5;
-                    attachment = "v105_FIR_Hydra_P_7rnd_M";
-                    maxweight = 300;
                     UIposition[] = {0.1,0.50};
-                    bay = -1;
                     mirroredMissilePos=1;
                 };
             };

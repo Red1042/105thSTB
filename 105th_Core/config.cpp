@@ -121,6 +121,7 @@ class CfgEditorSubcategories
 		displayName = "Turrets";
 	};
 };
+
 class CfgFunctions
 {
 	class V_FZ
@@ -143,6 +144,5 @@ class CfgFunctions
 		{
 			class FalconAddMedicalPod{file = "105th_Core\functions\fn_FalconAddMedicalPod.sqf";};
 		};
-		
 	};
 };

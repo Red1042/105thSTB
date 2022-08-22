@@ -1,7 +1,7 @@
 class v105_AV14_CAS;
 class v105_D77HTCI_AV_40mmCannon_Pelican;
 
-class v105_URF_AV14_CAS:v105_AV14_CAS
+class v105_URF_AV14_CAS: v105_AV14_CAS
 {
 	side=0;
 	scope=2;
@@ -22,7 +22,7 @@ class v105_URF_AV14_CAS:v105_AV14_CAS
 };
 
 
-class v105_URF_D77HTCI_A:v105_D77HTCI_AV_40mmCannon_Pelican
+class v105_URF_D77HTCI_A: v105_D77HTCI_AV_40mmCannon_Pelican
 {
 	side=0;
 	scope=2;
