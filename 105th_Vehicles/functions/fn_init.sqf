@@ -127,15 +127,6 @@ v105_VehicleSpawnerData = createHashMap;
     _vic = (vehicle player);
     if(_vic == player) exitWith {};
     if(!(player in _vic) or (speed _vic > 1)) exitWith {};
-    _vic execVM \FIR_AirWeaponSystem_US\Script\AMS\AMS_Lite\AMS_Lite_GUI_Open.sqf";
-}, {
-}, [nil, [false, false, false]]] call CBA_fnc_addKeybind;
-
-["105th Vehicles", "v105_Vehicles_OpenAMSMenu", ["Open AMS Menu", "Allows quick access to the AMS Menu"], {
-    private ["_vic"];
-    _vic = (vehicle player);
-    if(_vic == player) exitWith {};
-    if(!(player in _vic) or (speed _vic > 1)) exitWith {};
     _vic execVM "\FIR_AirWeaponSystem_US\Script\AMS\AMS_Lite\AMS_Lite_GUI_Open.sqf";
 }, {
 }, [nil, [false, false, false]]] call CBA_fnc_addKeybind;
