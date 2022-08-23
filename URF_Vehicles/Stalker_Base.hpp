@@ -8,7 +8,7 @@ class v105_URF_APC_Stalker_A:O_APC_Tracked_02_cannon_F
 		scope=2;
 		scopeCurator=2;
 		displayName="BMP-VI Stalker IIA";
-		crew="O_OURFArmy_Crewman_01";
+		crew="v105_URFArmy_Crewman_01"
 		editorCategory="v105_EdCat_URF";
         editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		faction = "v105_URF_EnhancedVehicles";
@@ -77,7 +77,7 @@ class v105_URF_APC_Stalker_B:O_APC_Tracked_02_cannon_F
 		scope=2;
 		scopeCurator=2;
 		displayName="BMP-VI Stalker IIB";
-		crew="O_OURFArmy_Crewman_01";
+		crew="v105_URFArmy_Crewman_01"
 		editorCategory="v105_EdCat_URF";
         editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		armor=500;

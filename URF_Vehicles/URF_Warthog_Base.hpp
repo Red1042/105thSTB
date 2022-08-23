@@ -29,7 +29,7 @@ class v105_URF_M12_Hydra: OPTRE_M12A1_LRV
 		scopeCurator=2;
 		side=0;
 		displayName="M12 Warthog (Hydras)";
-		crew="O_OURFArmy_Crewman_01";
+		crew="v105_URFArmy_Crewman_01"
 		editorCategory="v105_EdCat_URF";
         editorSubcategory="v105_URF_EdSubCat_Motorized";
 		
@@ -72,7 +72,7 @@ class v105_URF_M12_SPG:OPTRE_M12G1_LRV
 		scopeCurator=2;
 		side=0;
 		displayName="M12 Warthog (SPG)";
-		crew="O_OURFArmy_Crewman_01";
+		crew="v105_URFArmy_Crewman_01"
 		editorCategory="v105_EdCat_URF";
         editorSubcategory="v105_URF_EdSubCat_Motorized";
 		

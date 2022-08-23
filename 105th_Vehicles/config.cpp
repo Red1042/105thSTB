@@ -267,7 +267,7 @@ class CfgPatches
 		requiredVersion = 1.0;
 		requiredAddons[] = 
 		{
-			"105th_Core",
+			"v105_Core",
 			"OPTRE_Misc_Crates",
 			"OPTRE_Modules",
 			"OPTRE_Vehicles",

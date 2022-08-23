@@ -69,7 +69,7 @@ class CfgPatches
 		requiredVersion = 1.0;
 		requiredAddons[] = 
 		{
-			"105th_Core",
+			"v105_Core",
 			//"O_URFArmy",
 			"OPTRE_Misc_Crates",
 			"OPTRE_Modules",

@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class v105_N4_SupplyPods
+	class v105_SupplyPods
 	{
 		author=	"105th | S-4 Logistics";
 		name = "105th SupplyPods";
@@ -39,7 +39,7 @@ class CfgPatches
 		requiredAddons[] = 
 		{
 
-			"105th_Core",
+			"v105_Core",
 			
 			"OPTRE_Misc_Crates",
 			"OPTRE_Modules",

@@ -11,7 +11,7 @@ class v105_URF_MBT_Sochor: O_MBT_02_arty_F
 		scope=2;
 		scopeCurator=2;
 		displayName="SPG-534 Sochor II ";
-		crew="O_OURFArmy_Crewman_01";
+		crew="v105_URFArmy_Crewman_01"
 		editorCategory="v105_EdCat_URF";
         editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		faction = "v105_URF_EnhancedVehicles";
