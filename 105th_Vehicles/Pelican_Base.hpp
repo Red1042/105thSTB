@@ -514,7 +514,7 @@ class v105_Pelican_Base: OPTRE_Pelican_F
             UIPicture="\OPTRE_Vehicles\Pelican\pelicanPylonPic.paa";
             class pylons
             {
-                class pylons1
+                class pylons1   //  Outer
                 {
                     maxweight=300;
                     hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility"};
@@ -524,13 +524,13 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                     UIposition[]={0.1,0.10};
                     turret[]={};
                 };
-                class pylons2: pylons1
+                class pylons2: pylons1  // Inner
                 {
                     hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs","105th_SLAM-ERs"};
                     maxweight = 400;
                     UIposition[]={0.1,0.20};
                 };
-                class pylons3: pylons1
+                class pylons3: pylons1  //  Center
                 {
                     hardpoints[] = {"105th_PelicanBomb","FIR_F16_Under_HP"};
                     priority = 5;
@@ -538,12 +538,12 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                     maxweight = 2000;
                     UIposition[] = {0.1,0.30};
                 };
-                class pylons4: pylons2
+                class pylons4: pylons2  //  Inner
                 {
                     UIposition[] = {0.1,0.40};
                     mirroredMissilePos=2;
                 };
-                class pylons5: pylons1
+                class pylons5: pylons1  //  Outer
                 {
                     UIposition[] = {0.1,0.50};
                     mirroredMissilePos=1;

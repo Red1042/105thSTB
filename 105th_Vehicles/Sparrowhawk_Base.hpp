@@ -44,6 +44,8 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 	reportRemoteTargets=1;
 	reportOwnPosition=1;
 	showAllTargets=2;
+	memoryPointLMissile="exhaust1";
+    memoryPointRMissile="exhaust2";
     model="OPTRE_Vehicles\Sparrowhawk\Sparrowhawk.p3d";
     icon="OPTRE_Vehicles\Pelican\Data\icon.paa";
     picture="OPTRE_Vehicles\Pelican\Data\icon2.paa";
@@ -62,10 +64,11 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 		"camo11",
 		"camo12",
 		"camo13",
-		"attach_Pylons",
+		//"attach_Pylons",
 		//"attach_noseCannon",
 		"attach_noseLaser",
-		"attach_CannonHeavy",
+		//"attach_CannonHeavy",
+		"attach_CannonLight",
 		"attach_Decal1",
 		"attach_Decal2"
 	};
@@ -152,10 +155,10 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 			};
 			magazines[]=
 			{
+				"OPTRE_100Rnd_50mm_HE",
 				"OPTRE_100Rnd_50mm_APFSDS",
 				"OPTRE_100Rnd_50mm_APFSDS",
-				"OPTRE_100Rnd_50mm_HE",
-				"OPTRE_100Rnd_50mm_HE",
+				"OPTRE_100Rnd_50mm_APFSDS",
 				"Laserbatteries"
 			};
 			minElev=-80;
@@ -321,8 +324,6 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 		};
 	};
 	memoryPointDriverOptics="Light_L";
-	memoryPointLMissile="Rocket_1";
-	memoryPointRMissile="Rocket_2";
 	unitInfoType="RscOptics_CAS_Pilot";
 	driverWeaponsInfoType="RscOptics_CAS_01_TGP";
 
@@ -401,7 +402,6 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 	};
 	class UserActions
 	{
-	    #include "cfg\UtilityActions.hpp"
 		#include "cfg\ThrusterActions.hpp"
 	};
     class Components : Components
@@ -411,40 +411,50 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 			UIPicture="OPTRE_Vehicles\Sparrowhawk\sparrowhawkPylonImage.paa";
 				class pylons
 				{
-					class WingPylonRight1
+					class WingPylonRight1 // Outer
 					{
 						maxweight=560;
 						hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs"};
 						attachment="v105_FIR_Hydra_P_7rnd_M";
 						bay=-1;
 						priority=3;
-						UIposition[]={0.34999999,0.1};
+						UIposition[]={0.35,0.12};
 						turret[]={};
 					};
-					class WingPylonRight2: WingPylonRight1
+					class WingPylonRight2: WingPylonRight1 // Middle
 					{
 						priority=2;
-						UIposition[]={0.30000001,0.134};
+						UIposition[]={0.3,0.16};
 					};
-					class WingPylonRight3: WingPylonRight1
+					class WingPylonRight3: WingPylonRight1 // Inner
 					{
 						priority=1;
-						UIposition[]={0.34999999,0.167};
+						UIposition[]={0.35,0.2};
 					};
-					class WingPylonLeft3: WingPylonRight3
+					class pylons3 // Center
+					{
+						hardpoints[] = {"v105_SparrowHawk_Center", "105th_PelicanBomb"};
+						priority = 5;
+						attachment = "v105_FIR_AIM9X_EWP_4rnd_M";
+						maxweight = 2000;
+						UIposition[] = {0.3,0.29};
+                        bay = -1; // Ignore bay -1 but keep
+						turret[]={};
+					};
+					class WingPylonLeft3: WingPylonRight3 // Inner
 					{
 						mirroredMissilePos=3;
-						UIposition[]={0.34999999,0.40000001};
+						UIposition[]={0.35,0.38};
 					};
-					class WingPylonLeft2: WingPylonRight2
+					class WingPylonLeft2: WingPylonRight2 //	Middle
 					{
 						mirroredMissilePos=2;
-						UIposition[]={0.30000001,0.43399999};
+						UIposition[]={0.3,0.42};
 					};
-					class WingPylonLeft1: WingPylonRight1
+					class WingPylonLeft1: WingPylonRight1	//	Outer
 					{
 						mirroredMissilePos=1;
-						UIposition[]={0.34999999,0.46700001};
+						UIposition[]={0.35,0.46};
 					};
 				};
        };
@@ -647,21 +657,16 @@ class v105_AVXXN_Laser_SparrowHawk: v105_Sparrowhawk_Base
 		{
 			weapons[]=
 			{
-				"v105_M6_Laser",
+				"OPTRE_M6_Laser",
 				"Laserdesignator_mounted"
 			};
 			magazines[]=
 			{
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
-				"v105_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
+				"OPTRE_SpLaser_Battery",
 				"Laserbatteries"
 			};
 		};

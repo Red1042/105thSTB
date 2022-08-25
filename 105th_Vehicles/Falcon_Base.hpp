@@ -186,7 +186,45 @@
 		    #include "cfg\UtilityActions.hpp"
 		    #include "cfg\ThrusterActions.hpp"
 		};
-
+        class Components: Components
+        {
+            class TransportCountermeasuresComponent;
+            class TransportPylonsComponent
+            {
+				UIPicture=  "\OPTRE_Vehicles\falcon\FalconPylonPic.paa";
+                class pylons
+                {
+                    class pylons1 //    Outer
+                    {
+                        hardpoints[] = {"v105_UnguidedRockets","105th_HOTs","v105_Sidewinder_Single"};
+                        attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
+                        priority = 6;
+                        maxweight = 600;
+                        UIposition[] = {0.29,0.1};
+                        bay = 1;
+                    };
+                    class pylons2: pylons1  //  Center
+                    {
+                        hardpoints[] = {"105th_HOTs",};
+                        priority = 6;
+                        attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
+                        maxweight = 600;
+                        UIposition[] = {0.25,0.4};
+                        mirroredMissilePos = 1;
+                        bay = 1;
+                    };
+                    class pylons3: pylons1  //  Outer
+                    {
+                        hardpoints[] = {"v105_UnguidedRockets","105th_HOTs","v105_Sidewinder_Single"};
+                        priority = 5;
+                        attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
+                        maxweight = 600;
+                        UIposition[] = {0.29,0.3};
+                        bay = 1;
+                    };
+                };
+            };
+        };
 		class VehicleSpawnerInfo
 		{
 		    scope=0;

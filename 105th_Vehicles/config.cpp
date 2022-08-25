@@ -166,6 +166,8 @@ class CfgPatches
 			"v105_50Rnd_82mm_shells",
 			//Pelican Ordnance
 			"v105_OPTRE_M638",
+			"v105_FIR_AIM9X_P_1rnd_M",
+            "v105_FIR_AIM9X_EWP_4rnd_M",
 			"v105_FIR_AIM9X_P_2rnd_M",
 			"v105_FIR_AIM120B_LAU115_P_1rnd_M",
 			"v105_FIR_AGM65D_P_3rnd_M",
@@ -267,7 +269,7 @@ class CfgPatches
 		requiredVersion = 1.0;
 		requiredAddons[] = 
 		{
-			"105th_Core",
+			"v105_Core",
 			"OPTRE_Misc_Crates",
 			"OPTRE_Modules",
 			"OPTRE_Vehicles",

@@ -53,9 +53,10 @@ class v105_AV14_Base: VES_AV14
         class TransportCountermeasuresComponent;
         class TransportPylonsComponent
         {
+            UIPicture=  "\105th_Vehicles\textures\Pylons\HornetPylonUI.paa";
             class pylons
             {
-                class pylons1
+                class pylons1 //    Outer
                 {
                     hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet","Pelican_Utility"};
                     attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
@@ -64,7 +65,7 @@ class v105_AV14_Base: VES_AV14
                     UIposition[] = {0.5,0.4};
                     bay = 1;
                 };
-                class pylons2: pylons1
+                class pylons2: pylons1  //  Inner
                 {
                     hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet","Pelican_Utility"};
                     priority = 6;
@@ -74,7 +75,7 @@ class v105_AV14_Base: VES_AV14
                     mirroredMissilePos = 1;
                     bay = 1;
                 };
-                class pylons3: pylons1
+                class pylons3: pylons1  //  Outer
                 {
                     hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet","Pelican_Utility"};
                     priority = 5;
@@ -83,7 +84,7 @@ class v105_AV14_Base: VES_AV14
                     UIposition[] = {0.4,0.35};
                     bay = 1;
                 };
-                class pylons4: pylons1
+                class pylons4: pylons1  //  Inner
                 {
                     hardpoints[] = {"v105_UnguidedRockets","v105_GuidedRockets","105th_HOTs","105th_Hellfires","105th_AA_Missiles","105th_Hornet","Pelican_Utility"};
                     priority = 5;
@@ -93,7 +94,7 @@ class v105_AV14_Base: VES_AV14
                     bay = 1;
                     mirroredMissilePos = 3;
                 };
-                class pylons5: pylons1
+                class pylons5: pylons1  //  Center
                 {
                     hardpoints[] = {"v105_Gunpods"};
                     priority = 5;
