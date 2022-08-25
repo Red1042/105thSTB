@@ -1,21 +1,32 @@
 class CfgPatches
 {
-	class 105th_Core
+	class v105_Core
 	{
 		author="105th | S-4 Logistics";
 		name="105th Core Assets and Units";
 		url="";
-		units[]={};
+		units[]=
+		{
+		    "v105_URFArmy_Pilot_01",
+		    "v105_URFArmy_Crewman_01"
+		};
 		weapons[]={};
 		magazines[]={};
 		ammo[]={};
 		requiredVersion=1.0;
-		 requiredAddons[] = 
-			{
-           		"V_FZ_Core"
-        	};
+		requiredAddons[] =
+        {
+            "OPTRE_Weapons",
+            "V_FZ_Core"
+        };
 	};
 };
+
+class CBA_Extended_EventHandlers_base;
+class CfgVehicles {
+    #include "Units.hpp"
+};
+
 class CfgFactionClasses {
     // Vehicles Category
     class v105_URF_EnhancedVehicles {

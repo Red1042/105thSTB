@@ -11,7 +11,7 @@ class v105_URF_AA_Tigris: O_APC_Tracked_02_AA_F
 		scope=2;
 		scopeCurator=2;
 		displayName="ZSU-35 Tigris II";
-		crew="O_OURFArmy_Crewman_01";
+		crew="v105_URFArmy_Crewman_01"
 		editorCategory="v105_EdCat_URF";
         editorSubcategory="v105_URF_EdSubCat_Mechanized";
 		faction = "v105_URF_EnhancedVehicles";

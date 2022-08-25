@@ -11,8 +11,8 @@ class v105_URF_AV14_CAS: v105_AV14_CAS
 	editorCategory="v105_EdCat_URF";
 	editorSubcategory="v105_URF_EdSubCat_Aircraft";
 	faction = "v105_URF_EnhancedVehicles";
-			
-	crew="O_OURFArmy_Pilot_01";
+
+	crew="v105_URFArmy_Pilot_01"
 	class TransportItems{};
 	hiddenSelectionsTextures[]=
 	{
@@ -33,7 +33,7 @@ class v105_URF_D77HTCI_A: v105_D77HTCI_AV_40mmCannon_Pelican
 	editorSubcategory="v105_URF_EdSubCat_Aircraft";
 	faction = "v105_URF_EnhancedVehicles";
 
-	crew="O_OURFArmy_Pilot_01";
+	crew="v105_URFArmy_Pilot_01"
 	class TransportItems{};
 	hiddenSelectionsTextures[]=
 	{
