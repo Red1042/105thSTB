@@ -167,8 +167,8 @@ class CfgPatches
 			//Pelican Ordnance
 			"v105_OPTRE_M638",
 			"v105_FIR_AIM9X_P_1rnd_M",
-            "v105_FIR_AIM9X_EWP_4rnd_M",
 			"v105_FIR_AIM9X_P_2rnd_M",
+            "v105_FIR_AIM9X_EWP_4rnd_M",
 			"v105_FIR_AIM120B_LAU115_P_1rnd_M",
 			"v105_FIR_AGM65D_P_3rnd_M",
 			"v105_FIR_AGM65B_P_3rnd_M",

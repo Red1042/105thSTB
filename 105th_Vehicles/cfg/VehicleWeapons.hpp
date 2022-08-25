@@ -645,7 +645,7 @@
 				magazines[]=
 				{
 				    "v105_FIR_AIM9X_P_2rnd_M", "v105_FIR_AIM9X_P_1rnd_M",
-				    "v105_FIR_AIM9X_EWP_4rnd_M", "v105_FIR_AIM9X_P_1rnd_M"
+				    "v105_FIR_AIM9X_EWP_4rnd_M"
 				};
 				cmImmunity=1;
 			};

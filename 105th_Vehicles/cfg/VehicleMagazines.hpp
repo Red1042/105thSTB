@@ -267,24 +267,24 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_Zuni_Mk32_P_8rnd_M;
 	class FIR_LZuni_P_8rnd_M;
 
-	class v105_FIR_AIM9X_EWP_4rnd_M: FIR_AIM9X_EWP_4rnd_M;
-	{
-		hardpoints[]= {"v105_Pelican_Center", "v105_SparrowHawk_Center"};
-		pylonWeapon[]= {"v105_FIR_AIM9X"};
-	};
-	class v105_FIR_AIM9X_P_1rnd_M: FIR_AIM9P_P_1rnd_M;
+	class v105_FIR_AIM9X_P_1rnd_M: FIR_AIM9P_P_1rnd_M
 	{
 		hardpoints[]= {"v105_Sidewinder_Single"};
-		pylonWeapon[]= {"v105_FIR_AIM9X"};
+		pylonWeapon= "v105_FIR_AIM9X";
 	};
 	class v105_FIR_AIM9X_P_2rnd_M: FIR_AIM9X_P_2rnd_M
 	{
-		hardpoints[] = {"105th_AA_Missiles" };
+		hardpoints[] = {"105th_AA_Missiles"};
 		pylonWeapon = "v105_FIR_AIM9X";
+	};
+	class v105_FIR_AIM9X_EWP_4rnd_M: FIR_AIM9X_EWP_4rnd_M
+	{
+		hardpoints[]= {"v105_Pelican_Center", "v105_SparrowHawk_Center"};
+		pylonWeapon= "v105_FIR_AIM9X";
 	};
 	class v105_FIR_AIM120B_LAU115_P_1rnd_M: FIR_AIM120B_LAU115_P_1rnd_M
 	{
-		hardpoints[] = {"105th_AA_Missiles" };
+		hardpoints[] = {"105th_AA_Missiles"};
 		pylonWeapon = "v105_FIR_AIM120";
 	};
 	// AGM65s
