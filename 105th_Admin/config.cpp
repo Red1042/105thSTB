@@ -54,6 +54,7 @@ class CfgFunctions
 #include "\a3\ui_f\hpp\definecommongrids.inc"
 #include "defines.hpp"
 #include "ui\adminViewUserUI.hpp"
+#include "ui\adminMainUI.hpp"
 
 class RscTitles
 {
