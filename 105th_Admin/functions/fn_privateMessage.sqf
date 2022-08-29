@@ -1,6 +1,6 @@
 params ["_targetName","_text"];
 if(_text isEqualTo "") exitWith {};
-_text = (parseText _text);
+_text = (parseText ("[Admin Message]<br />" + _text));
 
 if(_targetName isEqualTo "[Admins]") exitWith {
     [_text] remoteExec ["v105_Admin_fnc_AdminHint"];
