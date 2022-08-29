@@ -83,7 +83,7 @@ class VC497_GSturmischer_M52A_AVI: VES_M52A_MAR_Rifleman_B
 	    	"AP_MGThigh",
 	    	"AP_AR",
 	    //	"AP_BR",
-	    	"AP_Pack",
+	    //	"AP_Pack",
 	    //	"AP_Pistol",
 	    	"AP_Rounds",
 	    	"AP_SG",

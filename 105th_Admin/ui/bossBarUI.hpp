@@ -1,10 +1,3 @@
-/* #Rimeri
-$[
-	1.063,
-	["BossBars",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,1],
-	[1001,"",[1,"Jimmy the giant",["0.438125 * safezoneW + safezoneX","0.016 * safezoneH + safezoneY","0.12375 * safezoneW","0.044 * safezoneH"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","2"],[]]
-]
-*/
 class RscProgressBar
 {
 	type = 8;

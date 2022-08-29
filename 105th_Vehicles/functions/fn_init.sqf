@@ -91,7 +91,7 @@ v105_VehicleSpawnerData = createHashMap;
 ["105th Vehicles", "v105_Vehicles_AirBrakesHalf", ["Air Brakes (Half)", "Airbrake button until half speed"], {
     private ["_vic"];
     _vic = (vehicle player);
-    if((player == driver _vic) AND (alive _vic) AND ((speed _vic) > 450)) then {
+    if((player == driver _vic) AND (alive _vic) AND ((speed _vic) > 450) AND _vic getVariable ["OPTRE_Thruster_Usable",false]) then {
         _vic spawn V_FZ_fnc_HalfAirbrakeEngageFast;
         if(_vic getVariable ["OPTRE_Afterburners_Usable",false]) then {
             _vic spawn V_FZ_fnc_ThrusterDeAnimate;
@@ -103,7 +103,7 @@ v105_VehicleSpawnerData = createHashMap;
 ["105th Vehicles", "v105_Vehicles_AirBrakesFull", ["Air Brakes (Full)", "Airbrake button until below 100km/h"], {
     private ["_vic"];
     _vic = (vehicle player);
-    if((player == driver _vic) AND (alive _vic) AND ((speed _vic) > 100)) then {
+    if((player == driver _vic) AND (alive _vic) AND ((speed _vic) > 100) AND _vic getVariable ["OPTRE_Thruster_Usable",false]) then {
         _vic spawn V_FZ_fnc_FullAirbrakeEngageFast;
         if(_vic getVariable ["OPTRE_Afterburners_Usable",false]) then {
             _vic spawn V_FZ_fnc_ThrusterDeAnimate;

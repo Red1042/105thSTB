@@ -2208,7 +2208,6 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 	};
 	*/
 
-	/*
 	class BCo_CMcDaniel_M52D_ODST: OPTRE_UNSC_M52D_Armor
 	{
 		author="N-4 Logistics";
@@ -2293,7 +2292,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
                 "A_ThighArmorLeft",
                 "A_ThighArmorRight",
             //    "AS_BaseLeft",
-                "AS_BaseRight",
+            //    "AS_BaseRight",
                 "AS_LargeLeft",
                 "AS_LargeRight",
                 "AS_MediumLeft",
@@ -2301,7 +2300,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
             //    "AS_ODSTCQBLeft",
                 "AS_ODSTCQBRight",
                 "AS_ODSTLeft",
-                "AS_ODSTRight",
+            //    "AS_ODSTRight",
                 "AS_ODSTSniperLeft",
                 "AS_ODSTSniperRight",
                 "AS_SmallLeft",
@@ -2330,7 +2329,6 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
             };
 		};
 	};
-	*/
 	
 
 	class BCo_AHelms_M52D_ODST: OPTRE_UNSC_M52D_Armor

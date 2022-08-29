@@ -38,6 +38,9 @@ if (not _held) exitWith {
 
 if(stance player == "PRONE") exitWith {player playMoveNow "AmovPercMstpSrasWrflDnon";};
 
+_fallHeight = getUnitFreefallInfo player;
+player setUnitFreeFallHeight 10000;
+
 _heat = player getVariable ["v105_JumpPack_heat",0];
 _fuel = player getVariable ["v105_JumpPack_fuel",1];
 if(_heat >= 1 and _fuel <= 0) exitWith {};
@@ -147,6 +150,7 @@ while {v105_JumpPack_ON} do {
     uiSleep .1;
 };
 
+player setUnitFreefallHeight _fallHeight;
 
 //  JumpPack Refueling Handler
 uiSleep 1;
