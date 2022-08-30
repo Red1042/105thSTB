@@ -5,7 +5,7 @@
 	MARINE Dress Hat
 */
 
-	class 105th_MAR_DressHat: OPTRE_UNSC_Dress_Hat
+	class v105_MAR_DressHat: OPTRE_UNSC_Dress_Hat
 	{
 		author="N-4 Logistics, Howard";
         displayName="[105th] Dress Hat";
@@ -20,7 +20,7 @@
 	ODST Dress Hat
 */
 	
-	class 105th_ODST_DressHat: OPTRE_UNSC_Dress_Hat
+	class v105_ODST_DressHat: OPTRE_UNSC_Dress_Hat
 	{
 		author="N-4 Logistics, Howard";
         displayName="[ODST] Dress Hat";
@@ -35,7 +35,7 @@
 	VC497
 */
 
-	class 105th_VC497_DressHat: OPTRE_UNSC_Dress_Hat
+	class v105_VC497_DressHat: OPTRE_UNSC_Dress_Hat
 	{
 		author="N-4 Logistics, Howard";
         displayName="[VC497] Dress Hat";

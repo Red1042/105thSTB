@@ -44,6 +44,9 @@ class CfgFunctions
 			class ScanInventory
 			{
 			};
+			class ScanUndefinedItems
+			{
+			};
 			class SaveData
 			{
 			};
