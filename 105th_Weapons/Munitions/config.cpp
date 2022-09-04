@@ -32,9 +32,6 @@ class CfgPatches
             "v105_15Rnd_762x51_338_Mixed_Mag",
             //40mm Grenade
             "v105_Whistler_Grenade",
-            //SRS
-            "v105_4Rnd_145x114_Mag",
-            "v105_4Rnd_145x114_Mag_Tracer",
             // Cricket
             "v105_Cricket_1rnd_PEN",
             "v105_Cricket_1rnd_HE",
@@ -44,7 +41,6 @@ class CfgPatches
             "v105_Confetti_Belt_15m",
             //C7 Throwable
             "v105_C7_Throwable_Mag"
-
         };
         ammo[]=
         {
@@ -297,25 +293,6 @@ class CfgMagazines
         displayname 				= "[105th] 300Rnd 7.62x51mm Box Tracer";
         tracersEvery				= 2;
         mass						= 50;
-    };
-    //SRS
-    class v105_4Rnd_145x114_Mag:ACE_7Rnd_408_305gr_Mag
-    {
-        author						= "Howard";
-        scope						= 2;
-        scopeArsenal				= 2;		
-        count						= 4;
-        displayname 				= "[105th] 14.5x114mm Magazine";
-        ammo						= "v105_145x114_Ball";
-    };
-    class v105_4Rnd_145x114_Mag_Tracer:ACE_7Rnd_408_305gr_Mag
-    {
-        author						= "Howard";
-        scope						= 2;
-        scopeArsenal				= 2;		
-        count						= 4;
-        displayname 				= "[105th] 14.5x114mm Tracer Magazine";
-        ammo						= "v105_145x114_Tracer";
     };
     //Disposables
     class v105_Cricket_1rnd_PEN: OPTRE_1Rnd_50x137_PEN

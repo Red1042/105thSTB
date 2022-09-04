@@ -1,14 +1,23 @@
-// Public variables
+/*
+	Author: 105th | S-4 Logistics (Luke)
 
-/* Testing area */
+	Description:
+	Post-Init file for the Admin Expansion
 
-//[] call V105_Admin_fnc_ShowBossBarUI;
+	Parameter(s):
+	NONE
+
+	Returns:
+	NONE
+*/
 
 /*
     105th Admins:
      Luke                Nungester          Aspari              Cruz                 Bronson
     ["76561198110027425","76561198118936414","76561198071191355","76561198342349780","76561198095879100"];
 */
+
+private ["_uid","_action"];
 
 if(isServer) then {
     v105_Admin_inidbi = ["new", "v105_Utility"] call OO_INIDBI;
@@ -27,13 +36,15 @@ if(isServer) then {
 };
 
 if(hasInterface) then {
-    [player] call v105_Admin_fnc_ScanMods;
+    [] call v105_Admin_fnc_ScanMods;
 
+    /*
     ace_arsenal_blacklist_handler = ["ace_arsenal_displayClosed", {
         [player] call v105_Admin_fnc_CheckInventory;
     }] call CBA_fnc_addEventHandler;
+    */
 
-    private _uid = getPlayerUID player;
+    _uid = getPlayerUID player;
     if(_uid in v105_Admin_ActiveAdminList or (isServer && hasInterface)) then {
         _action = ["Open Admin Menu","Open Admin Menu","",{
             [] spawn V105_Admin_fnc_ShowAdminMainUI;

@@ -84,12 +84,12 @@ class CfgWeapons
 	class H_Beret_Colonel;
 	class H_Beret_02;
 	class OPTRE_cap_FinalDawn;
-	class UniformItem;
-	class VestItem;
-	class ItemInfo;
 
 	// Dress Gear
 	class OPTRE_UNSC_Army_Soldier_DressGray;
+	class UniformItem;
+	class VestItem;
+	class ItemInfo;
 
 	// Marine Vests Xtd Gear Overrides
 	#include "XtdGear\MarineVestsOverrides.hpp"

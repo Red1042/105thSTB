@@ -43,67 +43,55 @@ class CfgPatches
         };
     };
 };
-class WeaponSlotsInfo;
-class MuzzleSlot;
-class CowsSlot;
-class PointerSlot;
 class ItemInfo;
 class Mode_SemiAuto;
 class Single;
 class Mode_Burst;
 class Mode_FullAuto;
-class OPTRE_SRS99C;
+class OPTRE_SRS99C
+{
+   class WeaponSlotsInfo
+   {
+        class MuzzleSlot;
+        class CowsSlot;
+   };
+};
 class ACE_7Rnd_408_305gr_Mag;
 class OPTRE_M392_DMR;
 class CfgWeapons
 {
-    class v105_408_SRSC:OPTRE_SRS99C
+    class v105_408_SRSC: OPTRE_SRS99C
     {
         dlc = "105th Weapons";
         baseweapon="v105_408_SRSC"
-        author = "Howard";
+        author = "S-4 Logistics (Howard)";
         scope = 2;
         scopeArsenal = 2;
         displayName = "[105th] SRS-99C";
-        magazines[]=
-        {
-            "v105_4Rnd_145x114_Mag",
-            "v105_4Rnd_145x114_Mag_Tracer",
-        };
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
             class MuzzleSlot: MuzzleSlot
-        {
-            iconPosition[]={0,0.40000001};
-            compatibleitems[]=
             {
-                "optre_srs99d_suppressor"
+                iconPosition[]={0,0.40000001};
+                compatibleitems[]=
+                {
+                    "optre_srs99d_suppressor"
+                };
             };
-        };
-        class CowsSlot: CowsSlot
-        {
-            iconPosition[]={0.5,0.30000001};
-            compatibleitems[]=
+            class CowsSlot: CowsSlot
             {
-                "optic_dms",
-                "optic_sos",
-                "optic_lrps",
-                "optic_khs_blk",
-                "optic_nightstalker",
-                "optic_nvs",
-                "optic_ams",
-                "optre_srs99c_scope"
+                iconPosition[]={0.5,0.30000001};
+                compatibleitems[]=
+                {
+                    "optic_dms",
+                    "optic_sos",
+                    "optic_lrps",
+                    "optic_khs_blk",
+                    "optic_nightstalker",
+                    "optic_ams",
+                    "optre_srs99c_scope"
+                };
             };
-        };
-        class PointerSlot: PointerSlot
-        {
-            iconPosition[]={0.2,0.40000001};
-        };
-            mass=150;
-        };
-        class ItemInfo
-        {
-            priority=1;
         };
     };
     class v105_M392X: OPTRE_M392_DMR

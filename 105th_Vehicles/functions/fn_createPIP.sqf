@@ -14,6 +14,7 @@
 	Returns:
 	OBJECT - camera
 */
+
 private ["_cameraParams","_renderTarget","_guiPos","_index","_camera"];
 
 #define DISPLAY_CLASS	"RscPIP"

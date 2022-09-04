@@ -1,3 +1,7 @@
+/*
+
+    Disabled for now due to the 105th Weapons refit 09/02/2022
+
 class CfgPatches
 {
     class v105_N12USOC
@@ -497,3 +501,4 @@ class CfgWeapons
         };
     };
 };
+*/

@@ -2,7 +2,7 @@
 	Author: 105th | S-4 Logistics (Luke)
 
 	Description:
-	PreInit settings for Admin Expansion
+	PreInit file for the Admin Expansion
 
 	Parameter(s):
 	NONE

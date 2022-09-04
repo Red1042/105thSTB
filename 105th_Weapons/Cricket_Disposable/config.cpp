@@ -65,7 +65,7 @@ class CfgWeapons
         {fired = "_this call CBA_fnc_firedDisposable"};
         class WeaponSlotsInfo
         {
-            mass=90;
+            mass=85;
             class CowsSlot: CowsSlot
             {
                 compatibleitems[]=
@@ -99,7 +99,10 @@ class CfgWeapons
         scopeArsenal = 2;
         baseWeapon = "v105_Cricket_PEN_Loaded";
         magazines[]= {"v105_Cricket_1rnd_PEN", "OPTRE_1Rnd_50x137_PEN"};
-        mass=95;
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            mass=90;
+        };
     };
     class v105_Cricket_PEN_Used: v105_Cricket_PEN
     {
@@ -108,7 +111,6 @@ class CfgWeapons
         baseWeapon = "v105_Cricket_PEN_Used";
         displayName = "Used M48B Tube";
         weaponPoolAvailable = 0;
-        mass=90;
     };
     class v105_Cricket_HE: OPTRE_M48_PAW
     {
@@ -129,7 +131,7 @@ class CfgWeapons
         {fired = "_this call CBA_fnc_firedDisposable"};
         class WeaponSlotsInfo
         {
-            mass=90;
+            mass=85;
             class CowsSlot: CowsSlot
             {
                 compatibleitems[]=
@@ -163,7 +165,10 @@ class CfgWeapons
         scopeArsenal = 2;
         baseWeapon = "v105_Cricket_HE_Loaded";
         magazines[]= {"v105_Cricket_1rnd_HE", "OPTRE_1Rnd_50x137_HE"};
-        mass=95;
+        class WeaponSlotsInfo: WeaponSlotsInfo
+        {
+            mass=90;
+        };
     };
     class v105_Cricket_HE_Used: v105_Cricket_HE
     {
@@ -172,7 +177,6 @@ class CfgWeapons
         baseWeapon = "v105_Cricket_HE_Used";
         displayName = "Used M48B Tube";
         weaponPoolAvailable = 0;
-        mass=90;
     };
 };
 class CBA_DisposableLaunchers

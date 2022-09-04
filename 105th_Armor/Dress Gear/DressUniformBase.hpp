@@ -170,7 +170,7 @@ class v105_dress_mar_CVar: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_CVar.paa",
+        "105th_Armor\Dress Gear\data\Custom\dress_uniform_CVar.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_CVar.paa"
     };
 };
@@ -317,7 +317,7 @@ class v105_dress_mar_JCha: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_ENun.paa",
+        "105th_Armor\Dress Gear\data\Custom\dress_uniform_ENun.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ENun.paa"
     };
 };
@@ -338,7 +338,7 @@ class v105_dress_mar_JCha: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_mar_ENunfun.paa",
+        "105th_Armor\Dress Gear\data\Custom\dress_uniform_mar_ENunfun.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ENun.paa"
     };
 };
@@ -467,7 +467,7 @@ class v105_dress_odst_ABma: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_ABma.paa",
+        "105th_Armor\Dress Gear\data\Custom\dress_uniform_ABma.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_ABma.paa"
     };
 };
@@ -488,7 +488,7 @@ class v105_dress_odst_MSev: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_MSev.paa",
+        "105th_Armor\Dress Gear\data\Custom\dress_uniform_MSev.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_MSev.paa"
     };
 };
@@ -698,7 +698,7 @@ class v105_dress_odst_JRam: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\Warrant Officers\dress_uniform_PLuk.paa",
+        "105th_Armor\Dress Gear\data\Custom\dress_uniform_PLuk.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_PLuk.paa"
     };
 };

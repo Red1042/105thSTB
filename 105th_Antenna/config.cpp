@@ -11,6 +11,9 @@ class CfgPatches
 		ammo[]={};
 		units[]={};
 		requiredVersion=0.1;
+		requiredAddons[]={
+		    "cba_settings"
+		};
 	};
 };
 

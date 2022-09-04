@@ -1,5 +1,19 @@
+/*
+	Author: 105th | S-4 Logistics (Luke)
+
+	Description:
+	Opens the admin view user menu UI and fills it with the necessary data
+
+	Parameter(s):
+	NONE
+
+	Returns:
+	NONE
+*/
+
 disableSerialization;
 
+private["_targetName","_display","_listPlayers","_listCtrlMods","_listCtrlItems","_target","_targetIndex","_index","_name","_whitelistedItems","_blacklistedItems","_undefinedItems","_result","_items","_itemsMap","_amount","_whitelistedMods","_blacklistedMods","_undefinedMods","_detectedModsString","_mod"];
 params["_targetName"];
 uiNamespace setVariable ["v105_Admin_loadingMenu",true];
 

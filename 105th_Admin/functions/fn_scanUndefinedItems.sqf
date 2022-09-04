@@ -2,7 +2,7 @@
 	Author: 105th | S-4 Logistics (Luke)
 
 	Description:
-	Gets item data from config crawl
+	Gets item data from config crawl and makes them available for use later by being a uiNamespace variable
 
 	Parameter(s):
 	NONE
