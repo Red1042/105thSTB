@@ -590,7 +590,8 @@
 			displayName = "82mm Automatic Mortar";
 			magazines[]=
 			{
-				"v105_50Rnd_82mm_shells"
+			    "v105_40m_150Rnds",
+				"v105_50Rnd_82mm_shells",
 			};
 				reloadTime=0.45;
 				magazineReloadTime=3;
@@ -645,14 +646,14 @@
 				magazines[]=
 				{
 				    "v105_FIR_AIM9X_P_2rnd_M", "v105_FIR_AIM9X_P_1rnd_M",
-				    "v105_FIR_AIM9X_EWP_4rnd_M"
+				    "v105_FIR_AIM9X_EWP_4rnd_M",
 				};
 				cmImmunity=1;
 			};
 			class FIR_AIM120;
 			class v105_FIR_AIM120:FIR_AIM120
 			{
-				magazines[]={"v105_FIR_AIM120B_LAU115_P_1rnd_M"};
+				magazines[]={"v105_FIR_AIM120B_LAU115_P_1rnd_M",    "v105_AMRAAM_Single"};
 			};
 			class FIR_AGM65;
 			class v105_FIR_AGM65:FIR_AGM65
@@ -663,7 +664,7 @@
 					"v105_FIR_AGM65H_P_3rnd_M","v105_FIR_AGM65F_P_3rnd_M",
 					"v105_FIR_AGM65G_P_3rnd_M","v105_FIR_AGM65K_P_3rnd_M",
 					"v105_FIR_AGM65E_P_3rnd_M","v105_FIR_AGM65E2_P_3rnd_M",
-					"v105_FIR_AGM65L_P_3rnd_M",
+					"v105_FIR_AGM65L_P_3rnd_M", "v105_AGM-65H_Single",
 					"v105_FIR_AGM65F_P_1rnd_M",
 					"v105_FIR_AGM65G_P_1rnd_M",
 					"v105_FIR_AGM65K_P_1rnd_M",
@@ -691,8 +692,7 @@
 					"v105_FIR_Hydra_M261_P_7rnd_M","v105_FIR_Hydra_M261_P_14rnd_M","v105_FIR_Hydra_M261_P_19rnd_M","v105_FIR_Hydra_M261_P_38rnd_M",
 
 					"v105_FIR_Hydra_WP_P_7rnd_M","v105_FIR_Hydra_WP_P_21rnd_M",
-					"v105_FIR_CRV7_P_19rnd_M",
-					
+					"v105_FIR_CRV7_P_19rnd_M",  "OPTRE_16Rnd_AnvilSMK_W_missiles",  "OPTRE_16Rnd_AnvilSMK_R_missiles",
 					
 					
 				};
@@ -704,7 +704,8 @@
 				{
 					"v105_FIR_APKWS_P_7rnd_M","v105_FIR_APKWS_P_14rnd_M","v105_FIR_APKWS_P_19rnd_M","v105_FIR_APKWS_P_38rnd_M",
 					"v105_FIR_APKWS_M247_P_7rnd_M","v105_FIR_APKWS_M247_P_14rnd_M","v105_FIR_APKWS_M247_P_19rnd_M","v105_FIR_APKWS_M247_P_38rnd_M",
-					"v105_FIR_APKWS_M282_P_7rnd_M","v105_FIR_APKWS_M282_P_14rnd_M","v105_FIR_APKWS_M282_P_19rnd_M","v105_FIR_APKWS_M282_P_38rnd_M"
+					"v105_FIR_APKWS_M282_P_7rnd_M","v105_FIR_APKWS_M282_P_14rnd_M","v105_FIR_APKWS_M282_P_19rnd_M","v105_FIR_APKWS_M282_P_38rnd_M",
+					"v105_APKWS_SparrowHawk",   "v105_Pelican_APKWS"
 				};
 			};
 			class FIR_Zuni_Launcher;
@@ -715,7 +716,7 @@
 			class FIR_LZuni_Launcher;
 			class v105_FIR_LZuni_Launcher:FIR_LZuni_Launcher
 			{
-				magazines[]={"v105_FIR_LZuni_P_8rnd_M"};
+				magazines[]={"v105_FIR_LZuni_P_8rnd_M", "v105_Hornet_Guided_Inner"};
 			};
 			//ECM
 			class FIR_ECMPOD;
@@ -727,7 +728,7 @@
 			class FIR_GBU53;
 			class v105_FIR_GBU53: FIR_GBU53
 			{
-				magazines[] = {"v105_GBU53_P_4rnd_M"};
+				magazines[] = {"v105_FIR_GBU53_P_4rnd_M",   "v105_Pelican_Bomb_Inner",    "v105_Sparrowhawk_Bomb_Center"};
 			};
 			//GBU
 			//12
@@ -773,6 +774,14 @@
 				magazines[]={"v105_FIR_GBU31_P_1rnd_M"};
 			};
 			// Unguided Bombs
+			class   FIR_CBU100;
+			class v105_FIR_CBU100:  FIR_CBU100
+			{
+			    magazines[]=
+			    {
+			        "v105_Sparrowhawk_Bomb_Center"
+                };
+			};
 			//MK82
 			class FIR_mk82_Snakeye_Launcher;
 			class v105_FIR_mk82_Snakeye_Launcher:FIR_mk82_Snakeye_Launcher
@@ -782,7 +791,8 @@
 							"v105_FIR_Mk82_GP_Navy_prox_P_1rnd_M",
 							"v105_FIR_Mk82_GP_Navy_P_2rnd_M",
 							"v105_FIR_Mk82_GP_P_3rnd_M",
-							"v105_FIR_Mk82_GP_P_6rnd_M"
+							"v105_FIR_Mk82_GP_P_6rnd_M",
+							"v105_FIR_Mk82_GP_F15E_Demo_P_4rnd_M",
 							};
 			};
 			//MK83
@@ -796,13 +806,13 @@
 			class FIR_mk84;
 			class v105_FIR_mk84:FIR_mk84
 			{
-				magazines[]={"v105_FIR_Mk84_GP_Navy_P_1rnd_M"};
+				magazines[]={"v105_FIR_Mk84_GP_Navy_P_1rnd_M",  "v105_Pelican_Center"};
 			};
 			//
 			class FIR_AGM88;
 			class v105_FIR_AGM88:FIR_AGM88
 			{
-				magazines[]={"v105_AGM88_P_1rnd_M"};
+				magazines[]={"v105_AGM88_P_1rnd_M", "v105_Hornet_Guided_Inner"};
 			};
 			//JSOW
 			class FIR_AGM154;
@@ -822,7 +832,8 @@
 					"v105_hot_2mp_6Rnd",
 					"v105_hot_2mp_2Rnd",
 					"v105_hot_3_6Rnd",
-					"v105_hot_3_2Rnd"
+					"v105_hot_3_2Rnd",
+					"v105_Hot3_2rnd"
 				};
 			};
 			class ace_hellfire_launcher;
@@ -832,7 +843,9 @@
 				{
 					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K",
 					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N",
-					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L"
+					"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L",
+					"v105_Hornet_Guided_Inner",
+					"v105_114Kilo_3Rnd",    "v105_114Lima_3Rnd",
 				};
 			};
 			

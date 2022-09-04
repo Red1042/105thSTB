@@ -31,7 +31,7 @@
 		tracersEvery				= 1;
 		lastRoundTracers 			= 0;
 		mass						= 400;
-		hardpoints[] = {"v105_Gunpods"};
+		hardpoints[] = {};
 		pylonWeapon = "LMG_coax_Hound";
 	};
 	class 1000Rnd_762x51_Belt_T_Yellow;
@@ -99,7 +99,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		displaynameshort 			= "";
 		descriptionShort			= "";
 		tracersEvery				= 1;
-		hardpoints[] = {"v105_Gunpods"};
+		hardpoints[] = {"v105_Hornet_Center"};
 		pylonWeapon = "v105_Gatling_30mm";
 	};
 	class 1000Rnd_20mm_shells;
@@ -107,7 +107,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	{
 		count=750;
 		displayname	= "M513-RC 20mm 750Rnd";
-		hardpoints[] = {"v105_Gunpods"};
+		hardpoints[] = {"v105_Hornet_Center"};
 		pylonWeapon = "v105_gatling_20mm";
 	};
 	class OPTRE_2000Rnd_20mm_HE;
@@ -115,7 +115,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	{
 		count=800;
 		displayname	= "M638 20mm 800Rnd";
-		hardpoints[] = {"v105_Gunpods"};
+		hardpoints[] = {};
 		pylonWeapon = "v105_M638";
 	};
 	class magazine_Cannon_Phalanx_x1550;
@@ -127,7 +127,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		initspeed 					= 1500;
 		count						= 620;
 		displayname 				= "Vulcan 20mm 620Rnd";
-		hardpoints[] = {"v105_Gunpods"};
+		hardpoints[] = {};
 		pylonWeapon = "v105_Vulcan_20mm";
 	};
 	class 5000Rnd_762x51_Yellow_Belt;
@@ -140,7 +140,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		displaynameshort 			= "";
 		descriptionShort			= "";
 		tracersEvery				= 1;
-		hardpoints[] = {"v105_Gunpods"};
+		hardpoints[] = {"v105_Hornet_Center"};
 		pylonWeapon = "v105_145x114_minigun";
 	};
 	class v105_200Rnd_145x114_Red_Belt:v105_1200Rnd_145x114_Red_Belt
@@ -170,6 +170,18 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		count						= 24;
 	};
 	//FALCON GL
+    class OPTRE_MG460;
+    class v105_40m_150Rnds: OPTRE_MG460
+    {
+        scope						= 2;
+        scopeArsenal				= 1;
+        initspeed 					= 250;
+        count						= 150;
+        displayname 				= "40mm HE-AGL 150Rnd";
+        hardpoints[] = {"v105_Hornet_Center"};
+        pylonWeapon = "v105_FalconGL";
+    };
+
 	class 8Rnd_82mm_Mo_shells;
 	class v105_50Rnd_82mm_shells: 8Rnd_82mm_Mo_shells
 	{
@@ -179,7 +191,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		initspeed 					= 250;
 		count						= 50;
 		displayname 				= "HOW-82mm HE 50Rnd";
-		hardpoints[] = {"v105_Gunpods"};
+		hardpoints[] = {"v105_Hornet_Center"};
 		pylonWeapon = "v105_FalconGL";
 	};
 	class 60Rnd_20mm_AP_shells;
@@ -207,6 +219,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	//	Firewills pylon overrides
 	//
 	class VehicleMagazine;
+	class FIR_AGM65H_P_1rnd_M;
 	class FIR_AIM9X_EWP_4rnd_M;
 	class FIR_AIM9P_P_1rnd_M;
 	class FIR_AIM9X_P_2rnd_M;
@@ -266,7 +279,20 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_Zuni_P_8rnd_M;
 	class FIR_Zuni_Mk32_P_8rnd_M;
 	class FIR_LZuni_P_8rnd_M;
+    class FIR_GBU53_P_4rnd_M;
+    class FIR_GBU54_P_1rnd_M;
+    class FIR_CBU100_P_1rnd_M;
 
+    class v105_FIR_CBU100_P_1rnd_M: FIR_CBU100_P_1rnd_M
+    {
+        hardpoints[]={"v105_Sparrowhawk_Bomb_Center" };
+        pylonWeapon =   "v105_FIR_CBU100";
+    };
+    class v105_GBU54_P_1rnd_M: FIR_GBU54_P_1rnd_M
+    {
+        hardpoints[]={"v105_Pelican_Bomb_Inner",  "v105_Sparrowhawk_Bomb_Center"   };
+        pylonWeapon= "v105_GBU5X";
+    };
 	class v105_FIR_AIM9X_P_1rnd_M: FIR_AIM9P_P_1rnd_M
 	{
 		hardpoints[]= {"v105_Sidewinder_Single"};
@@ -274,17 +300,17 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	};
 	class v105_FIR_AIM9X_P_2rnd_M: FIR_AIM9X_P_2rnd_M
 	{
-		hardpoints[] = {"105th_AA_Missiles"};
+		hardpoints[] = {"105th_AA_Missiles",    "v105_AIM9X_Dual"};
 		pylonWeapon = "v105_FIR_AIM9X";
 	};
 	class v105_FIR_AIM9X_EWP_4rnd_M: FIR_AIM9X_EWP_4rnd_M
 	{
-		hardpoints[]= {"v105_Pelican_Center", "v105_SparrowHawk_Center"};
+		hardpoints[]= {"v105_Pelican_Center", "v105_Sindewinder_Quad"};
 		pylonWeapon= "v105_FIR_AIM9X";
 	};
 	class v105_FIR_AIM120B_LAU115_P_1rnd_M: FIR_AIM120B_LAU115_P_1rnd_M
 	{
-		hardpoints[] = {"105th_AA_Missiles"};
+		hardpoints[] = {"105th_AA_Missiles",    "v105_AMRAAM_Single"};
 		pylonWeapon = "v105_FIR_AIM120";
 	};
 	// AGM65s
@@ -298,9 +324,14 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		hardpoints[] = {"105th_AG_Missiles"};
 		pylonWeapon = "v105_FIR_AGM65";
 	};
+	class v105_AGM65H_P_1Rnd: FIR_AGM65H_P_1rnd_M
+	{
+	    hardpoints[]={"v105_AGM-65H_Single"};
+	    pylonWeapon=    "v105_FIR_AGM65";
+	};
 	class v105_FIR_AGM65H_P_3rnd_M: FIR_AGM65H_P_3rnd_M
 	{
-		hardpoints[] = {"105th_AG_Missiles"};
+		hardpoints[] = {"105th_AG_Missiles",};
 		pylonWeapon = "v105_FIR_AGM65";
 		
 	};
@@ -387,17 +418,17 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	};			
 	class v105_FIR_Hydra_M229_P_19rnd_M : FIR_Hydra_M229_P_19rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_Hydra_Generic",   "v105_Hornet_Center"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";		
 	};				
 	class v105_FIR_Hydra_M229_P_14rnd_M : FIR_Hydra_M229_P_14rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_Hornet_Hydra_Generic",};
 		pylonWeapon = "v105_FIR_RKT_Launcher";
 	};		
 	class v105_FIR_Hydra_M229_P_38rnd_M : FIR_Hydra_M229_P_38rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_SparrowHawk_Generic"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";
 	};			
 	class v105_FIR_Hydra_M247_P_7rnd_M : FIR_Hydra_M247_P_7rnd_M
@@ -407,17 +438,17 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	};			
 	class v105_FIR_Hydra_M247_P_19rnd_M : FIR_Hydra_M247_P_19rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_Hydra_Generic"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";		
 	};			
 	class  v105_FIR_Hydra_M247_P_14rnd_M : FIR_Hydra_M247_P_14rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_Hornet_Hydra_Generic"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";
 	};		
 	class  v105_FIR_Hydra_M247_P_38rnd_M : FIR_Hydra_M247_P_38rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_SparrowHawk_Generic"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";
 	};				
 	class v105_FIR_Hydra_M257_P_7rnd_M : FIR_Hydra_M257_P_7rnd_M
@@ -437,12 +468,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	};			
 	class  v105_FIR_Hydra_M261_P_14rnd_M : FIR_Hydra_M261_P_14rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_Hornet_Hydra_Generic",    "v105_SparrowHawk_Generic"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";
 	};		
 	class  v105_FIR_Hydra_M261_P_38rnd_M : FIR_Hydra_M261_P_38rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_SparrowHawk_Generic"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";	
 	};				
 	class v105_FIR_Hydra_M282_P_7rnd_M : FIR_Hydra_M282_P_7rnd_M
@@ -452,7 +483,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	};			
 	class v105_FIR_Hydra_M282_P_19rnd_M : FIR_Hydra_M282_P_19rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets","v105_Hydra_Generic"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";		
 	};				
 	class  v105_FIR_Hydra_M282_P_14rnd_M : FIR_Hydra_M282_P_14rnd_M
@@ -492,7 +523,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	};
 	class v105_FIR_Hydra_WP_P_21rnd_M : FIR_Hydra_WP_P_21rnd_M
 	{
-		hardpoints[] = {"v105_UnguidedRockets"};
+		hardpoints[] = {"v105_UnguidedRockets", "v105_Hornet_Hydra_Generic"};
 		pylonWeapon = "v105_FIR_RKT_Launcher";	
 	};	
 	// APKWS
@@ -532,7 +563,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	{
 		hardpoints[] = 
 					{
-						"v105_GuidedRockets"
+						"v105_GuidedRockets",   "v105_APKWS_SparrowHawk",   "v105_Pelican_APKWS"
 					};
 					pylonWeapon = "v105_FIR_APKWS_Launcher";		
 	};
@@ -564,7 +595,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	{
 		hardpoints[] = 
 					{
-						"v105_GuidedRockets"
+						"v105_GuidedRockets",   "v105_Pelican_APKWS"
 					};
 					pylonWeapon = "v105_FIR_APKWS_Launcher";		
 	};
@@ -607,7 +638,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	// Laser Zuni HE
 	class v105_FIR_LZuni_P_8rnd_M : FIR_LZuni_P_8rnd_M
 	{
-		hardpoints[] = {"v105_GuidedRockets"};
+		hardpoints[] = {"v105_GuidedRockets",    "v105_Hornet_Guided_Inner"};
 		pylonWeapon = "v105_FIR_LZuni_Launcher";
 	};		
 	
@@ -621,10 +652,9 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	
 	
 	//SDB
-	class FIR_GBU53_P_4rnd_M;
-	class v105_GBU53_P_4rnd_M:FIR_GBU53_P_4rnd_M
+	class v105_FIR_GBU53_P_4rnd_M:FIR_GBU53_P_4rnd_M
 	{
-		hardpoints[] = {"105th_PelicanBomb","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanBomb","105th_Claymore",   "v105_Pelican_Bomb_Inner",    "v105_Sparrowhawk_Bomb_Center",};
 		pylonWeapon= "v105_FIR_GBU53";
 	};
 	//GBU
@@ -727,6 +757,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		hardpoints[] = {"105th_PelicanBomb","105th_Claymore"};
 		pylonWeapon= "v105_FIR_mk82_Snakeye_Launcher";	
 	};
+	class FIR_Mk82_GP_F15E_Demo_P_4rnd_M;
+	class v105_FIR_Mk82_GP_F15E_Demo_P_4rnd_M: FIR_Mk82_GP_F15E_Demo_P_4rnd_M
+	{
+	    hardpoints[]=   {"v105_Pelican_Center"};
+	    pylonWeapon=    'v105_FIR_mk82_Snakeye_Launcher';
+	};
 	class FIR_Mk82_GP_P_6rnd_M;
 	class v105_FIR_Mk82_GP_P_6rnd_M:FIR_Mk82_GP_P_6rnd_M
 	{
@@ -735,6 +771,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	};
 	//MK83
 	class FIR_Mk83_GP_Navy_P_1rnd_M;
+	class FIR_Mk83_GP_Navy_P_2rnd_M;
+	class v105_FIR_Mk83_GP_Navy_P_2rnd_M: FIR_Mk83_GP_Navy_P_2rnd_M
+	{
+	    hardpoints[]=   {"v105_Pelican_Center"};
+	    pylonWeapon=    "v105_FIR_mk83";
+	};
 	class v105_FIR_Mk83_GP_Navy_P_1rnd_M:FIR_Mk83_GP_Navy_P_1rnd_M
 	{
 		hardpoints[] = {"105th_PelicanBomb","105th_Claymore"};
@@ -744,7 +786,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_Mk84_GP_Navy_P_1rnd_M;
 	class v105_FIR_Mk84_GP_Navy_P_1rnd_M:FIR_Mk84_GP_Navy_P_1rnd_M
 	{
-		hardpoints[] = {"105th_PelicanBomb","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanBomb","105th_Claymore",   "v105_Pelican_Center"};
 		pylonWeapon= "v105_FIR_mk84";	
 	};
 	//AGM154
@@ -764,7 +806,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class FIR_AGM88_P_1rnd_M;
 	class v105_AGM88_P_1rnd_M:FIR_AGM88_P_1rnd_M
 	{
-		hardpoints[] = {"105th_PelicanHeavy","105th_Hornet","105th_Claymore"};
+		hardpoints[] = {"105th_PelicanHeavy","105th_Hornet","105th_Claymore",   "v105_Hornet_Guided_Inner"};
 		pylonWeapon="v105_FIR_AGM88";
 	};
 	
@@ -772,7 +814,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114K;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K:PylonRack_3Rnd_ACE_Hellfire_AGM114K
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
+		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires", "v105_Hornet_Guided_Inner", "v105_114Kilo_3Rnd"};
 		pylonWeapon = "v105_ace_hellfire_launcher";
 	};
 	
@@ -785,7 +827,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	class PylonRack_3Rnd_ACE_Hellfire_AGM114L;
 	class v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L:PylonRack_3Rnd_ACE_Hellfire_AGM114L
 	{
-		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires"};
+		hardpoints[] = {"105th_PelicanLite","105th_Claymore","105th_Hellfires", "v105_Hornet_Guided_Inner", "v105_114Lima_3Rnd"};
 		pylonWeapon = "v105_ace_hellfire_launcher";
 	};
 	class OPTRE_16Rnd_Anvil1_missiles;
@@ -793,31 +835,33 @@ class OPTRE_100Rnd_50mm_APFSDS;
 	{
 		displayName="16x 'ANVIL SMK-W' Smoke Rockets";
 		displayNameShort="'ANVIL SMK-W' Smoke Rockets";
-		pylonWeapon="OPTRE_missiles_AnvilSMK";
+		pylonWeapon=    "v105_FIR_RKT_Launcher";
 		ammo="OPTRE_M_ANVILSMK_W_Rocket";
 		hardpoints[]=
-		{
-			"Pelican_Utility"
+		{ "v105_AnvilSmokes_R/W"
 		};
-	};
-	class OPTRE_16Rnd_AnvilSMK_B_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
-	{
-		displayName="16x 'ANVIL SMK-B' Smoke Rocket";
-		displayNameShort="'ANVIL SMK-B' Smoke Rockets";
-		ammo="OPTRE_M_ANVILSMK_B_Rocket";
 	};
 	class OPTRE_16Rnd_AnvilSMK_R_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
 	{
 		displayName="16x 'ANVIL SMK-R' Smoke Rocket";
 		displayNameShort="'ANVIL SMK-R' Smoke Rockets";
 		ammo="OPTRE_M_ANVILSMK_R_Rocket";
+		hardpoints[]={"v105_AnvilSmokes_R/W",};
+		pylonWeapon=    "v105_FIR_RKT_Launcher";
 	};
+	/*
 	class OPTRE_16Rnd_AnvilSMK_G_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
 	{
 		displayName="16x 'ANVIL SMK-G' Smoke Rocket";
 		displayNameShort="'ANVIL SMK-G' Smoke Rockets";
 		ammo="OPTRE_M_ANVILSMK_G_Rocket";
 	};
+    class OPTRE_16Rnd_AnvilSMK_B_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
+    {
+        displayName="16x 'ANVIL SMK-B' Smoke Rocket";
+        displayNameShort="'ANVIL SMK-B' Smoke Rockets";
+        ammo="OPTRE_M_ANVILSMK_B_Rocket";
+    };
 	class OPTRE_16Rnd_AnvilSMK_O_missiles: OPTRE_16Rnd_AnvilSMK_W_missiles
 	{
 		displayName="16x 'ANVIL SMK-O' Smoke Rocket";
@@ -836,7 +880,7 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		displayNameShort="'ANVIL SMK-Y' Smoke Rockets";
 		ammo="OPTRE_M_ANVILSMK_Y_Rocket";
 	};
-	class ace_hot_1_6Rnd;
+ */	class ace_hot_1_6Rnd;
 	class v105_hot_1_6Rnd : ace_hot_1_6Rnd
 	{
 		displayName="HOT-1 6Rnd";
@@ -892,12 +936,12 @@ class OPTRE_100Rnd_50mm_APFSDS;
 		hardpoints[]={"105th_HOTs"};
 		pylonWeapon="v105_HOT_Generic_Launcher";
 	};
-	class ace_hot_3_2Rnd;
+    class ace_hot_3_2Rnd;
 	class v105_hot_3_2Rnd : ace_hot_3_2Rnd
 	{
 		displayName="HOT-3 2Rnd";
 		displayNameShort="HOT-3 2Rnd";
-		hardpoints[]={"105th_HOTs"};
+		hardpoints[]={"105th_HOTs", "v105_Hot3_2rnd"};
 		pylonWeapon="v105_HOT_Generic_Launcher";
 	};
 

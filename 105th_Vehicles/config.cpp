@@ -103,6 +103,7 @@ class CfgPatches
 		};
 		weapons[] = 
 		{
+		    "v105_FIR_CBU100",
 			// Hornet
 			"v105_Gatling_30mm",
 			"v105_Vulcan_20mm",
@@ -144,11 +145,12 @@ class CfgPatches
 			"v105_FIR_mk82_Snakeye_Launcher",
 			"v105_AGM84H",
 			// SparrowHawk
-			"v105_M6_Laser"
+			"v105_M6_Laser",
 		};
 		magazines[] = 
 		{
 			//Hornets
+			"v105_40m_150Rnds",
 			"v105_GAU30mm_570RND",
 			"v105_Vulcan20mm_620RND",
 			"v105_1200Rnd_145x114_Red_Belt",
@@ -171,6 +173,7 @@ class CfgPatches
             "v105_FIR_AIM9X_EWP_4rnd_M",
 			"v105_FIR_AIM120B_LAU115_P_1rnd_M",
 			"v105_FIR_AGM65D_P_3rnd_M",
+			"v105_AGM65H_P_1Rnd",
 			"v105_FIR_AGM65B_P_3rnd_M",
 			"v105_FIR_AGM65H_P_3rnd_M",
 			"v105_FIR_AGM65F_P_3rnd_M",
@@ -188,11 +191,11 @@ class CfgPatches
 			"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114K",
 			"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114N",
 			"v105_PylonRack_3Rnd_ACE_Hellfire_AGM114L",
-			
+	       	"v105_GBU54_P_1rnd_M",
 			"v105_FIR_Hydra_P_7rnd_M",
 			"v105_FIR_Hydra_P_19rnd_M",
 			"v105_FIR_Hydra_P_38rnd_M",
-			
+		    "105_GBU53_P_4Rnd_M",
 			"v105_FIR_Hydra_M229_P_7rnd_M",
 			"v105_FIR_Hydra_M229_P_19rnd_M",
 			"v105_FIR_Hydra_M229_P_38rnd_M",
@@ -243,7 +246,7 @@ class CfgPatches
 			"v105_FIR_GBU38_P_1rnd_M",
 			"v105_FIR_GBU32_P_1rnd_M",
 			"v105_FIR_GBU31_P_1rnd_M",
-
+            "v105_FIR_CBU100_P_1rnd_M",
 			"v105_FIR_Mk82_GP_Navy_P_1rnd_M",
 			"v105_FIR_Mk82_GP_Navy_prox_P_1rnd_M",
 			"v105_FIR_Mk82_GP_Navy_P_2rnd_M",
@@ -256,15 +259,15 @@ class CfgPatches
 			"v105_FIR_AGM154C_P_1rnd_M",
 			"v105_FIR_AGM88_P_1rnd_M",
 			"v105_FIR_ASM2_P_2rnd_M",
-
+            "OPTRE_16Rnd_AnvilSMK_W_missiles",
+            "OPTRE_16Rnd_AnvilSMK_R_missiles",
 			"v105_AGM84K_P_1rnd_M",
-
 			//SparrowHawk Ordnance
 			"v105_SpLaser_Battery"
 		};
 		ammo[] =
 		{
-		    "v105_SpLaserAmmo"
+		    "v105_SpLaserAmmo",
 		};
 		requiredVersion = 1.0;
 		requiredAddons[] = 
