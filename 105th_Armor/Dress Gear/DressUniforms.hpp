@@ -6,7 +6,7 @@
     Marine Uniforms
 */
 
-class r105_mar_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
+class v105_mar_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
 { 
     author="Bman";
     scope = 2;
@@ -23,657 +23,368 @@ class r105_mar_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
     };
 };
 
-class r105_mar_dress_Corpsman: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_Corpsman: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Corpsman]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_corpsman";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_corpsman";
     };
 };
 
-class r105_mar_dress_NCO: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_NCO: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [NCO]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_nco";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_nco";
     };
 };
 
-class r105_mar_dress_NCOCorpsman: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_NCOCorpsman: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [NCO Corpsman]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_ncocorpsman";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_ncocorpsman";
     };
 };
 
-class r105_mar_dress_Command: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_Command: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Command]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_command";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_command";
     };
 };
 
-class r105_mar_dress_GWelFun: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_GWelFun: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Aqua]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_GWelFun";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_GWelFun";
     };
 };
 
-class r105_mar_dress_DMur: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_DMur: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Murk]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_DMur";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_DMur";
     };
 };
 
-class r105_mar_dress_CVar: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_CVar: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Varner]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_CVar";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_CVar";
     };
 }
 
-class r105_mar_dress_MHoe: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_MHoe: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Hoefer]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_MHoe";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_MHoe";
     };
 }
 
-class r105_mar_dress_EAsp: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_EAsp: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Aspari]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_EAsp";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_EAsp";
     };
 }
 
-class r105_mar_dress_LSky: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_LSky: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Skynyrd]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_LSky";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_LSky";
     };
 }
 
-    class r105_mar_dress_TMai: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+    class v105_mar_dress_TMai: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Mailwind]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_TMai";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_TMai";
     };
 };
-
-class r105_mar_dress_JCha: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
-    displayName="[105th] Dress Uniform [Chapman]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
-    {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_JCha";
-        uniformModel="-";
-    };
-};
-
-class r105_mar_dress_BCra: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_BCra: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Craig]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_BCra";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_BCra";
     };
 };
 
-class r105_mar_dress_ENun: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_ENun: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Nungester]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_ENun";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_ENun";
     };
 };
 
-class r105_mar_dress_ENunfun: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_ENunfun: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Smiley]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_ENunfun";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_ENunfun";
     };
 };
 
-class r105_mar_dress_GArc: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_mar_dress_GArc: v105_mar_dress_Base
+{
     displayName="[105th] Dress Uniform [Archer]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_mar_GArc";
-        uniformModel="-";
+        uniformClass="v105_dress_mar_GArc";
     };
 };
 
+class v105_mar_dress_JShe: v105_mar_dress_Base
+{
+    displayName="[105th] Dress Uniform [Shepard]";
+    class ItemInfo: ItemInfo
+    {
+        uniformClass="v105_dress_mar_JShe";
+    };
+};
 
 /*
     ODST Uniforms
 */
 
-class r105_odst_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_Base: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Base]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_base";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_base";
     };
 };
 
-class r105_odst_dress_SARC: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_SARC: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [SARC]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_sarc";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_sarc";
     };
 };
 
-class r105_odst_dress_Command: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_Command: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Command]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_command";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_command";
     };
 };
 
-class r105_odst_dress_ABma: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_ABma: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Bman]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_ABma";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_ABma";
     };
 };
 
-class r105_odst_dress_MSev: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_MSev: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Sevarach]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_MSev";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_MSev";
     };
 };
 
-class r105_odst_dress_AVir: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_AVir: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Virus]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_AVir";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_AVir";
     };
 };
 
-class r105_odst_dress_BBar: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_BBar: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Barkley]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_BBar";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_BBar";
     };
 };
 
-class r105_odst_dress_GCru: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_GCru: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Cruz]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_GCru";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_GCru";
     };
 };
 
-class r105_odst_dress_JVar: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_JVar: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Vargas]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_JVar";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_JVar";
     };
 };
 
-class r105_odst_dress_JNos: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_JNos: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Nostra]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_JNos";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_JNos";
     };
 };
 
-class r105_odst_dress_GWel: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_GWel: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Wells]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_GWel";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_GWel";
     };
 };
 
-class r105_odst_dress_CMcD: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_CMcD: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [McDaniel]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_CMcD";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_CMcD";
     };
 }
 
-class r105_odst_dress_CBar: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_CBar: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Barrier]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_CBar";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_CBar";
     };
 }
 
-    class r105_odst_dress_JRam: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+    class v105_odst_dress_JRam: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Ramos]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_JRam";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_JRam";
     };
 }
 
-    class r105_odst_dress_PLuk: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+    class v105_odst_dress_PLuk: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Luke]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_PLuk";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_PLuk";
     };
 }
 
-class r105_odst_dress_BSmi: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_BSmi: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [B. Smith]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_BSmi";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_BSmi";
     };
 };
 
-class r105_odst_dress_RCan: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_odst_dress_RCan: v105_mar_dress_Base
+{
     displayName="[ODST] Dress Uniform [Canley]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_odst_RCan";
-        uniformModel="-";
+        uniformClass="v105_dress_odst_RCan";
     };
 };
 
+class v105_odst_dress_BRon: v105_mar_dress_Base
+{
+    displayName="[ODST] Dress Uniform [Ronin]";
+    class ItemInfo: ItemInfo
+    {
+        uniformClass="v105_dress_odst_BRon";
+    };
+};
 /*
     VC-497 Uniforms
 */
 
-class r105_vc497_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_vc497_dress_Base: v105_mar_dress_Base
+{
     displayName="[VC-497] Dress Uniform [Standard]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_vc497_base";
-        uniformModel="-";
+        uniformClass="v105_dress_vc497_base";
     };
 };
 
-class r105_vc497_dress_JCol: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_vc497_dress_JCha: v105_mar_dress_Base
+{
+    displayName="[VC-497] Dress Uniform [Chapman]";
+    class ItemInfo: ItemInfo
+    {
+        uniformClass="v105_dress_vc497_JCha";
+    };
+};
+
+class v105_vc497_dress_JCol: v105_mar_dress_Base
+{
     displayName="[VC-497] Dress Uniform [Collins]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_vc497_JCol";
-        uniformModel="-";
+        uniformClass="v105_dress_vc497_JCol";
     };
 };
 
-class r105_vc497_dress_GStu: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_vc497_dress_GStu: v105_mar_dress_Base
+{
     displayName="[VC-497] Dress Uniform [Sturmischer]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_vc497_GStu";
-        uniformModel="-";
+        uniformClass="v105_dress_vc497_GStu";
     };
 };
 
-class r105_vc497_dress_CFlu: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_vc497_dress_CFlu: v105_mar_dress_Base
+{
     displayName="[VC-497] Dress Uniform [Flux]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_vc497_CFlu";
-        uniformModel="-";
+        uniformClass="v105_dress_vc497_CFlu";
     };
 };
 
-class r105_vc497_dress_KBul: OPTRE_UNSC_Army_Soldier_DressGray
-{ 
-    author="Bman";
-    scope = 2;
-    scopeArsenal = 2;
-    mass=40;
+class v105_vc497_dress_KBul: v105_mar_dress_Base
+{
     displayName="[VC-497] Dress Uniform [Bulck]";
-    picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
-    model="\OPTRE_UNSC_Units\Army\officer.p3d";
-    class ItemInfo: UniformItem
+    class ItemInfo: ItemInfo
     {
-        containerClass="Supply100";
-        uniformClass="r105_dress_vc497_KBul";
-        uniformModel="-";
+        uniformClass="v105_dress_vc497_KBul";
     };
 };

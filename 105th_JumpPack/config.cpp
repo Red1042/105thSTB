@@ -12,6 +12,7 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
+		    "cba_settings",
 			"OPTRE_Weapons",
 			"OPTRE_Weapons_Backpacks",
 		};

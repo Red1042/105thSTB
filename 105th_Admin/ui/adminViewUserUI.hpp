@@ -28,20 +28,33 @@ class v105_Admin_ViewUser_UI
         	style = 2;
         	valign = "top";
         	onLBSelChanged = "if(uiNamespace getVariable [""v105_Admin_loadingMenu"",false]) exitWith {}; _display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [(_display lbText lbCurSel _display)] call V105_Admin_fnc_ShowAdminViewUserUI;";
-	        x = 0.304062 * safezoneW + safezoneX;
-	        y = 0.247 * safezoneH + safezoneY;
-	        w = 0.299062 * safezoneW;
-	        h = 0.044 * safezoneH;
+	    	x = 0.365937 * safezoneW + safezoneX;
+        	y = 0.247 * safezoneH + safezoneY;
+        	w = 0.268125 * safezoneW;
+        	h = 0.044 * safezoneH;
         	sizeEx = 1.5 *(((safezoneW / safezoneH) min 1.2) / 1.2) / 25) *((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * GUI_GRID_H;
         };
-        class RscButton_Previous: RscButton
+        class RscButton_MainMenu: RscButton
         {
         	idc = 1600;
+        	action = "[] spawn V105_Admin_fnc_ShowAdminMainUI;";
         	text = "Main Menu"; //--- ToDo: Localize;
-	        x = 0.62375 * safezoneW + safezoneX;
-	        y = 0.247 * safezoneH + safezoneY;
-	        w = 0.061875 * safezoneW;
-	        h = 0.044 * safezoneH;
+	    	x = 0.304062 * safezoneW + safezoneX;
+        	y = 0.247 * safezoneH + safezoneY;
+        	w = 0.0515625 * safezoneW;
+        	h = 0.044 * safezoneH;
+        };
+        class RscButton_Next: RscButton
+        {
+        	idc = 1600;
+        	action = "_display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [(_display lbText (uiNamespace getVariable [""v105_Admin_nextTargetIndex"",0]))] call V105_Admin_fnc_ShowAdminViewUserUI;"
+        	// ToDo: Setup
+
+        	text = "Next"; //--- ToDo: Localize;
+        	x = 0.644375 * safezoneW + safezoneX;
+        	y = 0.247 * safezoneH + safezoneY;
+        	w = 0.0515625 * safezoneW;
+        	h = 0.044 * safezoneH;
         };
         class RscListbox_Mods: RscListBox
         {
@@ -67,7 +80,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Whitelist_Mod: RscButton
         {
         	idc = 1602;
-        	action = "[1500,""v105_Admin_whitelistedMods"",v105_Admin_whitelistedMods,""v105_Admin_blacklistedMods"",v105_Admin_blacklistedMods,false,false] call v105_Admin_fnc_AllowedActions;";
+        	action = "[((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1500),""Mods"",false] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
         	text = "Whitelist"; //--- ToDo: Localize;
         	x = 0.314375 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
@@ -78,7 +91,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Blacklist_Mod: RscButton
         {
         	idc = 1603;
-        	action = "[1500,""v105_Admin_blacklistedMods"",v105_Admin_blacklistedMods,""v105_Admin_whitelistedMods"",v105_Admin_whitelistedMods,true,false] call v105_Admin_fnc_AllowedActions;";
+        	action = "[((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1500),""Mods"",true] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
         	text = "Blacklist"; //--- ToDo: Localize;
         	x = 0.386562 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
@@ -110,7 +123,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Whitelist_Items: RscButton
         {
         	idc = 1604;
-        	action = "[1501,""v105_Admin_whitelistedItems"",v105_Admin_whitelistedItems,""v105_Admin_blacklistedItems"",v105_Admin_blacklistedItems,false,true] call v105_Admin_fnc_AllowedActions;";
+        	action = "[((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1501),""Items"",false] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
         	text = "Whitelist"; //--- ToDo: Localize;
         	x = 0.469062 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
@@ -121,7 +134,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_Blacklist_Items: RscButton
         {
         	idc = 1605;
-        	action = "[1501,""v105_Admin_blacklistedItems"",v105_Admin_blacklistedItems,""v105_Admin_whitelistedItems"",v105_Admin_whitelistedItems,true,true] call v105_Admin_fnc_AllowedActions;";
+        	action = "[((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1501),""Items"",true] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
         	text = "Blacklist"; //--- ToDo: Localize;
         	x = 0.54125 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
@@ -132,16 +145,46 @@ class v105_Admin_ViewUser_UI
         class RscButton_OPBan: RscButton
         {
         	idc = 1606;
-        	text = "OP Ban"; //--- ToDo: Localize;
-	        x = 0.62375 * safezoneW + safezoneX;
-	        y = 0.357 * safezoneH + safezoneY;
-	        w = 0.061875 * safezoneW;
-	        h = 0.044 * safezoneH;
+        	text = "OP Ban [WIP]"; //--- ToDo: Localize;
+	    	x = 0.628906 * safezoneW + safezoneX;
+        	y = 0.533 * safezoneH + safezoneY;
+        	w = 0.0515625 * safezoneW;
+        	h = 0.044 * safezoneH;
         	colorBackground[] = {0.5,0,0,1};
+        };
+        class RscListbox_ActiveBans: RscListBox
+        {
+        	idc = 1502;
+
+	    	x = 0.618594 * safezoneW + safezoneX;
+        	y = 0.599 * safezoneH + safezoneY;
+        	w = 0.0721875 * safezoneW;
+        	h = 0.088 * safezoneH;
+        };
+        class RscButton_OPPardon: RscButton
+        {
+        	idc = 1602;
+
+        	text = "OP Pardon [WIP]"; //--- ToDo: Localize;
+	    	x = 0.628906 * safezoneW + safezoneX;
+        	y = 0.709 * safezoneH + safezoneY;
+        	w = 0.0515625 * safezoneW;
+        	h = 0.044 * safezoneH;
+        	colorBackground[] = {0,0.5,0,1};
+        };
+        class RscButton_Kick: RscButton
+        {
+        	idc = 1607;
+        	action = "_display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [format [""#kick %1"",(_display lbText lbCurSel _display)]] remoteExec [""serverCommand"",2];"
+        	text = "Kick [WIP]"; //--- ToDo: Localize;
+        	x = 0.628906 * safezoneW + safezoneX;
+        	y = 0.467 * safezoneH + safezoneY;
+        	w = 0.0515625 * safezoneW;
+        	h = 0.044 * safezoneH;
+        	colorBackground[] = {1,0.65,0,1};
         };
         ////////////////////////////////////////////////////////
         // GUI EDITOR OUTPUT END
         ////////////////////////////////////////////////////////
 	};
 };
-

@@ -11,6 +11,9 @@ class CfgPatches
 		ammo[]={};
 		units[]={};
 		requiredVersion=0.1;
+		requiredAddons[]={
+		    "cba_settings"
+		};
 	};
 };
 
@@ -21,23 +24,36 @@ class CfgFunctions
 		class Functions
 		{
 			file = "105th_Admin\functions";
+			class PreInit
+			{
+			    preInit = 1;
+			};
 			class Init
 			{
 			    postInit = 1;
 			};
-			class CheckMods
+			class ShowAdminViewUserUI
 			{
 			};
-			class ShowAdminViewUserUI
+			class ShowAdminMainUI
+			{
+			};
+			class ScanMods
 			{
 			};
 			class ScanInventory
 			{
 			};
+			class ScanUndefinedItems
+			{
+			};
 			class SaveData
 			{
 			};
-			class AllowedActions
+			class GetUniqueData
+			{
+			};
+			class ButtonWhitelistBlacklist
 			{
 			};
 			class AdminHint
@@ -46,7 +62,21 @@ class CfgFunctions
 			class ShowBossBarUI
 			{
 			};
+			class PrivateMessage
+			{
+			};
 		};
+	};
+};
+
+class CfgDebriefing
+{
+	// Used when player is kicked
+	class endKick
+	{
+		title = "You have been kicked";
+		description = "by an Administrator";
+		picture = "KIA";
 	};
 };
 

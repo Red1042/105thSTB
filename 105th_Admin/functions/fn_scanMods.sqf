@@ -1,3 +1,4 @@
+private ["_target","_detectedModsString","_mod","_first","_mods"];
 params ["_target"];
 
 _mods = [];
@@ -20,7 +21,7 @@ _first = true;
 } forEach getLoadedModsInfo;
 
 if(_detectedModsString != "") then {
-    [(format ["%1 has blacklisted mods loaded:\n%2",(name _target),_detectedModsString])] remoteExec ["v105_Admin_fnc_AdminHint",-2];
+    [(format ["%1 has blacklisted mods loaded:\n%2",(name _target),_detectedModsString])] remoteExec ["v105_Admin_fnc_AdminHint"];
 };
 
 _mods = _mods call BIS_fnc_sortAlphabetically;
