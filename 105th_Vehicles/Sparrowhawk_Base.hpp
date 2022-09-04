@@ -414,47 +414,65 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 					class WingPylonRight1 // Outer
 					{
 						maxweight=560;
-						hardpoints[]={"v105_UnguidedRockets","105th_AA_Missiles" ,"Pelican_Utility","105th_Hellfires","105th_HOTs"};
+						hardpoints[]={"v105_Hydra_Generic", "v105_SparrowHawk_Generic", "v105_Sindewinder_Quad"};
 						attachment="v105_FIR_Hydra_P_7rnd_M";
 						bay=-1;
 						priority=3;
-						UIposition[]={0.35,0.12};
+						UIposition[]={0.35,0.11};
 						turret[]={};
 					};
 					class WingPylonRight2: WingPylonRight1 // Middle
 					{
+						maxweight=560;
+                    	hardpoints[]=
+                    	{
+                    	    "v105_Hydra_Generic", "v105_SparrowHawk_Generic", "v105_114Kilo_3Rnd",
+                    	    "v105_114Lima_3Rnd",    "v105_APKWS_SparrowHawk",
+                    	};
+                    	attachment="v105_FIR_Hydra_P_7rnd_M";
+                    	bay=-1;
 						priority=2;
-						UIposition[]={0.3,0.16};
+						UIposition[]={0.35,0.17};
+						turret[]={};
 					};
 					class WingPylonRight3: WingPylonRight1 // Inner
 					{
+						maxweight=560;
+                    	hardpoints[]=
+                    	{
+                    	    "v105_Hydra_Generic", "v105_SparrowHawk_Generic", "v105_APKWS_SparrowHawk",
+                    	    "v105_114Kilo_3Rnd",    "v105_114Lima_3Rnd",
+                    	};
+                    	attachment="v105_FIR_Hydra_P_7rnd_M";
+                    	bay=-1;
 						priority=1;
-						UIposition[]={0.35,0.2};
+						UIposition[]={0.35,0.23;
+						turret[]={};
 					};
 					class pylons3 // Center
 					{
-						hardpoints[] = {"v105_SparrowHawk_Center", "105th_PelicanBomb"};
+						hardpoints[] = {"v105_Sindewinder_Quad", "v105_Sparrowhawk_Bomb_Center" };
 						priority = 5;
 						attachment = "v105_FIR_AIM9X_EWP_4rnd_M";
 						maxweight = 2000;
-						UIposition[] = {0.3,0.29};
+						UIposition[] = {0.35,0.29};
                         bay = -1; // Ignore bay -1 but keep
 						turret[]={};
 					};
 					class WingPylonLeft3: WingPylonRight3 // Inner
 					{
 						mirroredMissilePos=3;
-						UIposition[]={0.35,0.38};
+						UIposition[]={0.35,0.35};
 					};
 					class WingPylonLeft2: WingPylonRight2 //	Middle
 					{
 						mirroredMissilePos=2;
-						UIposition[]={0.3,0.42};
+						UIposition[]={0.35,0.40};
 					};
 					class WingPylonLeft1: WingPylonRight1	//	Outer
 					{
 						mirroredMissilePos=1;
-						UIposition[]={0.35,0.46};
+						UIposition[]={0.35,0.48};
 					};
 				};
        };

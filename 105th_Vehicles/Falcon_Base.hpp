@@ -196,8 +196,8 @@
                 {
                     class pylons1 //    Outer
                     {
-                        hardpoints[] = {"v105_UnguidedRockets","105th_HOTs","v105_Sidewinder_Single"};
-                        attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
+                        hardpoints[] = {"v105_Hydra_Generic","v105_Sidewinder_Single",  "v105_AnvilSmokes_R/W"};
+                        attachment = "";
                         priority = 6;
                         maxweight = 600;
                         UIposition[] = {0.29,0.1};
@@ -205,21 +205,21 @@
                     };
                     class pylons2: pylons1  //  Center
                     {
-                        hardpoints[] = {"105th_HOTs",};
+                        hardpoints[] = {"v105_Hot3_2rnd",   "v105_AnvilSmokes_R/W"};
                         priority = 6;
-                        attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
+                        attachment = "";
                         maxweight = 600;
-                        UIposition[] = {0.25,0.4};
+                        UIposition[] = {0.29,0.28};
                         mirroredMissilePos = 1;
                         bay = 1;
                     };
                     class pylons3: pylons1  //  Outer
                     {
-                        hardpoints[] = {"v105_UnguidedRockets","105th_HOTs","v105_Sidewinder_Single"};
+                        hardpoints[] = {"v105_Hydra_Generic","v105_Sidewinder_Single",  "v105_AnvilSmokes_R/W"};
                         priority = 5;
-                        attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
+                        attachment = "";
                         maxweight = 600;
-                        UIposition[] = {0.29,0.3};
+                        UIposition[] = {0.29,0.5};
                         bay = 1;
                     };
                 };
@@ -333,8 +333,8 @@
 		};
 		magazines[]=
 		{
-			"v105_50Rnd_82mm_shells","v105_50Rnd_82mm_shells",
-			"168Rnd_CMFlare_Chaff_Magazine"
+			"v105_50Rnd_82mm_shells","v105_40m_150Rnds",
+			"168Rnd_CMFlare_Chaff_Magazine",
 		};
 		class VehicleSpawnerInfo: VehicleSpawnerInfo
 		{
