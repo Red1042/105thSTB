@@ -59,8 +59,8 @@ class v105_AV14_Base: VES_AV14
                 class pylons1 //    Outer
                 {
                     hardpoints[] =
-                    {"v105_Hydra_Generic",   "v105_Hornet_Hydra_Generic",
-                    "v105_AnvilSmokes_R/W", "v105_AIM9X_Dual"};
+                    {"v105_Hydra_Generic","v105_Hornet_Hydra_Generic",
+                    "v105_AnvilSmokes","v105_AIM9X_Dual"};
                     attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
                     priority = 6;
                     maxweight = 600;
@@ -71,7 +71,7 @@ class v105_AV14_Base: VES_AV14
                 {
                     hardpoints[] =
                     {"v105_Hydra_Generic",   "v105_Hornet_Hydra_Generic",
-                    "v105_AnvilSmokes_R/W", "v105_Hornet_Guided_Inner"};
+                    "v105_AnvilSmokes", "v105_Hornet_Guided_Inner"};
                     priority = 6;
                     attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
                     maxweight = 600;
@@ -81,7 +81,7 @@ class v105_AV14_Base: VES_AV14
                 };
                 class pylons5: pylons1  //  Center
                 {
-                    hardpoints[] = {"v105_Hornet_Center",   "v105_AnvilSmokes_R/W"};
+                    hardpoints[] = {"v105_Hornet_Center",   "v105_AnvilSmokes"};
                     priority = 5;
                     attachment = "";
                     maxweight = 600;
@@ -93,7 +93,7 @@ class v105_AV14_Base: VES_AV14
                 {
                     hardpoints[] =
                     {"v105_Hydra_Generic",   "v105_Hornet_Hydra_Generic",
-                    "v105_AnvilSmokes_R/W", "v105_Hornet_Guided_Inner"};
+                    "v105_AnvilSmokes", "v105_Hornet_Guided_Inner"};
                     priority = 5;
                     attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
                     maxweight = 600;
@@ -105,7 +105,7 @@ class v105_AV14_Base: VES_AV14
                 {
                     hardpoints[] =
                     {"v105_Hydra_Generic",   "v105_Hornet_Hydra_Generic",
-                     "v105_AnvilSmokes_R/W", "v105_AIM9X_Dual"};
+                     "v105_AnvilSmokes", "v105_AIM9X_Dual"};
                     priority = 5;
                     attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
                     maxweight = 600;
@@ -158,7 +158,6 @@ class v105_AV14_CAP: v105_AV14_Base
 {
     scope=2;
     scopeCurator=2;
-    forceInGarage=1;
     displayName="AV-14 Hornet I";
 
     weapons[]=
@@ -173,9 +172,6 @@ class v105_AV14_CAP: v105_AV14_Base
         "v105_320Rnd_Flare_Chaff_Magazine",
         "Laserbatteries"
     };
-    class TransportBackpacks
-    {
-    };
     class VehicleSpawnerInfo: VehicleSpawnerInfo
     {
         scope = 1;
@@ -187,7 +183,6 @@ class v105_AV14_CAS: v105_AV14_Base
 {
     scope=2;
     scopeCurator=2;
-    forceInGarage=1;
     displayName="AV-14 Hornet II";
 
     weapons[]=
@@ -202,7 +197,6 @@ class v105_AV14_CAS: v105_AV14_Base
         "v105_320Rnd_Flare_Chaff_Magazine",
         "Laserbatteries"
     };
-    class TransportBackpacks{};
     class VehicleSpawnerInfo: VehicleSpawnerInfo
     {
         scope = 1;
@@ -214,7 +208,6 @@ class v105_AV14B_CAS: v105_AV14_Base
 {
     scope=2;
     scopeCurator=2;
-    forceInGarage=1;
     displayName="AV-14 Hornet IIB";
 
     weapons[]=
@@ -229,7 +222,6 @@ class v105_AV14B_CAS: v105_AV14_Base
         "v105_320Rnd_Flare_Chaff_Magazine",
         "Laserbatteries"
     };
-    class TransportBackpacks{};
     class VehicleSpawnerInfo: VehicleSpawnerInfo
     {
         scope = 1;
@@ -241,7 +233,6 @@ class v105_AV14L_MULTI: v105_AV14_Base
 {
     scope=2;
     scopeCurator=2;
-    forceInGarage=1;
     displayName="AV-14L Hornet";
     weapons[]=
     {
@@ -256,14 +247,6 @@ class v105_AV14L_MULTI: v105_AV14_Base
         "v105_320Rnd_Flare_Chaff_Magazine",
         "Laserbatteries"
     };
-    class TransportBackpacks{};
-    altFullForce = 6000;
-    maxSpeed=450;
-    liftForceCoef=2.5;
-    cyclicAsideForceCoef=3.35;
-    cyclicForwardForceCoef=1.5;
-    bodyFrictionCoef=0.30000001;
-    backRotorForceCoef = 1.75;
     class VehicleSpawnerInfo: VehicleSpawnerInfo
     {
         scope = 1;

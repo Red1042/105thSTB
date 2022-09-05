@@ -14,7 +14,7 @@ class OPTRE_M28A2
 class v105_M28A2: OPTRE_M28A2
 {
     dlc= "105th";
-    baseweapon= "v105_M28A2"
+    baseweapon= "v105_M28A2";
     author= "S-4 Logistics (Luke)";
     displayName= "[105th] M28A2";
     magazines[]=

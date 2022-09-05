@@ -49,7 +49,7 @@
 	class v105_BBarkley_ANPRC521_black_blue: MatGrp_ANPRC_521_black_blue
 	{
 		author="N-4 Logistics";
-        displayName= "[ODST] AN-PRC521 (Barkley)"
+        displayName= "[ODST] AN-PRC521 (Barkley)";
 		maximumLoad=400;
 
 		hiddenSelections[]=
@@ -73,7 +73,7 @@
     class v105_GCru_ANPRC515: OPTRE_ANPRC_515
     {
     	author="N-4 Logistics";
-        displayName= "[ODST] AN-PRC515 (Cruz)"
+        displayName= "[ODST] AN-PRC515 (Cruz)";
     	maximumLoad=400;
 
 		hiddenSelections[]=

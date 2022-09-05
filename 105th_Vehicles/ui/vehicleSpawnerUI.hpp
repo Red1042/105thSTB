@@ -67,7 +67,7 @@ class v105_Vehicle_VehicleSpawner_UI
         class RscListBox_Vehicles: RscListBox
         {
 	        idc = 1500;
-	        onLBSelChanged = "_this call V105_Vehicles_fnc_ShowTypesAndLiveries;"
+	        onLBSelChanged = "_this call V105_Vehicles_fnc_ShowTypesAndLiveries;";
 	        colorPicture[] = {1,1,1,1};
 	        colorPictureSelected[] = {0,0,0,1};
 	        colorSelect2[] = {0,0,0,1};

@@ -52,7 +52,7 @@ class CfgEditorCategories
 	};
 	class v105_EdCat_URF
 	{
-		displayName="[105th] URF - Enhanced Vehicles"
+		displayName="[105th] URF - Enhanced Vehicles";
 	};
 }; 
 class CfgEditorSubcategories

@@ -41,8 +41,6 @@ class CfgPatches
 		    "v105_Fossa_armed",
 		    "v105_Fossa_armed_AT",
 		    //Falcons
-	//	    "v105_Falcon_Unarmed_Base",
-	//	    "v105_Falcon_Base",
 		    "v105_UH144",
 		    "v105_UH144_MED",
 		    "v105_UH144S",
@@ -51,8 +49,6 @@ class CfgPatches
 		    "v105_UH144S_AM",
 		    "v105_UH144S_ARC",
 		    //Pelicans
-	//	    "v105_Pelican_Base",
-	//	    "v105_Pelican_Unarmed_Base",
 		    "v105_D77HTCI_AV_Minigun_Pelican",
 		    "v105_D77HTCI_AV_20mmCannon_Pelican",
 		    "v105_D77HTCI_AV_30mmCannon_Pelican",
@@ -60,15 +56,7 @@ class CfgPatches
 		    "v105_D77ATCI_Crow_Gunship",
 		    "v105_D77HTCI",
 		    "v105_D78DHTC",
-		    "v105_D77HTCI_REACH",
-		    "v105_D77HTCI_REACH_BubOday",
-		    "v105_D77HTCI_BulcHori",
-		    "v105_D77HTCI_SHARK_MeatWind",
-		    "v105_D77HTCI_SHARK_Ragith",
-		    "v105_D77HTCI_SHARK",
-		    "v105_D77HTCI_Keen",
 		    // Hornets
-	//	    "v105_AV14_Base",
 		    "v105_AV14_CAP",
 		    "v105_AV14_CAS",
 		    "v105_AV14_CAS_Keen",
@@ -87,7 +75,6 @@ class CfgPatches
 		    //Namer
 		    "v105_M18_Mastiff",
 		    // Sparrowhawks
-	//	    "v105_AVXX_Sparrowhawk_Base",
             "v105_AVXXN_50mmCannon_SparrowHawk",
             "v105_AVXXN_Laser_SparrowHawk",
             // Logistic Assets
@@ -215,9 +202,6 @@ class CfgPatches
 			"v105_FIR_Hydra_M261_P_7rnd_M",
 			"v105_FIR_Hydra_M261_P_19rnd_M",
 			"v105_FIR_Hydra_M261_P_38rnd_M",
-
-			"v105_FIR_Hydra_WP_P_7rnd_M",
-			"v105_FIR_Hydra_WP_P_21rnd_M",
 			
 			"v105_FIR_APKWS_P_19rnd_M",
 			"v105_FIR_APKWS_P_38rnd_M",
@@ -259,8 +243,8 @@ class CfgPatches
 			"v105_FIR_AGM154C_P_1rnd_M",
 			"v105_FIR_AGM88_P_1rnd_M",
 			"v105_FIR_ASM2_P_2rnd_M",
-            "OPTRE_16Rnd_AnvilSMK_W_missiles",
-            "OPTRE_16Rnd_AnvilSMK_R_missiles",
+            "v105_16Rnd_AnvilSMK_R_missiles",
+            "v105_16Rnd_AnvilSMK_R_missiles",
 			"v105_AGM84K_P_1rnd_M",
 			//SparrowHawk Ordnance
 			"v105_SpLaser_Battery"

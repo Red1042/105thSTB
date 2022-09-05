@@ -28,7 +28,7 @@ class v105_Admin_Main_UI
         	align = "CENTER";
         	style = 2;
         	valign = "top";
-        	text = "Admin Menu"; //--- ToDo: Localize;
+        	text = "Admin Menu";
         	x = 0.37625 * safezoneW + safezoneX;
         	y = 0.247 * safezoneH + safezoneY;
         	w = 0.2475 * safezoneW;
@@ -61,7 +61,7 @@ class v105_Admin_Main_UI
         {
         	idc = 1600;
         	action = "closeDialog 0;";
-        	text = "Close"; //--- ToDo: Localize;
+        	text = "Close";
         	x = 0.304062 * safezoneW + safezoneX;
         	y = 0.247 * safezoneH + safezoneY;
         	w = 0.061875 * safezoneW;
@@ -70,8 +70,8 @@ class v105_Admin_Main_UI
         class RscButton_PrivateMessage: RscButton
         {
         	idc = 1601;
-        	action = "_control = ((uiNamespace getVariable ""v105_Admin_Main_UI"") displayCtrl 1400); _targetControl = ((uiNamespace getVariable ""v105_Admin_Main_UI"") displayCtrl 2100); [(_targetControl lbText lbCurSel _targetControl),(ctrlText _control)] call v105_Admin_fnc_privateMessage;  _control ctrlSetText """";"
-        	text = "Send Private Message"; //--- ToDo: Localize;
+        	action = "_control = ((uiNamespace getVariable ""v105_Admin_Main_UI"") displayCtrl 1400); _targetControl = ((uiNamespace getVariable ""v105_Admin_Main_UI"") displayCtrl 2100); [(_targetControl lbText lbCurSel _targetControl),(ctrlText _control)] call v105_Admin_fnc_privateMessage;  _control ctrlSetText """";";
+        	text = "Send Private Message";
 	    	x = 0.530937 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
         	w = 0.12375 * safezoneW;
@@ -81,7 +81,7 @@ class v105_Admin_Main_UI
         {
         	idc = 1602;
         	action = "_name = (name player); [_name] spawn V105_Admin_fnc_ShowAdminViewUserUI;";
-        	text = "View Users"; //--- ToDo: Localize;
+        	text = "View Users";
         	x = 0.634062 * safezoneW + safezoneX;
         	y = 0.247 * safezoneH + safezoneY;
         	w = 0.061875 * safezoneW;
@@ -91,7 +91,7 @@ class v105_Admin_Main_UI
         {
         	idc = 1603;
         	action = "[((uiNamespace getVariable ""v105_Admin_Main_UI"") displayCtrl 1500),lbCurSel ((uiNamespace getVariable ""v105_Admin_Main_UI"") displayCtrl 2101),false] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
-        	text = "Whitelist"; //--- ToDo: Localize;
+        	text = "Whitelist";
         	x = 0.314375 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -103,7 +103,7 @@ class v105_Admin_Main_UI
         {
         	idc = 1604;
         	action = "[((uiNamespace getVariable ""v105_Admin_Main_UI"") displayCtrl 1500),lbCurSel ((uiNamespace getVariable ""v105_Admin_Main_UI"") displayCtrl 2101),true] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
-        	text = "Blacklist"; //--- ToDo: Localize;
+        	text = "Blacklist";
         	x = 0.386562 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;

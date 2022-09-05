@@ -38,7 +38,7 @@ class v105_Admin_ViewUser_UI
         {
         	idc = 1600;
         	action = "[] spawn V105_Admin_fnc_ShowAdminMainUI;";
-        	text = "Main Menu"; //--- ToDo: Localize;
+        	text = "Main Menu";
 	    	x = 0.304062 * safezoneW + safezoneX;
         	y = 0.247 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -47,10 +47,10 @@ class v105_Admin_ViewUser_UI
         class RscButton_Next: RscButton
         {
         	idc = 1600;
-        	action = "_display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [(_display lbText (uiNamespace getVariable [""v105_Admin_nextTargetIndex"",0]))] call V105_Admin_fnc_ShowAdminViewUserUI;"
+        	action = "_display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [(_display lbText (uiNamespace getVariable [""v105_Admin_nextTargetIndex"",0]))] call V105_Admin_fnc_ShowAdminViewUserUI;";
         	// ToDo: Setup
 
-        	text = "Next"; //--- ToDo: Localize;
+        	text = "Next";
         	x = 0.644375 * safezoneW + safezoneX;
         	y = 0.247 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -70,7 +70,7 @@ class v105_Admin_ViewUser_UI
         	align = "CENTER";
         	style = 2;
         	valign = "top";
-        	text = "Mods"; //--- ToDo: Localize;
+        	text = "Mods";
         	x = 0.304062 * safezoneW + safezoneX;
         	y = 0.313 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -81,7 +81,7 @@ class v105_Admin_ViewUser_UI
         {
         	idc = 1602;
         	action = "[((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1500),""Mods"",false] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
-        	text = "Whitelist"; //--- ToDo: Localize;
+        	text = "Whitelist";
         	x = 0.314375 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -92,7 +92,7 @@ class v105_Admin_ViewUser_UI
         {
         	idc = 1603;
         	action = "[((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1500),""Mods"",true] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
-        	text = "Blacklist"; //--- ToDo: Localize;
+        	text = "Blacklist";
         	x = 0.386562 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -113,7 +113,7 @@ class v105_Admin_ViewUser_UI
         	align = "CENTER";
         	style = 2;
         	valign = "top";
-        	text = "Items"; //--- ToDo: Localize;
+        	text = "Items";
         	x = 0.45875 * safezoneW + safezoneX;
         	y = 0.313 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -124,7 +124,7 @@ class v105_Admin_ViewUser_UI
         {
         	idc = 1604;
         	action = "[((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1501),""Items"",false] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
-        	text = "Whitelist"; //--- ToDo: Localize;
+        	text = "Whitelist";
         	x = 0.469062 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -135,7 +135,7 @@ class v105_Admin_ViewUser_UI
         {
         	idc = 1605;
         	action = "[((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 1501),""Items"",true] call v105_Admin_fnc_ButtonWhitelistBlacklist;";
-        	text = "Blacklist"; //--- ToDo: Localize;
+        	text = "Blacklist";
         	x = 0.54125 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -145,7 +145,7 @@ class v105_Admin_ViewUser_UI
         class RscButton_OPBan: RscButton
         {
         	idc = 1606;
-        	text = "OP Ban [WIP]"; //--- ToDo: Localize;
+        	text = "OP Ban [WIP]";
 	    	x = 0.628906 * safezoneW + safezoneX;
         	y = 0.533 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -165,7 +165,7 @@ class v105_Admin_ViewUser_UI
         {
         	idc = 1602;
 
-        	text = "OP Pardon [WIP]"; //--- ToDo: Localize;
+        	text = "OP Pardon [WIP]";
 	    	x = 0.628906 * safezoneW + safezoneX;
         	y = 0.709 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;
@@ -175,8 +175,8 @@ class v105_Admin_ViewUser_UI
         class RscButton_Kick: RscButton
         {
         	idc = 1607;
-        	action = "_display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [format [""#kick %1"",(_display lbText lbCurSel _display)]] remoteExec [""serverCommand"",2];"
-        	text = "Kick [WIP]"; //--- ToDo: Localize;
+        	action = "";//"_display = ((uiNamespace getVariable ""v105_Admin_ViewUser_UI"") displayCtrl 2000); [format [""#kick %1"",(_display lbText lbCurSel _display)]] remoteExec [""serverCommand"",2];";
+        	text = "Kick [WIP]";
         	x = 0.628906 * safezoneW + safezoneX;
         	y = 0.467 * safezoneH + safezoneY;
         	w = 0.0515625 * safezoneW;

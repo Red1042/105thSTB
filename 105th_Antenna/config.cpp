@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class v105_Admin
+	class v105_Antenna
 	{
 		author="105th | S-4 Logistics";
 		name="105th Antenna";

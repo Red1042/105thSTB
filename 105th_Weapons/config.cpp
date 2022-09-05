@@ -5,18 +5,33 @@ class CfgPatches
 	class v105_Weapons
 	{
 		author="105th | S-4 Logistics";
+		url="https://discord.gg/105thstb-arma";
 		name="105th Weapons";
         weapons[]=
         {
+            // Disposables
+			"v105_Cricket_PEN",
+            "v105_Cricket_PEN_Loaded",
+            "v105_Cricket_PEN_Used",
+            "v105_Cricket_HE",
+            "v105_Cricket_HE_Loaded",
+            "v105_Cricket_HE_Used",
+
+            // BRs
             "v105_M28A2",
+            // Rifles
             "v105_MA5C",
             "v105_MA5C_GL",
             "v105_MA5C_FT",
             "v105_MA5C_FT_GL",
+            // SMGs
             "v105_M7",
+            // Carbines
             "v105_MA37K",
+            // Pistols
             "v105_M6C",
             "v105_M6D",
+            // Machine guns
             "v105_M73SAW",
             "v105_M247SSW"
         };
@@ -60,6 +75,12 @@ class CfgPatches
         };
 		units[]={};
 		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"OPTRE_Weapons",
+			"V_SO_Weapons",
+			"CBA_Main"
+		};
 	};
 };
 
@@ -67,6 +88,7 @@ class Mode_SemiAuto;
 
 class CfgWeapons
 {
+    #include "weapons\Disposables.hpp"
     #include "weapons\UGLs.hpp"
     #include "weapons\Rifles.hpp"
     #include "weapons\Carbines.hpp"
@@ -78,4 +100,20 @@ class CfgWeapons
 class CfgMagazines
 {
 	#include "cfg\Magazines.hpp"
+};
+
+
+/* Disposables Setup */
+class CBA_DisposableLaunchers
+{
+    v105_Cricket_PEN[]=
+    {
+        "v105_Cricket_PEN_Loaded",
+        "v105_Cricket_PEN_Used",
+    };
+    v105_Cricket_HE[]=
+    {
+        "v105_Cricket_HE_Loaded",
+        "v105_Cricket_HE_Used",
+    };
 };
