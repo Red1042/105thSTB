@@ -62,12 +62,11 @@ private "_corvetteCenter";
 	
 	if (_forEachIndex isEqualTo 0) then {
 		_corvetteCenter = _piece;
-		_piece setPosATL _spawnPosition;
+		_piece setPosASL _spawnPosition;
 		_piece setVectorDirAndUp _vectorsRelative;
 	} else {
-		// used to make the positions the same over water and land
-		_piece setPosATL (ASLToATL (AGLToASL (_corvetteCenter modelToWorldVisual _posRelative)));
-		_piece setVectorDirAndUp [(_corvetteCenter vectorModelToWorldVisual (_vectorsRelative select 0)),(_corvetteCenter vectorModelToWorldVisual (_vectorsRelative select 1))];
+		_piece setPosASL (_corvetteCenter modelToWorldVisualWorld _posRelative);
+		_piece setVectorDirAndUp _vectorsRelative;
 	};
 
 } forEach _corvetteInfo;

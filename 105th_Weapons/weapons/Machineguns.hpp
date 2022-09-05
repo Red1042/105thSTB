@@ -1,12 +1,12 @@
 /* 105th M73 SAW */
 
-class OPTRE_M73
+class OPTRE_MachineGun_Base;
+class OPTRE_M73: OPTRE_MachineGun_Base
 {
-    class WeaponSlotsInfo
-    {
-        class CowsSlot;
-    };
     class FullAuto;
+    class FullAutoSlow;
+    class FullAutoFast;
+    class WeaponSlotsInfo;
 };
 
 class v105_M73SAW: OPTRE_M73
@@ -48,7 +48,7 @@ class v105_M73SAW: OPTRE_M73
             compatibleitems[]=
             {
                 "OPTRE_BR55HB_Scope",
-                "OPTRE_BR55HB_Scope_v2",
+                //"OPTRE_BR55HB_Scope_v2", (Disabled due to it's zoom optic being broken)
                 "optre_m393_eotech",
                 "OPTRE_M393_EOTECH_v2",
                 "optre_m392_scope",
@@ -64,12 +64,9 @@ class v105_M73SAW: OPTRE_M73
 
 /* 105th M247 SSW */
 
-class OPTRE_M247
+class OPTRE_M247: OPTRE_M73
 {
-    class WeaponSlotsInfo
-    {
-        class CowsSlot;
-    };
+    class WeaponSlotsInfo;
     class FullAuto;
 };
 
@@ -392,7 +389,7 @@ class v105_M247SSW: OPTRE_M247
             compatibleitems[]=
             {
                 "OPTRE_BR55HB_Scope",
-                "OPTRE_BR55HB_Scope_v2",
+                //"OPTRE_BR55HB_Scope_v2", (Disabled due to it's zoom optic being broken)
                 "optre_m393_eotech",
                 "OPTRE_M393_EOTECH_v2",
                 "optre_m392_scope",

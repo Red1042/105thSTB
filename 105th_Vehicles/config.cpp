@@ -133,6 +133,9 @@ class CfgPatches
 			"v105_AGM84H",
 			// SparrowHawk
 			"v105_M6_Laser",
+			// Troop Carriers
+            "v105_Land_Transport_Covered_Pod",
+            "v105_Land_Medical_Covered_Pod"
 		};
 		magazines[] = 
 		{
@@ -595,14 +598,8 @@ class cfgVehicles
 	//#include "Blackfish_Gunship_Base.hpp"
 	#include "SDV.hpp"
 	#include "Logistics_Base.hpp"
-	class LM_OPCAN_M808_MC_WDL;
-	class LM_OPCAN_v105_M808_MC_WDL: LM_OPCAN_M808_MC_WDL
-	{
-		displayName="M808 Scorpion";
-		editorCategory="v105_EdCat_105th";
-		editorSubcategory="v105_105th_EdSubCat_Armor";
-		fuelCapacity=300;
-	};
+	#include "Scorpion_Base.hpp"
+	#include "TransportPod_Base.hpp"
 };
 
 /* Vehicle Spawner UI */

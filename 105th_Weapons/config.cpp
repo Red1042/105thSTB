@@ -19,18 +19,28 @@ class CfgPatches
 
             // BRs
             "v105_M28A2",
+            "v105_BR55",
+
+            // Long Rifles
+            "v105_M392X",
+            "v105_SRS99C",
+
             // Rifles
             "v105_MA5C",
             "v105_MA5C_GL",
             "v105_MA5C_FT",
             "v105_MA5C_FT_GL",
+
             // SMGs
             "v105_M7",
+
             // Carbines
             "v105_MA37K",
+
             // Pistols
             "v105_M6C",
             "v105_M6D",
+
             // Machine guns
             "v105_M73SAW",
             "v105_M247SSW"
@@ -85,6 +95,12 @@ class CfgPatches
 };
 
 class Mode_SemiAuto;
+class Mode_Burst;
+class Mode_FullAuto;
+class MuzzleSlot;
+class CowsSlot;
+class PointerSlot;
+class UnderBarrelSlot;
 
 class CfgWeapons
 {
@@ -93,8 +109,10 @@ class CfgWeapons
     #include "weapons\Rifles.hpp"
     #include "weapons\Carbines.hpp"
     #include "weapons\Machineguns.hpp"
+    #include "weapons\BattleRifles.hpp"
     #include "weapons\Pistols.hpp"
     #include "weapons\SMGs.hpp"
+    #include "weapons\LongRifles.hpp"
 };
 
 class CfgMagazines

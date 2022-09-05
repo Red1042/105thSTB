@@ -7,8 +7,6 @@ class CfgPatches
 		url= "";
 		units[]= 
 		{
-			"v105_Land_Transport_Covered_Pod",
-			"v105_Land_Medical_Covered_Pod",
 			"v105_Mortar_Container",
 			"v105_SupplyPod_Rifle",
 			"v105_SupplyPod_MachineGun",
@@ -23,20 +21,12 @@ class CfgPatches
 			"v105_SupplyPod_Radios",
 			"v105_SupplyPod_SPNKR"
 		};
-		weapons[]= 
-		{
-			
-		};
-		magazines[]= 
-		{
-			
-
-		};
+		weapons[]= {};
+		magazines[]= {};
 		ammo[]= {};
 		requiredVersion= 1.0;
 		requiredAddons[]= 
 		{
-
 			"v105_Core",
 			"OPTRE_Misc_Crates",
 			"OPTRE_Modules",
@@ -68,62 +58,6 @@ class CfgPatches
 
 class CfgVehicles
 {
-	class Land_Pod_Heli_Transport_04_covered_F;
-	class v105_Land_Transport_Covered_Pod: Land_Pod_Heli_Transport_04_covered_F
-	{
-		scopeCurator= 2;
-		scope= 2;
-		side= 1;
-		author= "S-4 Logistics";
-		displayName= "[105th] Passenger Compartment";
-		editorCategory= "v105_EdCat_105th";
-		editorSubCategory= "v105_EdSubCat_Supply";
-		armor= 150;
-		class TransportMagazines{};
-		class TransportWeapons{};
-		hiddenSelectionsTextures[]=
-		{
-		    "A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_Black_CO.paa",
-		    "A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_Black_CO.paa"
-			//"105th_SupplyCrates\textures\taru_1_retexture.paa",
-			//"105th_SupplyCrates\textures\taru_2_retexture.paa"
-		};
-		transportMaxMagazines= 150;
-        transportMaxWeapons= 50;
-		maximumLoad= 4000;
-		class TransportItems
-		{
-			#include "SupplyPods\ResupplyPodRifle.hpp"
-		};
-	};
-	class Land_Pod_Heli_Transport_04_medevac_F;
-	class v105_Land_Medical_Covered_Pod: Land_Pod_Heli_Transport_04_medevac_F
-	{
-		scopeCurator= 2;
-		scope= 2;
-		side= 1;
-		author= "S-4 Logistics";
-		displayName= "[105th] Medevac Compartment";
-		editorCategory= "v105_EdCat_105th";
-		editorSubCategory= "v105_EdSubCat_Supply";
-		armor= 150;
-		class TransportMagazines{};
-		class TransportWeapons{};
-		hiddenSelectionsTextures[]=
-		{
-			"105th_SupplyCrates\textures\taru_med_retexture.paa",
-			"105th_SupplyCrates\textures\taru_2_retexture.paa"
-		};
-		transportMaxMagazines= 150;
-        transportMaxWeapons= 50;
-		maximumLoad= 2000;
-		class TransportItems
-		{
-			#include "SupplyPods\ResupplyPodMedical.hpp"
-	    };
-	};
-
-
 	class Land_optre_milcrate_h3_long;
 	class v105_Mortar_Container: Land_optre_milcrate_h3_long
 	{

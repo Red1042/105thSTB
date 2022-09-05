@@ -5,8 +5,6 @@ class B_Slingload_01_Repair_F;
 class B_Slingload_01_Ammo_F;
 class B_Slingload_01_Fuel_F;
 class OPTRE_cart;
-
-
 /* Start of Stallion Resupply Vehicles */
 
 class v105_M1087_Stallion_Repair: OPTRE_m1087_stallion_unsc_repair
@@ -152,5 +150,3 @@ class v105_Cart: OPTRE_cart
 		type = "Tow Cart";
 	};
 };
-
-

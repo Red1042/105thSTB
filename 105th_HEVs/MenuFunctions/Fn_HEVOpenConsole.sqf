@@ -1,5 +1,5 @@
 /* ----------------------------------------------------------------------------
-Function: OPTRE_fnc_HEVRoom
+Function: v105_fnc_HEVOpenConsole
 
 Description:
 	Opens/creates the dialog used for selecting the drop parameters for HEVs
@@ -23,6 +23,7 @@ Examples:
 Author:
 	Big_Wilk,
 	Modified by: Ansible2 // Cipher
+	& 105th STB | S-4 Logistics (Luke)
 ---------------------------------------------------------------------------- */
 disableSerialization;
 
@@ -76,46 +77,19 @@ _linkedPods apply {
 	_10 lbSetValue [_i, _x];
 };
 
-[3000] apply {
-	_i = _11 lbAdd (format ["Atmosphere Start: %1m",_x]);
-	_11 lbSetValue [_i, _x];
-};
-
 [2000] apply {
 	_i = _12 lbAdd (format ["Atmosphere End: %1m",_x]);
 	_12 lbSetValue [_i, _x];
 };
 
-[1000,500,300] apply {
-	_i = _13 lbAdd (format ["Chute Open: %1m",_x]);
-	_13 lbSetValue [_i, _x];
-};
-
-[500,200,100] apply {
-	_i = _14 lbAdd (format ["Chute Detach: %1m",_x]);
+["Yes","No"] apply {
+	_i = _14 lbAdd (format ["HEV Cleanup: %1m",_x]);
 	_14 lbSetValue [_i, _x];
 };
 
-[0,1] apply {
-	_i = _15 lbAdd (format ["Delete Chutes On Detach: %1",
-		(switch _x do {
-				case 0: {"Yes"};
-				case 1: {"No"}; 
-			}
-		)]);
-
-	_15 lbSetValue [_i, _x];
-};
-
-[0,1] apply {
-	_i = _16 lbAdd (format ["Deployment: %1",
-		(switch _x do {
-				case 0: {"Corvette"};
-				case 1: {"Frigate"}; 
-			}
-		)]);
-
-	_16 lbSetValue [_i, _x];
+["Corvette","Frigate"] apply {
+	_i = _16 lbAdd (format ["Deployment: %1",_x]);
+	_16 lbSetValue [_i, _i];
 };
 
 [_10,_11,_12,_13,_14,_15,_16] apply {
@@ -127,7 +101,7 @@ _linkedPods apply {
 	if (getMarkerColor 'OPTRE_Local_HEVConsolePosMarker' != '') then {
 		(_this select 0) drawLine [([(getMarkerPos 'OPTRE_Local_HEVConsolePosMarker'), 20000, 0] call BIS_fnc_relPos), ([(getMarkerPos 'OPTRE_Local_HEVConsolePosMarker'), 20000, 180] call BIS_fnc_relPos), [1,0,0,1]];
 		(_this select 0) drawLine [([(getMarkerPos 'OPTRE_Local_HEVConsolePosMarker'), 20000, 90] call BIS_fnc_relPos), ([(getMarkerPos 'OPTRE_Local_HEVConsolePosMarker'), 20000, 270] call BIS_fnc_relPos), [1,0,0,1]];
-		_this select 0 drawEllipse [(getMarkerPos 'OPTRE_Local_HEVConsolePosMarker'), 150, 150, 0, [1, 0, 0, 0.5], '#(rgb,8,8,3)color(1,0.6,0,1)'];
+		_this select 0 drawEllipse [(getMarkerPos 'OPTRE_Local_HEVConsolePosMarker'), 100, 100, 0, [1, 0, 0, 0.5], '#(rgb,8,8,3)color(1,0.6,0,1)'];
 	};
 "];
 

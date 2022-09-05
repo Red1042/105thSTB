@@ -1,13 +1,9 @@
 /* 105th M6 Pistols */
 
-class OPTRE_M6C
+class OPTRE_M6G;
+class OPTRE_M6C: OPTRE_M6G
 {
-    class WeaponSlotsInfo
-    {
-        class MuzzleSlot;
-        class CowsSlot;
-        class PointerSlot;
-    };
+    class WeaponSlotsInfo;
 };
 
 class v105_M6C: OPTRE_M6C

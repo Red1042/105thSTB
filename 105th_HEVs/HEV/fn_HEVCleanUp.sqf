@@ -6,15 +6,15 @@
 	Type: Call
 	Return: True If Function Attempted To Delete Vehicles, False Other Wise. 
 
-	Description: Design to deal with HEVs. 
+	Description: Design to deal with HEVs.
 	
-	Parameters: 
-	0: Array: Array of objects. (default []). 
+	Parameters:
+	0: Array: Array of objects. (default []).
 	1: Number: Time in seconds after the object has been abandoned that it can be deleted. Default 300 (5 mins).
 	
-	Example 1: 
+	Example 1:
 	_vehiclesAdded = [[veh1,veh1,car1,air2],300] call OPTRE_Fnc_VehicleAbandonmentCleanUp;
-	Result: 
+	Result:
 
 	MP: Run by server only. 
 */

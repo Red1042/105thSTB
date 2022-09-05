@@ -1,4 +1,5 @@
 /* 105th UGL */
+
 class UGL_F;
 class v105_M301X: UGL_F
 {
