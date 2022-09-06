@@ -191,7 +191,7 @@ class v105_dress_mar_MHoe: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_nco.paa",
+        "105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E6Corp.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_MHoe.paa"
     };
 };
@@ -280,27 +280,6 @@ class v105_dress_mar_TMai: OPTRE_UNSC_Army_Soldier_DressGray
     };
 };
 
-class v105_dress_mar_JCha: OPTRE_UNSC_Army_Soldier_DressGray
-{
-    author="Bman";
-    uniformclass="v105_mar_dress_JCha";
-    hiddenSelections[]=
-    {
-        "camo1",
-        "camo2",
-        "insignia",
-        "clan",
-//			"awards",
-//			"nametag",
-        "ODST"
-    };
-    hiddenSelectionsTextures[]=
-    {
-        "105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E5.paa",
-        "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JCha.paa"
-    };
-};
-
     class v105_dress_mar_ENun: OPTRE_UNSC_Army_Soldier_DressGray
 {
     author="Bman";
@@ -380,7 +359,7 @@ class v105_dress_mar_JCha: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E5.paa",
+        "105th_Armor\Dress Gear\data\Marine\dress_uniform_mar_E6.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_JShe.paa"
     };
 };

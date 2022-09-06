@@ -4,7 +4,7 @@
 //https://armaservices.maverick-applications.com/Products/MikerosDosTools/default
 //'now' is Fri Jan 17 14:29:04 2020 : 'file' last modified on Sun Jan 05 17:20:58 2020
 ////////////////////////////////////////////////////////////////////
-
+#include "BIS_AddonInfo.hpp"
 #define _ARMA_
 
 class CfgPatches
