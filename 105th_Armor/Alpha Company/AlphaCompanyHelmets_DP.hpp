@@ -511,8 +511,7 @@
 		displayName="[105th] ECH252 Helmet (Ghost)";
 		hiddenSelectionsTextures[]=
 		{
-			//"105th_Armor\Alpha Company\data\Helmets\MGho_CH252_MAR_CO.paa",
-			"105th_Armor\Alpha Company\data\Helmets\JShe_CH252_MAR_CO.paa",
+			"105th_Armor\Alpha Company\data\Helmets\MGho_CH252_MAR_CO.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 	};
