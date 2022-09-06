@@ -1,14 +1,14 @@
 /* 105th MA5Cs */
 
-class OPTRE_Rifle_Base;
-class OPTRE_MA5B: OPTRE_Rifle_Base
+class OPTRE_MA5B;
+class OPTRE_MA5C: OPTRE_MA5B
 {
     class Single;
     class FullAuto;
     class WeaponSlotsInfo;
 };
 
-class v105_MA5C: OPTRE_MA5B
+class v105_MA5C: OPTRE_MA5C
 {
     model= "\OPTRE_Weapons\AR\MA5C.p3d";
     displayName= "[105th] MA5CX";

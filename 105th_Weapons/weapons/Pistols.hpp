@@ -35,7 +35,8 @@ class v105_M6C: OPTRE_M6C
         {
             compatibleitems[]=
             {
-                "optre_m6c_scope"
+                "optre_m6c_scope",
+                "optre_m7_scope"
             };
         };
         class PointerSlot: PointerSlot

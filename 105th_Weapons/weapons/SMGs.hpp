@@ -22,7 +22,7 @@ class v105_M7: OPTRE_M7
         {
             compatibleitems[]=
             {
-                "optre_m6_silencer"
+                "optre_m7_silencer"
             };
         };
         class CowsSlot: CowsSlot

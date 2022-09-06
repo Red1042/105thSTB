@@ -20,15 +20,15 @@ class v105_M28A2: OPTRE_M28A2
     displayName= "[105th] M28A2";
     magazines[]=
     {
-        "OPTRE_32Rnd_762x51_Mag",
-        "OPTRE_32Rnd_762x51_Mag_Tracer",
-        "OPTRE_32Rnd_762x51_Mag_Tracer_Yellow",
-        "OPTRE_32Rnd_762x51_Mag_AP",
-        "OPTRE_32Rnd_762x51_Mag_APT",
-        "OPTRE_32Rnd_762x51_Mag_JHP",
-        "OPTRE_32Rnd_762x51_Mag_JHPT",
-        "OPTRE_32Rnd_762x51_Mag_SS",
-        "OPTRE_32Rnd_762x51_Mag_SST"
+        "OPTRE_36Rnd_95x40_Mag",
+        "OPTRE_36Rnd_95x40_Mag_Tracer",
+        "OPTRE_36Rnd_95x40_Mag_Tracer_Yellow",
+        "OPTRE_36Rnd_95x40_Mag_AP",
+        "OPTRE_36Rnd_95x40_Mag_APT",
+        "OPTRE_36Rnd_95x40_Mag_JHP",
+        "OPTRE_36Rnd_95x40_Mag_JHPT",
+        "OPTRE_36Rnd_95x40_Mag_SS",
+        "OPTRE_36Rnd_95x40_Mag_SST"
     };
     /* Remove the Secondary Fire mode */
     class Single: Single
@@ -79,15 +79,12 @@ class v105_BR55: OPTRE_BR55
     displayName= "[105th] BR55X";
     magazines[]=
     {
-        "OPTRE_32Rnd_762x51_Mag",
-        "OPTRE_32Rnd_762x51_Mag_Tracer",
-        "OPTRE_32Rnd_762x51_Mag_Tracer_Yellow",
-        "OPTRE_32Rnd_762x51_Mag_AP",
-        "OPTRE_32Rnd_762x51_Mag_APT",
-        "OPTRE_32Rnd_762x51_Mag_JHP",
-        "OPTRE_32Rnd_762x51_Mag_JHPT",
-        "OPTRE_32Rnd_762x51_Mag_SS",
-        "OPTRE_32Rnd_762x51_Mag_SST"
+        "OPTRE_36Rnd_95x40_Mag",
+        "OPTRE_36Rnd_95x40_Mag_Tracer",
+        "OPTRE_36Rnd_95x40_Mag_Tracer_Yellow",
+        "OPTRE_36Rnd_95x40_Mag_JHP",
+        "OPTRE_36Rnd_95x40_Mag_JHPT",
+        "OPTRE_36Rnd_95x40_Mag_SS",
     };
     class Single: Single
     {
