@@ -132,7 +132,6 @@ class v105_Falcon_Base: VES_UH144_A
                     attachment = "";
                     maxweight = 600;
                     UIposition[] = {0.29,0.28};
-                    mirroredMissilePos = 1;
                     bay = 1;
                 };
                 class pylons3: pylons1  //  Outer
@@ -142,6 +141,7 @@ class v105_Falcon_Base: VES_UH144_A
                     attachment = "";
                     maxweight = 600;
                     UIposition[] = {0.29,0.5};
+                    mirroredMissilePos = 1;
                     bay = 1;
                 };
             };

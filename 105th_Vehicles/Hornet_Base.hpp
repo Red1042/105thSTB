@@ -76,18 +76,17 @@ class v105_AV14_Base: VES_AV14
                     attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
                     maxweight = 600;
                     UIposition[] = {0.3,0.15};
-                    mirroredMissilePos = 1;
                     bay = 1;
                 };
-                class pylons5: pylons1  //  Center
+                class pylons3: pylons1  //  Center
                 {
                     hardpoints[] = {"v105_Hornet_Center",   "v105_AnvilSmokes"};
                     priority = 5;
                     attachment = "";
                     maxweight = 600;
                     UIposition[] = {0.2,0.29};
-                    bay = 1;
                     mirroredMissilePos = 0;
+                    bay = 1;
                 };
                 class pylons4: pylons1  //  Inner
                 {
@@ -98,10 +97,10 @@ class v105_AV14_Base: VES_AV14
                     attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
                     maxweight = 600;
                     UIposition[] = {0.3,0.45};
+                    mirroredMissilePos = 2;
                     bay = 1;
-                    mirroredMissilePos = 3;
                 };
-                class pylons3: pylons1  //  Outer
+                class pylons5: pylons1  //  Outer
                 {
                     hardpoints[] =
                     {"v105_Hydra_Generic",   "v105_Hornet_Hydra_Generic",
@@ -110,6 +109,7 @@ class v105_AV14_Base: VES_AV14
                     attachment = "v105_FIR_Hydra_M247_P_7Rnd_M";
                     maxweight = 600;
                     UIposition[] = {0.3,0.5};
+                    mirroredMissilePos = 1;
                     bay = 1;
                 };
             };
