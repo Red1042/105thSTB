@@ -530,7 +530,7 @@ class v105_dress_odst_GCru: OPTRE_UNSC_Army_Soldier_DressGray
     };
     hiddenSelectionsTextures[]=
     {
-        "105th_Armor\Dress Gear\data\ODST\dress_uniform_odst_capt.paa",
+        "105th_Armor\Dress Gear\data\Custom\dress_uniform_GCru.paa",
         "105th_Armor\Dress Gear\data\Dress Ranks\dress_rank_GCru.paa"
     };
 };
