@@ -1,5 +1,18 @@
+/*
+	Author: 105th | S-4 Logistics (Luke)
+
+	Description:
+	Scans the players (local) mods and adds them to an public array attached to them for use later by the admin menu
+
+	Parameter(s):
+	NONE
+
+	Returns:
+	NONE
+*/
+
 private ["_target","_detectedModsString","_mod","_first","_mods"];
-params ["_target"];
+_target = player;
 
 _mods = [];
 _detectedModsString = "";

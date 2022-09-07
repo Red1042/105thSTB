@@ -1,0 +1,102 @@
+/* 105th Disposable Crickets */
+
+class launch_RPG32_F;
+class OPTRE_M48_PAW: launch_RPG32_F
+{
+    class WeaponSlotsInfo;
+};
+
+class v105_Cricket_PEN: OPTRE_M48_PAW
+{
+    dlc = "105th";
+    author = "S-4 Logistics";
+    scope = 1;
+    scopeArsenal = 1;
+    baseWeapon = "v105_Cricket_PEN";
+    displayName = "[105th] M48B 'Penetrator' PAW";
+    descriptionShort= "Anti-Tank Disposable Tube";
+    initSpeed=80;
+    model="\V_SO_Weapons\data\M48\M48B_Cricket";
+    picture="\V_SO_Weapons\data\M48\M48B_Cricket";
+    magazineWell[]={};
+    magazines[]= {"v105_Cricket_1rnd_PEN"};
+    magazineReloadTime= 1;
+    reloadMagazineSound[]= {"", 1, 1};
+    class EventHandlers
+    {
+        fired = "_this call CBA_fnc_firedDisposable";
+    };
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        mass=85;
+        class CowsSlot: CowsSlot
+        {
+            compatibleitems[]=
+            {
+                "optic_arco_ak_blk_f",
+                "optic_dms",
+                "optic_aco_grn",
+                "optic_aco",
+                "optic_arco_blk_f",
+                "optic_holosight_blk_f",
+                "optic_mrco",
+                "optic_ams",
+            };
+        };
+    };
+    class PointerSlot: PointerSlot
+    {
+        compatibleitems[]=
+        {
+            "acc_pointer_ir",
+            "ace_acc_pointer_green",
+            "acc_flashlight",
+            "OPTRE_BMR_Laser"
+        };
+    };
+};
+class v105_Cricket_PEN_Loaded: v105_Cricket_PEN
+{
+    scope = 2;
+    scopeArsenal = 2;
+    baseWeapon = "v105_Cricket_PEN_Loaded";
+    magazines[]= {"v105_Cricket_1rnd_PEN"};
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        mass=90;
+    };
+};
+class v105_Cricket_PEN_Used: v105_Cricket_PEN
+{
+    scope = 1;
+    scopeArsenal = 1;
+    baseWeapon = "v105_Cricket_PEN_Used";
+    displayName = "Used M48B Tube";
+    weaponPoolAvailable = 0;
+};
+class v105_Cricket_HE: v105_Cricket_PEN
+{
+    baseWeapon= "v105_Cricket_HE";
+    displayName= "[105th] M48B 'High Explosive' PAW";
+    descriptionShort= "Anti-Personnel Disposable Tube";
+    magazines[]= {"v105_Cricket_1rnd_HE"};
+};
+class v105_Cricket_HE_Loaded: v105_Cricket_HE
+{
+    scope = 2;
+    scopeArsenal = 2;
+    baseWeapon = "v105_Cricket_HE_Loaded";
+    magazines[]= {"v105_Cricket_1rnd_HE"};
+    class WeaponSlotsInfo: WeaponSlotsInfo
+    {
+        mass=90;
+    };
+};
+class v105_Cricket_HE_Used: v105_Cricket_HE
+{
+    scope = 1;
+    scopeArsenal = 1;
+    baseWeapon = "v105_Cricket_HE_Used";
+    displayName = "Used M48B Tube";
+    weaponPoolAvailable = 0;
+};

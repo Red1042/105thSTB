@@ -10,6 +10,7 @@
 	Returns:
 	NONE
 */
+
 private ["_vehicle"];
 params ["_vehicle"];
 

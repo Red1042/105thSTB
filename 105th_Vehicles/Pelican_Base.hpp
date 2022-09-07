@@ -517,7 +517,7 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                 class pylons1   //  Outer
                 {
                     maxweight=300;
-                    hardpoints[]={"v105_Hydra_Generic", "v105_AnvilSmokes_R/W", "v105_AIM9X_Dual",  "v105_AMRAAM_Single"};
+                    hardpoints[]={"v105_Hydra_Generic", "v105_AnvilSmokes", "v105_AIM9X_Dual",  "v105_AMRAAM_Single"};
                     attachment="v105_FIR_Hydra_P_7rnd_M";
                     bay=-1;
                     priority=2;
@@ -748,11 +748,9 @@ class v105_Pelican_Base: OPTRE_Pelican_F
     };
 };
 
-class v105_Pelican_Unarmed_Base: v105_Pelican_Base
+class v105_Pelican_Defensive_Base: v105_Pelican_Base
 {
     displayName="D77H-TCI/Pelican [Unarmed Base]";
-    hiddenSelections[] = {"camo1","camo3","clan","clan_text","insignia","attach_gun"};
-
     class Turrets: Turrets
     {
         class MainTurret: MainTurret
@@ -779,7 +777,7 @@ class v105_Pelican_Unarmed_Base: v105_Pelican_Base
                 class pylons1
                 {
                     maxweight=300;
-                    hardpoints[] = {"v105_AnvilSmokes_R/W", "v105_Sidewinder_Single"};
+                    hardpoints[] = {"v105_AnvilSmokes", "v105_Sidewinder_Single"};
                     attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
                     bay=-1;
                     priority=2;
@@ -788,12 +786,12 @@ class v105_Pelican_Unarmed_Base: v105_Pelican_Base
                 };
                 class pylons2: pylons1
                 {
-                    hardpoints[] = {"v105_AnvilSmokes_R/W"};
+                    hardpoints[] = {"v105_AnvilSmokes"};
                     UIposition[]={0.1,0.20};
                 };
                 class pylons3: pylons1  //  Center
                 {
-                    hardpoints[] = {"v105_AnvilSmokes_R/W"};
+                    hardpoints[] = {"v105_AnvilSmokes"};
                     priority = 5;
                     attachment = "v105_FIR_Mk83_GP_Navy_P_1rnd_M";
                     maxweight = 2000;
@@ -801,7 +799,7 @@ class v105_Pelican_Unarmed_Base: v105_Pelican_Base
                 };
                 class pylons4: pylons1
                 {
-                    hardpoints[] = {"v105_AnvilSmokes_R/W"};
+                    hardpoints[] = {"v105_AnvilSmokes"};
                     priority = 5;
                     attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
                     maxweight = 300;
@@ -811,7 +809,84 @@ class v105_Pelican_Unarmed_Base: v105_Pelican_Base
                 };
                 class pylons5:pylons1
                 {
-                    hardpoints[] = {"v105_AnvilSmokes_R/W", "v105_Sidewinder_Single"};
+                    hardpoints[] = {"v105_AnvilSmokes", "v105_Sidewinder_Single"};
+                    priority = 5;
+                    attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
+                    maxweight = 300;
+                    UIposition[] = {0.1,0.50};
+                    bay = -1;
+                    mirroredMissilePos=1;
+                };
+            };
+            class Presets
+            {
+                class Empty
+                {
+                    displayName="Empty";
+                    attachment[]={};
+                };
+                class Default
+                {
+                    displayName="Utility";
+                    attachment[]=
+                    {
+                        "OPTRE_16Rnd_AnvilSMK_W_missiles", //1
+                        "OPTRE_16Rnd_AnvilSMK_W_missiles", //2
+                        "OPTRE_16Rnd_AnvilSMK_W_missiles", //4
+                        "OPTRE_16Rnd_AnvilSMK_W_missiles", //5
+                    };
+                };
+            };
+        };
+    };
+};
+
+class v105_Pelican_Unarmed_Base: v105_Pelican_Defensive_Base
+{
+    displayName="D77H-TCI/Pelican [Unarmed Base]";
+    class Components: Components
+    {
+        class TransportPylonsComponent
+        {
+            UIPicture="\OPTRE_Vehicles\Pelican\pelicanPylonPic.paa";
+            class pylons
+            {
+                class pylons1
+                {
+                    maxweight=300;
+                    hardpoints[] = {"v105_AnvilSmokes"};
+                    attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
+                    bay=-1;
+                    priority=2;
+                    UIposition[]={0.1,0.10};
+                    turret[]={};
+                };
+                class pylons2: pylons1
+                {
+                    hardpoints[] = {"v105_AnvilSmokes"};
+                    UIposition[]={0.1,0.20};
+                };
+                class pylons3: pylons1  //  Center
+                {
+                    hardpoints[] = {"v105_AnvilSmokes"};
+                    priority = 5;
+                    attachment = "v105_FIR_Mk83_GP_Navy_P_1rnd_M";
+                    maxweight = 2000;
+                    UIposition[] = {0.1,0.30};
+                };
+                class pylons4: pylons1
+                {
+                    hardpoints[] = {"v105_AnvilSmokes"};
+                    priority = 5;
+                    attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
+                    maxweight = 300;
+                    UIposition[] = {0.1,0.40};
+                    bay = -1;
+                    mirroredMissilePos=2;
+                };
+                class pylons5:pylons1
+                {
+                    hardpoints[] = {"v105_AnvilSmokes"};
                     priority = 5;
                     attachment="OPTRE_16Rnd_AnvilSMK_W_missiles";
                     maxweight = 300;
@@ -847,7 +922,7 @@ class v105_Pelican_Unarmed_Base: v105_Pelican_Base
 
 /* Start of Unarmed Pelicans */
 
-class v105_D77HTCI: v105_Pelican_Unarmed_Base
+class v105_D77HTCI: v105_Pelican_Defensive_Base
 {
     scope=2;
     scopeCurator=2;

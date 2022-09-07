@@ -8,192 +8,191 @@ class B_LSV_01_armed_F;
 
 class v105_Fossa_unarmed : B_LSV_01_unarmed_F
 {
-		dlc="105th";
-		author="Howard";
-		
-		scope=2;
-		scopeCurator=2;
-		displayName="M77 Fossa (Unarmed)";
-		editorCategory="v105_EdCat_105th";
-        editorSubcategory="v105_105th_EdSubCat_Motorized";	
-		crew = "VES_Rifleman_MA5B_MAR";
-		tf_hasLRradio = 1;
-		tf_isolatedAmount = 0.65;
-		tf_range = 10000;
-		class TransportItems
-		{
-			#include "cfg\VehicleGearFossa.hpp"
-		};
-		class TransportMagazines{};
-		class TransportWeapons{};
-		class TextureSources
-			{
-				class Black
-				{
-					displayName="$STR_A3_TEXTURESOURCES_BLACK0";
-					author="$STR_A3_Bohemia_Interactive";
-					textures[]=
-					{
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
-						"A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
-						"A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
-					};
-					factions[]=
-					{
-						"BLU_T_F",
-						"BLU_F"
-					};
-				};
-			};
-		textureList[]=
-		{
-			"Black",1
-		};
-		
+    dlc="105th";
+    author="Howard";
+
+    scope=2;
+    scopeCurator=2;
+    displayName="M77 Fossa (Unarmed)";
+    editorCategory="v105_EdCat_105th";
+    editorSubcategory="v105_105th_EdSubCat_Motorized";
+    crew = "VES_Rifleman_MA5B_MAR";
+    tf_hasLRradio = 1;
+    tf_isolatedAmount = 0.65;
+    tf_range = 10000;
+    class TransportItems
+    {
+        #include "cfg\VehicleGearFossa.hpp"
+    };
+    class TransportMagazines{};
+    class TransportWeapons{};
+    class TextureSources
+        {
+            class Black
+            {
+                displayName="$STR_A3_TEXTURESOURCES_BLACK0";
+                author="$STR_A3_Bohemia_Interactive";
+                textures[]=
+                {
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
+                    "A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
+                    "A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
+                };
+                factions[]=
+                {
+                    "BLU_T_F",
+                    "BLU_F"
+                };
+            };
+        };
+    textureList[]=
+    {
+        "Black",1
+    };
 };
 
 class v105_Fossa_armed : B_LSV_01_armed_F
 {
-		dlc="105th";
-		author="Howard";
-		
-		scope=2;
-		scopeCurator=2;
-		displayName="M77 Fossa (Armed)";
-		editorCategory="v105_EdCat_105th";
-        editorSubcategory="v105_105th_EdSubCat_Motorized";	
-		crew = "VES_Rifleman_MA5B_MAR";
-		tf_hasLRradio = 1;
-		tf_isolatedAmount = 0.65;
-		tf_range = 10000;
-		class TransportItems
-		{
-			#include "cfg\VehicleGearFossa.hpp"
-		};
-		class TransportMagazines{};
-		class TransportWeapons{};
-			class Turrets:Turrets
-				{
-					class TopTurret:TopTurret
-					{
-					/*	body="mainTurret";
-						gun="mainGun";
-						animationSourceBody="mainTurret";
-						animationSourceGun="mainGun"; */
-						weapons[]=
-						{
-							"HMG_M2_Mounted"
-						};
-						magazines[]=
-						{
-							"100Rnd_127x99_mag_Tracer_Red","100Rnd_127x99_mag_Tracer_Red",
-							"100Rnd_127x99_mag_Tracer_Red","100Rnd_127x99_mag_Tracer_Red",
-							"100Rnd_127x99_mag_Tracer_Red"
-						};
-					};
-					class CodRiverTurret:CodRiverTurret{};
-					class CargoTurret_02:CargoTurret_02{};
-					class CargoTurret_03:CargoTurret_03{};
-				
-				};
-			class AnimationSources
-			{
-					class mainMuzzle_rot
-				{
-					source="ammorandom";
-					weapon="HMG_M2_Mounted";
-				};
-				class mainMuzzle_reload
-				{
-					source="reload";
-					weapon="HMG_M2_Mounted";
-				};
-				class mainMuzzle_revolving
-				{
-					source="revolving";
-					weapon="HMG_M2_Mounted";
-				};
-				class mainMuzzle_reloadMagazine
-				{
-					source="reloadMagazine";
-					weapon="HMG_M2_Mounted";
-				};
-			};
-			class TextureSources
-			{
-				class Black
-				{
-					displayName="$STR_A3_TEXTURESOURCES_BLACK0";
-					author="$STR_A3_Bohemia_Interactive";
-					textures[]=
-					{
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
-						"A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
-						"A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
-					};
-					factions[]=
-					{
-						"BLU_T_F",
-						"BLU_F"
-					};
-				};
-			};
-		textureList[]=
-		{
-			"Black",1
-		};
+    dlc="105th";
+    author="Howard";
+
+    scope=2;
+    scopeCurator=2;
+    displayName="M77 Fossa (Armed)";
+    editorCategory="v105_EdCat_105th";
+    editorSubcategory="v105_105th_EdSubCat_Motorized";
+    crew = "VES_Rifleman_MA5B_MAR";
+    tf_hasLRradio = 1;
+    tf_isolatedAmount = 0.65;
+    tf_range = 10000;
+    class TransportItems
+    {
+        #include "cfg\VehicleGearFossa.hpp"
+    };
+    class TransportMagazines{};
+    class TransportWeapons{};
+        class Turrets:Turrets
+            {
+                class TopTurret:TopTurret
+                {
+                /*	body="mainTurret";
+                    gun="mainGun";
+                    animationSourceBody="mainTurret";
+                    animationSourceGun="mainGun"; */
+                    weapons[]=
+                    {
+                        "HMG_M2_Mounted"
+                    };
+                    magazines[]=
+                    {
+                        "100Rnd_127x99_mag_Tracer_Red","100Rnd_127x99_mag_Tracer_Red",
+                        "100Rnd_127x99_mag_Tracer_Red","100Rnd_127x99_mag_Tracer_Red",
+                        "100Rnd_127x99_mag_Tracer_Red"
+                    };
+                };
+                class CodRiverTurret:CodRiverTurret{};
+                class CargoTurret_02:CargoTurret_02{};
+                class CargoTurret_03:CargoTurret_03{};
+
+            };
+        class AnimationSources
+        {
+                class mainMuzzle_rot
+            {
+                source="ammorandom";
+                weapon="HMG_M2_Mounted";
+            };
+            class mainMuzzle_reload
+            {
+                source="reload";
+                weapon="HMG_M2_Mounted";
+            };
+            class mainMuzzle_revolving
+            {
+                source="revolving";
+                weapon="HMG_M2_Mounted";
+            };
+            class mainMuzzle_reloadMagazine
+            {
+                source="reloadMagazine";
+                weapon="HMG_M2_Mounted";
+            };
+        };
+        class TextureSources
+        {
+            class Black
+            {
+                displayName="$STR_A3_TEXTURESOURCES_BLACK0";
+                author="$STR_A3_Bohemia_Interactive";
+                textures[]=
+                {
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
+                    "A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
+                    "A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
+                };
+                factions[]=
+                {
+                    "BLU_T_F",
+                    "BLU_F"
+                };
+            };
+        };
+    textureList[]=
+    {
+        "Black",1
+    };
 };
 
 class v105_Fossa_armed_AT : B_LSV_01_AT_F
 {
-		dlc="105th";
-		author="Howard";
-		
-		scope=2;
-		scopeCurator=2;
-		displayName="M77 Fossa (AT)";
-		editorCategory="v105_EdCat_105th";
-        editorSubcategory="v105_105th_EdSubCat_Motorized";	
-		crew = "VES_Rifleman_MA5B_MAR";
-		tf_hasLRradio = 1;
-		tf_isolatedAmount = 0.65;
-		tf_range = 10000;
-		class TransportItems
-		{
-			#include "cfg\VehicleGearFossa.hpp"
-		};
-		class TransportMagazines{};
-		class TransportWeapons{};
-		class TextureSources
-			{
-				class Black
-				{
-					displayName="$STR_A3_TEXTURESOURCES_BLACK0";
-					author="$STR_A3_Bohemia_Interactive";
-					textures[]=
-					{
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
-						"A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
-						"A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
-						"A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
-					};
-					factions[]=
-					{
-						"BLU_T_F",
-						"BLU_F"
-					};
-				};
-			};
-		textureList[]=
-		{
-			"Black",1
-		};
+    dlc="105th";
+    author="Howard";
+
+    scope=2;
+    scopeCurator=2;
+    displayName="M77 Fossa (AT)";
+    editorCategory="v105_EdCat_105th";
+    editorSubcategory="v105_105th_EdSubCat_Motorized";
+    crew = "VES_Rifleman_MA5B_MAR";
+    tf_hasLRradio = 1;
+    tf_isolatedAmount = 0.65;
+    tf_range = 10000;
+    class TransportItems
+    {
+        #include "cfg\VehicleGearFossa.hpp"
+    };
+    class TransportMagazines{};
+    class TransportWeapons{};
+    class TextureSources
+        {
+            class Black
+            {
+                displayName="$STR_A3_TEXTURESOURCES_BLACK0";
+                author="$STR_A3_Bohemia_Interactive";
+                textures[]=
+                {
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa",
+                    "A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa",
+                    "A3\Weapons_F_Beta\Launchers\Titan\data\launcher_INDP_co.paa",
+                    "A3\Weapons_F_Beta\Launchers\Titan\data\tubem_INDP_co.paa"
+                };
+                factions[]=
+                {
+                    "BLU_T_F",
+                    "BLU_F"
+                };
+            };
+        };
+    textureList[]=
+    {
+        "Black",1
+    };
 };

@@ -1,3 +1,26 @@
+/*
+	Author: 105th | S-4 Logistics (Luke)
+
+	Description:
+	Gets the unique data for the specific type of data and returns it
+
+	Parameter(s):
+	_this select 0: STRING or NUMBER - the string name or assigned number of the type of data to get
+	_this select 1: BOOL - if the action is to blacklist (TRUE) the selected data or whitelist (FALSE)
+
+	Returns:
+	ARRAY or NUMBER - the data returned in an array of format:
+	    [
+	        STRING - variableName,
+	        ARRAY - variableData,
+	        STRING - otherVariableName,
+	        ARRAY - otherVariableData,
+	        BOOL - toRegex
+	    ]
+	    alternatively it will return -1 if it fails to find data
+*/
+
+private ["_type","_blacklist","_variableName","_variableData","_otherVariableName","_otherVariableData"];
 params ["_type","_blacklist"];
 
 if(_type isEqualTo "Mods" or _type isEqualTo 0) exitWith {

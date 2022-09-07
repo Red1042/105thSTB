@@ -2,7 +2,7 @@
 	Author: 105th | S-4 Logistics (Luke)
 
 	Description:
-	Post-Init File for v105_Vehicles
+	Post-Init file for the 105th Vehicles Expansion
 
 	Parameter(s):
 	NONE

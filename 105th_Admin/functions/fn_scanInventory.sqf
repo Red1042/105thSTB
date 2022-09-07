@@ -1,3 +1,17 @@
+/*
+	Author: 105th | S-4 Logistics (Luke)
+
+	Description:
+	Save the current data to the inidbi database to save it persistently
+
+	Parameter(s):
+	NONE
+
+	Returns:
+	NONE
+*/
+
+private ["_target","_items","_itemsMap","_item"];
 params ["_target"];
 
 _items = [];

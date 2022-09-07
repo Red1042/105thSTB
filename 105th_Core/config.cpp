@@ -16,6 +16,7 @@ class CfgPatches
 		requiredVersion=1.0;
 		requiredAddons[] =
         {
+            "cba_settings",
             "OPTRE_Weapons",
             "V_FZ_Core"
         };
@@ -51,7 +52,7 @@ class CfgEditorCategories
 	};
 	class v105_EdCat_URF
 	{
-		displayName="[105th] URF - Enhanced Vehicles"
+		displayName="[105th] URF - Enhanced Vehicles";
 	};
 }; 
 class CfgEditorSubcategories
@@ -135,6 +136,17 @@ class CfgEditorSubcategories
 
 class CfgFunctions
 {
+    class v105_Core
+    {
+		class Functions
+		{
+            file = "105th_Core\functions";
+            class Init
+            {
+                postInit = 1;
+            };
+        };
+    };
 	class V_FZ
 	{
 		class PelicanMagLiftSystem

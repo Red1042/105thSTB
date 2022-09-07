@@ -12,6 +12,25 @@ class v105_mar_dress_Base: OPTRE_UNSC_Army_Soldier_DressGray
     scope = 2;
     scopeArsenal = 2;
     mass=40;
+    cmImmunity=1;
+    detectRange=0;
+    muzzles[] = {};
+    nameSound = "";
+	type=131072;
+	selectionFireAnim="zasleh";
+	simulation="Weapon";
+	fireLightAmbient[] = {0,0,0};
+	fireLightDiffuse[] = {0.937,0.631,0.259};
+	fireLightDuration=0.05;
+	fireLightIntensity=0.012;
+	lockedTargetSound[] = {"",0.000316228,6};
+	lockingTargetSound[] = {"",0.000316228,6};
+	weaponLockDelay=0;
+	weaponLockSystem=0;
+	weight=0;
+	class Library {
+    	libTextDesc = "This dress uniform can be used during non combat scenarios such as graduations and ceremonies.";
+    };
     displayName="[105th] Dress Uniform [Enlisted]";
     picture="\OPTRE_UNSC_Units\Army\icons\army_uniform_wdl_hvy.paa";
     model="\OPTRE_UNSC_Units\Army\officer.p3d";

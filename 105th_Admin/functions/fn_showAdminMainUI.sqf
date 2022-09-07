@@ -1,4 +1,19 @@
+/*
+	Author: 105th | S-4 Logistics (Luke)
+
+	Description:
+	Opens the admin main menu UI and fills it with the necessary data
+
+	Parameter(s):
+	NONE
+
+	Returns:
+	NONE
+*/
+
 disableSerialization;
+
+private ["_display","_listPlayersPrivateMessage","_groups","_names","_listUndefinedOptions","_listUndefinedList","_mods","_target","_undefinedMods","_detectedModsString","_mod"];
 
 closeDialog 0;
 _display = createDialog ["v105_Admin_Main_UI",true];

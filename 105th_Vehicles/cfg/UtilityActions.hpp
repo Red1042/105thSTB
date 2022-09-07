@@ -1,7 +1,7 @@
 class AMS_LiteOpen
 {
     displayName="<t color='#739eff'>Open AMS Lite</t>";
-    position="pos cano";
+    position="cargo_door_handle";
     radius=15;
     shortcut="User3";
     condition="player in this and (speed this < 1)";
@@ -17,6 +17,7 @@ class I_TGT_Open
     condition="((driver this) isEqualTo player)";
     displayName="<t color='#FFD700'>Open I-TGT System";
     displayNameDefault="<t color='#FFD700'>Open I-TGT System";
+    position="cargo_door_handle";
     onlyForPlayer=0;
     priority=6;
     radius=15;
