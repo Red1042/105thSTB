@@ -15,6 +15,18 @@ class v105_Falcon_Base: VES_UH144_A
     displayName="UH-144 Falcon [Armed Base]";
     fuelCapacity=200;
     fuelConsumptionRate=0.03;
+        weapons[]=
+        {
+            "CMFlareLauncher",
+            "gatling_20mm",
+            "Laserdesignator_mounted"
+        };
+        magazines[]=
+        {
+            "1000Rnd_20mm_shells",  "1000Rnd_20mm_shells",
+            "168Rnd_CMFlare_Chaff_Magazine",
+            "Laserbatteries",
+        };
     hiddenSelectionsTextures[]=
     {
         "105th_Vehicles\textures\Falcon\v105_Falcon_co.paa",
@@ -271,28 +283,6 @@ class v105_UH144_A: v105_Falcon_Base
         type = "20mm Cannon";
     };
 };
-
-class v105_UH144S_ARC: v105_Falcon_Base
-{
-    displayName="UH-144S-RC Falcon [Navy]";
-
-    weapons[]=
-    {
-        "CMFlareLauncher",
-        "gatling_20mm"
-    };
-    magazines[]=
-    {
-        "1000Rnd_20mm_shells",
-        "168Rnd_CMFlare_Chaff_Magazine"
-    };
-    class VehicleSpawnerInfo: VehicleSpawnerInfo
-    {
-        scope = 1;
-        type = "Minigun";
-    };
-};
-
 class v105_UH144S_A: v105_Falcon_Base
 {
     scope=2;
