@@ -360,3 +360,14 @@ class BCOMP_CO_JPedro_ODST_dp: VES_CH252D_dp
         "optre_unsc_units\army\data\helmet_visor_ca.paa"
     };
 };
+
+class BCOMP_CO_TMailwind_ODST_dp: VES_CH252D_dp
+{
+    author="S-4 Logistics";
+    displayName="[ODST] CH252D Helmet (Mailwind)";
+    hiddenSelectionsTextures[]=
+    {
+        "105th_Armor\Bravo Company\data\Helmets\TMai_CH252D_DEF_CO.paa",
+        "optre_unsc_units\army\data\helmet_visor_ca.paa"
+    };
+};
