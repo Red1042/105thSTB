@@ -2,7 +2,7 @@ class AMS_LiteOpen
 {
     displayName="<t color='#739eff'>Open AMS Lite</t>";
     position="cargo_door_handle";
-    radius=15;
+    radius=100;
     shortcut="User3";
     condition="player in this and (speed this < 1)";
     statement="this execVM ""\FIR_AirWeaponSystem_US\Script\AMS\AMS_Lite\AMS_Lite_GUI_Open.sqf""";
@@ -20,7 +20,7 @@ class I_TGT_Open
     position="cargo_door_handle";
     onlyForPlayer=0;
     priority=6;
-    radius=15;
+    radius=100;
     showWindow=0;
     statement="this execVM ""\FIR_AirWeaponSystem_US\Script\TGTSystem\FIR_AWS_MFD_N_Open.sqf"";";
     textToolTip="<t color='#FFD700'>Open I-TGT System";
