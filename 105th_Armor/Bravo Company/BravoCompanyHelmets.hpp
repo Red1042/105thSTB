@@ -599,3 +599,19 @@ class BCOMP_CO_TMailwind_ODST: VES_CH252D
         owner="Mailwind";
     };
 };
+
+class BCOMP_CO_KPenguin_ODST: VES_CH252D
+{
+    author="S-4 Logistics";
+    displayName="[ODST] CH252D Helmet (Penguin)";
+    hiddenSelectionsTextures[]=
+    {
+        "105th_Armor\Bravo Company\data\Helmets\KPen_CH252D_DEF_CO.paa",
+        "105th_Armor\Bravo Company\data\Helmets\base\7_CH252_BLK_V_CO.paa"
+    };
+    class XtdGearInfo
+    {
+        model="BComp_Custom_Helmets";
+        owner="Penguin";
+    };
+};
