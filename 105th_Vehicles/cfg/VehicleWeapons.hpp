@@ -656,7 +656,7 @@ class v105_FIR_AGM65:FIR_AGM65
         "v105_FIR_AGM65H_P_3rnd_M","v105_FIR_AGM65F_P_3rnd_M",
         "v105_FIR_AGM65G_P_3rnd_M","v105_FIR_AGM65K_P_3rnd_M",
         "v105_FIR_AGM65E_P_3rnd_M","v105_FIR_AGM65E2_P_3rnd_M",
-        "v105_FIR_AGM65L_P_3rnd_M", "v105_AGM-65H_Single",
+        "v105_FIR_AGM65L_P_3rnd_M","v105_AGM65H_P_1Rnd",
         "v105_FIR_AGM65F_P_1rnd_M",
         "v105_FIR_AGM65G_P_1rnd_M",
         "v105_FIR_AGM65K_P_1rnd_M",
