@@ -1,5 +1,5 @@
 params ["_held"];
-private ["_held","_velC","_vel","_pos","_height","_arrayDir","_dir","_addDir"];
+private ["_held","_velC","_vel","_pos"];
 
 _backpack = backpack player;
 if ((_backpack != "v105_JumpPack_on"  AND _backpack != "v105_JumpPack")) exitWith {};

@@ -47,7 +47,7 @@ _listPlayersPrivateMessage lbSetCurSel 0;
 */
 
 _listUndefinedOptions = _display displayCtrl 2101;
-_listUndefinedList = _display displayCtrl 1501;
+_listUndefinedList = _display displayCtrl 1500;
 
 {
     _listUndefinedOptions lbAdd _x;

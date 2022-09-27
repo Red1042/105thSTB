@@ -1,7 +1,7 @@
-// Class name convention as: ACo_InitialLastName_M52A_MAR
-// Example: ACo_JHoward_M52A_MAR
+// Class name convention as:  ACo_InitialLastName_M52A_MAR
+// Example:  ACo_JHoward_M52A_MAR
 // Vest , Reverse, Legs
-class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
+class ACo_GSturmischer_M52A_MAR: VES_M52A_MAR_Rifleman_B
 {
 	dlc="105th";
 	author="N-4 Logistics";
@@ -15,7 +15,7 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
         owner="Stürmischer";
     };
 
-	class ItemInfo: VestItem
+	class ItemInfo:  VestItem
     {
         mass=75;
         containerClass="Supply250";
@@ -23,13 +23,13 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
         class HitpointsProtectionInfo
         {
             class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
-            class Arms: Abdomen {hitpointName="HitArms";};
-            class Body: Abdomen {hitpointName="HitBody";};
-            class Chest: Abdomen {hitpointName="HitChest";};
-            class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
-            class Hands: Abdomen {hitpointName="HitHands";};
-            class Legs: Abdomen {hitpointName="HitLegs";};
-            class Neck: Abdomen {hitpointName="HitNeck";};
+            class Arms:  Abdomen {hitpointName="HitArms";};
+            class Body:  Abdomen {hitpointName="HitBody";};
+            class Chest:  Abdomen {hitpointName="HitChest";};
+            class Diaphragm:  Abdomen {hitpointName="HitDiaphragm";};
+            class Hands:  Abdomen {hitpointName="HitHands";};
+            class Legs:  Abdomen {hitpointName="HitLegs";};
+            class Neck:  Abdomen {hitpointName="HitNeck";};
         };
         hiddenSelections[]= // Comment out what you *want* to see
         {
@@ -88,7 +88,7 @@ class ACo_GSturmischer_M52A_MAR:VES_M52A_MAR_Rifleman_B
         };
     };
 };
-class ACo_LSkynyrd_M52A_MAR:VES_M52A_MAR_Rifleman_C
+class ACo_LSkynyrd_M52A_MAR: VES_M52A_MAR_Rifleman_C
 {
     dlc="105th";
     author="N-4 Logistics";
@@ -102,7 +102,7 @@ class ACo_LSkynyrd_M52A_MAR:VES_M52A_MAR_Rifleman_C
         owner="Skynyrd";
     };
 
-    class ItemInfo: VestItem
+    class ItemInfo:  VestItem
         {
             mass=75;
             containerClass="Supply250";
@@ -110,13 +110,13 @@ class ACo_LSkynyrd_M52A_MAR:VES_M52A_MAR_Rifleman_C
             class HitpointsProtectionInfo
             {
                 class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
-                class Arms: Abdomen {hitpointName="HitArms";};
-                class Body: Abdomen {hitpointName="HitBody";};
-                class Chest: Abdomen {hitpointName="HitChest";};
-                class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
-                class Hands: Abdomen {hitpointName="HitHands";};
-                class Legs: Abdomen {hitpointName="HitLegs";};
-                class Neck: Abdomen {hitpointName="HitNeck";};
+                class Arms:  Abdomen {hitpointName="HitArms";};
+                class Body:  Abdomen {hitpointName="HitBody";};
+                class Chest:  Abdomen {hitpointName="HitChest";};
+                class Diaphragm:  Abdomen {hitpointName="HitDiaphragm";};
+                class Hands:  Abdomen {hitpointName="HitHands";};
+                class Legs:  Abdomen {hitpointName="HitLegs";};
+                class Neck:  Abdomen {hitpointName="HitNeck";};
             };
             hiddenSelections[]=
             {
@@ -176,7 +176,7 @@ class ACo_LSkynyrd_M52A_MAR:VES_M52A_MAR_Rifleman_C
 
         };
 };
-class ACo_QNest_M52A_MAR:VES_M52A_MAR_Rifleman_C
+class ACo_QNest_M52A_MAR: VES_M52A_MAR_Rifleman_C
 {
     dlc="105th";
     author="N-4 Logistics";
@@ -193,7 +193,7 @@ class ACo_QNest_M52A_MAR:VES_M52A_MAR_Rifleman_C
         owner="Nest";
     };
 
-    class ItemInfo: VestItem
+    class ItemInfo:  VestItem
         {
             mass=75;
             containerClass="Supply250";
@@ -201,13 +201,13 @@ class ACo_QNest_M52A_MAR:VES_M52A_MAR_Rifleman_C
             class HitpointsProtectionInfo
             {
                 class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
-                class Arms: Abdomen {hitpointName="HitArms";};
-                class Body: Abdomen {hitpointName="HitBody";};
-                class Chest: Abdomen {hitpointName="HitChest";};
-                class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
-                class Hands: Abdomen {hitpointName="HitHands";};
-                class Legs: Abdomen {hitpointName="HitLegs";};
-                class Neck: Abdomen {hitpointName="HitNeck";};
+                class Arms:  Abdomen {hitpointName="HitArms";};
+                class Body:  Abdomen {hitpointName="HitBody";};
+                class Chest:  Abdomen {hitpointName="HitChest";};
+                class Diaphragm:  Abdomen {hitpointName="HitDiaphragm";};
+                class Hands:  Abdomen {hitpointName="HitHands";};
+                class Legs:  Abdomen {hitpointName="HitLegs";};
+                class Neck:  Abdomen {hitpointName="HitNeck";};
             };
             hiddenSelections[]=
             {
@@ -268,7 +268,7 @@ class ACo_QNest_M52A_MAR:VES_M52A_MAR_Rifleman_C
         };
 };
 /*
-class ACo_DMurk_M52A_MAR:VES_M52A_MAR_Rifleman_C
+class ACo_DMurk_M52A_MAR: VES_M52A_MAR_Rifleman_C
 {
     dlc="105th";
     author="N-4 Logistics";
@@ -281,7 +281,7 @@ class ACo_DMurk_M52A_MAR:VES_M52A_MAR_Rifleman_C
         owner="Murk";
     };
 
-    class ItemInfo: VestItem
+    class ItemInfo:  VestItem
         {
             mass=75;
             containerClass="Supply250";
@@ -289,13 +289,13 @@ class ACo_DMurk_M52A_MAR:VES_M52A_MAR_Rifleman_C
             class HitpointsProtectionInfo
             {
                 class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
-                class Arms: Abdomen {hitpointName="HitArms";};
-                class Body: Abdomen {hitpointName="HitBody";};
-                class Chest: Abdomen {hitpointName="HitChest";};
-                class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
-                class Hands: Abdomen {hitpointName="HitHands";};
-                class Legs: Abdomen {hitpointName="HitLegs";};
-                class Neck: Abdomen {hitpointName="HitNeck";};
+                class Arms:  Abdomen {hitpointName="HitArms";};
+                class Body:  Abdomen {hitpointName="HitBody";};
+                class Chest:  Abdomen {hitpointName="HitChest";};
+                class Diaphragm:  Abdomen {hitpointName="HitDiaphragm";};
+                class Hands:  Abdomen {hitpointName="HitHands";};
+                class Legs:  Abdomen {hitpointName="HitLegs";};
+                class Neck:  Abdomen {hitpointName="HitNeck";};
             };
             hiddenSelections[]=
             {
@@ -356,7 +356,7 @@ class ACo_DMurk_M52A_MAR:VES_M52A_MAR_Rifleman_C
         };
 };
 */
-class ACo_MBrady_M52A_MAR : VES_M52A_MAR_Rifleman_C
+class ACo_MBrady_M52A_MAR :  VES_M52A_MAR_Rifleman_C
 {
     dlc="105th";
     author="N-4 Logistics";
@@ -375,7 +375,7 @@ class ACo_MBrady_M52A_MAR : VES_M52A_MAR_Rifleman_C
         owner="Brady";
     };
 
-    class ItemInfo: VestItem
+    class ItemInfo:  VestItem
         {
             mass=75;
             containerClass="Supply250";
@@ -383,13 +383,13 @@ class ACo_MBrady_M52A_MAR : VES_M52A_MAR_Rifleman_C
             class HitpointsProtectionInfo
             {
                 class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
-                class Arms: Abdomen {hitpointName="HitArms";};
-                class Body: Abdomen {hitpointName="HitBody";};
-                class Chest: Abdomen {hitpointName="HitChest";};
-                class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
-                class Hands: Abdomen {hitpointName="HitHands";};
-                class Legs: Abdomen {hitpointName="HitLegs";};
-                class Neck: Abdomen {hitpointName="HitNeck";};
+                class Arms:  Abdomen {hitpointName="HitArms";};
+                class Body:  Abdomen {hitpointName="HitBody";};
+                class Chest:  Abdomen {hitpointName="HitChest";};
+                class Diaphragm:  Abdomen {hitpointName="HitDiaphragm";};
+                class Hands:  Abdomen {hitpointName="HitHands";};
+                class Legs:  Abdomen {hitpointName="HitLegs";};
+                class Neck:  Abdomen {hitpointName="HitNeck";};
             };
         hiddenSelections[]=
         {
@@ -436,13 +436,13 @@ class ACo_MBrady_M52A_MAR : VES_M52A_MAR_Rifleman_C
 };
 
 /*
-class ACo_BSmith_M52A_MAR:VES_M52A_MAR_Rifleman_C
+class ACo_BSmith_M52A_MAR: VES_M52A_MAR_Rifleman_C
 {
     dlc="105th";
     author="N-4 Logistics";
     displayName="[105th] M52A (Smith)";
     hiddenSelectionsTextures[]={"V_FZ_Armor\Data\Vests\V_M52_V_MAR_CO","V_FZ_Armor\Data\Vests\V_M52_MAR_CO","V_FZ_Armor\Data\Vests\V_M52_L_MAR_CO","optre_unsc_units\army\data\ghillie_woodland_co","optre_unsc_units\army\data\odst_armor_co"};
-    class ItemInfo: VestItem
+    class ItemInfo:  VestItem
         {
             mass=75;
             containerClass="Supply250";
@@ -450,13 +450,13 @@ class ACo_BSmith_M52A_MAR:VES_M52A_MAR_Rifleman_C
             class HitpointsProtectionInfo
             {
                 class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
-                class Arms: Abdomen {hitpointName="HitArms";};
-                class Body: Abdomen {hitpointName="HitBody";};
-                class Chest: Abdomen {hitpointName="HitChest";};
-                class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
-                class Hands: Abdomen {hitpointName="HitHands";};
-                class Legs: Abdomen {hitpointName="HitLegs";};
-                class Neck: Abdomen {hitpointName="HitNeck";};
+                class Arms:  Abdomen {hitpointName="HitArms";};
+                class Body:  Abdomen {hitpointName="HitBody";};
+                class Chest:  Abdomen {hitpointName="HitChest";};
+                class Diaphragm:  Abdomen {hitpointName="HitDiaphragm";};
+                class Hands:  Abdomen {hitpointName="HitHands";};
+                class Legs:  Abdomen {hitpointName="HitLegs";};
+                class Neck:  Abdomen {hitpointName="HitNeck";};
             };
             hiddenSelections[]=
             {
@@ -519,7 +519,7 @@ class ACo_BSmith_M52A_MAR:VES_M52A_MAR_Rifleman_C
 */
 
 /*
-class ACo_CMcDaniel_M52A_MAR:VES_M52A_MAR_Rifleman_C
+class ACo_CMcDaniel_M52A_MAR: VES_M52A_MAR_Rifleman_C
 {
     dlc="105th";
     author="N-4 Logistics";
@@ -531,7 +531,7 @@ class ACo_CMcDaniel_M52A_MAR:VES_M52A_MAR_Rifleman_C
         "optre_unsc_units\army\data\ghillie_woodland_co",
         "optre_unsc_units\army\data\odst_armor_co"
     };
-    class ItemInfo: VestItem
+    class ItemInfo:  VestItem
         {
             mass=75;
             containerClass="Supply250";
@@ -539,13 +539,13 @@ class ACo_CMcDaniel_M52A_MAR:VES_M52A_MAR_Rifleman_C
             class HitpointsProtectionInfo
             {
                 class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
-                class Arms: Abdomen {hitpointName="HitArms";};
-                class Body: Abdomen {hitpointName="HitBody";};
-                class Chest: Abdomen {hitpointName="HitChest";};
-                class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
-                class Hands: Abdomen {hitpointName="HitHands";};
-                class Legs: Abdomen {hitpointName="HitLegs";};
-                class Neck: Abdomen {hitpointName="HitNeck";};
+                class Arms:  Abdomen {hitpointName="HitArms";};
+                class Body:  Abdomen {hitpointName="HitBody";};
+                class Chest:  Abdomen {hitpointName="HitChest";};
+                class Diaphragm:  Abdomen {hitpointName="HitDiaphragm";};
+                class Hands:  Abdomen {hitpointName="HitHands";};
+                class Legs:  Abdomen {hitpointName="HitLegs";};
+                class Neck:  Abdomen {hitpointName="HitNeck";};
             };
             hiddenSelections[]=
             {
@@ -607,7 +607,7 @@ class ACo_CMcDaniel_M52A_MAR:VES_M52A_MAR_Rifleman_C
 };
 */
 
-class ACo_KMidreus_M52A_MAR : VES_M52A_MAR_Rifleman_C
+class ACo_KMidreus_M52A_MAR :  VES_M52A_MAR_Rifleman_C
 {
     dlc="105th";
     author="N-4 Logistics";
@@ -626,7 +626,7 @@ class ACo_KMidreus_M52A_MAR : VES_M52A_MAR_Rifleman_C
         owner="Midreus";
     };
 
-    class ItemInfo: VestItem
+    class ItemInfo:  VestItem
         {
             mass=75;
             containerClass="Supply250";
@@ -634,13 +634,13 @@ class ACo_KMidreus_M52A_MAR : VES_M52A_MAR_Rifleman_C
             class HitpointsProtectionInfo
             {
                 class Abdomen {armor=35; hitpointName="HitAbdomen"; passThrough=0.1;};
-                class Arms: Abdomen {hitpointName="HitArms";};
-                class Body: Abdomen {hitpointName="HitBody";};
-                class Chest: Abdomen {hitpointName="HitChest";};
-                class Diaphragm: Abdomen {hitpointName="HitDiaphragm";};
-                class Hands: Abdomen {hitpointName="HitHands";};
-                class Legs: Abdomen {hitpointName="HitLegs";};
-                class Neck: Abdomen {hitpointName="HitNeck";};
+                class Arms:  Abdomen {hitpointName="HitArms";};
+                class Body:  Abdomen {hitpointName="HitBody";};
+                class Chest:  Abdomen {hitpointName="HitChest";};
+                class Diaphragm:  Abdomen {hitpointName="HitDiaphragm";};
+                class Hands:  Abdomen {hitpointName="HitHands";};
+                class Legs:  Abdomen {hitpointName="HitLegs";};
+                class Neck:  Abdomen {hitpointName="HitNeck";};
             };
         hiddenSelections[]=
         {

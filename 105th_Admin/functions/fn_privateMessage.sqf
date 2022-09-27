@@ -15,18 +15,20 @@
 private ["_targetName","_message"];
 params ["_targetName","_message"];
 if(_message isEqualTo "") exitWith {};
-_message = (parseText ("[Admin Message]<br />" + _message));
 
 if(_targetName isEqualTo "[Admins]") exitWith {
+    _message = (parseText ("[Admin Message to admins]<br/>" + _message));
     [_message] remoteExec ["v105_Admin_fnc_AdminHint"];
 };
 
 if(_targetName isEqualTo "[Global]") exitWith {
+    _message = (parseText ("[Admin Message to everyone]<br/>" + _message));
     [_message] remoteExec ["hint"];
 };
 
 {
     if((name _x) isEqualTo _targetName) then {
+        _message = (parseText ("[Admin Message to you]<br/>" + _message));
         [_message] remoteExec ["hint",_x];
     };
 } forEach allPlayers;

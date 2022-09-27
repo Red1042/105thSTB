@@ -3,7 +3,8 @@ class v105_Admin_Main_UI
 	name = "Admin_main";
 	idd = 49200;
 	movingEnable = false;
-	onLoad = "uiNamespace setVariable ['v105_Admin_Main_UI',_this select 0];";
+	onLoad = "v105_Admin_Change = false; uiNamespace setVariable ['v105_Admin_Main_UI',_this select 0];";
+	onUnload = "if(v105_Admin_Change) then {[player] remoteExec [""v105_Admin_fnc_SaveData"",2]};";
 
 	class controls
 	{
