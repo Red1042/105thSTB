@@ -65,7 +65,7 @@ class XtdGearModels
             options[] = {"Camo","Sleeves","Slim"};
             class camo
             {
-                values[] = {"DWDL","M81","MARPAT"};
+                values[] = {"Woodland","DWDL","M81","MARPAT"};
                 class DWDL
                 {
                     image = "105th_Armor\Alpha Company\data\Uniforms\v105_BDU_DigiWoodland.paa";
