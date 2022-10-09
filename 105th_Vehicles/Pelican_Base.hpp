@@ -516,7 +516,7 @@ class v105_Pelican_Base: OPTRE_Pelican_F
             {
                 class pylons1   //  Outer
                 {
-                    maxweight=300;
+                    maxweight=2000;
                     hardpoints[]={"v105_Hydra_Generic", "v105_AnvilSmokes", "v105_AIM9X_Dual",  "v105_AMRAAM_Single"};
                     attachment="v105_FIR_Hydra_P_7rnd_M";
                     bay=-1;
@@ -530,9 +530,9 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                     {
                         "v105_Hydra_Generic", "v105_Hot3_2rnd",   "v105_Pelican_APKWS",
                         "v105_AGM-65H_Single",  "v105_AMRAAM_Single",   "v105_Sidewinder_Single",
-                        "v105_Pelican_Bomb_Inner",
+                        "v105_Pelican_Bomb_Inner",  "105th_SLAM-ERs",   "v105_Sparrowhawk_Bomb_Center", "105th_mk82_6GP"
                     };
-                    maxweight = 400;
+                    maxweight = 2000;
                     UIposition[]={0.1,0.20};
                 };
                 class pylons3: pylons1  //  Center
@@ -540,7 +540,7 @@ class v105_Pelican_Base: OPTRE_Pelican_F
                     hardpoints[] =
                     {
                         "FIR_F16_Under_HP", "v105_Sindewinder_Quad",    "105th_SLAM-ERs",
-                        "v105_Pelican_Center",
+                        "v105_Pelican_Center",  "v105_Sparrowhawk_Bomb_Center",
                     };
                     priority = 5;
                     attachment = "v105_FIR_Mk83_GP_Navy_P_1rnd_M";

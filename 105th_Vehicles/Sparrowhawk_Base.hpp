@@ -414,7 +414,7 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
             {
                 class WingPylonRight1 // Outer
                 {
-                    maxweight=560;
+                    maxweight=2000;
                     hardpoints[]={"v105_Hydra_Generic", "v105_SparrowHawk_Generic", "v105_Sindewinder_Quad"};
                     attachment="v105_FIR_Hydra_P_7rnd_M";
                     bay=-1;
@@ -424,11 +424,11 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
                 };
                 class WingPylonRight2: WingPylonRight1 // Middle
                 {
-                    maxweight=560;
+                    maxweight=2000;
                     hardpoints[]=
                     {
                         "v105_Hydra_Generic", "v105_SparrowHawk_Generic", "v105_114Kilo_3Rnd",
-                        "v105_114Lima_3Rnd",    "v105_APKWS_SparrowHawk",
+                        "v105_114Lima_3Rnd",    "v105_APKWS_SparrowHawk", "105th_SLAM-ERs", "v105_Sparrowhawk_Bomb_Center",
                     };
                     attachment="v105_FIR_Hydra_P_7rnd_M";
                     bay=-1;
@@ -438,11 +438,12 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
                 };
                 class WingPylonRight3: WingPylonRight1 // Inner
                 {
-                    maxweight=560;
+                    maxweight=2000;
                     hardpoints[]=
                     {
                         "v105_Hydra_Generic", "v105_SparrowHawk_Generic", "v105_APKWS_SparrowHawk",
-                        "v105_114Kilo_3Rnd",    "v105_114Lima_3Rnd",
+                        "v105_114Kilo_3Rnd",    "v105_114Lima_3Rnd",    "105th_SLAM-ERs",   "v105_Sparrowhawk_Bomb_Center",
+                        "105th_mk82_6GP",
                     };
                     attachment="v105_FIR_Hydra_P_7rnd_M";
                     bay=-1;
@@ -452,7 +453,7 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
                 };
                 class pylons3 // Center
                 {
-                    hardpoints[] = {"v105_Sindewinder_Quad", "v105_Sparrowhawk_Bomb_Center" };
+                    hardpoints[] = {"v105_Sindewinder_Quad", "v105_Sparrowhawk_Bomb_Center",    "105th_SLAM-ERs",   "105th_mk82_6GP", };
                     priority = 5;
                     attachment = "v105_FIR_AIM9X_EWP_4rnd_M";
                     maxweight = 2000;

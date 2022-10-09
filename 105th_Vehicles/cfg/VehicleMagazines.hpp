@@ -723,7 +723,7 @@ class v105_FIR_Mk82_GP_F15E_Demo_P_4rnd_M: FIR_Mk82_GP_F15E_Demo_P_4rnd_M
 class FIR_Mk82_GP_P_6rnd_M;
 class v105_FIR_Mk82_GP_P_6rnd_M:FIR_Mk82_GP_P_6rnd_M
 {
-    hardpoints[]= {"105th_PelicanBomb","105th_Claymore"};
+    hardpoints[]= {"105th_PelicanBomb","105th_Claymore", "105th_mk82_6GP",};
     pylonWeapon= "v105_FIR_mk82_Snakeye_Launcher";
 };
 //MK83
