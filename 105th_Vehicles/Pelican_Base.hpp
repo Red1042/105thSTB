@@ -751,6 +751,15 @@ class v105_Pelican_Base: OPTRE_Pelican_F
 class v105_Pelican_Defensive_Base: v105_Pelican_Base
 {
     displayName="D77H-TCI/Pelican [Unarmed Base]";
+    hiddenSelections[]=
+    {
+        "camo1",
+        "camo3",
+        "clan",
+        "clan_text",
+        "insignia",
+        "attach_gun"
+    };
     class Turrets: Turrets
     {
         class MainTurret: MainTurret

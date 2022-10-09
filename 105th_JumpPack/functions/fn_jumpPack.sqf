@@ -1,5 +1,5 @@
 params ["_held"];
-private ["_held","_velC","_vel","_pos","_height","_arrayDir","_dir","_addDir"];
+private ["_held","_velC","_vel","_pos"];
 
 _backpack = backpack player;
 if ((_backpack != "v105_JumpPack_on"  AND _backpack != "v105_JumpPack")) exitWith {};
@@ -38,7 +38,6 @@ if (not _held) exitWith {
 
 if(stance player == "PRONE") exitWith {player playMoveNow "AmovPercMstpSrasWrflDnon";};
 
-_fallHeight = getUnitFreefallInfo player;
 player setUnitFreeFallHeight 10000;
 
 _heat = player getVariable ["v105_JumpPack_heat",0];
@@ -150,7 +149,7 @@ while {v105_JumpPack_ON} do {
     uiSleep .1;
 };
 
-player setUnitFreefallHeight _fallHeight;
+player setUnitFreefallHeight -1;
 
 //  JumpPack Refueling Handler
 uiSleep 1;

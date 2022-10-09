@@ -24,7 +24,7 @@ class XtdGearModels
             options[] = {"Owner"};
             class owner
             {
-                values[] = {"Rookie","Barkley","Barrier","Bman","Brady","Bulck","Canley","Coleman","Collins","Cruz","Dubbo","Helms","Kynx","Luke","McDaniel","Midreus","Mokes","Nostra","Nungester","Oswald","Pedro","Ramos","Richter","Ronin","Sevarach","Smith (B)","Smith (M)","Swoner","Vargas","Varner","Virus","Wells","Winters"};
+                values[] = {"Rookie","Barkley","Barrier","Bman","Brady","Bulck","Canley","Coleman","Collins","Cruz","Dubbo","Helms","Kynx","Luke","Mailwind","McDaniel","Midreus","Mokes","Nostra","Nungester","Oswald","Pedro","Penguin","Ramos","Richter","Ronin","Sevarach","Smith (B)","Smith (M)","Swoner","Vargas","Varner","Virus","Wells","Winters"};
             };
         };
 
@@ -65,7 +65,7 @@ class XtdGearModels
             options[] = {"Camo","Sleeves","Slim"};
             class camo
             {
-                values[] = {"DWDL","M81","MARPAT"};
+                values[] = {"Woodland","DWDL","M81","MARPAT"};
                 class DWDL
                 {
                     image = "105th_Armor\Alpha Company\data\Uniforms\v105_BDU_DigiWoodland.paa";

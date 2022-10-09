@@ -155,7 +155,8 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 			};
 			magazines[]=
 			{
-			    "OPTRE_100Rnd_50mm_HE",
+				"OPTRE_100Rnd_50mm_HE",
+				"OPTRE_100Rnd_50mm_APFSDS",
 				"OPTRE_100Rnd_50mm_APFSDS",
 				"OPTRE_100Rnd_50mm_APFSDS",
 				"Laserbatteries"
@@ -249,7 +250,6 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 					gunnerOpticsEffect[]={};
 				};
 			};
-
 			class Components
 			{
 				class VehicleSystemsDisplayManagerComponentLeft: DefaultVehicleSystemsDisplayManagerLeft
@@ -402,7 +402,7 @@ class v105_Sparrowhawk_Base: OPTRE_AV22_Sparrowhawk_Base
 	};
 	class UserActions
 	{
-        #include "cfg\UtilityActions.hpp"
+	    #include "cfg\UtilityActions.hpp"
 		#include "cfg\ThrusterActions.hpp"
 	};
     class Components : Components

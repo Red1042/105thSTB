@@ -39,10 +39,9 @@ _index = -1;
 if(isNil "_target") exitWith {closeDialog 0; hint format ["%1 is noLonger in the server",_targetName];}; // TODo: Update this to take you back a menu
 
 _listPlayers lbSetCurSel _targetIndex;
-uiNamespace setVariable ["v105_Admin_targetIndex",0];
-uiNamespace setVariable ["v105_Admin_target",_target];
+uiNamespace setVariable ["v105_Admin_nextTargetIndex",0];
 if(_targetIndex < _index) then {
-    uiNamespace setVariable ["v105_Admin_targetIndex",(_targetIndex + 1)];
+    uiNamespace setVariable ["v105_Admin_nextTargetIndex",(_targetIndex+1)];
 };
 
 /*

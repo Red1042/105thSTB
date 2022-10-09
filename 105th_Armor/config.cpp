@@ -30,6 +30,7 @@ class CfgPatches
 
 class CfgWeapons
 {
+    // Marine helmet
 	class VES_CH252_MAR_Crew;
 	class VES_CH252_MAR_Light;
 	class VES_CH252A;
@@ -75,6 +76,9 @@ class CfgWeapons
 	class VES_BDU_MulticamBlack_Slim;
 	class VES_BDU_MulticamBlack;
 
+	class LM_OPCAN_UNSCMC_INF_UNI;
+	class LM_OPCAN_SLIM_UNSCMC_INF_UNI;
+
 	//Hats
 	class H_Bandanna_gry;
 	class H_Booniehat_khk_hs;
@@ -89,11 +93,14 @@ class CfgWeapons
 	class OPTRE_UNSC_Army_Soldier_DressGray;
 	class UniformItem;
 	class VestItem;
+	class HeadgearItem;
 	class ItemInfo;
 
 	// Marine Vests Xtd Gear Overrides
 	#include "XtdGear\MarineVestsOverrides.hpp"
 
+    // Marine Open faced CH Helmets
+    #include "Alpha Company\AlphaCompanyHelmets_Open.hpp"
 	//Marine Polarized ECH Helmets
 	#include "Alpha Company\AlphaCompanyHelmets.hpp"
 	//Marine Depolarized ECH Helmets
@@ -136,6 +143,8 @@ class CfgVehicles
 {
 
     // Uniforms
+    class B_Soldier_base_F;
+
 	class VES_BDU_V_Evolved;
 	class VES_BDU_SS_V_Evolved;
 	class VES_BDU_R_V_Evolved;

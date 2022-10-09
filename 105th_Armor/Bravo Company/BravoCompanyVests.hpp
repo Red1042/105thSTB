@@ -33,7 +33,7 @@
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -155,7 +155,7 @@
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -277,7 +277,7 @@
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -399,7 +399,7 @@
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -521,7 +521,7 @@
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -643,7 +643,7 @@ class ODST_EOD: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -765,7 +765,7 @@ class ODST_Heavy: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -887,7 +887,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1009,7 +1009,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1131,7 +1131,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1252,7 +1252,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1374,7 +1374,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1496,7 +1496,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1618,7 +1618,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1745,7 +1745,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1867,7 +1867,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -1989,7 +1989,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -2112,7 +2112,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -2235,7 +2235,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -2360,7 +2360,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -2485,7 +2485,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -2611,7 +2611,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -2735,7 +2735,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -2813,7 +2813,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
                 "AP_BR",
                 "AP_Pack",
                 "AP_Pistol",
-            //    "AP_Rounds",
+                "AP_Rounds", // ToDo: Maybe enable this with more time to look into it
                 "AP_SG",
             //    "AP_SMG",
                 "AP_Sniper",
@@ -2856,7 +2856,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -2978,7 +2978,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -3100,7 +3100,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -3222,7 +3222,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -3344,7 +3344,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
     		{
     			class Abdomen
     			{
-    				armor=45;
+    				armor=50;
     				hitpointName="HitAbdomen";
     				passThrough=0.1;
     			};
@@ -3466,7 +3466,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};
@@ -3587,7 +3587,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
     			{
     				class Abdomen
     				{
-    					armor=45;
+    					armor=50;
     					hitpointName="HitAbdomen";
     					passThrough=0.1;
     				};
@@ -3692,8 +3692,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			"V_FZ_Armor\Data\Vests\V_M52_URB_CO.paa",
 			"105th_Armor\Bravo Company\data\Chests\base\odst_tempest_lower.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"105th_Armor\Bravo Company\data\Chests\base\Bravo_M52D_EOD_Lead_Upper.paa"
-			//"105th_Armor\Bravo Company\data\Chests\PLuk_M52D_Upper.paa" (Disabled for now until TIG of 3 months)
+			"105th_Armor\Bravo Company\data\Chests\PLuk_M52D_Upper.paa"
 		};
         class XtdGearInfo
         {
@@ -3710,7 +3709,7 @@ class ODST_Heavy_Lead: OPTRE_UNSC_M52D_Armor_Demolitions
 			{
 				class Abdomen
 				{
-					armor=45;
+					armor=50;
 					hitpointName="HitAbdomen";
 					passThrough=0.1;
 				};

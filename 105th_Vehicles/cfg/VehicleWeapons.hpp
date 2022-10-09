@@ -261,7 +261,7 @@ class v105_cannon_120mm_GP: cannon_120mm
 
 // Hornet
 class gatling_20mm;
-class v105_gatling_20mm:gatling_20mm
+class v105_gatling_20mm: gatling_20mm
 {
     magazines[]=
     {
@@ -269,7 +269,7 @@ class v105_gatling_20mm:gatling_20mm
     };
 };
 class Gatling_30mm_Plane_CAS_01_F;
-class v105_Gatling_30mm:Gatling_30mm_Plane_CAS_01_F
+class v105_Gatling_30mm: Gatling_30mm_Plane_CAS_01_F
 {
     ballisticsComputer=1+4;
     scope=2;
@@ -281,7 +281,7 @@ class v105_Gatling_30mm:Gatling_30mm_Plane_CAS_01_F
     };
 };
 class weapon_Cannon_Phalanx;
-class v105_Vulcan_20mm:weapon_Cannon_Phalanx
+class v105_Vulcan_20mm: weapon_Cannon_Phalanx
 {
     ballisticsComputer=1+4;
     scope=2;
@@ -293,7 +293,7 @@ class v105_Vulcan_20mm:weapon_Cannon_Phalanx
     };
 };
 class M134_minigun;
-class v105_145x114_minigun:M134_minigun
+class v105_145x114_minigun: M134_minigun
 {
     ballisticsComputer=1+4;
     displayName= "14.5x114mm APFSDS Gatling Gun";
@@ -656,7 +656,7 @@ class v105_FIR_AGM65:FIR_AGM65
         "v105_FIR_AGM65H_P_3rnd_M","v105_FIR_AGM65F_P_3rnd_M",
         "v105_FIR_AGM65G_P_3rnd_M","v105_FIR_AGM65K_P_3rnd_M",
         "v105_FIR_AGM65E_P_3rnd_M","v105_FIR_AGM65E2_P_3rnd_M",
-        "v105_FIR_AGM65L_P_3rnd_M", "v105_AGM-65H_Single",
+        "v105_FIR_AGM65L_P_3rnd_M","v105_AGM65H_P_1Rnd",
         "v105_FIR_AGM65F_P_1rnd_M",
         "v105_FIR_AGM65G_P_1rnd_M",
         "v105_FIR_AGM65K_P_1rnd_M",
